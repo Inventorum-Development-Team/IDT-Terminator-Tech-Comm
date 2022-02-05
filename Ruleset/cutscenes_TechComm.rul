@@ -1,0 +1,50 @@
+cutscenes:
+  - delete: intro
+  - type: intro
+    useUfoAudioSequence: false
+    slideshow:
+      transitionSeconds: 20
+      musicId: GMWIN
+      slides:
+        - imagePath: Resources/Geoscape/BACK30.PNG
+          caption: STR_INTRO_TECHCOM_1
+          captionSize: [250, 150]
+          captionPos: [32, 25]
+          captionColor: 10
+          captionAlign: 1
+          captionVerticalAlign: 1
+        - imagePath: Resources/Geoscape/BACK192.PNG
+          caption: STR_INTRO_TECHCOM_2
+          captionSize: [250, 150]
+          captionPos: [32, 25]
+          captionColor: 10
+          captionAlign: 1
+          captionVerticalAlign: 1
+        - imagePath: Resources/Geoscape/BACK186.PNG
+          caption: STR_INTRO_TECHCOM_3
+          captionSize: [250, 150]
+          captionPos: [32, 25]
+          captionColor: 10
+          captionAlign: 1
+          captionVerticalAlign: 1
+        - imagePath: Resources/Geoscape/BACK183.PNG
+          caption: STR_INTRO_TECHCOM_4
+          captionSize: [250, 150]
+          captionPos: [32, 25]
+          captionColor: 10
+          captionAlign: 1
+          captionVerticalAlign: 1
+        - imagePath: Resources/Geoscape/BACK16.PNG
+          caption: STR_INTRO_TECHCOM_5
+          captionSize: [250, 150]
+          captionPos: [32, 25]
+          captionColor: 10
+          captionAlign: 1
+          captionVerticalAlign: 1
+        - imagePath: Resources/Geoscape/BACK181.PNG
+          caption: STR_INTRO_TECHCOM_6
+          captionSize: [250, 150]
+          captionPos: [32, 25]
+          captionColor: 10
+          captionAlign: 1
+          captionVerticalAlign: 1

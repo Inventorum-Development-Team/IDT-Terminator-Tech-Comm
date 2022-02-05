@@ -1,0 +1,1567 @@
+alienDeployments:
+  - delete: STR_SMALL_SCOUT
+  - delete: STR_MEDIUM_SCOUT
+  - delete: STR_LARGE_SCOUT
+  - delete: STR_HARVESTER
+  - delete: STR_ABDUCTOR
+  - delete: STR_TERROR_SHIP
+  - delete: STR_BATTLESHIP
+  - delete: STR_SUPPLY_SHIP
+  - delete: STR_BASE_DEFENSE
+  - delete: STR_TERROR_MISSION_AIRFIELD
+  - delete: STR_TERROR_MISSION_BIG_CITY
+  - delete: STR_TERROR_MISSION_FACILITY
+  - delete: STR_TERROR_MISSION_DOCKS
+  - delete: STR_TERROR_MISSION_ISLAND
+  - delete: STR_TERROR_MISSION_POLAR
+  - delete: STR_TERROR_MISSION_POLIS
+  - delete: STR_TERROR_MISSION_PORT
+  - delete: STR_TERROR_MISSION_SHIP
+  - delete: STR_TERROR_MISSION_SLUM
+  - delete: STR_TERROR_MISSION_SNOW
+  - delete: STR_TERROR_MISSION_TROPICAL
+#HKs
+  - type: STR_HK_SCOUT_1
+    data:
+      - alienRank: 5
+        lowQty: 2
+        highQty: 4
+        dQty: 2
+        percentageOutsideUfo: 90
+        itemSets:
+          -
+            - STR_RIFLE_AR15
+            - STR_50_FMJ
+            - STR_50_FMJ
+          -
+            - STR_M134
+            - STR_762_FMJ_BELT
+            - STR_762_FMJ_BELT
+          -
+            - STR_D12
+            - STR_D12_DRUM
+            - STR_D12_DRUM
+    width: 40
+    length: 40
+    height: 4
+  - type: STR_HK_FIGHTER_1
+    data:
+      - alienRank: 5
+        lowQty: 2
+        highQty: 4
+        dQty: 2
+        percentageOutsideUfo: 90
+        itemSets:
+          -
+            - STR_RIFLE_AR15
+            - STR_50_FMJ
+            - STR_50_FMJ
+          -
+            - STR_M134
+            - STR_762_FMJ_BELT
+            - STR_762_FMJ_BELT
+          -
+            - STR_D12
+            - STR_D12_DRUM
+            - STR_D12_DRUM
+    width: 40
+    length: 40
+    height: 4
+  - type: STR_HK_TRANSPORT_1
+    data:
+      - alienRank: 5
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 90
+        itemSets:
+          -
+            - STR_M134
+            - STR_762_FMJ_BELT
+            - STR_762_FMJ_BELT
+          -
+            - STR_M134
+            - STR_762_FMJ_BELT
+            - STR_762_FMJ_BELT
+          -
+            - STR_M134
+            - STR_762_FMJ_BELT
+            - STR_762_FMJ_BELT
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 90
+        itemSets:
+          -
+            - STR_RIFLE_AR15
+            - STR_50_FMJ
+            - STR_50_FMJ
+          -
+            - STR_RIFLE_AR15
+            - STR_50_FMJ
+            - STR_50_FMJ
+          -
+            - STR_RIFLE_AR15
+            - STR_50_FMJ
+            - STR_50_FMJ
+      - alienRank: 3
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 90
+        itemSets:
+          -
+            - STR_D12
+            - STR_D12_DRUM
+            - STR_D12_DRUM
+          -
+            - STR_D12
+            - STR_D12_DRUM
+            - STR_D12_DRUM
+          -
+            - STR_D12
+            - STR_D12_DRUM
+            - STR_D12_DRUM
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 90
+        itemSets:
+          -
+            - STR_15MM_AMR
+            - STR_15MM_AMR_CLIP
+            - STR_15MM_AMR_CLIP
+          -
+            - STR_15MM_AMR
+            - STR_15MM_AMR_CLIP
+            - STR_15MM_AMR_CLIP
+          -
+            - STR_15MM_AMR
+            - STR_15MM_AMR_CLIP
+            - STR_15MM_AMR_CLIP
+    width: 40
+    length: 40
+    height: 4
+  - type: STR_HK_INTERCEPTOR_1
+    data:
+      - alienRank: 5
+        lowQty: 2
+        highQty: 4
+        dQty: 2
+        percentageOutsideUfo: 90
+        itemSets:
+          -
+            - STR_RIFLE_AR15
+            - STR_50_FMJ
+            - STR_50_FMJ
+          -
+            - STR_M134
+            - STR_762_FMJ_BELT
+            - STR_762_FMJ_BELT
+          -
+            - STR_D12
+            - STR_D12_DRUM
+            - STR_D12_DRUM
+    width: 40
+    length: 40
+    height: 4
+  - type: STR_HK_BOMBER_1
+    data:
+      - alienRank: 5
+        lowQty: 2
+        highQty: 4
+        dQty: 2
+        percentageOutsideUfo: 90
+        itemSets:
+          -
+            - STR_RIFLE_AR15
+            - STR_50_FMJ
+            - STR_50_FMJ
+          -
+            - STR_M134
+            - STR_762_FMJ_BELT
+            - STR_762_FMJ_BELT
+          -
+            - STR_D12
+            - STR_D12_DRUM
+            - STR_D12_DRUM
+    width: 40
+    length: 40
+    height: 4
+  - type: STR_HK_SCOUT_2
+    data:
+      - alienRank: 5
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 90
+        itemSets:
+          -
+            - STR_M134
+            - STR_762_FMJ_BELT
+            - STR_762_FMJ_BELT
+          -
+            - STR_M134
+            - STR_762_FMJ_BELT
+            - STR_762_FMJ_BELT
+          -
+            - STR_M134
+            - STR_762_FMJ_BELT
+            - STR_762_FMJ_BELT
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 90
+        itemSets:
+          -
+            - STR_RIFLE_AR15
+            - STR_50_FMJ
+            - STR_50_FMJ
+          -
+            - STR_RIFLE_AR15
+            - STR_50_FMJ
+            - STR_50_FMJ
+          -
+            - STR_RIFLE_AR15
+            - STR_50_FMJ
+            - STR_50_FMJ
+      - alienRank: 3
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 90
+        itemSets:
+          -
+            - STR_D12
+            - STR_D12_DRUM
+            - STR_D12_DRUM
+          -
+            - STR_D12
+            - STR_D12_DRUM
+            - STR_D12_DRUM
+          -
+            - STR_D12
+            - STR_D12_DRUM
+            - STR_D12_DRUM
+      - alienRank: 1
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 90
+        itemSets:
+          -
+            - STR_15MM_AMR
+            - STR_15MM_AMR_CLIP
+            - STR_15MM_AMR_CLIP
+          -
+            - STR_15MM_AMR
+            - STR_15MM_AMR_CLIP
+            - STR_15MM_AMR_CLIP
+          -
+            - STR_15MM_AMR
+            - STR_15MM_AMR_CLIP
+            - STR_15MM_AMR_CLIP
+    width: 40
+    length: 40
+    height: 4
+  - type: STR_HK_FIGHTER_2
+    data:
+      - alienRank: 5
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 90
+        itemSets:
+          -
+            - STR_M134
+            - STR_762_FMJ_BELT
+            - STR_762_FMJ_BELT
+          -
+            - STR_M134
+            - STR_762_FMJ_BELT
+            - STR_762_FMJ_BELT
+          -
+            - STR_M134
+            - STR_762_FMJ_BELT
+            - STR_762_FMJ_BELT
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 90
+        itemSets:
+          -
+            - STR_RIFLE_AR15
+            - STR_50_FMJ
+            - STR_50_FMJ
+          -
+            - STR_RIFLE_AR15
+            - STR_50_FMJ
+            - STR_50_FMJ
+          -
+            - STR_RIFLE_AR15
+            - STR_50_FMJ
+            - STR_50_FMJ
+      - alienRank: 3
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 90
+        itemSets:
+          -
+            - STR_D12
+            - STR_D12_DRUM
+            - STR_D12_DRUM
+          -
+            - STR_D12
+            - STR_D12_DRUM
+            - STR_D12_DRUM
+          -
+            - STR_D12
+            - STR_D12_DRUM
+            - STR_D12_DRUM
+      - alienRank: 1
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 90
+        itemSets:
+          -
+            - STR_15MM_AMR
+            - STR_15MM_AMR_CLIP
+            - STR_15MM_AMR_CLIP
+          -
+            - STR_15MM_AMR
+            - STR_15MM_AMR_CLIP
+            - STR_15MM_AMR_CLIP
+          -
+            - STR_15MM_AMR
+            - STR_15MM_AMR_CLIP
+            - STR_15MM_AMR_CLIP
+    width: 40
+    length: 40
+    height: 4
+  - type: STR_HK_TRANSPORT_2
+    data:
+      - alienRank: 5
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 90
+        itemSets:
+          -
+            - STR_M134
+            - STR_762_FMJ_BELT
+            - STR_762_FMJ_BELT
+          -
+            - STR_M134
+            - STR_762_FMJ_BELT
+            - STR_762_FMJ_BELT
+          -
+            - STR_M134
+            - STR_762_FMJ_BELT
+            - STR_762_FMJ_BELT
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 90
+        itemSets:
+          -
+            - STR_RIFLE_AR15
+            - STR_50_FMJ
+            - STR_50_FMJ
+          -
+            - STR_RIFLE_AR15
+            - STR_50_FMJ
+            - STR_50_FMJ
+          -
+            - STR_RIFLE_AR15
+            - STR_50_FMJ
+            - STR_50_FMJ
+      - alienRank: 3
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 90
+        itemSets:
+          -
+            - STR_D12
+            - STR_D12_DRUM
+            - STR_D12_DRUM
+          -
+            - STR_D12
+            - STR_D12_DRUM
+            - STR_D12_DRUM
+          -
+            - STR_D12
+            - STR_D12_DRUM
+            - STR_D12_DRUM
+      - alienRank: 1
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 90
+        itemSets:
+          -
+            - STR_15MM_AMR
+            - STR_15MM_AMR_CLIP
+            - STR_15MM_AMR_CLIP
+          -
+            - STR_15MM_AMR
+            - STR_15MM_AMR_CLIP
+            - STR_15MM_AMR_CLIP
+          -
+            - STR_15MM_AMR
+            - STR_15MM_AMR_CLIP
+            - STR_15MM_AMR_CLIP
+    width: 40
+    length: 40
+    height: 4
+  - type: STR_HK_CONVOY
+    data:
+      - alienRank: 5
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_M134
+            - STR_762_FMJ_BELT
+            - STR_762_FMJ_BELT
+          -
+            - STR_M134
+            - STR_762_FMJ_BELT
+            - STR_762_FMJ_BELT
+          -
+            - STR_M134
+            - STR_762_FMJ_BELT
+            - STR_762_FMJ_BELT
+      - alienRank: 4
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_RIFLE_AR15
+            - STR_50_FMJ
+            - STR_50_FMJ
+          -
+            - STR_RIFLE_AR15
+            - STR_50_FMJ
+            - STR_50_FMJ
+          -
+            - STR_RIFLE_AR15
+            - STR_50_FMJ
+            - STR_50_FMJ
+      - alienRank: 3
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_D12
+            - STR_D12_DRUM
+            - STR_D12_DRUM
+          -
+            - STR_D12
+            - STR_D12_DRUM
+            - STR_D12_DRUM
+          -
+            - STR_D12
+            - STR_D12_DRUM
+            - STR_D12_DRUM
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_15MM_AMR
+            - STR_15MM_AMR_CLIP
+            - STR_15MM_AMR_CLIP
+          -
+            - STR_15MM_AMR
+            - STR_15MM_AMR_CLIP
+            - STR_15MM_AMR_CLIP
+          -
+            - STR_15MM_AMR
+            - STR_15MM_AMR_CLIP
+            - STR_15MM_AMR_CLIP
+    width: 50
+    length: 50
+    height: 4
+#Skynet Bases
+#AREA51, BIOLAB, COMPLEX, SIBERIA, FACTORY, HQ, FORT, HWP FACTORY, SKYRANGER FACTORY, BUNKER, DESTROY, DEFENSE, EXTRACTION
+##Bases eventually start spawning as upgraded versions once Skynet deploys new HK models - implement existing alienBaseUpgrades
+##UNDERGROUND - Biolab (placeholder)
+##Core requires advanced equipment to assault (anti turret weapon - psionics?) - unlocks final mission
+  - type: STR_SKYNET_BASE_ASSAULT_CORE
+    data: &SKYNET_BASE_ASSAULT
+      - alienRank: 7
+        lowQty: 1
+        highQty: 2
+        dQty: 2
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_D12
+            - STR_D12_DRUM
+            - STR_D12_DRUM
+          -
+            - STR_D12
+            - STR_D12_DRUM
+            - STR_D12_DRUM
+          -
+            - STR_D12
+            - STR_D12_DRUM
+            - STR_D12_DRUM
+      - alienRank: 6
+        lowQty: 1
+        highQty: 2
+        dQty: 2
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_RIFLE_AR15
+            - STR_50_FMJ
+            - STR_50_FMJ
+          -
+            - STR_RIFLE_AR15
+            - STR_50_FMJ
+            - STR_50_FMJ
+          -
+            - STR_RIFLE_AR15
+            - STR_50_FMJ
+            - STR_50_FMJ
+      - alienRank: 5
+        lowQty: 1
+        highQty: 2
+        dQty: 2
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_RIFLE_AR15
+            - STR_50_FMJ
+            - STR_50_FMJ
+          -
+            - STR_RIFLE_AR15
+            - STR_50_FMJ
+            - STR_50_FMJ
+          -
+            - STR_RIFLE_AR15
+            - STR_50_FMJ
+            - STR_50_FMJ
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 2
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_M134
+            - STR_762_FMJ_BELT
+            - STR_762_AP_BELT
+          -
+            - STR_M134
+            - STR_762_FMJ_BELT
+            - STR_762_AP_BELT
+          -
+            - STR_M134
+            - STR_762_FMJ_BELT
+            - STR_762_AP_BELT
+      - alienRank: 3
+        lowQty: 1
+        highQty: 2
+        dQty: 2
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_M134
+            - STR_762_FMJ_BELT
+            - STR_762_AP_BELT
+          -
+            - STR_M134
+            - STR_762_FMJ_BELT
+            - STR_762_AP_BELT
+          -
+            - STR_M134
+            - STR_762_FMJ_BELT
+            - STR_762_AP_BELT
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 2
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_D12
+            - STR_D12_DRUM
+            - STR_D12_DRUM
+          -
+            - STR_D12
+            - STR_D12_DRUM
+            - STR_D12_DRUM
+          -
+            - STR_D12
+            - STR_D12_DRUM
+            - STR_D12_DRUM
+      - alienRank: 1
+        lowQty: 1
+        highQty: 2
+        dQty: 2
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_15MM_AMR
+            - STR_15MM_AMR_CLIP
+            - STR_15MM_AMR_CLIP
+          -
+            - STR_15MM_AMR
+            - STR_15MM_AMR_CLIP
+            - STR_15MM_AMR_CLIP
+          -
+            - STR_15MM_AMR
+            - STR_15MM_AMR_CLIP
+            - STR_15MM_AMR_CLIP
+      - alienRank: 0
+        lowQty: 1
+        highQty: 2
+        dQty: 2
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_20MM_AMR
+            - STR_20MM_AMR_CLIP
+            - STR_20MM_AMR_CLIP
+          -
+            - STR_20MM_AMR
+            - STR_20MM_AMR_CLIP
+            - STR_20MM_AMR_CLIP
+          -
+            - STR_20MM_AMR
+            - STR_20MM_AMR_CLIP
+            - STR_20MM_AMR_CLIP
+    width: 60
+    length: 60
+    height: 6
+    terrains:
+      - AREA51HQ
+    briefing:
+      title: STR_SKYNET_BASE_ASSAULT_CORE
+      desc: STR_SKYNET_BASE_ASSAULT_CORE_BRIEFING
+      textOffset: -16
+      background: BACK01.SCR
+      showTarget: false
+    objectiveType: 3
+    markerName: STR_SKYNET_CORE
+    markerIcon: 17
+    genMission:
+      STR_SKYNET_TERMINATION_CORE: 10
+      STR_SKYNET_INFILTRATION_CORE: 10
+      STR_SKYNET_INTERDICTION_CORE: 10
+      STR_SKYNET_PACIFICATION_CORE: 10
+      STR_SKYNET_TRANSPORT: 10
+    genMissionFreq: 12
+    baseDetectionRange: 480            # base radar range, in nautical miles
+    baseDetectionChance: 75            # base radar chance (once every 10 minutes), in percent
+    huntMissionMaxFrequency: 360       # generate hunt mission max every 300 minutes (= 5 hours)
+    huntMissionWeights:                # which hunt mission to generate, based on months passed and weights
+      0:
+        STR_SKYNET_INTERCEPTION_CORE: 10
+    alienBase: true    # this is only to tell new battle mode what to do with this deployment
+    objectiveComplete: [STR_SKYNET_BASE_CONTROL_DESTROYED, 500]
+    objectivePopup: STR_CONTROL_CENTER_DESTROYED
+    points: 0
+##Tempus gives the Temporal Displacement Device, a 'craft' required for the final mission
+  - type: STR_SKYNET_BASE_ASSAULT_TEMPUS
+    data: *SKYNET_BASE_ASSAULT
+    width: 60
+    length: 60
+    height: 6
+    civilians: 16
+    terrains:
+      - AREA51HQ
+    shade: 15
+    briefing:
+      title: STR_SKYNET_BASE_ASSAULT_TEMPUS
+      desc: STR_SKYNET_BASE_ASSAULT_TEMPUS_BRIEFING
+      textOffset: -16
+      background: BACK01.SCR
+      showTarget: false
+    objectiveType: 3
+    markerName: STR_SKYNET_TEMPORAL
+    markerIcon: 26
+    genMission:
+      STR_SKYNET_RESEARCH: 100
+    genMissionFreq: 6
+    alienBase: true    # this is only to tell new battle mode what to do with this deployment
+    objectiveComplete: [STR_SKYNET_BASE_CONTROL_DESTROYED, 500]
+    objectivePopup: STR_CONTROL_CENTER_DESTROYED
+    points: 0
+##Lab gives advanced tech (psionics - nanites?) - T1000 development
+  - type: STR_SKYNET_BASE_ASSAULT_LAB
+    data: *SKYNET_BASE_ASSAULT
+    width: 60
+    length: 60
+    height: 6
+    civilians: 16
+    terrains:
+      - AREA51HQ
+    shade: 15
+    briefing:
+      title: STR_SKYNET_BASE_ASSAULT_LAB
+      desc: STR_SKYNET_BASE_ASSAULT_LAB_BRIEFING
+      textOffset: -16
+      background: BACK01.SCR
+      showTarget: false
+    objectiveType: 3
+    markerName: STR_SKYNET_LAB
+    markerIcon: 25
+    genMission:
+      STR_SKYNET_TRANSPORT: 100
+    genMissionFreq: 6
+    alienBase: true    # this is only to tell new battle mode what to do with this deployment
+    objectiveComplete: [STR_SKYNET_BASE_CONTROL_DESTROYED, 500]
+    objectivePopup: STR_CONTROL_CENTER_DESTROYED
+    points: 0
+##Missile Base launches nuclear strikes at Tech-Comm bases
+  - type: STR_SKYNET_BASE_ASSAULT_MISSILE
+    data: *SKYNET_BASE_ASSAULT
+    width: 60
+    length: 60
+    height: 6
+    civilians: 16
+    terrains:
+      - AREA51HQ
+    shade: 15
+    briefing:
+      title: STR_SKYNET_BASE_ASSAULT_MISSILE
+      desc: STR_SKYNET_BASE_ASSAULT_MISSILE_BRIEFING
+      textOffset: -16
+      background: BACK01.SCR
+      showTarget: false
+    objectiveType: 3
+    markerName: STR_TACTICAL_MISSILE_BASE
+    markerIcon: 25
+    genMission:
+      STR_SKYNET_RETRIBUTION: 100
+    genMissionFreq: 6
+    alienBase: true    # this is only to tell new battle mode what to do with this deployment
+    objectiveComplete: [STR_SKYNET_BASE_CONTROL_DESTROYED, 500]
+    objectivePopup: STR_CONTROL_CENTER_DESTROYED
+    points: 0
+#SURFACE - Area 51 (placeholder)
+##Factories are placed one per month on a region, as long as Skynet Core has not been assaulted. They produce Outposts and Workcamps. HK Bases
+  - type: STR_SKYNET_BASE_ASSAULT_FACTORY
+    data: *SKYNET_BASE_ASSAULT
+    width: 60
+    length: 60
+    height: 6
+    civilians: 16
+    terrains:
+      - AREA51_HQ
+    briefing:
+      title: STR_SKYNET_BASE_ASSAULT_FACTORY
+      desc: STR_SKYNET_BASE_ASSAULT_FACTORY_BRIEFING
+      textOffset: -16
+      background: BACK01.SCR
+      showTarget: false
+    objectiveType: 3
+    markerName: STR_SKYNET_FACTORY
+    markerIcon: 27
+    genMission:
+      STR_SKYNET_SUPPLY: 10
+      STR_SKYNET_BASE_OUTPOST: 60
+      STR_SKYNET_BASE_WORKCAMP: 30
+    genMissionFreq: 12
+    genMissionLimit: 6
+    baseDetectionRange: 360          # base radar range, in nautical miles
+    baseDetectionChance: 75            # base radar chance (once every 10 minutes), in percent
+    huntMissionMaxFrequency: 720       # generate hunt mission max every 300 minutes (= 5 hours)
+    huntMissionWeights:                # which hunt mission to generate, based on months passed and weights
+      0:
+        STR_SKYNET_INTERCEPTION_1: 10
+        STR_SKYNET_INTERCEPTION_2: 10
+        STR_SKYNET_INTERCEPTION_3: 10
+        STR_SKYNET_INTERCEPTION_4: 30
+    alienBase: true    # this is only to tell new battle mode what to do with this deployment
+    objectiveComplete: [STR_SKYNET_BASE_CONTROL_DESTROYED, 500]
+    objectivePopup: STR_CONTROL_CENTER_DESTROYED
+    points: 0
+  - type: STR_SKYNET_BASE_ASSAULT_OUTPOST
+    alienBaseUpgrades:
+      0:
+        STR_ALIEN_BASE_ASSAULT_OUTPOST: 100
+      2:
+        STR_ALIEN_BASE_ASSAULT_HKBASE: 50
+        STR_ALIEN_BASE_ASSAULT_WORKCAMP: 50
+    data: *SKYNET_BASE_ASSAULT
+    width: 50
+    length: 80
+    height: 6
+    terrains:
+      - SKYNETBASE
+    briefing:
+      title: STR_SKYNET_BASE_ASSAULT_OUTPOST
+      desc: STR_SKYNET_BASE_ASSAULT_OUTPOST_BRIEFING
+      textOffset: -16
+      background: BACK01.SCR
+      showTarget: false
+    objectiveType: 3
+    markerName: STR_SKYNET_HKBASE
+    markerIcon: 24
+    genMission:
+      STR_SKYNET_PATROL: 15
+      STR_SKYNET_ERADICATION: 15
+    genMissionFreq: 12
+    baseDetectionRange: 480            # base radar range, in nautical miles
+    baseDetectionChance: 75            # base radar chance (once every 10 minutes), in percent
+    huntMissionMaxFrequency: 720       # generate hunt mission max every 300 minutes (= 5 hours)
+    huntMissionWeights:                # which hunt mission to generate, based on months passed and weights
+      0:
+        STR_SKYNET_INTERCEPTION_1: 10
+        STR_SKYNET_INTERCEPTION_2: 10
+        STR_SKYNET_INTERCEPTION_3: 10
+    alienBase: true    # this is only to tell new battle mode what to do with this deployment
+    objectiveComplete: [STR_SKYNET_BASE_CONTROL_DESTROYED, 500]
+    objectivePopup: STR_CONTROL_CENTER_DESTROYED
+    points: 0
+  - type: STR_SKYNET_BASE_ASSAULT_HKBASE
+    data: *SKYNET_BASE_ASSAULT
+    width: 50
+    length: 80
+    height: 6
+    terrains:
+      - SKYNETBASE
+    briefing:
+      title: STR_SKYNET_BASE_ASSAULT_HKBASE
+      desc: STR_SKYNET_BASE_ASSAULT_HKBASE_BRIEFING
+      textOffset: -16
+      background: BACK01.SCR
+      showTarget: false
+    objectiveType: 3
+    markerName: STR_SKYNET_HKBASE
+    markerIcon: 23
+    genMission:
+      STR_SKYNET_TERMINATION_1: 10
+      STR_SKYNET_TERMINATION_2: 10
+      STR_SKYNET_TERMINATION_3: 10
+      STR_SKYNET_INTERDICTION: 30
+      STR_SKYNET_PATROL: 15
+      STR_SKYNET_ERADICATION: 15
+    genMissionFreq: 12
+    baseDetectionRange: 480            # base radar range, in nautical miles
+    baseDetectionChance: 75            # base radar chance (once every 10 minutes), in percent
+    huntMissionMaxFrequency: 720       # generate hunt mission max every 300 minutes (= 5 hours)
+    huntMissionWeights:                # which hunt mission to generate, based on months passed and weights
+      0:
+        STR_SKYNET_INTERCEPTION_3: 10
+        STR_SKYNET_INTERCEPTION_4: 10
+    alienBase: true    # this is only to tell new battle mode what to do with this deployment
+    objectiveComplete: [STR_SKYNET_BASE_CONTROL_DESTROYED, 500]
+    objectivePopup: STR_CONTROL_CENTER_DESTROYED
+    points: 0
+  - type: STR_SKYNET_BASE_ASSAULT_WORKCAMP
+    data: *SKYNET_BASE_ASSAULT
+    width: 60
+    length: 60
+    height: 6
+    civilians: 16
+    terrains:
+      - AREA51_HQ
+    briefing:
+      title: STR_SKYNET_BASE_ASSAULT_WORKCAMP
+      desc: STR_SKYNET_BASE_ASSAULT_WORKCAMP_BRIEFING
+      textOffset: -16
+      background: BACK01.SCR
+      showTarget: false
+    objectiveType: 3
+    markerName: STR_SKYNET_CAMP
+    markerIcon: 28
+    genMission:
+      STR_SKYNET_ERADICATION: 10
+      STR_SKYNET_INFILTRATION: 10
+      STR_SKYNET_RECLAMATION_1: 10
+      STR_SKYNET_RECLAMATION_2: 10
+      STR_SKYNET_SUPPLY: 10
+    genMissionFreq: 9
+    baseDetectionRange: 360            # base radar range, in nautical miles
+    baseDetectionChance: 50           # base radar chance (once every 10 minutes), in percent
+    huntMissionMaxFrequency: 720       # generate hunt mission max every 300 minutes (= 5 hours)
+    huntMissionWeights:                # which hunt mission to generate, based on months passed and weights
+      0:
+        STR_SKYNET_INTERCEPTION_1: 10
+        STR_SKYNET_INTERCEPTION_2: 10
+        STR_SKYNET_INTERCEPTION_3: 10
+    alienBase: true    # this is only to tell new battle mode what to do with this deployment
+    objectiveComplete: [STR_SKYNET_BASE_CONTROL_DESTROYED, 500]
+    objectivePopup: STR_CONTROL_CENTER_DESTROYED
+    points: 0
+#Abandoned Resistance/Military bases - 1 spawned per region
+##Tech-Comm/Area 51 terrains - Give resources/craft
+  - type: STR_ABANDONED_BASE_ASSAULT
+    data: *SKYNET_BASE_ASSAULT
+    width: 50
+    length: 50
+    height: 6
+    terrains:
+      - AREA51_FACTORY1
+      - AREA51_FACTORY2
+      - AREA51_FACTORY3
+    briefing:
+      desc: STR_ABANDONED_BASE_BRIEFING
+      palette: 2
+      music: GMENBASE
+    objectiveType: 3  
+    markerName: STR_ABANDONED_BASE
+    markerIcon: 16
+    genMission:
+      STR_SKYNET_SUPPLY: 10
+    genMissionFreq: 0
+    alienBase: true    # this is only to tell new battle mode what to do with this deployment
+    objectiveComplete: [STR_SKYNET_BASE_CONTROL_DESTROYED, 500]
+    objectivePopup: STR_CONTROL_CENTER_DESTROYED
+    points: 0
+#Suppression missions (3-5 days timer)
+##Triggered globally, up to 3 monthly sites,
+##4 Urban terrains, each with 4 different objectives? Industrial, Railyard, Slums, Dawn City (Downtown, Native, Cold Isle)
+##Protect Mission - for later
+##Defense Mission - Redesign (new terrains required)
+##Saved civilians join Tech-Comm (implement required)?
+  - type: STR_RESISTANCE_DEFENSE
+    data: &SKYNET_RESISTANCE
+      - alienRank: 5
+        lowQty: 1
+        highQty: 2
+        dQty: 2
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_RIFLE_AR15
+            - STR_50_FMJ
+            - STR_50_FMJ
+          -
+            - STR_RIFLE_AR15
+            - STR_50_FMJ
+            - STR_50_FMJ
+          -
+            - STR_RIFLE_AR15
+            - STR_50_FMJ
+            - STR_50_FMJ
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 2
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_M134
+            - STR_762_FMJ_BELT
+            - STR_762_AP_BELT
+          -
+            - STR_M134
+            - STR_762_FMJ_BELT
+            - STR_762_AP_BELT
+          -
+            - STR_M134
+            - STR_762_FMJ_BELT
+            - STR_762_AP_BELT
+      - alienRank: 3
+        lowQty: 1
+        highQty: 2
+        dQty: 2
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_M134
+            - STR_762_FMJ_BELT
+            - STR_762_AP_BELT
+          -
+            - STR_M134
+            - STR_762_FMJ_BELT
+            - STR_762_AP_BELT
+          -
+            - STR_M134
+            - STR_762_FMJ_BELT
+            - STR_762_AP_BELT
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 2
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_D12
+            - STR_D12_DRUM
+            - STR_D12_DRUM
+          -
+            - STR_D12
+            - STR_D12_DRUM
+            - STR_D12_DRUM
+          -
+            - STR_D12
+            - STR_D12_DRUM
+            - STR_D12_DRUM
+      - alienRank: 1
+        lowQty: 1
+        highQty: 2
+        dQty: 2
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_15MM_AMR
+            - STR_15MM_AMR_CLIP
+            - STR_15MM_AMR_CLIP
+          -
+            - STR_15MM_AMR
+            - STR_15MM_AMR_CLIP
+            - STR_15MM_AMR_CLIP
+          -
+            - STR_15MM_AMR
+            - STR_15MM_AMR_CLIP
+            - STR_15MM_AMR_CLIP
+      - alienRank: 0
+        lowQty: 1
+        highQty: 2
+        dQty: 2
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_20MM_AMR
+            - STR_20MM_AMR_CLIP
+            - STR_20MM_AMR_CLIP
+          -
+            - STR_20MM_AMR
+            - STR_20MM_AMR_CLIP
+            - STR_20MM_AMR_CLIP
+          -
+            - STR_20MM_AMR
+            - STR_20MM_AMR_CLIP
+            - STR_20MM_AMR_CLIP
+    width: 80
+    length: 80
+    height: 6
+    civilians: 8
+    terrains:
+      - AREA51_DEFENSE
+    alert: STR_RESISTANCE_DEFENSE_ALERT
+    alertBackground: BACK03.SCR
+    briefing:
+      title: STR_RESISTANCE_DEFENSE
+      desc: STR_RESISTANCE_DEFENSE_BRIEFING
+      palette: 2
+      music: GMENBASE    
+    markerName: STR_RESISTANCE_DEFENSE_MARKER
+    markerIcon: 5
+    duration: [72, 120]
+    turnLimit: 25
+    chronoTrigger: 2
+    cheatTurn: 0
+    keepCraftAfterFailedMission: true
+    despawnPenalty: 0
+    points: 0
+  - type: STR_RESISTANCE_ESCAPE
+    data: *SKYNET_RESISTANCE
+    width: 40
+    length: 80
+    height: 6
+    terrains:
+      - DAWN_ESCAPE
+      - DOWNTOWN_ESCAPE
+      - INDUSTRIAL_ESCAPE
+      - SLUM_ESCAPE
+    alert: STR_RESISTANCE_DEFENSE_ALERT
+    alertBackground: BACK185.SCR
+    briefing:
+      desc: STR_RESISTANCE_ESCAPE_BRIEFING
+      palette: 2
+      music: GMENBASE    
+    markerName: STR_RESISTANCE_DEFENSE_MARKER
+    markerIcon: 5
+    duration: [72, 120]
+    turnLimit: 25
+    chronoTrigger: 1
+    cheatTurn: 20
+    escapeType: 3
+    objectiveComplete: [STR_EXFILTRATION_SUCCESS, 250]
+    keepCraftAfterFailedMission: true
+    despawnPenalty: 0
+    points: 0
+  - type: STR_RESISTANCE_PROTECT
+    data: *SKYNET_RESISTANCE
+    width: 50
+    length: 50
+    height: 6
+    civilians: 8
+    terrains:
+      - DAWN_CITY_URBANA
+      - DAWN_CITY_URBANB
+      - INDUSTRIAL
+      - RAILYARD
+      - SLUMURBAN
+    alert: STR_RESISTANCE_PROTECT_ALERT
+    alertBackground: BACK03.SCR
+    briefing:
+      title: STR_RESISTANCE_PROTECT
+      desc: STR_RESISTANCE_PROTECT_BRIEFING
+      palette: 2
+      music: GMENBASE    
+    markerName: STR_RESISTANCE_PROTECT_MARKER
+    markerIcon: 5
+    duration: [72, 120]
+    despawnPenalty: 0
+    points: 0
+  - type: STR_RESISTANCE_RESCUE
+    data: *SKYNET_RESISTANCE
+    width: 50
+    length: 50
+    height: 6
+    civilians: 8
+    terrains:
+      - DAWNURBANA
+      - INDUSTRIALURBAN
+      - RAILYARDURBAN
+      - SLUMURBAN
+    alert: STR_RESISTANCE_RESCUE_ALERT
+    alertBackground: BACK03.SCR
+    briefing:
+      title: STR_RESISTANCE_RESCUE
+      desc: STR_RESISTANCE_RESCUE_BRIEFING
+      palette: 2
+      music: GMENBASE    
+    markerName: STR_RESISTANCE_RESCUE_MARKER
+    markerIcon: 5
+    duration: [72, 120]
+    despawnPenalty: 0
+    points: 0
+#Sector Sites - Resistance (30 days timer) - triggered by sector report research
+##4 Different terrains - Area 51 Destroy, Complex, Siberia, Abandoned/HWP/Skyranger Factory, Airfield
+##Gives technology or allows to recover craft, weapons, etc. 
+  - type: STR_RESISTANCE_ASSAULT
+    data: *SKYNET_RESISTANCE
+    width: 50
+    length: 50
+    height: 6
+    civilians: 8
+    terrains:
+      - AREA51_URBAN
+    alert: STR_RESISTANCE_ASSAULT_ALERT
+    alertBackground: BACK185.SCR
+    briefing:
+      desc: STR_RESISTANCE_ASSAULT_BRIEFING
+      palette: 2
+      music: GMENBASE    
+    markerName: STR_RESISTANCE_ASSAULT_MARKER
+    markerIcon: 10
+    duration: [720, 720]
+    despawnPenalty: 0
+  - type: STR_RESISTANCE_DESTROY
+    data: *SKYNET_RESISTANCE
+    width: 60
+    length: 60
+    height: 6
+    terrains:
+      - AREA51_DESTROY
+    alert: STR_RESISTANCE_DESTROY_ALERT
+    alertBackground: BACK03.SCR
+    briefing:
+      title: STR_RESISTANCE_DESTROY
+      desc: STR_RESISTANCE_DESTROY_BRIEFING
+      palette: 2
+      music: GMENBASE    
+    markerName: STR_RESISTANCE_DESTROY_MARKER
+    markerIcon: 10
+    duration: [720, 720]
+    despawnPenalty: 0
+    objectiveType: 15
+    objectivesRequired: 16
+    objectiveComplete: [STR_MISSILE_SILO_DISABLED, 750]
+    objectiveFailed: [STR_MISSILE_SILO_OPERATIONAL, -750]
+    objectivePopup: STR_MISSILE_SILO_DESTROYED
+    turnLimit: 25
+    chronoTrigger: 0
+    cheatTurn: 20
+  - type: STR_RESISTANCE_EXTRACTION
+    data: *SKYNET_RESISTANCE
+    width: 40
+    length: 80
+    height: 6
+    terrains:
+      - AREA51_EXTRACTION
+    alert: STR_RESISTANCE_EXTRACTION_ALERT
+    alertBackground: BACK185.SCR
+    briefing:
+      desc: STR_RESISTANCE_EXTRACTION_BRIEFING
+      palette: 2
+      music: GMENBASE    
+    markerName: STR_RESISTANCE_EXTRACTION_MARKER
+    markerIcon: 1
+    duration: [720, 720]
+    despawnPenalty: 0
+    turnLimit: 25
+    chronoTrigger: 0
+    cheatTurn: 10
+    escapeType: 3
+    keepCraftAfterFailedMission: true
+  - type: STR_RESISTANCE_RECOVERY
+    data: *SKYNET_RESISTANCE
+    width: 60
+    length: 60
+    height: 6
+    terrains:
+      - INDUSTRIAL
+    alert: STR_RESISTANCE_RECOVERY_ALERT
+    alertBackground: BACK18.SCR
+    briefing:
+      desc: STR_RESISTANCE_RECOVERY_BRIEFING
+      palette: 2
+      music: GMENBASE    
+    markerName: STR_RESISTANCE_RECOVERY
+    markerIcon: 1
+    duration: [720, 720]
+    despawnPenalty: 0
+#Base Defense
+  - type: STR_BASE_DEFENSE
+    data: *SKYNET_RESISTANCE
+    width: 60
+    length: 60
+    height: 6
+    civilians: 8
+    shade: 5
+    terrains:
+      - TECHCOMBASE_DEFENSE
+    briefing:
+      palette: 0
+      background: BACK01.SCR
+      music: GMENBASE
+#Other - Objectives/Warnings (instant - not used yet)
+  - type: STR_RESISTANCE_ALERT00
+    data: *SKYNET_RESISTANCE
+    width: 50
+    length: 50
+    height: 4
+    civilians: 16
+    terrains:
+      - URBAN
+    alert: STR_RESISTANCE_ALERT00_MESSAGE
+    alertBackground: BACK03.SCR
+    briefing: &TERROR_MISSION_BRIEFING
+      title: STR_TERROR_MISSION
+      desc: STR_TERROR_MISSION_BRIEFING
+      palette: 1
+      music: GMENBASE    
+    markerName: STR_SKYNET_ACTIVITY
+    markerIcon: 29
+    duration: [0, 1]
+    despawnPenalty: 0
+  - type: STR_RESISTANCE_ALERT01
+    data: *SKYNET_RESISTANCE
+    width: 50
+    length: 50
+    height: 4
+    civilians: 16
+    terrains:
+      - URBAN
+    alert: STR_RESISTANCE_ALERT01_MESSAGE
+    alertBackground: BACK03.SCR
+    briefing: *TERROR_MISSION_BRIEFING
+    markerName: STR_SKYNET_ACTIVITY
+    markerIcon: 29
+    duration: [0, 1]
+    despawnPenalty: 0
+  - type: STR_RESISTANCE_ALERT02
+    data: *SKYNET_RESISTANCE
+    width: 50
+    length: 50
+    height: 4
+    civilians: 16
+    terrains:
+      - URBAN
+    alert: STR_RESISTANCE_ALERT02_MESSAGE
+    alertBackground: BACK03.SCR
+    briefing: *TERROR_MISSION_BRIEFING
+    markerName: STR_SKYNET_ACTIVITY
+    markerIcon: 29
+    duration: [0, 1]
+    despawnPenalty: 0
+  - type: STR_RESISTANCE_ALERT03
+    data: *SKYNET_RESISTANCE
+    width: 50
+    length: 50
+    height: 4
+    civilians: 16
+    terrains:
+      - URBAN
+    alert: STR_RESISTANCE_ALERT03_MESSAGE
+    alertBackground: BACK03.SCR
+    briefing: *TERROR_MISSION_BRIEFING
+    markerName: STR_SKYNET_ACTIVITY
+    markerIcon: 29
+    duration: [0, 1]
+    despawnPenalty: 0
+  - type: STR_RESISTANCE_ALERT04
+    data: *SKYNET_RESISTANCE
+    width: 50
+    length: 50
+    height: 4
+    civilians: 16
+    terrains:
+      - URBAN
+    alert: STR_RESISTANCE_ALERT04_MESSAGE
+    briefing: *TERROR_MISSION_BRIEFING
+    markerName: STR_SKYNET_ACTIVITY
+    markerIcon: 29
+    duration: [0, 1]
+    despawnPenalty: 0
+  - type: STR_RESISTANCE_ALERT05
+    data: *SKYNET_RESISTANCE
+    width: 50
+    length: 50
+    height: 4
+    civilians: 16
+    terrains:
+      - URBAN
+    alert: STR_RESISTANCE_ALERT05_MESSAGE
+    alertBackground: BACK03.SCR
+    briefing: *TERROR_MISSION_BRIEFING
+    markerName: STR_SKYNET_ACTIVITY
+    markerIcon: 29
+    duration: [0, 1]
+    despawnPenalty: 0
+  - type: STR_RESISTANCE_ALERT06
+    data: *SKYNET_RESISTANCE
+    width: 50
+    length: 50
+    height: 4
+    civilians: 16
+    terrains:
+      - URBAN
+    alert: STR_RESISTANCE_ALERT06_MESSAGE
+    alertBackground: BACK03.SCR
+    briefing: *TERROR_MISSION_BRIEFING
+    markerName: STR_SKYNET_ACTIVITY
+    markerIcon: 29
+    duration: [0, 1]
+    despawnPenalty: 0
+  - type: STR_RESISTANCE_ALERT07
+    data: *SKYNET_RESISTANCE
+    width: 50
+    length: 50
+    height: 4
+    civilians: 16
+    terrains:
+      - URBAN
+    alert: STR_RESISTANCE_ALERT07_MESSAGE
+    alertBackground: BACK03.SCR
+    briefing: *TERROR_MISSION_BRIEFING
+    markerName: STR_SKYNET_ACTIVITY
+    markerIcon: 29
+    duration: [0, 1]
+    despawnPenalty: 0
+  - type: STR_RESISTANCE_ALERT08
+    data: *SKYNET_RESISTANCE
+    width: 50
+    length: 50
+    height: 4
+    civilians: 16
+    terrains:
+      - URBAN
+    alert: STR_RESISTANCE_ALERT08_MESSAGE
+    alertBackground: BACK03.SCR
+    briefing: *TERROR_MISSION_BRIEFING
+    markerName: STR_SKYNET_ACTIVITY
+    markerIcon: 29
+    duration: [0, 1]
+    despawnPenalty: 0
+  - type: STR_RESISTANCE_ALERT09
+    data: *SKYNET_RESISTANCE
+    width: 50
+    length: 50
+    height: 4
+    civilians: 16
+    terrains:
+      - URBAN
+    alert: STR_RESISTANCE_ALERT09_MESSAGE
+    alertBackground: BACK03.SCR
+    briefing: *TERROR_MISSION_BRIEFING
+    markerName: STR_SKYNET_ACTIVITY
+    markerIcon: 29
+    duration: [0, 1]
+    despawnPenalty: 0
+  - type: STR_RESISTANCE_ALERT10
+    data: *SKYNET_RESISTANCE
+    width: 50
+    length: 50
+    height: 4
+    civilians: 16
+    terrains:
+      - URBAN
+    alert: STR_RESISTANCE_ALERT10_MESSAGE
+    alertBackground: BACK03.SCR
+    briefing: *TERROR_MISSION_BRIEFING
+    markerName: STR_SKYNET_ACTIVITY
+    markerIcon: 29
+    duration: [0, 1]
+    despawnPenalty: 0
+  - type: STR_RESISTANCE_ALERT11
+    data: *SKYNET_RESISTANCE
+    width: 50
+    length: 50
+    height: 4
+    civilians: 16
+    terrains:
+      - URBAN
+    alert: STR_RESISTANCE_ALERT11_MESSAGE
+    alertBackground: BACK03.SCR
+    briefing: *TERROR_MISSION_BRIEFING
+    markerName: STR_SKYNET_ACTIVITY
+    markerIcon: 29
+    duration: [0, 1]
+    despawnPenalty: 0
+  - type: STR_RESISTANCE_ALERT12
+    data: *SKYNET_RESISTANCE
+    width: 50
+    length: 50
+    height: 4
+    civilians: 16
+    terrains:
+      - URBAN
+    alert: STR_RESISTANCE_ALERT12_MESSAGE
+    alertBackground: BACK03.SCR
+    briefing: *TERROR_MISSION_BRIEFING
+    markerName: STR_SKYNET_ACTIVITY
+    markerIcon: 29
+    duration: [0, 1]
+    despawnPenalty: 0
+  - type: STR_RESISTANCE_ALERT13
+    data: *SKYNET_RESISTANCE
+    width: 50
+    length: 50
+    height: 4
+    civilians: 16
+    terrains:
+      - URBAN
+    alert: STR_RESISTANCE_ALERT13_MESSAGE
+    alertBackground: BACK03.SCR
+    briefing: *TERROR_MISSION_BRIEFING
+    markerName: STR_SKYNET_ACTIVITY
+    markerIcon: 29
+    duration: [0, 1]
+    despawnPenalty: 0
+  - type: STR_RESISTANCE_ALERT14
+    data: *SKYNET_RESISTANCE
+    width: 50
+    length: 50
+    height: 4
+    civilians: 16
+    terrains:
+      - URBAN
+    alert: STR_RESISTANCE_ALERT14_MESSAGE
+    alertBackground: BACK03.SCR
+    briefing: *TERROR_MISSION_BRIEFING
+    markerName: STR_SKYNET_ACTIVITY
+    markerIcon: 29
+    duration: [0, 1]
+    despawnPenalty: 0
+  - type: STR_RESISTANCE_ALERT15
+    data: *SKYNET_RESISTANCE
+    width: 50
+    length: 50
+    height: 4
+    civilians: 16
+    terrains:
+      - URBAN
+    alert: STR_RESISTANCE_ALERT15_MESSAGE
+    alertBackground: BACK03.SCR
+    briefing: *TERROR_MISSION_BRIEFING
+    markerName: STR_SKYNET_ACTIVITY
+    markerIcon: 29
+    duration: [0, 1]
+    despawnPenalty: 0
+  - type: STR_RESISTANCE_ALERT16
+    data: *SKYNET_RESISTANCE
+    width: 50
+    length: 50
+    height: 4
+    civilians: 16
+    terrains:
+      - URBAN
+    alert: STR_RESISTANCE_ALERT16_MESSAGE
+    alertBackground: BACK03.SCR
+    briefing: *TERROR_MISSION_BRIEFING
+    markerName: STR_SKYNET_ACTIVITY
+    markerIcon: 29
+    duration: [0, 1]
+    despawnPenalty: 0
+  - type: STR_RESISTANCE_ALERT17
+    data: *SKYNET_RESISTANCE
+    width: 50
+    length: 50
+    height: 4
+    civilians: 16
+    terrains:
+      - URBAN
+    alert: STR_RESISTANCE_ALERT17_MESSAGE
+    alertBackground: BACK03.SCR
+    briefing: *TERROR_MISSION_BRIEFING
+    markerName: STR_SKYNET_ACTIVITY
+    markerIcon: 29
+    duration: [0, 1]
+    despawnPenalty: 0
+  - type: STR_RESISTANCE_ALERT18
+    data: *SKYNET_RESISTANCE
+    width: 50
+    length: 50
+    height: 4
+    civilians: 16
+    terrains:
+      - URBAN
+    alert: STR_RESISTANCE_ALERT18_MESSAGE
+    alertBackground: BACK03.SCR
+    briefing: *TERROR_MISSION_BRIEFING
+    markerName: STR_SKYNET_ACTIVITY
+    markerIcon: 29
+    duration: [0, 1]
+    despawnPenalty: 0
+  - type: STR_RESISTANCE_ALERT19
+    data: *SKYNET_RESISTANCE
+    width: 50
+    length: 50
+    height: 4
+    civilians: 16
+    terrains:
+      - URBAN
+    alert: STR_RESISTANCE_ALERT19_MESSAGE
+    alertBackground: BACK03.SCR
+    briefing: *TERROR_MISSION_BRIEFING
+    markerName: STR_SKYNET_ACTIVITY
+    markerIcon: 29
+    duration: [0, 1]
+    despawnPenalty: 0
+  - type: STR_RESISTANCE_MESSAGE
+    data: *SKYNET_RESISTANCE
+    width: 50
+    length: 50
+    height: 4
+    civilians: 16
+    terrains:
+      - URBAN
+    alert: STR_RESISTANCE_MESSAGE_ALERT
+    alertBackground: BACK17.SCR
+    briefing: &TERROR_MISSION_BRIEFING
+      title: STR_TERROR_MISSION
+      desc: STR_TERROR_MISSION_BRIEFING
+      palette: 1
+      music: GMENBASE    
+    markerName: STR_SKYNET_ACTIVITY
+    markerIcon: 1
+    duration: [0, 1]
+    despawnPenalty: 0

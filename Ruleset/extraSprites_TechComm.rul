@@ -1,0 +1,2033 @@
+extraSprites:
+  - delete: GlobeMarkers
+  - type: BASEBITS.PCK
+    files:
+      42: Resources/Geoscape/Rank_0_B.png
+      43: Resources/Geoscape/Rank_1_B.png
+      44: Resources/Geoscape/Rank_2_B.png
+      45: Resources/Geoscape/Rank_3_B.png
+      46: Resources/Geoscape/Rank_4_B.png
+      47: Resources/Geoscape/Rank_5_B.png
+      148: Resources/Icons/AMRAAM_basebits.png
+      149: Resources/Icons/ASRAAM_basebits.png
+      150: Resources/Icons/ECMPods_basebits.png
+      151: Resources/Icons/FuelPods_basebits.png
+      152: Resources/Icons/GAU2_basebits.png
+      153: Resources/Icons/GAU4_basebits.png
+      154: Resources/Icons/GAU8_basebits.png
+      155: Resources/Icons/GAU12_basebits.png
+      156: Resources/Icons/GAU19_basebits.png
+      157: Resources/Icons/HARM_basebits.png
+      158: Resources/Icons/Hydra_basebits.png
+      159: Resources/Icons/Sidewinder_basebits.png
+      160: Resources/Icons/Sparrow_basebits.png
+      161: Resources/Icons/Standard_basebits.png
+      162: Resources/Icons/Stinger_basebits.png
+  - type: SMOKE.PCK
+    files:
+      20: Resources/Geoscape/Rank_0_B.png
+      21: Resources/Geoscape/Rank_1_B.png
+      22: Resources/Geoscape/Rank_2_B.png
+      23: Resources/Geoscape/Rank_3_B.png
+      24: Resources/Geoscape/Rank_4_B.png
+      25: Resources/Geoscape/Rank_5_B.png
+  - type: GEOBORD.SCR
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Geoscape/BACK190.PNG
+  - type: BIGOBS.PCK
+    files:
+      500: Resources/Units/BIGOBS/BIGOB_ALLOY_VEST_URBAN_CORPSE.png
+      504: Resources/Units/BIGOBS/BIGOB_COMBAT_ARMOR_DESERT_CORPSE.png
+      505: Resources/Units/BIGOBS/BIGOB_COMBAT_ARMOR_FOREST_CORPSE.png
+      506: Resources/Units/BIGOBS/BIGOB_COMBAT_ARMOR_SNOW_CORPSE.png
+      507: Resources/Units/BIGOBS/BIGOB_COMBAT_ARMOR_URBAN_CORPSE.png
+      509: Resources/Units/BIGOBS/BIGOB_HUMAN_AGENT_CORPSE.png
+      520: Resources/Units/BIGOBS/BIGOB_HUMAN_SCIENTIST_CORPSE.png  
+      521: Resources/Units/BIGOBS/BIGOB_HUMAN_SOLDIER_0_0_CORPSE.png
+      523: Resources/Units/BIGOBS/BIGOB_HUMAN_SOLDIER_0_2_CORPSE.png      
+      531: Resources/Units/BIGOBS/BIGOB_HUMAN_TECHNICIAN_CORPSE.gif
+      533: Resources/Units/BIGOBS/BIGOB_JUMPSUIT_FOREST_CORPSE.png
+      534: Resources/Units/BIGOBS/BIGOB_JUMPSUIT_OFFICER_CORPSE.png
+      535: Resources/Units/BIGOBS/BIGOB_JUMPSUIT_PILOT_CORPSE.png
+      539: Resources/Units/BIGOBS/BIGOB_POLICE_FEMALE_CIVILIAN_CORPSE.png
+      540: Resources/Units/BIGOBS/BIGOB_POLICE_MALE_CIVILIAN_CORPSE.png
+      802: Resources/Units/BIGOBS/BIGOB_TERMINATOR_T200_CORPSE.png
+      803: Resources/Units/BIGOBS/BIGOB_TERMINATOR_T300_CORPSE.png
+      804: Resources/Units/BIGOBS/BIGOB_TERMINATOR_T400_CORPSE.gif
+      805: Resources/Units/BIGOBS/BIGOB_TERMINATOR_T500_CORPSE.gif
+      806: Resources/Units/BIGOBS/BIGOB_TERMINATOR_T600_CORPSE.gif
+      807: Resources/Units/BIGOBS/BIGOB_TERMINATOR_T700_CORPSE.gif
+      808: Resources/Units/BIGOBS/BIGOB_TERMINATOR_T800_CORPSE.gif
+      810: Resources/Units/BIGOBS/BIGOB_TERMINATOR_T1000_CORPSE.png
+      850: Resources/Units/BIGOBS/BIGOB_HK_CERBERUS_CORPSE.png
+      851: Resources/Units/BIGOBS/BIGOB_HK_CYBERMITE_CORPSE.png
+      852: Resources/Units/BIGOBS/BIGOB_HK_DRONE_CORPSE.png
+      853: Resources/Units/BIGOBS/BIGOB_HK_SEEKER_CORPSE.png
+  - type: FLOOROB.PCK
+    files:
+      500: Resources/Units/FLOOROBS/FLOOROB_ALLOY_VEST_DESERT_CORPSE.png
+      501: Resources/Units/FLOOROBS/FLOOROB_ALLOY_VEST_FOREST_CORPSE.png
+      502: Resources/Units/FLOOROBS/FLOOROB_ALLOY_VEST_SNOW_CORPSE.png
+      503: Resources/Units/FLOOROBS/FLOOROB_ALLOY_VEST_URBAN_CORPSE.png
+      504: Resources/Units/FLOOROBS/FLOOROB_COMBAT_ARMOR_DESERT_CORPSE.png
+      505: Resources/Units/FLOOROBS/FLOOROB_COMBAT_ARMOR_FOREST_CORPSE.png
+      506: Resources/Units/FLOOROBS/FLOOROB_COMBAT_ARMOR_SNOW_CORPSE.png
+      507: Resources/Units/FLOOROBS/FLOOROB_COMBAT_ARMOR_URBAN_CORPSE.png
+      509: Resources/Units/FLOOROBS/FLOOROB_HUMAN_AGENT_CORPSE.png
+      510: Resources/Units/FLOOROBS/FLOOROB_HUMAN_CHARACTER_0_0_CORPSE.png
+      511: Resources/Units/FLOOROBS/FLOOROB_HUMAN_CHARACTER_0_1_CORPSE.png
+      512: Resources/Units/FLOOROBS/FLOOROB_HUMAN_CHARACTER_0_2_CORPSE.png
+      513: Resources/Units/FLOOROBS/FLOOROB_HUMAN_CHARACTER_0_3_CORPSE.png
+      514: Resources/Units/FLOOROBS/FLOOROB_HUMAN_CHARACTER_0_4_CORPSE.png
+      515: Resources/Units/FLOOROBS/FLOOROB_HUMAN_CHARACTER_0_5_CORPSE.png
+      516: Resources/Units/FLOOROBS/FLOOROB_HUMAN_CHARACTER_0_6_CORPSE.png
+      517: Resources/Units/FLOOROBS/FLOOROB_HUMAN_CHARACTER_0_7_CORPSE.png
+      518: Resources/Units/FLOOROBS/FLOOROB_HUMAN_ENGINEER_CORPSE.png
+      519: Resources/Units/FLOOROBS/FLOOROB_HUMAN_MANAGER_CORPSE.png
+      520: Resources/Units/FLOOROBS/FLOOROB_HUMAN_SCIENTIST_CORPSE.png      
+      521: Resources/Units/FLOOROBS/FLOOROB_HUMAN_SOLDIER_0_0_CORPSE.png
+      522: Resources/Units/FLOOROBS/FLOOROB_HUMAN_SOLDIER_0_1_CORPSE.png
+      523: Resources/Units/FLOOROBS/FLOOROB_HUMAN_SOLDIER_0_2_CORPSE.png
+      524: Resources/Units/FLOOROBS/FLOOROB_HUMAN_SUIT_BLACK_CORPSE.png
+      525: Resources/Units/FLOOROBS/FLOOROB_HUMAN_SUIT_BLUE_CORPSE.png
+      526: Resources/Units/FLOOROBS/FLOOROB_HUMAN_SUIT_GREEN_CORPSE.png
+      527: Resources/Units/FLOOROBS/FLOOROB_HUMAN_SUIT_GREY_CORPSE.png
+      528: Resources/Units/FLOOROBS/FLOOROB_HUMAN_SUIT_PINK_CORPSE.png
+      529: Resources/Units/FLOOROBS/FLOOROB_HUMAN_SUIT_PURPLE_CORPSE.png
+      530: Resources/Units/FLOOROBS/FLOOROB_HUMAN_SUIT_RED_CORPSE.png
+      531: Resources/Units/FLOOROBS/FLOOROB_HUMAN_TECHNICIAN_CORPSE.gif
+      532: Resources/Units/FLOOROBS/FLOOROB_JUMPSUIT_DESERT_CORPSE.png
+      533: Resources/Units/FLOOROBS/FLOOROB_JUMPSUIT_FOREST_CORPSE.png
+      534: Resources/Units/FLOOROBS/FLOOROB_JUMPSUIT_OFFICER_CORPSE.png
+      535: Resources/Units/FLOOROBS/FLOOROB_JUMPSUIT_PILOT_CORPSE.png
+      536: Resources/Units/FLOOROBS/FLOOROB_JUMPSUIT_RED_CORPSE.png
+      537: Resources/Units/FLOOROBS/FLOOROB_JUMPSUIT_SNOW_CORPSE.png
+      538: Resources/Units/FLOOROBS/FLOOROB_JUMPSUIT_URBAN_CORPSE.png
+      539: Resources/Units/FLOOROBS/FLOOROB_POLICE_FEMALE_CIVILIAN_CORPSE.png
+      540: Resources/Units/FLOOROBS/FLOOROB_POLICE_MALE_CIVILIAN_CORPSE.png
+      802: Resources/Units/FLOOROBS/FLOOROB_TERMINATOR_T200_CORPSE.png
+      803: Resources/Units/FLOOROBS/FLOOROB_TERMINATOR_T300_CORPSE.png
+      804: Resources/Units/FLOOROBS/FLOOROB_TERMINATOR_T400_CORPSE.png
+      805: Resources/Units/FLOOROBS/FLOOROB_TERMINATOR_T500_CORPSE.gif
+      806: Resources/Units/FLOOROBS/FLOOROB_TERMINATOR_T600_CORPSE.png
+      807: Resources/Units/FLOOROBS/FLOOROB_TERMINATOR_T700_CORPSE.gif
+      808: Resources/Units/FLOOROBS/FLOOROB_TERMINATOR_T800_CORPSE.png
+      810: Resources/Units/FLOOROBS/FLOOROB_TERMINATOR_T1000_CORPSE.png
+      850: Resources/Units/FLOOROBS/FLOOROB_HK_CERBERUS_CORPSE.png
+      851: Resources/Units/FLOOROBS/FLOOROB_HK_CYBERMITE_CORPSE.png
+      852: Resources/Units/FLOOROBS/FLOOROB_HK_DRONE_CORPSE.png
+      853: Resources/Units/FLOOROBS/FLOOROB_HK_SEEKER_CORPSE.png
+  - type: MAN_0F0.SPK
+    singleImage: true
+    files:
+      0: Resources/Units/Inventory/INV_MAN_=F0.png
+  - type: MAN_0F1.SPK
+    singleImage: true
+    files:
+      0: Resources/Units/Inventory/INV_MAN_=F1.png
+  - type: MAN_0F2.SPK
+    singleImage: true
+    files:
+      0: Resources/Units/Inventory/INV_MAN_=F2.png
+  - type: MAN_0F3.SPK
+    singleImage: true
+    files:
+      0: Resources/Units/Inventory/INV_MAN_=F3.png
+  - type: MAN_0M0.SPK
+    singleImage: true
+    files:
+      0: Resources/Units/Inventory/INV_MAN_=M0.png
+  - type: MAN_0M1.SPK
+    singleImage: true
+    files:
+      0: Resources/Units/Inventory/INV_MAN_=M1.png
+  - type: MAN_0M2.SPK
+    singleImage: true
+    files:
+      0: Resources/Units/Inventory/INV_MAN_=M2.png
+  - type: MAN_0M3.SPK
+    singleImage: true
+    files:
+      0: Resources/Units/Inventory/INV_MAN_=M3.png
+  - type: XCOM_0.PCK
+    width: 256
+    height: 1400
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/UNIFORM_URBAN.png
+  - type: MAN_1F0.SPK
+    singleImage: true
+    files:
+      0: Resources/Units/Inventory/INV_MAN_1F0.png
+  - type: MAN_1F1.SPK
+    singleImage: true
+    files:
+      0: Resources/Units/Inventory/INV_MAN_1F1.png
+  - type: MAN_1F2.SPK
+    singleImage: true
+    files:
+      0: Resources/Units/Inventory/INV_MAN_1F2.png
+  - type: MAN_1F3.SPK
+    singleImage: true
+    files:
+      0: Resources/Units/Inventory/INV_MAN_1F3.png
+  - type: MAN_1M0.SPK
+    singleImage: true
+    files:
+      0: Resources/Units/Inventory/INV_MAN_1M0.png
+  - type: MAN_1M1.SPK
+    singleImage: true
+    files:
+      0: Resources/Units/Inventory/INV_MAN_1M1.png
+  - type: MAN_1M2.SPK
+    singleImage: true
+    files:
+      0: Resources/Units/Inventory/INV_MAN_1M2.png
+  - type: MAN_1M3.SPK
+    singleImage: true
+    files:
+      0: Resources/Units/Inventory/INV_MAN_1M3.png
+  - type: XCOM_1.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/UNIFORM_DESERT.png
+  - type: MAN_2F0.SPK
+    singleImage: true
+    files:
+      0: Resources/Units/Inventory/INV_MAN_2F0.png
+  - type: MAN_2F1.SPK
+    singleImage: true
+    files:
+      0: Resources/Units/Inventory/INV_MAN_2F1.png
+  - type: MAN_2F2.SPK
+    singleImage: true
+    files:
+      0: Resources/Units/Inventory/INV_MAN_2F2.png
+  - type: MAN_2F3.SPK
+    singleImage: true
+    files:
+      0: Resources/Units/Inventory/INV_MAN_2F3.png
+  - type: MAN_2M0.SPK
+    singleImage: true
+    files:
+      0: Resources/Units/Inventory/INV_MAN_2M0.png
+  - type: MAN_2M1.SPK
+    singleImage: true
+    files:
+      0: Resources/Units/Inventory/INV_MAN_2M1.png
+  - type: MAN_2M2.SPK
+    singleImage: true
+    files:
+      0: Resources/Units/Inventory/INV_MAN_2M2.png
+  - type: MAN_2M3.SPK
+    singleImage: true
+    files:
+      0: Resources/Units/Inventory/INV_MAN_2M3.png
+  - type: XCOM_2.PCK
+    width: 256
+    height: 1400
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/UNIFORM_FOREST.png
+
+  - type: MAN_3F0.SPK
+    singleImage: true
+    files:
+      0: Resources/Units/Inventory/INV_MAN_3F0.png
+  - type: MAN_3F1.SPK
+    singleImage: true
+    files:
+      0: Resources/Units/Inventory/INV_MAN_3F1.png
+  - type: MAN_3F2.SPK
+    singleImage: true
+    files:
+      0: Resources/Units/Inventory/INV_MAN_3F2.png
+  - type: MAN_3F3.SPK
+    singleImage: true
+    files:
+      0: Resources/Units/Inventory/INV_MAN_3F3.png
+  - type: MAN_3M0.SPK
+    singleImage: true
+    files:
+      0: Resources/Units/Inventory/INV_MAN_3M0.png
+  - type: MAN_3M1.SPK
+    singleImage: true
+    files:
+      0: Resources/Units/Inventory/INV_MAN_3M1.png
+  - type: MAN_3M2.SPK
+    singleImage: true
+    files:
+      0: Resources/Units/Inventory/INV_MAN_3M2.png
+  - type: MAN_3M3.SPK
+    singleImage: true
+    files:
+      0: Resources/Units/Inventory/INV_MAN_3M3.png
+  - type: XCOM_3.PCK
+    width: 256
+    height: 1400
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/UNIFORM_SNOW.png
+  - type: MAN_4F0.SPK
+    singleImage: true
+    files:
+      0: Resources/Units/Inventory/INV_MAN_4F0.png
+  - type: MAN_4F1.SPK
+    singleImage: true
+    files:
+      0: Resources/Units/Inventory/INV_MAN_4F1.png
+  - type: MAN_4F2.SPK
+    singleImage: true
+    files:
+      0: Resources/Units/Inventory/INV_MAN_4F2.png
+  - type: MAN_4F3.SPK
+    singleImage: true
+    files:
+      0: Resources/Units/Inventory/INV_MAN_4F3.png
+  - type: MAN_4M0.SPK
+    singleImage: true
+    files:
+      0: Resources/Units/Inventory/INV_MAN_4M0.png
+  - type: MAN_4M1.SPK
+    singleImage: true
+    files:
+      0: Resources/Units/Inventory/INV_MAN_4M1.png
+  - type: MAN_4M2.SPK
+    singleImage: true
+    files:
+      0: Resources/Units/Inventory/INV_MAN_4M2.png
+  - type: MAN_4M3.SPK
+    singleImage: true
+    files:
+      0: Resources/Units/Inventory/INV_MAN_4M3.png
+  - type: XCOM_4.PCK
+    width: 256
+    height: 1400
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/ALLOY_VEST.png
+  - type: MAN_5F0.SPK
+    singleImage: true
+    files:
+      0: Resources/Units/Inventory/INV_MAN_5F0.png
+  - type: MAN_5F1.SPK
+    singleImage: true
+    files:
+      0: Resources/Units/Inventory/INV_MAN_5F1.png
+  - type: MAN_5F2.SPK
+    singleImage: true
+    files:
+      0: Resources/Units/Inventory/INV_MAN_5F2.png
+  - type: MAN_5F3.SPK
+    singleImage: true
+    files:
+      0: Resources/Units/Inventory/INV_MAN_5F3.png
+  - type: MAN_5M0.SPK
+    singleImage: true
+    files:
+      0: Resources/Units/Inventory/INV_MAN_5M0.png
+  - type: MAN_5M1.SPK
+    singleImage: true
+    files:
+      0: Resources/Units/Inventory/INV_MAN_5M1.png
+  - type: MAN_5M2.SPK
+    singleImage: true
+    files:
+      0: Resources/Units/Inventory/INV_MAN_5M2.png
+  - type: MAN_5M3.SPK
+    singleImage: true
+    files:
+      0: Resources/Units/Inventory/INV_MAN_5M3.png
+  - type: XCOM_5.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/COMBAT_ARMOR.png
+  - type: MAN_6F0.SPK
+    singleImage: true
+    files:
+      0: Resources/Units/Inventory/INV_MAN_6F0.png
+  - type: MAN_6F1.SPK
+    singleImage: true
+    files:
+      0: Resources/Units/Inventory/INV_MAN_6F1.png
+  - type: MAN_6F2.SPK
+    singleImage: true
+    files:
+      0: Resources/Units/Inventory/INV_MAN_6F2.png
+  - type: MAN_6F3.SPK
+    singleImage: true
+    files:
+      0: Resources/Units/Inventory/INV_MAN_6F3.png
+  - type: MAN_6M0.SPK
+    singleImage: true
+    files:
+      0: Resources/Units/Inventory/INV_MAN_6M0.png
+  - type: MAN_6M1.SPK
+    singleImage: true
+    files:
+      0: Resources/Units/Inventory/INV_MAN_6M1.png
+  - type: MAN_6M2.SPK
+    singleImage: true
+    files:
+      0: Resources/Units/Inventory/INV_MAN_6M2.png
+  - type: MAN_6M3.SPK
+    singleImage: true
+    files:
+      0: Resources/Units/Inventory/INV_MAN_6M3.png
+  - type: XCOM_6.PCK
+    width: 256
+    height: 1400
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/OFFICER_SUIT.png
+  - type: MAN_7F0.SPK
+    singleImage: true
+    files:
+      0: Resources/Units/Inventory/INV_MAN_7F0.png
+  - type: MAN_7F1.SPK
+    singleImage: true
+    files:
+      0: Resources/Units/Inventory/INV_MAN_7F1.png
+  - type: MAN_7F2.SPK
+    singleImage: true
+    files:
+      0: Resources/Units/Inventory/INV_MAN_7F2.png
+  - type: MAN_7F3.SPK
+    singleImage: true
+    files:
+      0: Resources/Units/Inventory/INV_MAN_7F3.png
+  - type: MAN_7M0.SPK
+    singleImage: true
+    files:
+      0: Resources/Units/Inventory/INV_MAN_7M0.png
+  - type: MAN_7M1.SPK
+    singleImage: true
+    files:
+      0: Resources/Units/Inventory/INV_MAN_7M1.png
+  - type: MAN_7M2.SPK
+    singleImage: true
+    files:
+      0: Resources/Units/Inventory/INV_MAN_7M2.png
+  - type: MAN_7M3.SPK
+    singleImage: true
+    files:
+      0: Resources/Units/Inventory/INV_MAN_7M3.png
+  - type: XCOM_7.PCK
+    width: 256
+    height: 1400
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/FLIGHT_SUIT.png
+  - type: ALLOY_VEST_DESERT.PCK
+    width: 256
+    height: 1400
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/ALLOY_VEST_DESERT.png
+  - type: ALLOY_VEST_FOREST.PCK
+    width: 256
+    height: 1400
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/ALLOY_VEST_FOREST.png
+  - type: ALLOY_VEST_SNOW.PCK
+    width: 256
+    height: 1400
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/ALLOY_VEST_SNOW.png
+  - type: ALLOY_VEST_URBAN.PCK
+    width: 256
+    height: 1400
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/ALLOY_VEST_URBAN.png
+  - type: COMBAT_ARMOR_DESERT.PCK
+    width: 256
+    height: 1400
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/COMBAT_ARMOR_DESERT.png
+  - type: COMBAT_ARMOR_FOREST.PCK
+    width: 256
+    height: 1400
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/COMBAT_ARMOR_FOREST.png
+  - type: COMBAT_ARMOR_RED.PCK
+    width: 256
+    height: 1400
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/COMBAT_SUIT_RED.png
+  - type: COMBAT_ARMOR_SNOW.PCK
+    width: 256
+    height: 1400
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/COMBAT_SUIT_SNOW.png
+  - type: COMBAT_ARMOR_URBAN.PCK
+    width: 512
+    height: 680
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/COMBAT_ARMOR_URBAN.png
+  - type: COMBAT_SUIT_DESERT.PCK
+    width: 256
+    height: 1400
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/COMBAT_SUIT_DESERT.png
+  - type: COMBAT_SUIT_FOREST.PCK
+    width: 256
+    height: 1400
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/COMBAT_SUIT_FOREST.png
+  - type: COMBAT_SUIT_RED.PCK
+    width: 256
+    height: 1400
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/COMBAT_SUIT_RED.png
+  - type: COMBAT_SUIT_SNOW.PCK
+    width: 256
+    height: 1400
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/COMBAT_SUIT_SNOW.png
+  - type: COMBAT_SUIT_URBAN.PCK
+    width: 256
+    height: 1400
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/COMBAT_SUIT_URBAN.png
+  - type: HUMAN_AGENT_1.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/HUMAN_AGENT_1.png
+  - type: HUMAN_AGENT_2.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/HUMAN_AGENT_2.png
+  - type: HUMAN_AGENT_3.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/HUMAN_AGENT_3.png
+  - type: HUMAN_AGENT_4.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/HUMAN_AGENT_4.png
+  - type: HUMAN_AGENT_5.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/HUMAN_AGENT_5.png
+  - type: HUMAN_AGENT_6.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/HUMAN_AGENT_6.png
+  - type: HUMAN_AGENT_7.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/HUMAN_AGENT_7.png
+  - type: HUMAN_AGENT_8.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/HUMAN_AGENT_8.png
+  - type: HUMAN_CHARACTER_0_0.PCK
+    width: 256
+    height: 1400
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/HUMAN_CHARACTER_0_0.png
+  - type: HUMAN_CHARACTER_0_1.PCK
+    width: 256
+    height: 1400
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/HUMAN_CHARACTER_0_1.png
+  - type: HUMAN_CHARACTER_0_2.PCK
+    width: 256
+    height: 1400
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/HUMAN_CHARACTER_0_2.png
+  - type: HUMAN_CHARACTER_0_3.PCK
+    width: 256
+    height: 1400
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/HUMAN_CHARACTER_0_3.png
+  - type: HUMAN_CHARACTER_0_4.PCK
+    width: 256
+    height: 1400
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/HUMAN_CHARACTER_0_4.png
+  - type: HUMAN_CHARACTER_0_5.PCK
+    width: 256
+    height: 1400
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/HUMAN_CHARACTER_0_5.png
+  - type: HUMAN_CHARACTER_0_6.PCK
+    width: 256
+    height: 1400
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/HUMAN_CHARACTER_0_6.png
+  - type: HUMAN_CHARACTER_0_7.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/HUMAN_CHARACTER_0_7.png
+  - type: HUMAN_ENGINEER.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1400
+    files:
+      0: Resources/Units/HUMAN_ENGINEER.png
+  - type: HUMAN_MANAGER.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1400
+    files:
+      0: Resources/Units/HUMAN_MANAGER.png
+  - type: HUMAN_SCIENTIST.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/HUMAN_SCIENTIST.png
+  - type: HUMAN_TECHNICIAN.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/HUMAN_TECHNICIAN.png
+  - type: HUMAN_SOLDIER_0_0.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/Units/HUMAN_SOLDIER_0_0.png
+  - type: HUMAN_SOLDIER_0_1.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1440
+    files:
+      0: Resources/Units/HUMAN_SOLDIER_0_1.png
+  - type: HUMAN_SOLDIER_0_2.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1440
+    files:
+      0: Resources/Units/HUMAN_SOLDIER_0_2.png
+  - type: HUMAN_SUIT_BLUE_1.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/HUMAN_SUIT_BLUE_1.png
+  - type: HUMAN_SUIT_BLUE_2.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/HUMAN_SUIT_BLUE_2.png
+  - type: HUMAN_SUIT_BLUE_3.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/HUMAN_SUIT_BLUE_3.png
+  - type: HUMAN_SUIT_RED_1.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/HUMAN_SUIT_RED_1.png
+  - type: HUMAN_SUIT_RED_2.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/HUMAN_SUIT_RED_2.png
+  - type: HUMAN_SUIT_RED_3.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/HUMAN_SUIT_RED_3.png
+  - type: HUMAN_SUIT_PURPLE_1.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/HUMAN_SUIT_PURPLE_1.png
+  - type: HUMAN_SUIT_PURPLE_2.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/HUMAN_SUIT_PURPLE_2.png
+  - type: HUMAN_SUIT_PURPLE_3.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/HUMAN_SUIT_PURPLE_3.png
+  - type: HUMAN_SUIT_GREEN_1.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/HUMAN_SUIT_GREEN_1.png
+  - type: HUMAN_SUIT_GREEN_2.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/HUMAN_SUIT_GREEN_2.png
+  - type: HUMAN_SUIT_GREEN_3.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/HUMAN_SUIT_GREEN_3.png
+  - type: HUMAN_SUIT_GREY_1.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/HUMAN_SUIT_GREY_1.png
+  - type: HUMAN_SUIT_GREY_2.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/HUMAN_SUIT_GREY_2.png
+  - type: HUMAN_SUIT_GREY_3.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/HUMAN_SUIT_GREY_3.png
+  - type: HUMAN_SUIT_PINK_1.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/HUMAN_SUIT_PINK_1.png
+  - type: HUMAN_SUIT_PINK_2.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/HUMAN_SUIT_PINK_2.png
+  - type: HUMAN_SUIT_PINK_3.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/HUMAN_SUIT_PINK_3.png
+  - type: HUMAN_SUIT_BLACK_1.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/HUMAN_SUIT_BLACK_1.png
+  - type: HUMAN_SUIT_BLACK_2.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/HUMAN_SUIT_BLACK_2.png
+  - type: HUMAN_SUIT_BLACK_3.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/HUMAN_SUIT_BLACK_3.png
+  - type: HUMAN_SUIT_BLACK_4.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/HUMAN_SUIT_BLACK_4.png
+  - type: HUMAN_SUIT_BLACK_5.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/HUMAN_SUIT_BLACK_5.png
+  - type: HUMAN_SUIT_BLACK_6.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/HUMAN_SUIT_BLACK_6.png
+  - type: HUMAN_SUIT_BLACK_7.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/HUMAN_SUIT_BLACK_7.png
+  - type: HUMAN_SUIT_BLACK_8.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/HUMAN_SUIT_BLACK_8.png
+  - type: JUMPSUIT_DESERT.PCK
+    width: 256
+    height: 1400
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/JUMPSUIT_DESERT.png
+  - type: JUMPSUIT_FOREST.PCK
+    width: 256
+    height: 1400
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/JUMPSUIT_FOREST.png
+  - type: JUMPSUIT_OFFICER.PCK
+    width: 256
+    height: 1400
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/JUMPSUIT_OFFICER.png
+  - type: JUMPSUIT_PILOT.PCK
+    width: 256
+    height: 1400
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/JUMPSUIT_PILOT.png
+  - type: JUMPSUIT_RED.PCK
+    width: 256
+    height: 1400
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/JUMPSUIT_RED.png
+  - type: JUMPSUIT_SNOW.PCK
+    width: 256
+    height: 1400
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/JUMPSUIT_SNOW.png
+  - type: JUMPSUIT_URBAN.PCK
+    width: 256
+    height: 1400
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/JUMPSUIT_URBAN.png
+  - type: POLICE_MALE_CIVILIAN.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1360
+    files:
+      0: Resources/Units/POLICE_MAN.png
+  - type: POLICE_FEMALE_CIVILIAN.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1360
+    files:
+      0: Resources/Units/POLICE_WOMAN.png
+  - type: TERMINATOR_T200.PCK
+    width: 512
+    height: 680
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/TERMINATOR_T200.png
+  - type: TERMINATOR_T300.PCK
+    width: 256
+    height: 1440
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/TERMINATOR_T300.png
+  - type: TERMINATOR_T400.PCK
+    width: 256
+    height: 1440
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/TERMINATOR_T400.png
+  - type: TERMINATOR_T500.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/TERMINATOR_T500.png
+  - type: TERMINATOR_T700.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/TERMINATOR_T700.png
+  - type: TERMINATOR_T800.PCK
+    width: 256
+    height: 1360
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/TERMINATOR_T800.png
+  - type: TERMINATOR_T800_INFILTRATOR.PCK
+    width: 256
+    height: 480
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/TERMINATOR_T800_INFILTRATOR.png
+  - type: TERMINATOR_T1000.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 200
+    files:
+      0: Resources/Units/TERMINATOR_T1000.png
+  - type: HK_CERBERUS.PCK
+    width: 512
+    height: 200
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/HK_CERBERUS.png
+  - type: HK_CYBERMITE.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 240
+    files:
+      0: Resources/Units/HK_CYBERMITE.png
+  - type: HK_DRONE.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 200
+    files:
+      0: Resources/Units/HK_DRONE.png
+  - type: HK_SEEKER.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 200
+    files:
+      0: Resources/Units/HK_SEEKER.png
+  - type: HK_SENTRY.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 400
+    files:
+      0: Resources/Units/HK_SENTRY.png
+  - type: UNIFORM_DESERT.PCK
+    width: 256
+    height: 1400
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/UNIFORM_DESERT.png
+  - type: UNIFORM_FOREST.PCK
+    width: 256
+    height: 1400
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/UNIFORM_FOREST.png
+  - type: UNIFORM_RED.PCK
+    width: 256
+    height: 1400
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/UNIFORM_RED.png
+  - type: UNIFORM_SNOW.PCK
+    width: 256
+    height: 1400
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/UNIFORM_SNOW.png
+  - type: UNIFORM_URBAN.PCK
+    width: 256
+    height: 1400
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/UNIFORM_URBAN.png
+  - type: INV_HUMAN_JUMPSUIT
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Units/Inventory/INV_HUMAN_JUMPSUIT.png
+  - type: INV_HUMAN_AGENT
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Units/Inventory/INV_HUMAN_AGENT.png
+  - type: INV_HUMAN_SCIENTIST
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Units/Inventory/INV_HUMAN_SCIENTIST.png
+  - type: INV_TERMINATOR_T200
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Units/Inventory/INV_TERMINATOR_T200.png
+  - type: INV_TERMINATOR_T300
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Units/Inventory/INV_TERMINATOR_T300.png
+  - type: INV_TERMINATOR_T400
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Units/Inventory/INV_TERMINATOR_T400.png
+  - type: INV_ALLOY_VEST_DESERT
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Units/Inventory/INV_ALLOY_VEST_DESERT.png
+  - type: INV_ALLOY_VEST_FOREST
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Units/Inventory/INV_ALLOY_VEST_FOREST.png
+  - type: INV_ALLOY_VEST_SNOW
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Units/Inventory/INV_ALLOY_VEST_SNOW.png
+  - type: INV_ALLOY_VEST_URBAN
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Units/Inventory/INV_ALLOY_VEST_URBAN.png
+  - type: INV_COMBAT_ARMOR_DESERT
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Units/Inventory/INV_COMBAT_ARMOR_DESERT.png
+  - type: INV_COMBAT_ARMOR_FOREST
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Units/Inventory/INV_COMBAT_ARMOR_FOREST.png
+  - type: INV_COMBAT_ARMOR_SNOW
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Units/Inventory/INV_COMBAT_ARMOR_SNOW.png
+  - type: INV_COMBAT_ARMOR_URBAN
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Units/Inventory/INV_COMBAT_ARMOR_URBAN.png
+  - type: INV_JUMPSUIT_DESERT
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Units/Inventory/INV_JUMPSUIT_DESERT.png
+  - type: INV_JUMPSUIT_FOREST
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Units/Inventory/INV_JUMPSUIT_FOREST.png
+  - type: INV_JUMPSUIT_SNOW
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Units/Inventory/INV_JUMPSUIT_SNOW.png
+  - type: INV_JUMPSUIT_URBAN
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Units/Inventory/INV_JUMPSUIT_URBAN.png
+  - type: INV_HUMAN_CHARACTER
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Units/Inventory/INV_HUMAN_CHARACTER.png
+  - type: INV_HK_SENTRY
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Units/Inventory/INV_HUMAN_CHARACTER.png
+#BACKGROUND  
+  - type: BACK02.SCR #soldier
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Geoscape/BACK02.PNG
+  - type: BACK04.SCR #fire
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Geoscape/BACK04.PNG
+  - type: BACK05.SCR #res
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Geoscape/BACK05.PNG
+  - type: BACK12.SCR
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Geoscape/BACK12.PNG
+  - type: BACK13.SCR #empire
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Geoscape/BACK13.PNG
+  - type: BACK14.SCR #equip craft
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Geoscape/BACK14.PNG
+  - type: BACK15.SCR 
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Geoscape/BACK15.PNG
+  - type: BACK16.SCR 
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Geoscape/BACK16.PNG
+  - type: BACK17.SCR #manufacture
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Geoscape/BACK17.PNG
+  - type: BACK01.SCR
+    singleImage: true
+    width: 320
+    height: 200
+    files: 
+      0: Resources/Geoscape/BACK181.PNG
+  - type: BACK03.SCR
+    singleImage: true
+    width: 320
+    height: 200
+    files: 
+      0: Resources/Geoscape/BACK183.PNG
+  - type: BACK18.SCR
+    singleImage: true
+    width: 320
+    height: 200
+    files: 
+      0: Resources/Geoscape/BACK186.PNG
+  - type: BACK185.SCR
+    singleImage: true
+    width: 320
+    height: 200
+    files: 
+      0: Resources/Geoscape/BACK185.PNG
+  - type: BACK192.SCR
+    singleImage: true
+    width: 320
+    height: 200
+    files: 
+      0: Resources/Geoscape/BACK192.PNG
+  - type: CustomArmorPreviews
+    width: 120
+    height: 22
+    subX: 12
+    subY: 20
+    files:
+      0: Resources/Geoscape/GUI_Craft_Armor.png
+  - type: GlobeMarkers
+    width: 120
+    height: 3
+    subX: 3
+    subY: 3
+    files:
+      0: Resources/Geoscape/globe_ufo_expanded1.png
+  - type: TEXTURE.DAT
+    width: 768
+    height: 96
+    subX: 32
+    subY: 32
+    files:
+      0: Resources/Geoscape/TEXTURES.PNG
+  - type: BASEBITS.PCK
+    files:
+      56: Resources/Craft/v22_base.gif	  
+      57: Resources/Craft/Hawkeye_base.gif	
+      58: Resources/Craft/Lion_base.gif  
+      59: Resources/Craft/Skyhawk_base.gif  
+      60: Resources/Craft/Talon_base.gif  
+      61: Resources/Craft/Tracer_base.gif  
+      62: Resources/Craft/Viking_base.gif  
+      63: Resources/Craft/Warthog_base.gif   
+      64: Resources/Craft/Bronco_base.gif   
+      65: Resources/Craft/Dragonfly_base.gif  
+      99: Resources/Craft/Dynavert_base.gif
+      100: Resources/Craft/Goshawk_base.gif
+      101: Resources/Craft/Guardrail_base.gif
+      102: Resources/Craft/Mohawk_base.gif
+      103: Resources/Craft/Sherpa_base.gif
+      104: Resources/Craft/TwinOtter_base.gif
+      105: Resources/Craft/Prowler_base.gif
+      384: Resources/Facilities/Hangar3X3_SpriteFacility01.GIF
+      385: Resources/Facilities/Hangar3X3_SpriteFacility02.GIF
+      386: Resources/Facilities/Hangar3X3_SpriteFacility03.GIF
+      387: Resources/Facilities/Hangar3X3_SpriteFacility04.GIF
+      388: Resources/Facilities/Hangar3X3_SpriteFacility05.GIF
+      389: Resources/Facilities/Hangar3X3_SpriteFacility06.GIF
+      390: Resources/Facilities/Hangar3X3_SpriteFacility07.GIF
+      391: Resources/Facilities/Hangar3X3_SpriteFacility08.GIF
+      392: Resources/Facilities/Hangar3X3_SpriteFacility09.GIF
+      393: Resources/Facilities/Hangar3X3_SpriteShape01.GIF
+      394: Resources/Facilities/Hangar3X3_SpriteShape02.GIF
+      395: Resources/Facilities/Hangar3X3_SpriteShape03.GIF
+      396: Resources/Facilities/Hangar3X3_SpriteShape04.GIF
+      397: Resources/Facilities/Hangar3X3_SpriteShape05.GIF
+      398: Resources/Facilities/Hangar3X3_SpriteShape06.GIF
+      399: Resources/Facilities/Hangar3X3_SpriteShape07.GIF
+      400: Resources/Facilities/Hangar3X3_SpriteShape08.GIF
+      401: Resources/Facilities/Hangar3X3_SpriteShape09.GIF
+  - type: INTICON.PCK
+    files:
+      22: Resources/Craft/p_minimised.gif
+      23: Resources/Craft/v22_minimised.gif
+      24: Resources/Craft/Hawkeye_minimised.gif
+      25: Resources/Craft/Lion_minimised.gif
+      26: Resources/Craft/Skyhawk_minimised.gif
+      27: Resources/Craft/Talon_minimised.gif
+      28: Resources/Craft/Tracer_minimised.gif
+      29: Resources/Craft/Viking_minimised.gif
+      30: Resources/Craft/Warthog_minimised.gif
+      31: Resources/Craft/Bronco_minimised.gif
+      32: Resources/Craft/Dragonfly_minimised.gif
+      66: Resources/Craft/Dynavert_minimised.gif
+      67: Resources/Craft/Goshawk_minimised.gif
+      68: Resources/Craft/Guardrail_minimised.gif
+      69: Resources/Craft/Mohawk_minimised.gif
+      70: Resources/Craft/Sherpa_minimised.gif
+      71: Resources/Craft/TwinOtter_minimised.gif
+      72: Resources/Craft/Prowler_minimised.gif
+      33: Resources/Craft/p_dogfight.gif
+      34: Resources/Craft/v22_dogfight.gif	 
+      35: Resources/Craft/Hawkeye_dogfight.gif	 
+      36: Resources/Craft/Lion_dogfight.gif	 
+      37: Resources/Craft/Skyhawk_dogfight.gif	 
+      38: Resources/Craft/Talon_dogfight.gif	 
+      39: Resources/Craft/Tracer_dogfight.gif	 
+      40: Resources/Craft/Viking_dogfight.gif	 
+      41: Resources/Craft/Warthog_dogfight.gif 
+      42: Resources/Craft/Bronco_dogfight.gif	 
+      43: Resources/Craft/Dragonfly_dogfight.gif
+      77: Resources/Craft/Dynavert_dogfight.gif
+      78: Resources/Craft/Goshawk_dogfight.gif
+      79: Resources/Craft/Guardrail_dogfight.gif
+      80: Resources/Craft/Mohawk_dogfight.gif
+      81: Resources/Craft/Sherpa_dogfight.gif
+      82: Resources/Craft/TwinOtter_dogfight.gif
+      83: Resources/Craft/Prowler_dogfight.gif
+      105: Resources/Icons/AMRAAM_dogfight.png
+      106: Resources/Icons/ASRAAM_dogfight.png
+      107: Resources/Icons/ECMPods_dogfight.png
+      108: Resources/Icons/FuelPods_dogfight.png
+      109: Resources/Icons/GAU2_dogfight.png
+      110: Resources/Icons/GAU4_dogfight.png
+      111: Resources/Icons/GAU8_dogfight.png
+      112: Resources/Icons/GAU12_dogfight.png
+      113: Resources/Icons/GAU19_dogfight.png
+      114: Resources/Icons/HARM_dogfight.png
+      115: Resources/Icons/Hydra_dogfight.png
+      116: Resources/Icons/Sidewinder_dogfight.png
+      117: Resources/Icons/Sparrow_dogfight.png
+      118: Resources/Icons/Standard_dogfight.png
+      119: Resources/Icons/Stinger_dogfight.png
+  - type: WARTHOG_UFOPEDIA
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Craft/WARTHOG_UFOPEDIA.PNG
+  - type: DRAGONFLY_UFOPEDIA
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Craft/DRAGONFLY_UFOPEDIA.PNG
+  - type: HAWKEYE_UFOPEDIA
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Craft/HAWKEYE_UFOPEDIA.PNG
+  - type: TRACER_UFOPEDIA
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Craft/TRACER_UFOPEDIA.PNG
+  - type: VIKING_UFOPEDIA
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Craft/VIKING_UFOPEDIA.PNG
+  - type: BRONCO_UFOPEDIA
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Craft/BRONCO_UFOPEDIA.PNG
+  - type: MOHAWK_UFOPEDIA
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Craft/MOHAWK_UFOPEDIA.PNG
+  - type: OSPREY_UFOPEDIA
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Craft/OSPREY_UFOPEDIA.PNG
+  - type: SUPER_OSPREY_UFOPEDIA
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Craft/SUPER_OSPREY_UFOPEDIA.PNG
+  - type: BLACKBIRD_UFOPEDIA
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Craft/BLACKBIRD_UFOPEDIA.PNG
+  - type: SKYHAWK_UFOPEDIA
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Craft/SKYHAWK_UFOPEDIA.PNG
+  - type: TALON_UFOPEDIA
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Craft/TALON_UFOPEDIA.PNG
+  - type: TWIN_OTTER_UFOPEDIA
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Craft/TWIN_OTTER_UFOPEDIA.PNG
+  - type: SHERPA_UFOPEDIA
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Craft/SHERPA_UFOPEDIA.PNG
+  - type: DYNAVERT_UFOPEDIA
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Craft/DYNAVERT_UFOPEDIA.PNG
+  - type: LION_UFOPEDIA
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Craft/LION_UFOPEDIA.PNG
+  - type: GOSHAWK_UFOPEDIA
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Craft/GOSHAWK_UFOPEDIA.PNG
+  - type: GUARDRAIL_UFOPEDIA
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Craft/GUARDRAIL_UFOPEDIA.PNG
+  - type: PROWLER_UFOPEDIA
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Craft/PROWLER_UFOPEDIA.PNG
+  - type: UFOPAEDIA_IMG_PHASER
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPedia/UFOPEDIA_PHASER.GIF
+  - type: UFOPAEDIA_IMG_PHASER_CORPSE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOPedia/UFOPEDIA_PHASER_AUTOPSY.GIF
+  - type: BIGOBS.PCK
+    width: 256
+    height: 384
+    subX: 32
+    subY: 48
+    files:
+      100: Resources/TerminatorBigObs.png
+  - type: HANDOB.PCK
+    width: 256
+    height: 1160
+    subX: 32
+    subY: 40
+    files:
+      132: Resources/TerminatorHandObs.png
+  - type: HANDOB.PCK
+    width: 256
+    height: 1360
+    subX: 32
+    subY: 40
+    files:
+      364: Resources/TerminatorClipHandObs.png
+  - type: FLOOROB.PCK
+    width: 256
+    height: 320
+    subX: 32
+    subY: 40
+    files:
+      100: Resources/TerminatorFloorObs.png
+  - type: Projectiles
+    width: 105
+    height: 9
+    subX: 3
+    subY: 3
+    files:
+      385: Resources/BluePlasma.png
+  - type: Projectiles
+    width: 105
+    height: 9
+    subX: 3
+    subY: 3
+    files:
+      490: Resources/PurplePlasma.png
+  - type: SMOKE.PCK
+    width: 320
+    height: 40
+    subX: 32
+    subY: 40
+    files:
+      56: Resources/BlueSmoke.png
+  - type: SMOKE.PCK
+    width: 320
+    height: 40
+    subX: 32
+    subY: 40
+    files:
+      66: Resources/PurpleSmoke.png
+  - type: FUELPOD
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/FUELTANK.gif
+  - type: ECMPOD
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/ECMPOD.gif
+  - type: AMRAAM
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/AMRAAM.gif
+  - type: ASRAAM
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/ASRAAM.gif
+  - type: GAU2
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/GAU2.gif
+  - type: GAU4
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/GAU4.gif
+  - type: GAU8
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/GAU8.gif
+  - type: GAU12
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/GAU12.gif
+  - type: GAU19
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/GAU19.gif
+  - type: HARM
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/HARM.gif
+  - type: HYDRA
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/HYDRA.gif
+  - type: SIDEWINDER
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/SIDEWINDER.gif
+  - type: SPARROW
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/SPARROW.gif
+  - type: STANDARD
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/STANDARD.gif
+  - type: STINGER
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/STINGER.gif
+  - type: SECTOR_00
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/SECTOR_02_UFOPEDIA.PNG
+  - type: SECTOR_01
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/SECTOR_02_UFOPEDIA.PNG
+  - type: SECTOR_02
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/SECTOR_02_UFOPEDIA.PNG
+  - type: SECTOR_03
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/SECTOR_02_UFOPEDIA.PNG
+  - type: SECTOR_04
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/SECTOR_02_UFOPEDIA.PNG
+  - type: SECTOR_05
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/SECTOR_02_UFOPEDIA.PNG
+  - type: SECTOR_06
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/SECTOR_02_UFOPEDIA.PNG
+  - type: SECTOR_07
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/SECTOR_02_UFOPEDIA.PNG
+  - type: SECTOR_08
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/SECTOR_02_UFOPEDIA.PNG
+  - type: SECTOR_09
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/SECTOR_02_UFOPEDIA.PNG
+  - type: SECTOR_10
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/SECTOR_02_UFOPEDIA.PNG
+  - type: SECTOR_11
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/SECTOR_02_UFOPEDIA.PNG
+  - type: SECTOR_12
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/SECTOR_02_UFOPEDIA.PNG
+  - type: SECTOR_13
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/SECTOR_02_UFOPEDIA.PNG
+  - type: SECTOR_14
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/SECTOR_02_UFOPEDIA.PNG
+  - type: SECTOR_15
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/SECTOR_02_UFOPEDIA.PNG
+  - type: SECTOR_16
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/SECTOR_02_UFOPEDIA.PNG
+  - type: SECTOR_17
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/SECTOR_02_UFOPEDIA.PNG
+  - type: SECTOR_18
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/SECTOR_02_UFOPEDIA.PNG
+  - type: SECTOR_19
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/SECTOR_02_UFOPEDIA.PNG
+  - type: SECTOR_20
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/SECTOR_20_UFOPEDIA.PNG
+  - type: SECTOR_21
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/SECTOR_02_UFOPEDIA.PNG
+  - type: InterceptHKDrone
+    singleImage: true
+    width: 160
+    height: 52
+    files:
+      0: Resources/Interwin/Interwin_drone.gif
+  - type: InterceptHKScoutS1
+    singleImage: true
+    width: 160
+    height: 52
+    files:
+      0: Resources/Interwin/Interwin_scoutS1.gif
+  - type: InterceptHKScoutS2
+    singleImage: true
+    width: 160
+    height: 52
+    files:
+      0: Resources/Interwin/Interwin_scoutS2.gif
+  - type: InterceptHKFighterS1
+    singleImage: true
+    width: 160
+    height: 52
+    files:
+      0: Resources/Interwin/Interwin_fighterS1.gif
+  - type: InterceptHKFighterS2
+    singleImage: true
+    width: 160
+    height: 52
+    files:
+      0: Resources/Interwin/Interwin_fighterS2.gif
+  - type: InterceptHKInterceptor1
+    singleImage: true
+    width: 160
+    height: 52
+    files:
+      0: Resources/Interwin/Interwin_interceptor1.gif
+  - type: InterceptHKTransportS1
+    singleImage: true
+    width: 160
+    height: 52
+    files:
+      0: Resources/Interwin/Interwin_transportS1.gif
+  - type: InterceptHKTransportS2
+    singleImage: true
+    width: 160
+    height: 52
+    files:
+      0: Resources/Interwin/Interwin_transportS2.gif
+  - type: InterceptHKScoutL
+    singleImage: true
+    width: 160
+    height: 52
+    files:
+      0: Resources/Interwin/Interwin_scoutL.gif
+  - type: InterceptHKFighterL
+    singleImage: true
+    width: 160
+    height: 52
+    files:
+      0: Resources/Interwin/Interwin_fighterL.gif
+  - type: InterceptHKTransportL
+    singleImage: true
+    width: 160
+    height: 52
+    files:
+      0: Resources/Interwin/Interwin_transportL.gif
+  - type: InterceptHKTank
+    singleImage: true
+    width: 160
+    height: 52
+    files:
+      0: Resources/Interwin/Interwin_Tank.gif
+#INTELPEDIA TECH-COMM
+  - type: COMM_REPORT_1
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/COMM_REPORT_1_IMAGE.PNG
+  - type: COMM_REPORT_2
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/COMM_REPORT_2_IMAGE.PNG
+  - type: COMM_REPORT_3
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/COMM_REPORT_3_IMAGE.PNG
+  - type: COMM_REPORT_4
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/COMM_REPORT_4_IMAGE.PNG
+  - type: TECH_COMM_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/TECH_COMM_IMAGE.PNG
+  - type: RESISTANCE_PERSONNEL_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/RESISTANCE_PERSONNEL_IMAGE.PNG
+  - type: RESISTANCE_CRAFT_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/GRAVEYARD_AIRFORCE_IMAGE.PNG
+  - type: TECH_COMM_BASES_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/TECH_COMM_BASES_IMAGE.PNG
+  - type: RESISTANCE_MISSIONS_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/RESISTANCE_MISSIONS_IMAGE.PNG
+#INTELPEDIA SKYNET
+  - type: SKYNET_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/SKYNET_IMAGE.PNG
+  - type: SKYNET_FACILITIES_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/SKYNET_FACILITIES_IMAGE.PNG
+  - type: SKYNET_CORE_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/SKYNET_CORE_IMAGE.PNG
+  - type: SKYNET_TEMPUS_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/SKYNET_TEMPUS_IMAGE.PNG
+  - type: SKYNET_FACTORY_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/SKYNET_FACTORY_IMAGE.PNG
+  - type: SKYNET_LAB_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/SKYNET_LAB_IMAGE.PNG
+  - type: SKYNET_HKBASE_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/SKYNET_HKBASE_IMAGE.PNG
+  - type: SKYNET_WORKCAMP_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/SKYNET_WORKCAMP_IMAGE.PNG
+  - type: SKYNET_PROTOCOLS_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/SKYNET_PROTOCOLS_IMAGE.PNG
+  - type: SKYNET_RESEARCH_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/SKYNET_RESEARCH_IMAGE.PNG
+  - type: SKYNET_RECLAMATION_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/SKYNET_RECLAMATION_IMAGE.PNG
+  - type: SKYNET_ERRADICATION_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/SKYNET_ERRADICATION_IMAGE.PNG
+  - type: SKYNET_INFILTRATION_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/SKYNET_INFILTRATION_IMAGE.PNG
+  - type: SKYNET_EXPANSION_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/SKYNET_EXPANSION_IMAGE.PNG
+  - type: SKYNET_INTERDICTION_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/SKYNET_INTERDICTION_IMAGE.PNG
+  - type: SKYNET_TERMINATION_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/SKYNET_TERMINATION_IMAGE.PNG
+  - type: SKYNET_PACIFICATION_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/SKYNET_PACIFICATION_IMAGE.PNG
+  - type: SKYNET_SUPPLY_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/SKYNET_SUPPLY_IMAGE.PNG
+  - type: SKYNET_TRANSPORT_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/SKYNET_TRANSPORT_IMAGE.PNG
+  - type: HUNTER_KILLERS_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/HUNTER_KILLERS_IMAGE.PNG

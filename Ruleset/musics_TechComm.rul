@@ -1,0 +1,13 @@
+musics:
+  - type: GMSTORY
+    catPos: 12
+    normalization: 2.1
+  - type: GMINTER
+    catPos: 2
+    normalization: 2.74
+  - type: GMGEO1
+    catPos: 0
+    normalization: 2.19
+  - type: GMGEO2
+    catPos: 18
+    normalization: 2.0

@@ -1,0 +1,252 @@
+craftWeapons: #DONE
+#<delete>
+  - delete: STR_STINGRAY
+  - delete: STR_AVALANCHE
+  - delete: STR_CANNON_UC
+  - delete: STR_FUSION_BALL_UC
+  - delete: STR_LASER_CANNON_UC
+  - delete: STR_PLASMA_BEAM_UC
+#<delete>
+# weaponType 0 = Light Cannon
+# weaponType 1 = Medium Cannon
+# weaponType 2 = Heavy Cannon
+# weaponType 3 = Self Defense AAM
+# weaponType 4 = Short Range & Anti-Radiation AAM
+# weaponType 5 = Medium Range AAM
+# weaponType 6 = Fuel/ECM Pods
+  - type: STR_AMRAAM
+    weaponType: 5
+    sprite: 100
+    sound: 5
+    damage: 110
+    range: 60
+    accuracy: 90
+    reloadCautious: 96
+    reloadStandard: 72
+    reloadAggressive: 48
+    ammoMax: 2
+    launcher: STR_AMRAAM_LAUNCHER
+    clip: STR_AMRAAM_MISSILES
+    projectileType: 1
+    projectileSpeed: 8
+  - type: STR_ASRAAM
+    weaponType: 4
+    sprite: 101
+    sound: 5
+    damage: 80
+    range: 40
+    accuracy: 80
+    reloadCautious: 64
+    reloadStandard: 48
+    reloadAggressive: 32
+    ammoMax: 2
+    launcher: STR_ASRAAM_LAUNCHER
+    clip: STR_ASRAAM_MISSILES
+    projectileType: 0
+    projectileSpeed: 8
+  - type: STR_ECM_PODS_UC
+    weaponType: 6
+    sprite: 102
+    sound: 0
+    damage: 0
+    range: 0
+    accuracy: 0
+    reloadCautious: 0
+    reloadStandard: 0
+    reloadAggressive: 0
+    ammoMax: 0
+    rearmRate: 0
+    launcher: STR_ECM_PODS
+    projectileType: 0
+    projectileSpeed: 0
+    stats:
+      avoidBonus: 20
+  - type: STR_FUEL_PODS_UC
+    weaponType: 6
+    sprite: 103
+    sound: 0
+    damage: 0
+    range: 0
+    accuracy: 0
+    reloadCautious: 0
+    reloadStandard: 0
+    reloadAggressive: 0
+    ammoMax: 0
+    rearmRate: 0
+    launcher: STR_FUEL_PODS
+    projectileType: 0
+    projectileSpeed: 0
+    stats:
+      fuelMax: 50
+      accel: -1
+      avoidBonus: -5
+  - type: STR_GAU_2
+    weaponType: 0
+    sprite: 104
+    sound: 4
+    damage: 10
+    range: 10
+    accuracy: 25
+    reloadCautious: 4
+    reloadStandard: 4
+    reloadAggressive: 4
+    ammoMax: 200
+    rearmRate: 100
+    launcher: STR_GAU_2_CANNON
+    clip: STR_GAU_2_CANNON_ROUNDS_X50
+    projectileType: 2
+    projectileSpeed: 8
+  - type: STR_GAU_4
+    weaponType: 1
+    sprite: 105
+    sound: 4
+    damage: 20
+    range: 10
+    accuracy: 25
+    reloadCautious: 6
+    reloadStandard: 6
+    reloadAggressive: 6
+    ammoMax: 150
+    rearmRate: 100
+    launcher: STR_GAU_4_CANNON
+    clip: STR_GAU_4_CANNON_ROUNDS_X50
+    projectileType: 2
+    projectileSpeed: 8
+  - type: STR_GAU_8
+    weaponType: 2
+    sprite: 106
+    sound: 4
+    damage: 30
+    range: 10
+    accuracy: 25
+    reloadCautious: 8
+    reloadStandard: 8
+    reloadAggressive: 8
+    ammoMax: 100
+    rearmRate: 100
+    launcher: STR_GAU_8_CANNON
+    clip: STR_GAU_8_CANNON_ROUNDS_X50
+    projectileType: 2
+    projectileSpeed: 8
+  - type: STR_GAU_12
+    weaponType: 1
+    sprite: 107
+    sound: 4
+    damage: 15
+    range: 10
+    accuracy: 25
+    reloadCautious: 4
+    reloadStandard: 4
+    reloadAggressive: 4
+    ammoMax: 200
+    rearmRate: 100
+    launcher: STR_GAU_12_CANNON
+    clip: STR_GAU_12_CANNON_ROUNDS_X50
+    projectileType: 2
+    projectileSpeed: 8
+  - type: STR_GAU_19
+    weaponType: 0
+    sprite: 108
+    sound: 4
+    damage: 25
+    range: 10
+    accuracy: 25
+    reloadCautious: 6
+    reloadStandard: 6
+    reloadAggressive: 6
+    ammoMax: 150
+    rearmRate: 100
+    launcher: STR_GAU_19_CANNON
+    clip: STR_GAU_19_CANNON_ROUNDS_X50
+    projectileType: 2
+    projectileSpeed: 8
+  - type: STR_HARM
+    weaponType: 4
+    sprite: 109
+    sound: 5
+    damage: 100
+    range: 50
+    accuracy: 70
+    reloadCautious: 96
+    reloadStandard: 72
+    reloadAggressive: 48
+    ammoMax: 2
+    launcher: STR_HARM_LAUNCHER
+    clip: STR_HARM_MISSILES
+    projectileType: 1
+    projectileSpeed: 8
+  - type: STR_HYDRA
+    weaponType: 3
+    sprite: 110
+    sound: 5
+    damage: 15
+    range: 24
+    accuracy: 30
+    reloadCautious: 24
+    reloadStandard: 16
+    reloadAggressive: 8
+    ammoMax: 38
+    launcher: STR_HYDRA_LAUNCHER
+    clip: STR_HYDRA_ROCKETS
+    projectileType: 0
+    projectileSpeed: 8
+  - type: STR_SIDEWINDER
+    weaponType: 4
+    sprite: 111
+    sound: 5
+    damage: 70
+    range: 30
+    accuracy: 70
+    reloadCautious: 64
+    reloadStandard: 48
+    reloadAggressive: 32
+    ammoMax: 2
+    launcher: STR_SIDEWINDER_LAUNCHER
+    clip: STR_SIDEWINDER_MISSILES
+    projectileType: 0
+    projectileSpeed: 8
+  - type: STR_SPARROW
+    weaponType: 5
+    sprite: 112
+    sound: 5
+    damage: 100
+    range: 60
+    accuracy: 80
+    reloadCautious: 96
+    reloadStandard: 72
+    reloadAggressive: 48
+    ammoMax: 2
+    launcher: STR_SPARROW_LAUNCHER
+    clip: STR_SPARROW_MISSILES
+    projectileType: 1
+    projectileSpeed: 8
+  - type: STR_STANDARD
+    weaponType: 4
+    sprite: 113
+    sound: 5
+    damage: 75
+    range: 50
+    accuracy: 60
+    reloadCautious: 96
+    reloadStandard: 72
+    reloadAggressive: 48
+    ammoMax: 2
+    launcher: STR_STANDARD_LAUNCHER
+    clip: STR_STANDARD_MISSILES
+    projectileType: 1
+    projectileSpeed: 8
+  - type: STR_STINGER
+    weaponType: 3
+    sprite: 114
+    sound: 5
+    damage: 30
+    range: 20
+    accuracy: 60
+    reloadCautious: 48
+    reloadStandard: 32
+    reloadAggressive: 16
+    ammoMax: 4
+    launcher: STR_STINGER_LAUNCHER
+    clip: STR_STINGER_MISSILES
+    projectileType: 0
+    projectileSpeed: 8

@@ -1,0 +1,179 @@
+#TO DO: Reconsider starting craft mix and numbers
+startingBase:
+  facilities:
+    - type: STR_COMMAND_STATION
+      x: 4
+      y: 4
+    - type: STR_SHELTER
+      x: 0
+      y: 0
+    - type: STR_SHELTER
+      x: 2
+      y: 0
+    - type: STR_SHELTER
+      x: 4
+      y: 0
+    - type: STR_HOUSING
+      x: 2
+      y: 4
+    - type: STR_STORAGE
+      x: 0
+      y: 4
+    - type: STR_BUNKER
+      x: 0
+      y: 3
+    - type: STR_MISSILE_SITE
+      x: 5
+      y: 2
+    - type: STR_GUARD_TOWER
+      x: 5
+      y: 3
+    - type: STR_COMM_TOWER
+      x: 0
+      y: 2
+    - type: STR_TECH_LAB
+      x: 4
+      y: 3
+  randomSoldiers: 25
+  crafts:
+    - type: STR_OSPREY
+      id: 1
+      fuel: 77
+      damage: 0
+      status: STR_READY
+      weapons:
+        - type: STR_GAU_4
+          ammo: 150
+      items:
+        STR_PUMP_SHOTGUN: 2
+        STR_SEMI_AUTO_SHOTGUN: 2
+        STR_SHOTGUN_SHELLS: 4
+        STR_SHOTGUN_SLUGS: 4
+        STR_RIFLE_M4: 4
+        STR_556_SS109: 8
+        STR_RIFLE_AK47: 4
+        STR_762_SP: 8
+        STR_M82A1: 4
+        STR_50_BMG: 2
+        STR_50_HEAT: 4
+    - type: STR_DRAGONFLY
+      id: 1
+      fuel: 87
+      damage: 0
+      status: STR_READY
+      weapons:
+        - type: STR_GAU_2
+          ammo: 200
+        - type: STR_HYDRA
+          ammo: 38
+        - type: STR_SIDEWINDER
+          ammo: 2
+    - type: STR_WARTHOG
+      id: 1
+      fuel: 66
+      damage: 0
+      status: STR_READY
+      weapons:
+        - type: STR_GAU_8
+          ammo: 100
+        - type: STR_HYDRA
+          ammo: 38
+        - type: STR_SIDEWINDER
+          ammo: 2
+        - type: STR_STANDARD
+          ammo: 2
+    - type: STR_TALON
+      id: 1
+      fuel: 90
+      damage: 0
+      status: STR_READY
+      weapons:
+        - type: STR_GAU_4
+          ammo: 150
+        - type: STR_SIDEWINDER
+          ammo: 2
+        - type: STR_SPARROW
+          ammo: 2
+    - type: STR_TRACER
+      id: 1
+      fuel: 104
+      damage: 0
+      status: STR_READY
+    - type: STR_MOHAWK
+      id: 1
+      fuel: 74
+      damage: 0
+      weapons:
+        - type: STR_SIDEWINDER
+          ammo: 2
+      status: STR_READY
+  items:
+    STR_FUEL_PODS: 4
+    STR_ECM_PODS: 2
+    STR_SIDEWINDER_LAUNCHER: 1
+    STR_SIDEWINDER_MISSILES: 10
+    STR_SPARROW_LAUNCHER: 1
+    STR_SPARROW_MISSILES: 10
+    STR_STANDARD_LAUNCHER: 1
+    STR_STANDARD_MISSILES: 10
+    STR_HYDRA_LAUNCHER: 1
+    STR_HYDRA_ROCKETS: 50
+    STR_GAU_2_CANNON: 1
+    STR_GAU_2_CANNON_ROUNDS_X50: 10
+    STR_GAU_4_CANNON: 1
+    STR_GAU_4_CANNON_ROUNDS_X50: 10
+    STR_GAU_8_CANNON: 1
+    STR_GAU_8_CANNON_ROUNDS_X50: 100
+    STR_LIGHT_PISTOL: 8
+    STR_LIGHT_PISTOL_CLIP: 24
+    STR_MEDIUM_PISTOL: 8
+    STR_MEDIUM_PISTOL_CLIP: 24
+    STR_HEAVY_PISTOL: 6
+    STR_HEAVY_PISTOL_CLIP: 18
+    STR_PUMP_SHOTGUN: 4
+    STR_SEMI_AUTO_SHOTGUN: 4
+    STR_SHOTGUN_SHELLS: 16
+    STR_SHOTGUN_SLUGS: 16
+    STR_RIFLE_M4: 16
+    STR_556_SS109: 48
+    STR_RIFLE_AK47: 16
+    STR_762_SP: 48
+    STR_M82A1: 4
+    STR_50_BMG: 24
+    STR_50_HEAT: 24
+    STR_GRENADE: 48
+    STR_SMGRENADE: 36 
+    STR_THERM: 48
+    STR_DEMO: 24 
+    STR_HEAVY_ROCKET_LAUNCHER: 4
+    STR_HIVE_ROCKET: 16
+    STR_SHRAPNEL_ROCKET: 16
+    STR_HELLFIRE_ROCKET: 16
+    STR_QUAD_ROCKET: 2
+    STR_SMALL_ROCKET:  48
+    STR_SMOKE_ROCKET:  12
+    STR_NAPALM_ROCKET: 24
+    STR_SECTOR_00_COMM: 1
+    STR_SECTOR_01_COMM: 1
+    STR_SECTOR_02_COMM: 1
+    STR_SECTOR_03_COMM: 1
+    STR_SECTOR_04_COMM: 1
+    STR_SECTOR_05_COMM: 1
+    STR_SECTOR_06_COMM: 1
+    STR_SECTOR_07_COMM: 1
+    STR_SECTOR_08_COMM: 1
+    STR_SECTOR_09_COMM: 1
+    STR_SECTOR_10_COMM: 1
+    STR_SECTOR_11_COMM: 1
+    STR_SECTOR_12_COMM: 1
+    STR_SECTOR_13_COMM: 1
+    STR_SECTOR_14_COMM: 1
+    STR_SECTOR_15_COMM: 1
+    STR_SECTOR_16_COMM: 1
+    STR_SECTOR_17_COMM: 1
+    STR_SECTOR_18_COMM: 1
+    STR_SECTOR_19_COMM: 1
+    STR_SECTOR_20_COMM: 1
+    STR_SECTOR_21_COMM: 1
+  scientists: 5
+  engineers: 5

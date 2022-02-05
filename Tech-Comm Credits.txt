@@ -1,0 +1,132 @@
+CREDITS
+
+Original Concept: Hobbes
+Lead Designers: Hobbes and efrenespartano
+Writing: Hobbes, efrenespartano and MKSheppard
+OXCE Implementation: Meridian
+Area 51, Complex, Biolab, Siberia, Skynet Base and Resistance Bases terrains: Hobbes
+Globe and textures: Hobbes and SophiaThe3rd
+Air Combat Design: Hobbes and efrenespartano
+
+Original plasma weaponry artwork by Christopher T. Shields 
+https://www.goingfaster.com/term2029/
+
+MKSheppard - insignia sprites
+IvanDogovitch  - conversion of plasma sprites to OXC format
+chaosshade - additional weapons & weapons balance
+
+Terminator Wikia - all the information about movies and the Terminator universe
+
+Alinare - Irregular Soldier, Technician and Street Martial Artist unit sprites taken from his Endless War mod https://openxcom.org/forum/index.php/topic,5410.0.html
+
+Bagirov - Combat Armor and Alloy Vest unit sprites
+Munkeylord - Colored Jumpsuits unit sprites
+Luke83 - Cyborg, Engineer, Soldier, Scientist unit sprites
+JackStraw - Jarhead, Male Civilian and Human Soldier unit sprites from his War Of Shadows mod
+Robin - MIB0 unit sprites from his MIB mod, Cybermite unit sprites
+Roxis231 - Blackbird craft 
+Bulletdesigner - V22 Osprey and HK crafts (https://openxcom.org/forum/index.php/topic,5614.0.html)
+Warboy - Police unit sprites
+Abiko/nadir - Spectre Suit unit sprites
+? - Phaser, Stalker and Vineman sprites
+
+All introduction images taken from the movies War Games and Terminator.
+
+All music tracks taken from the Terminator and Terminator 2 movies' soundtracks, and adapted to OXC by Human Kthulu
+gmdefend : T2 / I'll Be Back (02:20 - 04:00)
+gmenbase : T2 / I'll Be Back (00:00 - 00:16)
+gmgeo1 : T1 / Tech Noir - Alley Chase (01:50 - 02:50)
+gmgeo2 : T1 / Police Station - Escape From Police Station (03:00 - end)
+gmgeo3 (old gmtactic7) : T1 / Police Station - Escape From Police Station (00:00 - 02:20)
+gmgeo4 : T1 / Future Flashback - Terminator Infiltration (00:00 - 02:30)
+gminter : T1 / Gun Shop - Reese In Alley (full track)
+gmlose : T2 / I'll Be Back (00:16 - 02:20)
+gmmars : T4 / Theme (full)
+gmnewmar : T1 / Death By Fire - Terminator Gets Up (02:10 - End)
+gmstory : T2 / Trust Me (full)
+gmtactic : T2 / Tankerchase (full)
+gmtactic2 : T1 / Reese Chased (full)
+gmtactic3 : T1 / Garage Chase (04:30 - end)
+gmtactic4 : T1 / Tunnel Chase (00:40 - end)
+gmtactic5 : T2 / Escape From The Hospital And T1000 (full)
+gmtactic6 : T1 / The Terminator`s Arrival (01:30 - 03:30)
+gmtactic7 (old gmgeo3) : T1 / The Terminator`s Arrival (00:30 - 01:30)
+gmwin : T2 / Theme (full)
+
+Globe
+SophiaThe3rd
+
+Feedback
+Gordonmull, david, jgatkinsn, bulletdesigner, Yataka and Haxxi
+
+
+Intelipedia Images
+------------------
+
+London, by przemekjasiniak
+
+https://www.tapeciarnia.pl/198806_londyn_kataklizm_big_ben
+
+Terminator Salvation (Skynet core), by JJasso
+
+https://jjasso.deviantart.com/art/Terminator-Salvation-119011994
+
+HKTank, by Narlyteeth
+
+http://www.indiedb.com/games/fps-terminator/images/hktank-in-game-test-render
+
+Terminator Salvation Fan art
+
+https://w-dog.net/wallpaper/terminator-salvation-fan-art-skynet/id/269597/
+
+A-10s Hangar, by Tara Benett
+
+Open Road, by Waldemar Bartkowiak
+
+https://www.pinterest.com.mx/pin/291045194653534348/
+
+Tokyo-Genso
+
+http://www.undermatic.com/arte/ilustraciones-de-japon-post-apocaliptico/
+
+Red Square, by Jakub Kowalczyk
+
+https://jakubkowalczyk.artstation.com/projects/EGXBN
+
+Terminator Fallout 4 Mod
+
+https://gamerant.com/fallout-4-battle-terminator-boston/
+
+Skynet T800 Factory, by dadmad
+
+https://www.deviantart.com/art/Skynet-T800-Factory-424669286
+
+Terminator HK tank, by simjoy
+
+https://simjoy.deviantart.com/art/Terminator-HK-tank-95373422
+
+Terminator HK Tank Material Fix, by Dank Tank Gank Spank Bank
+
+https://steamcommunity.com/sharedfiles/filedetails/?id=670049773&searchtext=
+
+Aerial HK Machine - Terminator (DSC), by jameslink
+
+https://jameslink.deviantart.com/art/Aerial-HK-Machine-Terminator-DSC-543873060
+
+2029 A.D, by Mask1985
+
+https://mask1985.deviantart.com/art/2029-A-D-301634116
+
+HueyBadAssed, by Jason Sweers
+
+http://www.otherideas.com/terminator/sjbmwqsloz4t1jrdqvob71t9tlivmj
+
+6 0 Medical Evacuation by JeanLucMartinMMXV
+
+https://druknai22.deviantart.com/favourites/63246000/jarmuvek-gepek
+
+Lindy's Arma 3 Essentials
+
+https://steamcommunity.com/sharedfiles/filedetails/?id=774549610
+Most of the images employed in this mod were extrated directly from the movies..
+All rights of the images belongs to their creators.

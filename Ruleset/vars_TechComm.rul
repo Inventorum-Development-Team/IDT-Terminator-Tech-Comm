@@ -1,0 +1,28 @@
+startingTime:
+  second: 0
+  minute: 0
+  hour: 0
+  weekday: 6
+  day: 1
+  month: 1
+  year: 2027
+turnAIUseGrenade: 0
+turnAIUseBlaster: 0
+defeatScore: -900
+defeatFunds: -1000000
+crewEmergencyEvacuationSurvivalChance: 75
+pilotsEmergencyEvacuationSurvivalChance: 75
+chanceToStopRetaliation: 50
+allowCountriesToCancelAlienPact: true
+pediaReplaceCraftFuelWithRangeType: 2
+ai:
+  destroyBaseFacilities: true
+fixedUserOptions:
+  friendlyCraftEscort: true
+  ufoLandingAlert: true
+  craftLaunchAlways: true
+  storageLimitsEnforced: false
+  drawEnemyRadarCircles: false
+  removeWoundedFromTraining: true
+  strafe: false
+  

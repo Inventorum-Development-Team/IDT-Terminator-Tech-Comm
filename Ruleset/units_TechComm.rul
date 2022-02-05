@@ -1,0 +1,1960 @@
+units:
+#RESISTANCE
+  - type: STR_HUMAN_CHARACTER_0_0
+    race: STR_RESISTANCE
+    rank: STR_LIVE_HUMAN
+    stats:
+      tu: 52
+      stamina: 60
+      health: 30
+      bravery: 70
+      reactions: 46
+      firing: 65
+      throwing: 60
+      strength: 25
+      psiStrength: 35
+      psiSkill: 0
+      melee: 25
+    armor: HUMAN_CHARACTER_ARMOR0_0
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [44, 45, 46]
+    intelligence: 4
+    aggression: 0
+    liveAlien: ""
+  - type: STR_HUMAN_CHARACTER_0_1
+    race: STR_RESISTANCE
+    rank: STR_LIVE_HUMAN
+    stats:
+      tu: 52
+      stamina: 60
+      health: 30
+      bravery: 70
+      reactions: 46
+      firing: 65
+      throwing: 60
+      strength: 25
+      psiStrength: 35
+      psiSkill: 0
+      melee: 25
+    armor: HUMAN_CHARACTER_ARMOR0_1
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [44, 45, 46]
+    intelligence: 4
+    aggression: 0
+    liveAlien: ""
+  - type: STR_HUMAN_CHARACTER_0_2
+    race: STR_RESISTANCE
+    rank: STR_LIVE_HUMAN
+    stats:
+      tu: 52
+      stamina: 60
+      health: 30
+      bravery: 70
+      reactions: 46
+      firing: 65
+      throwing: 60
+      strength: 25
+      psiStrength: 35
+      psiSkill: 0
+      melee: 25
+    armor: HUMAN_CHARACTER_ARMOR0_2
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 0
+    liveAlien: ""
+  - type: STR_HUMAN_CHARACTER_0_3
+    race: STR_RESISTANCE
+    rank: STR_LIVE_HUMAN
+    stats:
+      tu: 52
+      stamina: 60
+      health: 30
+      bravery: 70
+      reactions: 46
+      firing: 65
+      throwing: 60
+      strength: 25
+      psiStrength: 35
+      psiSkill: 0
+      melee: 25
+    armor: HUMAN_CHARACTER_ARMOR0_3
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 0
+    liveAlien: ""
+  - type: STR_HUMAN_CHARACTER_0_4
+    race: STR_RESISTANCE
+    rank: STR_LIVE_HUMAN
+    stats:
+      tu: 52
+      stamina: 60
+      health: 30
+      bravery: 70
+      reactions: 46
+      firing: 65
+      throwing: 60
+      strength: 25
+      psiStrength: 35
+      psiSkill: 0
+      melee: 25
+    armor: HUMAN_CHARACTER_ARMOR0_4
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 0
+    liveAlien: ""
+  - type: STR_HUMAN_CHARACTER_0_5
+    race: STR_RESISTANCE
+    rank: STR_LIVE_HUMAN
+    stats:
+      tu: 52
+      stamina: 60
+      health: 30
+      bravery: 70
+      reactions: 46
+      firing: 65
+      throwing: 60
+      strength: 25
+      psiStrength: 35
+      psiSkill: 0
+      melee: 25
+    armor: HUMAN_CHARACTER_ARMOR0_5
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 0
+    liveAlien: ""
+  - type: STR_HUMAN_CHARACTER_0_6
+    race: STR_RESISTANCE
+    rank: STR_LIVE_HUMAN
+    stats:
+      tu: 52
+      stamina: 60
+      health: 30
+      bravery: 70
+      reactions: 46
+      firing: 65
+      throwing: 60
+      strength: 25
+      psiStrength: 35
+      psiSkill: 0
+      melee: 25
+    armor: HUMAN_CHARACTER_ARMOR0_6
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [44, 45, 46]
+    intelligence: 4
+    aggression: 0
+    liveAlien: ""
+  - type: STR_HUMAN_CHARACTER_0_7
+    race: STR_RESISTANCE
+    rank: STR_LIVE_HUMAN
+    stats:
+      tu: 52
+      stamina: 60
+      health: 30
+      bravery: 70
+      reactions: 46
+      firing: 65
+      throwing: 60
+      strength: 25
+      psiStrength: 35
+      psiSkill: 0
+      melee: 25
+    armor: HUMAN_CHARACTER_ARMOR0_7
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [44, 45, 46]
+    intelligence: 4
+    aggression: 0
+    liveAlien: ""
+  - type: STR_HUMAN_JUMPSUIT_0_0
+    race: STR_RESISTANCE
+    rank: STR_LIVE_HUMAN
+    stats:
+      tu: 52
+      stamina: 60
+      health: 30
+      bravery: 70
+      reactions: 46
+      firing: 65
+      throwing: 60
+      strength: 25
+      psiStrength: 35
+      psiSkill: 0
+      melee: 25
+    armor: JUMPSUIT_DESERT_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 0
+    liveAlien: ""
+  - type: STR_HUMAN_JUMPSUIT_0_1
+    race: STR_RESISTANCE
+    rank: STR_LIVE_HUMAN
+    stats:
+      tu: 52
+      stamina: 60
+      health: 30
+      bravery: 70
+      reactions: 46
+      firing: 65
+      throwing: 60
+      strength: 25
+      psiStrength: 35
+      psiSkill: 0
+      melee: 25
+    armor: JUMPSUIT_FOREST_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 0
+    liveAlien: ""
+  - type: STR_HUMAN_JUMPSUIT_0_2
+    race: STR_RESISTANCE
+    rank: STR_LIVE_HUMAN
+    stats:
+      tu: 52
+      stamina: 60
+      health: 30
+      bravery: 70
+      reactions: 46
+      firing: 65
+      throwing: 60
+      strength: 25
+      psiStrength: 35
+      psiSkill: 0
+      melee: 25
+    armor: JUMPSUIT_OFFICER_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 0
+    liveAlien: ""
+  - type: STR_HUMAN_JUMPSUIT_0_3
+    race: STR_RESISTANCE
+    rank: STR_LIVE_HUMAN
+    stats:
+      tu: 52
+      stamina: 60
+      health: 30
+      bravery: 70
+      reactions: 46
+      firing: 65
+      throwing: 60
+      strength: 25
+      psiStrength: 35
+      psiSkill: 0
+      melee: 25
+    armor: JUMPSUIT_PILOT_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 0
+    liveAlien: ""
+  - type: STR_HUMAN_JUMPSUIT_0_4
+    race: STR_RESISTANCE
+    rank: STR_LIVE_HUMAN
+    stats:
+      tu: 52
+      stamina: 60
+      health: 30
+      bravery: 70
+      reactions: 46
+      firing: 65
+      throwing: 60
+      strength: 25
+      psiStrength: 35
+      psiSkill: 0
+      melee: 25
+    armor: JUMPSUIT_RED_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 0
+    liveAlien: ""
+  - type: STR_HUMAN_JUMPSUIT_0_5
+    race: STR_RESISTANCE
+    rank: STR_LIVE_HUMAN
+    stats:
+      tu: 52
+      stamina: 60
+      health: 30
+      bravery: 70
+      reactions: 46
+      firing: 65
+      throwing: 60
+      strength: 25
+      psiStrength: 35
+      psiSkill: 0
+      melee: 25
+    armor: JUMPSUIT_SNOW_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 0
+    liveAlien: ""
+  - type: STR_HUMAN_JUMPSUIT_0_6
+    race: STR_RESISTANCE
+    rank: STR_LIVE_HUMAN
+    stats:
+      tu: 52
+      stamina: 60
+      health: 30
+      bravery: 70
+      reactions: 46
+      firing: 65
+      throwing: 60
+      strength: 25
+      psiStrength: 35
+      psiSkill: 0
+      melee: 25
+    armor: JUMPSUIT_URBAN_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 0
+    liveAlien: ""
+  - type: STR_HUMAN_FIGHTER_0_0
+    race: STR_RESISTANCE
+    rank: STR_LIVE_HUMAN
+    stats:
+      tu: 52
+      stamina: 60
+      health: 30
+      bravery: 70
+      reactions: 46
+      firing: 65
+      throwing: 60
+      strength: 25
+      psiStrength: 35
+      psiSkill: 0
+      melee: 25
+    armor: UNIFORM_DESERT_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 0
+    liveAlien: ""
+  - type: STR_HUMAN_FIGHTER_0_1
+    race: STR_RESISTANCE
+    rank: STR_LIVE_HUMAN
+    stats:
+      tu: 52
+      stamina: 60
+      health: 30
+      bravery: 70
+      reactions: 46
+      firing: 65
+      throwing: 60
+      strength: 25
+      psiStrength: 35
+      psiSkill: 0
+      melee: 25
+    armor: UNIFORM_FOREST_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 0
+    liveAlien: ""
+  - type: STR_HUMAN_FIGHTER_0_2
+    race: STR_RESISTANCE
+    rank: STR_LIVE_HUMAN
+    stats:
+      tu: 52
+      stamina: 60
+      health: 30
+      bravery: 70
+      reactions: 46
+      firing: 65
+      throwing: 60
+      strength: 25
+      psiStrength: 35
+      psiSkill: 0
+      melee: 25
+    armor: UNIFORM_RED_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 0
+    liveAlien: ""
+  - type: STR_HUMAN_FIGHTER_0_3
+    race: STR_RESISTANCE
+    rank: STR_LIVE_HUMAN
+    stats:
+      tu: 52
+      stamina: 60
+      health: 30
+      bravery: 70
+      reactions: 46
+      firing: 65
+      throwing: 60
+      strength: 25
+      psiStrength: 35
+      psiSkill: 0
+      melee: 25
+    armor: UNIFORM_SNOW_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 0
+    liveAlien: ""
+  - type: STR_HUMAN_FIGHTER_0_4
+    race: STR_RESISTANCE
+    rank: STR_LIVE_HUMAN
+    stats:
+      tu: 52
+      stamina: 60
+      health: 30
+      bravery: 70
+      reactions: 46
+      firing: 65
+      throwing: 60
+      strength: 25
+      psiStrength: 35
+      psiSkill: 0
+      melee: 25
+    armor: UNIFORM_URBAN_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 0
+    liveAlien: ""
+  - type: STR_HUMAN_FIGHTER_1_0
+    race: STR_RESISTANCE
+    rank: STR_LIVE_HUMAN
+    stats:
+      tu: 52
+      stamina: 60
+      health: 30
+      bravery: 70
+      reactions: 46
+      firing: 65
+      throwing: 60
+      strength: 25
+      psiStrength: 35
+      psiSkill: 0
+      melee: 25
+    armor: COMBAT_SUIT_DESERT_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 0
+    liveAlien: ""
+  - type: STR_HUMAN_FIGHTER_1_1
+    race: STR_RESISTANCE
+    rank: STR_LIVE_HUMAN
+    stats:
+      tu: 52
+      stamina: 60
+      health: 30
+      bravery: 70
+      reactions: 46
+      firing: 65
+      throwing: 60
+      strength: 25
+      psiStrength: 35
+      psiSkill: 0
+      melee: 25
+    armor: COMBAT_ARMOR_FOREST_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 0
+    liveAlien: ""
+  - type: STR_HUMAN_FIGHTER_1_2
+    race: STR_RESISTANCE
+    rank: STR_LIVE_HUMAN
+    stats:
+      tu: 52
+      stamina: 60
+      health: 30
+      bravery: 70
+      reactions: 46
+      firing: 65
+      throwing: 60
+      strength: 25
+      psiStrength: 35
+      psiSkill: 0
+      melee: 25
+    armor: COMBAT_SUIT_RED_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 0
+    liveAlien: ""
+  - type: STR_HUMAN_FIGHTER_1_3
+    race: STR_RESISTANCE
+    rank: STR_LIVE_HUMAN
+    stats:
+      tu: 52
+      stamina: 60
+      health: 30
+      bravery: 70
+      reactions: 46
+      firing: 65
+      throwing: 60
+      strength: 25
+      psiStrength: 35
+      psiSkill: 0
+      melee: 25
+    armor: COMBAT_SUIT_SNOW_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 0
+    liveAlien: ""
+  - type: STR_HUMAN_FIGHTER_1_4
+    race: STR_RESISTANCE
+    rank: STR_LIVE_HUMAN
+    stats:
+      tu: 52
+      stamina: 60
+      health: 30
+      bravery: 70
+      reactions: 46
+      firing: 65
+      throwing: 60
+      strength: 25
+      psiStrength: 35
+      psiSkill: 0
+      melee: 25
+    armor: COMBAT_SUIT_URBAN_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 0
+    liveAlien: ""
+  - type: STR_HUMAN_FIGHTER_2_0
+    race: STR_RESISTANCE
+    rank: STR_LIVE_HUMAN
+    stats:
+      tu: 52
+      stamina: 60
+      health: 30
+      bravery: 70
+      reactions: 46
+      firing: 65
+      throwing: 60
+      strength: 25
+      psiStrength: 35
+      psiSkill: 0
+      melee: 25
+    armor: ALLOY_VEST_DESERT_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 0
+    liveAlien: ""
+  - type: STR_HUMAN_FIGHTER_2_1
+    race: STR_RESISTANCE
+    rank: STR_LIVE_HUMAN
+    stats:
+      tu: 52
+      stamina: 60
+      health: 30
+      bravery: 70
+      reactions: 46
+      firing: 65
+      throwing: 60
+      strength: 25
+      psiStrength: 35
+      psiSkill: 0
+      melee: 25
+    armor: ALLOY_VEST_FOREST_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 0
+    liveAlien: ""
+  - type: STR_HUMAN_FIGHTER_2_2
+    race: STR_RESISTANCE
+    rank: STR_LIVE_HUMAN
+    stats:
+      tu: 52
+      stamina: 60
+      health: 30
+      bravery: 70
+      reactions: 46
+      firing: 65
+      throwing: 60
+      strength: 25
+      psiStrength: 35
+      psiSkill: 0
+      melee: 25
+    armor: ALLOY_VEST_SNOW_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 0
+    liveAlien: ""
+  - type: STR_HUMAN_FIGHTER_2_3
+    race: STR_RESISTANCE
+    rank: STR_LIVE_HUMAN
+    stats:
+      tu: 52
+      stamina: 60
+      health: 30
+      bravery: 70
+      reactions: 46
+      firing: 65
+      throwing: 60
+      strength: 25
+      psiStrength: 35
+      psiSkill: 0
+      melee: 25
+    armor: ALLOY_VEST_URBAN_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 0
+    liveAlien: ""
+  - type: STR_HUMAN_FIGHTER_3_0
+    race: STR_RESISTANCE
+    rank: STR_LIVE_HUMAN
+    stats:
+      tu: 52
+      stamina: 60
+      health: 30
+      bravery: 70
+      reactions: 46
+      firing: 65
+      throwing: 60
+      strength: 25
+      psiStrength: 35
+      psiSkill: 0
+      melee: 25
+    armor: COMBAT_ARMOR_DESERT_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 0
+    liveAlien: ""
+  - type: STR_HUMAN_FIGHTER_3_1
+    race: STR_RESISTANCE
+    rank: STR_LIVE_HUMAN
+    stats:
+      tu: 52
+      stamina: 60
+      health: 30
+      bravery: 70
+      reactions: 46
+      firing: 65
+      throwing: 60
+      strength: 25
+      psiStrength: 35
+      psiSkill: 0
+      melee: 25
+    armor: COMBAT_ARMOR_FOREST_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 0
+    liveAlien: ""
+  - type: STR_HUMAN_FIGHTER_3_2
+    race: STR_RESISTANCE
+    rank: STR_LIVE_HUMAN
+    stats:
+      tu: 52
+      stamina: 60
+      health: 30
+      bravery: 70
+      reactions: 46
+      firing: 65
+      throwing: 60
+      strength: 25
+      psiStrength: 35
+      psiSkill: 0
+      melee: 25
+    armor: COMBAT_ARMOR_SNOW_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 0
+    liveAlien: ""
+  - type: STR_HUMAN_FIGHTER_3_3
+    race: STR_RESISTANCE
+    rank: STR_LIVE_HUMAN
+    stats:
+      tu: 52
+      stamina: 60
+      health: 30
+      bravery: 70
+      reactions: 46
+      firing: 65
+      throwing: 60
+      strength: 25
+      psiStrength: 35
+      psiSkill: 0
+      melee: 25
+    armor: COMBAT_ARMOR_URBAN_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 0
+    liveAlien: ""
+#HUMANS
+  - type: FEMALE_CIVILIAN
+    race: STR_CIVILIAN
+    rank: STR_LIVE_HUMAN
+    stats: &CIVILIAN_STATS
+      tu: 35
+      stamina: 65
+      health: 30
+      bravery: 80
+      reactions: 30
+      firing: 30
+      throwing: 50
+      strength: 20
+      psiStrength: 5
+      psiSkill: 0
+      melee: 50
+    armor: CIVF_ARMOR
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    intelligence: 4
+    energyRecovery: 20
+    liveAlien: ""
+  - type: MALE_CIVILIAN
+    race: STR_CIVILIAN
+    rank: STR_LIVE_HUMAN
+    stats: *CIVILIAN_STATS
+    armor: CIVM_ARMOR
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    intelligence: 4
+    energyRecovery: 20
+    deathSound: [41, 42, 43]
+    liveAlien: ""
+  - type: POLICE_FEMALE_CIVILIAN
+    race: STR_CIVILIAN
+    rank: STR_LIVE_HUMAN
+    stats: *CIVILIAN_STATS
+    armor: POLICE_FEMALE_CIVILIAN_ARMOR
+    deathSound: [44, 45, 46]
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    intelligence: 4
+    energyRecovery: 20
+    liveAlien: ""
+    builtInWeaponSets:
+      - 
+        - STR_LIGHT_PISTOL
+        - STR_LIGHT_PISTOL_CLIP
+        - STR_LIGHT_PISTOL_CLIP
+      - 
+        - STR_LIGHT_PISTOL
+        - STR_LIGHT_PISTOL_CLIP
+        - STR_LIGHT_PISTOL_CLIP
+      - 
+        - STR_LIGHT_PISTOL
+        - STR_LIGHT_PISTOL_CLIP
+        - STR_LIGHT_PISTOL_CLIP
+  - type: POLICE_MALE_CIVILIAN
+    race: STR_CIVILIAN
+    rank: STR_LIVE_HUMAN
+    stats: *CIVILIAN_STATS
+    armor: POLICE_MALE_CIVILIAN_ARMOR
+    deathSound: [41, 42, 43]
+    standHeight: 21
+    kneelHeight: 14
+    value: 30
+    intelligence: 4
+    energyRecovery: 20
+    liveAlien: ""
+    builtInWeaponSets:
+      - 
+        - STR_LIGHT_PISTOL
+        - STR_LIGHT_PISTOL_CLIP
+        - STR_LIGHT_PISTOL_CLIP
+      - 
+        - STR_LIGHT_PISTOL
+        - STR_LIGHT_PISTOL_CLIP
+        - STR_LIGHT_PISTOL_CLIP
+      - 
+        - STR_LIGHT_PISTOL
+        - STR_LIGHT_PISTOL_CLIP
+        - STR_LIGHT_PISTOL_CLIP
+  - type: STR_HUMAN_ENGINEER
+    race: STR_CIVILIAN
+    rank: STR_LIVE_HUMAN
+    stats: *CIVILIAN_STATS
+    armor: HUMAN_ENGINEER_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [44, 45, 46]
+    intelligence: 4
+    aggression: 0
+  - type: STR_HUMAN_MANAGER
+    race: STR_CIVILIAN
+    rank: STR_LIVE_HUMAN
+    stats: *CIVILIAN_STATS
+    armor: HUMAN_MANAGER_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [44, 45, 46]
+    intelligence: 4
+    aggression: 0
+  - type: STR_HUMAN_SCIENTIST
+    race: STR_CIVILIAN
+    rank: STR_LIVE_HUMAN
+    stats: *CIVILIAN_STATS
+    armor: HUMAN_SCIENTIST_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [44, 45, 46]
+    intelligence: 4
+    aggression: 0
+  - type: STR_HUMAN_TECHNICIAN
+    race: STR_CIVILIAN
+    rank: STR_LIVE_HUMAN
+    stats: *CIVILIAN_STATS
+    armor: HUMAN_TECHNICIAN_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [44, 45, 46]
+    intelligence: 4
+    aggression: 0
+  - type: STR_HUMAN_SOLDIER_0_0
+    race: STR_HUMAN
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 56
+      stamina: 90
+      health: 30
+      bravery: 100
+      reactions: 46
+      firing: 65
+      throwing: 60
+      strength: 45
+      psiStrength: 35
+      psiSkill: 0
+      melee: 25
+    armor: HUMAN_SOLDIER_ARMOR0_0
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [44, 45, 46]
+    intelligence: 6
+    aggression: 0
+    liveAlien: ""
+    builtInWeaponSets:
+      - 
+        - STR_RIFLE_AK47
+        - STR_762_SP
+        - STR_762_SP
+        - STR_GRENADE
+      - 
+        - STR_RIFLE_M4
+        - STR_556_SS109
+        - STR_556_SS109
+        - STR_GRENADE
+      - 
+        - STR_M82A1
+        - STR_50_BMG
+        - STR_50_HEAT
+  - type: STR_HUMAN_SOLDIER_0_1  
+    race: STR_HUMAN
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 56
+      stamina: 90
+      health: 30
+      bravery: 100
+      reactions: 46
+      firing: 65
+      throwing: 60
+      strength: 45
+      psiStrength: 35
+      psiSkill: 0
+      melee: 25
+    armor: HUMAN_SOLDIER_ARMOR0_1  
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 6
+    aggression: 1
+    liveAlien: ""
+    builtInWeaponSets:
+      - 
+        - STR_HEAVY_ROCKET_LAUNCHER
+        - STR_HIVE_ROCKET
+        - STR_SHRAPNEL_ROCKET
+        - STR_HELLFIRE_ROCKET
+      - 
+        - STR_QUAD_ROCKET
+        - STR_SMALL_ROCKET
+        - STR_SMALL_ROCKET
+        - STR_SMALL_ROCKET
+        - STR_SMALL_ROCKET
+        - STR_LIGHT_PISTOL
+        - STR_LIGHT_PISTOL_CLIP
+      - 
+        - STR_PUMP_SHOTGUN
+        - STR_SHOTGUN_SHELLS
+        - STR_DEMO
+        - STR_DEMO
+  - type: STR_HUMAN_SOLDIER_0_2
+    race: STR_HUMAN
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 56
+      stamina: 90
+      health: 30
+      bravery: 100
+      reactions: 46
+      firing: 65
+      throwing: 60
+      strength: 45
+      psiStrength: 35
+      psiSkill: 0
+      melee: 25
+    armor: HUMAN_SOLDIER_ARMOR0_2
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 6
+    aggression: 2
+    liveAlien: ""
+    builtInWeaponSets:
+      - 
+        - STR_SEMI_AUTO_SHOTGUN
+        - STR_SHOTGUN_SHELLS
+        - STR_SHOTGUN_SHELLS
+        - STR_GRENADE
+      - 
+        - STR_HEAVY_PISTOL
+        - STR_HEAVY_PISTOL_CLIP
+        - STR_HEAVY_PISTOL_CLIP
+        - STR_GRENADE
+        - STR_THERM
+      - 
+        - STR_MEDIUM_PISTOL
+        - STR_MEDIUM_PISTOL_CLIP
+        - STR_MEDIUM_PISTOL_CLIP
+        - STR_DEMO
+        - STR_DEMO
+  - type: STR_HUMAN_SUIT_BLUE_1
+    race: STR_CIVILIAN
+    rank: STR_CIVILIAN
+    stats: *CIVILIAN_STATS
+    armor: HUMAN_SUIT_BLUE_ARMOR1
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 0
+    liveAlien: ""
+  - type: STR_HUMAN_SUIT_BLUE_2
+    race: STR_CIVILIAN
+    rank: STR_CIVILIAN
+    stats: *CIVILIAN_STATS
+    armor: HUMAN_SUIT_BLUE_ARMOR2
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 0
+    liveAlien: ""
+  - type: STR_HUMAN_SUIT_BLUE_3
+    race: STR_CIVILIAN
+    rank: STR_CIVILIAN
+    stats: *CIVILIAN_STATS
+    armor: HUMAN_SUIT_BLUE_ARMOR3
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 0
+    liveAlien: ""
+  - type: STR_HUMAN_SUIT_GREEN_1
+    race: STR_CIVILIAN
+    rank: STR_CIVILIAN
+    stats: *CIVILIAN_STATS
+    armor: HUMAN_SUIT_GREEN_ARMOR1
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 0
+    liveAlien: ""
+  - type: STR_HUMAN_SUIT_GREEN_2
+    race: STR_CIVILIAN
+    rank: STR_CIVILIAN
+    stats: *CIVILIAN_STATS
+    armor: HUMAN_SUIT_GREEN_ARMOR2
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 0
+    liveAlien: ""
+  - type: STR_HUMAN_SUIT_GREEN_3
+    race: STR_CIVILIAN
+    rank: STR_CIVILIAN
+    stats: *CIVILIAN_STATS
+    armor: HUMAN_SUIT_GREEN_ARMOR3
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 0
+    liveAlien: ""
+  - type: STR_HUMAN_SUIT_PINK_1
+    race: STR_CIVILIAN
+    rank: STR_CIVILIAN
+    stats: *CIVILIAN_STATS
+    armor: HUMAN_SUIT_PINK_ARMOR1
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 0
+    liveAlien: ""
+  - type: STR_HUMAN_SUIT_PINK_2
+    race: STR_CIVILIAN
+    rank: STR_CIVILIAN
+    stats: *CIVILIAN_STATS
+    armor: HUMAN_SUIT_PINK_ARMOR2
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 0
+    liveAlien: ""
+  - type: STR_HUMAN_SUIT_PINK_3
+    race: STR_CIVILIAN
+    rank: STR_CIVILIAN
+    stats: *CIVILIAN_STATS
+    armor: HUMAN_SUIT_PINK_ARMOR3
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 0
+    liveAlien: ""
+  - type: STR_HUMAN_SUIT_GREY_1
+    race: STR_CIVILIAN
+    rank: STR_CIVILIAN
+    stats: *CIVILIAN_STATS
+    armor: HUMAN_SUIT_GREY_ARMOR1
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 0
+    liveAlien: ""
+  - type: STR_HUMAN_SUIT_GREY_2
+    race: STR_CIVILIAN
+    rank: STR_CIVILIAN
+    stats: *CIVILIAN_STATS
+    armor: HUMAN_SUIT_GREY_ARMOR2
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 0
+    liveAlien: ""
+  - type: STR_HUMAN_SUIT_GREY_3
+    race: STR_CIVILIAN
+    rank: STR_CIVILIAN
+    stats: *CIVILIAN_STATS
+    armor: HUMAN_SUIT_GREY_ARMOR3
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 0
+    liveAlien: ""
+  - type: STR_HUMAN_SUIT_RED_1
+    race: STR_CIVILIAN
+    rank: STR_CIVILIAN
+    stats: *CIVILIAN_STATS
+    armor: HUMAN_SUIT_RED_ARMOR1
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 0
+    liveAlien: ""
+  - type: STR_HUMAN_SUIT_RED_2
+    race: STR_CIVILIAN
+    rank: STR_CIVILIAN
+    stats: *CIVILIAN_STATS
+    armor: HUMAN_SUIT_RED_ARMOR2
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 0
+    liveAlien: ""
+  - type: STR_HUMAN_SUIT_RED_3
+    race: STR_CIVILIAN
+    rank: STR_CIVILIAN
+    stats: *CIVILIAN_STATS
+    armor: HUMAN_SUIT_RED_ARMOR3
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 0
+    liveAlien: ""
+  - type: STR_HUMAN_SUIT_PURPLE_1
+    race: STR_CIVILIAN
+    rank: STR_CIVILIAN
+    stats: *CIVILIAN_STATS
+    armor: HUMAN_SUIT_PURPLE_ARMOR1
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 0
+    liveAlien: ""
+  - type: STR_HUMAN_SUIT_PURPLE_2
+    race: STR_CIVILIAN
+    rank: STR_CIVILIAN
+    stats: *CIVILIAN_STATS
+    armor: HUMAN_SUIT_PURPLE_ARMOR2
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 0
+    liveAlien: ""
+  - type: STR_HUMAN_SUIT_PURPLE_3
+    race: STR_CIVILIAN
+    rank: STR_CIVILIAN
+    stats: *CIVILIAN_STATS
+    armor: HUMAN_SUIT_PURPLE_ARMOR3
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 0
+    liveAlien: ""
+  - type: STR_HUMAN_SUIT_BLACK_1
+    race: STR_CIVILIAN
+    rank: STR_CIVILIAN
+    stats: *CIVILIAN_STATS
+    armor: HUMAN_SUIT_BLACK_ARMOR1
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 0
+    liveAlien: ""
+  - type: STR_HUMAN_SUIT_BLACK_2
+    race: STR_CIVILIAN
+    rank: STR_CIVILIAN
+    stats: *CIVILIAN_STATS
+    armor: HUMAN_SUIT_BLACK_ARMOR2
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 0
+    liveAlien: ""
+  - type: STR_HUMAN_SUIT_BLACK_3
+    race: STR_CIVILIAN
+    rank: STR_CIVILIAN
+    stats: *CIVILIAN_STATS
+    armor: HUMAN_SUIT_BLACK_ARMOR3
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 0
+    liveAlien: ""
+  - type: STR_HUMAN_SUIT_BLACK_4
+    race: STR_CIVILIAN
+    rank: STR_CIVILIAN
+    stats: *CIVILIAN_STATS
+    armor: HUMAN_SUIT_BLACK_ARMOR4
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 0
+    liveAlien: ""
+  - type: STR_HUMAN_SUIT_BLACK_5
+    race: STR_CIVILIAN
+    rank: STR_CIVILIAN
+    stats: *CIVILIAN_STATS
+    armor: HUMAN_SUIT_BLACK_ARMOR5
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 0
+    liveAlien: ""
+  - type: STR_HUMAN_SUIT_BLACK_6
+    race: STR_CIVILIAN
+    rank: STR_CIVILIAN
+    stats: *CIVILIAN_STATS
+    armor: HUMAN_SUIT_BLACK_ARMOR6
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 0
+    liveAlien: ""
+  - type: STR_HUMAN_SUIT_BLACK_7
+    race: STR_CIVILIAN
+    rank: STR_CIVILIAN
+    stats: *CIVILIAN_STATS
+    armor: HUMAN_SUIT_BLACK_ARMOR7
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 0
+    liveAlien: ""
+  - type: STR_HUMAN_SUIT_BLACK_8
+    race: STR_CIVILIAN
+    rank: STR_CIVILIAN
+    stats: *CIVILIAN_STATS
+    armor: HUMAN_SUIT_BLACK_ARMOR8
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 0
+    liveAlien: ""
+  - type: STR_HUMAN_AGENT_1
+    race: STR_COLLABORATORS
+    rank: STR_HUMAN_AGENT
+    stats:
+      tu: 52
+      stamina: 60
+      health: 30
+      bravery: 100
+      reactions: 46
+      firing: 75
+      throwing: 60
+      strength: 35
+      psiStrength: 35
+      psiSkill: 0
+      melee: 25
+    armor: HUMAN_AGENT_ARMOR1
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 0
+    liveAlien: ""
+    builtInWeaponSets:
+      - 
+        - STR_MEDIUM_PISTOL
+        - STR_MEDIUM_PISTOL_CLIP
+        - STR_MEDIUM_PISTOL_CLIP
+      - 
+        - STR_RIFLE_M4
+        - STR_556_SS109
+        - STR_556_SS109
+        - STR_GRENADE
+      - 
+        - STR_SEMI_AUTO_SHOTGUN
+        - STR_SHOTGUN_SHELLS
+        - STR_SHOTGUN_SHELLS
+        - STR_GRENADE
+  - type: STR_HUMAN_AGENT_2
+    race: STR_COLLABORATORS
+    rank: STR_HUMAN_AGENT
+    stats:
+      tu: 62
+      stamina: 60
+      health: 30
+      bravery: 100
+      reactions: 64
+      firing: 75
+      throwing: 60
+      strength: 35
+      psiStrength: 35
+      psiSkill: 0
+      melee: 25
+    armor: HUMAN_AGENT_ARMOR2
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 0
+    liveAlien: ""
+    builtInWeaponSets:
+      - 
+        - STR_MEDIUM_PISTOL
+        - STR_MEDIUM_PISTOL_CLIP
+        - STR_MEDIUM_PISTOL_CLIP
+      - 
+        - STR_RIFLE_M4
+        - STR_556_SS109
+        - STR_556_SS109
+        - STR_GRENADE
+      - 
+        - STR_SEMI_AUTO_SHOTGUN
+        - STR_SHOTGUN_SHELLS
+        - STR_SHOTGUN_SHELLS
+        - STR_GRENADE
+  - type: STR_HUMAN_AGENT_3
+    race: STR_COLLABORATORS
+    rank: STR_HUMAN_AGENT
+    stats:
+      tu: 52
+      stamina: 60
+      health: 30
+      bravery: 100
+      reactions: 46
+      firing: 85
+      throwing: 60
+      strength: 25
+      psiStrength: 35
+      psiSkill: 0
+      melee: 25
+    armor: HUMAN_AGENT_ARMOR3
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 0
+    liveAlien: ""
+    builtInWeaponSets:
+      - 
+        - STR_MEDIUM_PISTOL
+        - STR_MEDIUM_PISTOL_CLIP
+        - STR_MEDIUM_PISTOL_CLIP
+      - 
+        - STR_RIFLE_M4
+        - STR_556_SS109
+        - STR_556_SS109
+        - STR_GRENADE
+      - 
+        - STR_SEMI_AUTO_SHOTGUN
+        - STR_SHOTGUN_SHELLS
+        - STR_SHOTGUN_SHELLS
+        - STR_GRENADE
+  - type: STR_HUMAN_AGENT_4
+    race: STR_COLLABORATORS
+    rank: STR_HUMAN_AGENT
+    stats:
+      tu: 52
+      stamina: 60
+      health: 30
+      bravery: 100
+      reactions: 46
+      firing: 85
+      throwing: 60
+      strength: 35
+      psiStrength: 35
+      psiSkill: 0
+      melee: 25
+    armor: HUMAN_AGENT_ARMOR4
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 0
+    liveAlien: ""
+    builtInWeaponSets:
+      - 
+        - STR_MEDIUM_PISTOL
+        - STR_MEDIUM_PISTOL_CLIP
+        - STR_MEDIUM_PISTOL_CLIP
+      - 
+        - STR_RIFLE_M4
+        - STR_556_SS109
+        - STR_556_SS109
+        - STR_GRENADE
+      - 
+        - STR_SEMI_AUTO_SHOTGUN
+        - STR_SHOTGUN_SHELLS
+        - STR_SHOTGUN_SHELLS
+        - STR_GRENADE
+  - type: STR_HUMAN_AGENT_5
+    race: STR_COLLABORATORS
+    rank: STR_HUMAN_AGENT
+    stats:
+      tu: 52
+      stamina: 60
+      health: 30
+      bravery: 70
+      reactions: 46
+      firing: 65
+      throwing: 60
+      strength: 35
+      psiStrength: 35
+      psiSkill: 0
+      melee: 25
+    armor: HUMAN_AGENT_ARMOR5
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 0
+    liveAlien: ""
+    builtInWeaponSets:
+      - 
+        - STR_MEDIUM_PISTOL
+        - STR_MEDIUM_PISTOL_CLIP
+        - STR_MEDIUM_PISTOL_CLIP
+      - 
+        - STR_RIFLE_M4
+        - STR_556_SS109
+        - STR_556_SS109
+        - STR_GRENADE
+      - 
+        - STR_SEMI_AUTO_SHOTGUN
+        - STR_SHOTGUN_SHELLS
+        - STR_SHOTGUN_SHELLS
+        - STR_GRENADE
+  - type: STR_HUMAN_AGENT_6
+    race: STR_COLLABORATORS
+    rank: STR_HUMAN_AGENT
+    stats:
+      tu: 64
+      stamina: 60
+      health: 30
+      bravery: 70
+      reactions: 52
+      firing: 65
+      throwing: 60
+      strength: 35
+      psiStrength: 35
+      psiSkill: 0
+      melee: 25
+    armor: HUMAN_AGENT_ARMOR6
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 0
+    liveAlien: ""
+    builtInWeaponSets:
+      - 
+        - STR_MEDIUM_PISTOL
+        - STR_MEDIUM_PISTOL_CLIP
+        - STR_MEDIUM_PISTOL_CLIP
+      - 
+        - STR_RIFLE_M4
+        - STR_556_SS109
+        - STR_556_SS109
+        - STR_GRENADE
+      - 
+        - STR_SEMI_AUTO_SHOTGUN
+        - STR_SHOTGUN_SHELLS
+        - STR_SHOTGUN_SHELLS
+        - STR_GRENADE
+  - type: STR_HUMAN_AGENT_7
+    race: STR_COLLABORATORS
+    rank: STR_HUMAN_AGENT
+    stats:
+      tu: 64
+      stamina: 60
+      health: 30
+      bravery: 70
+      reactions: 52
+      firing: 65
+      throwing: 60
+      strength: 35
+      psiStrength: 35
+      psiSkill: 0
+      melee: 25
+    armor: HUMAN_AGENT_ARMOR7
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 0
+    liveAlien: ""
+    builtInWeaponSets:
+      - 
+        - STR_MEDIUM_PISTOL
+        - STR_MEDIUM_PISTOL_CLIP
+        - STR_MEDIUM_PISTOL_CLIP
+      - 
+        - STR_RIFLE_M4
+        - STR_556_SS109
+        - STR_556_SS109
+        - STR_GRENADE
+      - 
+        - STR_SEMI_AUTO_SHOTGUN
+        - STR_SHOTGUN_SHELLS
+        - STR_SHOTGUN_SHELLS
+        - STR_GRENADE
+  - type: STR_HUMAN_AGENT_8
+    race: STR_COLLABORATORS
+    rank: STR_HUMAN_AGENT
+    stats:
+      tu: 64
+      stamina: 60
+      health: 30
+      bravery: 70
+      reactions: 52
+      firing: 65
+      throwing: 60
+      strength: 35
+      psiStrength: 35
+      psiSkill: 0
+      melee: 25
+    armor: HUMAN_AGENT_ARMOR8
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 0
+    liveAlien: ""
+    builtInWeaponSets:
+      - 
+        - STR_MEDIUM_PISTOL
+        - STR_MEDIUM_PISTOL_CLIP
+        - STR_MEDIUM_PISTOL_CLIP
+      - 
+        - STR_RIFLE_M4
+        - STR_556_SS109
+        - STR_556_SS109
+        - STR_GRENADE
+      - 
+        - STR_SEMI_AUTO_SHOTGUN
+        - STR_SHOTGUN_SHELLS
+        - STR_SHOTGUN_SHELLS
+        - STR_GRENADE
+#SKYNET
+  - type: STR_TERMINATOR_T200
+    race: STR_TERMINATOR
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 80
+      stamina: 90
+      health: 100
+      bravery: 110
+      reactions: 68
+      firing: 76
+      throwing: 72
+      strength: 100
+      psiStrength: 100
+      psiSkill: 0
+      melee: 70
+    armor: TERMINATOR_T200_ARMOR
+    standHeight: 24
+    kneelHeight: 16
+    value: 10
+    deathSound: 23
+    intelligence: 7
+    aggression: 0
+  - type: STR_TERMINATOR_T300
+    race: STR_TERMINATOR
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 80
+      stamina: 90
+      health: 100
+      bravery: 110
+      reactions: 73
+      firing: 84
+      throwing: 58
+      strength: 125
+      psiStrength: 100
+      psiSkill: 0
+      melee: 70
+    armor: TERMINATOR_T300_ARMOR
+    standHeight: 24
+    kneelHeight: 16
+    value: 10
+    deathSound: 23
+    intelligence: 10
+    aggression: 2
+  - type: STR_TERMINATOR_T400
+    race: STR_TERMINATOR
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 80
+      stamina: 90
+      health: 100
+      bravery: 110
+      reactions: 73
+      firing: 84
+      throwing: 58
+      strength: 125
+      psiStrength: 100
+      psiSkill: 0
+      melee: 70
+    armor: TERMINATOR_T400_ARMOR
+    standHeight: 24
+    kneelHeight: 16
+    value: 10
+    deathSound: 23
+    intelligence: 10
+    aggression: 1
+  - type: STR_TERMINATOR_T500
+    race: STR_TERMINATOR
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 80
+      stamina: 90
+      health: 100
+      bravery: 110
+      reactions: 73
+      firing: 84
+      throwing: 58
+      strength: 125
+      psiStrength: 100
+      psiSkill: 0
+      melee: 70
+    armor: TERMINATOR_T500_ARMOR
+    standHeight: 24
+    kneelHeight: 16
+    value: 10
+    deathSound: 23
+    intelligence: 10
+    aggression: 0
+  - type: STR_TERMINATOR_T600
+    race: STR_TERMINATOR
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 60
+      stamina: 80
+      health: 150
+      bravery: 110
+      reactions: 56
+      firing: 63
+      throwing: 58
+      strength: 150
+      psiStrength: 100
+      psiSkill: 0
+      melee: 70
+    armor: TERMINATOR_T600_ARMOR
+    standHeight: 24
+    kneelHeight: 16
+    value: 10
+    deathSound: 23
+    intelligence: 5
+    aggression: 2
+  - type: STR_TERMINATOR_T700
+    race: STR_TERMINATOR
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 60
+      stamina: 80
+      health: 150
+      bravery: 110
+      reactions: 56
+      firing: 63
+      throwing: 58
+      strength: 150
+      psiStrength: 100
+      psiSkill: 0
+      melee: 70
+    armor: TERMINATOR_T700_ARMOR
+    standHeight: 24
+    kneelHeight: 16
+    value: 10
+    deathSound: 23
+    intelligence: 5
+    aggression: 2
+  - type: STR_TERMINATOR_T800
+    race: STR_TERMINATOR
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 80
+      stamina: 90
+      health: 100
+      bravery: 110
+      reactions: 63
+      firing: 68
+      throwing: 58
+      strength: 150
+      psiStrength: 100
+      psiSkill: 0
+      melee: 70
+    armor: TERMINATOR_T800_ARMOR
+    standHeight: 24
+    kneelHeight: 16
+    value: 10
+    deathSound: 23
+    intelligence: 10
+    aggression: 1
+  - type: STR_INFILTRATOR_T800
+    race: STR_TERMINATOR
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 70
+      stamina: 90
+      health: 30
+      bravery: 80
+      reactions: 60
+      firing: 60
+      throwing: 58
+      strength: 30
+      psiStrength: 100
+      psiSkill: 0
+      melee: 76
+    armor: INFILTRATOR_T800_ARMOR
+    standHeight: 24
+    kneelHeight: 16
+    value: 10
+    deathSound: 23
+    intelligence: 7
+    aggression: 1
+    energyRecovery: 40
+    spawnUnit: STR_TERMINATOR_T800
+  - type: STR_TERMINATOR_T1000
+    race: STR_TERMINATOR
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 80
+      stamina: 100
+      health: 125
+      bravery: 80
+      reactions: 68
+      firing: 54
+      throwing: 62
+      strength: 100
+      psiStrength: 35
+      psiSkill: 0
+      melee: 70
+    armor: TERMINATOR_T1000_ARMOR
+    standHeight: 24
+    kneelHeight: 16
+    value: 10
+    deathSound: 23
+    intelligence: 5
+    aggression: 0
+  - type: STR_HK_CERBERUS
+    race: STR_HK
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 60
+      stamina: 90
+      health: 65
+      bravery: 100
+      reactions: 70
+      firing: 0
+      throwing: 0
+      strength: 70
+      psiStrength: 100
+      psiSkill: 0
+      melee: 76
+    armor: HK_CERBERUS_ARMOR
+    standHeight: 12
+    kneelHeight: 12
+    value: 20
+    energyRecovery: 30
+    capturable: false
+    liveAlien: ""
+    livingWeapon: true
+  - type: STR_HK_CYBERMITE
+    race: STR_HK
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 62
+      stamina: 92
+      health: 20
+      bravery: 110
+      reactions: 64
+      firing: 0
+      throwing: 0
+      strength: 30
+      psiStrength: 100
+      psiSkill: 0
+      melee: 80
+    armor: HK_CYBERMITE_ARMOR
+    standHeight: 6
+    kneelHeight: 5
+    value: 25
+    deathSound: 23
+    intelligence: 2
+    aggression: 2
+    specab: 1
+    livingWeapon: true
+    capturable: false
+    isLeeroyJenkins: true
+    liveAlien: ""
+  - type: STR_HK_DRONE
+    race: STR_HK
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 70
+      stamina: 110
+      health: 35
+      bravery: 90
+      reactions: 50
+      firing: 60
+      throwing: 0
+      strength: 35
+      psiStrength: 45
+      psiSkill: 0
+      melee: 70
+    energyRecovery: 45
+    armor: HK_DRONE_ARMOR
+    moveSound: 40
+    standHeight: 11
+    kneelHeight: 16
+    floatHeight: 12
+    value: 25
+    deathSound: 23
+    intelligence: 4
+    aggression: 2
+    livingWeapon: true
+    capturable: false
+    liveAlien: ""
+  - type: STR_HK_SEEKER
+    race: STR_HK
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 60
+      stamina: 90
+      health: 45
+      bravery: 100
+      reactions: 70
+      firing: 0
+      throwing: 0
+      strength: 70
+      psiStrength: 100
+      psiSkill: 0
+      melee: 76
+    armor: HK_SEEKER_ARMOR
+    standHeight: 12
+    kneelHeight: 12
+    deathSound: 51
+    moveSound: 16
+    value: 20
+    energyRecovery: 30
+    intelligence: 3
+    aggression: 2
+    livingWeapon: true
+    capturable: false
+    isLeeroyJenkins: true
+    liveAlien: ""
+  - type: STR_HK_SENTRY
+    race: STR_HK
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 62
+      stamina: 90
+      health: 96
+      bravery: 110
+      reactions: 64
+      firing: 60
+      throwing: 0
+      strength: 90
+      psiStrength: 150
+      psiSkill: 0
+      melee: 80
+    armor: HK_SENTRY_ARMOR
+    standHeight: 23
+    kneelHeight: 16
+    value: 30
+    deathSound: 23
+    intelligence: 4
+    aggression: 1
+    energyRecovery: 50
+    livingWeapon: true
+    capturable: false
+    liveAlien: ""

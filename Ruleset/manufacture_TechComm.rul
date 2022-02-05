@@ -1,0 +1,239 @@
+manufacture:
+#<delete>
+  - delete: STR_FUSION_BALL_LAUNCHER
+  - delete: STR_LASER_CANNON
+  - delete: STR_PLASMA_BEAM
+  - delete: STR_FUSION_BALL
+  - delete: STR_TANK_LASER_CANNON
+  - delete: STR_HOVERTANK_PLASMA
+  - delete: STR_HOVERTANK_LAUNCHER
+  - delete: STR_HWP_FUSION_BOMB
+  - delete: STR_LASER_PISTOL
+  - delete: STR_LASER_RIFLE
+  - delete: STR_HEAVY_LASER
+  - delete: STR_MOTION_SCANNER
+  - delete: STR_MEDI_KIT
+  - delete: STR_PSI_AMP
+  - delete: STR_PLASMA_PISTOL
+  - delete: STR_PLASMA_PISTOL_CLIP
+  - delete: STR_PLASMA_RIFLE
+  - delete: STR_PLASMA_RIFLE_CLIP
+  - delete: STR_HEAVY_PLASMA
+  - delete: STR_HEAVY_PLASMA_CLIP
+  - delete: STR_BLASTER_LAUNCHER
+  - delete: STR_BLASTER_BOMB
+  - delete: STR_SMALL_LAUNCHER
+  - delete: STR_STUN_BOMB
+  - delete: STR_MIND_PROBE
+  - delete: STR_ALIEN_GRENADE
+  - delete: STR_PERSONAL_ARMOR
+  - delete: STR_POWER_SUIT
+  - delete: STR_FLYING_SUIT
+  - delete: STR_ALIEN_ALLOYS
+  - delete: STR_UFO_POWER_SOURCE
+  - delete: STR_UFO_NAVIGATION
+  - delete: STR_FIRESTORM
+  - delete: STR_LIGHTNING
+  - delete: STR_AVENGER
+#<delete>
+#WEAPONS
+  - name: STR_M25A1
+    category: STR_WEAPON
+    requires:
+      - STR_M25A1
+      - STR_M25A1_FUEL_CELL
+    space: 1
+    time: 300
+    cost: 56000
+    requiredItems:
+      STR_HYPER_ALLOYS: 1
+  - name: STR_M25A1_FUEL_CELL
+    category: STR_AMMUNITION
+    space: 1
+    time: 60
+    cost: 2000
+    requires:
+      - STR_M25A1_FUEL_CELL
+    requiredItems:
+      STR_PLASMA_CELL: 1
+  - name: STR_M30A1
+    category: STR_WEAPON
+    space: 1
+    time: 420
+    cost: 88000
+    requires:
+      - STR_M30A1
+      - STR_M30A1_FUEL_CELL
+    requiredItems:
+      STR_HYPER_ALLOYS: 1
+  - name: STR_M30A1_FUEL_CELL
+    category: STR_AMMUNITION
+    requires:
+      - STR_M30A1_FUEL_CELL
+    space: 1
+    time: 80
+    cost: 3000
+    requiredItems:
+      STR_PLASMA_CELL: 1
+#CRAFT WEAPONS
+#CRAFT
+  - name: STR_PILOT_TRAINING
+    space: 1
+    time: 1200
+    cost: 100000
+    requiresBaseFunc: [pilot_training, craft_housing]
+    spawnedPersonType: STR_PILOT
+  - name: STR_BLACKBIRD
+    category: STR_CRAFT
+    requires:
+      - STR_BLACKBIRD_BLUEPRINT
+    space: 30
+    time: 14000
+    cost: 100000
+    requiresBaseFunc: [craft_production, craft_housing]
+  - name: STR_SUPER_OSPREY
+    category: STR_CRAFT
+    requires:
+      - STR_SUPER_OSPREY_BLUEPRINT
+    space: 30
+    time: 14000
+    cost: 100000
+    requiresBaseFunc: [craft_production, craft_housing]
+  - name: STR_DYNAVERT
+    category: STR_CRAFT
+    requires:
+      - STR_DYNAVERT_BLUEPRINT
+    space: 30
+    time: 14000
+    cost: 100000
+    requiresBaseFunc: [craft_production, craft_housing]
+    requires:
+      - STR_DYNAVERT_BLUEPRINT
+  - name: STR_OSPREY
+    category: STR_CRAFT
+    space: 30
+    time: 14000
+    cost: 100000
+    requiresBaseFunc: [craft_production, craft_housing]
+    requires:
+      - STR_OSPREY_BLUEPRINT
+  - name: STR_SHERPA
+    category: STR_CRAFT
+    space: 30
+    time: 14000
+    cost: 100000
+    requiresBaseFunc: [craft_production, craft_housing]
+    requires:
+      - STR_SHERPA_BLUEPRINT
+  - name: STR_TWIN_OTTER
+    category: STR_CRAFT
+    space: 30
+    time: 14000
+    cost: 100000
+    requiresBaseFunc: [craft_production, craft_housing]
+    requires:
+      - STR_TWIN_OTTER_BLUEPRINT
+  - name: STR_BRONCO
+    category: STR_CRAFT
+    space: 30
+    time: 14000
+    cost: 100000
+    requiresBaseFunc: [craft_production, craft_housing]
+    requires:
+      - STR_BRONCO_BLUEPRINT
+  - name: STR_LION
+    category: STR_CRAFT
+    space: 30
+    time: 14000
+    cost: 100000
+    requiresBaseFunc: [craft_production, craft_housing]
+    requires:
+      - STR_LION_BLUEPRINT
+  - name: STR_SKYHAWK
+    category: STR_CRAFT
+    space: 30
+    time: 14000
+    cost: 100000
+    requiresBaseFunc: [craft_production, craft_housing]
+    requires:
+      - STR_SKYHAWK_BLUEPRINT
+  - name: STR_WARTHOG
+    category: STR_CRAFT
+    space: 30
+    time: 14000
+    cost: 100000
+    requiresBaseFunc: [craft_production, craft_housing]
+    requires:
+      - STR_WARTHOG_BLUEPRINT
+  - name: STR_TALON
+    category: STR_CRAFT
+    space: 30
+    time: 14000
+    cost: 100000
+    requiresBaseFunc: [craft_production, craft_housing]
+    requires:
+      - STR_TALON_BLUEPRINT
+  - name: STR_GOSHAWK
+    category: STR_CRAFT
+    space: 30
+    time: 14000
+    cost: 100000
+    requiresBaseFunc: [craft_production, craft_housing]
+    requires:
+      - STR_GOSHAWK_BLUEPRINT
+  - name: STR_DRAGONFLY
+    category: STR_CRAFT
+    space: 30
+    time: 14000
+    cost: 100000
+    requiresBaseFunc: [craft_production, craft_housing]
+    requires:
+      - STR_DRAGONFLY_BLUEPRINT
+  - name: STR_PROWLER
+    category: STR_CRAFT
+    space: 30
+    time: 14000
+    cost: 100000
+    requiresBaseFunc: [craft_production, craft_housing]
+    requires:
+      - STR_PROWLER_BLUEPRINT
+  - name: STR_VIKING
+    category: STR_CRAFT
+    requires:
+      - STR_VIKING_BLUEPRINT
+    space: 30
+    time: 14000
+    cost: 100000
+    requiresBaseFunc: [craft_production, craft_housing]
+  - name: STR_HAWKEYE
+    category: STR_CRAFT
+    requires:
+      - STR_HAWKEYE_BLUEPRINT
+    space: 30
+    time: 14000
+    cost: 100000
+    requiresBaseFunc: [craft_production, craft_housing]
+  - name: STR_GUARDRAIL
+    category: STR_CRAFT
+    space: 30
+    time: 14000
+    cost: 100000
+    requiresBaseFunc: [craft_production, craft_housing]
+    requires:
+      - STR_GUARDRAIL_BLUEPRINT
+  - name: STR_MOHAWK
+    category: STR_CRAFT
+    space: 30
+    time: 14000
+    cost: 100000
+    requiresBaseFunc: [craft_production, craft_housing]
+    requires:
+      - STR_MOHAWK_BLUEPRINT
+  - name: STR_TRACER
+    category: STR_CRAFT
+    requires:
+      - STR_TRACER_BLUEPRINT
+    space: 30
+    time: 14000
+    cost: 100000
+    requiresBaseFunc: [craft_production, craft_housing]

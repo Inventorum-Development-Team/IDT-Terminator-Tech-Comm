@@ -1,0 +1,205 @@
+countries:
+#<delete>
+  - delete: STR_USA
+  - delete: STR_RUSSIA
+  - delete: STR_UK
+  - delete: STR_FRANCE
+  - delete: STR_GERMANY
+  - delete: STR_ITALY
+  - delete: STR_SPAIN
+  - delete: STR_CHINA
+  - delete: STR_JAPAN
+  - delete: STR_INDIA
+  - delete: STR_BRAZIL
+  - delete: STR_AUSTRALIA
+  - delete: STR_NIGERIA
+  - delete: STR_SOUTH_AFRICA
+  - delete: STR_EGYPT
+  - delete: STR_CANADA
+  - delete: STR_MEXICO
+  - delete: STR_ARGENTINA
+  - delete: STR_NEW_ZEALAND
+  - delete: STR_PAKISTAN
+#<delete>
+#Countries are now 'Resistance Sectors' - first on the list is Sector 00 (Boreal), last is Sector 21 (Austral)
+#TO DO - adjust fundingBase and fundingCap
+  - type: STR_BOREAL
+    fundingBase: 0
+    fundingCap: 2000
+    labelLon: 320
+    labelLat: -80
+    areas:
+      - [0, 360, -90, -76.5]
+      - [298, 349, -76.5, -57]
+  - type: STR_NORTHERN
+    fundingBase: 0
+    fundingCap: 4000
+    labelLon: 255
+    labelLat: -60
+    areas:
+      - [219, 230, -76.5, -52]
+      - [230, 257, -76.5, -57]
+      - [257, 298, -76.5, -57]
+      - [230, 307, -57, -49]
+      - [277.5, 286, -49, -44]
+      - [286, 292.5, -49, -45.5]
+      - [292.5, 308, -49, -43]
+      - [191, 219, -76.5, -52.6]
+  - type: STR_USA
+    fundingBase: 0
+    fundingCap: 10000
+    labelLon: 260
+    labelLat: -40
+    areas:
+      - [235, 255, -49, -32]
+      - [255, 277.5, -49, -29]
+      - [260, 265, -29, -26]
+      - [277, 280, -32, -25]
+      - [277.5, 286, -44, -32]
+      - [286, 292.5, -45.5, -40]
+  - type: STR_CENTRAL_AMERICA
+    fundingBase: 0
+    fundingCap: 10000
+    labelLon: 274
+    labelLat: -19
+    areas:
+      - [247, 304, -26, -6]
+      - [242, 255, -32, -26]
+      - [255, 260, -29, -26]
+  - type: STR_AMAZON
+    fundingBase: 0
+    fundingCap: 4000
+    labelLon: 303
+    labelLat: 8.6
+    areas:
+      - [278, 310, -6, 22]
+      - [310, 325, -2, 25]
+      - [305, 313, 22, 32]
+  - type: STR_PATAGONIA
+    fundingBase: 0
+    fundingCap: 2000
+    labelLon: 294
+    labelLat: 37
+    areas:
+      - [278, 305, 22, 57]
+      - [305, 308, 32, 35]
+  - type: STR_NATO
+    fundingBase: 0
+    fundingCap: 7000
+    labelLon: 6
+    labelLat: -50
+    areas:
+      - [349, 19, -76.5, -36]
+  - type: STR_RUSSIA
+    fundingBase: 0
+    fundingCap: 9000
+    labelLon: 40
+    labelLat: -57
+    areas:
+      - [19, 51, -76.5, -42]
+  - type: STR_URALS
+    fundingBase: 0
+    fundingCap: 8000
+    labelLon: 89
+    labelLat: -62.3
+    areas:
+      - [51, 105, -76.5, -50]
+  - type: STR_FAR_EAST
+    fundingBase: 0
+    fundingCap: 8000
+    labelLon: 144
+    labelLat: -59.2
+    areas:
+      - [105, 191, -76.5, -50]
+  - type: STR_SAHARA
+    fundingBase: 0
+    fundingCap: 2000
+    labelLon: 1
+    labelLat: -21
+    areas:
+      - [335, 19, -36, -5]
+      - [350, 0, -5.5, -4]
+  - type: STR_MIDDLE_EAST
+    fundingBase: 0
+    fundingCap: 2000
+    labelLon: 38
+    labelLat: -34.5
+    areas:
+      - [19, 51, -42, -13]
+      - [51, 60, -38.5, -15]
+  - type: STR_RIFT
+    fundingBase: 0
+    fundingCap: 2000
+    labelLon: 28
+    labelLat: -7
+    areas:
+      - [19, 51.5, -13, -5]
+      - [5, 48, -5, 11]
+  - type: STR_CAPE
+    fundingBase: 0
+    fundingCap: 3000
+    labelLon: 25.66
+    labelLat: 20
+    areas:
+      - [10, 42, 11, 35]
+      - [42, 51, 11, 26]
+  - type: STR_TURKESTAN
+    fundingBase: 0
+    fundingCap: 8000
+    labelLon: 65.5
+    labelLat: -42
+    areas:
+      - [51, 90, -50, -38.5]
+  - type: STR_INDUS
+    fundingBase: 0
+    fundingCap: 5000
+    labelLon: 81.5
+    labelLat: -24
+    areas:
+      - [60, 90, -38.5, -5]
+  - type: STR_CHINA
+    fundingBase: 0
+    fundingCap: 7000
+    labelLon: 104
+    labelLat: -40
+    areas:
+      - [90, 123, -50, -19]
+  - type: STR_NORTH_EAST_ASIA
+    fundingBase: 0
+    fundingCap: 10000
+    labelLon: 136.5
+    labelLat: -38.25
+    areas:
+      - [123, 147, -50, -30]
+  - type: STR_ASEAN
+    fundingBase: 0
+    fundingCap: 7000
+    labelLon: 108
+    labelLat: -9.6
+    areas:
+      - [90, 128, -19, 9]
+  - type: STR_MELANESIA
+    fundingBase: 0
+    fundingCap: 5000
+    labelLon: 157
+    labelLat: 7
+    areas:
+      - [128, 156, -3, 9]
+      - [156, 181, 6, 23]
+      - [200, 206, -23, -18]
+  - type: STR_ANZAC
+    fundingBase: 0
+    fundingCap: 5000
+    labelLon: 142
+    labelLat: 30
+    areas:
+      - [110, 156, 9, 45]
+      - [166, 181, 34, 47]
+  - type: STR_AUSTRAL
+    fundingBase: 0
+    fundingCap: 2000
+    labelLon: 335
+    labelLat: 80
+    areas:
+      - [330, 356, 6, 39]
+      - [0, 360, 57, 90]

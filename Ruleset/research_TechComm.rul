@@ -1,0 +1,1165 @@
+research:
+#<delete>
+  - delete: STR_LASER_WEAPONS
+  - delete: STR_MOTION_SCANNER
+  - delete: STR_MEDI_KIT
+  - delete: STR_PSI_AMP
+  - delete: STR_PLASMA_PISTOL
+  - delete: STR_PLASMA_PISTOL_CLIP
+  - delete: STR_PLASMA_RIFLE
+  - delete: STR_PLASMA_RIFLE_CLIP
+  - delete: STR_HEAVY_PLASMA
+  - delete: STR_HEAVY_PLASMA_CLIP
+  - delete: STR_BLASTER_LAUNCHER
+  - delete: STR_BLASTER_BOMB
+  - delete: STR_SMALL_LAUNCHER
+  - delete: STR_STUN_BOMB
+  - delete: STR_MIND_PROBE
+  - delete: STR_ALIEN_GRENADE
+  - delete: STR_ELERIUM_115
+  - delete: STR_MIND_PROBE
+  - delete: STR_UFO_POWER_SOURCE
+  - delete: STR_UFO_NAVIGATION
+  - delete: STR_UFO_CONSTRUCTION
+  - delete: STR_ALIEN_FOOD
+  - delete: STR_ALIEN_REPRODUCTION
+  - delete: STR_ALIEN_ENTERTAINMENT
+  - delete: STR_ALIEN_SURGERY
+  - delete: STR_EXAMINATION_ROOM
+  - delete: STR_ALIEN_ALLOYS 
+  - delete: STR_ULTIMATE_CRAFT
+  - delete: STR_NEW_FIGHTER_TRANSPORTER
+  - delete: STR_NEW_FIGHTER_CRAFT
+  - delete: STR_LASER_PISTOL
+  - delete: STR_LASER_RIFLE
+  - delete: STR_HEAVY_LASER
+  - delete: STR_LASER_CANNON
+  - delete: STR_PLASMA_CANNON
+  - delete: STR_FUSION_MISSILE
+  - delete: STR_LASER_DEFENSE
+  - delete: STR_PLASMA_DEFENSE
+  - delete: STR_FUSION_DEFENSE
+  - delete: STR_GRAV_SHIELD
+  - delete: STR_MIND_SHIELD
+  - delete: STR_PSI_LAB
+  - delete: STR_HYPER_WAVE_DECODER
+  - delete: STR_LEADER_PLUS
+  - delete: STR_COMMANDER_PLUS
+  - delete: STR_ZOMBIE_CORPSE
+  - delete: STR_SECTOID_CORPSE
+  - delete: STR_FLOATER_CORPSE
+  - delete: STR_SNAKEMAN_CORPSE
+  - delete: STR_ETHEREAL_CORPSE
+  - delete: STR_MUTON_CORPSE
+  - delete: STR_CELATID_CORPSE
+  - delete: STR_SILACOID_CORPSE
+  - delete: STR_CHRYSSALID_CORPSE
+  - delete: STR_REAPER_CORPSE
+  - delete: STR_SECTOPOD_CORPSE
+  - delete: STR_CYBERDISC_CORPSE
+  - delete: STR_ALIEN_ORIGINS
+  - delete: STR_THE_MARTIAN_SOLUTION
+  - delete: STR_CYDONIA_OR_BUST
+  - delete: STR_PERSONAL_ARMOR
+  - delete: STR_POWER_SUIT
+  - delete: STR_FLYING_SUIT
+  - delete: STR_SECTOID_SOLDIER
+  - delete: STR_SECTOID_NAVIGATOR
+  - delete: STR_SECTOID_MEDIC
+  - delete: STR_SECTOID_ENGINEER
+  - delete: STR_SECTOID_LEADER
+  - delete: STR_SECTOID_COMMANDER
+  - delete: STR_SNAKEMAN_SOLDIER
+  - delete: STR_SNAKEMAN_NAVIGATOR
+  - delete: STR_SNAKEMAN_MEDIC
+  - delete: STR_SNAKEMAN_ENGINEER
+  - delete: STR_SNAKEMAN_LEADER
+  - delete: STR_SNAKEMAN_COMMANDER
+  - delete: STR_ETHEREAL_SOLDIER
+  - delete: STR_ETHEREAL_NAVIGATOR
+  - delete: STR_ETHEREAL_MEDIC
+  - delete: STR_ETHEREAL_ENGINEER
+  - delete: STR_ETHEREAL_LEADER
+  - delete: STR_ETHEREAL_COMMANDER
+  - delete: STR_MUTON_SOLDIER
+  - delete: STR_MUTON_NAVIGATOR
+  - delete: STR_MUTON_MEDIC
+  - delete: STR_MUTON_ENGINEER
+  - delete: STR_MUTON_LEADER
+  - delete: STR_MUTON_COMMANDER
+  - delete: STR_FLOATER_SOLDIER
+  - delete: STR_FLOATER_NAVIGATOR
+  - delete: STR_FLOATER_MEDIC
+  - delete: STR_FLOATER_ENGINEER
+  - delete: STR_FLOATER_LEADER
+  - delete: STR_FLOATER_COMMANDER
+  - delete: STR_CELATID_TERRORIST
+  - delete: STR_SILACOID_TERRORIST
+  - delete: STR_CHRYSSALID_TERRORIST
+  - delete: STR_REAPER_TERRORIST
+  - delete: STR_SECTOPOD_TERRORIST
+  - delete: STR_CYBERDISC_TERRORIST
+  - delete: STR_PLASMA_CANNON_DEP1
+  - delete: STR_PLASMA_CANNON_DEP2
+  - delete: STR_SECTOID_AUTOPSY
+  - delete: STR_FLOATER_AUTOPSY
+  - delete: STR_SNAKEMAN_AUTOPSY
+  - delete: STR_ETHEREAL_AUTOPSY
+  - delete: STR_MUTON_AUTOPSY
+  - delete: STR_CELATID_AUTOPSY
+  - delete: STR_SILACOID_AUTOPSY
+  - delete: STR_CHRYSSALID_AUTOPSY
+  - delete: STR_REAPER_AUTOPSY
+  - delete: STR_SECTOPOD_AUTOPSY
+  - delete: STR_CYBERDISC_AUTOPSY
+  - delete: STR_SECTOID
+  - delete: STR_FLOATER
+  - delete: STR_SNAKEMAN
+  - delete: STR_ETHEREAL
+  - delete: STR_MUTON
+  - delete: STR_CELATID
+  - delete: STR_SILACOID
+  - delete: STR_CHRYSSALID
+  - delete: STR_REAPER
+  - delete: STR_SECTOPOD
+  - delete: STR_CYBERDISC
+  - delete: STR_ALIEN_SUPPLY
+  - delete: STR_ALIEN_TERROR
+  - delete: STR_ALIEN_ABDUCTION
+  - delete: STR_ALIEN_HARVEST
+  - delete: STR_ALIEN_RESEARCH
+  - delete: STR_ALIEN_BASE
+  - delete: STR_ALIEN_RETALIATION
+  - delete: STR_ALIEN_INFILTRATION
+  - delete: STR_SMALL_SCOUT
+  - delete: STR_MEDIUM_SCOUT
+  - delete: STR_LARGE_SCOUT
+  - delete: STR_ABDUCTOR
+  - delete: STR_HARVESTER
+  - delete: STR_BATTLESHIP
+  - delete: STR_TERROR_SHIP
+  - delete: STR_SUPPLY_SHIP
+#<delete>
+#AI RESEARCH - PLOTLINE
+##CHAIN HOME - HK BASE, GIVES RANDOM SECTOR REPORT
+##SPIDER WEB - WORKCAMP
+##GREAT WALL - FACTORY
+##DEAD HAND - NUCLEAR MISSILE BASE
+##ULTRA - TEMPUS, GIVES QUANTUM FIELD?
+##TROJAN HORSE - GIVES NANOTECH
+##SKYNET - CORE
+  - name: STR_RESISTANCE_ORDER_1
+    cost: 5
+    points: 10
+  - name: STR_RESISTANCE_ORDER_2
+    cost: 5
+    points: 10
+    dependencies:
+      - STR_RESISTANCE_ORDER_1
+#TECH
+#TIER 0 - STARTING
+  - name: STR_HARDENED_FACILITIES
+    cost: 50
+    points: 10
+  - name: STR_CRAFT_MANUFACTURE
+    cost: 50
+    points: 10
+##TIER 1.A - TERMINATOR RECOVERY
+  - name: STR_T600_TERMINATOR
+    cost: 50
+    points: 10
+    needItem: true
+    destroyItem: true
+    lookup: STR_T600
+  - name: STR_T600_CHASSIS
+    cost: 50
+    points: 10
+    needItem: true
+    unlocks:
+      - STR_HYPER_ALLOYS
+      - STR_EMP_FIELD
+  - name: STR_T700_TERMINATOR
+    cost: 50
+    points: 10
+    needItem: true
+    destroyItem: true
+    lookup: STR_T700
+  - name: STR_T700_CHASSIS
+    cost: 50
+    points: 10
+    needItem: true
+    unlocks:
+      - STR_HYPER_ALLOYS
+      - STR_EMP_FIELD
+  - name: STR_T800_TERMINATOR
+    cost: 190
+    points: 50
+    needItem: true
+    destroyItem: true
+    lookup: STR_T800
+  - name: STR_T800_CHASSIS
+    cost: 50
+    points: 50
+    needItem: true
+    unlocks:
+      - STR_HYPER_ALLOYS
+      - STR_EMP_FIELD
+  - name: STR_HYPER_ALLOYS
+    cost: 50
+    points: 10
+    dependencies:
+      - STR_T600_CHASSIS
+      - STR_T700_CHASSIS
+      - STR_T800_CHASSIS
+  - name: STR_PLASMA_CELL
+    cost: 50
+    points: 10
+    needItem: true
+    dependencies:
+      - STR_T600_TERMINATOR
+      - STR_T700_TERMINATOR
+      - STR_T800_TERMINATOR
+  - name: STR_AI_TERMINATOR
+    cost: 50
+    points: 10
+    needItem: true
+    dependencies:
+      - STR_T600_TERMINATOR
+      - STR_T700_TERMINATOR
+      - STR_T800_TERMINATOR
+  - name: STR_BALLISTICS
+    cost: 50
+    points: 10
+    dependencies:
+      - STR_HYPER_ALLOYS
+  - name: STR_EMP_FIELD
+    cost: 50
+    points: 10
+  - name: STR_EMP_ROUNDS
+    cost: 50
+    points: 10
+    needItem: true
+    dependencies:
+      - STR_EMP_FIELD
+  - name: STR_EMP_DISCHARGER
+    cost: 50
+    points: 10
+    needItem: true
+    dependencies:
+      - STR_EMP_FIELD
+  - name: STR_EMP_DETECTOR
+    cost: 50
+    points: 10
+    needItem: true
+    dependencies:
+      - STR_EMP_FIELD
+  - name: STR_TECH_CENTER
+    cost: 50
+    points: 10
+    needItem: true
+    dependencies:
+      - STR_EMP_FIELD
+      - STR_HARDENED_FACILITIES
+##TIER 1.B - HK RECOVERY
+  - name: STR_AI_HK
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_DEFENSE_CENTER
+    cost: 50
+    points: 10
+    dependencies:
+      - STR_AI_HK
+  - name: STR_HOVERCRAFT
+    cost: 50
+    points: 10
+    dependencies:
+      - STR_FUSION_ENGINE
+      - STR_PLASMA_CELL
+      - STR_AI_HK
+      - STR_HYPER_ALLOYS
+  - name: STR_FUSION_ENGINE
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_SYNTHETIC_FUEL
+    cost: 50
+    points: 10
+    needItem: true
+##TIER 1.C - WEAPON RECOVERY
+  - name: STR_RIFLE_AR15
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_M134
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_D12
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_D12A2
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_15MM_AMR
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_20MM_AMR
+    cost: 50
+    points: 10
+    needItem: true
+##TIER 2.A - HK BASE/WORKCAMP/FACTORY
+  - name: STR_AI_CHAIN_HOME
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_COMM_ARRAY
+    cost: 50
+    points: 10
+    dependencies:
+      - STR_AI_CHAIN_HOME
+  - name: STR_AI_SPIDER_WEB
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_AI_GREAT_WALL
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_ADVANCED_FACILITIES
+    cost: 50
+    points: 10
+    dependencies:
+      - STR_AI_GREAT_WALL
+      - STR_HARDENED_FACILITIES
+  - name: STR_SKYNET_PROTOCOLS
+    cost: 50
+    points: 10
+    needItem: true
+    dependencies:
+      - STR_AI_TERMINATOR
+      - STR_AI_HK
+      - STR_AI_CHAIN_HOME
+      - STR_AI_SPIDER_WEB
+      - STR_AI_GREAT_WALL
+  - name: STR_M20A
+    cost: 1000
+    points: 30
+    needItem: true
+    dependencies:
+      - STR_SKYNET_PROTOCOLS
+  - name: STR_M20A_FUEL_CELL
+    cost: 1000
+    points: 30
+    needItem: true
+    dependencies:
+      - STR_SKYNET_PROTOCOLS
+  - name: STR_M45
+    cost: 1000
+    points: 30
+    needItem: true
+    dependencies:
+      - STR_SKYNET_PROTOCOLS
+  - name: STR_M45_FUEL_CELL
+    cost: 1000
+    points: 30
+    needItem: true
+    dependencies:
+      - STR_SKYNET_PROTOCOLS
+  - name: STR_M95A1
+    cost: 1000
+    points: 30
+    needItem: true
+    dependencies:
+      - STR_SKYNET_PROTOCOLS
+  - name: STR_M95A1_FUEL_CELL
+    cost: 1000
+    points: 30
+    needItem: true
+    dependencies:
+      - STR_SKYNET_PROTOCOLS
+  - name: STR_RBS92
+    cost: 1000
+    points: 30
+    needItem: true
+    dependencies:
+      - STR_SKYNET_PROTOCOLS
+  - name: STR_RBS92_FUEL_CELL
+    cost: 1000
+    points: 30
+    needItem: true
+    dependencies:
+      - STR_SKYNET_PROTOCOLS
+  - name: STR_RSB80
+    cost: 1000
+    points: 30
+    needItem: true
+    dependencies:
+      - STR_SKYNET_PROTOCOLS
+  - name: STR_RSB80_FUEL_CELL
+    cost: 1000
+    points: 30
+    needItem: true
+    dependencies:
+      - STR_SKYNET_PROTOCOLS
+  - name: STR_RSB90
+    cost: 1000
+    points: 30
+    needItem: true
+    dependencies:
+      - STR_SKYNET_PROTOCOLS
+  - name: STR_RSB90_FUEL_CELL
+    cost: 1000
+    points: 30
+    needItem: true
+    dependencies:
+      - STR_SKYNET_PROTOCOLS
+##TIER 2.B - RECOVERY/EXTRACTION RESISTANCE MISSIONS
+  - name: STR_WARTHOG_BLUEPRINT
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_SUPER_OSPREY_BLUEPRINT
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_LION_BLUEPRINT
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_PROWLER_BLUEPRINT
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_HAWKEYE_BLUEPRINT
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_GAU_12_CANNON
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_GAU_19_CANNON
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_STINGER_LAUNCHER
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_ASRAAM_LAUNCHER
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_AMRAAM_LAUNCHER
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_HARM_LAUNCHER
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_M25A1
+    cost: 1000
+    points: 30
+    needItem: true
+    dependencies:
+      - STR_SKYNET_PROTOCOLS
+      - STR_PLASMA_CELL
+  - name: STR_M25A1_FUEL_CELL
+    cost: 1000
+    points: 30
+    needItem: true
+    dependencies:
+      - STR_M25A1
+  - name: STR_M30A1
+    cost: 1000
+    points: 30
+    needItem: true
+    dependencies:
+      - STR_SKYNET_PROTOCOLS
+      - STR_PLASMA_CELL
+  - name: STR_M30A1_FUEL_CELL
+    cost: 1000
+    points: 30
+    needItem: true
+    dependencies:
+      - STR_M30A1
+  - name: STR_PLSGRENADE
+    cost: 1000
+    points: 30
+    needItem: true
+    dependencies:
+      - STR_PLASMA_CELL
+  - name: STR_QUANTUM_FIELD
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_CLOAKING_FIELD
+    cost: 50
+    points: 10
+    dependencies:
+      - STR_QUANTUM_FIELD
+  - name: STR_POLY_ALLOYS
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_DEFENSE_STATION
+    cost: 50
+    points: 10
+    needItem: true
+    dependencies:
+      - STR_DEFENSE_CENTER
+      - STR_POLY_ALLOYS
+  - name: STR_SKYNET_NETWORKS
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_COMM_CENTER
+    cost: 50
+    points: 10
+    needItem: true
+    dependencies:
+      - STR_SKYNET_NETWORKS
+      - STR_SKYNET_PROTOCOLS
+      - STR_ADVANCED_FACILITIES
+  - name: STR_COMM_STATION
+    cost: 50
+    points: 10
+    needItem: true
+    dependencies:
+      - STR_SKYNET_NETWORKS
+      - STR_SKYNET_PROTOCOLS
+      - STR_ADVANCED_FACILITIES
+  - name: STR_NANO_TECHNOLOGY
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_NANO_CENTER
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_TECH_STATION
+    cost: 50
+    points: 10
+    needItem: true
+    dependencies:
+      - STR_NANO_TECHNOLOGY
+      - STR_ADVANCED_FACILITIES
+  - name: STR_NANO_PROJECTOR
+    cost: 50
+    points: 10
+    needItem: true
+    dependencies:
+      - STR_NANO_TECHNOLOGY
+      - STR_POLY_ALLOYS
+      - STR_SKYNET_NETWORKS
+  - name: STR_NANO_KIT
+    cost: 50
+    points: 10
+    needItem: true
+    dependencies:
+      - STR_NANO_TECHNOLOGY
+  - name: STR_AI_DRONE
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_AI_SENSOR
+    cost: 50
+    points: 10
+    needItem: true
+##TIER 2.C  - SPECIAL FACILITIES/PROJECTS
+  - name: STR_AI_ULTRA
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_AI_TROJAN_HORSE
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_AI_TIN_MAN
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_T1000_INFILTRATOR
+    cost: 50
+    points: 10
+    dependencies:
+      - STR_AI_TIN_MAN
+  - name: STR_TX_TERMINATOR
+    cost: 50
+    points: 10
+    dependencies:
+      - STR_AI_TIN_MAN
+  - name: STR_AI_MAGIC_CARPET
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_MATTER_DISPLACEMENT
+    cost: 50
+    points: 10
+    dependencies:
+      - STR_AI_MAGIC_CARPET
+  - name: STR_T850_INFILTRATOR
+    cost: 50
+    points: 10
+    dependencies:
+      - STR_AI_MAGIC_CARPET
+  - name: STR_AI_LIGHTHOUSE
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_AI_DEAD_HAND
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_AI_SKYNET
+    cost: 50
+    points: 10
+    needItem: true
+#CRAFT - BLUEPRINTS RECOVERED FROM TECH-COMM SECTOR MISSIONS
+  - name: STR_BLACKBIRD_BLUEPRINT
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_SUPER_OSPREY_BLUEPRINT
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_OSPREY_BLUEPRINT
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_DYNAVERT_BLUEPRINT
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_DRAGONFLY_BLUEPRINT
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_TALON_BLUEPRINT
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_SKYHAWK_BLUEPRINT
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_GOSHAWK_BLUEPRINT
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_VIKING_BLUEPRINT
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_GUARDRAIL_BLUEPRINT
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_MOHAWK_BLUEPRINT
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_TRACER_BLUEPRINT
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_TWIN_OTTER_BLUEPRINT
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_SHERPA_BLUEPRINT
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_BRONCO_BLUEPRINT
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_LION_BLUEPRINT
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_WARTHOG_BLUEPRINT
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_PROWLER_BLUEPRINT
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_HAWKEYE_BLUEPRINT
+    cost: 50
+    points: 10
+    needItem: true
+#RESISTANCE SECTOR COMMS
+##SECTOR COMMS UNLOCKS MAP WITH SKYNET POSITIONS AND ACTIVATE TECH-COMM MISSIONS IN THE SECTOR
+  - name: STR_SECTOR_00_COMM
+    cost: 5
+    points: 10
+    needItem: true
+    destroyItem: true
+    getOneFree:
+      - STR_SECTOR_00_COMM_1
+      - STR_SECTOR_00_COMM_2
+      - STR_SECTOR_00_COMM_3
+  - name: STR_SECTOR_00_COMM_1
+    cost: 50
+    points: 10
+    needItem: true
+    destroyItem: true
+  - name: STR_SECTOR_00_COMM_2
+    cost: 50
+    points: 10
+    needItem: true
+    destroyItem: true
+  - name: STR_SECTOR_00_COMM_3
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_SECTOR_01_COMM
+    cost: 5
+    points: 10
+    needItem: true
+    destroyItem: true
+    getOneFree:
+      - STR_SECTOR_01_COMM_1
+      - STR_SECTOR_01_COMM_2
+      - STR_SECTOR_01_COMM_3
+  - name: STR_SECTOR_01_COMM_1
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_SECTOR_01_COMM_2
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_SECTOR_01_COMM_3
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_SECTOR_02_COMM
+    cost: 50
+    points: 10
+    needItem: true
+    destroyItem: true
+    getOneFree:
+      - STR_SECTOR_02_COMM_1
+      - STR_SECTOR_02_COMM_2
+      - STR_SECTOR_02_COMM_3
+  - name: STR_SECTOR_02_COMM_1
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_SECTOR_02_COMM_2
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_SECTOR_02_COMM_3
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_SECTOR_03_COMM
+    cost: 50
+    points: 10
+    needItem: true
+    destroyItem: true
+    getOneFree:
+      - STR_SECTOR_03_COMM_1
+      - STR_SECTOR_03_COMM_2
+      - STR_SECTOR_03_COMM_3
+  - name: STR_SECTOR_03_COMM_1
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_SECTOR_03_COMM_2
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_SECTOR_03_COMM_3
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_SECTOR_04_COMM
+    cost: 50
+    points: 10
+    needItem: true
+    destroyItem: true
+    getOneFree:
+      - STR_SECTOR_04_COMM_1
+      - STR_SECTOR_04_COMM_2
+      - STR_SECTOR_04_COMM_3
+  - name: STR_SECTOR_04_COMM_1
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_SECTOR_04_COMM_2
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_SECTOR_04_COMM_3
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_SECTOR_05_COMM
+    cost: 50
+    points: 10
+    needItem: true
+    destroyItem: true
+    getOneFree:
+      - STR_SECTOR_05_COMM_1
+      - STR_SECTOR_05_COMM_2
+      - STR_SECTOR_05_COMM_3
+  - name: STR_SECTOR_05_COMM_1
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_SECTOR_05_COMM_2
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_SECTOR_05_COMM_3
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_SECTOR_06_COMM
+    cost: 50
+    points: 10
+    needItem: true
+    destroyItem: true
+    getOneFree:
+      - STR_SECTOR_06_COMM_1
+      - STR_SECTOR_06_COMM_2
+      - STR_SECTOR_06_COMM_3
+  - name: STR_SECTOR_06_COMM_1
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_SECTOR_06_COMM_2
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_SECTOR_06_COMM_3
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_SECTOR_07_COMM
+    cost: 50
+    points: 10
+    needItem: true
+    destroyItem: true
+    getOneFree:
+      - STR_SECTOR_07_COMM_1
+      - STR_SECTOR_07_COMM_2
+      - STR_SECTOR_07_COMM_3
+  - name: STR_SECTOR_07_COMM_1
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_SECTOR_07_COMM_2
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_SECTOR_07_COMM_3
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_SECTOR_08_COMM
+    cost: 50
+    points: 10
+    needItem: true
+    destroyItem: true
+    getOneFree:
+      - STR_SECTOR_08_COMM_1
+      - STR_SECTOR_08_COMM_2
+      - STR_SECTOR_08_COMM_3
+  - name: STR_SECTOR_08_COMM_1
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_SECTOR_08_COMM_2
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_SECTOR_08_COMM_3
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_SECTOR_09_COMM
+    cost: 50
+    points: 10
+    needItem: true
+    destroyItem: true
+    getOneFree:
+      - STR_SECTOR_09_COMM_1
+      - STR_SECTOR_09_COMM_2
+      - STR_SECTOR_09_COMM_3
+  - name: STR_SECTOR_09_COMM_1
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_SECTOR_09_COMM_2
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_SECTOR_09_COMM_3
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_SECTOR_10_COMM
+    cost: 50
+    points: 10
+    needItem: true
+    destroyItem: true
+    getOneFree:
+      - STR_SECTOR_10_COMM_1
+      - STR_SECTOR_10_COMM_2
+      - STR_SECTOR_10_COMM_3
+  - name: STR_SECTOR_10_COMM_1
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_SECTOR_10_COMM_2
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_SECTOR_10_COMM_3
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_SECTOR_11_COMM
+    cost: 50
+    points: 10
+    needItem: true
+    destroyItem: true
+    getOneFree:
+      - STR_SECTOR_11_COMM_1
+      - STR_SECTOR_11_COMM_2
+      - STR_SECTOR_11_COMM_3
+  - name: STR_SECTOR_11_COMM_1
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_SECTOR_11_COMM_2
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_SECTOR_11_COMM_3
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_SECTOR_12_COMM
+    cost: 50
+    points: 10
+    needItem: true
+    destroyItem: true
+    getOneFree:
+      - STR_SECTOR_12_COMM_1
+      - STR_SECTOR_12_COMM_2
+      - STR_SECTOR_12_COMM_3
+  - name: STR_SECTOR_12_COMM_1
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_SECTOR_12_COMM_2
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_SECTOR_12_COMM_3
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_SECTOR_13_COMM
+    cost: 50
+    points: 10
+    needItem: true
+    destroyItem: true
+    getOneFree:
+      - STR_SECTOR_13_COMM_1
+      - STR_SECTOR_13_COMM_2
+      - STR_SECTOR_13_COMM_3
+  - name: STR_SECTOR_13_COMM_1
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_SECTOR_13_COMM_2
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_SECTOR_13_COMM_3
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_SECTOR_14_COMM
+    cost: 50
+    points: 10
+    needItem: true
+    destroyItem: true
+    getOneFree:
+      - STR_SECTOR_14_COMM_1
+      - STR_SECTOR_14_COMM_2
+      - STR_SECTOR_14_COMM_3
+  - name: STR_SECTOR_14_COMM_1
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_SECTOR_14_COMM_2
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_SECTOR_14_COMM_3
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_SECTOR_15_COMM
+    cost: 50
+    points: 10
+    needItem: true
+    destroyItem: true
+    getOneFree:
+      - STR_SECTOR_15_COMM_1
+      - STR_SECTOR_15_COMM_2
+      - STR_SECTOR_15_COMM_3
+  - name: STR_SECTOR_15_COMM_1
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_SECTOR_15_COMM_2
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_SECTOR_15_COMM_3
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_SECTOR_16_COMM
+    cost: 50
+    points: 10
+    needItem: true
+    destroyItem: true
+    getOneFree:
+      - STR_SECTOR_16_COMM_1
+      - STR_SECTOR_16_COMM_2
+      - STR_SECTOR_16_COMM_3
+  - name: STR_SECTOR_16_COMM_1
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_SECTOR_16_COMM_2
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_SECTOR_16_COMM_3
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_SECTOR_17_COMM
+    cost: 50
+    points: 10
+    needItem: true
+    destroyItem: true
+    getOneFree:
+      - STR_SECTOR_17_COMM_1
+      - STR_SECTOR_17_COMM_2
+      - STR_SECTOR_17_COMM_3
+  - name: STR_SECTOR_17_COMM_1
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_SECTOR_17_COMM_2
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_SECTOR_17_COMM_3
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_SECTOR_18_COMM
+    cost: 50
+    points: 10
+    needItem: true
+    destroyItem: true
+    getOneFree:
+      - STR_SECTOR_18_COMM_1
+      - STR_SECTOR_18_COMM_2
+      - STR_SECTOR_18_COMM_3
+  - name: STR_SECTOR_18_COMM_1
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_SECTOR_18_COMM_2
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_SECTOR_18_COMM_3
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_SECTOR_19_COMM
+    cost: 50
+    points: 10
+    needItem: true
+    destroyItem: true
+    getOneFree:
+      - STR_SECTOR_19_COMM_1
+      - STR_SECTOR_19_COMM_2
+      - STR_SECTOR_19_COMM_3
+  - name: STR_SECTOR_19_COMM_1
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_SECTOR_19_COMM_2
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_SECTOR_19_COMM_3
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_SECTOR_20_COMM
+    cost: 50
+    points: 10
+    needItem: true
+    destroyItem: true
+    getOneFree:
+      - STR_SECTOR_20_COMM_1
+      - STR_SECTOR_20_COMM_2
+      - STR_SECTOR_20_COMM_3
+  - name: STR_SECTOR_20_COMM_1
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_SECTOR_20_COMM_2
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_SECTOR_20_COMM_3
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_SECTOR_21_COMM
+    cost: 50
+    points: 10
+    needItem: true
+    destroyItem: true
+    getOneFree:
+      - STR_SECTOR_21_COMM_1
+      - STR_SECTOR_21_COMM_2
+      - STR_SECTOR_21_COMM_3
+  - name: STR_SECTOR_21_COMM_1
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_SECTOR_21_COMM_2
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_SECTOR_21_COMM_3
+    cost: 50
+    points: 10
+    needItem: true

@@ -1,0 +1,40 @@
+This is basically a list to mark advanced features to be considered for later implementation
+Geoscape
+* Option to get a country back after they signed a pact with aliens
+* "landedMarker" for UFOs
+* Terror missions can now be defined to take place in regions with XCom bases
+
+Basescape
+* Facilities can now require items to build
+* Base building can now prevent building other buildings 
+* trainingRooms
+* refundValue
+* manufacture - requiresBaseFunc
+* research - requiresBaseFunc
+
+Battlescape
+* terrains - fuseTimers
+
+Intelpedia
+* Added a ruleset option to replace fuel capacity with range calculations in craft pedia articles
+* 
+
+
+* Pilots can't be recruited anymore but need to be trained using technicians, and the base  needs to have a training station and a hangar to enable pilot training there
+* Training Stations also allow for soldiers to train their stats
+* Hangars allow for 5 craft
+* To manufacture craft you'll need to have either a Hangar or a Tech Station in your base
+* The larger and more advanced stations (Defense, Tech, Comm) will also require to build Power Station facility in the base (too much requirements?)
+
+
+Researching/acquiring/manufacturing craft will be one of the main efforts of Tech-Comm and the system I've came up with the following ideas:
+* Starting craft on the base will be mainly high-tech models (Warthog, Prowler, Osprey)
+* You can purchase some crafts but they'll arrive inoperable since they were recovered from crash sites, etc., and you'll need to have your engineers repair them in a Hangar (new 3x3 base facility) before you can use them
+* To manufacture craft from zero you'll need to acquire either blueprints or prototypes from research/missions. You'll start with some blueprints of low tech craft
+* Repairing/manufacturing craft will require supplies and, in some cases, materials that can only be recovered from HK crash sites (electronics, engines, etc.)
+* Repaired/Manufactured craft can be sold back to the Resistance with a profit margin
+
+Staff
+* The Resistance soldiers present during missions will rejoin Tech-Comm (if they survive)
+* Techs/Specialists can be recruited from civilians rescued from Workcamps or Eradication missions 
+* 

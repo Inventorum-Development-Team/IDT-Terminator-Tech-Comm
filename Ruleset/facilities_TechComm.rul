@@ -1,0 +1,392 @@
+facilities: #DONE
+#<delete>
+  - delete: STR_ACCESS_LIFT
+  - delete: STR_LIVING_QUARTERS
+  - delete: STR_HANGAR
+  - delete: STR_GENERAL_STORES
+  - delete: STR_SMALL_RADAR_SYSTEM
+  - delete: STR_LARGE_RADAR_SYSTEM
+  - delete: STR_MISSILE_DEFENSES
+  - delete: STR_LASER_DEFENSES
+  - delete: STR_GRAV_SHIELD
+  - delete: STR_WORKSHOP
+  - delete: STR_LABORATORY
+  - delete: STR_ALIEN_CONTAINMENT
+  - delete: STR_PLASMA_DEFENSES
+  - delete: STR_FUSION_BALL_DEFENSES
+  - delete: STR_MIND_SHIELD
+  - delete: STR_PSIONIC_LABORATORY
+  - delete: STR_HYPER_WAVE_DECODER
+#<delete>
+#STARTING
+  - type: STR_COMMAND_STATION
+    spriteShape: 9
+    spriteFacility: 9
+    size: 2
+    lift: true
+    buildCost: 300000
+    buildTime: 1
+    monthlyCost: 4000
+    mapName: TECHBASE60
+  - type: STR_HOUSING
+    spriteShape: 9
+    spriteFacility: 9
+    size: 2
+    buildCost: 260000
+    buildTime: 12
+    monthlyCost: 7000
+    personnel: 50
+    mapName: TECHBASE16
+    missileAttraction: 100
+  - type: STR_INFIRMARY
+    spriteShape: 1
+    spriteFacility: 18
+    buildCost: 210000
+    buildTime: 14
+    monthlyCost: 6000
+    personnel: 10
+    mapName: TECHBASE00
+    sickBayAbsoluteBonus: 0.0
+    sickBayRelativeBonus: 5.0
+    missileAttraction: 50
+  - type: STR_BARRACKS
+    size: 2
+    spriteShape: 9
+    spriteFacility: 9
+    buildCost: 300000
+    buildTime: 16
+    monthlyCost: 7000
+    trainingRooms: 10
+    personnel: 10
+    provideBaseFunc: [pilot_training]
+    mapName: TECHBASE04
+    missileAttraction: 50
+  - type: STR_SHELTER
+    spriteShape: 9
+    spriteFacility: 9
+    size: 2
+    buildCost: 140000
+    buildTime: 16
+    monthlyCost: 16000
+    crafts: 2
+    provideBaseFunc: [craft_housing]
+    mapName: TECHBASE08
+    missileAttraction: 100
+  - type: STR_HANGAR
+    spriteShape: 384
+    spriteFacility: 384
+    requires:
+      - STR_CRAFT_MANUFACTURE
+    size: 3
+    buildCost: 320000
+    buildTime: 32
+    monthlyCost: 17000
+    crafts: 5
+    workshops: 50
+    provideBaseFunc: [craft_production, pilot_training, craft_housing]
+    mapName: TECHBASE60
+    missileAttraction: 100
+  - type: STR_STORAGE
+    spriteShape: 9
+    spriteFacility: 9
+    size: 2
+    buildCost: 100000
+    buildTime: 7
+    monthlyCost: 3600
+    storage: 250
+    mapName: TECHBASE12
+    storageTiles:
+      - [11, 2, 4]
+      - [14, 1, 4]
+      - [16, 2, 4]
+      - [17, 4, 4]
+      - [10, 7, 4]
+      - [14, 6, 4]
+      - [15, 4, 4]
+      - [17, 8, 4]
+      - [17, 5, 4]
+      - [13, 4, 4]
+    missileAttraction: 100
+  - type: STR_PILLBOX
+    spriteShape: 3
+    spriteFacility: 26
+    buildCost: 30000
+    buildTime: 5
+    monthlyCost: 3000
+    mapName: TECHBASE43
+    missileAttraction: 50
+  - type: STR_GUARD_TOWER
+    spriteShape: 3
+    spriteFacility: 26
+    buildCost: 20000
+    buildTime: 5
+    monthlyCost: 2500
+    mapName: TECHBASE53
+    missileAttraction: 50
+  - type: STR_COMM_TOWER
+    spriteShape: 2
+    spriteFacility: 21
+    buildCost: 360000
+    buildTime: 8
+    labs: 5
+    monthlyCost: 7000
+    radarRange: 500
+    hyper: false
+    radarChance: 20
+    mapName: TECHBASE40
+    missileAttraction: 100
+  - type: STR_TECH_LAB
+    spriteShape: 1
+    spriteFacility: 20
+    buildCost: 560000
+    buildTime: 24
+    monthlyCost: 23000
+    workshops: 50
+    mapName: TECHBASE47
+    missileAttraction: 100
+  - type: STR_MISSILE_SITE
+    spriteShape: 2
+    spriteFacility: 23
+    buildCost: 160000
+    buildTime: 10
+    monthlyCost: 3600
+    defense: 250
+    hitRatio: 50
+    fireSound: 5
+    hitSound: 10
+    mapName: TECHBASE42
+    missileAttraction: 100
+#REQUIRE AI HK
+  - type: STR_DEFENSE_CENTER
+    requires:
+      - STR_DEFENSE_CENTER
+    grav: true
+    spriteShape: 2
+    spriteFacility: 29
+    buildCost: 800000
+    buildTime: 25
+    monthlyCost: 10000
+    mapName: TECHBASE45
+    missileAttraction: 100
+#REQUIRE AI CHAIN HOME
+  - type: STR_COMM_ARRAY
+    requires:
+      - STR_COMM_ARRAY
+    spriteShape: 1
+    spriteFacility: 22
+    buildCost: 560000
+    buildTime: 16
+    labs: 5
+    monthlyCost: 10000
+    radarRange: 750
+    radarChance: 20
+    mapName: TECHBASE41
+    missileAttraction: 100
+  - type: STR_COMM_CENTER
+    requires:
+      - STR_COMM_CENTER
+    spriteShape: 1
+    spriteFacility: 22
+    buildCost: 740000
+    buildTime: 16
+    labs: 5
+    monthlyCost: 10000
+    radarRange: 750
+    radarChance: 30
+    hyper: true
+    mapName: TECHBASE44
+    missileAttraction: 100
+#REQUIRE HARDENED FACILITIES
+  - type: STR_HOUSING_AREA
+    requires:
+      - STR_HARDENED_FACILITIES
+    spriteShape: 9
+    spriteFacility: 9
+    size: 2
+    buildCost: 520000
+    buildTime: 24
+    monthlyCost: 10000
+    personnel: 50
+    mapName: TECHBASE20
+    missileAttraction: 25
+  - type: STR_STORAGE_AREA
+    requires:
+      - STR_HARDENED_FACILITIES
+    spriteShape: 9
+    spriteFacility: 9
+    size: 2
+    buildCost: 210000
+    buildTime: 15
+    monthlyCost: 5000
+    storage: 250
+    mapName: TECHBASE24
+    storageTiles:
+      - [5, 14, 0]
+      - [5, 12, 0]
+      - [5, 10, 0]
+      - [5, 8, 0]
+      - [5, 6, 0]
+      - [6, 6, 0]
+      - [7, 14, 0]
+      - [7, 11, 0]
+      - [7, 6, 0]
+      - [8, 13, 0]
+      - [10, 8, 0]
+      - [10, 13, 0]
+      - [13, 12, 0]
+      - [13, 11, 0]
+      - [12, 8, 0]
+      - [14, 10, 0]
+      - [10, 4, 0]
+    missileAttraction: 25
+  - type: STR_TECH_CENTER
+    requires:
+      - STR_TECH_CENTER
+    spriteShape: 1
+    spriteFacility: 25
+    buildCost: 400000
+    buildTime: 18
+    monthlyCost: 15000
+    aliens: 5
+    workshops: 10
+    mapName: TECHBASE46
+    missileAttraction: 0
+  - type: STR_NANO_CENTER
+    requires:
+      - STR_NANO_CENTER
+    spriteShape: 1
+    spriteFacility: 25
+    buildCost: 400000
+    buildTime: 18
+    monthlyCost: 15000
+    aliens: 5
+    workshops: 10
+    mapName: TECHBASE51
+    missileAttraction: 0
+    sickBayAbsoluteBonus: 0.0
+    sickBayRelativeBonus: 5.0                    
+  - type: STR_MISSILE_SILO
+    requires:
+      - STR_HARDENED_FACILITIES
+    spriteShape: 3
+    spriteFacility: 26
+    buildCost: 260000
+    buildTime: 16
+    monthlyCost: 6600
+    defense: 500
+    hitRatio: 60
+    fireSound: 5
+    hitSound: 10
+    mapName: TECHBASE49
+    missileAttraction: 50
+  - type: STR_BUNKER
+    requires:
+      - STR_HARDENED_FACILITIES
+    spriteShape: 3
+    spriteFacility: 26
+    buildCost: 150000
+    buildTime: 10
+    monthlyCost: 5000
+    personnel: 10
+    mapName: TECHBASE52
+#REQUIRE ADVANCED FACILITIES
+  - type: STR_POWER_CENTER
+    requires:
+      - STR_ADVANCED_FACILITIES
+    spriteShape: 1
+    spriteFacility: 24
+    buildCost: 150000
+    buildTime: 10
+    monthlyCost: 5000
+    storage: 50
+    mapName: TECHBASE51
+    missileAttraction: 25
+  - type: STR_COMM_STATION
+    requires:
+      - STR_COMM_STATION
+    spriteShape: 9
+    spriteFacility: 9
+    size: 2
+    buildCost: 750000
+    buildTime: 26
+    monthlyCost: 30000
+    labs: 20
+    radarRange: 1000
+    radarChance: 30
+    hyper: true
+    mapName: TECHBASE28
+    missileAttraction: 25
+  - type: STR_TECH_STATION
+    requires:
+      - STR_TECH_STATION
+    spriteShape: 9
+    spriteFacility: 9
+    size: 2
+    buildCost: 750000
+    buildTime: 24
+    monthlyCost: 16000
+    workshops: 50
+    psiLabs: 5
+    provideBaseFunc: [craftproduction]
+    mapName: TECHBASE32
+    missileAttraction: 50
+  - type: STR_DEFENSE_STATION
+    requires:
+      - STR_DEFENSE_STATION
+    spriteShape: 9
+    spriteFacility: 9
+    size: 2
+    buildCost: 600000
+    buildTime: 25
+    monthlyCost: 12000
+    defense: 750
+    hitRatio: 70
+    fireSound: 5
+    hitSound: 10
+    grav: true
+    radarRange: 100
+    hyper: false
+    radarChance: 75
+    mapName: TECHBASE36
+    missileAttraction: 50
+  - type: STR_CLOAKING_FIELD
+    requires:
+      - STR_CLOAKING_FIELD
+    mind: true
+    spriteShape: 2
+    spriteFacility: 30
+    buildCost: 1300000
+    buildTime: 25
+    monthlyCost: 5000
+    mapName: TECHBASE48
+    missileAttraction: 25
+#UNDER CONSIDERATION
+#MAP REFERENCE LIST FACILITIES
+##00-03/91 INFIRMARY - 10 UNITS HEALING SURFACE
+##04-07/92 BARRACKS - 10 UNITS TRAINING SURFACE
+##08-11/96 SHELTER - 2 CRAFT SURFACE
+##12-15/95 STORAGE -  GENERAL STORES SURFACE
+##16-19/90 HOUSING - 50 UNITS LIVING QUARTERS SURFACE
+##20-23/93 HOUSING AREA - 50 UNITS UNDER
+##24-27/99 STORAGE AREA - 250 CAPACITY UNDER
+##28-31/98 COMM STATION - VERY LARGE RADAR HWD (20x20, 10 SCI) UNDER
+##32-35/94 TECH STATION - PSI LAB (20x20, 10 ENG, 5 PSI) UNDER
+##36-39/97 DEFENSE STATION - 750 DEF, GRAV UNDER
+##40 COMM TOWER - SMALL RADAR (10x10, 5 SCI) SURFACE
+##41 COMM ARRAY - LARGE RADAR (10x10, 5 SCI) SURFACE
+##42 MISSILE SITE - MISSILE DEFENSES (250 DEF) SURFACE
+##43 PILLBOX - NO SEWERS
+##44 COMM CENTER - LARGE RADAR HWD (10x10, 5 SCI) SURFACE 
+##45 DEFENSE CENTER - GRAV SURFACE
+##46 TECH WORKSHOP - WORKSHOP (10x10, 5 ENG)
+##47 TECH CENTER - ALIEN_CONTAINMENT (10x10, 5 ENG) UNDER
+##48 CLOAKING FIELD - MIND SHIELD UNDER
+##49 MISSILE SILO - (500 DEF) SURFACE
+##50 NANO CENTER - WORKSHOP (10x10, 5 ENG, 5 PSI)
+##51 POWER STATION - REQUIRED FOR ADVANCED FACILITIES
+##52 BUNKER - UNDERGROUND ACCESS, 10 SOLDIERS
+##53 GUARD TOWER - NO SEWERS
+##50-58 UNUSED (53-55 USED AS FILL IN)
+##59 CLEAR AREA
+##60-63/88 COMMAND STATION - ACCESS LIFT SURFACE
+##64-72/89 HANGAR - 5 CRAFT SURFACE

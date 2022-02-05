@@ -1,0 +1,2181 @@
+armors: #DONE
+  - type: STR_JUMPSUIT_UC
+    spriteSheet: JUMPSUIT_URBAN.PCK
+    spriteInv: MAN_0
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    corpseBattle:
+      - STR_JUMPSUIT_CORPSE
+    storeItem: STR_NONE
+    frontArmor: 12
+    sideArmor: 8
+    rearArmor: 5
+    underArmor: 2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: STR_JUMPSUIT_OFFICER_UC
+    customArmorPreviewIndex: 2
+    spriteSheet: JUMPSUIT_OFFICER.PCK
+    spriteInv: MAN_6
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    corpseBattle:
+      - STR_JUMPSUIT_OFFICER_CORPSE
+    storeItem: STR_NONE
+    frontArmor: 12
+    sideArmor: 8
+    rearArmor: 5
+    underArmor: 2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: STR_JUMPSUIT_PILOT_UC
+    customArmorPreviewIndex: 1
+    spriteSheet: JUMPSUIT_PILOT.PCK
+    spriteInv: MAN_7
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    corpseBattle:
+      - STR_JUMPSUIT_PILOT_CORPSE
+    storeItem: STR_NONE
+    frontArmor: 12
+    sideArmor: 8
+    rearArmor: 5
+    underArmor: 2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: STR_COMBAT_SUIT_UC
+    spriteSheet: COMBAT_SUIT_URBAN.PCK
+    spriteInv: MAN_0
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    corpseBattle:
+      - STR_COMBAT_SUIT_CORPSE
+    storeItem: STR_COMBAT_SUIT
+    frontArmor: 20
+    sideArmor: 15
+    rearArmor: 10
+    underArmor: 10
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: STR_ALLOY_VEST_UC
+    spriteSheet: ALLOY_VEST_URBAN.PCK
+    spriteInv: MAN_4
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    corpseBattle:
+      - STR_ALLOY_VEST_CORPSE
+    storeItem: STR_ALLOY_VEST
+    frontArmor: 25
+    sideArmor: 20
+    rearArmor: 15
+    underArmor: 15
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: STR_COMBAT_ARMOR_UC
+    spriteSheet: COMBAT_ARMOR_URBAN.PCK
+    spriteInv: MAN_5
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    corpseBattle:
+      - STR_COMBAT_ARMOR_CORPSE
+    storeItem: STR_COMBAT_ARMOR
+    frontArmor: 35
+    sideArmor: 30
+    rearArmor: 25
+    underArmor: 20
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: CIVM_ARMOR
+    spriteInv: INV_MALE_CIVILIAN
+    spriteSheet: CIVM.PCK
+    spriteHairGroup: 10
+    spriteHairColor: [160, 160, 160, 84, 84, 244, 228, 192]
+    corpseBattle:
+      - CIVM_CORPSE
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    drawingRoutine: 4
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: CIVF_ARMOR
+    spriteInv: INV_FEMALE_CIVILIAN
+    spriteSheet: CIVF.PCK
+    spriteFaceGroup: 6
+    spriteFaceColor: [94, 94, 96, 96, 97, 160, 162, 163]
+    corpseBattle:
+      - CIVF_CORPSE
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    drawingRoutine: 4
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: ALLOY_VEST_DESERT_ARMOR
+    spriteInv: INV_ALLOY_VEST_DESERT
+    spriteSheet: ALLOY_VEST_DESERT.PCK
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    corpseBattle:
+      - STR_HUMAN_FIGHTER_2_0_CORPSE
+    frontArmor: 25
+    sideArmor: 20
+    rearArmor: 15
+    underArmor: 15
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: ALLOY_VEST_FOREST_ARMOR
+    spriteInv: INV_ALLOY_VEST_FOREST
+    spriteSheet: ALLOY_VEST_FOREST.PCK
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    corpseBattle:
+      - STR_HUMAN_FIGHTER_2_1_CORPSE
+    frontArmor: 25
+    sideArmor: 20
+    rearArmor: 15
+    underArmor: 15
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: ALLOY_VEST_SNOW_ARMOR
+    spriteInv: INV_ALLOY_VEST_SNOW
+    spriteSheet: ALLOY_VEST_SNOW.PCK
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    corpseBattle:
+      - STR_HUMAN_FIGHTER_2_2_CORPSE
+    frontArmor: 25
+    sideArmor: 20
+    rearArmor: 15
+    underArmor: 15
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: ALLOY_VEST_URBAN_ARMOR
+    spriteInv: INV_ALLOY_VEST_URBAN
+    spriteSheet: ALLOY_VEST_URBAN.PCK
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    corpseBattle:
+      - STR_HUMAN_FIGHTER_2_3_CORPSE
+    frontArmor: 25
+    sideArmor: 20
+    rearArmor: 15
+    underArmor: 15
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: COMBAT_ARMOR_DESERT_ARMOR
+    spriteInv: INV_COMBAT_ARMOR_DESERT
+    spriteSheet: COMBAT_ARMOR_DESERT.PCK
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    corpseBattle:
+      - STR_HUMAN_FIGHTER_3_0_CORPSE
+    loftemps: 3
+    frontArmor: 35
+    sideArmor: 30
+    rearArmor: 25
+    underArmor: 20
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: COMBAT_ARMOR_FOREST_ARMOR
+    spriteInv: INV_COMBAT_ARMOR_FOREST
+    spriteSheet: COMBAT_ARMOR_FOREST_ARMOR.PCK
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    corpseBattle:
+      - STR_HUMAN_FIGHTER_3_1_CORPSE
+    frontArmor: 35
+    sideArmor: 30
+    rearArmor: 25
+    underArmor: 20
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: COMBAT_ARMOR_SNOW_ARMOR
+    spriteInv: INV_COMBAT_ARMOR_SNOW
+    spriteSheet: COMBAT_ARMOR_SNOW_ARMOR.PCK
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    corpseBattle:
+      - STR_HUMAN_FIGHTER_3_2_CORPSE
+    frontArmor: 35
+    sideArmor: 30
+    rearArmor: 25
+    underArmor: 20
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: COMBAT_ARMOR_URBAN_ARMOR
+    spriteInv: INV_COMBAT_ARMOR_URBAN
+    spriteSheet: COMBAT_ARMOR_URBAN_ARMOR.PCK
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    corpseBattle:
+      - STR_HUMAN_FIGHTER_3_3_CORPSE
+    frontArmor: 35
+    sideArmor: 30
+    rearArmor: 25
+    underArmor: 20
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: COMBAT_SUIT_DESERT_ARMOR
+    spriteInv: INV_JUMPSUIT_DESERT
+    spriteSheet: COMBAT_SUIT_DESERT.PCK
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    corpseBattle:
+      - STR_HUMAN_FIGHTER_1_0_CORPSE
+    frontArmor: 12
+    sideArmor: 8
+    rearArmor: 5
+    underArmor: 2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: COMBAT_SUIT_FOREST_ARMOR
+    spriteInv: INV_JUMPSUIT_FOREST
+    spriteSheet: COMBAT_SUIT_FOREST.PCK
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    corpseBattle:
+      - STR_HUMAN_FIGHTER_1_1_CORPSE
+    frontArmor: 12
+    sideArmor: 8
+    rearArmor: 5
+    underArmor: 2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: COMBAT_SUIT_RED_ARMOR
+    spriteInv: INV_JUMPSUIT_FOREST
+    spriteSheet: COMBAT_SUIT_RED.PCK
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    corpseBattle:
+      - STR_HUMAN_FIGHTER_1_2_CORPSE
+    frontArmor: 12
+    sideArmor: 8
+    rearArmor: 5
+    underArmor: 2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: COMBAT_SUIT_SNOW_ARMOR
+    spriteInv: INV_JUMPSUIT_SNOW
+    spriteSheet: COMBAT_SUIT_SNOW.PCK
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    corpseBattle:
+      - STR_HUMAN_FIGHTER_1_3_CORPSE
+    frontArmor: 12
+    sideArmor: 8
+    rearArmor: 5
+    underArmor: 2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: COMBAT_SUIT_URBAN_ARMOR
+    spriteInv: INV_JUMPSUIT_URBAN
+    spriteSheet: COMBAT_SUIT_URBAN.PCK
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    corpseBattle:
+      - STR_HUMAN_FIGHTER_1_4_CORPSE
+    frontArmor: 12
+    sideArmor: 8
+    rearArmor: 5
+    underArmor: 2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: HK_CERBERUS_ARMOR
+    spriteSheet: HK_CERBERUS.PCK
+    corpseBattle:
+      - STR_HK_CERBERUS_CORPSE
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    drawingRoutine: 4
+    damageModifier:
+      - 0.0
+      - 0.0
+      - 1.0
+      - 1.0
+      - 0.0
+      - 0.0
+      - 1.0
+      - 0.0
+      - 0.0
+      - 0.0
+    loftempsSet: [ 1 ]
+  - type: HK_CYBERMITE_ARMOR
+    spriteSheet: HK_CYBERMITE.PCK
+    corpseBattle:
+      - STR_HK_CYBERMITE_CORPSE
+    frontArmor: 14
+    sideArmor: 14
+    rearArmor: 14
+    underArmor: 14
+    drawingRoutine: 4
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.0
+    loftempsSet: [ 2 ]
+  - type: HK_DRONE_ARMOR
+    spriteSheet: HK_DRONE.PCK
+    corpseBattle:
+      - STR_HK_DRONE_CORPSE
+    frontArmor: 24
+    sideArmor: 20
+    rearArmor: 16
+    underArmor: 16
+    drawingRoutine: 4
+    movementType: 2
+    damageModifier:
+      - 1.0
+      - 0.8
+      - 1.0
+      - 1.0
+      - 0.8
+      - 1.0
+      - 0.0
+      - 1.4
+      - 1.0
+      - 0.0
+    loftempsSet: [ 3 ]
+    allowInv: false
+  - type: HK_SEEKER_ARMOR
+    spriteSheet: HK_SEEKER.PCK
+    corpseBattle:
+      - STR_HK_SEEKER_CORPSE
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    drawingRoutine: 4
+    damageModifier:
+      - 1.0
+      - 0.15
+      - 1.0
+      - 0.5
+      - 0.08
+      - 0.05
+      - 1.0
+      - 0.0
+      - 1.0
+      - 0.0
+    loftempsSet: [ 1 ]
+  - type: HK_SENTRY_ARMOR
+    spriteInv: INV_HK_SENTRY
+    spriteSheet: HK_SENTRY.PCK
+    corpseBattle:
+      - SECTOPOD_CORPSE_1
+      - SECTOPOD_CORPSE_2
+      - SECTOPOD_CORPSE_3
+      - SECTOPOD_CORPSE_4
+    corpseGeo: STR_HK_SENTRY_CORPSE
+    frontArmor: 135
+    sideArmor: 120
+    rearArmor: 90
+    underArmor: 80
+    drawingRoutine: 5
+    size: 2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.5
+      - 0.8
+      - 1.0
+      - 0.8
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.0
+    loftempsSet: [ 92, 89, 90, 91 ]
+  - type: HUMAN_AGENT_ARMOR1
+    spriteSheet: HUMAN_AGENT_1.PCK
+    spriteInv: INV_HUMAN_AGENT
+    corpseBattle:
+      - STR_HUMAN_AGENT_1_CORPSE
+    corpseGeo: CIVM_CORPSE
+    frontArmor: 6
+    sideArmor: 4
+    rearArmor: 2
+    underArmor: 1
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 2.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: HUMAN_AGENT_ARMOR2
+    spriteSheet: HUMAN_AGENT_2.PCK
+    spriteInv: INV_HUMAN_AGENT
+    corpseBattle:
+      - STR_HUMAN_AGENT_2_CORPSE
+    corpseGeo: CIVM_CORPSE
+    frontArmor: 6
+    sideArmor: 4
+    rearArmor: 2
+    underArmor: 1
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 2.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: HUMAN_AGENT_ARMOR3
+    spriteSheet: HUMAN_AGENT_3.PCK
+    spriteInv: INV_HUMAN_AGENT
+    corpseBattle:
+      - STR_HUMAN_AGENT_3_CORPSE
+    corpseGeo: CIVM_CORPSE
+    frontArmor: 6
+    sideArmor: 4
+    rearArmor: 2
+    underArmor: 1
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 2.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: HUMAN_AGENT_ARMOR4
+    spriteSheet: HUMAN_AGENT_4.PCK
+    spriteInv: INV_HUMAN_AGENT
+    corpseBattle:
+      - STR_HUMAN_AGENT_4_CORPSE
+    corpseGeo: CIVM_CORPSE
+    frontArmor: 6
+    sideArmor: 4
+    rearArmor: 2
+    underArmor: 1
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 2.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: HUMAN_AGENT_ARMOR5
+    spriteSheet: HUMAN_AGENT_5.PCK
+    spriteInv: INV_HUMAN_AGENT
+    corpseBattle:
+      - STR_HUMAN_AGENT_5_CORPSE
+    corpseGeo: CIVM_CORPSE
+    frontArmor: 6
+    sideArmor: 4
+    rearArmor: 2
+    underArmor: 1
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 2.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: HUMAN_AGENT_ARMOR6
+    spriteSheet: HUMAN_AGENT_6.PCK
+    spriteInv: INV_HUMAN_AGENT
+    corpseBattle:
+      - STR_HUMAN_AGENT_6_CORPSE
+    corpseGeo: CIVM_CORPSE
+    frontArmor: 6
+    sideArmor: 4
+    rearArmor: 2
+    underArmor: 1
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 2.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: HUMAN_AGENT_ARMOR7
+    spriteSheet: HUMAN_AGENT_7.PCK
+    spriteInv: INV_HUMAN_AGENT
+    corpseBattle:
+      - STR_HUMAN_AGENT_7_CORPSE
+    corpseGeo: CIVM_CORPSE
+    frontArmor: 6
+    sideArmor: 4
+    rearArmor: 2
+    underArmor: 1
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 2.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: HUMAN_AGENT_ARMOR8
+    spriteSheet: HUMAN_AGENT_8.PCK
+    spriteInv: INV_HUMAN_AGENT
+    corpseBattle:
+      - STR_HUMAN_AGENT_8_CORPSE
+    corpseGeo: CIVM_CORPSE
+    frontArmor: 6
+    sideArmor: 4
+    rearArmor: 2
+    underArmor: 1
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 2.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: HUMAN_CHARACTER_ARMOR0_0
+    spriteInv: INV_HUMAN_CHARACTER
+    spriteSheet: HUMAN_CHARACTER_0_0.PCK
+    corpseBattle:
+      - STR_HUMAN_CHARACTER_0_0_CORPSE
+    corpseGeo: CIVM_CORPSE
+    frontArmor: 12
+    sideArmor: 8
+    rearArmor: 5
+    underArmor: 2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: HUMAN_CHARACTER_ARMOR0_1
+    spriteInv: INV_HUMAN_CHARACTER
+    spriteSheet: HUMAN_CHARACTER_0_1.PCK
+    corpseBattle:
+      - STR_HUMAN_CHARACTER_0_1_CORPSE
+    corpseGeo: CIVM_CORPSE
+    frontArmor: 12
+    sideArmor: 8
+    rearArmor: 5
+    underArmor: 2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: HUMAN_CHARACTER_ARMOR0_2
+    spriteInv: INV_HUMAN_CHARACTER
+    spriteSheet: HUMAN_CHARACTER_0_2.PCK
+    corpseBattle:
+      - STR_HUMAN_CHARACTER_0_2_CORPSE
+    corpseGeo: CIVM_CORPSE
+    frontArmor: 12
+    sideArmor: 8
+    rearArmor: 5
+    underArmor: 2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: HUMAN_CHARACTER_ARMOR0_3
+    spriteInv: INV_HUMAN_CHARACTER
+    spriteSheet: HUMAN_CHARACTER_0_3.PCK
+    corpseBattle:
+      - STR_HUMAN_CHARACTER_0_3_CORPSE
+    corpseGeo: CIVM_CORPSE
+    frontArmor: 12
+    sideArmor: 8
+    rearArmor: 5
+    underArmor: 2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: HUMAN_CHARACTER_ARMOR0_4
+    spriteInv: INV_HUMAN_CHARACTER
+    spriteSheet: HUMAN_CHARACTER_0_4.PCK
+    corpseBattle:
+      - STR_HUMAN_CHARACTER_0_4_CORPSE
+    corpseGeo: CIVM_CORPSE
+    frontArmor: 12
+    sideArmor: 8
+    rearArmor: 5
+    underArmor: 2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: HUMAN_CHARACTER_ARMOR0_5
+    spriteInv: INV_HUMAN_CHARACTER
+    spriteSheet: HUMAN_CHARACTER_0_5.PCK
+    corpseBattle:
+      - STR_HUMAN_CHARACTER_0_5_CORPSE
+    corpseGeo: CIVM_CORPSE
+    frontArmor: 12
+    sideArmor: 8
+    rearArmor: 5
+    underArmor: 2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: HUMAN_CHARACTER_ARMOR0_6
+    spriteInv: INV_HUMAN_CHARACTER
+    spriteSheet: HUMAN_CHARACTER_0_6.PCK
+    corpseBattle:
+      - STR_HUMAN_CHARACTER_0_6_CORPSE
+    corpseGeo: CIVM_CORPSE
+    frontArmor: 12
+    sideArmor: 8
+    rearArmor: 5
+    underArmor: 2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: HUMAN_CHARACTER_ARMOR0_7
+    spriteInv: INV_HUMAN_CHARACTER
+    spriteSheet: HUMAN_CHARACTER_0_7.PCK
+    corpseBattle:
+      - STR_HUMAN_CHARACTER_0_7_CORPSE
+    corpseGeo: CIVM_CORPSE
+    frontArmor: 12
+    sideArmor: 8
+    rearArmor: 5
+    underArmor: 2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: HUMAN_ENGINEER_ARMOR
+    spriteSheet: HUMAN_ENGINEER.PCK
+    corpseBattle:
+      - STR_HUMAN_ENGINEER_CORPSE
+    corpseGeo: CIVM_CORPSE
+    frontArmor: 2
+    sideArmor: 2
+    rearArmor: 2
+    underArmor: 2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: HUMAN_MANAGER_ARMOR
+    spriteSheet: HUMAN_MANAGER.PCK
+    corpseBattle:
+      - STR_HUMAN_MANAGER_CORPSE
+    corpseGeo: CIVM_CORPSE
+    frontArmor: 2
+    sideArmor: 2
+    rearArmor: 2
+    underArmor: 2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: HUMAN_SCIENTIST_ARMOR
+    spriteInv: INV_HUMAN_SCIENTIST
+    spriteSheet: HUMAN_SCIENTIST.PCK
+    corpseBattle:
+      - STR_HUMAN_SCIENTIST_CORPSE
+    corpseGeo: CIVM_CORPSE
+    frontArmor: 12
+    sideArmor: 8
+    rearArmor: 5
+    underArmor: 2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: HUMAN_SOLDIER_ARMOR0_0
+    spriteSheet: HUMAN_SOLDIER_0_0.PCK
+    corpseBattle:
+      - STR_HUMAN_SOLDIER_0_0_CORPSE
+    corpseGeo: STR_HUMAN_SOLDIER_0_0_CORPSE
+    frontArmor: 30
+    sideArmor: 25
+    rearArmor: 20
+    underArmor: 15
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.8
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.9
+      - 1.0
+      - 1.1
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: HUMAN_SOLDIER_ARMOR0_1
+    spriteSheet: HUMAN_SOLDIER_0_1.PCK
+    corpseBattle:
+      - STR_HUMAN_SOLDIER_0_1_CORPSE
+    corpseGeo: STR_HUMAN_SOLDIER_0_1_CORPSE
+    frontArmor: 30
+    sideArmor: 25
+    rearArmor: 20
+    underArmor: 15
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.8
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.9
+      - 1.0
+      - 1.1
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: HUMAN_SOLDIER_ARMOR0_2
+    spriteSheet: HUMAN_SOLDIER_0_2.PCK
+    corpseBattle:
+      - STR_HUMAN_SOLDIER_0_2_CORPSE
+    corpseGeo: STR_HUMAN_SOLDIER_0_2_CORPSE
+    frontArmor: 30
+    sideArmor: 25
+    rearArmor: 20
+    underArmor: 15
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.8
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.9
+      - 1.0
+      - 1.1
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: HUMAN_SUIT_BLUE_ARMOR1
+    spriteSheet: HUMAN_SUIT_BLUE_1.PCK
+    spriteInv: INV_HUMAN_AGENT
+    corpseBattle:
+      - STR_HUMAN_SUIT_BLUE_CORPSE
+    frontArmor: 6
+    sideArmor: 4
+    rearArmor: 2
+    underArmor: 1
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 2.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: HUMAN_SUIT_BLUE_ARMOR2
+    spriteSheet: HUMAN_SUIT_BLUE_2.PCK
+    spriteInv: INV_HUMAN_AGENT
+    corpseBattle:
+      - STR_HUMAN_SUIT_BLUE_CORPSE
+    frontArmor: 6
+    sideArmor: 4
+    rearArmor: 2
+    underArmor: 1
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 2.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: HUMAN_SUIT_BLUE_ARMOR3
+    spriteSheet: HUMAN_SUIT_BLUE_3.PCK
+    spriteInv: INV_HUMAN_AGENT
+    corpseBattle:
+      - STR_HUMAN_SUIT_BLUE_CORPSE
+    frontArmor: 6
+    sideArmor: 4
+    rearArmor: 2
+    underArmor: 1
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 2.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: HUMAN_SUIT_GREEN_ARMOR1
+    spriteSheet: HUMAN_SUIT_GREEN_1.PCK
+    spriteInv: INV_HUMAN_AGENT
+    corpseBattle:
+      - STR_HUMAN_SUIT_GREEN_CORPSE
+    frontArmor: 6
+    sideArmor: 4
+    rearArmor: 2
+    underArmor: 1
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 2.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: HUMAN_SUIT_GREEN_ARMOR2
+    spriteSheet: HUMAN_SUIT_GREEN_2.PCK
+    spriteInv: INV_HUMAN_AGENT
+    corpseBattle:
+      - STR_HUMAN_SUIT_GREEN_CORPSE
+    frontArmor: 6
+    sideArmor: 4
+    rearArmor: 2
+    underArmor: 1
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 2.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: HUMAN_SUIT_GREEN_ARMOR3
+    spriteSheet: HUMAN_SUIT_GREEN_3.PCK
+    spriteInv: INV_HUMAN_AGENT
+    corpseBattle:
+      - STR_HUMAN_SUIT_GREEN_CORPSE
+    frontArmor: 6
+    sideArmor: 4
+    rearArmor: 2
+    underArmor: 1
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 2.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: HUMAN_SUIT_GREY_ARMOR1
+    spriteSheet: HUMAN_SUIT_GREY_1.PCK
+    spriteInv: INV_HUMAN_AGENT
+    corpseBattle:
+      - STR_HUMAN_SUIT_GREY_CORPSE
+    frontArmor: 6
+    sideArmor: 4
+    rearArmor: 2
+    underArmor: 1
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 2.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: HUMAN_SUIT_GREY_ARMOR2
+    spriteSheet: HUMAN_SUIT_GREY_2.PCK
+    spriteInv: INV_HUMAN_AGENT
+    corpseBattle:
+      - STR_HUMAN_SUIT_GREY_CORPSE
+    frontArmor: 6
+    sideArmor: 4
+    rearArmor: 2
+    underArmor: 1
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 2.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: HUMAN_SUIT_GREY_ARMOR3
+    spriteSheet: HUMAN_SUIT_GREY_3.PCK
+    spriteInv: INV_HUMAN_AGENT
+    corpseBattle:
+      - STR_HUMAN_SUIT_GREY_CORPSE
+    frontArmor: 6
+    sideArmor: 4
+    rearArmor: 2
+    underArmor: 1
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 2.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: HUMAN_SUIT_RED_ARMOR1
+    spriteSheet: HUMAN_SUIT_RED_1.PCK
+    spriteInv: INV_HUMAN_AGENT
+    corpseBattle:
+      - STR_HUMAN_SUIT_RED_CORPSE
+    frontArmor: 6
+    sideArmor: 4
+    rearArmor: 2
+    underArmor: 1
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 2.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: HUMAN_SUIT_RED_ARMOR2
+    spriteSheet: HUMAN_SUIT_RED_2.PCK
+    spriteInv: INV_HUMAN_AGENT
+    corpseBattle:
+      - STR_HUMAN_SUIT_RED_CORPSE
+    frontArmor: 6
+    sideArmor: 4
+    rearArmor: 2
+    underArmor: 1
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 2.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: HUMAN_SUIT_RED_ARMOR3
+    spriteSheet: HUMAN_SUIT_RED_3.PCK
+    spriteInv: INV_HUMAN_AGENT
+    corpseBattle:
+      - STR_HUMAN_SUIT_RED_CORPSE
+    frontArmor: 6
+    sideArmor: 4
+    rearArmor: 2
+    underArmor: 1
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 2.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: HUMAN_SUIT_PINK_ARMOR1
+    spriteSheet: HUMAN_SUIT_PINK_1.PCK
+    spriteInv: INV_HUMAN_AGENT
+    corpseBattle:
+      - STR_HUMAN_SUIT_PINK_CORPSE
+    frontArmor: 6
+    sideArmor: 4
+    rearArmor: 2
+    underArmor: 1
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 2.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: HUMAN_SUIT_PINK_ARMOR2
+    spriteSheet: HUMAN_SUIT_PINK_2.PCK
+    spriteInv: INV_HUMAN_AGENT
+    corpseBattle:
+      - STR_HUMAN_SUIT_PINK_CORPSE
+    frontArmor: 6
+    sideArmor: 4
+    rearArmor: 2
+    underArmor: 1
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 2.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: HUMAN_SUIT_PINK_ARMOR3
+    spriteSheet: HUMAN_SUIT_PINK_3.PCK
+    spriteInv: INV_HUMAN_AGENT
+    corpseBattle:
+      - STR_HUMAN_SUIT_PINK_CORPSE
+    frontArmor: 6
+    sideArmor: 4
+    rearArmor: 2
+    underArmor: 1
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 2.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: HUMAN_SUIT_PURPLE_ARMOR1
+    spriteSheet: HUMAN_SUIT_PURPLE_1.PCK
+    spriteInv: INV_HUMAN_AGENT
+    corpseBattle:
+      - STR_HUMAN_SUIT_PURPLE_CORPSE
+    frontArmor: 6
+    sideArmor: 4
+    rearArmor: 2
+    underArmor: 1
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 2.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: HUMAN_SUIT_PURPLE_ARMOR2
+    spriteSheet: HUMAN_SUIT_PURPLE_2.PCK
+    spriteInv: INV_HUMAN_AGENT
+    corpseBattle:
+      - STR_HUMAN_SUIT_PURPLE_CORPSE
+    frontArmor: 6
+    sideArmor: 4
+    rearArmor: 2
+    underArmor: 1
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 2.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: HUMAN_SUIT_PURPLE_ARMOR3
+    spriteSheet: HUMAN_SUIT_PURPLE_3.PCK
+    spriteInv: INV_HUMAN_AGENT
+    corpseBattle:
+      - STR_HUMAN_SUIT_PURPLE_CORPSE
+    frontArmor: 6
+    sideArmor: 4
+    rearArmor: 2
+    underArmor: 1
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 2.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: HUMAN_SUIT_BLACK_ARMOR1
+    spriteSheet: HUMAN_SUIT_BLACK_1.PCK
+    spriteInv: INV_HUMAN_AGENT
+    corpseBattle:
+      - STR_HUMAN_SUIT_BLACK_CORPSE
+    frontArmor: 6
+    sideArmor: 4
+    rearArmor: 2
+    underArmor: 1
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 2.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: HUMAN_SUIT_BLACK_ARMOR2
+    spriteSheet: HUMAN_SUIT_BLACK_2.PCK
+    spriteInv: INV_HUMAN_AGENT
+    corpseBattle:
+      - STR_HUMAN_SUIT_BLACK_CORPSE
+    frontArmor: 6
+    sideArmor: 4
+    rearArmor: 2
+    underArmor: 1
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 2.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: HUMAN_SUIT_BLACK_ARMOR3
+    spriteSheet: HUMAN_SUIT_BLACK_3.PCK
+    spriteInv: INV_HUMAN_AGENT
+    corpseBattle:
+      - STR_HUMAN_SUIT_BLACK_CORPSE
+    frontArmor: 6
+    sideArmor: 4
+    rearArmor: 2
+    underArmor: 1
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 2.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: HUMAN_SUIT_BLACK_ARMOR4
+    spriteSheet: HUMAN_SUIT_BLACK_4.PCK
+    spriteInv: INV_HUMAN_AGENT
+    corpseBattle:
+      - STR_HUMAN_SUIT_BLACK_CORPSE
+    frontArmor: 6
+    sideArmor: 4
+    rearArmor: 2
+    underArmor: 1
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 2.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: HUMAN_SUIT_BLACK_ARMOR5
+    spriteSheet: HUMAN_SUIT_BLACK_5.PCK
+    spriteInv: INV_HUMAN_AGENT
+    corpseBattle:
+      - STR_HUMAN_SUIT_BLACK_CORPSE
+    frontArmor: 6
+    sideArmor: 4
+    rearArmor: 2
+    underArmor: 1
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 2.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: HUMAN_SUIT_BLACK_ARMOR6
+    spriteSheet: HUMAN_SUIT_BLACK_6.PCK
+    spriteInv: INV_HUMAN_AGENT
+    corpseBattle:
+      - STR_HUMAN_SUIT_BLACK_CORPSE
+    frontArmor: 6
+    sideArmor: 4
+    rearArmor: 2
+    underArmor: 1
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 2.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: HUMAN_SUIT_BLACK_ARMOR7
+    spriteSheet: HUMAN_SUIT_BLACK_7.PCK
+    spriteInv: INV_HUMAN_AGENT
+    corpseBattle:
+      - STR_HUMAN_SUIT_BLACK_CORPSE
+    frontArmor: 6
+    sideArmor: 4
+    rearArmor: 2
+    underArmor: 1
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 2.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: HUMAN_SUIT_BLACK_ARMOR8
+    spriteSheet: HUMAN_SUIT_BLACK_8.PCK
+    spriteInv: INV_HUMAN_AGENT
+    corpseBattle:
+      - STR_HUMAN_SUIT_BLACK_CORPSE
+    frontArmor: 6
+    sideArmor: 4
+    rearArmor: 2
+    underArmor: 1
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 2.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: HUMAN_TECHNICIAN_ARMOR
+    spriteInv: INV_MALE_CIVILIAN
+    spriteSheet: HUMAN_TECHNICIAN.PCK
+    corpseBattle:
+      - STR_HUMAN_TECHNICIAN_CORPSE
+    corpseGeo: CIVM_CORPSE
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: INFILTRATOR_T800_ARMOR
+    spriteSheet: INFILTRATOR_T800.PCK
+    spriteInv: INV_TERMINATOR_400
+    corpseBattle:
+      - STR_TERMINATOR_T800_CORPSE
+    frontArmor: 44
+    sideArmor: 38
+    rearArmor: 34
+    underArmor: 34
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.1
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+    loftempsSet: [ 1 ]
+  - type: JUMPSUIT_DESERT_ARMOR
+    spriteInv: INV_JUMPSUIT_DESERT
+    spriteSheet: JUMPSUIT_DESERT.PCK
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    corpseBattle:
+      - STR_HUMAN_JUMPSUIT_0_0_CORPSE
+    frontArmor: 12
+    sideArmor: 8
+    rearArmor: 5
+    underArmor: 2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: JUMPSUIT_FOREST_ARMOR
+    spriteInv: INV_JUMPSUIT_FOREST
+    spriteSheet: JUMPSUIT_FOREST.PCK
+    corpseBattle:
+      - STR_HUMAN_JUMPSUIT_0_1_CORPSE
+    frontArmor: 12
+    sideArmor: 8
+    rearArmor: 5
+    underArmor: 2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: JUMPSUIT_OFFICER_ARMOR
+    spriteInv: INV_JUMPSUIT_FOREST
+    spriteSheet: JUMPSUIT_OFFICER.PCK
+    corpseBattle:
+      - STR_HUMAN_JUMPSUIT_0_2_CORPSE
+    frontArmor: 12
+    sideArmor: 8
+    rearArmor: 5
+    underArmor: 2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: JUMPSUIT_PILOT_ARMOR
+    spriteInv: INV_JUMPSUIT_FOREST
+    spriteSheet: JUMPSUIT_PILOT.PCK
+    corpseBattle:
+      - STR_HUMAN_JUMPSUIT_0_3_CORPSE
+    frontArmor: 12
+    sideArmor: 8
+    rearArmor: 5
+    underArmor: 2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: JUMPSUIT_RED_ARMOR
+    spriteInv: INV_JUMPSUIT_FOREST
+    spriteSheet: JUMPSUIT_RED.PCK
+    corpseBattle:
+      - STR_HUMAN_JUMPSUIT_0_4_CORPSE
+    frontArmor: 12
+    sideArmor: 8
+    rearArmor: 5
+    underArmor: 2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: JUMPSUIT_SNOW_ARMOR
+    spriteInv: INV_JUMPSUIT_SNOW
+    spriteSheet: JUMPSUIT_SNOW.PCK
+    corpseBattle:
+      - STR_HUMAN_JUMPSUIT_0_5_CORPSE
+    frontArmor: 12
+    sideArmor: 8
+    rearArmor: 5
+    underArmor: 2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: JUMPSUIT_URBAN_ARMOR
+    spriteInv: INV_JUMPSUIT_URBAN
+    spriteSheet: JUMPSUIT_URBAN.PCK
+    corpseBattle:
+      - STR_HUMAN_JUMPSUIT_0_6_CORPSE
+    frontArmor: 12
+    sideArmor: 8
+    rearArmor: 5
+    underArmor: 2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: POLICE_MALE_CIVILIAN_ARMOR
+    spriteInv: INV_MALE_CIVILIAN
+    spriteSheet: POLICE_FEMALE_CIVILIAN.PCK
+    corpseBattle:
+      - STR_POLICE_MALE_CIVILIAN_CORPSE
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: POLICE_FEMALE_CIVILIAN_ARMOR
+    spriteInv: INV_FEMALE_CIVILIAN
+    spriteSheet: POLICE_FEMALE_CIVILIAN.PCK
+    corpseBattle:
+      - STR_POLICE_FEMALE_CIVILIAN_CORPSE
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: TERMINATOR_T200_ARMOR
+    spriteSheet: TERMINATOR_T200.PCK
+    spriteInv: INV_TERMINATOR_T200
+    corpseBattle:
+      - STR_TERMINATOR_T200_CORPSE
+    frontArmor: 44
+    sideArmor: 38
+    rearArmor: 34
+    underArmor: 34
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.1
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+    loftempsSet: [ 1 ]
+  - type: TERMINATOR_T300_ARMOR
+    spriteSheet: TERMINATOR_T300.PCK
+    spriteInv: INV_TERMINATOR_T300
+    corpseBattle:
+      - STR_TERMINATOR_T300_CORPSE
+    frontArmor: 60
+    sideArmor: 48
+    rearArmor: 42
+    underArmor: 42
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.1
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+    loftempsSet: [ 1 ]
+  - type: TERMINATOR_T400_ARMOR
+    spriteSheet: TERMINATOR_T400.PCK
+    spriteInv: INV_TERMINATOR_400
+    corpseBattle:
+      - STR_TERMINATOR_T400_CORPSE
+    frontArmor: 80
+    sideArmor: 61
+    rearArmor: 51
+    underArmor: 51
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.1
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+    loftempsSet: [ 1 ]
+  - type: TERMINATOR_T500_ARMOR
+    spriteSheet: TERMINATOR_T500.PCK
+    spriteInv: INV_TERMINATOR_400
+    corpseBattle:
+      - STR_TERMINATOR_T600_CORPSE
+    frontArmor: 44
+    sideArmor: 38
+    rearArmor: 34
+    underArmor: 34
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.1
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+    loftempsSet: [ 1 ]
+  - type: TERMINATOR_T600_ARMOR
+    spriteSheet: TERMINATOR_T600.PCK
+    spriteInv: INV_TERMINATOR_400
+    corpseBattle:
+      - STR_TERMINATOR_T600_CORPSE
+    frontArmor: 44
+    sideArmor: 38
+    rearArmor: 34
+    underArmor: 34
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.1
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+    loftempsSet: [ 1 ]
+  - type: TERMINATOR_T700_ARMOR
+    spriteSheet: TERMINATOR_T700.PCK
+    spriteInv: INV_TERMINATOR_400
+    corpseBattle:
+      - STR_TERMINATOR_T700_CORPSE
+    frontArmor: 60
+    sideArmor: 48
+    rearArmor: 42
+    underArmor: 42
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.1
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+    loftempsSet: [ 1 ]
+  - type: TERMINATOR_T800_ARMOR
+    spriteSheet: TERMINATOR_T800.PCK
+    spriteInv: INV_TERMINATOR_400
+    corpseBattle:
+      - STR_TERMINATOR_T800_CORPSE
+    frontArmor: 80
+    sideArmor: 61
+    rearArmor: 51
+    underArmor: 51
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.1
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+    loftempsSet: [ 1 ]
+  - type: TERMINATOR_T1000_ARMOR
+    spriteSheet: TERMINATOR_T1000.PCK
+    spriteInv: INV_TERMINATOR_400
+    corpseBattle:
+      - STR_TERMINATOR_T1000_CORPSE
+    frontArmor: 60
+    sideArmor: 48
+    rearArmor: 42
+    underArmor: 42
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.1
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+    loftempsSet: [ 1 ]
+  - type: UNIFORM_DESERT_ARMOR
+    spriteInv: INV_JUMPSUIT_DESERT
+    spriteSheet: UNIFORM_DESERT.PCK
+    corpseBattle:
+      - STR_HUMAN_FIGHTER_0_0_CORPSE
+    frontArmor: 12
+    sideArmor: 8
+    rearArmor: 5
+    underArmor: 2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: UNIFORM_FOREST_ARMOR
+    spriteInv: INV_JUMPSUIT_FOREST
+    spriteSheet: UNIFORM_FOREST.PCK
+    corpseBattle:
+      - STR_HUMAN_FIGHTER_0_1_CORPSE
+    frontArmor: 12
+    sideArmor: 8
+    rearArmor: 5
+    underArmor: 2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: UNIFORM_RED_ARMOR
+    spriteInv: INV_JUMPSUIT_FOREST
+    spriteSheet: UNIFORM_RED.PCK
+    corpseBattle:
+      - STR_HUMAN_FIGHTER_0_2_CORPSE
+    frontArmor: 12
+    sideArmor: 8
+    rearArmor: 5
+    underArmor: 2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: UNIFORM_SNOW_ARMOR
+    spriteInv: INV_JUMPSUIT_SNOW
+    spriteSheet: UNIFORM_SNOW.PCK
+    corpseBattle:
+      - STR_HUMAN_FIGHTER_0_3_CORPSE
+    frontArmor: 12
+    sideArmor: 8
+    rearArmor: 5
+    underArmor: 2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: UNIFORM_URBAN_ARMOR
+    spriteInv: INV_JUMPSUIT_URBAN
+    spriteSheet: UNIFORM_URBAN.PCK
+    corpseBattle:
+      - STR_HUMAN_FIGHTER_0_4_CORPSE
+    frontArmor: 12
+    sideArmor: 8
+    rearArmor: 5
+    underArmor: 2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    loftempsSet: [ 3 ]
+

@@ -1,0 +1,477 @@
+ufos:
+#<delete>
+  - delete: STR_SMALL_SCOUT
+  - delete: STR_MEDIUM_SCOUT
+  - delete: STR_LARGE_SCOUT
+  - delete: STR_ABDUCTOR
+  - delete: STR_HARVESTER
+  - delete: STR_BATTLESHIP
+  - delete: STR_TERROR_SHIP
+  - delete: STR_SUPPLY_SHIP
+#<delete>
+#Surface to surface missiles
+  - type: STR_TACTICAL_MISSILE
+    size: STR_MEDIUM
+    missilePower: 1   
+    modSprite: InterceptHKDrone
+    damageMax: 300
+    speedMax: 3000
+    avoidBonus: 50
+    accel: 20
+    power: 0
+    range: 0
+    score: 100
+    reload: 56
+    breakOffTime: 200
+    hunterKillerPercentage: 0
+    battlescapeTerrainData:
+      name: HK01
+      mapDataSets:
+        - BLANKS
+        - HK2
+      mapBlocks:
+        - name: HK01
+          width: 20
+          length: 10
+    missionScore: 0
+    raceWeights:
+      0:
+        STR_NO_MODEL: 10
+  - type: STR_MX_MISSILE
+    size: STR_LARGE
+    missilePower: -1   
+    modSprite: InterceptHKDrone
+    damageMax: 500
+    speedMax: 6000
+    avoidBonus: 100
+    accel: 25
+    power: 0
+    range: 0
+    score: 200
+    reload: 56
+    breakOffTime: 200
+    hunterKillerPercentage: 0
+    battlescapeTerrainData:
+      name: HK01
+      mapDataSets:
+        - BLANKS
+        - HK2
+      mapBlocks:
+        - name: HK01
+          width: 20
+          length: 10
+    missionScore: 0
+#Aerial HKs
+##T-50 HK
+  - type: STR_HK_DRONE
+    size: STR_SMALL
+    modSprite: InterceptHKDrone
+    damageMax: 50
+    speedMax: 710
+    accel: 10
+    power: 10
+    range: 15
+    score: 25
+    reload: 56
+    breakOffTime: 200
+    hunterKillerPercentage: 50
+    huntMode: 0
+    huntSpeed: 90
+    radarRange: 20
+    sightRange: 20
+    battlescapeTerrainData:
+      name: HK01
+      mapDataSets:
+        - BLANKS
+        - HK2
+      mapBlocks:
+        - name: HK01
+          width: 20
+          length: 10
+    missionScore: 0
+##T-200 HK - 3 basic models (Scout, Transport, Fighter), with upgraded versions
+  - type: STR_HK_SCOUT_1
+    size: STR_SMALL
+    modSprite: InterceptHKScoutS1
+    damageMax: 250
+    speedMax: 933
+    accel: 11
+    power: 20
+    range: 40
+    score: 75
+    reload: 32
+    breakOffTime: 250
+    battlescapeTerrainData:
+      name: HK01
+      mapDataSets:
+        - BLANKS
+        - HK2
+      mapBlocks:
+        - name: HK01
+          width: 20
+          length: 10
+    hunterKillerPercentage: 50
+    huntMode: 0
+    huntSpeed: 90
+    radarRange: 268
+    radarChance: 20
+    sightRange: 268
+    missionScore: 0
+  - type: STR_HK_TRANSPORT_1
+    size: STR_SMALL
+    modSprite: InterceptHKTransportS1
+    damageMax: 250
+    speedMax: 860
+    accel: 9
+    power: 20
+    range: 40
+    score: 100
+    reload: 32
+    breakOffTime: 500
+    battlescapeTerrainData:
+      name: HK04
+      mapDataSets:
+        - BLANKS
+        - HK2
+      mapBlocks:
+        - name: HK04
+          width: 20
+          length: 10
+    hunterKillerPercentage: 0
+    huntSpeed: 90
+    radarRange: 0
+    radarChance: 0
+    sightRange: 67
+    huntMode: 0
+    missionScore: 0
+  - type: STR_HK_FIGHTER_1
+    size: STR_SMALL
+    modSprite: InterceptHKFighterS1
+    damageMax: 300
+    speedMax: 933
+    accel: 10
+    power: 30
+    range: 40
+    score: 125
+    reload: 24
+    breakOffTime: 500
+    battlescapeTerrainData:
+      name: HK04
+      mapDataSets:
+        - BLANKS
+        - HK2
+      mapBlocks:
+        - name: HK04
+          width: 20
+          length: 10
+    hunterKillerPercentage: 100
+    huntSpeed: 90
+    radarRange: 400
+    radarChance: 30
+    sightRange: 67
+    huntMode: 0
+    missionScore: 0
+  - type: STR_HK_INTERCEPTOR_1
+    size: STR_SMALL
+    modSprite: InterceptHKInterceptor1
+    damageMax: 250
+    speedMax: 1070
+    accel: 11
+    power: 30
+    range: 40
+    score: 125
+    reload: 24
+    breakOffTime: 500
+    battlescapeTerrainData:
+      name: HK04
+      mapDataSets:
+        - BLANKS
+        - HK2
+      mapBlocks:
+        - name: HK04
+          width: 20
+          length: 10
+    hunterKillerPercentage: 100
+    huntSpeed: 100
+    radarRange: 400
+    radarChance: 40
+    sightRange: 268
+    huntMode: 0
+    missionScore: 0
+  - type: STR_HK_BOMBER_1
+    size: STR_SMALL
+    modSprite: InterceptHKFighterS1
+    missilePower: 2   
+    damageMax: 400
+    speedMax: 860
+    accel: 9
+    power: 30
+    range: 30
+    score: 125
+    reload: 24
+    breakOffTime: 500
+    battlescapeTerrainData:
+      name: HK04
+      mapDataSets:
+        - BLANKS
+        - HK2
+      mapBlocks:
+        - name: HK04
+          width: 20
+          length: 10
+    hunterKillerPercentage: 0
+    huntSpeed: 90
+    radarRange: 400
+    radarChance: 30
+    sightRange: 0
+    huntMode: 0
+    missionScore: 0
+  - type: STR_HK_SCOUT_2
+    size: STR_SMALL
+    modSprite: InterceptHKScoutS2
+    damageMax: 400
+    speedMax: 933
+    accel: 8
+    power: 40
+    range: 46
+    score: 200
+    reload: 32
+    breakOffTime: 500
+    battlescapeTerrainData:
+      name: HK04
+      mapDataSets:
+        - BLANKS
+        - HK2
+      mapBlocks:
+        - name: HK04
+          width: 20
+          length: 10
+    radarRange: 268
+    radarChance: 30
+    sightRange: 268
+    hunterKillerPercentage: 50
+    huntMode: 0
+    huntSpeed: 90
+    missionScore: 0
+  - type: STR_HK_TRANSPORT_2
+    size: STR_SMALL
+    modSprite: InterceptHKTransportS2
+    damageMax: 450
+    speedMax: 933
+    accel: 8
+    power: 40
+    range: 42
+    score: 250
+    reload: 32
+    breakOffTime: 500
+    battlescapeTerrainData:
+      name: HK04
+      mapDataSets:
+        - BLANKS
+        - HK2
+      mapBlocks:
+        - name: HK04
+          width: 20
+          length: 10
+    hunterKillerPercentage: 0
+    radarRange: 0
+    radarChance: 0
+    sightRange: 0
+    huntMode: 0
+    huntSpeed: 90
+    missionScore: 0
+  - type: STR_HK_FIGHTER_2
+    size: STR_SMALL
+    modSprite: InterceptHKFighterS2
+    damageMax: 500
+    speedMax: 933
+    accel: 8
+    power: 60
+    range: 60
+    score: 300
+    reload: 24
+    breakOffTime: 500
+    battlescapeTerrainData:
+      name: HK04
+      mapDataSets:
+        - BLANKS
+        - HK2
+      mapBlocks:
+        - name: HK04
+          width: 20
+          length: 10
+    hunterKillerPercentage: 100
+    radarRange: 400
+    radarChance: 30
+    sightRange: 268
+    huntMode: 0
+    huntSpeed: 90
+    missionScore: 0
+##T-700 HK - bigger HKs (unused)
+  - type: STR_HK_SCOUT_3
+    size: STR_LARGE_UC
+    modSprite: InterceptHKScoutL
+    damageMax: 800
+    speedMax: 2666
+    accel: 8
+    power: 60
+    range: 36
+    score: 400
+    reload: 25
+    breakOffTime: 800
+    battlescapeTerrainData:
+      name: PLANE4
+      mapDataSets:
+        - BLANKS
+        - HK2
+      mapBlocks:
+        - name: PLANE4
+          width: 20
+          length: 10  
+    missionScore: 0.1
+    hunterKillerPercentage: 50
+    huntMode: 0
+    huntSpeed: 90
+    radarRange: 268
+    sightRange: 268
+  - type: STR_HK_TRANSPORT_3
+    size: STR_LARGE_UC
+    modSprite: InterceptHKTransportL
+    damageMax: 900
+    speedMax: 2666
+    accel: 6
+    power: 40
+    range: 22
+    score: 600
+    reload: 25
+    breakOffTime: 900
+    battlescapeTerrainData:
+      name: PLANE4
+      mapDataSets:
+        - BLANKS
+        - HK2
+      mapBlocks:
+        - name: PLANE4
+          width: 20
+          length: 10  
+    missionScore: 0.1
+    hunterKillerPercentage: 0
+    huntMode: 0
+    huntSpeed: 90
+    radarRange: 134
+    sightRange: 0
+  - type: STR_HK_FIGHTER_3
+    size: STR_LARGE_UC
+    modSprite: InterceptHKFighterL
+    damageMax: 1200
+    speedMax: 2666
+    accel: 6
+    power: 120
+    range: 42
+    score: 400
+    reload: 24
+    breakOffTime: 1000
+    battlescapeTerrainData:
+      name: PLANE4
+      mapDataSets:
+        - BLANKS
+        - HK2
+      mapBlocks:
+        - name: PLANE4
+          width: 20
+          length: 10  
+    missionScore: 0.1
+    hunterKillerPercentage: 50
+    huntMode: 0
+    huntSpeed: 90
+    radarRange: 134
+    sightRange: 0
+#Ground HKs
+## TO DO - add T-300 Ground HK tracked model
+  - type: STR_HK_CONVOY
+    size: STR_VERY_LARGE
+    modSprite: InterceptHKTank
+    damageMax: 750
+    speedMax: 55
+    accel: 4
+    power: 10
+    range: 16
+    score: 500
+    reload: 48
+    breakOffTime: 5000
+    battlescapeTerrainData:
+      name: NKF_APC
+      mapDataSets:
+        - BLANKS
+        - NKF_APC
+      mapBlocks:
+        - name: NKF_APC
+          width: 10
+          length: 20
+    missionScore: 0
+    radarRange: 50
+    sightRange: 20
+    marker: 3
+#Resistance APCs
+## For Battlescape use only
+  - type: STR_NKF_APC
+    size: STR_SMALL
+    sprite: 1
+    damageMax: 1
+    speedMax: 1
+    accel: 1
+    power: 1
+    range: 1
+    score: 1
+    reload: 1
+    breakOffTime: 1
+    battlescapeTerrainData:
+      name: NKF_APC
+      mapDataSets:
+        - BLANKS
+        - NKF_APC
+      mapBlocks:
+        - name: NKF_APC
+          width: 10
+          length: 20
+          revealedFloors: [0, 1, 2, 3]
+  - type: STR_NKF_APC_AREA51
+    size: STR_SMALL
+    sprite: 1
+    damageMax: 1
+    speedMax: 1
+    accel: 1
+    power: 1
+    range: 1
+    score: 1
+    reload: 1
+    breakOffTime: 1
+    battlescapeTerrainData:
+      name: NKF_APC_AREA51
+      mapDataSets:
+        - BLANKS
+        - NKF_APC
+      mapBlocks:
+        - name: NKF_APC_AREA51
+          width: 10
+          length: 20
+  - type: STR_NKF_APC_COMPLEX
+    size: STR_SMALL
+    sprite: 1
+    damageMax: 1
+    speedMax: 1
+    accel: 1
+    power: 1
+    range: 1
+    score: 1
+    reload: 1
+    breakOffTime: 1
+    battlescapeTerrainData:
+      name: NKF_APC_COMPLEX
+      mapDataSets:
+        - BLANKS
+        - NKF_APC_COMPLEX
+      mapBlocks:
+        - name: NKF_APC_COMPLEX
+          width: 10
+          length: 20

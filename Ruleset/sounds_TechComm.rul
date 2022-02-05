@@ -1,0 +1,6 @@
+extraSounds:
+  - type: BATTLE.CAT
+    files:
+      60: Resources/D12.ogg
+  - type: GEO.CAT
+    files:

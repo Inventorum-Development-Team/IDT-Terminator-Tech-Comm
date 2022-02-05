@@ -1,0 +1,700 @@
+globe:
+  data: Resources/Geoscape/WORLD.DAT
+  oceanPalette: 12
+  countryColor: 81
+  cityColor: 81
+  baseColor: 81
+  lineColor: 81
+#TO DO: add ALTGEOBRD.SCR to fix Geoscape background
+  polylines:
+#NORTH AMERICA
+    - [292.925, -44.71, 291.375, -47.25, 288.375, -45, 285, -45, 278.8, -46.125]
+    - [242.875, -32.625, 253.625, -31.75, 256.75, -28.875, 258.625, -29.75, 261, -26.375, 262.65, -26.16]
+    - [235, -48.875, 255, -48.875, 265, -49, 270.57, -48]
+#SOUTH AMERICA
+    - [281.11, -1.29, 285.56, -0.18, 287.35, 2.39, 289.56, 3.07, 289.28, 4.03, 290.125, 4.375, 290.25, -1.75, 296.875, -2.125, 295.375, -4, 299.25, -5.375, 297.99, -6.667, 299.306, -8.58]
+    - [307.04, 33.23, 302.5, 30, 306, 25.75, 302, 22.125, 299, 21.89, 297.4, 24.41, 292.75, 24.44, 290.71, 18.45, 289.6, 18.49]
+#EUROPE
+    - [19.54, -54.28, 22.2, -54.16, 24.2, -51.15, 22.2, -48.41, 23.16, -48.02, 20.85, -46.8, 22.97, -44.03, 22.74, -42.36, 23.48, -41.35, 26.91, -41.51, 28.17, -41.61]
+    - [19.84, -39.94, 20.44, -40.68, 23.48, -41.35]
+    - [30.71, -69.84, 28.35, -69.24, 28.84, -69.63, 25.16, -69.8, 24.3, -68.79, 19.5, -68.78, 23.76, -65.79]
+#AFRICA
+    - [10.64, -33.66, 8.89, -30.83, 9.79, -25.32, 14.26, -24.71, 23.29, -21.41, 23.75, -22.70, 33.86, -22.71, 35.53, -23.93]
+    - [14.5, -24.7, 14.32, -15.59, 12.21, -13.98, 14.39, -11.14, 10.21, -6.98, 9.06, -6.08, 8.54, -4.61]
+    - [12.24, 5.92, 16.47, 6.07, 16.38, 7.61, 18.04, 7.21, 20.2, 7.54, 21.21, 10.83, 29, 13.26, 29.9, 13.26, 28.78, 9.65, 30.76, 8.37, 33.87, 10]
+    - [34.52, 11.03, 36.31, 10.87, 40.03, 10.33]
+#ASIA
+    - [53.82, -37.83, 57.21, -38.69, 60.02, -37.36, 61.38, -37.15, 61.5, -30.96, 64.01, -27.41, 62.41, -26.79, 61.87, -25.06 ]
+    - [40.81, -41.12, 42.64, -41.29, 43.11, -41.07, 44.7, -41.37, 46.27, -41.01, 46.21, -41.81, 47.67, -40.79, 48.86, -41.46]
+    - [68.125, -23.625, 71, -24.375, 69.5, -27, 70.375, -28.125, 70.75, -27.625, 74.625, -31, 74.125, -34.875, 77.875, -35.375, 79.125, -30.875, 80.875, -30.375, 88.25, -28, 88.875, -28.125, 91.625, -28, 96, -29.625, 97.125, -27.25, 92.625, -22.125, 91.88, -21.56]
+    - [49.2, -46.43, 47.625, -50.375, 60, -50.75, 61.375, -54.125, 68.875, -55.375, 76.875, -54.5, 80, -50.75, 88, -49.125, 98, -50, 98.875, -52.125, 110, -49.25, 116.75, -49.875, 119.25, -50, 120.125, -52.875, 125.875, -53, 127.875, -49.625, 134.5, -48.25, 133, -45, 131, -44.875, 130.477, -42.4, 124.1, -39.87]
+    - [107.875, -21.5, 105.625, -23.375, 101.75, -21.25, 99.125, -22.125, 98.875, -24.25, 97.5, -24, 98.875, -27.375, 97.125, -27.25]
+    - [91.625, -28, 88.875, -28.125]
+    - [88.25, -28, 80.875, -30.375]
+    - [77.875, -35.375, 73.375, -39.375, 80.5, -42.25, 80, -45, 82.5, -45.125, 82.875, -47.25, 85.75, -47.125, 86.375, -49.125, 88, -49.125]
+    - [64, -69.54, 63.47, -63.37, 58.06, -55.05, 61.14, -54.2]
+    - [116, -73.7, 114.84, -69, 111.73, -68.18, 111.23, -63.17, 116.03, -58.8, 121.98, -53.04]
+#TO DO: reassign textures to terrains
+#TO DO: reassign textures to polygons on WORLD.DAT
+  textures:
+    - id: 0
+      terrain:
+        - name: FOREST
+          weight: 10
+          area: [0, 360, -90, 0]
+        - name: FORESTMOUNT
+          weight: 5
+          area: [0, 360, -90, 0]
+        - name: FORESTPOLAR
+          weight: 10
+          area: [0, 360, -90, 0]
+        - name: STEPPEDESERT
+          weight: 10
+          area: [0, 360, -90, 0]
+        - name: STEPPEDESERTMOUNT
+          weight: 5
+          area: [0, 360, -90, 0]
+        - name: STEPPEFOREST
+          weight: 10
+          area: [0, 360, -90, 0]
+        - name: STEPPEFORESTMOUNT
+          weight: 5
+          area: [0, 360, -90, 0]
+        - name: STEPPEPOLAR
+          weight: 10
+          area: [0, 360, -90, 0]
+        - name: TAIGADESERT
+          weight: 10
+          area: [0, 360, -90, 0]
+        - name: TAIGADESERTMOUNT
+          weight: 5
+          area: [0, 360, -90, 0]
+        - name: TAIGAFOREST
+          weight: 10
+          area: [0, 360, -90, 0]
+        - name: TAIGAFORESTMOUNT
+          weight: 5
+          area: [0, 360, -90, 0]
+        - name: TAIGAPOLAR
+          weight: 10
+          area: [0, 360, -90, 0]
+        - name: JUNGLE
+          weight: 10
+          area: [0, 360, 0, 90]
+        - name: JUNGLEMOUNT
+          weight: 5
+          area: [0, 360, 0, 90]
+        - name: JUNGLEPOLAR
+          weight: 10
+          area: [0, 360, 0, 90]
+        - name: NATIVEUFO
+          weight: 20
+          area: [0, 360, 0, 90]
+        - name: INDUSTRIALUFO
+          weight: 15
+    - id: 1
+      terrain:
+        - name: INDUSTRIALUFO
+          weight: 15
+        - name: FOREST
+          weight: 10
+          area: [0, 360, -90, 0]
+        - name: FORESTMOUNT
+          weight: 5
+          area: [0, 360, -90, 0]
+        - name: FORESTPOLAR
+          weight: 10
+          area: [0, 360, -90, 0]
+        - name: STEPPEDESERT
+          weight: 10
+          area: [0, 360, -90, 0]
+        - name: STEPPEDESERTMOUNT
+          weight: 5
+          area: [0, 360, -90, 0]
+        - name: STEPPEFOREST
+          weight: 10
+          area: [0, 360, -90, 0]
+        - name: STEPPEFORESTMOUNT
+          weight: 5
+          area: [0, 360, -90, 0]
+        - name: STEPPEPOLAR
+          weight: 10
+          area: [0, 360, -90, 0]
+        - name: SAVANNADESERT
+          weight: 10
+          area: [0, 360, 0, 90]
+        - name: SAVANNADESERTMOUNT
+          weight: 5
+          area: [0, 360, 0, 90]
+        - name: SAVANNAFOREST
+          weight: 10
+          area: [0, 360, 0, 90]
+        - name: SAVANNAFORESTMOUNT
+          weight: 5
+          area: [0, 360, 0, 90]
+        - name: SAVANNAPOLAR
+          weight: 10
+          area: [0, 360, 0, 0]
+    - id: 2
+      terrain:
+        - name: INDUSTRIALUFO
+          weight: 15
+        - name: GRASSLANDDESERT
+          weight: 10
+          area: [0, 360, -90, 0]
+        - name: GRASSLANDDESERTMOUNT
+          weight: 5
+          area: [0, 360, -90, 0]
+        - name: GRASSLANDFOREST
+          weight: 10
+          area: [0, 360, -90, 0]
+        - name: GRASSLANDFORESTMOUNT
+          weight: 5
+          area: [0, 360, -90, 0]
+        - name: GRASSLANDPOLAR
+          weight: 10
+          area: [0, 360, -90, 0]
+        - name: INDUSTRIALUFO
+          weight: 20
+          area: [0, 360, -90, 0]
+        - name: STEPPEDESERT
+          weight: 10
+          area: [0, 360, -90, 0]
+        - name: STEPPEDESERTMOUNT
+          weight: 5
+          area: [0, 360, -90, 0]
+        - name: STEPPEFOREST
+          weight: 10
+          area: [0, 360, -90, 0]
+        - name: STEPPEFORESTMOUNT
+          weight: 5
+          area: [0, 360, -90, 0]
+        - name: STEPPEPOLAR
+          weight: 10
+          area: [0, 360, -90, 0]
+        - name: SAVANNADESERT
+          weight: 10
+          area: [0, 360, 0, 90]
+        - name: SAVANNADESERTMOUNT
+          weight: 5
+          area: [0, 360, 0, 90]
+        - name: SAVANNAFOREST
+          weight: 10
+          area: [0, 360, 0, 90]
+        - name: SAVANNAFORESTMOUNT
+          weight: 5
+          area: [0, 360, 0, 90]
+        - name: SAVANNAPOLAR
+          weight: 10
+          area: [0, 360, 0, 0]
+    - id: 3
+      terrain:
+        - name: INDUSTRIALUFO
+          weight: 15
+        - name: FOREST
+          weight: 10
+          area: [0, 360, -90, 0]
+        - name: FORESTMOUNT
+          weight: 5
+          area: [0, 360, -90, 0]
+        - name: FORESTPOLAR
+          weight: 10
+          area: [0, 360, -90, 0]
+        - name: STEPPEDESERT
+          weight: 10
+          area: [0, 360, 0, 90]
+        - name: STEPPEDESERTMOUNT
+          weight: 5
+          area: [0, 360, -90, 0]
+        - name: STEPPEFOREST
+          weight: 10
+          area: [0, 360, 0, 90]
+        - name: STEPPEFORESTMOUNT
+          weight: 5
+          area: [0, 360, 0, 90]
+        - name: STEPPEPOLAR
+          weight: 10
+          area: [0, 360, 0, 0]
+        - name: SAVANNADESERT
+          weight: 10
+          area: [0, 360, 0, 90]
+        - name: SAVANNADESERTMOUNT
+          weight: 5
+          area: [0, 360, 0, 90]
+        - name: SAVANNAFOREST
+          weight: 10
+          area: [0, 360, 0, 90]
+        - name: SAVANNAFORESTMOUNT
+          weight: 5
+          area: [0, 360, 0, 90]
+        - name: SAVANNAPOLAR
+          weight: 10
+          area: [0, 360, 0, 0]
+    - id: 4
+      terrain:
+        - name: INDUSTRIALUFO
+          weight: 15
+        - name: GRASSLANDDESERT
+          weight: 10
+          area: [0, 360, -90, 0]
+        - name: GRASSLANDDESERTMOUNT
+          weight: 5
+          area: [0, 360, -90, 0]
+        - name: GRASSLANDFOREST
+          weight: 10
+          area: [0, 360, -90, 0]
+        - name: GRASSLANDFORESTMOUNT
+          weight: 5
+          area: [0, 360, -90, 0]
+        - name: GRASSLANDPOLAR
+          weight: 10
+          area: [0, 360, -90, 0]
+        - name: STEPPEDESERT
+          weight: 10
+          area: [0, 360, -90, 0]
+        - name: STEPPEDESERTMOUNT
+          weight: 10
+          area: [0, 360, -90, 0]
+        - name: STEPPEFOREST
+          weight: 10
+          area: [0, 360, -90, 0]
+        - name: STEPPEFORESTMOUNT
+          weight: 5
+          area: [0, 360, -90, 0]
+        - name: STEPPEPOLAR
+          weight: 10
+          area: [0, 360, -90, 0]
+        - name: JUNGLE
+          weight: 10
+          area: [0, 360, 0, 90]
+        - name: JUNGLEMOUNT
+          weight: 5
+          area: [0, 360, 0, 90]
+        - name: JUNGLEPOLAR
+          weight: 10
+          area: [0, 360, 0, 90]
+        - name: NATIVEUFO
+          weight: 40
+          area: [0, 360, 0, 90]
+        - name: SAVANNADESERT
+          weight: 10
+          area: [0, 360, 0, 90]
+        - name: SAVANNADESERTMOUNT
+          weight: 5
+          area: [0, 360, 0, 90]
+        - name: SAVANNAFOREST
+          weight: 10
+          area: [0, 360, 0, 90]
+        - name: SAVANNAFORESTMOUNT
+          weight: 5
+          area: [0, 360, 0, 90]
+        - name: SAVANNAPOLAR
+          weight: 10
+          area: [0, 360, 0, 90]
+    - id: 5
+      terrain:
+        - name: INDUSTRIALUFO
+          weight: 15
+        - name: MOUNT
+          weight: 10
+        - name: TAIGADESERTMOUNT
+          weight: 10
+          area: [0, 360, -90, 0]
+        - name: TAIGAFORESTMOUNT
+          weight: 10
+          area: [0, 360, -90, 0]
+        - name: TAIGAPOLAR
+          weight: 10
+        - name: TUNDRAMOUNT
+          weight: 10
+        - name: TUNDRADESERTMOUNT
+          weight: 10
+        - name: TUNDRAFORESTMOUNT
+          weight: 10
+        - name: TUNDRAPLANE
+          weight: 10
+        - name: TUNDRAPOLAR
+          weight: 10
+    - id: 6
+      terrain:
+        - name: FOREST
+          weight: 10
+          area: [0, 360, -90, 0]
+        - name: FORESTMOUNT
+          weight: 10
+          area: [0, 360, -90, 0]
+        - name: FORESTPOLAR
+          weight: 10
+          area: [0, 360, -90, 0]
+        - name: TAIGAFOREST
+          weight: 10
+          area: [0, 360, -90, 0]
+        - name: TAIGAFORESTMOUNT
+          weight: 10
+          area: [0, 360, -90, 0]
+        - name: TAIGAPOLAR
+          weight: 10
+          area: [0, 360, -90, 0]
+        - name: TUNDRAFORESTMOUNT
+          weight: 10
+          area: [0, 360, -90, 0]
+        - name: TUNDRAPOLAR
+          weight: 10
+          area: [0, 360, -90, 0]
+        - name: JUNGLE
+          weight: 10
+          area: [0, 360, 0, 90]
+        - name: JUNGLEMOUNT
+          weight: 10
+          area: [0, 360, 0, 90]
+        - name: JUNGLEPOLAR
+          weight: 10
+          area: [0, 360, 0, 90]
+    - id: 7
+      terrain:
+        - name: DESERT
+          weight: 10
+        - name: DESERTMOUNT
+          weight: 5
+        - name: DESERTPLANE
+          weight: 15
+    - id: 8
+      terrain:
+        - name: INDUSTRIALUFO
+          weight: 10
+        - name: GRASSLANDDESERT
+          weight: 10
+          area: [0, 360, -90, 0]
+        - name: GRASSLANDDESERTMOUNT
+          weight: 10
+          area: [0, 360, -90, 0]
+        - name: GRASSLANDFOREST
+          weight: 10
+          area: [0, 360, -90, 0]
+        - name: GRASSLANDFORESTMOUNT
+          weight: 5
+          area: [0, 360, -90, 0]
+        - name: GRASSLANDPOLAR
+          weight: 5
+          area: [0, 360, -90, 0]
+        - name: DESERT
+          weight: 10
+        - name: DESERTMOUNT
+          weight: 10
+        - name: DESERTPLANE
+          weight: 10
+        - name: STEPPEDESERT
+          weight: 10
+          area: [0, 360, -90, 0]
+        - name: STEPPEDESERTMOUNT
+          weight: 10
+          area: [0, 360, -90, 0]
+        - name: STEPPEFOREST
+          weight: 5
+          area: [0, 360, -90, 0]
+        - name: STEPPEFORESTMOUNT
+          weight: 5
+          area: [0, 360, -90, 0]
+        - name: STEPPEPOLAR
+          weight: 5
+          area: [0, 360, -90, 0]
+        - name: SAVANNADESERT
+          weight: 10
+          area: [0, 360, 0, 90]
+        - name: SAVANNADESERTMOUNT
+          weight: 10
+          area: [0, 360, 0, 90]
+        - name: SAVANNAFOREST
+          weight: 5
+          area: [0, 360, 0, 90]
+        - name: SAVANNAFORESTMOUNT
+          weight: 5
+          area: [0, 360, 0, 90]
+        - name: SAVANNAPOLAR
+          weight: 5
+          area: [0, 360, 0, 90]
+    - id: 9
+      terrain:
+        - name: POLAR
+          weight: 10
+        - name: POLARDESERT
+          weight: 10
+        - name: POLARPLANE
+          weight: 10
+    - id: 10
+      terrain:
+        - name: TAIGADESERT
+          weight: 5
+          area: [0, 360, -90, 0]
+        - name: TAIGADESERTMOUNT
+          weight: 5
+          area: [0, 360, -90, 0]
+        - name: TAIGAFOREST
+          weight: 10
+          area: [0, 360, -90, 0]
+        - name: TAIGAFORESTMOUNT
+          weight: 10
+          area: [0, 360, -90, 0]
+        - name: TAIGAPOLAR
+          weight: 10
+          area: [0, 360, -90, 0]
+        - name: TUNDRADESERT
+          weight: 5
+        - name: TUNDRADESERTMOUNT
+          weight: 5
+        - name: TUNDRAFOREST
+          weight: 10
+        - name: TUNDRAFORESTMOUNT
+          weight: 10
+        - name: TUNDRAMOUNT
+          weight: 10
+        - name: TUNDRAPLANE
+          weight: 5
+        - name: TUNDRAPOLAR
+          weight: 10
+    - id: 11
+      terrain:
+        - name: NATIVEUFO
+          weight: 10
+        - name: JUNGLE
+          weight: 10
+        - name: JUNGLEMOUNT
+          weight: 10
+        - name: JUNGLEPOLAR
+          weight: 10
+    - id: 12
+      terrain:
+        - name: POLAR
+          weight: 10
+    - id: 13
+      terrain:
+        - name: NATIVEUFO
+          weight: 20
+          area: [0, 360, 0, 90]
+        - name: INDUSTRIALUFO
+          weight: 15
+        - name: GRASSLANDDESERT
+          weight: 10
+          area: [0, 360, -90, 0]
+        - name: GRASSLANDDESERTMOUNT
+          weight: 10
+          area: [0, 360, -90, 0]
+        - name: GRASSLANDFOREST
+          weight: 10
+          area: [0, 360, -90, 0]
+        - name: GRASSLANDFORESTMOUNT
+          weight: 10
+          area: [0, 360, -90, 0]
+        - name: STEPPEDESERT
+          weight: 10
+          area: [0, 360, -90, 0]
+        - name: STEPPEDESERTMOUNT
+          weight: 10
+          area: [0, 360, -90, 0]
+        - name: STEPPEFOREST
+          weight: 10
+          area: [0, 360, -90, 0]
+        - name: STEPPEFORESTMOUNT
+          weight: 10
+          area: [0, 360, -90, 0]
+        - name: STEPPEPOLAR
+          weight: 10
+          area: [0, 360, -90, 0]
+        - name: SAVANNADESERT
+          weight: 10
+          area: [0, 360, 0, 90]
+        - name: SAVANNADESERTMOUNT
+          weight: 10
+          area: [0, 360, 0, 90]
+        - name: SAVANNAFOREST
+          weight: 10
+          area: [0, 360, 0, 90]
+        - name: SAVANNAFORESTMOUNT
+          weight: 10
+          area: [0, 360, 0, 90]
+        - name: SAVANNAPOLAR
+          weight: 10
+          area: [0, 360, 0, 0]
+        - name: JUNGLE
+          weight: 10
+          area: [0, 360, 0, 90]
+        - name: JUNGLEMOUNT
+          weight: 10
+          area: [0, 360, 0, 90]
+        - name: JUNGLEPOLAR
+          weight: 10
+          area: [0, 360, 0, 90]
+    - id: 14
+      terrain:
+        - name: STEPPEDESERTMOUNT
+          weight: 10
+          area: [0, 360, -90, 0]
+        - name: STEPPEFORESTMOUNT
+          weight: 10
+          area: [0, 360, -90, 0]
+        - name: STEPPEPOLAR
+          weight: 5
+          area: [0, 360, -90, 0]
+        - name: SAVANNADESERTMOUNT
+          weight: 10
+          area: [0, 360, 0, 90]
+        - name: SAVANNAFORESTMOUNT
+          weight: 10
+          area: [0, 360, 0, 90]
+        - name: SAVANNAPOLAR
+          weight: 5
+          area: [0, 360, 0, 90]
+    - id: 15
+      terrain:
+        - name: DESERT
+          weight: 5
+        - name: DESERTMOUNT
+          weight: 10
+        - name: DESERTPLANE
+          weight: 10
+    - id: 16
+      terrain:
+        - name: MOUNT
+          weight: 10
+        - name: TAIGADESERTMOUNT
+          weight: 10
+          area: [0, 360, -90, 0]
+        - name: TAIGAPOLAR
+          weight: 10
+        - name: TUNDRAMOUNT
+          weight: 10
+        - name: TUNDRADESERTMOUNT
+          weight: 10
+        - name: TUNDRAPLANE
+          weight: 10
+        - name: TUNDRAPOLAR
+          weight: 10
+    - id: 17
+      terrain:
+        - name: POLAR
+          weight: 10
+        - name: POLARDESERT
+          weight: 10
+        - name: POLARDESERTMOUNT
+          weight: 10
+        - name: POLARPLANE
+          weight: 10
+        - name: POLARMOUNT
+          weight: 10
+    - id: 18
+      terrain:
+        - name: NATIVEUFO
+          weight: 20
+          area: [0, 360, 0, 90]
+        - name: INDUSTRIALUFO
+          weight: 15
+        - name: FOREST
+          weight: 5
+          area: [0, 360, -90, 0]
+        - name: FORESTMOUNT
+          weight: 5
+          area: [0, 360, -90, 0]
+        - name: FORESTPOLAR
+          weight: 5
+          area: [0, 360, -90, 0]
+        - name: TAIGAFOREST
+          weight: 10
+          area: [0, 360, -90, 0]
+        - name: TAIGAFORESTMOUNT
+          weight: 10
+          area: [0, 360, -90, 0]
+        - name: TAIGAPOLAR
+          weight: 10
+          area: [0, 360, -90, 0]
+        - name: JUNGLEMOUNT
+          weight: 10
+          area: [0, 360, 0, 90]
+        - name: JUNGLEPOLAR
+          weight: 10
+          area: [0, 360, 0, 90]
+    - id: 19
+      terrain:
+        - name: DESERT
+          weight: 10
+        - name: DESERTMOUNT
+          weight: 10
+        - name: DESERTPLANE
+          weight: 10
+    - id: 20
+      terrain:
+        - name: NATIVEUFO
+          weight: 20
+          area: [0, 360, 0, 90]
+        - name: INDUSTRIALUFO
+          weight: 15
+        - name: FOREST
+          weight: 5
+          area: [0, 360, -90, 0]
+        - name: FORESTMOUNT
+          weight: 10
+          area: [0, 360, -90, 0]
+        - name: FORESTPOLAR
+          weight: 10
+          area: [0, 360, -90, 0]
+        - name: TAIGAFOREST
+          weight: 10
+          area: [0, 360, -90, 0]
+        - name: TAIGAFORESTMOUNT
+          weight: 10
+          area: [0, 360, -90, 0]
+        - name: TAIGAPOLAR
+          weight: 10
+          area: [0, 360, -90, 0]
+        - name: JUNGLEMOUNT
+          weight: 10
+          area: [0, 360, 0, 90]
+        - name: JUNGLEPOLAR
+          weight: 10
+          area: [0, 360, 0, 90]
+    - id: 21
+      terrain:
+        - name: FOREST
+          weight: 10
+    - id: -1
+      deployments:
+        STR_RESISTANCE_DEFENSE: 10
+        STR_RESISTANCE_ESCAPE: 10
+        STR_RESISTANCE_PROTECT: 10
+        STR_RESISTANCE_RESCUE: 10
+    - id: -2
+      deployments:
+        STR_RESISTANCE_ASSAULT: 10
+        STR_RESISTANCE_DESTROY: 20
+        STR_RESISTANCE_ASSAULT: 10
+        STR_RESISTANCE_DESTROY: 20
+    - id: -3
+      deployments:
+        STR_RESISTANCE_EXTRACTION: 10
+        STR_RESISTANCE_RECOVERY: 20
+        STR_RESISTANCE_ASSAULT: 20
+        STR_RESISTANCE_DESTROY: 10
+    - id: -4
+      deployments:
+        STR_RESISTANCE_ALERT00: 10
+        STR_RESISTANCE_ALERT01: 10
+        STR_RESISTANCE_ALERT02: 10
+        STR_RESISTANCE_ALERT03: 10
+        STR_RESISTANCE_ALERT04: 10
+        STR_RESISTANCE_ALERT05: 10
+        STR_RESISTANCE_ALERT06: 10
+        STR_RESISTANCE_ALERT07: 10
+        STR_RESISTANCE_ALERT08: 10
+        STR_RESISTANCE_ALERT09: 10
+        STR_RESISTANCE_ALERT10: 10
+        STR_RESISTANCE_ALERT11: 10
+        STR_RESISTANCE_ALERT12: 10
+        STR_RESISTANCE_ALERT13: 10
+        STR_RESISTANCE_ALERT14: 10
+        STR_RESISTANCE_ALERT15: 10
+        STR_RESISTANCE_ALERT16: 10
+        STR_RESISTANCE_ALERT17: 10
+        STR_RESISTANCE_ALERT18: 10
+        STR_RESISTANCE_ALERT19: 10
+    - id: -5
+      deployments:
+        STR_RESISTANCE_MESSAGE: 10
