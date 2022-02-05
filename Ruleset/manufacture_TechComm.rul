@@ -107,8 +107,6 @@ manufacture:
     time: 14000
     cost: 100000
     requiresBaseFunc: [craft_production, craft_housing]
-    requires:
-      - STR_DYNAVERT_BLUEPRINT
   - name: STR_OSPREY
     category: STR_CRAFT
     space: 30

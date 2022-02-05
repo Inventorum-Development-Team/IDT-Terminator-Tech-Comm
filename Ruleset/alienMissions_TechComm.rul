@@ -18,15 +18,6 @@ alienMissions:
 ##All can be spawned from HK shootdowns, T4 from interceptions? RECHECK
 #Core Missions
   - type: STR_SKYNET_INFILTRATION_CORE
-    regions:
-      STR_ASIA: 16
-      STR_AFRICA: 12
-      STR_EUROPE: 16 
-      STR_NORTH_AMERICA: 14
-      STR_SOUTH_AMERICA: 12
-      STR_OCEANIA: 10
-      STR_ARCTIC: 5
-      STR_ANTARCTIC: 5
     points: 0 #Pact score only awarded on month end
     objective: 1
     operationType: 4
@@ -75,15 +66,6 @@ alienMissions:
         trajectory: T7
         timer: 10
   - type: STR_SKYNET_INTERDICTION_CORE
-    regions:
-      STR_ASIA: 16
-      STR_AFRICA: 12
-      STR_EUROPE: 16 
-      STR_NORTH_AMERICA: 14
-      STR_SOUTH_AMERICA: 12
-      STR_OCEANIA: 10
-      STR_ARCTIC: 5
-      STR_ANTARCTIC: 5
     points: 0
     operationType: 4
     raceWeights:
@@ -125,15 +107,6 @@ alienMissions:
         timer: 30
         hunterKillerPercentage: 0
   - type: STR_SKYNET_PACIFICATION_CORE
-    regions:
-      STR_ASIA: 16
-      STR_AFRICA: 12
-      STR_EUROPE: 16 
-      STR_NORTH_AMERICA: 14
-      STR_SOUTH_AMERICA: 12
-      STR_OCEANIA: 10
-      STR_ARCTIC: 5
-      STR_ANTARCTIC: 5
     points: 0
     objective: 3
     operationType: 0

@@ -190,8 +190,6 @@ crafts: #DONE
     refuelRate: 20
     notifyWhenRefueled: true
     autoPatrol: true
-    escortRange: 20
-    escortsJoinFightAgainstHK: true
     radarRange: 0
     sightRange: 0
     transferTime: 72
@@ -373,11 +371,8 @@ crafts: #DONE
     notifyWhenRefueled: true
     transferTime: 72
     autoPatrol: true
-    escortRange: 20
-    escortsJoinFightAgainstHK: true
     sightRange: 0
     radarRange: 134
-    radarChance: 100
     radarChance: 10
     score: 400
     listOrder: 117
@@ -406,8 +401,6 @@ crafts: #DONE
     notifyWhenRefueled: true
     transferTime: 72
     autoPatrol: true
-    escortRange: 20
-    escortsJoinFightAgainstHK: true
     sightRange: 0
     radarRange: 134
     radarChance: 10
@@ -440,8 +433,6 @@ crafts: #DONE
     refuelRate: 20
     transferTime: 72
     autoPatrol: true
-    escortRange: 20
-    escortsJoinFightAgainstHK: true
     sightRange: 0
     radarRange: 0
     armor: 10
@@ -567,8 +558,6 @@ crafts: #DONE
     notifyWhenRefueled: true
     transferTime: 72
     autoPatrol: true
-    escortRange: 20
-    escortsJoinFightAgainstHK: true
     sightRange: 0
     radarRange: 134
     radarChance: 10
@@ -599,8 +588,6 @@ crafts: #DONE
     refuelRate: 20
     notifyWhenRefueled: true
     autoPatrol: true
-    escortRange: 20
-    escortsJoinFightAgainstHK: true
     radarRange: 0
     sightRange: 0
     transferTime: 72

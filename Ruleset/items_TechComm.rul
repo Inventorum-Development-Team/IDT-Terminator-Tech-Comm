@@ -680,7 +680,6 @@ items:
     autoShots: 10
     invHeight: 3
     invWidth: 2
-    autoShots: 10
     battleType: 1
     bulletSpeed: 100
     twoHanded: true
@@ -2340,7 +2339,6 @@ items:
     battleType: 11
     recover: true
     recoveryPoints: 3
-    recovercorpse: true
     armor: 35
     listOrder: 8504
   - type: STR_HK_CYBERMITE_CORPSE

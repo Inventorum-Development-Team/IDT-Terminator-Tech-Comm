@@ -100,181 +100,6 @@ terrains:
   - name: AIRFIELD8
     refNode: *AIRFIELD1
     script: AIRFIELD8
-  - &ALIENCOLONY #DONE
-    name: ALIENCOLONY
-    mapDataSets:
-      - BLANKS
-      - COLONYA
-      - COLONYB
-      - TUNDRAFOREST
-    script: ALIENCOLONY
-    mapBlocks:
-      - name: ALIENCOLONY00
-        width: 10
-        length: 10
-      - name: ALIENCOLONY01
-        width: 10
-        length: 10
-      - name: ALIENCOLONY02
-        width: 10
-        length: 10
-      - name: ALIENCOLONY03
-        width: 10
-        length: 10
-      - name: ALIENCOLONY04
-        width: 10
-        length: 10
-      - name: ALIENCOLONY05
-        width: 10
-        length: 10
-      - name: ALIENCOLONY06
-        width: 10
-        length: 10
-      - name: ALIENCOLONY07
-        width: 10
-        length: 10
-      - name: ALIENCOLONY08
-        width: 10
-        length: 10
-      - name: ALIENCOLONY09
-        width: 10
-        length: 10
-      - name: ALIENCOLONY10
-        width: 10
-        length: 10
-      - name: ALIENCOLONY11
-        width: 10
-        length: 10
-      - name: ALIENCOLONY12
-        width: 10
-        length: 10
-      - name: ALIENCOLONY13
-        width: 10
-        length: 10
-      - name: ALIENCOLONY14
-        width: 10
-        length: 10
-      - name: ALIENCOLONY15
-        width: 10
-        length: 10
-      - name: ALIENCOLONY16
-        width: 10
-        length: 10
-        groups: 5
-      - name: ALIENCOLONY17
-        width: 10
-        length: 10
-        groups: 5
-      - name: ALIENCOLONY18
-        width: 10
-        length: 10
-        groups: 5
-      - name: ALIENCOLONY19
-        width: 10
-        length: 10
-        groups: 5
-      - name: ALIENCOLONY20
-        width: 10
-        length: 10
-        groups: 5
-      - name: ALIENCOLONY21
-        width: 20
-        length: 20
-      - name: ALIENCOLONY22
-        width: 20
-        length: 20
-      - name: ALIENCOLONY23
-        width: 10
-        length: 10
-        groups: 5
-      - name: ALIENCOLONY24
-        width: 10
-        length: 10
-      - name: ALIENCOLONY25
-        width: 10
-        length: 10
-  - name: ALIENCOLONY_F #DONE
-    refNode: *ALIENCOLONY
-    mapDataSets:
-      - BLANKS
-      - COLONYA
-      - COLONYB
-      - FORESTEARTH
-  - name: ALIENCOLONY_G #DONE
-    refNode: *ALIENCOLONY
-    mapDataSets:
-      - BLANKS
-      - COLONYA
-      - COLONYB
-      - GRASSLANDFOREST
-  - name: ALIENCOLONY_S #DONE
-    refNode: *ALIENCOLONY
-    mapDataSets:
-      - BLANKS
-      - COLONYA
-      - COLONYB
-      - STEPPEFOREST
-  - name: ALIENCOLONY_T #DONE
-    refNode: *ALIENCOLONY
-    mapDataSets:
-      - BLANKS
-      - COLONYA
-      - COLONYB
-      - TAIGAFOREST
-  - name: ALIENHIVE #DONE
-    mapDataSets:
-      - BLANKS
-      - HIVEA
-      - HIVEB
-      - HIVEC
-      - NKF_APC
-    script: ALIENHIVE
-    mapBlocks:
-      - name: HIVE00
-        width: 10
-        length: 10
-      - name: HIVE01
-        width: 10
-        length: 10
-      - name: HIVE02
-        width: 10
-        length: 10
-      - name: HIVE03
-        width: 10
-        length: 10
-      - name: HIVE04
-        width: 10
-        length: 10
-      - name: HIVE05
-        width: 10
-        length: 10
-      - name: HIVE06
-        width: 10
-        length: 10
-      - name: HIVE07
-        width: 10
-        length: 10
-      - name: HIVE08
-        width: 10
-        length: 10
-      - name: HIVE09
-        width: 10
-        length: 10
-      - name: HIVE10
-        width: 20
-        length: 20
-      - name: HIVE11
-        width: 20
-        length: 20
-      - name: HIVE12
-        width: 20
-        length: 20
-      - name: HIVE14
-        width: 20
-        length: 20
-      - name: HIVE15
-        width: 10
-        length: 20
   - &APARTMENT #DONE
     name: APARTMENT
     mapDataSets:
@@ -543,201 +368,6 @@ terrains:
         width: 10
         length: 10
       - name: FORT18
-        width: 10
-        length: 10
-    mapBlocks:
-      - name: PORTUFO00
-        width: 10
-        length: 10
-        groups: 1
-      - name: PORTUFO01
-        width: 10
-        length: 10
-        groups: 1
-      - name: PORTUFO02
-        width: 10
-        length: 10
-        groups: 3
-      - name: PORTUFO03
-        width: 10
-        length: 10
-        groups: 3
-      - name: PORTUFO04
-        width: 10
-        length: 10
-        groups: 3
-      - name: PORTUFO05
-        width: 10
-        length: 10
-        groups: 3
-      - name: PORTUFO06
-        width: 10
-        length: 10
-        groups: 3
-      - name: PORTUFO07
-        width: 10
-        length: 10
-        groups: 3
-      - name: PORTUFO08
-        width: 10
-        length: 10
-        groups: 3
-      - name: PORTUFO09
-        width: 10
-        length: 10
-        groups: 3
-      - name: PORTUFO10
-        width: 10
-        length: 10
-      - name: PORTUFO11
-        width: 10
-        length: 10
-      - name: PORTUFO12
-        width: 10
-        length: 10
-      - name: PORTUFO13
-        width: 10
-        length: 10
-      - name: PORTUFO14
-        width: 10
-        length: 10
-      - name: PORTUFO15
-        width: 10
-        length: 10
-      - name: PORTUFO16
-        width: 10
-        length: 10
-      - name: PORTUFO17
-        width: 20
-        length: 20
-      - name: PORTUFO18
-        width: 20
-        length: 20
-      - name: PORTUFO19
-        width: 20
-        length: 20
-      - name: PORTUFO20
-        width: 20
-        length: 20
-        groups: 5
-      - name: PORTUFO21
-        width: 20
-        length: 20
-      - name: PORTUFO22
-        width: 20
-        length: 20
-      - name: PORTUFO23
-        width: 10
-        length: 10
-        groups: 7
-      - name: PORTUFO24
-        width: 10
-        length: 10
-        groups: 7
-      - name: PORTUFO25
-        width: 10
-        length: 10
-        groups: 7
-      - name: PORTUFO26
-        width: 10
-        length: 10
-        groups: 7
-      - name: PORTUFO27
-        width: 10
-        length: 10
-        groups: 7
-      - name: PORTUFO28
-        width: 10
-        length: 10
-        groups: 7
-      - name: PORTUFO29
-        width: 10
-        length: 10
-        groups: 7
-      - name: PORTUFO30
-        width: 10
-        length: 10
-        groups: 7
-      - name: PORTUFO31
-        width: 10
-        length: 10
-        groups: 7
-      - name: PORTUFO32
-        width: 10
-        length: 10
-        groups: 6
-      - name: PORTUFO33
-        width: 10
-        length: 10
-        groups: 3
-      - name: PORTUFO34
-        width: 10
-        length: 10
-        groups: 3
-      - name: PORTUFO35
-        width: 10
-        length: 10
-        groups: 3
-      - name: PORTUFO36
-        width: 10
-        length: 10
-        groups: 3
-      - name: PORTUFO37
-        width: 10
-        length: 10
-        groups: 8
-      - name: INDUSTRIALURBAN00
-        width: 20
-        length: 20
-      - name: INDUSTRIALURBAN01
-        width: 20
-        length: 20
-      - name: INDUSTRIALURBAN02
-        width: 20
-        length: 20
-      - name: INDUSTRIALURBAN03
-        width: 10
-        length: 10
-      - name: INDUSTRIALURBAN04
-        width: 10
-        length: 10
-      - name: INDUSTRIALURBAN05
-        width: 10
-        length: 10
-      - name: INDUSTRIALURBAN06
-        width: 10
-        length: 10
-      - name: INDUSTRIALURBAN07
-        width: 10
-        length: 10
-      - name: INDUSTRIALURBAN08
-        width: 10
-        length: 10
-      - name: INDUSTRIALURBAN09
-        width: 10
-        length: 10
-      - name: INDUSTRIALURBAN10
-        width: 10
-        length: 10
-      - name: INDUSTRIALURBAN11
-        width: 10
-        length: 10
-      - name: INDUSTRIALURBAN12
-        width: 10
-        length: 10
-      - name: INDUSTRIALURBAN13
-        width: 10
-        length: 10
-      - name: INDUSTRIALURBAN14
-        width: 10
-        length: 10
-      - name: INDUSTRIALURBAN15
-        width: 10
-        length: 10
-      - name: INDUSTRIALURBAN16
-        width: 10
-        length: 10
-      - name: INDUSTRIALURBAN17
         width: 10
         length: 10
   - &COLDISLE #DONE
@@ -5895,9 +5525,6 @@ terrains:
       - name: COLDISLEEXTRACTION
         width: 20
         length: 20
-        items:
-          STR_DATA_DISK_WEAPONS_E:
-            - [11, 5, 0]
         groups: 4
         revealedFloors: [0, 1, 2, 3]
   - name: COLDISLE_DESTROY
@@ -6291,9 +5918,6 @@ terrains:
       - name: COLDISLEEXTRACTION
         width: 20
         length: 20
-        items:
-          STR_DATA_DISK_WEAPONS_E:
-            - [11, 5, 0]
         groups: 4
         revealedFloors: [0, 1, 2, 3]
   - name: COLDISLE_EXTRACTION
@@ -6427,9 +6051,6 @@ terrains:
       - name: COLDISLEEXTRACTION
         width: 20
         length: 20
-        items:
-          STR_DATA_DISK_WEAPONS_E:
-            - [11, 5, 0]
         groups: 4
         revealedFloors: [0, 1, 2, 3]
   - name: COLDISLE_PROTECT #TODO
@@ -6563,9 +6184,6 @@ terrains:
       - name: COLDISLEEXTRACTION
         width: 20
         length: 20
-        items:
-          STR_DATA_DISK_WEAPONS_E:
-            - [11, 5, 0]
         groups: 4
         revealedFloors: [0, 1, 2, 3]
   - name: COLDISLE_RESEARCH
@@ -6685,9 +6303,6 @@ terrains:
         width: 20
         length: 20
         groups: 4
-        items:
-          STR_DATA_DISK_ARMORS_E:
-            - [5, 5, 2]
       - name: COLDISLE32
         width: 20
         length: 20
@@ -7324,9 +6939,6 @@ terrains:
       - name: DAWNURBAN64
         width: 20
         length: 20
-        items:
-          STR_DATA_DISK_FACILITIES_E:
-            - [13, 12, 4]
       - name: DAWNURBAN65
         width: 20
         length: 20
@@ -7802,139 +7414,6 @@ terrains:
   - name: MADCITY_ESCAPE 
     refNode: *MADCITY
     script: MADESCAPE
-    mapBlocks:
-      - name: URBAN00
-        width: 10
-        length: 10
-        groups: 2
-      - name: URBAN01
-        width: 10
-        length: 10
-        groups: 3
-      - name: URBAN02
-        width: 10
-        length: 10
-        groups: 4
-      - name: URBAN03
-        width: 10
-        length: 10
-        groups: 1
-      - name: URBAN04
-        width: 10
-        length: 10
-        groups: 1
-      - name: URBAN05
-        width: 20
-        length: 20
-      - name: URBAN06
-        width: 20
-        length: 20
-      - name: URBAN07
-        width: 20
-        length: 20
-      - name: URBAN08
-        width: 20
-        length: 20
-      - name: URBAN09
-        width: 20
-        length: 20
-      - name: MADURBAN10
-        width: 10
-        length: 10
-      - name: MADURBAN11
-        width: 20
-        length: 20
-      - name: MADURBAN12
-        width: 20
-        length: 20
-      - name: MADURBAN13
-        width: 20
-        length: 20
-      - name: URBAN14
-        width: 10
-        length: 10
-      - name: URBAN15
-        width: 10
-        length: 10
-      - name: URBAN16
-        width: 10
-        length: 10
-      - name: URBAN17
-        width: 10
-        length: 10
-      - name: URBAN18
-        width: 10
-        length: 10
-      - name: MADURBAN19
-        width: 10
-        length: 10
-      - name: MADURBAN20
-        width: 10
-        length: 10
-      - name: MADURBAN21
-        width: 10
-        length: 10
-      - name: MADURBAN22
-        width: 10
-        length: 10
-      - name: MADURBAN23
-        width: 10
-        length: 10
-      - name: MADURBAN24
-        width: 10
-        length: 10
-      - name: MADURBAN25
-        width: 10
-        length: 10
-      - name: MADURBAN26
-        width: 10
-        length: 10
-      - name: MADURBAN27
-        width: 20
-        length: 20
-      - name: MADURBAN28
-        width: 20
-        length: 20
-      - name: MADURBAN29
-        width: 20
-        length: 20
-      - name: MADURBAN30
-        width: 20
-        length: 20
-      - name: MADURBAN31
-        width: 20
-        length: 20
-      - name: MADURBAN32
-        width: 20
-        length: 20
-      - name: MADURBAN33
-        width: 20
-        length: 20
-      - name: MADURBAN34
-        width: 20
-        length: 20
-      - name: MADURBAN35
-        width: 20
-        length: 20
-      - name: MADURBAN36
-        width: 10
-        length: 10
-      - name: MADURBAN37
-        width: 10
-        length: 10
-      - name: MADURBAN38
-        width: 10
-        length: 10
-      - name: MADURBAN39
-        width: 10
-        length: 10
-        groups: 10
-        revealedFloors: [0, 1, 2, 3]
-      - name: MADURBAN40
-        width: 20
-        length: 20
-        groups: 10
-        revealedFloors: [0, 1, 2, 3]
     mapBlocks:
       - name: URBAN00
         width: 10
@@ -9829,9 +9308,6 @@ terrains:
         width: 20
         length: 20
         revealedFloors: [0, 1, 2, 3]
-        items:
-          STR_DATA_DISK_WEAPONS_E:
-            - [4, 8, 1]
       - name: STORMMOUNTAINDEFENSE09
         width: 20
         length: 20
@@ -9892,9 +9368,6 @@ terrains:
         width: 20
         length: 20
         revealedFloors: [0, 1, 2, 3]
-        items:
-          STR_DATA_DISK_WEAPONS_E:
-            - [4, 8, 1]
       - name: STORMMOUNTAINDEFENSE09
         width: 20
         length: 20
@@ -10020,9 +9493,6 @@ terrains:
       - name: STORMMOUNTAIN11
         width: 20
         length: 20
-        items:
-          STR_DATA_DISK_WEAPONS_F:
-            - [10, 6, 1]
       - name: STORMMOUNTAIN12
         width: 10
         length: 10
@@ -10802,11 +10272,6 @@ terrains:
       - name: AREA51BASE64
         width: 10
         length: 10
-        items:
-          STR_PISTOL:
-            - [4, 1, 0]
-          STR_PISTOL_CLIP:
-            - [4, 1, 0]
       - name: AREA51BASE65
         width: 10
         length: 10
@@ -10852,11 +10317,6 @@ terrains:
       - name: AREA51BASE79
         width: 10
         length: 10
-        items:
-          STR_PISTOL:
-            - [4, 1, 0]
-          STR_PISTOL_CLIP:
-            - [4, 1, 0]
       - name: AREA51BASE80
         width: 20
         length: 20
@@ -10866,124 +10326,18 @@ terrains:
       - name: AREA51BASE82
         width: 20
         length: 20
-        items:
-          STR_RIFLE:
-            - [2, 13, 1]
-          STR_RIFLE_CLIP:
-            - [2, 13, 1]
-          STR_GRENADE:
-            - [2, 14, 1]
-          STR_INCENDIARY_GRENADE:
-            - [2, 14, 1]
-          STR_PISTOL:
-            - [7, 2, 0]
-          STR_PISTOL_AA_CLIP:
-            - [7, 2, 0]
       - name: AREA51BASE83
         width: 20
         length: 20
-        items:
-          STR_RIFLE:
-            - [4, 8, 0]
-          STR_RIFLE_CLIP:
-            - [4, 8, 0]
-          STR_LMG:
-            - [4, 10, 0]
-          STR_LMG_BELT:
-            - [4, 10, 0]
-          STR_SNIPER_RIFLE:
-            - [4, 9, 0]
-          STR_SNIPER_RIFLE_CLIP:
-            - [4, 9, 0]
-          STR_GRENADE:
-            - [5, 4, 0]
-          STR_INCENDIARY_GRENADE:
-            - [5, 4, 0]
       - name: AREA51BASE84
         width: 20
         length: 20
       - name: AREA51BASE85
         width: 20
         length: 20
-        items:
-          STR_PISTOL:
-            - [2, 13, 0]
-          STR_PISTOL_AA_CLIP:
-            - [2, 13, 0]
-          STR_LMG:
-            - [2, 14, 0]
-          STR_LMG_BELT:
-            - [2, 14, 0]
-          STR_SNUBNOSE_PISTOL:
-            - [2, 15, 0]
-          STR_SNUBNOSE_PISTOL_CLIP:
-            - [2, 15, 0]
-          STR_RIFLE:
-            - [5, 14, 0]
-          STR_RIFLE_CLIP:
-            - [5, 14, 0]
-          STR_SHOTGUN:
-            - [5, 15, 0]
-          STR_SHOTGUN_AMMO:
-            - [5, 15, 0]
-          STR_LMG:
-            - [8, 15, 0]
-          STR_LMG_BELT:
-            - [8, 15, 0]
-          STR_SNIPER_RIFLE:
-            - [8, 14, 0]
-          STR_SNIPER_RIFLE_CLIP:
-            - [8, 14, 0]
-          STR_MACHINE_PISTOL:
-            - [11, 15, 0]
-          STR_MACHINE_PISTOL_CLIP:
-            - [11, 15, 0]
-          STR_RIFLE:
-            - [11, 14, 0]
-          STR_RIFLE_CLIP:
-            - [11, 14, 0]
-          STR_PISTOL:
-            - [11, 13, 0]
-          STR_PISTOL_CLIP:
-            - [11, 13, 0]
-          STR_GRENADE:
-            - [2, 3, 1]
-          STR_INCENDIARY_GRENADE:
-            - [3, 2, 1]
-          STR_HIGH_EXPLOSIVE:
-            - [4, 2, 1]
-          STR_MULTI_LAUNCHER:
-            - [5, 2, 1]
-          STR_ROCKET_PACK:
-            - [5, 2, 1]
-          STR_ROCKET_LAUNCHER:
-            - [6, 2, 1]
-          STR_LARGE_ROCKET:
-            - [6, 2, 1]
-          STR_INCENDIARY_ROCKET:
-            - [6, 2, 1]
-          STR_SMALL_ROCKET:
-            - [6, 2, 1]
       - name: AREA51BASE86
         width: 20
         length: 20
-        items:
-          STR_RIFLE:
-            - [6, 9, 0]
-          STR_RIFLE_CLIP:
-            - [6, 9, 0]
-          STR_LMG:
-            - [6, 7, 0]
-          STR_LMG_BELT:
-            - [6, 7, 0]
-          STR_SNIPER_RIFLE:
-            - [6, 7, 0]
-          STR_SNIPER_RIFLE_AA_CLIP:
-            - [6, 7, 0]
-          STR_GRENADE:
-            - [13, 12, 0]
-          STR_INCENDIARY_GRENADE:
-            - [13, 12, 0]
       - name: AREA51BASE87
         width: 20
         length: 20
@@ -11002,74 +10356,15 @@ terrains:
       - name: AREA51BASE92
         width: 20
         length: 20
-        items:
-          STR_SNIPER_RIFLE:
-            - [5, 2, 0]
-          STR_SNIPER_RIFLE_CLIP:
-            - [5, 2, 0]
-          STR_MACHINE_PISTOL:
-            - [13, 12, 1]
-          STR_MACHINE_PISTOL_CLIP:
-            - [13, 12, 1]
-          STR_MULTI_LAUNCHER:
-            - [2, 2, 1]
-          STR_ROCKET_PACK:
-            - [2, 2, 1]
-          STR_ROCKET_LAUNCHER:
-            - [15, 17, 1]
-          STR_LARGE_ROCKET:
-            - [15, 17, 1]
-          STR_INCENDIARY_ROCKET:
-            - [15, 17, 1]
-          STR_SMALL_ROCKET:
-            - [15, 17, 1]
-          STR_GRENADE:
-            - [13, 12, 1]
-          STR_INCENDIARY_GRENADE:
-            - [13, 12, 1]
       - name: AREA51BASE93
         width: 20
         length: 20
       - name: AREA51BASE94
         width: 20
         length: 20
-        items:
-          STR_RIFLE:
-            - [14, 8, 0]
-          STR_RIFLE_CLIP:
-            - [14, 8, 0]
-          STR_GRENADE:
-            - [14, 8, 0]
-          STR_INCENDIARY_GRENADE:
-            - [14, 8, 0]
       - name: AREA51BASE95
         width: 20
         length: 20
-        items:
-          STR_GRENADE:
-            - [13, 3, 1]
-          STR_INCENDIARY_GRENADE:
-            - [13, 3, 1]
-          STR_RIFLE:
-            - [13, 8, 1]
-          STR_RIFLE_CLIP:
-            - [13, 8, 1]
-          STR_LMG:
-            - [14, 4, 0]
-          STR_LMG_AA_BELT:
-            - [14, 4, 0]
-          STR_SNIPER_RIFLE:
-            - [4, 4, 1]
-          STR_SNIPER_RIFLE_CLIP:
-            - [4, 4, 1]
-          STR_SHOTGUN:
-            - [13, 13, 1]
-          STR_SHOTGUN_AMMO:
-            - [13, 13, 1]
-          STR_MACHINE_PISTOL:
-            - [13, 15, 1]
-          STR_MACHINE_PISTOL_CLIP:
-            - [13, 15, 1]
       - name: AREA51BASE96
         width: 20
         length: 20
@@ -11653,11 +10948,6 @@ terrains:
       - name: AREA51BASE64
         width: 10
         length: 10
-        items:
-          STR_PISTOL:
-            - [4, 1, 0]
-          STR_PISTOL_CLIP:
-            - [4, 1, 0]
       - name: AREA51BASE65
         width: 10
         length: 10
@@ -11703,11 +10993,6 @@ terrains:
       - name: AREA51BASE79
         width: 10
         length: 10
-        items:
-          STR_PISTOL:
-            - [4, 1, 0]
-          STR_PISTOL_CLIP:
-            - [4, 1, 0]
       - name: AREA51BASE80
         width: 20
         length: 20
@@ -11717,139 +11002,24 @@ terrains:
       - name: AREA51BASE82
         width: 20
         length: 20
-        items:
-          STR_RIFLE:
-            - [2, 13, 1]
-          STR_RIFLE_CLIP:
-            - [2, 13, 1]
-          STR_GRENADE:
-            - [2, 14, 1]
-          STR_INCENDIARY_GRENADE:
-            - [2, 14, 1]
-          STR_PISTOL:
-            - [7, 2, 0]
-          STR_PISTOL_AA_CLIP:
-            - [7, 2, 0]
       - name: AREA51BASE83
         width: 20
         length: 20
-        items:
-          STR_RIFLE:
-            - [4, 8, 0]
-          STR_RIFLE_CLIP:
-            - [4, 8, 0]
-          STR_LMG:
-            - [4, 10, 0]
-          STR_LMG_BELT:
-            - [4, 10, 0]
-          STR_SNIPER_RIFLE:
-            - [4, 9, 0]
-          STR_SNIPER_RIFLE_CLIP:
-            - [4, 9, 0]
-          STR_GRENADE:
-            - [5, 4, 0]
-          STR_INCENDIARY_GRENADE:
-            - [5, 4, 0]
       - name: AREA51BASE84
         width: 20
         length: 20
-        items:
-          STR_DATA_DISK_CRAFT_WEAPONS_E:
-            - [15, 1, 2]
       - name: AREA51BASE85
         width: 20
         length: 20
-        items:
-          STR_PISTOL:
-            - [2, 13, 0]
-          STR_PISTOL_AA_CLIP:
-            - [2, 13, 0]
-          STR_LMG:
-            - [2, 14, 0]
-          STR_LMG_BELT:
-            - [2, 14, 0]
-          STR_SNUBNOSE_PISTOL:
-            - [2, 15, 0]
-          STR_SNUBNOSE_PISTOL_CLIP:
-            - [2, 15, 0]
-          STR_RIFLE:
-            - [5, 14, 0]
-          STR_RIFLE_CLIP:
-            - [5, 14, 0]
-          STR_SHOTGUN:
-            - [5, 15, 0]
-          STR_SHOTGUN_AMMO:
-            - [5, 15, 0]
-          STR_LMG:
-            - [8, 15, 0]
-          STR_LMG_BELT:
-            - [8, 15, 0]
-          STR_SNIPER_RIFLE:
-            - [8, 14, 0]
-          STR_SNIPER_RIFLE_CLIP:
-            - [8, 14, 0]
-          STR_MACHINE_PISTOL:
-            - [11, 15, 0]
-          STR_MACHINE_PISTOL_CLIP:
-            - [11, 15, 0]
-          STR_RIFLE:
-            - [11, 14, 0]
-          STR_RIFLE_CLIP:
-            - [11, 14, 0]
-          STR_PISTOL:
-            - [11, 13, 0]
-          STR_PISTOL_CLIP:
-            - [11, 13, 0]
-          STR_GRENADE:
-            - [2, 3, 1]
-          STR_INCENDIARY_GRENADE:
-            - [3, 2, 1]
-          STR_HIGH_EXPLOSIVE:
-            - [4, 2, 1]
-          STR_MULTI_LAUNCHER:
-            - [5, 2, 1]
-          STR_ROCKET_PACK:
-            - [5, 2, 1]
-          STR_ROCKET_LAUNCHER:
-            - [6, 2, 1]
-          STR_LARGE_ROCKET:
-            - [6, 2, 1]
-          STR_INCENDIARY_ROCKET:
-            - [6, 2, 1]
-          STR_SMALL_ROCKET:
-            - [6, 2, 1]
       - name: AREA51BASE86
         width: 20
         length: 20
-        items:
-          STR_RIFLE:
-            - [6, 9, 0]
-          STR_RIFLE_CLIP:
-            - [6, 9, 0]
-          STR_LMG:
-            - [6, 7, 0]
-          STR_LMG_BELT:
-            - [6, 7, 0]
-          STR_SNIPER_RIFLE:
-            - [6, 7, 0]
-          STR_SNIPER_RIFLE_AA_CLIP:
-            - [6, 7, 0]
-          STR_GRENADE:
-            - [13, 12, 0]
-          STR_INCENDIARY_GRENADE:
-            - [13, 12, 0]
       - name: AREA51BASE87
         width: 20
         length: 20
-        items:
-          STR_DATA_DISK_CRAFT_WEAPONS_E:
-            - [8, 14, 1]
       - name: AREA51BASE88
         width: 20
         length: 20
-        items:
-          STR_DATA_DISK_CRAFT_WEAPONS_E:
-            - [0, 12, 2]
       - name: AREA51BASE89
         width: 20
         length: 20
@@ -11862,74 +11032,15 @@ terrains:
       - name: AREA51BASE92
         width: 20
         length: 20
-        items:
-          STR_SNIPER_RIFLE:
-            - [5, 2, 0]
-          STR_SNIPER_RIFLE_CLIP:
-            - [5, 2, 0]
-          STR_MACHINE_PISTOL:
-            - [13, 12, 1]
-          STR_MACHINE_PISTOL_CLIP:
-            - [13, 12, 1]
-          STR_MULTI_LAUNCHER:
-            - [2, 2, 1]
-          STR_ROCKET_PACK:
-            - [2, 2, 1]
-          STR_ROCKET_LAUNCHER:
-            - [15, 17, 1]
-          STR_LARGE_ROCKET:
-            - [15, 17, 1]
-          STR_INCENDIARY_ROCKET:
-            - [15, 17, 1]
-          STR_SMALL_ROCKET:
-            - [15, 17, 1]
-          STR_GRENADE:
-            - [13, 12, 1]
-          STR_INCENDIARY_GRENADE:
-            - [13, 12, 1]
       - name: AREA51BASE93
         width: 20
         length: 20
       - name: AREA51BASE94
         width: 20
         length: 20
-        items:
-          STR_RIFLE:
-            - [14, 8, 0]
-          STR_RIFLE_CLIP:
-            - [14, 8, 0]
-          STR_GRENADE:
-            - [14, 8, 0]
-          STR_INCENDIARY_GRENADE:
-            - [14, 8, 0]
       - name: AREA51BASE95
         width: 20
         length: 20
-        items:
-          STR_GRENADE:
-            - [13, 3, 1]
-          STR_INCENDIARY_GRENADE:
-            - [13, 3, 1]
-          STR_RIFLE:
-            - [13, 8, 1]
-          STR_RIFLE_CLIP:
-            - [13, 8, 1]
-          STR_LMG:
-            - [14, 4, 0]
-          STR_LMG_AA_BELT:
-            - [14, 4, 0]
-          STR_SNIPER_RIFLE:
-            - [4, 4, 1]
-          STR_SNIPER_RIFLE_CLIP:
-            - [4, 4, 1]
-          STR_SHOTGUN:
-            - [13, 13, 1]
-          STR_SHOTGUN_AMMO:
-            - [13, 13, 1]
-          STR_MACHINE_PISTOL:
-            - [13, 15, 1]
-          STR_MACHINE_PISTOL_CLIP:
-            - [13, 15, 1]
       - name: AREA51BASE96
         width: 20
         length: 20
@@ -11939,15 +11050,9 @@ terrains:
       - name: AREA51BASE98
         width: 20
         length: 20
-        items:
-          STR_DATA_DISK_CRAFT_WEAPONS_E:
-            - [1, 4, 2]
       - name: AREA51BASE99
         width: 20
         length: 20
-        items:
-          STR_DATA_DISK_CRAFT_WEAPONS_E:
-            - [15, 13, 2]
       - name: AREA51BASE100
         width: 10
         length: 10
@@ -12302,9 +11407,6 @@ terrains:
       - name: AREA51BASE213
         width: 20
         length: 20
-        items:
-          STR_DATA_DISK_CRAFT_WEAPONS_E:
-            - [1, 13, 2]
       - name: AREA51BASE214
         width: 20
         length: 20
@@ -12314,11 +11416,6 @@ terrains:
       - name: AREA51BASE216
         width: 20
         length: 20
-        items:
-          STR_DATA_DISK_CRAFT_WEAPONS_E:
-            - [18, 6, 3]
-
-    script: AREA51DEFENSE
   - &AREA51_HQ
     name: AREA51_HQ
     mapDataSets:
@@ -12555,11 +11652,6 @@ terrains:
       - name: AREA51BASE64
         width: 10
         length: 10
-        items:
-          STR_PISTOL:
-            - [4, 1, 0]
-          STR_PISTOL_CLIP:
-            - [4, 1, 0]
       - name: AREA51BASE65
         width: 10
         length: 10
@@ -12605,11 +11697,6 @@ terrains:
       - name: AREA51BASE79
         width: 10
         length: 10
-        items:
-          STR_PISTOL:
-            - [4, 1, 0]
-          STR_PISTOL_CLIP:
-            - [4, 1, 0]
       - name: AREA51BASE80
         width: 20
         length: 20
@@ -12619,124 +11706,18 @@ terrains:
       - name: AREA51BASE82
         width: 20
         length: 20
-        items:
-          STR_RIFLE:
-            - [2, 13, 1]
-          STR_RIFLE_CLIP:
-            - [2, 13, 1]
-          STR_GRENADE:
-            - [2, 14, 1]
-          STR_INCENDIARY_GRENADE:
-            - [2, 14, 1]
-          STR_PISTOL:
-            - [7, 2, 0]
-          STR_PISTOL_AA_CLIP:
-            - [7, 2, 0]
       - name: AREA51BASE83
         width: 20
         length: 20
-        items:
-          STR_RIFLE:
-            - [4, 8, 0]
-          STR_RIFLE_CLIP:
-            - [4, 8, 0]
-          STR_LMG:
-            - [4, 10, 0]
-          STR_LMG_BELT:
-            - [4, 10, 0]
-          STR_SNIPER_RIFLE:
-            - [4, 9, 0]
-          STR_SNIPER_RIFLE_CLIP:
-            - [4, 9, 0]
-          STR_GRENADE:
-            - [5, 4, 0]
-          STR_INCENDIARY_GRENADE:
-            - [5, 4, 0]
       - name: AREA51BASE84
         width: 20
         length: 20
       - name: AREA51BASE85
         width: 20
         length: 20
-        items:
-          STR_PISTOL:
-            - [2, 13, 0]
-          STR_PISTOL_AA_CLIP:
-            - [2, 13, 0]
-          STR_LMG:
-            - [2, 14, 0]
-          STR_LMG_BELT:
-            - [2, 14, 0]
-          STR_SNUBNOSE_PISTOL:
-            - [2, 15, 0]
-          STR_SNUBNOSE_PISTOL_CLIP:
-            - [2, 15, 0]
-          STR_RIFLE:
-            - [5, 14, 0]
-          STR_RIFLE_CLIP:
-            - [5, 14, 0]
-          STR_SHOTGUN:
-            - [5, 15, 0]
-          STR_SHOTGUN_AMMO:
-            - [5, 15, 0]
-          STR_LMG:
-            - [8, 15, 0]
-          STR_LMG_BELT:
-            - [8, 15, 0]
-          STR_SNIPER_RIFLE:
-            - [8, 14, 0]
-          STR_SNIPER_RIFLE_CLIP:
-            - [8, 14, 0]
-          STR_MACHINE_PISTOL:
-            - [11, 15, 0]
-          STR_MACHINE_PISTOL_CLIP:
-            - [11, 15, 0]
-          STR_RIFLE:
-            - [11, 14, 0]
-          STR_RIFLE_CLIP:
-            - [11, 14, 0]
-          STR_PISTOL:
-            - [11, 13, 0]
-          STR_PISTOL_CLIP:
-            - [11, 13, 0]
-          STR_GRENADE:
-            - [2, 3, 1]
-          STR_INCENDIARY_GRENADE:
-            - [3, 2, 1]
-          STR_HIGH_EXPLOSIVE:
-            - [4, 2, 1]
-          STR_MULTI_LAUNCHER:
-            - [5, 2, 1]
-          STR_ROCKET_PACK:
-            - [5, 2, 1]
-          STR_ROCKET_LAUNCHER:
-            - [6, 2, 1]
-          STR_LARGE_ROCKET:
-            - [6, 2, 1]
-          STR_INCENDIARY_ROCKET:
-            - [6, 2, 1]
-          STR_SMALL_ROCKET:
-            - [6, 2, 1]
       - name: AREA51BASE86
         width: 20
         length: 20
-        items:
-          STR_RIFLE:
-            - [6, 9, 0]
-          STR_RIFLE_CLIP:
-            - [6, 9, 0]
-          STR_LMG:
-            - [6, 7, 0]
-          STR_LMG_BELT:
-            - [6, 7, 0]
-          STR_SNIPER_RIFLE:
-            - [6, 7, 0]
-          STR_SNIPER_RIFLE_AA_CLIP:
-            - [6, 7, 0]
-          STR_GRENADE:
-            - [13, 12, 0]
-          STR_INCENDIARY_GRENADE:
-            - [13, 12, 0]
       - name: AREA51BASE87
         width: 20
         length: 20
@@ -12755,74 +11736,15 @@ terrains:
       - name: AREA51BASE92
         width: 20
         length: 20
-        items:
-          STR_SNIPER_RIFLE:
-            - [5, 2, 0]
-          STR_SNIPER_RIFLE_CLIP:
-            - [5, 2, 0]
-          STR_MACHINE_PISTOL:
-            - [13, 12, 1]
-          STR_MACHINE_PISTOL_CLIP:
-            - [13, 12, 1]
-          STR_MULTI_LAUNCHER:
-            - [2, 2, 1]
-          STR_ROCKET_PACK:
-            - [2, 2, 1]
-          STR_ROCKET_LAUNCHER:
-            - [15, 17, 1]
-          STR_LARGE_ROCKET:
-            - [15, 17, 1]
-          STR_INCENDIARY_ROCKET:
-            - [15, 17, 1]
-          STR_SMALL_ROCKET:
-            - [15, 17, 1]
-          STR_GRENADE:
-            - [13, 12, 1]
-          STR_INCENDIARY_GRENADE:
-            - [13, 12, 1]
       - name: AREA51BASE93
         width: 20
         length: 20
       - name: AREA51BASE94
         width: 20
         length: 20
-        items:
-          STR_RIFLE:
-            - [14, 8, 0]
-          STR_RIFLE_CLIP:
-            - [14, 8, 0]
-          STR_GRENADE:
-            - [14, 8, 0]
-          STR_INCENDIARY_GRENADE:
-            - [14, 8, 0]
       - name: AREA51BASE95
         width: 20
         length: 20
-        items:
-          STR_GRENADE:
-            - [13, 3, 1]
-          STR_INCENDIARY_GRENADE:
-            - [13, 3, 1]
-          STR_RIFLE:
-            - [13, 8, 1]
-          STR_RIFLE_CLIP:
-            - [13, 8, 1]
-          STR_LMG:
-            - [14, 4, 0]
-          STR_LMG_AA_BELT:
-            - [14, 4, 0]
-          STR_SNIPER_RIFLE:
-            - [4, 4, 1]
-          STR_SNIPER_RIFLE_CLIP:
-            - [4, 4, 1]
-          STR_SHOTGUN:
-            - [13, 13, 1]
-          STR_SHOTGUN_AMMO:
-            - [13, 13, 1]
-          STR_MACHINE_PISTOL:
-            - [13, 15, 1]
-          STR_MACHINE_PISTOL_CLIP:
-            - [13, 15, 1]
       - name: AREA51BASE96
         width: 20
         length: 20
@@ -13436,9 +12358,6 @@ terrains:
       - name: AREA51RAID00
         width: 50
         length: 50
-        items:
-          STR_DATA_DISK_HWPS_F:
-            - [6, 17, 3]
       - name: AREA51RAID06
         width: 10
         length: 10
@@ -13489,9 +12408,6 @@ terrains:
       - name: AREA51RAID04
         width: 60
         length: 40
-        items:
-          STR_DATA_DISK_CRAFTS_F:
-            - [34, 7, 3]
       - name: AREA51RAID05
         width: 60
         length: 20
@@ -13512,9 +12428,6 @@ terrains:
       - name: AREA51RAID04
         width: 60
         length: 40
-        items:
-          STR_DATA_DISK_CRAFTS_F:
-            - [5, 5, 3]
       - name: AREA51RAID05
         width: 60
         length: 20
@@ -13536,9 +12449,6 @@ terrains:
       - name: AREA51RAID02
         width: 40
         length: 40
-        items:
-          STR_DATA_DISK_7:
-            - [9, 34, 3]
       - name: AREA51RAID21
         width: 10
         length: 10
@@ -13630,9 +12540,6 @@ terrains:
       - name: AREA51RAID02
         width: 40
         length: 40
-        items:
-          STR_DATA_DISK_7:
-            - [20, 2, 2]
       - name: AREA51RAID21
         width: 10
         length: 10
@@ -13724,9 +12631,6 @@ terrains:
       - name: AREA51RAID02
         width: 40
         length: 40
-        items:
-          STR_DATA_DISK_7:
-            - [6, 27, 2]
       - name: AREA51RAID21
         width: 10
         length: 10
@@ -14485,9 +13389,6 @@ terrains:
         width: 20
         length: 20
         revealedFloors: [0, 1, 2, 3]
-        items:
-          STR_DATA_DISK_ARMORS_F:
-            - [13, 14, 3]
       - name: BIOLABDEFENSE_30
         width: 20
         length: 20
@@ -14693,9 +13594,6 @@ terrains:
         width: 20
         length: 20
         revealedFloors: [0, 1, 2, 3]
-        items:
-          STR_DATA_DISK_ARMORS_F:
-            - [13, 14, 3]
       - name: BIOLABDEFENSE_30
         width: 20
         length: 20
@@ -14901,9 +13799,6 @@ terrains:
         width: 20
         length: 20
         revealedFloors: [0, 1, 2, 3]
-        items:
-          STR_DATA_DISK_ARMORS_F:
-            - [13, 14, 3]
       - name: BIOLABDEFENSE_30
         width: 20
         length: 20
@@ -15089,9 +13984,6 @@ terrains:
       - name: BIOLAB_33
         width: 20
         length: 20
-        items:
-          STR_DATA_DISK_WEAPONS_E:
-            - [9, 6, 0]
       - name: BIOLAB_34
         width: 10
         length: 10
@@ -15283,9 +14175,6 @@ terrains:
       - name: BIOLAB_42
         width: 20
         length: 20
-        items:
-          STR_DATA_DISK_8:
-            - [12, 12, 0]
       - name: BIOLAB_43
         width: 20
         length: 20
@@ -15797,9 +14686,6 @@ terrains:
         length: 20
         groups: 10
         revealedFloors: [0, 1, 2, 3]
-        items:
-          STR_DATA_DISK_CRAFTS_E:
-            - [14, 14, 0]
   - name: AREA51_COMPLEX18_ESCAPE #TODO
     refNode: *AREA51_COMPLEX18
     mapDataSets:
@@ -16259,33 +15145,18 @@ terrains:
       - name: COMPLEXURBAN26
         width: 30
         length: 30
-        items:
-          STR_DATA_DISK_WEAPONS_E:
-            - [14, 14, 1]
       - name: COMPLEXURBAN27
         width: 30
         length: 30
-        items:
-          STR_DATA_DISK_WEAPONS_E:
-            - [12, 16, 1]
       - name: COMPLEXURBAN28
         width: 30
         length: 30
-        items:
-          STR_DATA_DISK_WEAPONS_E:
-            - [4, 2, 1]
       - name: COMPLEXURBAN29
         width: 30
         length: 30
-        items:
-          STR_DATA_DISK_WEAPONS_E:
-            - [16, 28, 1]
       - name: COMPLEXURBAN30
         width: 30
         length: 30
-        items:
-          STR_DATA_DISK_WEAPONS_E:
-            - [23, 15, 1]
       - name: COMPLEXURBAN31
         width: 20
         length: 20
@@ -16295,9 +15166,6 @@ terrains:
       - name: COMPLEXURBAN33
         width: 30
         length: 30
-        items:
-          STR_DATA_DISK_WEAPONS_E:
-            - [12, 21, 1]
       - name: COMPLEXURBAN34
         width: 10
         length: 10
@@ -16433,9 +15301,6 @@ terrains:
         length: 20
         groups: 10
         revealedFloors: [0, 1, 2, 3]
-        items:
-          STR_DATA_DISK_9:
-            - [5, 2, 1]
   - &AREA51_SIBERIA
     name: AREA51_SIBERIA
     mapDataSets:
@@ -17610,9 +16475,6 @@ terrains:
         width: 10
         length: 10
         revealedFloors: [0, 1, 2, 3]
-        items:
-          STR_DATA_DISK_WEAPONS_E:
-            - [6, 4, 0]
       - name: SIBERIADEFENSE34
         width: 10
         length: 10
@@ -18016,15 +16878,9 @@ terrains:
       - name: SIBERIABASE33
         width: 10
         length: 10
-        items:
-          STR_DATA_DISK_WEAPONS_E:
-            - [6, 4, 0]
       - name: SIBERIABASE34
         width: 10
         length: 10
-        items:
-          STR_DATA_DISK_WEAPONS_F:
-            - [6, 4, 0]
       - name: SIBERIABASE35
         width: 10
         length: 10
@@ -18282,11 +17138,6 @@ terrains:
       - name: AREA51BASE64
         width: 10
         length: 10
-        items:
-          STR_PISTOL:
-            - [4, 1, 0]
-          STR_PISTOL_AA_CLIP:
-            - [4, 1, 0]
       - name: AREA51BASE65
         width: 10
         length: 10
@@ -18332,11 +17183,6 @@ terrains:
       - name: AREA51BASE79
         width: 10
         length: 10
-        items:
-          STR_PISTOL:
-            - [4, 1, 0]
-          STR_PISTOL_AA_CLIP:
-            - [4, 1, 0]
       - name: AREA51BASE80
         width: 20
         length: 20
@@ -18346,120 +17192,18 @@ terrains:
       - name: AREA51BASE82
         width: 20
         length: 20
-        items:
-          STR_RIFLE:
-            - [2, 13, 1]
-          STR_RIFLE_AA_CLIP:
-            - [2, 13, 1]
-          STR_GRENADE:
-            - [2, 14, 1]
-          STR_INCENDIARY_GRENADE:
-            - [2, 14, 1]
-          STR_PISTOL:
-            - [7, 2, 0]
-          STR_PISTOL_AA_CLIP:
-            - [7, 2, 0]
       - name: AREA51BASE83
         width: 20
         length: 20
-        items:
-          STR_RIFLE:
-            - [4, 8, 0]
-          STR_RIFLE_AA_CLIP:
-            - [4, 8, 0]
-          STR_LMG:
-            - [4, 10, 0]
-          STR_LMG_AA_BELT:
-            - [4, 10, 0]
-          STR_SNIPER_RIFLE:
-            - [4, 9, 0]
-          STR_SNIPER_RIFLE_AA_CLIP:
-            - [4, 9, 0]
-          STR_GRENADE:
-            - [5, 4, 0]
-          STR_INCENDIARY_GRENADE:
-            - [5, 4, 0]
       - name: AREA51BASE84
         width: 20
         length: 20
       - name: AREA51BASE85
         width: 20
         length: 20
-        items:
-          STR_PISTOL:
-            - [2, 13, 0]
-          STR_PISTOL_AA_CLIP:
-            - [2, 13, 0]
-          STR_LMG:
-            - [2, 14, 0]
-          STR_LMG_AA_BELT:
-            - [2, 14, 0]
-          STR_RIFLE:
-            - [5, 14, 0]
-          STR_RIFLE_AA_CLIP:
-            - [5, 14, 0]
-          STR_SHOTGUN:
-            - [5, 15, 0]
-          STR_SHOTGUN_AA_AMMO:
-            - [5, 15, 0]
-          STR_LMG:
-            - [8, 15, 0]
-          STR_LMG_AA_BELT:
-            - [8, 15, 0]
-          STR_SNIPER_RIFLE:
-            - [8, 14, 0]
-          STR_SNIPER_RIFLE_AA_CLIP:
-            - [8, 14, 0]
-          STR_MACHINE_PISTOL:
-            - [11, 15, 0]
-          STR_MACHINE_PISTOL_AA_CLIP:
-            - [11, 15, 0]
-          STR_RIFLE:
-            - [11, 14, 0]
-          STR_RIFLE_AA_CLIP:
-            - [11, 14, 0]
-          STR_PISTOL:
-            - [11, 13, 0]
-          STR_PISTOL_AA_CLIP:
-            - [11, 13, 0]
-          STR_GRENADE:
-            - [2, 3, 1]
-          STR_INCENDIARY_GRENADE:
-            - [3, 2, 1]
-          STR_HIGH_EXPLOSIVE:
-            - [4, 2, 1]
-          STR_MULTI_LAUNCHER:
-            - [5, 2, 1]
-          STR_ROCKET_PACK:
-            - [5, 2, 1]
-          STR_ROCKET_LAUNCHER:
-            - [6, 2, 1]
-          STR_LARGE_ROCKET:
-            - [6, 2, 1]
-          STR_INCENDIARY_ROCKET:
-            - [6, 2, 1]
-          STR_ALLOY_ROCKET:
-            - [6, 2, 1]
       - name: AREA51BASE86
         width: 20
         length: 20
-        items:
-          STR_RIFLE:
-            - [6, 9, 0]
-          STR_RIFLE_CLIP:
-            - [6, 9, 0]
-          STR_LMG:
-            - [6, 7, 0]
-          STR_LMG_AA_BELT:
-            - [6, 7, 0]
-          STR_SNIPER_RIFLE:
-            - [6, 7, 0]
-          STR_SNIPER_RIFLE_AA_CLIP:
-            - [6, 7, 0]
-          STR_GRENADE:
-            - [13, 12, 0]
-          STR_INCENDIARY_GRENADE:
-            - [13, 12, 0]
       - name: AREA51BASE87
         width: 20
         length: 20
@@ -18478,74 +17222,15 @@ terrains:
       - name: AREA51BASE92
         width: 20
         length: 20
-        items:
-          STR_SNIPER_RIFLE:
-            - [5, 2, 0]
-          STR_SNIPER_RIFLE_AA_CLIP:
-            - [5, 2, 0]
-          STR_MACHINE_PISTOL:
-            - [13, 12, 1]
-          STR_MACHINE_PISTOL_AA_CLIP:
-            - [13, 12, 1]
-          STR_MULTI_LAUNCHER:
-            - [2, 2, 1]
-          STR_ROCKET_PACK:
-            - [2, 2, 1]
-          STR_ROCKET_LAUNCHER:
-            - [15, 17, 1]
-          STR_LARGE_ROCKET:
-            - [15, 17, 1]
-          STR_INCENDIARY_ROCKET:
-            - [15, 17, 1]
-          STR_ALLOY_ROCKET:
-            - [15, 17, 1]
-          STR_GRENADE:
-            - [13, 12, 1]
-          STR_INCENDIARY_GRENADE:
-            - [13, 12, 1]
       - name: AREA51BASE93
         width: 20
         length: 20
       - name: AREA51BASE94
         width: 20
         length: 20
-        items:
-          STR_RIFLE:
-            - [14, 8, 0]
-          STR_RIFLE_AA_CLIP:
-            - [14, 8, 0]
-          STR_GRENADE:
-            - [14, 8, 0]
-          STR_INCENDIARY_GRENADE:
-            - [14, 8, 0]
       - name: AREA51BASE95
         width: 20
         length: 20
-        items:
-          STR_GRENADE:
-            - [13, 3, 1]
-          STR_INCENDIARY_GRENADE:
-            - [13, 3, 1]
-          STR_RIFLE:
-            - [13, 8, 1]
-          STR_RIFLE_AA_CLIP:
-            - [13, 8, 1]
-          STR_LMG:
-            - [14, 4, 0]
-          STR_LMG_AA_BELT:
-            - [14, 4, 0]
-          STR_SNIPER_RIFLE:
-            - [4, 4, 1]
-          STR_SNIPER_RIFLE_AA_CLIP:
-            - [4, 4, 1]
-          STR_SHOTGUN:
-            - [13, 13, 1]
-          STR_SHOTGUN_AA_AMMO:
-            - [13, 13, 1]
-          STR_MACHINE_PISTOL:
-            - [13, 15, 1]
-          STR_MACHINE_PISTOL_AA_CLIP:
-            - [13, 15, 1]
       - name: AREA51BASE96
         width: 20
         length: 20
@@ -20007,11 +18692,6 @@ terrains:
       - name: AREA51BASE64
         width: 10
         length: 10
-        items:
-          STR_PISTOL:
-            - [4, 1, 0]
-          STR_PISTOL_CLIP:
-            - [4, 1, 0]
       - name: AREA51BASE65
         width: 10
         length: 10
@@ -20057,11 +18737,6 @@ terrains:
       - name: AREA51BASE79
         width: 10
         length: 10
-        items:
-          STR_PISTOL:
-            - [4, 1, 0]
-          STR_PISTOL_CLIP:
-            - [4, 1, 0]
       - name: AREA51BASE80
         width: 20
         length: 20
@@ -20071,124 +18746,18 @@ terrains:
       - name: AREA51BASE82
         width: 20
         length: 20
-        items:
-          STR_RIFLE:
-            - [2, 13, 1]
-          STR_RIFLE_CLIP:
-            - [2, 13, 1]
-          STR_GRENADE:
-            - [2, 14, 1]
-          STR_INCENDIARY_GRENADE:
-            - [2, 14, 1]
-          STR_PISTOL:
-            - [7, 2, 0]
-          STR_PISTOL_AA_CLIP:
-            - [7, 2, 0]
       - name: AREA51BASE83
         width: 20
         length: 20
-        items:
-          STR_RIFLE:
-            - [4, 8, 0]
-          STR_RIFLE_CLIP:
-            - [4, 8, 0]
-          STR_LMG:
-            - [4, 10, 0]
-          STR_LMG_BELT:
-            - [4, 10, 0]
-          STR_SNIPER_RIFLE:
-            - [4, 9, 0]
-          STR_SNIPER_RIFLE_CLIP:
-            - [4, 9, 0]
-          STR_GRENADE:
-            - [5, 4, 0]
-          STR_INCENDIARY_GRENADE:
-            - [5, 4, 0]
       - name: AREA51BASE84
         width: 20
         length: 20
       - name: AREA51BASE85
         width: 20
         length: 20
-        items:
-          STR_PISTOL:
-            - [2, 13, 0]
-          STR_PISTOL_AA_CLIP:
-            - [2, 13, 0]
-          STR_LMG:
-            - [2, 14, 0]
-          STR_LMG_BELT:
-            - [2, 14, 0]
-          STR_SNUBNOSE_PISTOL:
-            - [2, 15, 0]
-          STR_SNUBNOSE_PISTOL_CLIP:
-            - [2, 15, 0]
-          STR_RIFLE:
-            - [5, 14, 0]
-          STR_RIFLE_CLIP:
-            - [5, 14, 0]
-          STR_SHOTGUN:
-            - [5, 15, 0]
-          STR_SHOTGUN_AMMO:
-            - [5, 15, 0]
-          STR_LMG:
-            - [8, 15, 0]
-          STR_LMG_BELT:
-            - [8, 15, 0]
-          STR_SNIPER_RIFLE:
-            - [8, 14, 0]
-          STR_SNIPER_RIFLE_CLIP:
-            - [8, 14, 0]
-          STR_MACHINE_PISTOL:
-            - [11, 15, 0]
-          STR_MACHINE_PISTOL_CLIP:
-            - [11, 15, 0]
-          STR_RIFLE:
-            - [11, 14, 0]
-          STR_RIFLE_CLIP:
-            - [11, 14, 0]
-          STR_PISTOL:
-            - [11, 13, 0]
-          STR_PISTOL_CLIP:
-            - [11, 13, 0]
-          STR_GRENADE:
-            - [2, 3, 1]
-          STR_INCENDIARY_GRENADE:
-            - [3, 2, 1]
-          STR_HIGH_EXPLOSIVE:
-            - [4, 2, 1]
-          STR_MULTI_LAUNCHER:
-            - [5, 2, 1]
-          STR_ROCKET_PACK:
-            - [5, 2, 1]
-          STR_ROCKET_LAUNCHER:
-            - [6, 2, 1]
-          STR_LARGE_ROCKET:
-            - [6, 2, 1]
-          STR_INCENDIARY_ROCKET:
-            - [6, 2, 1]
-          STR_SMALL_ROCKET:
-            - [6, 2, 1]
       - name: AREA51BASE86
         width: 20
         length: 20
-        items:
-          STR_RIFLE:
-            - [6, 9, 0]
-          STR_RIFLE_CLIP:
-            - [6, 9, 0]
-          STR_LMG:
-            - [6, 7, 0]
-          STR_LMG_BELT:
-            - [6, 7, 0]
-          STR_SNIPER_RIFLE:
-            - [6, 7, 0]
-          STR_SNIPER_RIFLE_AA_CLIP:
-            - [6, 7, 0]
-          STR_GRENADE:
-            - [13, 12, 0]
-          STR_INCENDIARY_GRENADE:
-            - [13, 12, 0]
       - name: AREA51BASE87
         width: 20
         length: 20
@@ -20207,74 +18776,15 @@ terrains:
       - name: AREA51BASE92
         width: 20
         length: 20
-        items:
-          STR_SNIPER_RIFLE:
-            - [5, 2, 0]
-          STR_SNIPER_RIFLE_CLIP:
-            - [5, 2, 0]
-          STR_MACHINE_PISTOL:
-            - [13, 12, 1]
-          STR_MACHINE_PISTOL_CLIP:
-            - [13, 12, 1]
-          STR_MULTI_LAUNCHER:
-            - [2, 2, 1]
-          STR_ROCKET_PACK:
-            - [2, 2, 1]
-          STR_ROCKET_LAUNCHER:
-            - [15, 17, 1]
-          STR_LARGE_ROCKET:
-            - [15, 17, 1]
-          STR_INCENDIARY_ROCKET:
-            - [15, 17, 1]
-          STR_SMALL_ROCKET:
-            - [15, 17, 1]
-          STR_GRENADE:
-            - [13, 12, 1]
-          STR_INCENDIARY_GRENADE:
-            - [13, 12, 1]
       - name: AREA51BASE93
         width: 20
         length: 20
       - name: AREA51BASE94
         width: 20
         length: 20
-        items:
-          STR_RIFLE:
-            - [14, 8, 0]
-          STR_RIFLE_CLIP:
-            - [14, 8, 0]
-          STR_GRENADE:
-            - [14, 8, 0]
-          STR_INCENDIARY_GRENADE:
-            - [14, 8, 0]
       - name: AREA51BASE95
         width: 20
         length: 20
-        items:
-          STR_GRENADE:
-            - [13, 3, 1]
-          STR_INCENDIARY_GRENADE:
-            - [13, 3, 1]
-          STR_RIFLE:
-            - [13, 8, 1]
-          STR_RIFLE_CLIP:
-            - [13, 8, 1]
-          STR_LMG:
-            - [14, 4, 0]
-          STR_LMG_AA_BELT:
-            - [14, 4, 0]
-          STR_SNIPER_RIFLE:
-            - [4, 4, 1]
-          STR_SNIPER_RIFLE_CLIP:
-            - [4, 4, 1]
-          STR_SHOTGUN:
-            - [13, 13, 1]
-          STR_SHOTGUN_AMMO:
-            - [13, 13, 1]
-          STR_MACHINE_PISTOL:
-            - [13, 15, 1]
-          STR_MACHINE_PISTOL_CLIP:
-            - [13, 15, 1]
       - name: AREA51BASE96
         width: 20
         length: 20
@@ -21718,11 +20228,6 @@ terrains:
       - name: AREA51BASE64
         width: 10
         length: 10
-        items:
-          STR_PISTOL:
-            - [4, 1, 0]
-          STR_PISTOL_AA_CLIP:
-            - [4, 1, 0]
       - name: AREA51BASE65
         width: 10
         length: 10
@@ -21778,11 +20283,6 @@ terrains:
       - name: AREA51BASE79
         width: 10
         length: 10
-        items:
-          STR_PISTOL:
-            - [4, 1, 0]
-          STR_PISTOL_AA_CLIP:
-            - [4, 1, 0]
       - name: AREA51BASE80
         width: 20
         length: 20
@@ -21795,40 +20295,10 @@ terrains:
         width: 20
         length: 20
         revealedFloors: [0, 1, 2, 3]
-        items:
-          STR_RIFLE:
-            - [2, 13, 1]
-          STR_RIFLE_AA_CLIP:
-            - [2, 13, 1]
-          STR_GRENADE:
-            - [2, 14, 1]
-          STR_INCENDIARY_GRENADE:
-            - [2, 14, 1]
-          STR_PISTOL:
-            - [7, 2, 0]
-          STR_PISTOL_AA_CLIP:
-            - [7, 2, 0]
       - name: AREA51BASE83
         width: 20
         length: 20
         revealedFloors: [0, 1, 2, 3]
-        items:
-          STR_RIFLE:
-            - [4, 8, 0]
-          STR_RIFLE_AA_CLIP:
-            - [4, 8, 0]
-          STR_LMG:
-            - [4, 10, 0]
-          STR_LMG_AA_BELT:
-            - [4, 10, 0]
-          STR_SNIPER_RIFLE:
-            - [4, 9, 0]
-          STR_SNIPER_RIFLE_AA_CLIP:
-            - [4, 9, 0]
-          STR_GRENADE:
-            - [5, 4, 0]
-          STR_INCENDIARY_GRENADE:
-            - [5, 4, 0]
       - name: AREA51BASE84
         width: 20
         length: 20
@@ -21837,82 +20307,10 @@ terrains:
         width: 20
         length: 20
         revealedFloors: [0, 1, 2, 3]
-        items:
-          STR_PISTOL:
-            - [2, 13, 0]
-          STR_PISTOL_AA_CLIP:
-            - [2, 13, 0]
-          STR_LMG:
-            - [2, 14, 0]
-          STR_LMG_AA_BELT:
-            - [2, 14, 0]
-          STR_RIFLE:
-            - [5, 14, 0]
-          STR_RIFLE_AA_CLIP:
-            - [5, 14, 0]
-          STR_SHOTGUN:
-            - [5, 15, 0]
-          STR_SHOTGUN_AA_AMMO:
-            - [5, 15, 0]
-          STR_LMG:
-            - [8, 15, 0]
-          STR_LMG_AA_BELT:
-            - [8, 15, 0]
-          STR_SNIPER_RIFLE:
-            - [8, 14, 0]
-          STR_SNIPER_RIFLE_AA_CLIP:
-            - [8, 14, 0]
-          STR_MACHINE_PISTOL:
-            - [11, 15, 0]
-          STR_MACHINE_PISTOL_AA_CLIP:
-            - [11, 15, 0]
-          STR_RIFLE:
-            - [11, 14, 0]
-          STR_RIFLE_AA_CLIP:
-            - [11, 14, 0]
-          STR_PISTOL:
-            - [11, 13, 0]
-          STR_PISTOL_AA_CLIP:
-            - [11, 13, 0]
-          STR_GRENADE:
-            - [2, 3, 1]
-          STR_INCENDIARY_GRENADE:
-            - [3, 2, 1]
-          STR_HIGH_EXPLOSIVE:
-            - [4, 2, 1]
-          STR_MULTI_LAUNCHER:
-            - [5, 2, 1]
-          STR_ROCKET_PACK:
-            - [5, 2, 1]
-          STR_ROCKET_LAUNCHER:
-            - [6, 2, 1]
-          STR_LARGE_ROCKET:
-            - [6, 2, 1]
-          STR_INCENDIARY_ROCKET:
-            - [6, 2, 1]
-          STR_ALLOY_ROCKET:
-            - [6, 2, 1]
       - name: AREA51BASE86
         width: 20
         length: 20
         revealedFloors: [0, 1, 2, 3]
-        items:
-          STR_RIFLE:
-            - [6, 9, 0]
-          STR_RIFLE_CLIP:
-            - [6, 9, 0]
-          STR_LMG:
-            - [6, 7, 0]
-          STR_LMG_AA_BELT:
-            - [6, 7, 0]
-          STR_SNIPER_RIFLE:
-            - [6, 7, 0]
-          STR_SNIPER_RIFLE_AA_CLIP:
-            - [6, 7, 0]
-          STR_GRENADE:
-            - [13, 12, 0]
-          STR_INCENDIARY_GRENADE:
-            - [13, 12, 0]
       - name: AREA51BASE87
         width: 20
         length: 20
@@ -21937,31 +20335,6 @@ terrains:
         width: 20
         length: 20
         revealedFloors: [0, 1, 2, 3]
-        items:
-          STR_SNIPER_RIFLE:
-            - [5, 2, 0]
-          STR_SNIPER_RIFLE_AA_CLIP:
-            - [5, 2, 0]
-          STR_MACHINE_PISTOL:
-            - [13, 12, 1]
-          STR_MACHINE_PISTOL_AA_CLIP:
-            - [13, 12, 1]
-          STR_MULTI_LAUNCHER:
-            - [2, 2, 1]
-          STR_ROCKET_PACK:
-            - [2, 2, 1]
-          STR_ROCKET_LAUNCHER:
-            - [15, 17, 1]
-          STR_LARGE_ROCKET:
-            - [15, 17, 1]
-          STR_INCENDIARY_ROCKET:
-            - [15, 17, 1]
-          STR_ALLOY_ROCKET:
-            - [15, 17, 1]
-          STR_GRENADE:
-            - [13, 12, 1]
-          STR_INCENDIARY_GRENADE:
-            - [13, 12, 1]
       - name: AREA51BASE93
         width: 20
         length: 20
@@ -21970,44 +20343,10 @@ terrains:
         width: 20
         length: 20
         revealedFloors: [0, 1, 2, 3]
-        items:
-          STR_RIFLE:
-            - [14, 8, 0]
-          STR_RIFLE_AA_CLIP:
-            - [14, 8, 0]
-          STR_GRENADE:
-            - [14, 8, 0]
-          STR_INCENDIARY_GRENADE:
-            - [14, 8, 0]
       - name: AREA51BASE95
         width: 20
         length: 20
         revealedFloors: [0, 1, 2, 3]
-        items:
-          STR_GRENADE:
-            - [13, 3, 1]
-          STR_INCENDIARY_GRENADE:
-            - [13, 3, 1]
-          STR_RIFLE:
-            - [13, 8, 1]
-          STR_RIFLE_AA_CLIP:
-            - [13, 8, 1]
-          STR_LMG:
-            - [14, 4, 0]
-          STR_LMG_AA_BELT:
-            - [14, 4, 0]
-          STR_SNIPER_RIFLE:
-            - [4, 4, 1]
-          STR_SNIPER_RIFLE_AA_CLIP:
-            - [4, 4, 1]
-          STR_SHOTGUN:
-            - [13, 13, 1]
-          STR_SHOTGUN_AA_AMMO:
-            - [13, 13, 1]
-          STR_MACHINE_PISTOL:
-            - [13, 15, 1]
-          STR_MACHINE_PISTOL_AA_CLIP:
-            - [13, 15, 1]
       - name: AREA51BASE96
         width: 20
         length: 20
@@ -22332,30 +20671,18 @@ terrains:
         width: 20
         length: 20
         revealedFloors: [0, 1, 2, 3]
-        items:
-          STR_DATA_DISK_HWPS_E:
-            - [10, 10, 2]
       - name: AREA51BASE198
         width: 20
         length: 20
         revealedFloors: [0, 1, 2, 3]
-        items:
-          STR_DATA_DISK_HWPS_E:
-            - [6, 12, 1]
       - name: AREA51BASE199
         width: 20
         length: 20
         revealedFloors: [0, 1, 2, 3]
-        items:
-          STR_DATA_DISK_HWPS_E:
-            - [8, 8, 0]
       - name: AREA51BASE200
         width: 20
         length: 20
         revealedFloors: [0, 1, 2, 3]
-        items:
-          STR_DATA_DISK_HWPS_E:
-            - [3, 11, 2]
       - name: AREA51BASE201
         width: 20
         length: 20

@@ -25,4 +25,5 @@ fixedUserOptions:
   drawEnemyRadarCircles: false
   removeWoundedFromTraining: true
   strafe: false
-  
+escortRange: 20
+escortsJoinFightAgainstHK: true

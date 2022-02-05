@@ -268,7 +268,7 @@ missionScripts:
     researchTriggers:
       STR_SECTOR_01_COMM: true
     label: 1
-    conditionals: 0
+    conditionals: [0]
     maxRuns: 1
     useTable: false
     varName: sector01

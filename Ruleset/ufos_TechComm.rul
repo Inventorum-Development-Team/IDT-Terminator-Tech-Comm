@@ -34,9 +34,6 @@ ufos:
           width: 20
           length: 10
     missionScore: 0
-    raceWeights:
-      0:
-        STR_NO_MODEL: 10
   - type: STR_MX_MISSILE
     size: STR_LARGE
     missilePower: -1   

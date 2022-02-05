@@ -34,9 +34,9 @@ startingBase:
     - type: STR_TECH_LAB
       x: 4
       y: 3
-    STR_OFFICER: 3
-    STR_SOLDIER: 14
-    STR_PILOT: 8
+  STR_OFFICER: 3
+  STR_SOLDIER: 14
+  STR_PILOT: 8
   crafts:
     - type: STR_OSPREY
       id: 1

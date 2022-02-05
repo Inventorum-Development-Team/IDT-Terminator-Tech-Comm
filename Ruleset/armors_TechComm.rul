@@ -314,7 +314,6 @@ armors: #DONE
     spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
     corpseBattle:
       - STR_HUMAN_FIGHTER_3_0_CORPSE
-    loftemps: 3
     frontArmor: 35
     sideArmor: 30
     rearArmor: 25
