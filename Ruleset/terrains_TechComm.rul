@@ -5764,7 +5764,7 @@ terrains:
         length: 20
         groups: 10
         revealedFloors: [0, 1, 2, 3]
-  - name: COLDISLE_DEFENSE 66 #TODO
+  - name: COLDISLE_DEFENSE #TODO
     refNode: *COLDISLE
     script: COLDISLEEXTRACTION
     mapBlocks:
@@ -9683,6 +9683,352 @@ terrains:
         width: 10
         length: 10
         groups: 11
+  - name: STORMMOUNTAIN_DEFENSE
+    refNode: *STORMMOUNTAIN
+    script: STORMMOUNTAIN
+    mapBlocks:
+      - name: STORMMOUNTAINDEFENSE00
+        width: 10
+        length: 10
+        revealedFloors: [0, 1, 2, 3]
+      - name: STORMMOUNTAINDEFENSE01
+        width: 10
+        length: 10
+        revealedFloors: [0, 1, 2, 3]
+      - name: STORMMOUNTAINDEFENSE02
+        width: 10
+        length: 10
+        revealedFloors: [0, 1, 2, 3]
+      - name: STORMMOUNTAINDEFENSE03
+        width: 10
+        length: 10
+        revealedFloors: [0, 1, 2, 3]
+      - name: STORMMOUNTAINDEFENSE04
+        width: 10
+        length: 10
+        revealedFloors: [0, 1, 2, 3]
+      - name: STORMMOUNTAINDEFENSE05
+        width: 10
+        length: 10
+        revealedFloors: [0, 1, 2, 3]
+      - name: STORMMOUNTAINDEFENSE06
+        width: 20
+        length: 20
+        revealedFloors: [0, 1, 2, 3]
+      - name: STORMMOUNTAINDEFENSE07
+        width: 20
+        length: 20
+        revealedFloors: [0, 1, 2, 3]
+      - name: STORMMOUNTAINDEFENSE08
+        width: 20
+        length: 20
+        revealedFloors: [0, 1, 2, 3]
+      - name: STORMMOUNTAINDEFENSE09
+        width: 20
+        length: 20
+        revealedFloors: [0, 1, 2, 3]
+      - name: STORMMOUNTAINDEFENSE10
+        width: 20
+        length: 20
+        revealedFloors: [0, 1, 2, 3]
+      - name: STORMMOUNTAINDEFENSE11
+        width: 20
+        length: 20
+        revealedFloors: [0, 1, 2, 3]
+      - name: STORMMOUNTAINDEFENSE12
+        width: 10
+        length: 10
+        revealedFloors: [0, 1, 2, 3]
+      - name: STORMMOUNTAINDEFENSE13
+        width: 10
+        length: 10
+        revealedFloors: [0, 1, 2, 3]
+  - name: STORMMOUNTAIN_DESTROY
+    refNode: *STORMMOUNTAIN
+    script: STORMMOUNTAINDESTROY
+    mapBlocks:
+      - name: STORMMOUNTAIN00
+        width: 10
+        length: 10
+      - name: STORMMOUNTAIN01
+        width: 10
+        length: 10
+      - name: STORMMOUNTAIN02
+        width: 10
+        length: 10
+      - name: STORMMOUNTAIN03
+        width: 10
+        length: 10
+      - name: STORMMOUNTAIN04
+        width: 10
+        length: 10
+      - name: STORMMOUNTAIN05
+        width: 10
+        length: 10
+      - name: STORMMOUNTAIN06
+        width: 20
+        length: 20
+      - name: STORMMOUNTAIN07
+        width: 20
+        length: 20
+      - name: STORMMOUNTAIN08
+        width: 20
+        length: 20
+      - name: STORMMOUNTAIN09
+        width: 20
+        length: 20
+      - name: STORMMOUNTAIN10
+        width: 20
+        length: 20
+      - name: STORMMOUNTAIN11
+        width: 20
+        length: 20
+      - name: STORMMOUNTAIN12
+        width: 10
+        length: 10
+      - name: STORMMOUNTAIN13
+        width: 10
+        length: 10
+  - name: STORMMOUNTAIN_ESCORT #TODO
+    refNode: *STORMMOUNTAIN
+    script: STORMMOUNTAINEXTRACTION
+    mapBlocks:
+      - name: STORMMOUNTAINDEFENSE00
+        width: 10
+        length: 10
+        revealedFloors: [0, 1, 2, 3]
+      - name: STORMMOUNTAINDEFENSE01
+        width: 10
+        length: 10
+        revealedFloors: [0, 1, 2, 3]
+      - name: STORMMOUNTAINDEFENSE02
+        width: 10
+        length: 10
+        revealedFloors: [0, 1, 2, 3]
+      - name: STORMMOUNTAINDEFENSE03
+        width: 10
+        length: 10
+        revealedFloors: [0, 1, 2, 3]
+      - name: STORMMOUNTAINDEFENSE04
+        width: 10
+        length: 10
+        revealedFloors: [0, 1, 2, 3]
+      - name: STORMMOUNTAINDEFENSE05
+        width: 10
+        length: 10
+        revealedFloors: [0, 1, 2, 3]
+      - name: STORMMOUNTAINDEFENSE06
+        width: 20
+        length: 20
+        revealedFloors: [0, 1, 2, 3]
+      - name: STORMMOUNTAINDEFENSE07
+        width: 20
+        length: 20
+        revealedFloors: [0, 1, 2, 3]
+      - name: STORMMOUNTAINDEFENSE08
+        width: 20
+        length: 20
+        revealedFloors: [0, 1, 2, 3]
+        items:
+          STR_DATA_DISK_WEAPONS_E:
+            - [4, 8, 1]
+      - name: STORMMOUNTAINDEFENSE09
+        width: 20
+        length: 20
+        revealedFloors: [0, 1, 2, 3]
+      - name: STORMMOUNTAINDEFENSE10
+        width: 20
+        length: 20
+        revealedFloors: [0, 1, 2, 3]
+      - name: STORMMOUNTAINDEFENSE11
+        width: 20
+        length: 20
+        revealedFloors: [0, 1, 2, 3]
+      - name: STORMMOUNTAINDEFENSE12
+        width: 10
+        length: 10
+        revealedFloors: [0, 1, 2, 3]
+      - name: STORMMOUNTAINDEFENSE13
+        width: 10
+        length: 10
+        revealedFloors: [0, 1, 2, 3]
+  - name: STORMMOUNTAIN_EXTRACTION
+    refNode: *STORMMOUNTAIN
+    script: STORMMOUNTAINEXTRACTION
+    mapBlocks:
+      - name: STORMMOUNTAINDEFENSE00
+        width: 10
+        length: 10
+        revealedFloors: [0, 1, 2, 3]
+      - name: STORMMOUNTAINDEFENSE01
+        width: 10
+        length: 10
+        revealedFloors: [0, 1, 2, 3]
+      - name: STORMMOUNTAINDEFENSE02
+        width: 10
+        length: 10
+        revealedFloors: [0, 1, 2, 3]
+      - name: STORMMOUNTAINDEFENSE03
+        width: 10
+        length: 10
+        revealedFloors: [0, 1, 2, 3]
+      - name: STORMMOUNTAINDEFENSE04
+        width: 10
+        length: 10
+        revealedFloors: [0, 1, 2, 3]
+      - name: STORMMOUNTAINDEFENSE05
+        width: 10
+        length: 10
+        revealedFloors: [0, 1, 2, 3]
+      - name: STORMMOUNTAINDEFENSE06
+        width: 20
+        length: 20
+        revealedFloors: [0, 1, 2, 3]
+      - name: STORMMOUNTAINDEFENSE07
+        width: 20
+        length: 20
+        revealedFloors: [0, 1, 2, 3]
+      - name: STORMMOUNTAINDEFENSE08
+        width: 20
+        length: 20
+        revealedFloors: [0, 1, 2, 3]
+        items:
+          STR_DATA_DISK_WEAPONS_E:
+            - [4, 8, 1]
+      - name: STORMMOUNTAINDEFENSE09
+        width: 20
+        length: 20
+        revealedFloors: [0, 1, 2, 3]
+      - name: STORMMOUNTAINDEFENSE10
+        width: 20
+        length: 20
+        revealedFloors: [0, 1, 2, 3]
+      - name: STORMMOUNTAINDEFENSE11
+        width: 20
+        length: 20
+        revealedFloors: [0, 1, 2, 3]
+      - name: STORMMOUNTAINDEFENSE12
+        width: 10
+        length: 10
+        revealedFloors: [0, 1, 2, 3]
+      - name: STORMMOUNTAINDEFENSE13
+        width: 10
+        length: 10
+        revealedFloors: [0, 1, 2, 3]
+  - name: STORMMOUNTAIN_PROTECT #TODO
+    refNode: *STORMMOUNTAIN
+    script: STORMMOUNTAIN
+    mapBlocks:
+      - name: STORMMOUNTAINDEFENSE00
+        width: 10
+        length: 10
+        revealedFloors: [0, 1, 2, 3]
+      - name: STORMMOUNTAINDEFENSE01
+        width: 10
+        length: 10
+        revealedFloors: [0, 1, 2, 3]
+      - name: STORMMOUNTAINDEFENSE02
+        width: 10
+        length: 10
+        revealedFloors: [0, 1, 2, 3]
+      - name: STORMMOUNTAINDEFENSE03
+        width: 10
+        length: 10
+        revealedFloors: [0, 1, 2, 3]
+      - name: STORMMOUNTAINDEFENSE04
+        width: 10
+        length: 10
+        revealedFloors: [0, 1, 2, 3]
+      - name: STORMMOUNTAINDEFENSE05
+        width: 10
+        length: 10
+        revealedFloors: [0, 1, 2, 3]
+      - name: STORMMOUNTAINDEFENSE06
+        width: 20
+        length: 20
+        revealedFloors: [0, 1, 2, 3]
+      - name: STORMMOUNTAINDEFENSE07
+        width: 20
+        length: 20
+        revealedFloors: [0, 1, 2, 3]
+      - name: STORMMOUNTAINDEFENSE08
+        width: 20
+        length: 20
+        revealedFloors: [0, 1, 2, 3]
+      - name: STORMMOUNTAINDEFENSE09
+        width: 20
+        length: 20
+        revealedFloors: [0, 1, 2, 3]
+      - name: STORMMOUNTAINDEFENSE10
+        width: 20
+        length: 20
+        revealedFloors: [0, 1, 2, 3]
+      - name: STORMMOUNTAINDEFENSE11
+        width: 20
+        length: 20
+        revealedFloors: [0, 1, 2, 3]
+      - name: STORMMOUNTAINDEFENSE12
+        width: 10
+        length: 10
+        revealedFloors: [0, 1, 2, 3]
+      - name: STORMMOUNTAINDEFENSE13
+        width: 10
+        length: 10
+        revealedFloors: [0, 1, 2, 3]
+  - name: STORMMOUNTAIN_RESEARCH
+    refNode: *STORMMOUNTAIN
+    mapDataSets:
+      - BLANKS
+      - MOUNT
+      - XBASE1_REDUX
+      - STORMMOUNT
+    script: STORMMOUNTAINRESEARCH
+    mapBlocks:
+      - name: STORMMOUNTAIN00
+        width: 10
+        length: 10
+      - name: STORMMOUNTAIN01
+        width: 10
+        length: 10
+      - name: STORMMOUNTAIN02
+        width: 10
+        length: 10
+      - name: STORMMOUNTAIN03
+        width: 10
+        length: 10
+      - name: STORMMOUNTAIN04
+        width: 10
+        length: 10
+      - name: STORMMOUNTAIN05
+        width: 10
+        length: 10
+      - name: STORMMOUNTAIN06
+        width: 20
+        length: 20
+      - name: STORMMOUNTAIN07
+        width: 20
+        length: 20
+      - name: STORMMOUNTAIN08
+        width: 20
+        length: 20
+      - name: STORMMOUNTAIN09
+        width: 20
+        length: 20
+      - name: STORMMOUNTAIN10
+        width: 20
+        length: 20
+      - name: STORMMOUNTAIN11
+        width: 20
+        length: 20
+        items:
+          STR_DATA_DISK_WEAPONS_F:
+            - [10, 6, 1]
+      - name: STORMMOUNTAIN12
+        width: 10
+        length: 10
+      - name: STORMMOUNTAIN13
+        width: 10
+        length: 10
   - name: TFTD_CARGOSHIP_PORT_EXTRACTION
     script: PORTCARGOSHIPEXTRACTION
   - name: TFTD_ISLAND_ESCAPE 
@@ -9865,6 +10211,8 @@ terrains:
       - name: ISLANDURBAN14
         width: 10
         length: 10
+  - name: TFTD_LINER_PORT_EXTRACTION
+    script: PORTLINEREXTRACTION
   - name: TFTD_PORT_ESCAPE 
     refNode: *TFTD_PORT
     script: PORTTFTDESCAPE
@@ -10217,411 +10565,6 @@ terrains:
         width: 10
         length: 10
         groups: 1
-  - name: STORMMOUNTAIN_ESCAPE
-    refNode: *STORMMOUNTAIN
-    mapBlocks:
-      - name: STORMMOUNTAINDEFENSE00
-        width: 10
-        length: 10
-        revealedFloors: [0, 1, 2, 3]
-      - name: STORMMOUNTAINDEFENSE01
-        width: 10
-        length: 10
-        revealedFloors: [0, 1, 2, 3]
-      - name: STORMMOUNTAINDEFENSE02
-        width: 10
-        length: 10
-        revealedFloors: [0, 1, 2, 3]
-      - name: STORMMOUNTAINDEFENSE03
-        width: 10
-        length: 10
-        revealedFloors: [0, 1, 2, 3]
-      - name: STORMMOUNTAINDEFENSE04
-        width: 10
-        length: 10
-        revealedFloors: [0, 1, 2, 3]
-      - name: STORMMOUNTAINDEFENSE05
-        width: 10
-        length: 10
-        revealedFloors: [0, 1, 2, 3]
-      - name: STORMMOUNTAINDEFENSE06
-        width: 20
-        length: 20
-        revealedFloors: [0, 1, 2, 3]
-      - name: STORMMOUNTAINDEFENSE07
-        width: 20
-        length: 20
-        revealedFloors: [0, 1, 2, 3]
-      - name: STORMMOUNTAINDEFENSE08
-        width: 20
-        length: 20
-        revealedFloors: [0, 1, 2, 3]
-      - name: STORMMOUNTAINDEFENSE09
-        width: 20
-        length: 20
-        revealedFloors: [0, 1, 2, 3]
-      - name: STORMMOUNTAINDEFENSE10
-        width: 20
-        length: 20
-        revealedFloors: [0, 1, 2, 3]
-      - name: STORMMOUNTAINDEFENSE11
-        width: 20
-        length: 20
-        revealedFloors: [0, 1, 2, 3]
-      - name: STORMMOUNTAINDEFENSE12
-        width: 10
-        length: 10
-        revealedFloors: [0, 1, 2, 3]
-      - name: STORMMOUNTAINDEFENSE13
-        width: 10
-        length: 10
-        revealedFloors: [0, 1, 2, 3]
-  - name: STORMMOUNTAIN_DEFENSE
-    refNode: *STORMMOUNTAIN
-    script: STORMMOUNTAIN
-    mapBlocks:
-      - name: STORMMOUNTAINDEFENSE00
-        width: 10
-        length: 10
-        revealedFloors: [0, 1, 2, 3]
-      - name: STORMMOUNTAINDEFENSE01
-        width: 10
-        length: 10
-        revealedFloors: [0, 1, 2, 3]
-      - name: STORMMOUNTAINDEFENSE02
-        width: 10
-        length: 10
-        revealedFloors: [0, 1, 2, 3]
-      - name: STORMMOUNTAINDEFENSE03
-        width: 10
-        length: 10
-        revealedFloors: [0, 1, 2, 3]
-      - name: STORMMOUNTAINDEFENSE04
-        width: 10
-        length: 10
-        revealedFloors: [0, 1, 2, 3]
-      - name: STORMMOUNTAINDEFENSE05
-        width: 10
-        length: 10
-        revealedFloors: [0, 1, 2, 3]
-      - name: STORMMOUNTAINDEFENSE06
-        width: 20
-        length: 20
-        revealedFloors: [0, 1, 2, 3]
-      - name: STORMMOUNTAINDEFENSE07
-        width: 20
-        length: 20
-        revealedFloors: [0, 1, 2, 3]
-      - name: STORMMOUNTAINDEFENSE08
-        width: 20
-        length: 20
-        revealedFloors: [0, 1, 2, 3]
-      - name: STORMMOUNTAINDEFENSE09
-        width: 20
-        length: 20
-        revealedFloors: [0, 1, 2, 3]
-      - name: STORMMOUNTAINDEFENSE10
-        width: 20
-        length: 20
-        revealedFloors: [0, 1, 2, 3]
-      - name: STORMMOUNTAINDEFENSE11
-        width: 20
-        length: 20
-        revealedFloors: [0, 1, 2, 3]
-      - name: STORMMOUNTAINDEFENSE12
-        width: 10
-        length: 10
-        revealedFloors: [0, 1, 2, 3]
-      - name: STORMMOUNTAINDEFENSE13
-        width: 10
-        length: 10
-        revealedFloors: [0, 1, 2, 3]
-  - name: STORMMOUNTAIN_DESTROY
-    refNode: *STORMMOUNTAIN
-    script: STORMMOUNTAINDESTROY
-    mapBlocks:
-      - name: STORMMOUNTAIN00
-        width: 10
-        length: 10
-      - name: STORMMOUNTAIN01
-        width: 10
-        length: 10
-      - name: STORMMOUNTAIN02
-        width: 10
-        length: 10
-      - name: STORMMOUNTAIN03
-        width: 10
-        length: 10
-      - name: STORMMOUNTAIN04
-        width: 10
-        length: 10
-      - name: STORMMOUNTAIN05
-        width: 10
-        length: 10
-      - name: STORMMOUNTAIN06
-        width: 20
-        length: 20
-      - name: STORMMOUNTAIN07
-        width: 20
-        length: 20
-      - name: STORMMOUNTAIN08
-        width: 20
-        length: 20
-      - name: STORMMOUNTAIN09
-        width: 20
-        length: 20
-      - name: STORMMOUNTAIN10
-        width: 20
-        length: 20
-      - name: STORMMOUNTAIN11
-        width: 20
-        length: 20
-      - name: STORMMOUNTAIN12
-        width: 10
-        length: 10
-      - name: STORMMOUNTAIN13
-        width: 10
-        length: 10
-  - name: STORMMOUNTAIN_ESCORT #TODO
-    refNode: *STORMMOUNTAIN
-    script: STORMMOUNTAINEXTRACTION
-    mapBlocks:
-      - name: STORMMOUNTAINDEFENSE00
-        width: 10
-        length: 10
-        revealedFloors: [0, 1, 2, 3]
-      - name: STORMMOUNTAINDEFENSE01
-        width: 10
-        length: 10
-        revealedFloors: [0, 1, 2, 3]
-      - name: STORMMOUNTAINDEFENSE02
-        width: 10
-        length: 10
-        revealedFloors: [0, 1, 2, 3]
-      - name: STORMMOUNTAINDEFENSE03
-        width: 10
-        length: 10
-        revealedFloors: [0, 1, 2, 3]
-      - name: STORMMOUNTAINDEFENSE04
-        width: 10
-        length: 10
-        revealedFloors: [0, 1, 2, 3]
-      - name: STORMMOUNTAINDEFENSE05
-        width: 10
-        length: 10
-        revealedFloors: [0, 1, 2, 3]
-      - name: STORMMOUNTAINDEFENSE06
-        width: 20
-        length: 20
-        revealedFloors: [0, 1, 2, 3]
-      - name: STORMMOUNTAINDEFENSE07
-        width: 20
-        length: 20
-        revealedFloors: [0, 1, 2, 3]
-      - name: STORMMOUNTAINDEFENSE08
-        width: 20
-        length: 20
-        revealedFloors: [0, 1, 2, 3]
-        items:
-          STR_DATA_DISK_WEAPONS_E:
-            - [4, 8, 1]
-      - name: STORMMOUNTAINDEFENSE09
-        width: 20
-        length: 20
-        revealedFloors: [0, 1, 2, 3]
-      - name: STORMMOUNTAINDEFENSE10
-        width: 20
-        length: 20
-        revealedFloors: [0, 1, 2, 3]
-      - name: STORMMOUNTAINDEFENSE11
-        width: 20
-        length: 20
-        revealedFloors: [0, 1, 2, 3]
-      - name: STORMMOUNTAINDEFENSE12
-        width: 10
-        length: 10
-        revealedFloors: [0, 1, 2, 3]
-      - name: STORMMOUNTAINDEFENSE13
-        width: 10
-        length: 10
-        revealedFloors: [0, 1, 2, 3]
-  - name: STORMMOUNTAIN_EXTRACTION
-    refNode: *STORMMOUNTAIN
-    script: STORMMOUNTAINEXTRACTION
-    mapBlocks:
-      - name: STORMMOUNTAINDEFENSE00
-        width: 10
-        length: 10
-        revealedFloors: [0, 1, 2, 3]
-      - name: STORMMOUNTAINDEFENSE01
-        width: 10
-        length: 10
-        revealedFloors: [0, 1, 2, 3]
-      - name: STORMMOUNTAINDEFENSE02
-        width: 10
-        length: 10
-        revealedFloors: [0, 1, 2, 3]
-      - name: STORMMOUNTAINDEFENSE03
-        width: 10
-        length: 10
-        revealedFloors: [0, 1, 2, 3]
-      - name: STORMMOUNTAINDEFENSE04
-        width: 10
-        length: 10
-        revealedFloors: [0, 1, 2, 3]
-      - name: STORMMOUNTAINDEFENSE05
-        width: 10
-        length: 10
-        revealedFloors: [0, 1, 2, 3]
-      - name: STORMMOUNTAINDEFENSE06
-        width: 20
-        length: 20
-        revealedFloors: [0, 1, 2, 3]
-      - name: STORMMOUNTAINDEFENSE07
-        width: 20
-        length: 20
-        revealedFloors: [0, 1, 2, 3]
-      - name: STORMMOUNTAINDEFENSE08
-        width: 20
-        length: 20
-        revealedFloors: [0, 1, 2, 3]
-        items:
-          STR_DATA_DISK_WEAPONS_E:
-            - [4, 8, 1]
-      - name: STORMMOUNTAINDEFENSE09
-        width: 20
-        length: 20
-        revealedFloors: [0, 1, 2, 3]
-      - name: STORMMOUNTAINDEFENSE10
-        width: 20
-        length: 20
-        revealedFloors: [0, 1, 2, 3]
-      - name: STORMMOUNTAINDEFENSE11
-        width: 20
-        length: 20
-        revealedFloors: [0, 1, 2, 3]
-      - name: STORMMOUNTAINDEFENSE12
-        width: 10
-        length: 10
-        revealedFloors: [0, 1, 2, 3]
-      - name: STORMMOUNTAINDEFENSE13
-        width: 10
-        length: 10
-        revealedFloors: [0, 1, 2, 3]
-  - name: STORMMOUNTAIN_PROTECT #TODO
-    refNode: *STORMMOUNTAIN
-    script: STORMMOUNTAIN
-    mapBlocks:
-      - name: STORMMOUNTAINDEFENSE00
-        width: 10
-        length: 10
-        revealedFloors: [0, 1, 2, 3]
-      - name: STORMMOUNTAINDEFENSE01
-        width: 10
-        length: 10
-        revealedFloors: [0, 1, 2, 3]
-      - name: STORMMOUNTAINDEFENSE02
-        width: 10
-        length: 10
-        revealedFloors: [0, 1, 2, 3]
-      - name: STORMMOUNTAINDEFENSE03
-        width: 10
-        length: 10
-        revealedFloors: [0, 1, 2, 3]
-      - name: STORMMOUNTAINDEFENSE04
-        width: 10
-        length: 10
-        revealedFloors: [0, 1, 2, 3]
-      - name: STORMMOUNTAINDEFENSE05
-        width: 10
-        length: 10
-        revealedFloors: [0, 1, 2, 3]
-      - name: STORMMOUNTAINDEFENSE06
-        width: 20
-        length: 20
-        revealedFloors: [0, 1, 2, 3]
-      - name: STORMMOUNTAINDEFENSE07
-        width: 20
-        length: 20
-        revealedFloors: [0, 1, 2, 3]
-      - name: STORMMOUNTAINDEFENSE08
-        width: 20
-        length: 20
-        revealedFloors: [0, 1, 2, 3]
-      - name: STORMMOUNTAINDEFENSE09
-        width: 20
-        length: 20
-        revealedFloors: [0, 1, 2, 3]
-      - name: STORMMOUNTAINDEFENSE10
-        width: 20
-        length: 20
-        revealedFloors: [0, 1, 2, 3]
-      - name: STORMMOUNTAINDEFENSE11
-        width: 20
-        length: 20
-        revealedFloors: [0, 1, 2, 3]
-      - name: STORMMOUNTAINDEFENSE12
-        width: 10
-        length: 10
-        revealedFloors: [0, 1, 2, 3]
-      - name: STORMMOUNTAINDEFENSE13
-        width: 10
-        length: 10
-        revealedFloors: [0, 1, 2, 3]
-  - name: STORMMOUNTAIN_RESEARCH
-    refNode: *STORMMOUNTAIN
-    mapDataSets:
-      - BLANKS
-      - MOUNT
-      - XBASE1_REDUX
-      - STORMMOUNT
-    script: STORMMOUNTAINRESEARCH
-    mapBlocks:
-      - name: STORMMOUNTAIN00
-        width: 10
-        length: 10
-      - name: STORMMOUNTAIN01
-        width: 10
-        length: 10
-      - name: STORMMOUNTAIN02
-        width: 10
-        length: 10
-      - name: STORMMOUNTAIN03
-        width: 10
-        length: 10
-      - name: STORMMOUNTAIN04
-        width: 10
-        length: 10
-      - name: STORMMOUNTAIN05
-        width: 10
-        length: 10
-      - name: STORMMOUNTAIN06
-        width: 20
-        length: 20
-      - name: STORMMOUNTAIN07
-        width: 20
-        length: 20
-      - name: STORMMOUNTAIN08
-        width: 20
-        length: 20
-      - name: STORMMOUNTAIN09
-        width: 20
-        length: 20
-      - name: STORMMOUNTAIN10
-        width: 20
-        length: 20
-      - name: STORMMOUNTAIN11
-        width: 20
-        length: 20
-        items:
-          STR_DATA_DISK_WEAPONS_F:
-            - [10, 6, 1]
-      - name: STORMMOUNTAIN12
-        width: 10
-        length: 10
-      - name: STORMMOUNTAIN13
-        width: 10
-        length: 10
 #AREA 51
   - &AREA51
     name: AREA51
@@ -10637,14 +10580,16 @@ terrains:
       - STR_HUMAN_JUMPSUIT_0_2
       - STR_HUMAN_JUMPSUIT_0_3
       - STR_HUMAN_JUMPSUIT_0_4
-      - STR_HUMAN_JUMPSUIT_2_0
-      - STR_HUMAN_JUMPSUIT_2_1
-      - STR_HUMAN_JUMPSUIT_2_2
-      - STR_HUMAN_JUMPSUIT_2_3
-      - STR_HUMAN_JUMPSUIT_2_4
-      - STR_HUMAN_JUMPSUIT_2_5
-      - STR_HUMAN_JUMPSUIT_2_6
-      - STR_HUMAN_JUMPSUIT_2_7
+      - STR_HUMAN_JUMPSUIT_0_5
+      - STR_HUMAN_JUMPSUIT_0_6
+      - STR_HUMAN_CHARACTER_0_0
+      - STR_HUMAN_CHARACTER_0_1
+      - STR_HUMAN_CHARACTER_0_2
+      - STR_HUMAN_CHARACTER_0_3
+      - STR_HUMAN_CHARACTER_0_4
+      - STR_HUMAN_CHARACTER_0_5
+      - STR_HUMAN_CHARACTER_0_6
+      - STR_HUMAN_CHARACTER_0_7
     script: AREA51URBAN
     mapBlocks:
       - name: AREA51BASE00
@@ -12375,7 +12320,7 @@ terrains:
 
     script: AREA51DEFENSE
   - &AREA51_HQ
-    name: AREA51:HQ
+    name: AREA51_HQ
     mapDataSets:
       - BLANKS
       - AREA51_A1
@@ -12389,19 +12334,16 @@ terrains:
       - STR_HUMAN_JUMPSUIT_0_2
       - STR_HUMAN_JUMPSUIT_0_3
       - STR_HUMAN_JUMPSUIT_0_4
-      - STR_HUMAN_JUMPSUIT_1_0
-      - STR_HUMAN_JUMPSUIT_1_1
-      - STR_HUMAN_JUMPSUIT_1_2
-      - STR_HUMAN_JUMPSUIT_1_3
-      - STR_HUMAN_JUMPSUIT_1_4
-      - STR_HUMAN_JUMPSUIT_2_0
-      - STR_HUMAN_JUMPSUIT_2_1
-      - STR_HUMAN_JUMPSUIT_2_2
-      - STR_HUMAN_JUMPSUIT_2_3
-      - STR_HUMAN_JUMPSUIT_2_4
-      - STR_HUMAN_JUMPSUIT_2_5
-      - STR_HUMAN_JUMPSUIT_2_6
-      - STR_HUMAN_JUMPSUIT_2_7
+      - STR_HUMAN_JUMPSUIT_0_5
+      - STR_HUMAN_JUMPSUIT_0_6
+      - STR_HUMAN_CHARACTER_0_0
+      - STR_HUMAN_CHARACTER_0_1
+      - STR_HUMAN_CHARACTER_0_2
+      - STR_HUMAN_CHARACTER_0_3
+      - STR_HUMAN_CHARACTER_0_4
+      - STR_HUMAN_CHARACTER_0_5
+      - STR_HUMAN_CHARACTER_0_6
+      - STR_HUMAN_CHARACTER_0_7
     mapBlocks:
       - name: AREA51BASE00
         width: 10
@@ -13270,14 +13212,16 @@ terrains:
       - STR_HUMAN_JUMPSUIT_0_2
       - STR_HUMAN_JUMPSUIT_0_3
       - STR_HUMAN_JUMPSUIT_0_4
-      - STR_HUMAN_JUMPSUIT_2_0
-      - STR_HUMAN_JUMPSUIT_2_1
-      - STR_HUMAN_JUMPSUIT_2_2
-      - STR_HUMAN_JUMPSUIT_2_3
-      - STR_HUMAN_JUMPSUIT_2_4
-      - STR_HUMAN_JUMPSUIT_2_5
-      - STR_HUMAN_JUMPSUIT_2_6
-      - STR_HUMAN_JUMPSUIT_2_7
+      - STR_HUMAN_JUMPSUIT_0_5
+      - STR_HUMAN_JUMPSUIT_0_6
+      - STR_HUMAN_CHARACTER_0_0
+      - STR_HUMAN_CHARACTER_0_1
+      - STR_HUMAN_CHARACTER_0_2
+      - STR_HUMAN_CHARACTER_0_3
+      - STR_HUMAN_CHARACTER_0_4
+      - STR_HUMAN_CHARACTER_0_5
+      - STR_HUMAN_CHARACTER_0_6
+      - STR_HUMAN_CHARACTER_0_7
     script: FACTORYURBAN
     mapBlocks:
       - name: FACTORY00
@@ -13459,19 +13403,16 @@ terrains:
       - STR_HUMAN_JUMPSUIT_0_2
       - STR_HUMAN_JUMPSUIT_0_3
       - STR_HUMAN_JUMPSUIT_0_4
-      - STR_HUMAN_JUMPSUIT_1_0
-      - STR_HUMAN_JUMPSUIT_1_1
-      - STR_HUMAN_JUMPSUIT_1_2
-      - STR_HUMAN_JUMPSUIT_1_3
-      - STR_HUMAN_JUMPSUIT_1_4
-      - STR_HUMAN_JUMPSUIT_2_0
-      - STR_HUMAN_JUMPSUIT_2_1
-      - STR_HUMAN_JUMPSUIT_2_2
-      - STR_HUMAN_JUMPSUIT_2_3
-      - STR_HUMAN_JUMPSUIT_2_4
-      - STR_HUMAN_JUMPSUIT_2_5
-      - STR_HUMAN_JUMPSUIT_2_6
-      - STR_HUMAN_JUMPSUIT_2_7
+      - STR_HUMAN_JUMPSUIT_0_5
+      - STR_HUMAN_JUMPSUIT_0_6
+      - STR_HUMAN_CHARACTER_0_0
+      - STR_HUMAN_CHARACTER_0_1
+      - STR_HUMAN_CHARACTER_0_2
+      - STR_HUMAN_CHARACTER_0_3
+      - STR_HUMAN_CHARACTER_0_4
+      - STR_HUMAN_CHARACTER_0_5
+      - STR_HUMAN_CHARACTER_0_6
+      - STR_HUMAN_CHARACTER_0_7
     script: AREA51HWPFACTORY
     mapBlocks:
       - name: AREA51RAID00
@@ -13524,19 +13465,16 @@ terrains:
       - STR_HUMAN_JUMPSUIT_0_2
       - STR_HUMAN_JUMPSUIT_0_3
       - STR_HUMAN_JUMPSUIT_0_4
-      - STR_HUMAN_JUMPSUIT_1_0
-      - STR_HUMAN_JUMPSUIT_1_1
-      - STR_HUMAN_JUMPSUIT_1_2
-      - STR_HUMAN_JUMPSUIT_1_3
-      - STR_HUMAN_JUMPSUIT_1_4
-      - STR_HUMAN_JUMPSUIT_2_0
-      - STR_HUMAN_JUMPSUIT_2_1
-      - STR_HUMAN_JUMPSUIT_2_2
-      - STR_HUMAN_JUMPSUIT_2_3
-      - STR_HUMAN_JUMPSUIT_2_4
-      - STR_HUMAN_JUMPSUIT_2_5
-      - STR_HUMAN_JUMPSUIT_2_6
-      - STR_HUMAN_JUMPSUIT_2_7
+      - STR_HUMAN_JUMPSUIT_0_5
+      - STR_HUMAN_JUMPSUIT_0_6
+      - STR_HUMAN_CHARACTER_0_0
+      - STR_HUMAN_CHARACTER_0_1
+      - STR_HUMAN_CHARACTER_0_2
+      - STR_HUMAN_CHARACTER_0_3
+      - STR_HUMAN_CHARACTER_0_4
+      - STR_HUMAN_CHARACTER_0_5
+      - STR_HUMAN_CHARACTER_0_6
+      - STR_HUMAN_CHARACTER_0_7
     script: AREA51SKYRANGERFACTORY1
     mapBlocks:
       - name: AREA51RAID04
@@ -13545,7 +13483,7 @@ terrains:
       - name: AREA51RAID05
         width: 60
         length: 20
-  - name: AREA51_SKYRANGER_FACTORY 66
+  - name: AREA51_SKYRANGER_FACTORY
     script: AREA51SKYRANGERFACTORY1
     mapBlocks:
       - name: AREA51RAID04
@@ -13888,14 +13826,16 @@ terrains:
       - STR_HUMAN_JUMPSUIT_0_2
       - STR_HUMAN_JUMPSUIT_0_3
       - STR_HUMAN_JUMPSUIT_0_4
-      - STR_HUMAN_JUMPSUIT_2_0
-      - STR_HUMAN_JUMPSUIT_2_1
-      - STR_HUMAN_JUMPSUIT_2_2
-      - STR_HUMAN_JUMPSUIT_2_3
-      - STR_HUMAN_JUMPSUIT_2_4
-      - STR_HUMAN_JUMPSUIT_2_5
-      - STR_HUMAN_JUMPSUIT_2_6
-      - STR_HUMAN_JUMPSUIT_2_7
+      - STR_HUMAN_JUMPSUIT_0_5
+      - STR_HUMAN_JUMPSUIT_0_6
+      - STR_HUMAN_CHARACTER_0_0
+      - STR_HUMAN_CHARACTER_0_1
+      - STR_HUMAN_CHARACTER_0_2
+      - STR_HUMAN_CHARACTER_0_3
+      - STR_HUMAN_CHARACTER_0_4
+      - STR_HUMAN_CHARACTER_0_5
+      - STR_HUMAN_CHARACTER_0_6
+      - STR_HUMAN_CHARACTER_0_7
     mapBlocks:
       - name: BIOLAB_00
         width: 10
@@ -15365,14 +15305,16 @@ terrains:
       - STR_HUMAN_JUMPSUIT_0_2
       - STR_HUMAN_JUMPSUIT_0_3
       - STR_HUMAN_JUMPSUIT_0_4
-      - STR_HUMAN_JUMPSUIT_2_0
-      - STR_HUMAN_JUMPSUIT_2_1
-      - STR_HUMAN_JUMPSUIT_2_2
-      - STR_HUMAN_JUMPSUIT_2_3
-      - STR_HUMAN_JUMPSUIT_2_4
-      - STR_HUMAN_JUMPSUIT_2_5
-      - STR_HUMAN_JUMPSUIT_2_6
-      - STR_HUMAN_JUMPSUIT_2_7
+      - STR_HUMAN_JUMPSUIT_0_5
+      - STR_HUMAN_JUMPSUIT_0_6
+      - STR_HUMAN_CHARACTER_0_0
+      - STR_HUMAN_CHARACTER_0_1
+      - STR_HUMAN_CHARACTER_0_2
+      - STR_HUMAN_CHARACTER_0_3
+      - STR_HUMAN_CHARACTER_0_4
+      - STR_HUMAN_CHARACTER_0_5
+      - STR_HUMAN_CHARACTER_0_6
+      - STR_HUMAN_CHARACTER_0_7
     mapDataSets:
       - BLANKS
       - AREA51_A3
@@ -18133,14 +18075,16 @@ terrains:
       - STR_HUMAN_JUMPSUIT_0_2
       - STR_HUMAN_JUMPSUIT_0_3
       - STR_HUMAN_JUMPSUIT_0_4
-      - STR_HUMAN_JUMPSUIT_2_0
-      - STR_HUMAN_JUMPSUIT_2_1
-      - STR_HUMAN_JUMPSUIT_2_2
-      - STR_HUMAN_JUMPSUIT_2_3
-      - STR_HUMAN_JUMPSUIT_2_4
-      - STR_HUMAN_JUMPSUIT_2_5
-      - STR_HUMAN_JUMPSUIT_2_6
-      - STR_HUMAN_JUMPSUIT_2_7
+      - STR_HUMAN_JUMPSUIT_0_5
+      - STR_HUMAN_JUMPSUIT_0_6
+      - STR_HUMAN_CHARACTER_0_0
+      - STR_HUMAN_CHARACTER_0_1
+      - STR_HUMAN_CHARACTER_0_2
+      - STR_HUMAN_CHARACTER_0_3
+      - STR_HUMAN_CHARACTER_0_4
+      - STR_HUMAN_CHARACTER_0_5
+      - STR_HUMAN_CHARACTER_0_6
+      - STR_HUMAN_CHARACTER_0_7
     script: AREA51BASE1
     mapBlocks:
       - name: AREA51BASE00
@@ -19048,14 +18992,16 @@ terrains:
       - STR_HUMAN_JUMPSUIT_0_2
       - STR_HUMAN_JUMPSUIT_0_3
       - STR_HUMAN_JUMPSUIT_0_4
-      - STR_HUMAN_JUMPSUIT_2_0
-      - STR_HUMAN_JUMPSUIT_2_1
-      - STR_HUMAN_JUMPSUIT_2_2
-      - STR_HUMAN_JUMPSUIT_2_3
-      - STR_HUMAN_JUMPSUIT_2_4
-      - STR_HUMAN_JUMPSUIT_2_5
-      - STR_HUMAN_JUMPSUIT_2_6
-      - STR_HUMAN_JUMPSUIT_2_7
+      - STR_HUMAN_JUMPSUIT_0_5
+      - STR_HUMAN_JUMPSUIT_0_6
+      - STR_HUMAN_CHARACTER_0_0
+      - STR_HUMAN_CHARACTER_0_1
+      - STR_HUMAN_CHARACTER_0_2
+      - STR_HUMAN_CHARACTER_0_3
+      - STR_HUMAN_CHARACTER_0_4
+      - STR_HUMAN_CHARACTER_0_5
+      - STR_HUMAN_CHARACTER_0_6
+      - STR_HUMAN_CHARACTER_0_7
     mapBlocks:
       - name: AREA51BASE00
         width: 10
@@ -19840,14 +19786,16 @@ terrains:
       - STR_HUMAN_JUMPSUIT_0_2
       - STR_HUMAN_JUMPSUIT_0_3
       - STR_HUMAN_JUMPSUIT_0_4
-      - STR_HUMAN_JUMPSUIT_2_0
-      - STR_HUMAN_JUMPSUIT_2_1
-      - STR_HUMAN_JUMPSUIT_2_2
-      - STR_HUMAN_JUMPSUIT_2_3
-      - STR_HUMAN_JUMPSUIT_2_4
-      - STR_HUMAN_JUMPSUIT_2_5
-      - STR_HUMAN_JUMPSUIT_2_6
-      - STR_HUMAN_JUMPSUIT_2_7
+      - STR_HUMAN_JUMPSUIT_0_5
+      - STR_HUMAN_JUMPSUIT_0_6
+      - STR_HUMAN_CHARACTER_0_0
+      - STR_HUMAN_CHARACTER_0_1
+      - STR_HUMAN_CHARACTER_0_2
+      - STR_HUMAN_CHARACTER_0_3
+      - STR_HUMAN_CHARACTER_0_4
+      - STR_HUMAN_CHARACTER_0_5
+      - STR_HUMAN_CHARACTER_0_6
+      - STR_HUMAN_CHARACTER_0_7
     mapBlocks:
       - name: AREA51BASE00
         width: 10
@@ -20783,14 +20731,16 @@ terrains:
       - STR_HUMAN_JUMPSUIT_0_2
       - STR_HUMAN_JUMPSUIT_0_3
       - STR_HUMAN_JUMPSUIT_0_4
-      - STR_HUMAN_JUMPSUIT_2_0
-      - STR_HUMAN_JUMPSUIT_2_1
-      - STR_HUMAN_JUMPSUIT_2_2
-      - STR_HUMAN_JUMPSUIT_2_3
-      - STR_HUMAN_JUMPSUIT_2_4
-      - STR_HUMAN_JUMPSUIT_2_5
-      - STR_HUMAN_JUMPSUIT_2_6
-      - STR_HUMAN_JUMPSUIT_2_7
+      - STR_HUMAN_JUMPSUIT_0_5
+      - STR_HUMAN_JUMPSUIT_0_6
+      - STR_HUMAN_CHARACTER_0_0
+      - STR_HUMAN_CHARACTER_0_1
+      - STR_HUMAN_CHARACTER_0_2
+      - STR_HUMAN_CHARACTER_0_3
+      - STR_HUMAN_CHARACTER_0_4
+      - STR_HUMAN_CHARACTER_0_5
+      - STR_HUMAN_CHARACTER_0_6
+      - STR_HUMAN_CHARACTER_0_7
     mapBlocks: 
       - name: AREA51BASE00
         width: 10
@@ -21557,14 +21507,16 @@ terrains:
       - STR_HUMAN_JUMPSUIT_0_2
       - STR_HUMAN_JUMPSUIT_0_3
       - STR_HUMAN_JUMPSUIT_0_4
-      - STR_HUMAN_JUMPSUIT_2_0
-      - STR_HUMAN_JUMPSUIT_2_1
-      - STR_HUMAN_JUMPSUIT_2_2
-      - STR_HUMAN_JUMPSUIT_2_3
-      - STR_HUMAN_JUMPSUIT_2_4
-      - STR_HUMAN_JUMPSUIT_2_5
-      - STR_HUMAN_JUMPSUIT_2_6
-      - STR_HUMAN_JUMPSUIT_2_7
+      - STR_HUMAN_JUMPSUIT_0_5
+      - STR_HUMAN_JUMPSUIT_0_6
+      - STR_HUMAN_CHARACTER_0_0
+      - STR_HUMAN_CHARACTER_0_1
+      - STR_HUMAN_CHARACTER_0_2
+      - STR_HUMAN_CHARACTER_0_3
+      - STR_HUMAN_CHARACTER_0_4
+      - STR_HUMAN_CHARACTER_0_5
+      - STR_HUMAN_CHARACTER_0_6
+      - STR_HUMAN_CHARACTER_0_7
     mapBlocks: 
       - name: AREA51BASE00
         width: 10
@@ -22526,6 +22478,16 @@ terrains:
       - STR_HUMAN_JUMPSUIT_0_2
       - STR_HUMAN_JUMPSUIT_0_3
       - STR_HUMAN_JUMPSUIT_0_4
+      - STR_HUMAN_JUMPSUIT_0_5
+      - STR_HUMAN_JUMPSUIT_0_6
+      - STR_HUMAN_CHARACTER_0_0
+      - STR_HUMAN_CHARACTER_0_1
+      - STR_HUMAN_CHARACTER_0_2
+      - STR_HUMAN_CHARACTER_0_3
+      - STR_HUMAN_CHARACTER_0_4
+      - STR_HUMAN_CHARACTER_0_5
+      - STR_HUMAN_CHARACTER_0_6
+      - STR_HUMAN_CHARACTER_0_7
     mapBlocks:
       - name: AREA51BASE00
         width: 10
@@ -23258,14 +23220,16 @@ terrains:
       - STR_HUMAN_JUMPSUIT_0_2
       - STR_HUMAN_JUMPSUIT_0_3
       - STR_HUMAN_JUMPSUIT_0_4
-      - STR_HUMAN_JUMPSUIT_2_0
-      - STR_HUMAN_JUMPSUIT_2_1
-      - STR_HUMAN_JUMPSUIT_2_2
-      - STR_HUMAN_JUMPSUIT_2_3
-      - STR_HUMAN_JUMPSUIT_2_4
-      - STR_HUMAN_JUMPSUIT_2_5
-      - STR_HUMAN_JUMPSUIT_2_6
-      - STR_HUMAN_JUMPSUIT_2_7
+      - STR_HUMAN_JUMPSUIT_0_5
+      - STR_HUMAN_JUMPSUIT_0_6
+      - STR_HUMAN_CHARACTER_0_0
+      - STR_HUMAN_CHARACTER_0_1
+      - STR_HUMAN_CHARACTER_0_2
+      - STR_HUMAN_CHARACTER_0_3
+      - STR_HUMAN_CHARACTER_0_4
+      - STR_HUMAN_CHARACTER_0_5
+      - STR_HUMAN_CHARACTER_0_6
+      - STR_HUMAN_CHARACTER_0_7
     mapBlocks:
       - name: AREA51BASE00
         width: 10
@@ -24581,6 +24545,22 @@ terrains:
       - TECHBASE_C
       - TECHBASE_D
     script: TECHCOMBASE
+    civilianTypes:
+      - STR_HUMAN_JUMPSUIT_0_0
+      - STR_HUMAN_JUMPSUIT_0_1
+      - STR_HUMAN_JUMPSUIT_0_2
+      - STR_HUMAN_JUMPSUIT_0_3
+      - STR_HUMAN_JUMPSUIT_0_4
+      - STR_HUMAN_JUMPSUIT_0_5
+      - STR_HUMAN_JUMPSUIT_0_6
+      - STR_HUMAN_CHARACTER_0_0
+      - STR_HUMAN_CHARACTER_0_1
+      - STR_HUMAN_CHARACTER_0_2
+      - STR_HUMAN_CHARACTER_0_3
+      - STR_HUMAN_CHARACTER_0_4
+      - STR_HUMAN_CHARACTER_0_5
+      - STR_HUMAN_CHARACTER_0_6
+      - STR_HUMAN_CHARACTER_0_7
     mapBlocks:
       - name: TECHBASE00
         width: 10
@@ -24797,6 +24777,22 @@ terrains:
       - TECHBASE_C
       - TECHBASE_D
     script: TECHCOMBASEDEFENSE
+    civilianTypes:
+      - STR_HUMAN_JUMPSUIT_0_0
+      - STR_HUMAN_JUMPSUIT_0_1
+      - STR_HUMAN_JUMPSUIT_0_2
+      - STR_HUMAN_JUMPSUIT_0_3
+      - STR_HUMAN_JUMPSUIT_0_4
+      - STR_HUMAN_JUMPSUIT_0_5
+      - STR_HUMAN_JUMPSUIT_0_6
+      - STR_HUMAN_CHARACTER_0_0
+      - STR_HUMAN_CHARACTER_0_1
+      - STR_HUMAN_CHARACTER_0_2
+      - STR_HUMAN_CHARACTER_0_3
+      - STR_HUMAN_CHARACTER_0_4
+      - STR_HUMAN_CHARACTER_0_5
+      - STR_HUMAN_CHARACTER_0_6
+      - STR_HUMAN_CHARACTER_0_7
     mapBlocks:
       - name: TECHBASE00
         width: 10
@@ -24978,3 +24974,9 @@ terrains:
       - name: TECHBASE59
         width: 10
         length: 10
+      - name: TECHBASE88
+        width: 30
+        length: 30
+      - name: TECHBASE89
+        width: 20
+        length: 20

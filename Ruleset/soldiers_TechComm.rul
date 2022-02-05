@@ -109,8 +109,8 @@ soldiers:
     - STR_PILOT
     - STR_SENIOR_PILOT
     - STR_CHIEF_PILOT
-    - STR_CAPTAIN_PILOT
-    - STR_COLONEL_PILOT
+    - STR_CAPTAIN
+    - STR_COLONEL
     - STR_COMMANDER
   - type: STR_OFFICER
     costSalary: 45000

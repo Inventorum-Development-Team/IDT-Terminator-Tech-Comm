@@ -27,7 +27,12 @@ facilities: #DONE
     buildCost: 300000
     buildTime: 1
     monthlyCost: 4000
-    mapName: TECHBASE60
+    mapName: TECHBASE59
+    verticalLevels:
+    - type: ground
+      size: [2, 2, 6]
+      terrain: TECHCOMMBASE_DEFENSE
+      blocks: 61
   - type: STR_HOUSING
     spriteShape: 9
     spriteFacility: 9
@@ -84,7 +89,12 @@ facilities: #DONE
     crafts: 5
     workshops: 50
     provideBaseFunc: [craft_production, pilot_training, craft_housing]
-    mapName: TECHBASE60
+    mapName: TECHBASE59
+    verticalLevels:
+    - type: ground
+      size: [3, 3, 6]
+      terrain: TECHCOMMBASE_DEFENSE
+      blocks: 60
     missileAttraction: 100
   - type: STR_STORAGE
     spriteShape: 9

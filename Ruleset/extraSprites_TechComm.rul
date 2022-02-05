@@ -123,35 +123,35 @@ extraSprites:
   - type: MAN_0F0.SPK
     singleImage: true
     files:
-      0: Resources/Units/Inventory/INV_MAN_=F0.png
+      0: Resources/Units/Inventory/INV_MAN_0F0.gif
   - type: MAN_0F1.SPK
     singleImage: true
     files:
-      0: Resources/Units/Inventory/INV_MAN_=F1.png
+      0: Resources/Units/Inventory/INV_MAN_0F1.gif
   - type: MAN_0F2.SPK
     singleImage: true
     files:
-      0: Resources/Units/Inventory/INV_MAN_=F2.png
+      0: Resources/Units/Inventory/INV_MAN_0F2.gif
   - type: MAN_0F3.SPK
     singleImage: true
     files:
-      0: Resources/Units/Inventory/INV_MAN_=F3.png
+      0: Resources/Units/Inventory/INV_MAN_0F3.gif
   - type: MAN_0M0.SPK
     singleImage: true
     files:
-      0: Resources/Units/Inventory/INV_MAN_=M0.png
+      0: Resources/Units/Inventory/INV_MAN_0M0.gif
   - type: MAN_0M1.SPK
     singleImage: true
     files:
-      0: Resources/Units/Inventory/INV_MAN_=M1.png
+      0: Resources/Units/Inventory/INV_MAN_0M1.gif
   - type: MAN_0M2.SPK
     singleImage: true
     files:
-      0: Resources/Units/Inventory/INV_MAN_=M2.png
+      0: Resources/Units/Inventory/INV_MAN_0M2.gif
   - type: MAN_0M3.SPK
     singleImage: true
     files:
-      0: Resources/Units/Inventory/INV_MAN_=M3.png
+      0: Resources/Units/Inventory/INV_MAN_0M3.gif
   - type: XCOM_0.PCK
     width: 256
     height: 1400

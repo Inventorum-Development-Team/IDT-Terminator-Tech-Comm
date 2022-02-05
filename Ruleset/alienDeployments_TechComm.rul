@@ -8,6 +8,7 @@ alienDeployments:
   - delete: STR_BATTLESHIP
   - delete: STR_SUPPLY_SHIP
   - delete: STR_BASE_DEFENSE
+  - delete: STR_TERROR_MISSION
   - delete: STR_TERROR_MISSION_AIRFIELD
   - delete: STR_TERROR_MISSION_BIG_CITY
   - delete: STR_TERROR_MISSION_FACILITY
@@ -19,7 +20,13 @@ alienDeployments:
   - delete: STR_TERROR_MISSION_SHIP
   - delete: STR_TERROR_MISSION_SLUM
   - delete: STR_TERROR_MISSION_SNOW
-  - delete: STR_TERROR_MISSION_TROPICAL
+  - delete: STR_ALIEN_BASE_ASSAULT
+  - delete: STR_ALIEN_BASE_ASSAULT_COLONY
+  - delete: STR_ALIEN_BASE_ASSAULT_COLONY_FOREST
+  - delete: STR_ALIEN_BASE_ASSAULT_COLONY_GRASSLAND
+  - delete: STR_ALIEN_BASE_ASSAULT_COLONY_STEPPE
+  - delete: STR_ALIEN_BASE_ASSAULT_COLONY_TAIGA
+  - delete: STR_ALIEN_BASE_ASSAULT_HIVE
 #HKs
   - type: STR_HK_SCOUT_1
     data:
@@ -653,7 +660,7 @@ alienDeployments:
     length: 60
     height: 6
     terrains:
-      - AREA51HQ
+      - AREA51_HQ
     briefing:
       title: STR_SKYNET_BASE_ASSAULT_CORE
       desc: STR_SKYNET_BASE_ASSAULT_CORE_BRIEFING
@@ -688,7 +695,7 @@ alienDeployments:
     height: 6
     civilians: 16
     terrains:
-      - AREA51HQ
+      - AREA51_HQ
     shade: 15
     briefing:
       title: STR_SKYNET_BASE_ASSAULT_TEMPUS
@@ -714,7 +721,7 @@ alienDeployments:
     height: 6
     civilians: 16
     terrains:
-      - AREA51HQ
+      - AREA51_HQ
     shade: 15
     briefing:
       title: STR_SKYNET_BASE_ASSAULT_LAB
@@ -740,7 +747,7 @@ alienDeployments:
     height: 6
     civilians: 16
     terrains:
-      - AREA51HQ
+      - AREA51_HQ
     shade: 15
     briefing:
       title: STR_SKYNET_BASE_ASSAULT_MISSILE
@@ -913,9 +920,9 @@ alienDeployments:
     length: 50
     height: 6
     terrains:
-      - AREA51_FACTORY1
-      - AREA51_FACTORY2
-      - AREA51_FACTORY3
+      - AREA51_FACTORY
+      - AREA51_FACTORY_2
+      - AREA51_FACTORY_3
     briefing:
       desc: STR_ABANDONED_BASE_BRIEFING
       palette: 2
@@ -1074,7 +1081,7 @@ alienDeployments:
     length: 80
     height: 6
     terrains:
-      - DAWN_ESCAPE
+      - DAWNCITY_ESCAPE
       - DOWNTOWN_ESCAPE
       - INDUSTRIAL_ESCAPE
       - SLUM_ESCAPE
@@ -1102,11 +1109,11 @@ alienDeployments:
     height: 6
     civilians: 8
     terrains:
-      - DAWN_CITY_URBANA
-      - DAWN_CITY_URBANB
+      - DAWNCITY_URBANA
+      - DAWNCITY_URBANB
       - INDUSTRIAL
       - RAILYARD
-      - SLUMURBAN
+      - SLUM
     alert: STR_RESISTANCE_PROTECT_ALERT
     alertBackground: BACK03.SCR
     briefing:
@@ -1126,10 +1133,10 @@ alienDeployments:
     height: 6
     civilians: 8
     terrains:
-      - DAWNURBANA
-      - INDUSTRIALURBAN
-      - RAILYARDURBAN
-      - SLUMURBAN
+      - DAWNCITY_URBANA
+      - INDUSTRIAL
+      - RAILYARD
+      - SLUM
     alert: STR_RESISTANCE_RESCUE_ALERT
     alertBackground: BACK03.SCR
     briefing:
@@ -1234,10 +1241,9 @@ alienDeployments:
     width: 60
     length: 60
     height: 6
-    civilians: 8
     shade: 5
     terrains:
-      - TECHCOMBASE_DEFENSE
+      - TECHCOMMBASE_DEFENSE
     briefing:
       palette: 0
       background: BACK01.SCR
