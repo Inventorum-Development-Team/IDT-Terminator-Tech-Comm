@@ -325,7 +325,7 @@ ufos:
         - name: PLANE4
           width: 20
           length: 10  
-    missionScore: 0.1
+    missionScore: 1 # was 0.1
     hunterKillerPercentage: 50
     huntMode: 0
     huntSpeed: 90
@@ -351,7 +351,7 @@ ufos:
         - name: PLANE4
           width: 20
           length: 10  
-    missionScore: 0.1
+    missionScore: 1 # was 0.1
     hunterKillerPercentage: 0
     huntMode: 0
     huntSpeed: 90
@@ -377,7 +377,7 @@ ufos:
         - name: PLANE4
           width: 20
           length: 10  
-    missionScore: 0.1
+    missionScore: 1 # was 0.1
     hunterKillerPercentage: 50
     huntMode: 0
     huntSpeed: 90

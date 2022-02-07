@@ -140,7 +140,7 @@ ufopaedia:
     listOrder: 110
     text_width: 316
   - id: STR_RESISTANCE_ORDER_2
-    type_id: 10
+    type_id: 7
     section: STR_XCOM_CRAFT_ARMAMENT
     image_id: COMM_REPORT_2
     text: STR_RESISTANCE_ORDER_2_UFOPEDIA
@@ -149,7 +149,7 @@ ufopaedia:
     listOrder: 111
     text_width: 316
   - id: STR_RESISTANCE_ORDER_3
-    type_id: 10
+    type_id: 7
     section: STR_XCOM_CRAFT_ARMAMENT
     image_id: COMM_REPORT_3
     text: STR_RESISTANCE_ORDER_3_UFOPEDIA
@@ -158,7 +158,7 @@ ufopaedia:
     listOrder: 112
     text_width: 316
   - id: STR_RESISTANCE_ORDER_4
-    type_id: 10
+    type_id: 7
     section: STR_XCOM_CRAFT_ARMAMENT
     image_id: COMM_REPORT_4
     text: STR_RESISTANCE_ORDER_4_UFOPEDIA
@@ -167,35 +167,35 @@ ufopaedia:
     listOrder: 113
     text_width: 316
   - id: STR_TECH_COMM
-    type_id: 10
+    type_id: 7
     section: STR_XCOM_CRAFT_ARMAMENT
     image_id: TECH_COMM_IMAGE
     text: STR_TECH_COMM_UFOPEDIA
     listOrder: 114
     text_width: 316
   - id: STR_RESISTANCE_PERSONNEL
-    type_id: 10
+    type_id: 7
     section: STR_XCOM_CRAFT_ARMAMENT
     image_id: RESISTANCE_PERSONNEL_IMAGE
     text: STR_RESISTANCE_PERSONNEL_UFOPEDIA
     listOrder: 115
     text_width: 316
   - id: STR_RESISTANCE_CRAFT
-    type_id: 10
+    type_id: 7
     section: STR_XCOM_CRAFT_ARMAMENT
     image_id: RESISTANCE_CRAFT_IMAGE
     text: STR_RESISTANCE_CRAFT_UFOPEDIA
     listOrder: 110
     text_width: 316
   - id: STR_TECH_COMM_BASES
-    type_id: 10
+    type_id: 7
     section: STR_XCOM_CRAFT_ARMAMENT
     image_id: TECH_COMM_BASES_IMAGE
     text: STR_TECH_COMM_BASES_UFOPEDIA
     listOrder: 116
     text_width: 316
   - id: STR_RESISTANCE_MISSIONS
-    type_id: 10
+    type_id: 7
     section: STR_XCOM_CRAFT_ARMAMENT
     image_id: RESISTANCE_MISSIONS_IMAGE
     requires:
@@ -1576,7 +1576,7 @@ ufopaedia:
     section: STR_NOT_AVAILABLE    
 #STR_ALIEN_LIFE_FORMS - SKYNET
   - id: STR_SKYNET
-    type_id: 10
+    type_id: 7
     text_width: 316
     section: STR_ALIEN_LIFE_FORMS
     image_id: SKYNET_IMAGE
@@ -1584,7 +1584,7 @@ ufopaedia:
       - STR_SKYNET
     text: STR_SKYNET_UFOPEDIA
   - id: STR_SKYNET_FACILITIES
-    type_id: 10
+    type_id: 7
     text_width: 316
     section: STR_ALIEN_LIFE_FORMS
     image_id: SKYNET_FACILITIES_IMAGE
@@ -1592,7 +1592,7 @@ ufopaedia:
       - STR_SKYNET_FACILITIES
     text: STR_SKYNET_FACILITIES_UFOPEDIA
   - id: STR_SKYNET_CORE
-    type_id: 10
+    type_id: 7
     text_width: 316
     section: STR_ALIEN_LIFE_FORMS
     image_id: SKYNET_CORE_IMAGE
@@ -1600,7 +1600,7 @@ ufopaedia:
       - STR_SKYNET_CORE
     text: STR_SKYNET_CORE_UFOPEDIA
   - id: STR_SKYNET_TEMPUS
-    type_id: 10
+    type_id: 7
     text_width: 316
     section: STR_ALIEN_LIFE_FORMS
     image_id: SKYNET_TEMPUS_IMAGE
@@ -1608,14 +1608,14 @@ ufopaedia:
       - STR_SKYNET_TEMPUS
     text: STR_SKYNET_TEMPUS_UFOPEDIA
   - id: STR_SKYNET_LAB
-    type_id: 10
+    type_id: 7
     text_width: 316
     section: STR_ALIEN_LIFE_FORMS
     image_id: SKYNET_LAB_IMAGE
     requires:
       - STR_SKYNET_LAB
   - id: STR_SKYNET_MISSILE_BASE
-    type_id: 10
+    type_id: 7
     text_width: 316
     section: STR_ALIEN_LIFE_FORMS
     image_id: SKYNET_LAB_IMAGE
@@ -1623,7 +1623,7 @@ ufopaedia:
       - STR_SKYNET_MISSILE_BASE
     text: STR_SKYNET_UFOPEDIA
   - id: STR_SKYNET_FACTORY
-    type_id: 10
+    type_id: 7
     text_width: 316
     section: STR_ALIEN_LIFE_FORMS
     image_id: SKYNET_FACTORY_IMAGE
@@ -1631,7 +1631,7 @@ ufopaedia:
       - STR_SKYNET_FACTORY
     text: STR_SKYNET_FACTORY_UFOPEDIA
   - id: STR_SKYNET_HKBASE
-    type_id: 10
+    type_id: 7
     text_width: 316
     section: STR_ALIEN_LIFE_FORMS
     image_id: SKYNET_HKBASE_IMAGE
@@ -1639,7 +1639,7 @@ ufopaedia:
       - STR_SKYNET_HKBASE
     text: STR_SKYNET_HKBASE_UFOPEDIA
   - id: STR_SKYNET_WORKCAMP
-    type_id: 10
+    type_id: 7
     text_width: 316
     section: STR_ALIEN_LIFE_FORMS
     image_id: SKYNET_WORKCAMP_IMAGE
@@ -1648,7 +1648,7 @@ ufopaedia:
     text: STR_SKYNET_WORKCAMP_UFOPEDIA
 #STR_ALIEN_RESEARCH_UC - SKYNET PROTOCOLS
   - id: STR_SKYNET_PROTOCOLS
-    type_id: 10
+    type_id: 7
     text_width: 316
     section: STR_ALIEN_RESEARCH_UC
     image_id: SKYNET_PROTOCOLS_IMAGE
@@ -1656,7 +1656,7 @@ ufopaedia:
       - STR_SKYNET_PROTOCOLS
     text: STR_SKYNET_PROTOCOLS_UFOPEDIA
   - id: STR_SKYNET_RESEARCH
-    type_id: 10
+    type_id: 7
     text_width: 316
     section: STR_ALIEN_RESEARCH_UC
     image_id: SKYNET_RESEARCH_IMAGE
@@ -1664,7 +1664,7 @@ ufopaedia:
       - STR_SKYNET_RESEARCH
     text: STR_SKYNET_RESEARCH_UFOPEDIA
   - id: STR_SKYNET_RECLAMATION
-    type_id: 10
+    type_id: 7
     text_width: 316
     section: STR_ALIEN_RESEARCH_UC
     image_id: SKYNET_RECLAMATION_IMAGE
@@ -1672,7 +1672,7 @@ ufopaedia:
       - STR_SKYNET_RECLAMATION
     text: STR_SKYNET_RECLAMATION_UFOPEDIA
   - id: STR_SKYNET_ERADICATION
-    type_id: 10
+    type_id: 7
     text_width: 316
     section: STR_ALIEN_RESEARCH_UC
     image_id: SKYNET_ERRADICATION_IMAGE
@@ -1680,7 +1680,7 @@ ufopaedia:
       - STR_SKYNET_ERADICATION
     text: STR_SKYNET_ERADICATION_UFOPEDIA
   - id: STR_SKYNET_INFILTRATION
-    type_id: 10
+    type_id: 7
     text_width: 316
     section: STR_ALIEN_RESEARCH_UC
     image_id: SKYNET_INFILTRATION_IMAGE
@@ -1688,7 +1688,7 @@ ufopaedia:
       - STR_SKYNET_INFILTRATION
     text: STR_SKYNET_INFILTRATION_UFOPEDIA
   - id: STR_SKYNET_EXPANSION
-    type_id: 10
+    type_id: 7
     text_width: 316
     section: STR_ALIEN_RESEARCH_UC
     image_id: SKYNET_EXPANSION_IMAGE
@@ -1696,7 +1696,7 @@ ufopaedia:
       - STR_SKYNET_EXPANSION
     text: STR_SKYNET_EXPANSION_UFOPEDIA
   - id: STR_SKYNET_INTERDICTION
-    type_id: 10
+    type_id: 7
     text_width: 316
     section: STR_ALIEN_RESEARCH_UC
     image_id: SKYNET_INTERDICTION_IMAGE
@@ -1704,7 +1704,7 @@ ufopaedia:
       - STR_SKYNET_INTERDICTION
     text: STR_SKYNET_INTERDICTION_UFOPEDIA
   - id: STR_SKYNET_TERMINATION
-    type_id: 10
+    type_id: 7
     text_width: 316
     section: STR_ALIEN_RESEARCH_UC
     image_id: SKYNET_TERMINATION_IMAGE
@@ -1712,7 +1712,7 @@ ufopaedia:
       - STR_SKYNET_TERMINATION
     text: STR_SKYNET_TERMINATION_UFOPEDIA
   - id: STR_SKYNET_PACIFICATION
-    type_id: 10
+    type_id: 7
     text_width: 316
     section: STR_ALIEN_RESEARCH_UC
     image_id: SKYNET_PACIFICATION_IMAGE
@@ -1720,7 +1720,7 @@ ufopaedia:
       - STR_SKYNET_PACIFICATION
     text: STR_SKYNET_PACIFICATION_UFOPEDIA
   - id: STR_SKYNET_SUPPLY
-    type_id: 10
+    type_id: 7
     text_width: 316
     section: STR_ALIEN_RESEARCH_UC
     image_id: SKYNET_SUPPLY_IMAGE
@@ -1728,7 +1728,7 @@ ufopaedia:
       - STR_SKYNET_SUPPLY
     text: STR_SKYNET_SUPPLY_UFOPEDIA
   - id: STR_SKYNET_TRANSPORT
-    type_id: 10
+    type_id: 7
     text_width: 316
     section: STR_ALIEN_RESEARCH_UC
     image_id: SKYNET_TRANSPORT_IMAGE
@@ -1736,7 +1736,7 @@ ufopaedia:
       - STR_SKYNET_CONVOY
     text: STR_SKYNET_CONVOY_UFOPEDIA
   - id: STR_SKYNET_RETRIBUTION
-    type_id: 10
+    type_id: 7
     text_width: 316
     section: STR_ALIEN_RESEARCH_UC
     image_id: SKYNET_TERMINATION_IMAGE
@@ -1745,7 +1745,7 @@ ufopaedia:
     text: STR_SKYNET_RETRIBUTION_UFOPEDIA
 #STR_UFO_COMPONENTS - HUNTER-KILLERS
   - id: STR_HUNTER_KILLERS
-    type_id: 10
+    type_id: 7
     section: STR_UFO_COMPONENTS
     image_id: HUNTER_KILLERS_IMAGE
     requires:
