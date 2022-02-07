@@ -1,0 +1,60 @@
+Gameplay Tips
+
+Tech-Comm Aircraft
+------------------
+* Aircraft are divided into 5 categories: Fighter, Interceptor, Transport, Recon and AEW (Airborne Early Warning)
+** Fighters are heavily armed but slower than Interceptors and their radar has a lesser range, if they have it at all. Examples: Warthog, Dragonfly and Skyhawk.
+** Interceptors are the fastest craft, with radar and a heavy weapons load, but carry less fuel as a result. Examples: Talon and Lion.
+** Recon craft carry sensors to detect Skynet bases. They usually carry a couple of weapons for self-defense but are usually slower than HKs. Examples: Viking, Prowler and Mohawk. 
+** AEW craft carry long-range aerial radars to detect HKs. They carry zero weapons, are slow, and require a large crew to operate. Examples: Hawkeye, Tracer and Guardrail. 
+** Transports bring squads to the battlefield, either by landing or through parachute use. They're slow, undefended and are easy targets for HKs. Examples: Twin Otter, Osprey, Sherpa and Dynavert.
+* Tech-Comm fighter craft can escort transports by choosing the fighter and clicking the transport as its target.
+
+Tech-Comm Aircraft Equipment
+----------------------------
+Each aircraft can have up to four weapon slots and each slot can only carry specific types of gear, depending on the craft.  
+* Light Cannons (GAU-2/19) are used in transports/recon as self-defense weapons.
+* Medium Cannons (GAU-4/12) are used by fighters and interceptors.
+* Heavy Cannon (GAU-8) can be only carried by the Warthog and it packs the heaviest punch of all. 
+* Point AAMs (Hydra/Stinger/ASRAAM) are used for self-defense.
+* Short-range AAMs (Sidewinder/Standard/HARM) have more range and don't require radar to be fired. 
+* Medium-range AAMs (Sparrow and AMRAAM) have even more range, but require radar to be equipped.
+* Fuel Pods give a boost to range/loitering, but at the expense of one weapon slot, and a slight penalty during air combat.  
+* ECM Pods give a defensive bonus during air combat. 
+
+Skynet Hunter-Killers (HKs)
+---------------------------
+* Aerial HKs are used for several roles: Fighter, Scout, Interceptor, Bomber and Transport, with a few upgraded version of each:
+** Fighters are designed to detect and engage human craft
+** Scouts are used to locate human ground targets, including Tech-Comm bases
+** Interceptors will both intercept attackers and attempt to locate their launching base for missile counterattacks
+** Bombers are used for Interdiction missiles, which can also destroy facilities by aerial bombardment
+** Transports are used to launch ground attacks, as well as to supply missions between bases
+* Hunter-Killers (HKs) in intercept mode (using their radars) will attack any Tech-Comm craft detected, so be very careful in sending undefended craft like transports on missions
+* HKs can also escort other HKs
+* HKs are spawned mainly by Skynet bases (each base type spawns different HK missions)
+* HKs almost always take off/land from Skynet controlled areas
+* Pressing 'T' while on the globe will display a list of detected airborne HKs
+
+Skynet Bases
+------------
+* There are 3 major types of bases: Factories, Workcamps and HK Bases, each with a different role:
+** Factories build up to 6 HK Bases, Workcamps, or Supply Convoys
+** Workcamps perform missions to eliminate the human population in the region, including Infiltration missions
+** HK Bases perform anti-Resistance missions and strike against Tech-Comm bases and craft
+* Skynet bases have sensors to detect any resistance craft that enters its radius. Once a hostile is detected, the base will launch HK interceptors against the human craft
+** If the interceptors fail to detect your craft, they'll switch to try to find the Tech-Comm base that launched them - if they are successful, your base will suffer a tactical missile bombardment that can destroy facilities, and it will continue marked for further retaliation attacks
+* There are at least 2 Skynet bases in your starting region, in addition Skynet also starts with a Factory placed randomly around the world each month.
+* The Skynet Core is placed randomly on the world and it will be the location of final mission, once it is implemented
+* Skynet has control of certain areas on each region - placing your starting base on those locations will increase your detection chances of HKs & machine bases and reduce flight time, but it will also increase Skynet's chances of detecting your craft and your base!
+
+Tech-Comm
+---------
+* In addition to Interceptors/Transports, there are now both recon craft and AEW (airborne radar) craft - starting base has been modified with additional hangars and stores.
+* Use the recon planes (Viking, Mohawk, etc.) to detect the Skynet bases
+* Fuel pods give an extra 50 fuel units to craft - they can give a big boost in range to craft with small internal fuel capability (interceptors), but a smaller boost that already have a larger fuel capacity (transports)
+* Pilots and crew have a 75% of surviving a crash - survivors will return to the base after a number of days (check Transfers tab on Basescape to see if they survived)
+Resistance Missions/Alerts
+* There are two types of Resistance missions, which can be identified by their marker color on Geoscape: Sector Sites and Global Sites
+* Sector sites (pink) are generated when Skynet launches attacks on resistance targets and they have a time window of 3-5 days to respond
+* Global sites (blue) are generated by the resistance and consist on attacks on Skynet facilites to recover intel/tech, or to neutralize missile bases and other targets. Global sites have a time window of 30 days before they disappear, allowing for additional bases to be built if required to reach those sites
