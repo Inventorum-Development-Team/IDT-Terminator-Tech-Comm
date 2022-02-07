@@ -42,3 +42,38 @@ extraSprites:
 #    singleImage: true
 #    files:
 #      0: Resources/UI/SCANBORD.png
+interfaces:
+  - type: inventory
+    elements: #color is the color index of the PAL_BATTLESCAPE palette
+      - id: textName
+        color: 96 # 64
+      - id: textTUs
+        color: 96 # 64
+        color2: 20 # 16
+      - id: textWeight
+        color: 96 # 48
+        color2: 32 # 16
+      - id: textStatLine1
+        custom: 11 # 1
+        color: 96 # 48
+        color2: 32 # 16
+      - id: textStatLine2
+        custom: 12 # 2
+        color: 96 # 48
+        color2: 32 # 16
+      - id: textStatLine3
+        custom: 13 # 3
+        color: 96 # 48
+        color2: 32 # 16
+      - id: textStatLine4
+        custom: 14 # 4
+        color: 96 # 48
+        color2: 32 # 16
+      - id: textItem
+        color: 96 # 48
+        color2: 32 # 16
+      - id: textAmmo
+        color: 96 # 64
+        color2: 32 # 16
+      - id: textSlots
+        color: 32
