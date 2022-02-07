@@ -22,6 +22,8 @@ Alinare - Irregular Soldier, Technician and Street Martial Artist unit sprites t
 Bagirov - Combat Armor and Alloy Vest unit sprites
 Munkeylord - Colored Jumpsuits unit sprites
 Luke83 - Cyborg, Engineer, Soldier, Scientist unit sprites
+Noyemi-K: UI structure (modified and expanded)
+https://www.moddb.com/mods/noyemi-ks-ui-replacers-oxc
 JackStraw - Jarhead, Male Civilian and Human Soldier unit sprites from his War Of Shadows mod
 Robin - MIB0 unit sprites from his MIB mod, Cybermite unit sprites
 Roxis231 - Blackbird craft 
@@ -29,6 +31,7 @@ Bulletdesigner - V22 Osprey and HK crafts (https://openxcom.org/forum/index.php/
 Warboy - Police unit sprites
 Abiko/nadir - Spectre Suit unit sprites
 ? - Phaser, Stalker and Vineman sprites
+XROSS: UI ruleset template
 
 All introduction images taken from the movies War Games and Terminator.
 
