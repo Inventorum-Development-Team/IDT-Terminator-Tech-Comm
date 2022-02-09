@@ -232,9 +232,12 @@ research:
     points: 10
     dependencies:
       - STR_HYPER_ALLOYS
+      - STR_PLASMA_CELL
   - name: STR_EMP_FIELD
     cost: 50
     points: 10
+    dependencies:
+      - STR_HYPER_ALLOYS
   - name: STR_EMP_ROUNDS
     cost: 50
     points: 10

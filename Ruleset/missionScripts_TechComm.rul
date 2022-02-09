@@ -166,7 +166,14 @@ missionScripts:
     missionWeights:
       0:
         STR_SKYNET_BASE_LAB: 10
-    targetBaseOdds: 0
+    regionWeights:
+      0:
+        STR_NORTH_AMERICA: 20
+        STR_SOUTH_AMERICA: 10
+        STR_EUROPE: 15
+        STR_AFRICA: 10
+        STR_ASIA: 15
+        STR_OCEANIA: 10
     raceWeights:
       0:
         STR_T800: 100
@@ -568,14 +575,14 @@ missionScripts:
     targetBaseOdds: 50
     executionOdds: 66
     useTable: false
-    firstMonth: 0
+    firstMonth: 1
     varName: missionSite
   - type: gamePacification3
     executionOdds: 50
     missionWeights:
       0:
         STR_SKYNET_PACIFICATION: 10
-    firstMonth: 0
+    firstMonth: 2
     useTable: false
     varName: missionSite
 #Resistance Orders are objective briefings given to the player in Geoscape (they also become available on the Intelpedia)

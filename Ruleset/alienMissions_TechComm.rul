@@ -25,14 +25,15 @@ alienMissions:
     spawnZone: 2 #Mission zone for alien bases
     raceWeights:
       0:
-        STR_T600: 60
-        STR_T700: 40
+        STR_T200: 60
+        STR_T300: 40
       1:
-        STR_T600: 50
-        STR_T700: 50
+        STR_T300: 50
+        STR_T400: 50
       3:
-        STR_T600: 30
-        STR_T700: 70
+        STR_T400: 30
+        STR_T500: 30
+        STR_T600: 40
       5:
         STR_T600: 10
         STR_T700: 80
@@ -70,14 +71,15 @@ alienMissions:
     operationType: 4
     raceWeights:
       0:
-        STR_T600: 60
-        STR_T700: 40
+        STR_T200: 60
+        STR_T300: 40
       1:
-        STR_T600: 50
-        STR_T700: 50
+        STR_T300: 50
+        STR_T400: 50
       3:
-        STR_T600: 30
-        STR_T700: 70
+        STR_T400: 30
+        STR_T500: 30
+        STR_T600: 40
       5:
         STR_T600: 10
         STR_T700: 80
@@ -113,14 +115,15 @@ alienMissions:
     spawnZone: 3 #Mission zone for terror missions
     raceWeights:
       0:
-        STR_T600: 60
-        STR_T700: 40
+        STR_T200: 60
+        STR_T300: 40
       1:
-        STR_T600: 50
-        STR_T700: 50
+        STR_T300: 50
+        STR_T400: 50
       3:
-        STR_T600: 30
-        STR_T700: 70
+        STR_T400: 30
+        STR_T500: 30
+        STR_T600: 40
       5:
         STR_T600: 10
         STR_T700: 80
@@ -154,14 +157,15 @@ alienMissions:
     spawnUfo: STR_HK_FIGHTER_2 # Spawned for the final retaliation run
     raceWeights: # In the case of a shootdown, race comes from the HK that triggered the mission.
       0:
-        STR_T600: 60
-        STR_T700: 40
+        STR_T200: 60
+        STR_T300: 40
       1:
-        STR_T600: 50
-        STR_T700: 50
+        STR_T300: 50
+        STR_T400: 50
       3:
-        STR_T600: 30
-        STR_T700: 70
+        STR_T400: 30
+        STR_T500: 30
+        STR_T600: 40
       5:
         STR_T600: 10
         STR_T700: 80
@@ -212,14 +216,15 @@ alienMissions:
     spawnZone: 4 #Mission zone for alien bases
     raceWeights:
       0:
-        STR_T600: 60
-        STR_T700: 40
+        STR_T200: 60
+        STR_T300: 40
       1:
-        STR_T600: 50
-        STR_T700: 50
+        STR_T300: 50
+        STR_T400: 50
       3:
-        STR_T600: 30
-        STR_T700: 70
+        STR_T400: 30
+        STR_T500: 30
+        STR_T600: 40
       5:
         STR_T600: 10
         STR_T700: 80
@@ -244,14 +249,15 @@ alienMissions:
     spawnZone: 4 #Mission zone for alien bases
     raceWeights:
       0:
-        STR_T600: 60
-        STR_T700: 40
+        STR_T200: 60
+        STR_T300: 40
       1:
-        STR_T600: 50
-        STR_T700: 50
+        STR_T300: 50
+        STR_T400: 50
       3:
-        STR_T600: 30
-        STR_T700: 70
+        STR_T400: 30
+        STR_T500: 30
+        STR_T600: 40
       5:
         STR_T600: 10
         STR_T700: 80
@@ -276,14 +282,15 @@ alienMissions:
     spawnZone: 2
     raceWeights:
       0:
-        STR_T600: 60
-        STR_T700: 40
+        STR_T200: 60
+        STR_T300: 40
       1:
-        STR_T600: 50
-        STR_T700: 50
+        STR_T300: 50
+        STR_T400: 50
       3:
-        STR_T600: 30
-        STR_T700: 70
+        STR_T400: 30
+        STR_T500: 30
+        STR_T600: 40
       5:
         STR_T600: 10
         STR_T700: 80
@@ -317,14 +324,15 @@ alienMissions:
     operationType: 6
     raceWeights:
       0:
-        STR_T600: 60
-        STR_T700: 40
+        STR_T200: 60
+        STR_T300: 40
       1:
-        STR_T600: 50
-        STR_T700: 50
+        STR_T300: 50
+        STR_T400: 50
       3:
-        STR_T600: 30
-        STR_T700: 70
+        STR_T400: 30
+        STR_T500: 30
+        STR_T600: 40
       5:
         STR_T600: 10
         STR_T700: 80
@@ -358,14 +366,15 @@ alienMissions:
     operationType: 6
     raceWeights:
       0:
-        STR_T600: 60
-        STR_T700: 40
+        STR_T200: 60
+        STR_T300: 40
       1:
-        STR_T600: 50
-        STR_T700: 50
+        STR_T300: 50
+        STR_T400: 50
       3:
-        STR_T600: 30
-        STR_T700: 70
+        STR_T400: 30
+        STR_T500: 30
+        STR_T600: 40
       5:
         STR_T600: 10
         STR_T700: 80
@@ -402,14 +411,15 @@ alienMissions:
     spawnZone: 7
     raceWeights:
       0:
-        STR_T600: 60
-        STR_T700: 40
+        STR_T200: 60
+        STR_T300: 40
       1:
-        STR_T600: 50
-        STR_T700: 50
+        STR_T300: 50
+        STR_T400: 50
       3:
-        STR_T600: 30
-        STR_T700: 70
+        STR_T400: 30
+        STR_T500: 30
+        STR_T600: 40
       5:
         STR_T600: 10
         STR_T700: 80
@@ -433,14 +443,15 @@ alienMissions:
     spawnUfo: STR_HK_FIGHTER_1 # Spawned for the final retaliation run
     raceWeights: # In the case of a shootdown, race comes from the HK that triggered the mission.
       0:
-        STR_T600: 60
-        STR_T700: 40
+        STR_T200: 60
+        STR_T300: 40
       1:
-        STR_T600: 50
-        STR_T700: 50
+        STR_T300: 50
+        STR_T400: 50
       3:
-        STR_T600: 30
-        STR_T700: 70
+        STR_T400: 30
+        STR_T500: 30
+        STR_T600: 40
       5:
         STR_T600: 10
         STR_T700: 80
@@ -473,14 +484,15 @@ alienMissions:
     spawnUfo: STR_HK_FIGHTER_1 # Spawned for the final retaliation run
     raceWeights: # In the case of a shootdown, race comes from the HK that triggered the mission.
       0:
-        STR_T600: 60
-        STR_T700: 40
+        STR_T200: 60
+        STR_T300: 40
       1:
-        STR_T600: 50
-        STR_T700: 50
+        STR_T300: 50
+        STR_T400: 50
       3:
-        STR_T600: 30
-        STR_T700: 70
+        STR_T400: 30
+        STR_T500: 30
+        STR_T600: 40
       5:
         STR_T600: 10
         STR_T700: 80
@@ -523,14 +535,15 @@ alienMissions:
     spawnUfo: STR_HK_FIGHTER_2 # Spawned for the final retaliation run
     raceWeights: # In the case of a shootdown, race comes from the HK that triggered the mission.
       0:
-        STR_T600: 60
-        STR_T700: 40
+        STR_T200: 60
+        STR_T300: 40
       1:
-        STR_T600: 50
-        STR_T700: 50
+        STR_T300: 50
+        STR_T400: 50
       3:
-        STR_T600: 30
-        STR_T700: 70
+        STR_T400: 30
+        STR_T500: 30
+        STR_T600: 40
       5:
         STR_T600: 10
         STR_T700: 80
@@ -573,14 +586,15 @@ alienMissions:
     spawnUfo: STR_HK_FIGHTER_2 # Spawned for the final retaliation run
     raceWeights: # In the case of a shootdown, race comes from the HK that triggered the mission.
       0:
-        STR_T600: 60
-        STR_T700: 40
+        STR_T200: 60
+        STR_T300: 40
       1:
-        STR_T600: 50
-        STR_T700: 50
+        STR_T300: 50
+        STR_T400: 50
       3:
-        STR_T600: 30
-        STR_T700: 70
+        STR_T400: 30
+        STR_T500: 30
+        STR_T600: 40
       5:
         STR_T600: 10
         STR_T700: 80
@@ -615,14 +629,15 @@ alienMissions:
     spawnZone: 2 #Mission zone for alien bases
     raceWeights:
       0:
-        STR_T600: 60
-        STR_T700: 40
+        STR_T200: 60
+        STR_T300: 40
       1:
-        STR_T600: 50
-        STR_T700: 50
+        STR_T300: 50
+        STR_T400: 50
       3:
-        STR_T600: 30
-        STR_T700: 70
+        STR_T400: 30
+        STR_T500: 30
+        STR_T600: 40
       5:
         STR_T600: 10
         STR_T700: 80
@@ -660,14 +675,15 @@ alienMissions:
     operationType: 6
     raceWeights:
       0:
-        STR_T600: 60
-        STR_T700: 40
+        STR_T200: 60
+        STR_T300: 40
       1:
-        STR_T600: 50
-        STR_T700: 50
+        STR_T300: 50
+        STR_T400: 50
       3:
-        STR_T600: 30
-        STR_T700: 70
+        STR_T400: 30
+        STR_T500: 30
+        STR_T600: 40
       5:
         STR_T600: 10
         STR_T700: 80
@@ -700,14 +716,15 @@ alienMissions:
     operationType: 6
     raceWeights:
       0:
-        STR_T600: 60
-        STR_T700: 40
+        STR_T200: 60
+        STR_T300: 40
       1:
-        STR_T600: 50
-        STR_T700: 50
+        STR_T300: 50
+        STR_T400: 50
       3:
-        STR_T600: 30
-        STR_T700: 70
+        STR_T400: 30
+        STR_T500: 30
+        STR_T600: 40
       5:
         STR_T600: 10
         STR_T700: 80
@@ -751,14 +768,15 @@ alienMissions:
     spawnUfo: STR_TACTICAL_MISSILE # Spawned for the final retaliation run
     raceWeights:
       0:
-        STR_T600: 60
-        STR_T700: 40
+        STR_T200: 60
+        STR_T300: 40
       1:
-        STR_T600: 50
-        STR_T700: 50
+        STR_T300: 50
+        STR_T400: 50
       3:
-        STR_T600: 30
-        STR_T700: 70
+        STR_T400: 30
+        STR_T500: 30
+        STR_T600: 40
       5:
         STR_T600: 10
         STR_T700: 80
@@ -791,14 +809,15 @@ alienMissions:
     spawnUfo: STR_TACTICAL_MISSILE # Spawned for the final retaliation run
     raceWeights:
       0:
-        STR_T600: 60
-        STR_T700: 40
+        STR_T200: 60
+        STR_T300: 40
       1:
-        STR_T600: 50
-        STR_T700: 50
+        STR_T300: 50
+        STR_T400: 50
       3:
-        STR_T600: 30
-        STR_T700: 70
+        STR_T400: 30
+        STR_T500: 30
+        STR_T600: 40
       5:
         STR_T600: 10
         STR_T700: 80
@@ -831,14 +850,15 @@ alienMissions:
     spawnUfo: STR_TACTICAL_MISSILE # Spawned for the final retaliation run
     raceWeights:
       0:
-        STR_T600: 60
-        STR_T700: 40
+        STR_T200: 60
+        STR_T300: 40
       1:
-        STR_T600: 50
-        STR_T700: 50
+        STR_T300: 50
+        STR_T400: 50
       3:
-        STR_T600: 30
-        STR_T700: 70
+        STR_T400: 30
+        STR_T500: 30
+        STR_T600: 40
       5:
         STR_T600: 10
         STR_T700: 80
@@ -878,14 +898,15 @@ alienMissions:
     spawnUfo: STR_TACTICAL_MISSILE # Spawned for the final retaliation run
     raceWeights:
       0:
-        STR_T600: 60
-        STR_T700: 40
+        STR_T200: 60
+        STR_T300: 40
       1:
-        STR_T600: 50
-        STR_T700: 50
+        STR_T300: 50
+        STR_T400: 50
       3:
-        STR_T600: 30
-        STR_T700: 70
+        STR_T400: 30
+        STR_T500: 30
+        STR_T600: 40
       5:
         STR_T600: 10
         STR_T700: 80
@@ -925,14 +946,15 @@ alienMissions:
     spawnUfo: STR_MX_MISSILE # Spawned for the final retaliation run
     raceWeights:
       0:
-        STR_T600: 60
-        STR_T700: 40
+        STR_T200: 60
+        STR_T300: 40
       1:
-        STR_T600: 50
-        STR_T700: 50
+        STR_T300: 50
+        STR_T400: 50
       3:
-        STR_T600: 30
-        STR_T700: 70
+        STR_T400: 30
+        STR_T500: 30
+        STR_T600: 40
       5:
         STR_T600: 10
         STR_T700: 80
@@ -973,14 +995,15 @@ alienMissions:
     operationBaseType: STR_SKYNET_BASE_ASSAULT_WORKCAMP
     raceWeights:
       0:
-        STR_T600: 60
-        STR_T700: 40
+        STR_T200: 60
+        STR_T300: 40
       1:
-        STR_T600: 50
-        STR_T700: 50
+        STR_T300: 50
+        STR_T400: 50
       3:
-        STR_T600: 30
-        STR_T700: 70
+        STR_T400: 30
+        STR_T500: 30
+        STR_T600: 40
       5:
         STR_T600: 10
         STR_T700: 80
@@ -1041,14 +1064,15 @@ alienMissions:
     spawnZone: 3 #Mission zone for pacification missions
     raceWeights:
       0:
-        STR_T600: 60
-        STR_T700: 40
+        STR_T200: 60
+        STR_T300: 40
       1:
-        STR_T600: 50
-        STR_T700: 50
+        STR_T300: 50
+        STR_T400: 50
       3:
-        STR_T600: 30
-        STR_T700: 70
+        STR_T400: 30
+        STR_T500: 30
+        STR_T600: 40
       5:
         STR_T600: 10
         STR_T700: 80
@@ -1083,7 +1107,15 @@ alienMissions:
     spawnZone: 4
     raceWeights:
       0:
-          STR_T800: 10
+        STR_T600: 10
+        STR_T700: 80
+        STR_T800: 10
+      1:
+        STR_T700: 50
+        STR_T800: 50
+      3:
+        STR_T700: 20
+        STR_T800: 80
     waves:
       - ufo: bogus
         count: 1
@@ -1097,7 +1129,15 @@ alienMissions:
     spawnZone: 4
     raceWeights:
       0:
-          STR_T800: 10
+        STR_T600: 10
+        STR_T700: 80
+        STR_T800: 10
+      1:
+        STR_T700: 50
+        STR_T800: 50
+      3:
+        STR_T700: 20
+        STR_T800: 80
     waves:
       - ufo: bogus
         count: 1
@@ -1111,7 +1151,15 @@ alienMissions:
     spawnZone: 1
     raceWeights:
       0:
-          STR_T800: 10
+        STR_T600: 10
+        STR_T700: 80
+        STR_T800: 10
+      1:
+        STR_T700: 50
+        STR_T800: 50
+      3:
+        STR_T700: 20
+        STR_T800: 80
     waves:
       - ufo: bogus
         count: 1
@@ -1125,14 +1173,15 @@ alienMissions:
     spawnZone: 4 #Mission zone for alien bases
     raceWeights:
       0:
-        STR_T600: 60
-        STR_T700: 40
+        STR_T200: 60
+        STR_T300: 40
       1:
-        STR_T600: 50
-        STR_T700: 50
+        STR_T300: 50
+        STR_T400: 50
       3:
-        STR_T600: 30
-        STR_T700: 70
+        STR_T400: 30
+        STR_T500: 30
+        STR_T600: 40
       5:
         STR_T600: 10
         STR_T700: 80
@@ -1156,14 +1205,15 @@ alienMissions:
     spawnZone: 4 #Mission zone for alien bases
     raceWeights:
       0:
-        STR_T600: 60
-        STR_T700: 40
+        STR_T200: 60
+        STR_T300: 40
       1:
-        STR_T600: 50
-        STR_T700: 50
+        STR_T300: 50
+        STR_T400: 50
       3:
-        STR_T600: 30
-        STR_T700: 70
+        STR_T400: 30
+        STR_T500: 30
+        STR_T600: 40
       5:
         STR_T600: 10
         STR_T700: 80
@@ -1185,14 +1235,15 @@ alienMissions:
     points: 0
     raceWeights:
       0:
-        STR_T600: 60
-        STR_T700: 40
+        STR_T200: 60
+        STR_T300: 40
       1:
-        STR_T600: 50
-        STR_T700: 50
+        STR_T300: 50
+        STR_T400: 50
       3:
-        STR_T600: 30
-        STR_T700: 70
+        STR_T400: 30
+        STR_T500: 30
+        STR_T600: 40
       5:
         STR_T600: 10
         STR_T700: 80
@@ -1216,7 +1267,6 @@ alienMissions:
         count: 2
         trajectory: T4
         timer: 9000
-
 #RESISTANCE EVENTS
 ## Can happen anywhere on the world - unlocked through sector research
   - type: STR_ABANDONED_BASE
@@ -1226,14 +1276,15 @@ alienMissions:
     spawnZone: 1
     raceWeights:
       0:
-        STR_T600: 60
-        STR_T700: 40
+        STR_T200: 60
+        STR_T300: 40
       1:
-        STR_T600: 50
-        STR_T700: 50
+        STR_T300: 50
+        STR_T400: 50
       3:
-        STR_T600: 30
-        STR_T700: 70
+        STR_T400: 30
+        STR_T500: 30
+        STR_T600: 40
       5:
         STR_T600: 10
         STR_T700: 80

@@ -1243,7 +1243,7 @@ extraSprites:
     width: 320
     height: 200
     files: 
-      0: Resources/Geoscape/BACK181.PNG
+      0: Resources/Geoscape/BACK21.PNG
   - type: BACK03.SCR
     singleImage: true
     width: 320
