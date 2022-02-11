@@ -18,7 +18,6 @@ ufopaedia:
   - delete: STR_INCENDIARY_ROCKET
   - delete: STR_GRENADE
   - delete: STR_SMOKE_GRENADE
-  - delete: STR_PROXIMITY_GRENADE
   - delete: STR_HIGH_EXPLOSIVE
   - delete: STR_ELECTRO_FLARE
   - delete: STR_MOTION_SCANNER
@@ -908,6 +907,10 @@ ufopaedia:
     text: STR_SECTOR_21_COMM_3_UFOPEDIA
     text_width: 316
 #STR_WEAPONS_AND_EQUIPMENT - BASE FACILITIES
+  - id: STR_TECHCOMM_HQ
+    type_id: 6
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_TECHCOMM_HQ_UFOPEDIA
   - id: STR_COMMAND_STATION
     type_id: 6
     section: STR_WEAPONS_AND_EQUIPMENT
@@ -940,6 +943,10 @@ ufopaedia:
     requires:
       - STR_STORAGE_AREA
     text: STR_STORAGE_AREA_UFOPEDIA
+  - id: STR_MINE_FIELD
+    type_id: 6
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_MINE_FIELD_UFOPEDIA
   - id: STR_GUARD_TOWER
     type_id: 6
     section: STR_WEAPONS_AND_EQUIPMENT

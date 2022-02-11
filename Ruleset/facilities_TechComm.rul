@@ -19,6 +19,27 @@ facilities: #DONE
   - delete: STR_HYPER_WAVE_DECODER
 #<delete>
 #STARTING
+  - type: STR_TECHCOMM_HQ
+    spriteShape: 9
+    spriteFacility: 9
+    size: 2
+    radarRange: 1500
+    radarChance: 50
+    crafts: 4
+    labs: 10
+    personnel: 10
+    buildCost: 1200000
+    buildTime: 25
+    monthlyCost: 4000
+    mapName: TECHBASE59
+    requires:
+      - STR_ADVANCED_FACILITIES
+      - STR_AI_SKYNET
+    verticalLevels:
+    - type: ground
+      size: [2, 2, 6]
+      terrain: TECHCOMMBASE_DEFENSE
+      blocks: 60
   - type: STR_COMMAND_STATION
     spriteShape: 9
     spriteFacility: 9
@@ -30,6 +51,10 @@ facilities: #DONE
     mapName: TECHBASE59
     verticalLevels:
     - type: ground
+      size: [3, 3, 6]
+      terrain: TECHCOMMBASE_DEFENSE
+      blocks: 62
+    - type: ground
       size: [2, 2, 6]
       terrain: TECHCOMMBASE_DEFENSE
       blocks: 61
@@ -40,12 +65,13 @@ facilities: #DONE
     buildCost: 260000
     buildTime: 12
     monthlyCost: 7000
-    personnel: 50
-    mapName: TECHBASE16
+    mapName: TECHBASE04
+    personnel: 25
     missileAttraction: 100
   - type: STR_INFIRMARY
-    spriteShape: 1
-    spriteFacility: 18
+    spriteShape: 9
+    spriteFacility: 9
+    size: 2
     buildCost: 210000
     buildTime: 14
     monthlyCost: 6000
@@ -94,7 +120,7 @@ facilities: #DONE
     - type: ground
       size: [3, 3, 6]
       terrain: TECHCOMMBASE_DEFENSE
-      blocks: 60
+      blocks: 61
     missileAttraction: 100
   - type: STR_STORAGE
     spriteShape: 9
@@ -103,7 +129,7 @@ facilities: #DONE
     buildCost: 100000
     buildTime: 7
     monthlyCost: 3600
-    storage: 250
+    storage: 500
     mapName: TECHBASE12
     storageTiles:
       - [11, 2, 4]
@@ -117,6 +143,14 @@ facilities: #DONE
       - [17, 5, 4]
       - [13, 4, 4]
     missileAttraction: 100
+  - type: STR_MINE_FIELD
+    spriteShape: 3
+    spriteFacility: 26
+    buildCost: 10000
+    buildTime: 3
+    monthlyCost: 1000
+    mapName: TECHBASE59
+    missileAttraction: 50
   - type: STR_PILLBOX
     spriteShape: 3
     spriteFacility: 26
@@ -372,31 +406,38 @@ facilities: #DONE
     missileAttraction: 25
 #UNDER CONSIDERATION
 #MAP REFERENCE LIST FACILITIES
-##00-03/91 INFIRMARY - 10 UNITS HEALING SURFACE
-##04-07/92 BARRACKS - 10 UNITS TRAINING SURFACE
-##08-11/96 SHELTER - 2 CRAFT SURFACE
-##12-15/95 STORAGE -  GENERAL STORES SURFACE
-##16-19/90 HOUSING - 50 UNITS LIVING QUARTERS SURFACE
-##20-23/93 HOUSING AREA - 50 UNITS UNDER
-##24-27/99 STORAGE AREA - 250 CAPACITY UNDER
-##28-31/98 COMM STATION - VERY LARGE RADAR HWD (20x20, 10 SCI) UNDER
-##32-35/94 TECH STATION - PSI LAB (20x20, 10 ENG, 5 PSI) UNDER
-##36-39/97 DEFENSE STATION - 750 DEF, GRAV UNDER
+##XX TECHCOMM HQ - ACCESS LIFT UNDER
+##89 COMMAND STATION - ACCESS LIFT SURFACE
+##XX FIELD - 1 CRAFT SURFACE (V22 DEPLOYMENT ON ASSAULT)
+##96 SHELTER - 2 CRAFT SURFACE
+##88 HANGAR - 5 CRAFT SURFACE
+##90 HOUSING - 50 UNITS LIVING QUARTERS SURFACE
+##91 INFIRMARY - 10 UNITS HEALING SURFACE, 10 UNITS
+##92 BARRACKS - 10 UNITS TRAINING SURFACE, 10 UNITS
+##95 STORAGE -  GENERAL STORES SURFACE
+##RESEARCH
+##93 HOUSING AREA - 50 UNITS UNDER
+##94 TECH STATION - PSI LAB (20x20, 10 ENG, 5 PSI) UNDER
+##97 DEFENSE STATION - 750 DEF, GRAV UNDER
+##98 COMM STATION - VERY LARGE RADAR HWD (20x20, 10 SCI) UNDER
+##99 STORAGE AREA - 250 CAPACITY UNDER
+
+##59 MINE FIELD - NO SEWERS (STR_RUBBTLE
+##43 PILLBOX - NO SEWERS
+##53 GUARD TOWER - NO SEWERS
+##52 BUNKER - UNDERGROUND ACCESS, 10 SOLDIERS
+##XX SHELTER - 25 UNITS LIVING QUARTERS SURFACE
 ##40 COMM TOWER - SMALL RADAR (10x10, 5 SCI) SURFACE
 ##41 COMM ARRAY - LARGE RADAR (10x10, 5 SCI) SURFACE
 ##42 MISSILE SITE - MISSILE DEFENSES (250 DEF) SURFACE
-##43 PILLBOX - NO SEWERS
-##44 COMM CENTER - LARGE RADAR HWD (10x10, 5 SCI) SURFACE 
-##45 DEFENSE CENTER - GRAV SURFACE
+##49 MISSILE SILO - (500 DEF) SURFACE
 ##46 TECH WORKSHOP - WORKSHOP (10x10, 5 ENG)
+
+##44 COMM CENTER - LARGE RADAR HWD (10x10, 5 SCI) SURFACE
+##45 DEFENSE CENTER - GRAV SURFACE
 ##47 TECH CENTER - ALIEN_CONTAINMENT (10x10, 5 ENG) UNDER
 ##48 CLOAKING FIELD - MIND SHIELD UNDER
-##49 MISSILE SILO - (500 DEF) SURFACE
 ##50 NANO CENTER - WORKSHOP (10x10, 5 ENG, 5 PSI)
 ##51 POWER STATION - REQUIRED FOR ADVANCED FACILITIES
-##52 BUNKER - UNDERGROUND ACCESS, 10 SOLDIERS
-##53 GUARD TOWER - NO SEWERS
-##50-58 UNUSED (53-55 USED AS FILL IN)
-##59 CLEAR AREA
-##60-63/88 COMMAND STATION - ACCESS LIFT SURFACE
-##64-72/89 HANGAR - 5 CRAFT SURFACE
+##54-55 USED AS FILL IN
+##56-58 UNUSED ()

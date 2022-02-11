@@ -51,7 +51,6 @@ items:
   - delete: STR_INCENDIARY_ROCKET
   - delete: STR_GRENADE
   - delete: STR_SMOKE_GRENADE
-  - delete: STR_PROXIMITY_GRENADE
   - delete: STR_HIGH_EXPLOSIVE
   - delete: STR_STUN_ROD
   - delete: STR_PSI_AMP

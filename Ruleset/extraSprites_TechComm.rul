@@ -965,6 +965,13 @@ extraSprites:
     subY: 40
     files:
       0: Resources/Units/TERMINATOR_T500.png
+  - type: TERMINATOR_T600.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/TERMINATOR_T600.png
   - type: TERMINATOR_T700.PCK
     width: 512
     height: 720
@@ -1063,12 +1070,6 @@ extraSprites:
     subY: 40
     files:
       0: Resources/Units/UNIFORM_URBAN.png
-  - type: INV_HUMAN_JUMPSUIT
-    width: 320
-    height: 200
-    singleImage: true
-    files:
-      0: Resources/Units/Inventory/INV_HUMAN_JUMPSUIT.png
   - type: INV_HUMAN_AGENT
     width: 320
     height: 200

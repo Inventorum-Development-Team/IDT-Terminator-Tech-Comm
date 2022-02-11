@@ -23069,6 +23069,9 @@ terrains:
       - name: TECHBASE59
         width: 10
         length: 10
+        items:
+          STR_PROXIMITY_GRENADE:
+            - [2, 2, 0]
       - name: TECHBASE90
         width: 20
         length: 20
@@ -23301,6 +23304,22 @@ terrains:
       - name: TECHBASE59
         width: 10
         length: 10
+        items:
+          STR_PROXIMITY_GRENADE:
+            - [2, 2, 3]
+            - [4, 2, 3]
+            - [2, 4, 3]
+            - [4, 4, 3]
+            - [6, 6, 3]
+            - [8, 6, 3]
+            - [6, 8, 3]
+            - [8, 8, 3]
+            - [6, 8, 3]
+        fuseTimers:
+          STR_PROXIMITY_GRENADE: [0, 0]
+      - name: TECHBASE87
+        width: 20
+        length: 20
       - name: TECHBASE88
         width: 30
         length: 30

@@ -161,9 +161,65 @@ soldiers:
     deathFemale: [44, 45, 46]
     allowPiloting: false
     rankStrings:
-    - STR_CADET
-    - STR_SQUAD_LEADER
     - STR_LIEUTENANT
     - STR_CAPTAIN
+    - STR_MAJOR
+    - STR_LT_COLONEL
     - STR_COLONEL
     - STR_COMMANDER
+  - type: STR_JOHN_CONNOR
+    costSalary: 45000
+    value: 1000
+    minStats:
+      tu: 70
+      stamina: 65
+      health: 45
+      bravery: 100
+      reactions: 50
+      firing: 80
+      throwing: 80
+      strength: 40
+      psiStrength: 100
+      psiSkill: 0
+      melee: 80
+    maxStats:
+      tu: 70
+      stamina: 65
+      health: 45
+      bravery: 100
+      reactions: 50
+      firing: 80
+      throwing: 80
+      strength: 40
+      psiStrength: 100
+      psiSkill: 0
+      melee: 80
+    statCaps:
+      tu: 70
+      stamina: 65
+      health: 45
+      bravery: 100
+      reactions: 50
+      firing: 80
+      throwing: 80
+      strength: 40
+      psiStrength: 100
+      psiSkill: 0
+      melee: 80
+    armor: STR_JUMPSUIT_GENERAL_UC
+    standHeight: 21
+    kneelHeight: 13
+    femaleFrequency: 0
+    soldierNames:
+      - SoldierName/JohnConnor.nam
+    deathMale: [41, 42, 43]
+    deathFemale: [44, 45, 46]
+    allowPiloting: true
+    moraleLossWhenKilled: 200
+    rankStrings:
+    - STR_COMMANDER
+    - STR_GENERAL1
+    - STR_GENERAL2
+    - STR_GENERAL3
+    - STR_GENERAL4
+    - STR_GENERAL5
