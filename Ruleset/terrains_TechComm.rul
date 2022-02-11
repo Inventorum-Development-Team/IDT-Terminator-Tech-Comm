@@ -22949,154 +22949,62 @@ terrains:
       - name: TECHBASE19
         width: 10
         length: 10
-      - name: TECHBASE20
-        width: 10
-        length: 10
-      - name: TECHBASE21
-        width: 10
-        length: 10
-      - name: TECHBASE22
-        width: 10
-        length: 10
-      - name: TECHBASE23
-        width: 10
-        length: 10
-      - name: TECHBASE24
-        width: 10
-        length: 10
-      - name: TECHBASE25
-        width: 10
-        length: 10
-      - name: TECHBASE26
-        width: 10
-        length: 10
-      - name: TECHBASE27
-        width: 10
-        length: 10
-      - name: TECHBASE28
-        width: 10
-        length: 10
-      - name: TECHBASE29
-        width: 10
-        length: 10
-      - name: TECHBASE30
-        width: 10
-        length: 10
-      - name: TECHBASE31
-        width: 10
-        length: 10
-      - name: TECHBASE32
-        width: 10
-        length: 10
-      - name: TECHBASE33
-        width: 10
-        length: 10
-      - name: TECHBASE34
-        width: 10
-        length: 10
-      - name: TECHBASE35
-        width: 10
-        length: 10
-      - name: TECHBASE36
-        width: 10
-        length: 10
-      - name: TECHBASE37
-        width: 10
-        length: 10
-      - name: TECHBASE38
-        width: 10
-        length: 10
-      - name: TECHBASE39
-        width: 10
-        length: 10
-      - name: TECHBASE40
-        width: 10
-        length: 10
-      - name: TECHBASE41
-        width: 10
-        length: 10
-      - name: TECHBASE42
-        width: 10
-        length: 10
-      - name: TECHBASE43
-        width: 10
-        length: 10
-      - name: TECHBASE44
-        width: 10
-        length: 10
-      - name: TECHBASE45
-        width: 10
-        length: 10
-      - name: TECHBASE46
-        width: 10
-        length: 10
-      - name: TECHBASE47
-        width: 10
-        length: 10
-      - name: TECHBASE48
-        width: 10
-        length: 10
-      - name: TECHBASE49
-        width: 10
-        length: 10
-      - name: TECHBASE50
-        width: 10
-        length: 10
-      - name: TECHBASE51
-        width: 10
-        length: 10
-      - name: TECHBASE52
-        width: 10
-        length: 10
-      - name: TECHBASE53
-        width: 10
-        length: 10
-      - name: TECHBASE54
-        width: 10
-        length: 10
-      - name: TECHBASE55
-        width: 10
-        length: 10
-      - name: TECHBASE56
-        width: 10
-        length: 10
-      - name: TECHBASE57
-        width: 10
-        length: 10
-      - name: TECHBASE58
-        width: 10
-        length: 10
-      - name: TECHBASE59
-        width: 10
-        length: 10
         items:
           STR_PROXIMITY_GRENADE:
-            - [2, 2, 0]
-      - name: TECHBASE90
+            - [2, 2, 3]
+            - [4, 2, 3]
+            - [2, 4, 3]
+            - [4, 4, 3]
+            - [6, 6, 3]
+            - [8, 6, 3]
+            - [6, 8, 3]
+            - [8, 8, 3]
+            - [6, 8, 3]
+        fuseTimers:
+          STR_PROXIMITY_GRENADE: [0, 0]
+      - name: TECHBASE20
         width: 20
         length: 20
-      - name: TECHBASE91
+      - name: TECHBASE21
         width: 20
         length: 20
-      - name: TECHBASE92
+      - name: TECHBASE22
+        width: 30
+        length: 30
+      - name: TECHBASE23
         width: 20
         length: 20
-      - name: TECHBASE93
+      - name: TECHBASE24
         width: 20
         length: 20
-      - name: TECHBASE95
+      - name: TECHBASE25
         width: 20
         length: 20
-      - name: TECHBASE96
+      - name: TECHBASE26
         width: 20
         length: 20
-      - name: TECHBASE97
+      - name: TECHBASE27
         width: 20
         length: 20
-      - name: TECHBASE98
+      - name: TECHBASE28
         width: 20
         length: 20
-      - name: TECHBASE99
+      - name: TECHBASE29
+        width: 20
+        length: 20
+      - name: TECHBASE30
+        width: 20
+        length: 20
+      - name: TECHBASE31
+        width: 20
+        length: 20
+      - name: TECHBASE32
+        width: 20
+        length: 20
+      - name: TECHBASE33
+        width: 20
+        length: 20
+      - name: TECHBASE34
         width: 20
         length: 20
   - name: TECHCOMMBASE_DEFENSE
@@ -23184,145 +23092,61 @@ terrains:
       - name: TECHBASE19
         width: 10
         length: 10
-      - name: TECHBASE20
-        width: 10
-        length: 10
-      - name: TECHBASE21
-        width: 10
-        length: 10
-      - name: TECHBASE22
-        width: 10
-        length: 10
-      - name: TECHBASE23
-        width: 10
-        length: 10
-      - name: TECHBASE24
-        width: 10
-        length: 10
-      - name: TECHBASE25
-        width: 10
-        length: 10
-      - name: TECHBASE26
-        width: 10
-        length: 10
-      - name: TECHBASE27
-        width: 10
-        length: 10
-      - name: TECHBASE28
-        width: 10
-        length: 10
-      - name: TECHBASE29
-        width: 10
-        length: 10
-      - name: TECHBASE30
-        width: 10
-        length: 10
-      - name: TECHBASE31
-        width: 10
-        length: 10
-      - name: TECHBASE32
-        width: 10
-        length: 10
-      - name: TECHBASE33
-        width: 10
-        length: 10
-      - name: TECHBASE34
-        width: 10
-        length: 10
-      - name: TECHBASE35
-        width: 10
-        length: 10
-      - name: TECHBASE36
-        width: 10
-        length: 10
-      - name: TECHBASE37
-        width: 10
-        length: 10
-      - name: TECHBASE38
-        width: 10
-        length: 10
-      - name: TECHBASE39
-        width: 10
-        length: 10
-      - name: TECHBASE40
-        width: 10
-        length: 10
-      - name: TECHBASE41
-        width: 10
-        length: 10
-      - name: TECHBASE42
-        width: 10
-        length: 10
-      - name: TECHBASE43
-        width: 10
-        length: 10
-      - name: TECHBASE44
-        width: 10
-        length: 10
-      - name: TECHBASE45
-        width: 10
-        length: 10
-      - name: TECHBASE46
-        width: 10
-        length: 10
-      - name: TECHBASE47
-        width: 10
-        length: 10
-      - name: TECHBASE48
-        width: 10
-        length: 10
-      - name: TECHBASE49
-        width: 10
-        length: 10
-      - name: TECHBASE50
-        width: 10
-        length: 10
-      - name: TECHBASE51
-        width: 10
-        length: 10
-      - name: TECHBASE52
-        width: 10
-        length: 10
-      - name: TECHBASE53
-        width: 10
-        length: 10
-      - name: TECHBASE54
-        width: 10
-        length: 10
-      - name: TECHBASE55
-        width: 10
-        length: 10
-      - name: TECHBASE56
-        width: 10
-        length: 10
-      - name: TECHBASE57
-        width: 10
-        length: 10
-      - name: TECHBASE58
-        width: 10
-        length: 10
-      - name: TECHBASE59
-        width: 10
-        length: 10
         items:
           STR_PROXIMITY_GRENADE:
             - [2, 2, 3]
-            - [4, 2, 3]
-            - [2, 4, 3]
-            - [4, 4, 3]
-            - [6, 6, 3]
-            - [8, 6, 3]
-            - [6, 8, 3]
-            - [8, 8, 3]
-            - [6, 8, 3]
+            - [2, 5, 3]
+            - [2, 7, 3]
+            - [5, 2, 3]
+            - [5, 5, 3]
+            - [5, 7, 3]
+            - [7, 2, 3]
+            - [7, 5, 3]
+            - [7, 7, 3]
         fuseTimers:
           STR_PROXIMITY_GRENADE: [0, 0]
-      - name: TECHBASE87
+      - name: TECHBASE20
         width: 20
         length: 20
-      - name: TECHBASE88
+      - name: TECHBASE21
+        width: 20
+        length: 20
+      - name: TECHBASE22
         width: 30
         length: 30
-      - name: TECHBASE89
+      - name: TECHBASE23
+        width: 20
+        length: 20
+      - name: TECHBASE24
+        width: 20
+        length: 20
+      - name: TECHBASE25
+        width: 20
+        length: 20
+      - name: TECHBASE26
+        width: 20
+        length: 20
+      - name: TECHBASE27
+        width: 20
+        length: 20
+      - name: TECHBASE28
+        width: 20
+        length: 20
+      - name: TECHBASE29
+        width: 20
+        length: 20
+      - name: TECHBASE30
+        width: 20
+        length: 20
+      - name: TECHBASE31
+        width: 20
+        length: 20
+      - name: TECHBASE32
+        width: 20
+        length: 20
+      - name: TECHBASE33
+        width: 20
+        length: 20
+      - name: TECHBASE34
         width: 20
         length: 20

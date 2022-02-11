@@ -8186,7 +8186,7 @@ mapScripts:
     commands:
     - type: addBlock
       executions: 10
-      blocks: [60, 61, 62, 63, 64, 65, 66, 67, 68, 69]
+      blocks: [21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
       maxUses: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     - type: digTunnel
       direction: vertical
@@ -8202,7 +8202,7 @@ mapScripts:
         level: 0
     - type: addBlock
       executions: 13
-      blocks: [40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52]
+      blocks: [00, 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12]
       maxUses: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     - type: digTunnel
       direction: vertical
@@ -8217,15 +8217,15 @@ mapScripts:
       tunnelData:
         level: 0
     - type: fillArea
-      blocks: [53, 54, 55, 56, 57, 58, 59]
+      blocks: [13, 14, 15, 16, 17, 18, 19]
   - type: TECHCOMBASEDEFENSE
     commands:
     - type: addBlock
       executions: 2
-      blocks: [53, 54, 55]
+      blocks: [13, 14, 15]
       maxUses: [1, 1, 1]
     - type: fillArea
-      blocks: 59
+      blocks: 19
   - type: URBAN 
     commands:
     - type: addCraft

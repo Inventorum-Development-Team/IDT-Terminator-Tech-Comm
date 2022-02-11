@@ -31,7 +31,7 @@ facilities: #DONE
     buildCost: 1200000
     buildTime: 25
     monthlyCost: 4000
-    mapName: TECHBASE59
+    mapName: TECHBASE19
     requires:
       - STR_ADVANCED_FACILITIES
       - STR_AI_SKYNET
@@ -39,7 +39,7 @@ facilities: #DONE
     - type: ground
       size: [2, 2, 6]
       terrain: TECHCOMMBASE_DEFENSE
-      blocks: 60
+      blocks: 21
   - type: STR_COMMAND_STATION
     spriteShape: 9
     spriteFacility: 9
@@ -48,16 +48,12 @@ facilities: #DONE
     buildCost: 300000
     buildTime: 1
     monthlyCost: 4000
-    mapName: TECHBASE59
+    mapName: TECHBASE19
     verticalLevels:
-    - type: ground
-      size: [3, 3, 6]
-      terrain: TECHCOMMBASE_DEFENSE
-      blocks: 62
     - type: ground
       size: [2, 2, 6]
       terrain: TECHCOMMBASE_DEFENSE
-      blocks: 61
+      blocks: 23
   - type: STR_HOUSING
     spriteShape: 9
     spriteFacility: 9
@@ -65,7 +61,12 @@ facilities: #DONE
     buildCost: 260000
     buildTime: 12
     monthlyCost: 7000
-    mapName: TECHBASE04
+    mapName: TECHBASE19
+    verticalLevels:
+    - type: ground
+      size: [2, 2, 6]
+      terrain: TECHCOMMBASE_DEFENSE
+      blocks: 24
     personnel: 25
     missileAttraction: 100
   - type: STR_INFIRMARY
@@ -76,7 +77,12 @@ facilities: #DONE
     buildTime: 14
     monthlyCost: 6000
     personnel: 10
-    mapName: TECHBASE00
+    mapName: TECHBASE19
+    verticalLevels:
+    - type: ground
+      size: [2, 2, 6]
+      terrain: TECHCOMMBASE_DEFENSE
+      blocks: 25
     sickBayAbsoluteBonus: 0.0
     sickBayRelativeBonus: 5.0
     missileAttraction: 50
@@ -90,7 +96,12 @@ facilities: #DONE
     trainingRooms: 10
     personnel: 10
     provideBaseFunc: [pilot_training]
-    mapName: TECHBASE04
+    mapName: TECHBASE19
+    verticalLevels:
+    - type: ground
+      size: [2, 2, 6]
+      terrain: TECHCOMMBASE_DEFENSE
+      blocks: 26
     missileAttraction: 50
   - type: STR_SHELTER
     spriteShape: 9
@@ -101,7 +112,12 @@ facilities: #DONE
     monthlyCost: 16000
     crafts: 2
     provideBaseFunc: [craft_housing]
-    mapName: TECHBASE08
+    mapName: TECHBASE19
+    verticalLevels:
+    - type: ground
+      size: [2, 2, 6]
+      terrain: TECHCOMMBASE_DEFENSE
+      blocks: 30
     missileAttraction: 100
   - type: STR_HANGAR
     spriteShape: 384
@@ -115,12 +131,12 @@ facilities: #DONE
     crafts: 5
     workshops: 50
     provideBaseFunc: [craft_production, pilot_training, craft_housing]
-    mapName: TECHBASE59
+    mapName: TECHBASE19
     verticalLevels:
     - type: ground
       size: [3, 3, 6]
       terrain: TECHCOMMBASE_DEFENSE
-      blocks: 61
+      blocks: 22
     missileAttraction: 100
   - type: STR_STORAGE
     spriteShape: 9
@@ -130,7 +146,12 @@ facilities: #DONE
     buildTime: 7
     monthlyCost: 3600
     storage: 500
-    mapName: TECHBASE12
+    mapName: TECHBASE19
+    verticalLevels:
+    - type: ground
+      size: [2, 2, 6]
+      terrain: TECHCOMMBASE_DEFENSE
+      blocks: 29
     storageTiles:
       - [11, 2, 4]
       - [14, 1, 4]
@@ -149,7 +170,7 @@ facilities: #DONE
     buildCost: 10000
     buildTime: 3
     monthlyCost: 1000
-    mapName: TECHBASE59
+    mapName: TECHBASE19
     missileAttraction: 50
   - type: STR_PILLBOX
     spriteShape: 3
@@ -157,7 +178,7 @@ facilities: #DONE
     buildCost: 30000
     buildTime: 5
     monthlyCost: 3000
-    mapName: TECHBASE43
+    mapName: TECHBASE03
     missileAttraction: 50
   - type: STR_GUARD_TOWER
     spriteShape: 3
@@ -165,7 +186,7 @@ facilities: #DONE
     buildCost: 20000
     buildTime: 5
     monthlyCost: 2500
-    mapName: TECHBASE53
+    mapName: TECHBASE13
     missileAttraction: 50
   - type: STR_COMM_TOWER
     spriteShape: 2
@@ -177,7 +198,7 @@ facilities: #DONE
     radarRange: 500
     hyper: false
     radarChance: 20
-    mapName: TECHBASE40
+    mapName: TECHBASE00
     missileAttraction: 100
   - type: STR_TECH_LAB
     spriteShape: 1
@@ -186,7 +207,7 @@ facilities: #DONE
     buildTime: 24
     monthlyCost: 23000
     workshops: 50
-    mapName: TECHBASE47
+    mapName: TECHBASE07
     missileAttraction: 100
   - type: STR_MISSILE_SITE
     spriteShape: 2
@@ -198,7 +219,7 @@ facilities: #DONE
     hitRatio: 50
     fireSound: 5
     hitSound: 10
-    mapName: TECHBASE42
+    mapName: TECHBASE02
     missileAttraction: 100
 #REQUIRE AI HK
   - type: STR_DEFENSE_CENTER
@@ -210,7 +231,7 @@ facilities: #DONE
     buildCost: 800000
     buildTime: 25
     monthlyCost: 10000
-    mapName: TECHBASE45
+    mapName: TECHBASE05
     missileAttraction: 100
 #REQUIRE AI CHAIN HOME
   - type: STR_COMM_ARRAY
@@ -224,7 +245,7 @@ facilities: #DONE
     monthlyCost: 10000
     radarRange: 750
     radarChance: 20
-    mapName: TECHBASE41
+    mapName: TECHBASE01
     missileAttraction: 100
   - type: STR_COMM_CENTER
     requires:
@@ -238,7 +259,7 @@ facilities: #DONE
     radarRange: 750
     radarChance: 30
     hyper: true
-    mapName: TECHBASE44
+    mapName: TECHBASE04
     missileAttraction: 100
 #REQUIRE HARDENED FACILITIES
   - type: STR_HOUSING_AREA
@@ -251,7 +272,12 @@ facilities: #DONE
     buildTime: 24
     monthlyCost: 10000
     personnel: 50
-    mapName: TECHBASE20
+    mapName: TECHBASE19
+    verticalLevels:
+    - type: ground
+      size: [2, 2, 6]
+      terrain: TECHCOMMBASE_DEFENSE
+      blocks: 27
     missileAttraction: 25
   - type: STR_STORAGE_AREA
     requires:
@@ -263,7 +289,12 @@ facilities: #DONE
     buildTime: 15
     monthlyCost: 5000
     storage: 250
-    mapName: TECHBASE24
+    mapName: TECHBASE19
+    verticalLevels:
+    - type: ground
+      size: [2, 2, 6]
+      terrain: TECHCOMMBASE_DEFENSE
+      blocks: 33
     storageTiles:
       - [5, 14, 0]
       - [5, 12, 0]
@@ -293,7 +324,7 @@ facilities: #DONE
     monthlyCost: 15000
     aliens: 5
     workshops: 10
-    mapName: TECHBASE46
+    mapName: TECHBASE06
     missileAttraction: 0
   - type: STR_NANO_CENTER
     requires:
@@ -305,7 +336,7 @@ facilities: #DONE
     monthlyCost: 15000
     aliens: 5
     workshops: 10
-    mapName: TECHBASE51
+    mapName: TECHBASE11
     missileAttraction: 0
     sickBayAbsoluteBonus: 0.0
     sickBayRelativeBonus: 5.0                    
@@ -321,7 +352,7 @@ facilities: #DONE
     hitRatio: 60
     fireSound: 5
     hitSound: 10
-    mapName: TECHBASE49
+    mapName: TECHBASE09
     missileAttraction: 50
   - type: STR_BUNKER
     requires:
@@ -332,7 +363,7 @@ facilities: #DONE
     buildTime: 10
     monthlyCost: 5000
     personnel: 10
-    mapName: TECHBASE52
+    mapName: TECHBASE12
 #REQUIRE ADVANCED FACILITIES
   - type: STR_POWER_CENTER
     requires:
@@ -343,7 +374,7 @@ facilities: #DONE
     buildTime: 10
     monthlyCost: 5000
     storage: 50
-    mapName: TECHBASE51
+    mapName: TECHBASE11
     missileAttraction: 25
   - type: STR_COMM_STATION
     requires:
@@ -358,7 +389,12 @@ facilities: #DONE
     radarRange: 1000
     radarChance: 30
     hyper: true
-    mapName: TECHBASE28
+    mapName: TECHBASE19
+    verticalLevels:
+    - type: ground
+      size: [2, 2, 6]
+      terrain: TECHCOMMBASE_DEFENSE
+      blocks: 32
     missileAttraction: 25
   - type: STR_TECH_STATION
     requires:
@@ -372,7 +408,12 @@ facilities: #DONE
     workshops: 50
     psiLabs: 5
     provideBaseFunc: [craftproduction]
-    mapName: TECHBASE32
+    mapName: TECHBASE19
+    verticalLevels:
+    - type: ground
+      size: [2, 2, 6]
+      terrain: TECHCOMMBASE_DEFENSE
+      blocks: 28
     missileAttraction: 50
   - type: STR_DEFENSE_STATION
     requires:
@@ -391,7 +432,12 @@ facilities: #DONE
     radarRange: 100
     hyper: false
     radarChance: 75
-    mapName: TECHBASE36
+    mapName: TECHBASE19
+    verticalLevels:
+    - type: ground
+      size: [2, 2, 6]
+      terrain: TECHCOMMBASE_DEFENSE
+      blocks: 31
     missileAttraction: 50
   - type: STR_CLOAKING_FIELD
     requires:
@@ -402,7 +448,7 @@ facilities: #DONE
     buildCost: 1300000
     buildTime: 25
     monthlyCost: 5000
-    mapName: TECHBASE48
+    mapName: TECHBASE08
     missileAttraction: 25
 #UNDER CONSIDERATION
 #MAP REFERENCE LIST FACILITIES

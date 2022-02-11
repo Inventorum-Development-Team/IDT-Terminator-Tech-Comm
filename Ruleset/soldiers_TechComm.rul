@@ -223,3 +223,175 @@ soldiers:
     - STR_GENERAL3
     - STR_GENERAL4
     - STR_GENERAL5
+  - type: STR_KYLE_REESE
+    costSalary: 45000
+    value: 1000
+    minStats:
+      tu: 70
+      stamina: 65
+      health: 45
+      bravery: 100
+      reactions: 50
+      firing: 80
+      throwing: 80
+      strength: 40
+      psiStrength: 100
+      psiSkill: 0
+      melee: 80
+    maxStats:
+      tu: 70
+      stamina: 65
+      health: 45
+      bravery: 100
+      reactions: 50
+      firing: 80
+      throwing: 80
+      strength: 40
+      psiStrength: 100
+      psiSkill: 0
+      melee: 80
+    statCaps:
+      tu: 70
+      stamina: 65
+      health: 45
+      bravery: 100
+      reactions: 50
+      firing: 80
+      throwing: 80
+      strength: 40
+      psiStrength: 100
+      psiSkill: 0
+      melee: 80
+    armor: STR_JUMPSUIT_GENERAL_UC
+    standHeight: 21
+    kneelHeight: 13
+    femaleFrequency: 0
+    soldierNames:
+      - SoldierName/KyleReese.nam
+    deathMale: [41, 42, 43]
+    deathFemale: [44, 45, 46]
+    allowPiloting: false
+    moraleLossWhenKilled: 150
+    rankStrings:
+    - STR_SERGEANT
+    - STR_SERGEANT1
+    - STR_SERGEANT2
+    - STR_SERGEANT3
+    - STR_SERGEANT4
+    - STR_SERGEANT5
+  - type: STR_JUSTIN_PERRY
+    costSalary: 45000
+    value: 1000
+    minStats:
+      tu: 70
+      stamina: 65
+      health: 45
+      bravery: 100
+      reactions: 50
+      firing: 80
+      throwing: 80
+      strength: 40
+      psiStrength: 100
+      psiSkill: 0
+      melee: 80
+    maxStats:
+      tu: 70
+      stamina: 65
+      health: 45
+      bravery: 100
+      reactions: 50
+      firing: 80
+      throwing: 80
+      strength: 40
+      psiStrength: 100
+      psiSkill: 0
+      melee: 80
+    statCaps:
+      tu: 70
+      stamina: 65
+      health: 45
+      bravery: 100
+      reactions: 50
+      firing: 80
+      throwing: 80
+      strength: 40
+      psiStrength: 100
+      psiSkill: 0
+      melee: 80
+    armor: STR_JUMPSUIT_GENERAL_UC
+    standHeight: 21
+    kneelHeight: 13
+    femaleFrequency: 0
+    soldierNames:
+      - SoldierName/JustinPerry.nam
+    deathMale: [41, 42, 43]
+    deathFemale: [44, 45, 46]
+    moraleLossWhenKilled: 150
+    allowPiloting: true
+    dogfightExperience:
+      bravery: 10
+      reactions: 75
+      firing: 75
+    rankStrings:
+    - STR_LIEUTENANT
+    - STR_CAPTAIN
+    - STR_MAJOR
+    - STR_COLONEL
+    - STR_COMMANDER
+    - STR_GENERAL4
+  - type: STR_KATE_BREWSTER
+    costSalary: 45000
+    value: 1000
+    minStats:
+      tu: 70
+      stamina: 65
+      health: 45
+      bravery: 100
+      reactions: 50
+      firing: 80
+      throwing: 80
+      strength: 40
+      psiStrength: 100
+      psiSkill: 0
+      melee: 80
+    maxStats:
+      tu: 70
+      stamina: 65
+      health: 45
+      bravery: 100
+      reactions: 50
+      firing: 80
+      throwing: 80
+      strength: 40
+      psiStrength: 100
+      psiSkill: 0
+      melee: 80
+    statCaps:
+      tu: 70
+      stamina: 65
+      health: 45
+      bravery: 100
+      reactions: 50
+      firing: 80
+      throwing: 80
+      strength: 40
+      psiStrength: 100
+      psiSkill: 0
+      melee: 80
+    armor: STR_JUMPSUIT_GENERAL_UC
+    standHeight: 21
+    kneelHeight: 13
+    femaleFrequency: 100
+    soldierNames:
+      - SoldierName/KateBrewster.nam
+    deathMale: [41, 42, 43]
+    deathFemale: [44, 45, 46]
+    moraleLossWhenKilled: 150
+    allowPiloting: false
+    rankStrings:
+    - STR_CHIEF_PILOT
+    - STR_MASTER_PILOT
+    - STR_MAJOR
+    - STR_COLONEL
+    - STR_COMMANDER
+    - STR_GENERAL4
