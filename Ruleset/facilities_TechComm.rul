@@ -103,6 +103,22 @@ facilities: #DONE
       terrain: TECHCOMMBASE_DEFENSE
       blocks: 26
     missileAttraction: 50
+  - type: STR_PEN
+    spriteShape: 9
+    spriteFacility: 9
+    size: 2
+    buildCost: 100000
+    buildTime: 12
+    monthlyCost: 11000
+    crafts: 2
+    provideBaseFunc: [craft_housing]
+    mapName: TECHBASE19
+    verticalLevels:
+    - type: ground
+      size: [2, 2, 6]
+      terrain: TECHCOMMBASE_DEFENSE
+      blocks: 20
+    missileAttraction: 100
   - type: STR_SHELTER
     spriteShape: 9
     spriteFacility: 9
@@ -110,7 +126,7 @@ facilities: #DONE
     buildCost: 140000
     buildTime: 16
     monthlyCost: 16000
-    crafts: 2
+    crafts: 3
     provideBaseFunc: [craft_housing]
     mapName: TECHBASE19
     verticalLevels:

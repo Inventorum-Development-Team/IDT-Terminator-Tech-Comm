@@ -1221,8 +1221,8 @@ alienDeployments:
 #Base Defense
   - type: STR_BASE_DEFENSE
     data: *SKYNET_RESISTANCE
-    width: 60
-    length: 60
+    width: 80
+    length: 80
     height: 6
     shade: 5
     terrains:

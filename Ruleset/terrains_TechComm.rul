@@ -22952,149 +22952,6 @@ terrains:
         items:
           STR_PROXIMITY_GRENADE:
             - [2, 2, 3]
-            - [4, 2, 3]
-            - [2, 4, 3]
-            - [4, 4, 3]
-            - [6, 6, 3]
-            - [8, 6, 3]
-            - [6, 8, 3]
-            - [8, 8, 3]
-            - [6, 8, 3]
-        fuseTimers:
-          STR_PROXIMITY_GRENADE: [0, 0]
-      - name: TECHBASE20
-        width: 20
-        length: 20
-      - name: TECHBASE21
-        width: 20
-        length: 20
-      - name: TECHBASE22
-        width: 30
-        length: 30
-      - name: TECHBASE23
-        width: 20
-        length: 20
-      - name: TECHBASE24
-        width: 20
-        length: 20
-      - name: TECHBASE25
-        width: 20
-        length: 20
-      - name: TECHBASE26
-        width: 20
-        length: 20
-      - name: TECHBASE27
-        width: 20
-        length: 20
-      - name: TECHBASE28
-        width: 20
-        length: 20
-      - name: TECHBASE29
-        width: 20
-        length: 20
-      - name: TECHBASE30
-        width: 20
-        length: 20
-      - name: TECHBASE31
-        width: 20
-        length: 20
-      - name: TECHBASE32
-        width: 20
-        length: 20
-      - name: TECHBASE33
-        width: 20
-        length: 20
-      - name: TECHBASE34
-        width: 20
-        length: 20
-  - name: TECHCOMMBASE_DEFENSE
-    mapDataSets:
-      - BLANKS
-      - TECHBASE_A
-      - TECHBASE_B
-      - TECHBASE_C
-      - TECHBASE_D
-    script: TECHCOMBASEDEFENSE
-    civilianTypes:
-      - STR_HUMAN_JUMPSUIT_0_0
-      - STR_HUMAN_JUMPSUIT_0_1
-      - STR_HUMAN_JUMPSUIT_0_2
-      - STR_HUMAN_JUMPSUIT_0_3
-      - STR_HUMAN_JUMPSUIT_0_4
-      - STR_HUMAN_JUMPSUIT_0_5
-      - STR_HUMAN_JUMPSUIT_0_6
-      - STR_HUMAN_CHARACTER_0_0
-      - STR_HUMAN_CHARACTER_0_1
-      - STR_HUMAN_CHARACTER_0_2
-      - STR_HUMAN_CHARACTER_0_3
-      - STR_HUMAN_CHARACTER_0_4
-      - STR_HUMAN_CHARACTER_0_5
-      - STR_HUMAN_CHARACTER_0_6
-      - STR_HUMAN_CHARACTER_0_7
-    mapBlocks:
-      - name: TECHBASE00
-        width: 10
-        length: 10
-      - name: TECHBASE01
-        width: 10
-        length: 10
-      - name: TECHBASE02
-        width: 10
-        length: 10
-      - name: TECHBASE03
-        width: 10
-        length: 10
-      - name: TECHBASE04
-        width: 10
-        length: 10
-      - name: TECHBASE05
-        width: 10
-        length: 10
-      - name: TECHBASE06
-        width: 10
-        length: 10
-      - name: TECHBASE07
-        width: 10
-        length: 10
-      - name: TECHBASE08
-        width: 10
-        length: 10
-      - name: TECHBASE09
-        width: 10
-        length: 10
-      - name: TECHBASE10
-        width: 10
-        length: 10
-      - name: TECHBASE11
-        width: 10
-        length: 10
-      - name: TECHBASE12
-        width: 10
-        length: 10
-      - name: TECHBASE13
-        width: 10
-        length: 10
-      - name: TECHBASE14
-        width: 10
-        length: 10
-      - name: TECHBASE15
-        width: 10
-        length: 10
-      - name: TECHBASE16
-        width: 10
-        length: 10
-      - name: TECHBASE17
-        width: 10
-        length: 10
-      - name: TECHBASE18
-        width: 10
-        length: 10
-      - name: TECHBASE19
-        width: 10
-        length: 10
-        items:
-          STR_PROXIMITY_GRENADE:
-            - [2, 2, 3]
             - [2, 5, 3]
             - [2, 7, 3]
             - [5, 2, 3]
@@ -23150,3 +23007,290 @@ terrains:
       - name: TECHBASE34
         width: 20
         length: 20
+      - name: TECHBASE35
+        width: 10
+        length: 10
+        groups: 4
+      - name: TECHBASE36
+        width: 10
+        length: 10
+        groups: 4
+      - name: TECHBASE37
+        width: 10
+        length: 10
+        groups: 2
+      - name: TECHBASE38
+        width: 10
+        length: 10
+        groups: 2
+      - name: TECHBASE39
+        width: 10
+        length: 10
+        groups: 2
+      - name: TECHBASE40
+        width: 10
+        length: 10
+        groups: 2
+      - name: TECHBASE41
+        width: 10
+        length: 10
+        groups: 2
+      - name: TECHBASE42
+        width: 10
+        length: 10
+        groups: 3
+      - name: TECHBASE43
+        width: 10
+        length: 10
+        groups: 3
+      - name: TECHBASE44
+        width: 10
+        length: 10
+        groups: 3
+      - name: TECHBASE45
+        width: 10
+        length: 10
+        groups: 3
+      - name: TECHBASE46
+        width: 10
+        length: 10
+        groups: 3
+  - name: TECHCOMMBASE_DEFENSE
+    mapDataSets:
+      - BLANKS
+      - TECHBASE_A
+      - TECHBASE_B
+      - TECHBASE_C
+      - TECHBASE_D
+    script: TECHCOMBASEDEFENSE
+    civilianTypes:
+      - STR_HUMAN_JUMPSUIT_0_0
+      - STR_HUMAN_JUMPSUIT_0_1
+      - STR_HUMAN_JUMPSUIT_0_2
+      - STR_HUMAN_JUMPSUIT_0_3
+      - STR_HUMAN_JUMPSUIT_0_4
+      - STR_HUMAN_JUMPSUIT_0_5
+      - STR_HUMAN_JUMPSUIT_0_6
+      - STR_HUMAN_CHARACTER_0_0
+      - STR_HUMAN_CHARACTER_0_1
+      - STR_HUMAN_CHARACTER_0_2
+      - STR_HUMAN_CHARACTER_0_3
+      - STR_HUMAN_CHARACTER_0_4
+      - STR_HUMAN_CHARACTER_0_5
+      - STR_HUMAN_CHARACTER_0_6
+      - STR_HUMAN_CHARACTER_0_7
+    mapBlocks:
+      - name: TECHBASE00
+        width: 10
+        length: 10
+        revealedFloors: [0, 1, 2, 3]
+      - name: TECHBASE01
+        width: 10
+        length: 10
+        revealedFloors: [0, 1, 2, 3]
+      - name: TECHBASE02
+        width: 10
+        length: 10
+        revealedFloors: [0, 1, 2, 3]
+      - name: TECHBASE03
+        width: 10
+        length: 10
+        revealedFloors: [0, 1, 2, 3]
+      - name: TECHBASE04
+        width: 10
+        length: 10
+        revealedFloors: [0, 1, 2, 3]
+      - name: TECHBASE05
+        width: 10
+        length: 10
+        revealedFloors: [0, 1, 2, 3]
+      - name: TECHBASE06
+        width: 10
+        length: 10
+        revealedFloors: [0, 1, 2, 3]
+      - name: TECHBASE07
+        width: 10
+        length: 10
+        revealedFloors: [0, 1, 2, 3]
+      - name: TECHBASE08
+        width: 10
+        length: 10
+        revealedFloors: [0, 1, 2, 3]
+      - name: TECHBASE09
+        width: 10
+        length: 10
+        revealedFloors: [0, 1, 2, 3]
+      - name: TECHBASE10
+        width: 10
+        length: 10
+        revealedFloors: [0, 1, 2, 3]
+      - name: TECHBASE11
+        width: 10
+        length: 10
+        revealedFloors: [0, 1, 2, 3]
+      - name: TECHBASE12
+        width: 10
+        length: 10
+        revealedFloors: [0, 1, 2, 3]
+      - name: TECHBASE13
+        width: 10
+        length: 10
+        revealedFloors: [0, 1, 2, 3]
+      - name: TECHBASE14
+        width: 10
+        length: 10
+        revealedFloors: [0, 1, 2, 3]
+      - name: TECHBASE15
+        width: 10
+        length: 10
+        revealedFloors: [0, 1, 2, 3]
+      - name: TECHBASE16
+        width: 10
+        length: 10
+        revealedFloors: [0, 1, 2, 3]
+      - name: TECHBASE17
+        width: 10
+        length: 10
+        revealedFloors: [0, 1, 2, 3]
+      - name: TECHBASE18
+        width: 10
+        length: 10
+        revealedFloors: [0, 1, 2, 3]
+      - name: TECHBASE19
+        width: 10
+        length: 10
+        revealedFloors: [0, 1, 2, 3]
+        items:
+          STR_PROXIMITY_GRENADE:
+            - [2, 2, 3]
+            - [4, 2, 3]
+            - [2, 4, 3]
+            - [4, 4, 3]
+            - [6, 6, 3]
+            - [8, 6, 3]
+            - [6, 8, 3]
+            - [8, 8, 3]
+            - [6, 8, 3]
+        fuseTimers:
+          STR_PROXIMITY_GRENADE: [0, 0]
+      - name: TECHBASE20
+        width: 20
+        length: 20
+        revealedFloors: [0, 1, 2, 3]
+      - name: TECHBASE21
+        width: 20
+        length: 20
+        revealedFloors: [0, 1, 2, 3]
+      - name: TECHBASE22
+        width: 30
+        length: 30
+        revealedFloors: [0, 1, 2, 3]
+      - name: TECHBASE23
+        width: 20
+        length: 20
+        revealedFloors: [0, 1, 2, 3]
+      - name: TECHBASE24
+        width: 20
+        length: 20
+        revealedFloors: [0, 1, 2, 3]
+      - name: TECHBASE25
+        width: 20
+        length: 20
+        revealedFloors: [0, 1, 2, 3]
+      - name: TECHBASE26
+        width: 20
+        length: 20
+        revealedFloors: [0, 1, 2, 3]
+      - name: TECHBASE27
+        width: 20
+        length: 20
+        revealedFloors: [0, 1, 2, 3]
+      - name: TECHBASE28
+        width: 20
+        length: 20
+        revealedFloors: [0, 1, 2, 3]
+      - name: TECHBASE29
+        width: 20
+        length: 20
+        revealedFloors: [0, 1, 2, 3]
+      - name: TECHBASE30
+        width: 20
+        length: 20
+        revealedFloors: [0, 1, 2, 3]
+      - name: TECHBASE31
+        width: 20
+        length: 20
+        revealedFloors: [0, 1, 2, 3]
+      - name: TECHBASE32
+        width: 20
+        length: 20
+        revealedFloors: [0, 1, 2, 3]
+      - name: TECHBASE33
+        width: 20
+        length: 20
+        revealedFloors: [0, 1, 2, 3]
+      - name: TECHBASE34
+        width: 20
+        length: 20
+        revealedFloors: [0, 1, 2, 3]
+      - name: TECHBASE35
+        width: 10
+        length: 10
+        groups: 4
+        revealedFloors: [0, 1, 2, 3]
+      - name: TECHBASE36
+        width: 10
+        length: 10
+        groups: 4
+        revealedFloors: [0, 1, 2, 3]
+      - name: TECHBASE37
+        width: 10
+        length: 10
+        groups: 2
+        revealedFloors: [0, 1, 2, 3]
+      - name: TECHBASE38
+        width: 10
+        length: 10
+        groups: 2
+        revealedFloors: [0, 1, 2, 3]
+      - name: TECHBASE39
+        width: 10
+        length: 10
+        groups: 2
+        revealedFloors: [0, 1, 2, 3]
+      - name: TECHBASE40
+        width: 10
+        length: 10
+        groups: 2
+        revealedFloors: [0, 1, 2, 3]
+      - name: TECHBASE41
+        width: 10
+        length: 10
+        groups: 2
+        revealedFloors: [0, 1, 2, 3]
+      - name: TECHBASE42
+        width: 10
+        length: 10
+        groups: 3
+        revealedFloors: [0, 1, 2, 3]
+      - name: TECHBASE43
+        width: 10
+        length: 10
+        groups: 3
+        revealedFloors: [0, 1, 2, 3]
+      - name: TECHBASE44
+        width: 10
+        length: 10
+        groups: 3
+        revealedFloors: [0, 1, 2, 3]
+      - name: TECHBASE45
+        width: 10
+        length: 10
+        groups: 3
+        revealedFloors: [0, 1, 2, 3]
+      - name: TECHBASE46
+        width: 10
+        length: 10
+        groups: 3
+        revealedFloors: [0, 1, 2, 3]
+         

@@ -8220,10 +8220,46 @@ mapScripts:
       blocks: [13, 14, 15, 16, 17, 18, 19]
   - type: TECHCOMBASEDEFENSE
     commands:
+    - type: addLine
+      label: 1
+      direction: vertical
+      rects:
+        - [5, 0, 6, 6]
+      executionChances: 50
+    - type: addLine
+      label: 2
+      conditionals: -1
+      executionChances: 50
+      direction: horizontal
+      rects:
+        - [0, 5, 6, 6]
+    - type: addLine
+      conditionals: [-1, -2]
+      direction: both
+      rects:
+        - [5, 5, 6, 6]
+    - type: addLine
+      label: 3
+      direction: vertical
+      rects:
+        - [6, 0, 7, 7]
+      executionChances: 50
+    - type: addLine
+      label: 4
+      conditionals: -3
+      executionChances: 50
+      direction: horizontal
+      rects:
+        - [0, 6, 7, 7]
+    - type: addLine
+      conditionals: [-3, -4]
+      direction: both
+      rects:
+        - [5, 5, 6, 6]
     - type: addBlock
       executions: 2
-      blocks: [13, 14, 15]
-      maxUses: [1, 1, 1]
+      blocks: [13, 14, 15, 17, 18]
+      maxUses: [1, 1, 1, 1, 1]
     - type: fillArea
       blocks: 19
   - type: URBAN 

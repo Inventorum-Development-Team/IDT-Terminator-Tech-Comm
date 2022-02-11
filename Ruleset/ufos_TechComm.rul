@@ -99,7 +99,7 @@ ufos:
     reload: 32
     breakOffTime: 250
     battlescapeTerrainData:
-      name: HK04
+      name: HK01
       mapDataSets:
         - BLANKS
         - HK2
@@ -126,10 +126,10 @@ ufos:
     reload: 32
     breakOffTime: 500
     battlescapeTerrainData:
-      name: HK01
+      name: HK02
       mapDataSets:
         - BLANKS
-        - HK2
+        - HK02
       mapBlocks:
         - name: HK04
           width: 20

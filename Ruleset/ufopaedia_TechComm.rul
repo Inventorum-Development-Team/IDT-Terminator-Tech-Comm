@@ -1029,6 +1029,10 @@ ufopaedia:
     requires:
       - STR_CLOAKING_FIELD
     text: STR_CLOAKING_FIELD_UFOPEDIA
+  - id: STR_PEN
+    type_id: 6
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_PEN_UFOPEDIA
   - id: STR_SHELTER
     type_id: 6
     section: STR_WEAPONS_AND_EQUIPMENT
