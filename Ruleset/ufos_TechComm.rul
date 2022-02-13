@@ -1,5 +1,4 @@
 ufos:
-#<delete>
   - delete: STR_SMALL_SCOUT
   - delete: STR_MEDIUM_SCOUT
   - delete: STR_LARGE_SCOUT
@@ -8,7 +7,6 @@ ufos:
   - delete: STR_BATTLESHIP
   - delete: STR_TERROR_SHIP
   - delete: STR_SUPPLY_SHIP
-#<delete>
 #Surface to surface missiles
   - type: STR_TACTICAL_MISSILE
     size: STR_MEDIUM

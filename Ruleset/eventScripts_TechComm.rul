@@ -1,4 +1,4 @@
-eventScripts:
+eventScripts: #DONE
   - type: STR_RESISTANCE_MESSAGE
     oneTimeRandomEvents: 
         STR_RESISTANCE_MESSAGE: 100

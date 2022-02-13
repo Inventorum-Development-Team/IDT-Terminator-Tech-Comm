@@ -529,10 +529,6 @@ items:
     costSell: 27000
     transferTime: 48
     clipSize: 1
-  - type: STR_HARM_LAUNCHER
-    size: 1
-    costSell: 35750
-    transferTime: 48
   - type: STR_AMRAAM_LAUNCHER
     size: 1
     costSell: 40500
@@ -551,9 +547,26 @@ items:
     costSell: 18500
     transferTime: 48
     clipSize: 1
+  - type: STR_GENIE_LAUNCHER
+    size: 0.8
+    costSell: 120000
+    transferTime: 48
+  - type: STR_GENIE_ROCKETS
+    size: 0.4
+    costSell: 240000
+    transferTime: 48
+    clipSize: 1
+  - type: STR_FALCON_LAUNCHER
+    size: 0.8
+    costSell: 140000
+    transferTime: 48
+  - type: STR_FALCON_MISSILES
+    size: 0.4
+    costSell: 400000
+    transferTime: 48
+    clipSize: 1
   - type: STR_GAU_2_CANNON
     size: 1.5
-    costBuy: 30000
     costSell: 22500
     transferTime: 48
   - type: STR_GAU_2_CANNON_ROUNDS_X50
@@ -564,7 +577,6 @@ items:
     clipSize: 50
   - type: STR_GAU_4_CANNON
     size: 1.5
-    costBuy: 35000
     costSell: 37500
     transferTime: 48
   - type: STR_GAU_4_CANNON_ROUNDS_X50
@@ -575,7 +587,6 @@ items:
     clipSize: 50
   - type: STR_GAU_8_CANNON
     size: 1.5
-    costBuy: 60000
     costSell: 52500
     transferTime: 48
   - type: STR_GAU_8_CANNON_ROUNDS_X50
@@ -586,7 +597,6 @@ items:
     clipSize: 50
   - type: STR_GAU_12_CANNON
     size: 1.5
-    costBuy: 40000
     costSell: 32500
     transferTime: 48
   - type: STR_GAU_12_CANNON_ROUNDS_X50
@@ -597,7 +607,6 @@ items:
     clipSize: 50
   - type: STR_GAU_19_CANNON
     size: 1.5
-    costBuy: 45000
     costSell: 37500
     transferTime: 48
   - type: STR_GAU_19_CANNON_ROUNDS_X50

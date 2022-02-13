@@ -197,11 +197,11 @@ ufopaedia:
     text: STR_RESISTANCE_PERSONNEL_UFOPEDIA
     listOrder: 115
     text_width: 316
-  - id: STR_RESISTANCE_CRAFT
+  - id: STR_GRAVEYARD_AIRFORCE
     type_id: 7
     section: STR_XCOM_CRAFT_ARMAMENT
     image_id: RESISTANCE_CRAFT_IMAGE
-    text: STR_RESISTANCE_CRAFT_UFOPEDIA
+    text: STR_GRAVEYARD_AIRFORCE_UFOPEDIA
     listOrder: 110
     text_width: 316
   - id: STR_TECHCOMM_BASES
@@ -215,10 +215,17 @@ ufopaedia:
     type_id: 7
     section: STR_XCOM_CRAFT_ARMAMENT
     image_id: RESISTANCE_MISSIONS_IMAGE
-    requires:
-      - STR_RESISTANCE_MISSIONS
     text: STR_RESISTANCE_MISSIONS_UFOPEDIA
     listOrder: 117
+    text_width: 316
+    text_width: 316
+  - id: STR_SECTOR_COMMS
+    type_id: 7
+    section: STR_XCOM_CRAFT_ARMAMENT
+    requires:
+      - STR_SECTOR_COMMS
+    image_id: RESISTANCE_CRAFT_IMAGE
+    text: STR_SECTOR_COMMS_UFOPEDIA
     text_width: 316
   - id: STR_SECTOR_00_COMM
     type_id: 7
@@ -557,7 +564,7 @@ ufopaedia:
       y: 5
       width: 205
       height: 80
-    image_id: BLACKBIRD_UFOPEDIA
+    image_id: DYNAVERT_UFOPEDIA
   - id: STR_ARCHANGEL
     type_id: 1
     section: STR_ALIEN_ARTIFACTS
@@ -630,24 +637,6 @@ ufopaedia:
       width: 205
       height: 80
     image_id: BLACKBIRD_UFOPEDIA
-  - id: STR_SUPER_OSPREY
-    type_id: 1
-    section: STR_ALIEN_ARTIFACTS
-    text: STR_SUPER_OSPREY_UFOPEDIA
-    listOrder: 111
-    requires:
-      - STR_SUPER_OSPREY_BLUEPRINT
-    rect_stats:
-      x: 5
-      y: 140
-      width: 140
-      height: 60
-    rect_text:
-      x: 110
-      y: 5
-      width: 205
-      height: 80
-    image_id: SUPER_OSPREY_UFOPEDIA
   - id: STR_OSPREY
     type_id: 1
     section: STR_ALIEN_ARTIFACTS

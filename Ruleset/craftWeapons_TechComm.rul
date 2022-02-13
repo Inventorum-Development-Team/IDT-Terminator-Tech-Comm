@@ -14,6 +14,7 @@ craftWeapons: #DONE
 # weaponType 4 = Short Range & Anti-Radiation AAM
 # weaponType 5 = Medium Range AAM
 # weaponType 6 = Fuel/ECM Pods
+# weaponType 7 = Long Range AAM
   - type: STR_PHOENIX
     weaponType: 7
     sprite: 100

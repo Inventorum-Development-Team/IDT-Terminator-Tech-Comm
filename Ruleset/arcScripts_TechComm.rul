@@ -1,4 +1,4 @@
-arcScripts:
+arcScripts: #DONE
   - type: resistanceOrder
     sequentialArcs:
       - STR_RESISTANCE_ORDER_1
@@ -28,7 +28,7 @@ arcScripts:
       STR_TWINOTTER_BLUEPRINT: 20
       STR_GUARDRAIL_BLUEPRINT: 20
     firstMonth: 0                       # months this command runs on, 0 runs on startup of a new game (default 0)
-    executionOdds: 10                   # % chances of this command executing (default 100)
+    executionOdds: 100                  # % chances of this command executing (default 100)
     maxArcs: -1                         # maximum number of arcs this command can generate (together during the whole game), -1 for infinite 
     researchTriggers:                   # a list of research topics that can influence the execution of this command (default empty)
       STR_RESISTANCE_CRAFT: true

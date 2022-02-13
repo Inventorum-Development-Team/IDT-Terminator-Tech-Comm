@@ -37,6 +37,13 @@ manufacture:
   - delete: STR_AVENGER
 #<delete>
 #WEAPONS
+  - name: STR_MEDI_KIT
+    category: STR_EQUIPMENT
+    requires:
+      - STR_SECTOR_COMMS
+    space: 4
+    time: 420
+    cost: 28000
   - name: STR_M25A1
     category: STR_WEAPON
     requires:
@@ -76,6 +83,262 @@ manufacture:
     requiredItems:
       STR_PLASMA_CELL: 1
 #CRAFT WEAPONS
+  - name: STR_HYDRA_LAUNCHER
+    category: STR_CRAFT_WEAPON
+    requires:
+      - STR_SECTOR_COMMS
+    space: 6
+    time: 400
+    cost: 30000
+    listOrder: 90
+  - name: STR_HYDRA_ROCKETS
+    category: STR_CRAFT_AMMUNITION
+    requires:
+      - STR_SECTOR_COMMS
+    space: 6
+    time: 400
+    cost: 4000
+    listOrder: 91
+  - name: STR_STINGER_LAUNCHER
+    category: STR_CRAFT_WEAPON
+    requires:
+      - STR_SECTOR_COMMS
+    space: 6
+    time: 400
+    cost: 30000
+    listOrder: 92
+  - name: STR_STINGER_MISSILES
+    category: STR_CRAFT_AMMUNITION
+    requires:
+      - STR_SECTOR_COMMS
+    space: 6
+    time: 400
+    cost: 16000
+    listOrder: 93
+  - name: STR_SIDEWINDER_LAUNCHER
+    category: STR_CRAFT_WEAPON
+    requires:
+      - STR_SECTOR_COMMS
+    space: 6
+    time: 400
+    cost: 30000
+    listOrder: 92
+  - name: STR_SIDEWINDER_MISSILES
+    category: STR_CRAFT_AMMUNITION
+    requires:
+      - STR_SECTOR_COMMS
+    space: 6
+    time: 400
+    cost: 16000
+    listOrder: 93
+  - name: STR_ASRAAM_LAUNCHER
+    category: STR_CRAFT_WEAPON
+    requires:
+      - STR_SECTOR_COMMS
+    space: 6
+    time: 400
+    cost: 30000
+    listOrder: 92
+  - name: STR_ASRAAM_MISSILES
+    category: STR_CRAFT_AMMUNITION
+    requires:
+      - STR_SECTOR_COMMS
+    space: 6
+    time: 400
+    cost: 16000
+    listOrder: 93
+  - name: STR_SPARROW_LAUNCHER
+    category: STR_CRAFT_WEAPON
+    requires:
+      - STR_SECTOR_COMMS
+    space: 6
+    time: 400
+    cost: 30000
+    listOrder: 92
+  - name: STR_SPARROW_MISSILES
+    category: STR_CRAFT_AMMUNITION
+    requires:
+      - STR_SECTOR_COMMS
+    space: 6
+    time: 400
+    cost: 16000
+    listOrder: 93
+  - name: STR_STANDARD_LAUNCHER
+    category: STR_CRAFT_WEAPON
+    requires:
+      - STR_SECTOR_COMMS
+    space: 6
+    time: 400
+    cost: 30000
+    listOrder: 92
+  - name: STR_STANDARD_MISSILES
+    category: STR_CRAFT_AMMUNITION
+    requires:
+      - STR_SECTOR_COMMS
+    space: 6
+    time: 400
+    cost: 16000
+    listOrder: 93
+  - name: STR_PHOENIX_LAUNCHER
+    category: STR_CRAFT_WEAPON
+    requires:
+      - STR_SECTOR_COMMS
+    space: 6
+    time: 400
+    cost: 30000
+    listOrder: 92
+  - name: STR_PHOENIX_MISSILES
+    category: STR_CRAFT_AMMUNITION
+    requires:
+      - STR_SECTOR_COMMS
+    space: 6
+    time: 400
+    cost: 16000
+    listOrder: 93
+  - name: STR_AMRAAM_LAUNCHER
+    category: STR_CRAFT_WEAPON
+    requires:
+      - STR_SECTOR_COMMS
+    space: 6
+    time: 400
+    cost: 30000
+    listOrder: 92
+  - name: STR_AMRAAM_MISSILES
+    category: STR_CRAFT_AMMUNITION
+    requires:
+      - STR_SECTOR_COMMS
+    space: 6
+    time: 400
+    cost: 16000
+    listOrder: 93
+  - name: STR_HARM_LAUNCHER
+    category: STR_CRAFT_WEAPON
+    requires:
+      - STR_SECTOR_COMMS
+    space: 6
+    time: 400
+    cost: 30000
+    listOrder: 92
+  - name: STR_HARM_MISSILES
+    category: STR_CRAFT_AMMUNITION
+    requires:
+      - STR_SECTOR_COMMS
+    space: 6
+    time: 400
+    cost: 16000
+    listOrder: 93
+  - name: STR_FALCON_LAUNCHER
+    category: STR_CRAFT_WEAPON
+    requires:
+      - STR_SECTOR_COMMS
+    space: 6
+    time: 400
+    cost: 30000
+    listOrder: 92
+  - name: STR_FALCON_MISSILES
+    category: STR_CRAFT_AMMUNITION
+    requires:
+      - STR_SECTOR_COMMS
+    space: 6
+    time: 400
+    cost: 16000
+    listOrder: 93
+  - name: STR_GENIE_LAUNCHER
+    category: STR_CRAFT_WEAPON
+    requires:
+      - STR_SECTOR_COMMS
+    space: 6
+    time: 400
+    cost: 30000
+    listOrder: 92
+  - name: STR_GENIE_ROCKETS
+    category: STR_CRAFT_AMMUNITION
+    requires:
+      - STR_SECTOR_COMMS
+    space: 6
+    time: 400
+    cost: 16000
+    listOrder: 93
+  - name: STR_GAU_2_CANNON
+    category: STR_CRAFT_WEAPON
+    requires:
+      - STR_SECTOR_COMMS
+    space: 6
+    time: 300
+    cost: 182000
+    listOrder: 92
+  - name: STR_GAU_2_CANNON_ROUNDS_X50
+    category: STR_CRAFT_HWP_AMMUNITION
+    requires:
+      - STR_SECTOR_COMMS
+    space: 2 
+    time: 5 
+    cost: 200 
+    listOrder: 93
+  - name: STR_GAU_4_CANNON
+    category: STR_CRAFT_WEAPON
+    requires:
+      - STR_SECTOR_COMMS
+    space: 6
+    time: 300
+    cost: 182000
+    listOrder: 92
+  - name: STR_GAU_4_CANNON_ROUNDS_X50
+    category: STR_CRAFT_HWP_AMMUNITION
+    requires:
+      - STR_SECTOR_COMMS
+    space: 2 
+    time: 5 
+    cost: 200 
+    listOrder: 93
+  - name: STR_GAU_8_CANNON
+    category: STR_CRAFT_WEAPON
+    requires:
+      - STR_SECTOR_COMMS
+    space: 6
+    time: 300
+    cost: 182000
+    listOrder: 92
+  - name: STR_GAU_8_CANNON_ROUNDS_X50
+    category: STR_CRAFT_HWP_AMMUNITION
+    requires:
+      - STR_SECTOR_COMMS
+    space: 2 
+    time: 5 
+    cost: 200 
+    listOrder: 93
+  - name: STR_GAU_12_CANNON
+    category: STR_CRAFT_WEAPON
+    requires:
+      - STR_SECTOR_COMMS
+    space: 6
+    time: 300
+    cost: 182000
+    listOrder: 92
+  - name: STR_GAU_12_CANNON_ROUNDS_X50
+    category: STR_CRAFT_HWP_AMMUNITION
+    requires:
+      - STR_SECTOR_COMMS
+    space: 2 
+    time: 5 
+    cost: 200 
+    listOrder: 93
+  - name: STR_GAU_19_CANNON
+    category: STR_CRAFT_WEAPON
+    requires:
+      - STR_SECTOR_COMMS
+    space: 6
+    time: 300
+    cost: 182000
+    listOrder: 92
+  - name: STR_GAU_19_CANNON_ROUNDS_X50
+    category: STR_CRAFT_HWP_AMMUNITION
+    requires:
+      - STR_SECTOR_COMMS
+    space: 2 
+    time: 5 
+    cost: 200 
+    listOrder: 93
 #CRAFT
   - name: STR_PILOT_TRAINING
     space: 1
@@ -87,14 +350,6 @@ manufacture:
     category: STR_CRAFT
     requires:
       - STR_BLACKBIRD_BLUEPRINT
-    space: 30
-    time: 14000
-    cost: 100000
-    requiresBaseFunc: [craft_production, craft_housing]
-  - name: STR_SUPER_OSPREY
-    category: STR_CRAFT
-    requires:
-      - STR_SUPER_OSPREY_BLUEPRINT
     space: 30
     time: 14000
     cost: 100000

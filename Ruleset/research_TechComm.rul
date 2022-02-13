@@ -2,6 +2,7 @@ research:
 #<delete>
   - delete: STR_LASER_WEAPONS
   - delete: STR_MOTION_SCANNER
+  - delete: STR_MEDI_KIT
   - delete: STR_PSI_AMP
   - delete: STR_PLASMA_PISTOL
   - delete: STR_PLASMA_PISTOL_CLIP
@@ -649,10 +650,6 @@ research:
     cost: 50
     points: 10
     needItem: true
-  - name: STR_SUPER_OSPREY_BLUEPRINT
-    cost: 50
-    points: 10
-    needItem: true
   - name: STR_OSPREY_BLUEPRINT
     cost: 50
     points: 10
@@ -720,7 +717,7 @@ research:
 #RESISTANCE SECTOR COMMS
 ##SECTOR COMMS UNLOCKS MAP WITH SKYNET POSITIONS AND ACTIVATE TECH-COMM MISSIONS IN THE SECTOR
   - name: STR_SECTOR_COMMS
-    cost: 50
+    cost: 5
     points: 10
   - name: STR_SECTOR_00_COMM
     cost: 5

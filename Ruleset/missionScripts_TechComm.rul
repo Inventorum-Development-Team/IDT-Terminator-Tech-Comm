@@ -1,4 +1,4 @@
-missionScripts:
+missionScripts: #DONE
   - delete: gameStart
   - delete: recon
   - delete: invasion

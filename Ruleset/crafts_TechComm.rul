@@ -11,7 +11,7 @@ crafts: #DONE
 #TO CONSIDER: have only 1 model of each type
 #RECOVERY (ADVANCED)
   - type: STR_SENIOR_CITIZEN
-    sprite: 33
+    sprite: 66
     marker: 13
     fuelMax: 1500
     damageMax: 210
@@ -30,30 +30,41 @@ crafts: #DONE
     transferTime: 96
     score: 500
     listOrder: 175
+    sprite: 24
+    fuelMax: 1500
+    damageMax: 150
+    speedMax: 760
+    accel: 2
+    soldiers: 12
+    vehicles: 1
+    costRent: 250000
+    refuelRate: 50
+    transferTime: 72
+    score: 500
     battlescapeTerrainData:
-      name: BLACKBIRD
+      name: DRAGONFLY
       mapDataSets:
         - BLANKS
-        - BLACKBIRD
+        - DRAGONFLY_DARK
       mapBlocks:
-        - name: BLACKBIRD
+        - name: DRAGONFLY
           width: 20
-          length: 10
+          length: 20
     deployment:
-      - [14, 4, 1, 6]
-      - [13, 5, 1, 0]
-      - [13, 4, 1, 6]
-      - [13, 3, 1, 4]
-      - [12, 5, 1, 0]
-      - [12, 4, 1, 4]
-      - [12, 2, 1, 4]
-      - [12, 3, 1, 4]
-      - [11, 4, 1, 6]
-      - [11, 5, 1, 0]
-      - [11, 3, 1, 4]
-      - [10, 4, 1, 6]
-      - [10, 5, 1, 0]
-      - [10, 3, 1, 4]
+      - [6, 11, 1, 0]
+      - [7, 11, 1, 0]
+      - [6, 12, 1, 0]
+      - [7, 12, 1, 0]
+      - [6, 13, 1, 0]
+      - [7, 13, 1, 0]
+      - [6, 14, 1, 0]
+      - [7, 14, 1, 0]
+      - [6, 15, 1, 0]
+      - [7, 15, 1, 0]
+      - [6, 16, 1, 0]
+      - [7, 16, 1, 0]
+      - [6, 17, 1, 0]
+      - [7, 17, 1, 0]
     allowLanding: true
   - type: STR_ARCHANGEL
     sprite: 33
@@ -64,7 +75,7 @@ crafts: #DONE
     accel: 8
     weapons: 4
     weaponTypes:
-      - [4, 5, 6, 7]
+      - 6
       - [4, 5, 6, 7]
       - [4, 5, 6, 7]
       - [4, 5, 6, 7]
@@ -167,7 +178,7 @@ crafts: #DONE
     fuelMax: 2000
     damageMax: 210
     speedMax: 3300
-    accel: 7
+    accel: 8
     weapons: 0
     soldiers: 2
     vehicles: 0
@@ -345,7 +356,7 @@ crafts: #DONE
     score: 400
     listOrder: 128
 #MANUFACTURE
-  - type: STR_SUPER_OSPREY
+  - type: STR_OSPREY
     sprite: 23
     marker: 13
     fuelMax: 99
@@ -357,9 +368,9 @@ crafts: #DONE
       - [0, 3, 6]
     weaponStrings:
       - STR_WEAPON_ONE
-    soldiers: 24
+    soldiers: 20
     vehicles: 2
-    pilots: 3
+    pilots: 2
     costSell: 710000
     refuelRate: 20
     notifyWhenRefueled: true
@@ -368,57 +379,6 @@ crafts: #DONE
     transferTime: 72
     score: 400
     listOrder: 111
-    battlescapeTerrainData:
-      name: OSPREY
-      mapDataSets:
-        - BLANKS
-        - OSPREY
-      mapBlocks:
-        - name: OSPREY
-          width: 20
-          length: 20
-    deployment:	
-      - [10, 6, 1, 0]
-      - [11, 6, 1, 0]			
-      - [10, 7, 1, 0]	
-      - [11, 7, 1, 0]	
-      - [10, 8, 1, 0]	
-      - [11, 8, 1, 0]
-      - [10, 9, 1, 0]	
-      - [11, 9, 1, 0]		
-      - [10, 10, 1, 0]	
-      - [11, 10, 1, 0]		
-      - [11, 11, 1, 0]
-      - [10, 11, 1, 0]
-      - [10, 12, 1, 0]	
-      - [11, 12, 1, 0]	
-      - [10, 13, 1, 0]	
-      - [11, 13, 1, 0]
-      - [10, 14, 1, 0]
-      - [11, 14, 1, 0]
-  - type: STR_OSPREY
-    sprite: 23
-    marker: 13
-    fuelMax: 77
-    damageMax: 150
-    speedMax: 270
-    accel: 6
-    weapons: 1
-    weaponTypes:
-      - [0, 3, 6]
-    weaponStrings:
-      - STR_WEAPON_ONE
-    soldiers: 14
-    vehicles: 2
-    pilots: 2
-    costSell: 650000
-    refuelRate: 20
-    notifyWhenRefueled: true
-    sightRange: 0
-    radarRange: 0
-    transferTime: 72
-    score: 400
-    listOrder: 113
     battlescapeTerrainData:
       name: OSPREY
       mapDataSets:

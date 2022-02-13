@@ -1,7 +1,7 @@
-events:
+events: #DONE
   - name: STR_RESISTANCE_MESSAGE
     description: STR_RESISTANCE_MESSAGE_ALERT
-    background: BACK15.SCR
+    background: BACK183.SCR
     regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
     city: true
     points: 0
