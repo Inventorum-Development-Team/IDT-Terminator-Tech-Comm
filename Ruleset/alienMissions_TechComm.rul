@@ -183,12 +183,10 @@ alienMissions:
         timer: 3000
         huntBehavior: 1
         hunterKillerPercentage: 50
-        huntSpeed: 100
       - ufo: STR_HK_FIGHTER_2
         count: 1
         trajectory: T8
         timer: 0
-        huntSpeed: 100
         escort: true
   - type: STR_SKYNET_TRANSPORT
     points: 0
@@ -393,7 +391,6 @@ alienMissions:
         hunterKillerPercentage: 100
         huntMode: 0
         huntBehavior: 0
-        huntSpeed: 90
       - ufo: STR_HK_FIGHTER_1
         count: 1
         trajectory: T0
@@ -401,7 +398,6 @@ alienMissions:
         hunterKillerPercentage: 100
         huntMode: 0
         huntBehavior: 0
-        huntSpeed: 90
         escort: true  
   - type: STR_SKYNET_ERADICATION
     points: 0
@@ -469,13 +465,11 @@ alienMissions:
         timer: 3000
         hunterKillerPercentage: 0
         huntMode: 2
-        huntSpeed: 75
       - ufo: STR_HK_FIGHTER_1
         count: 1
         trajectory: T8
         timer: 10
         huntMode: 2
-        huntSpeed: 75
         escort: true  
   - type: STR_SKYNET_TERMINATION_2
     points: 0
@@ -511,7 +505,6 @@ alienMissions:
         huntBehavior: 0
         hunterKillerPercentage: 0
         huntMode: 0
-        huntSpeed: 50
       - ufo: STR_HK_SCOUT_1
         count: 1
         trajectory: T8
@@ -519,14 +512,12 @@ alienMissions:
         huntBehavior: 0
         hunterKillerPercentage: 50
         huntMode: 1
-        huntSpeed: 90
       - ufo: STR_HK_FIGHTER_1
         count: 1
         trajectory: T8
         timer: 10
         huntBehavior: 1
         huntMode: 0
-        huntSpeed: 100
         escort: true  
   - type: STR_SKYNET_TERMINATION_3
     points: 0
@@ -562,7 +553,6 @@ alienMissions:
         huntBehavior: 0
         hunterKillerPercentage: 50
         huntMode: 0
-        huntSpeed: 100
       - ufo: STR_HK_FIGHTER_1
         count: 1
         trajectory: T8
@@ -570,14 +560,12 @@ alienMissions:
         huntBehavior: 2
         hunterKillerPercentage: 100
         huntMode: 0
-        huntSpeed: 100
       - ufo: STR_HK_FIGHTER_1
         count: 1
         trajectory: T8
         timer: 0
         huntBehavior: 1
         huntMode: 0
-        huntSpeed: 100
         escort: true  
   - type: STR_SKYNET_TERMINATION_4
     points: 0
@@ -612,12 +600,10 @@ alienMissions:
         timer: 3000
         huntBehavior: 1
         hunterKillerPercentage: 100
-        huntSpeed: 50
       - ufo: STR_HK_FIGHTER_2
         count: 1
         trajectory: T8
         timer: 0
-        huntSpeed: 70
         escort: true
 #Workcamp Missions
 ##All of these missions generate negative score if completed successfully by Skynet
@@ -794,14 +780,12 @@ alienMissions:
         timer: 0
         huntMode: 0
         huntBehavior: 1
-        huntSpeed: 100
       - ufo: STR_HK_INTERCEPTOR_1
         count: 1
         trajectory: T0
         timer: 0
         huntMode: 0
         huntBehavior: 1
-        huntSpeed: 90
   - type: STR_SKYNET_INTERCEPTION_2
     points: 0
     objective: 4
@@ -835,14 +819,12 @@ alienMissions:
         timer: 0
         huntMode: 0
         huntBehavior: 1
-        huntSpeed: 100
       - ufo: STR_HK_INTERCEPTOR_1
         count: 1
         trajectory: T0
         timer: 10
         huntMode: 1
         huntBehavior: 1
-        huntSpeed: 90
   - type: STR_SKYNET_INTERCEPTION_3
     points: 0
     objective: 4
@@ -876,21 +858,18 @@ alienMissions:
         timer: 0
         huntMode: 0
         huntBehavior: 1
-        huntSpeed: 100
       - ufo: STR_HK_INTERCEPTOR_1
         count: 1
         trajectory: T0
         timer: 10
         huntMode: 1
         huntBehavior: 1
-        huntSpeed: 95
       - ufo: STR_HK_INTERCEPTOR_1
         count: 1
         trajectory: T0
         timer: 0
         huntMode: 0
         huntBehavior: 1
-        huntSpeed: 90
   - type: STR_SKYNET_INTERCEPTION_4
     points: 0
     objective: 4
@@ -924,21 +903,18 @@ alienMissions:
         timer: 0
         huntMode: 0
         huntBehavior: 1
-        huntSpeed: 100
       - ufo: STR_HK_INTERCEPTOR_1
         count: 1
         trajectory: T0
         timer: 10
         huntMode: 1
         huntBehavior: 1
-        huntSpeed: 95
       - ufo: STR_HK_INTERCEPTOR_1
         count: 1
         trajectory: T0
         timer: 0
         huntMode: 0
         huntBehavior: 1
-        huntSpeed: 90
   - type: STR_SKYNET_INTERCEPTION_CORE
     points: 0
     objective: 4
@@ -972,21 +948,18 @@ alienMissions:
         timer: 0
         huntMode: 0
         huntBehavior: 1
-        huntSpeed: 100
       - ufo: STR_HK_FIGHTER_2
         count: 1
         trajectory: T0
         timer: 10
         huntMode: 1
         huntBehavior: 1
-        huntSpeed: 95
       - ufo: STR_HK_FIGHTER_2
         count: 1
         trajectory: T0
         timer: 0
         huntMode: 0
         huntBehavior: 1
-        huntSpeed: 90
 #Scripted Missions
   - type: STR_SKYNET_PATROL_START
     points: 0
@@ -1022,7 +995,6 @@ alienMissions:
         hunterKillerPercentage: 100
         huntMode: 0
         huntBehavior: 0
-        huntSpeed: 90
       - ufo: STR_HK_FIGHTER_1
         count: 1
         trajectory: T0
@@ -1030,7 +1002,6 @@ alienMissions:
         hunterKillerPercentage: 100
         huntMode: 0
         huntBehavior: 0
-        huntSpeed: 90
   - type: STR_SKYNET_RETRIBUTION
     points: 0
     targetBaseOdds: 100

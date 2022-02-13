@@ -9,8 +9,24 @@ missionScripts:
   - delete: veteranRetaliation
   - delete: geniusRetaliation
   - delete: superhumanRetaliation
-#Skynet Core can be placed anywhere except on Antarctica/Arctic, including the region containing the starting Tech-Comm base
-  - type: gameStartSkynetCore
+  - type: gameAIChainHome
+    missionWeights:
+      0:
+        STR_SKYNET_PATROL_START: 10
+    raceWeights:
+      0:
+        STR_T600: 100
+    startDelay: 120
+    useTable: false
+    varName: startpatrol
+  - type: gameAITrojanHorse
+    missionWeights:
+      0:
+        STR_SKYNET_TERMINATION_1: 100
+    targetBaseOdds: 100
+    startDelay: 150
+    useTable: false
+  - type: gameAISkynet
     missionWeights:
       0:
         STR_SKYNET_BASE_CORE: 10
@@ -30,8 +46,31 @@ missionScripts:
     lastMonth: 0
     targetBaseOdds: 0
     varName: startcore
-#All regions get 1 starting HK base
-  - type: gameStartHKBaseAS
+  - type: gameAIDeadHand
+    missionWeights:
+      0:
+        STR_SKYNET_BASE_MISSILE: 10
+    regionWeights:
+      0:
+        STR_ASIA: 16
+        STR_AFRICA: 12
+        STR_EUROPE: 16 
+        STR_NORTH_AMERICA: 14
+        STR_SOUTH_AMERICA: 12
+        STR_OCEANIA: 10
+        STR_ARCTIC: 5
+        STR_ANTARCTIC: 5
+    raceWeights:
+      0:
+        STR_T800: 100
+    startDelay: 120
+    useTable: false
+    firstMonth: 0
+    maxRuns: 1
+    targetBaseOdds: 0
+    varName: startdeadhand
+
+  - type: gameAISpiderWebAS
     missionWeights:
       0:
         STR_SKYNET_BASE_HKBASE: 10
@@ -44,7 +83,7 @@ missionScripts:
         STR_T600: 100
     useTable: false
     varName: starthkbaseAS
-  - type: gameStartHKBaseAF
+  - type: gameAISpiderWebAF
     missionWeights:
       0:
         STR_SKYNET_BASE_HKBASE: 10
@@ -58,7 +97,7 @@ missionScripts:
         STR_T600: 100
     useTable: false
     varName: starthkbaseAF
-  - type: gameStartHKBaseNA
+  - type: gameAISpiderWebNA
     missionWeights:
       0:
         STR_SKYNET_BASE_HKBASE: 10
@@ -72,7 +111,7 @@ missionScripts:
         STR_T600: 100
     useTable: false
     varName: starthkbaseNA
-  - type: gameStartHKBaseSA
+  - type: gameAISpiderWebSA
     missionWeights:
       0:
         STR_SKYNET_BASE_HKBASE: 10
@@ -86,7 +125,7 @@ missionScripts:
         STR_T600: 100
     useTable: false
     varName: starthkbaseSA
-  - type: gameStartHKBaseEU
+  - type: gameAISpiderWebEU
     missionWeights:
       0:
         STR_SKYNET_BASE_HKBASE: 10
@@ -100,7 +139,7 @@ missionScripts:
         STR_T600: 100
     useTable: false
     varName: starthkbaseEU
-  - type: gameStartHKBaseOC
+  - type: gameAISpiderWebOC
     missionWeights:
       0:
         STR_SKYNET_BASE_HKBASE: 10
@@ -114,7 +153,7 @@ missionScripts:
         STR_T600: 100
     useTable: false
     varName: starthkbaseOC
-  - type: gameStartHKBaseAR
+  - type: gameAISpiderWebAR
     missionWeights:
       0:
         STR_SKYNET_BASE_HKBASE: 10
@@ -128,7 +167,7 @@ missionScripts:
         STR_T600: 100
     useTable: false
     varName: starthkbaseAR
-  - type: gameStartHKBaseAN
+  - type: gameAISpiderWebAN
     missionWeights:
       0:
         STR_SKYNET_BASE_HKBASE: 10
@@ -136,24 +175,13 @@ missionScripts:
     maxRuns: 1
     regionWeights:
       0:
-        STR_ANTARCTICA: 10
+        STR_ANTARCTIC: 10
     raceWeights:
       0:
         STR_T600: 100
     useTable: false
     varName: starthkbaseAN
-#Starting factory placed on any region
-#1 factory is placed each month on any region (except Arctic/Antarctica), starting on February
-#Factories only generate 6 workcamps or HK bases
-  - type: gameStartFactory
-    missionWeights:
-      0:
-        STR_SKYNET_BASE_FACTORY: 10
-    startDelay: 0
-    maxRuns: 1
-    useTable: true
-    varName: startingfactory
-  - type: gameExpansionFactory
+  - type: gameAIGreatWall
     missionWeights:
       0:
         STR_SKYNET_BASE_FACTORY: 10
@@ -161,8 +189,7 @@ missionScripts:
     startDelay: 0
     useTable: true
     varName: expansionfactory
-#Research facilities are built as Skynet escalates its activities
-  - type: gameExpansionResearch
+  - type: gameAILighthouse
     missionWeights:
       0:
         STR_SKYNET_BASE_LAB: 10
@@ -181,394 +208,278 @@ missionScripts:
     firstMonth: 3
     useTable: true
     varName: expansionlab
-#1 abandoned base is placed at starting region, then each region, except Arctic/Antarctica
-  - type: gameStartAbandonedBase
-    maxRuns: 1
-    missionWeights:
-      0:
-        STR_ABANDONED_BASE: 100
-    targetBaseOdds: 100
-    raceWeights:
-      0:
-        STR_T600: 100
-    useTable: true
-    varName: StartAbandonedBase
-  - type: gameAbandonedBase
-    firstMonth: 1
-    regionWeights:
-      0:
-        STR_NORTH_AMERICA: 20
-        STR_SOUTH_AMERICA: 10
-        STR_EUROPE: 15
-        STR_AFRICA: 10
-        STR_ASIA: 15
-        STR_OCEANIA: 10
-    missionWeights:
-      0:
-        STR_ABANDONED_BASE: 100
-    raceWeights:
-      0:
-        STR_T600: 100
-    varName: AbandonedBase
-#Initial Skynet HK patrol and workcamp in starting region (let the air war begin)
-  - type: gameStartPatrol
-    missionWeights:
-      0:
-        STR_SKYNET_PATROL_START: 10
-    raceWeights:
-      0:
-        STR_T600: 100
-    targetBaseOdds: 100
-    maxRuns: 1
-    startDelay: 120
-    useTable: false
-    varName: startpatrol
-#Missile Base (Dead Hand AI) activates on month 1 (will be set for later)
-  - type: gameActivateDeadHand
-    missionWeights:
-      0:
-        STR_SKYNET_BASE_MISSILE: 10
-    regionWeights:
-      0:
-        STR_ASIA: 16
-        STR_AFRICA: 12
-        STR_EUROPE: 16 
-        STR_NORTH_AMERICA: 14
-        STR_SOUTH_AMERICA: 12
-        STR_OCEANIA: 10
-        STR_ARCTIC: 5
-        STR_ANTARCTICA: 5
-    raceWeights:
-      0:
-        STR_T800: 100
-    startDelay: 120
-    useTable: false
-    firstMonth: 1
-    maxRuns: 1
-    targetBaseOdds: 0
-    varName: startcore
-#Resistance Missions
-##Are spawned in the month after they are researched
-##Random Recover Tech or Extract Comms mission
-##TO DO: Change sector order since spawning is sequential and only 1 mission can be spawned per month
-##Use them to Replace the ExpansionResearch missions?
   - type: researchSector00
     missionWeights:
       0:
-        STR_RESISTANCE_MISSION_1: 10
+        STR_ABANDONED_BASE: 100
     regionWeights:
       0:
-        SECTOR_00: 10
+        SECTOR_ARCTIC: 10
     researchTriggers:
       STR_SECTOR_00_COM: true
-    label: 0
     maxRuns: 1
     useTable: false
     varName: sector00
   - type: researchSector01
     missionWeights:
       0:
-        STR_RESISTANCE_MISSION_1: 10
+        STR_ABANDONED_BASE: 100
     regionWeights:
       0:
-        SECTOR_01: 10
+        STR_ARCTIC: 10
     researchTriggers:
       STR_SECTOR_01_COMM: true
-    label: 1
-    conditionals: [0]
     maxRuns: 1
     useTable: false
     varName: sector01
   - type: researchSector02
     missionWeights:
       0:
-        STR_RESISTANCE_MISSION_1: 10
+        STR_ABANDONED_BASE: 100
     regionWeights:
       0:
-        SECTOR_02: 10
+        STR_NORTH_AMERICA: 100
     researchTriggers:
       STR_SECTOR_02_COMM: true
-    label: 2
-    conditionals: [0, 1]
     maxRuns: 1
     useTable: false
     varName: sector02
   - type: researchSector03
     missionWeights:
       0:
-        STR_RESISTANCE_MISSION_1: 10
+        STR_ABANDONED_BASE: 100
     regionWeights:
       0:
-        SECTOR_03: 10
+        STR_NORTH_AMERICA: 100
     researchTriggers:
       STR_SECTOR_03_COMM: true
-    label: 3
-    conditionals: [0, 1, 2]
     maxRuns: 1
     useTable: false
     varName: sector03
   - type: researchSector04
     missionWeights:
       0:
-        STR_RESISTANCE_MISSION_1: 10
+        STR_ABANDONED_BASE: 100
     regionWeights:
       0:
-        SECTOR_04: 10
+        STR_SOUTH_AMERICA: 100
     researchTriggers:
       STR_SECTOR_04_COMM: true
-    label: 4
-    conditionals: [0, 1, 2, 3]
     maxRuns: 1
     useTable: false
     varName: sector04
   - type: researchSector05
     missionWeights:
       0:
-        STR_RESISTANCE_MISSION_1: 10
+        STR_ABANDONED_BASE: 100
     regionWeights:
       0:
-        SECTOR_05: 10
+        STR_SOUTH_AMERICA: 100
     researchTriggers:
       STR_SECTOR_05_COMM: true
-    label: 5
-    conditionals: [0, 1, 2, 3, 4]
     maxRuns: 1
     useTable: false
     varName: sector05
   - type: researchSector06
     missionWeights:
       0:
-        STR_RESISTANCE_MISSION_1: 10
+        STR_ABANDONED_BASE: 100
     regionWeights:
       0:
-        SECTOR_06: 10
+        STR_EUROPE: 100
     researchTriggers:
       STR_SECTOR_06_COMM: true
-    label: 6
-    conditionals: [0, 1, 2, 3, 4, 5]
     maxRuns: 1
     useTable: false
     varName: sector06
   - type: researchSector07
     missionWeights:
       0:
-        STR_RESISTANCE_MISSION_1: 10
+        STR_ABANDONED_BASE: 100
     regionWeights:
       0:
-        SECTOR_07: 10
+        STR_EUROPE: 100
     researchTriggers:
       STR_SECTOR_07_COMM: true
-    label: 7
-    conditionals: [0, 1, 2, 3, 4, 5, 6]
     maxRuns: 1
     useTable: false
     varName: sector07
   - type: researchSector08
     missionWeights:
       0:
-        STR_RESISTANCE_MISSION_1: 10
+        STR_ABANDONED_BASE: 100
     regionWeights:
       0:
-        SECTOR_08: 10
+        STR_ASIA: 100
     researchTriggers:
       STR_SECTOR_08_COMM: true
-    label: 8
-    conditionals: [0, 1, 2, 3, 4, 5, 6, 7]
     maxRuns: 1
     useTable: false
     varName: sector08
   - type: researchSector09
     missionWeights:
       0:
-        STR_RESISTANCE_MISSION_1: 10
+        STR_ABANDONED_BASE: 100
     regionWeights:
       0:
-        SECTOR_09: 10
+        STR_ASIA: 100
     researchTriggers:
       STR_SECTOR_09_COMM: true
-    label: 9
-    conditionals: [0, 1, 2, 3, 4, 5, 6, 7, 8]
     maxRuns: 1
     useTable: false
     varName: sector09
   - type: researchSector10
     missionWeights:
       0:
-        STR_RESISTANCE_MISSION_1: 10
+        STR_ABANDONED_BASE: 100
     regionWeights:
       0:
-        SECTOR_10: 10
+        STR_AFRICA: 100
     researchTriggers:
       STR_SECTOR_10_COMM: true
-    label: 10
-    conditionals: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
     maxRuns: 1
     useTable: false
     varName: sector10
   - type: researchSector11
     missionWeights:
       0:
-        STR_RESISTANCE_MISSION_1: 10
+        STR_ABANDONED_BASE: 100
     regionWeights:
       0:
-        SECTOR_11: 10
+        STR_AFRICA: 100
     researchTriggers:
       STR_SECTOR_11_COMM: true
-    label: 11
-    conditionals: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
     maxRuns: 1
     useTable: false
     varName: sector11
   - type: researchSector12
     missionWeights:
       0:
-        STR_RESISTANCE_MISSION_1: 10
+        STR_ABANDONED_BASE: 100
     regionWeights:
       0:
-        SECTOR_12: 10
+        STR_AFRICA: 100
     researchTriggers:
       STR_SECTOR_12_COMM: true
-    label: 12
-    conditionals: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
     maxRuns: 1
     useTable: false
     varName: sector12
   - type: researchSector13
     missionWeights:
       0:
-        STR_RESISTANCE_MISSION_1: 10
+        STR_ABANDONED_BASE: 100
     regionWeights:
       0:
-        SECTOR_13: 10
+        STR_ASIA: 100
     researchTriggers:
       STR_SECTOR_13_COMM: true
-    label: 13
-    conditionals: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
     maxRuns: 1
     useTable: false
     varName: sector13
   - type: researchSector14
     missionWeights:
       0:
-        STR_RESISTANCE_MISSION_1: 10
+        STR_ABANDONED_BASE: 100
     regionWeights:
       0:
-        SECTOR_14: 10
+        STR_ASIA: 100
     researchTriggers:
       STR_SECTOR_14_COMM: true
-    label: 14
-    conditionals: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
     maxRuns: 1
     useTable: false
     varName: sector14
   - type: researchSector15
     missionWeights:
       0:
-        STR_RESISTANCE_MISSION_1: 10
+        STR_ABANDONED_BASE: 100
     regionWeights:
       0:
-        SECTOR_15: 10
+        STR_ASIA: 100
     researchTriggers:
       STR_SECTOR_15_COMM: true
-    label: 15
-    conditionals: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
     maxRuns: 1
     useTable: false
     varName: sector15
   - type: researchSector16
     missionWeights:
       0:
-        STR_RESISTANCE_MISSION_1: 10
+        STR_ABANDONED_BASE: 100
     regionWeights:
       0:
-        SECTOR_16: 10
+        STR_ASIA: 100
     researchTriggers:
       STR_SECTOR_16_COMM: true
-    label: 16
-    conditionals: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
     maxRuns: 1
     useTable: false
     varName: sector16
   - type: researchSector17
     missionWeights:
       0:
-        STR_RESISTANCE_MISSION_1: 10
+        STR_ABANDONED_BASE: 100
     regionWeights:
       0:
-        SECTOR_17: 10
+        STR_ASIA: 100
     researchTriggers:
       STR_SECTOR_17_COMM: true
-    label: 17
-    conditionals: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
     maxRuns: 1
     useTable: false
     varName: sector17
   - type: researchSector18
     missionWeights:
       0:
-        STR_RESISTANCE_MISSION_1: 10
+        STR_ABANDONED_BASE: 100
     regionWeights:
       0:
-        SECTOR_18: 10
+        STR_OCEANIA: 100
     researchTriggers:
       STR_SECTOR_18_COMM: true
-    label: 18
-    conditionals: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]
     maxRuns: 1
     useTable: false
     varName: sector18
   - type: researchSector19
     missionWeights:
       0:
-        STR_RESISTANCE_MISSION_1: 10
+        STR_ABANDONED_BASE: 100
     regionWeights:
       0:
-        SECTOR_19: 10
+        STR_OCEANIA: 100
     researchTriggers:
       STR_SECTOR_19_COMM: true
-    label: 19
-    conditionals: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
     maxRuns: 1
     useTable: false
     varName: sector19
   - type: researchSector20
     missionWeights:
       0:
-        STR_RESISTANCE_MISSION_1: 10
+        STR_ABANDONED_BASE: 100
     regionWeights:
       0:
-        SECTOR_20: 10
+        STR_OCEANIA: 100
     researchTriggers:
       STR_SECTOR_20_COMM: true
-    label: 20
-    conditionals: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
     maxRuns: 1
     useTable: false
     varName: sector20
   - type: researchSector21
     missionWeights:
       0:
-        STR_RESISTANCE_MISSION_1: 10
+        STR_ABANDONED_BASE: 100
     regionWeights:
       0:
-        SECTOR_21: 10
+        STR_ANTARCTIC: 10
     researchTriggers:
       STR_SECTOR_21_COMM: true
-    label: 21
-    conditionals: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
     maxRuns: 1
     useTable: false
     varName: sector21
-# Skynet Pacification are attacks against Resistance targets
-## 1st mission has 100/100 chance spawning and being on Tech-Comm base region, 2nd has 66/50 and activates on February, 3rd has 50/0 and activates on March
-  - type: gamePacification1
+  - type: gameAIPacification
     missionWeights:
       0:
         STR_SKYNET_PACIFICATION: 10
     targetBaseOdds: 100
     useTable: false
-    varName: missionSite
-  - type: gamePacification2
+    varName: missionSite1
+  - type: gameAIInfiltration
     missionWeights:
       0:
         STR_SKYNET_PACIFICATION: 10
@@ -576,27 +487,32 @@ missionScripts:
     executionOdds: 66
     useTable: false
     firstMonth: 1
-    varName: missionSite
-  - type: gamePacification3
+    varName: missionSite2
+  - type: gameAITermination
     executionOdds: 50
     missionWeights:
       0:
         STR_SKYNET_PACIFICATION: 10
     firstMonth: 2
     useTable: false
-    varName: missionSite
+    varName: missionSite3
+#Skynet Core can be placed anywhere except on Antarctica/Arctic, including the region containing the starting Tech-Comm base
+#All regions get 1 starting HK base
+#Starting factory placed on any region
+#1 factory is placed each month on any region (except Arctic/Antarctica), starting on February
+#Factories only generate 6 workcamps or HK bases
+#Research facilities are built as Skynet escalates its activities
+#Missile Base (Dead Hand AI) activates on month 1 (will be set for later)
+#1 abandoned base is placed at starting region, then each region, except Arctic/Antarctica
+#Resistance Missions
+##Are spawned in the month after they are researched
+##Random Recover Tech or Extract Comms mission
+##TO DO: Change sector order since spawning is sequential and only 1 mission can be spawned per month
+##Use them to Replace the ExpansionResearch missions?
+#Initial Skynet HK patrol and workcamp in starting region (let the air war begin)
+# Skynet Pacification are attacks against Resistance targets
+## 1st mission has 100/100 chance spawning and being on Tech-Comm base region, 2nd has 66/50 and activates on February, 3rd has 50/0 and activates on March
 #Resistance Orders are objective briefings given to the player in Geoscape (they also become available on the Intelpedia)
-  - type: gameResistanceOrder1
-    missionWeights:
-      0:
-        STR_RESISTANCE_MESSAGE: 10
-    targetBaseOdds: 100
-    raceWeights:
-      0:
-        STR_T600: 100
-    startDelay: 1
-    useTable: false
-    lastMonth: 0
 #Idea: Infiltration/strike mission against Tech-Comm bases - when the HK/missile hits the base is immediately removed, like undefended bases. If the HK is detected, the base still fires its defenses at the attacker
 #Idea: flag for game to use the region with maximum TechComm activity when selecting regions for missions
 #Idea: SAM Base, fires missiles at Tech-Comm craft (needs several new features)

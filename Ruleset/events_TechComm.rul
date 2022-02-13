@@ -1,0 +1,1033 @@
+events:
+  - name: STR_RESISTANCE_MESSAGE
+    description: STR_RESISTANCE_MESSAGE_ALERT
+    background: BACK15.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    points: 0
+    timer: 0
+    timerRandom: 0
+  - name: STR_SKYNET_PROPAGANDA_00
+    description: STR_SKYNET_PROPAGANDA_00_MESSAGE
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SKYNET_PROPAGANDA_01
+    description: STR_SKYNET_PROPAGANDA_01_MESSAGE
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SKYNET_PROPAGANDA_02
+    description: STR_SKYNET_PROPAGANDA_02_MESSAGE
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SKYNET_PROPAGANDA_03
+    description: STR_SKYNET_PROPAGANDA_03_MESSAGE
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SKYNET_PROPAGANDA_04
+    description: STR_SKYNET_PROPAGANDA_04_MESSAGE
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SKYNET_PROPAGANDA_05
+    description: STR_SKYNET_PROPAGANDA_05_MESSAGE
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SKYNET_PROPAGANDA_06
+    description: STR_SKYNET_PROPAGANDA_06_MESSAGE
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SKYNET_PROPAGANDA_07
+    description: STR_SKYNET_PROPAGANDA_07_MESSAGE
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SKYNET_PROPAGANDA_08
+    description: STR_SKYNET_PROPAGANDA_08_MESSAGE
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SKYNET_PROPAGANDA_09
+    description: STR_SKYNET_PROPAGANDA_09_MESSAGE
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SKYNET_PROPAGANDA_10
+    description: STR_SKYNET_PROPAGANDA_10_MESSAGE
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SKYNET_PROPAGANDA_11
+    description: STR_SKYNET_PROPAGANDA_11_MESSAGE
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SKYNET_PROPAGANDA_12
+    description: STR_SKYNET_PROPAGANDA_12_MESSAGE
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SKYNET_PROPAGANDA_13
+    description: STR_SKYNET_PROPAGANDA_13_MESSAGE
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SKYNET_PROPAGANDA_14
+    description: STR_SKYNET_PROPAGANDA_14_MESSAGE
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SKYNET_PROPAGANDA_15
+    description: STR_SKYNET_PROPAGANDA_15_MESSAGE
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SKYNET_PROPAGANDA_16
+    description: STR_SKYNET_PROPAGANDA_16_MESSAGE
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SKYNET_PROPAGANDA_17
+    description: STR_SKYNET_PROPAGANDA_17_MESSAGE
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SKYNET_PROPAGANDA_18
+    description: STR_SKYNET_PROPAGANDA_18_MESSAGE
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SKYNET_PROPAGANDA_19
+    description: STR_SKYNET_PROPAGANDA_19_MESSAGE
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SKYNET_PROPAGANDA_20
+    description: STR_SKYNET_PROPAGANDA_20_MESSAGE
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SKYNET_PROPAGANDA_21
+    description: STR_SKYNET_PROPAGANDA__21_MESSAGE
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SKYNET_PROPAGANDA_22
+    description: STR_SKYNET_PROPAGANDA_22_MESSAGE
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SKYNET_PROPAGANDA_23
+    description: STR_SKYNET_PROPAGANDA_23_MESSAGE
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SKYNET_PROPAGANDA_24
+    description: STR_SKYNET_PROPAGANDA_24_MESSAGE
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SKYNET_PROPAGANDA_25
+    description: STR_SKYNET_PROPAGANDA_25_MESSAGE
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SKYNET_PROPAGANDA_26
+    description: STR_SKYNET_PROPAGANDA_26_MESSAGE
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SKYNET_PROPAGANDA_27
+    description: STR_SKYNET_PROPAGANDA_27_MESSAGE
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SKYNET_PROPAGANDA_28
+    description: STR_SKYNET_PROPAGANDA_28_MESSAGE
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SKYNET_PROPAGANDA_29
+    description: STR_SKYNET_PROPAGANDA_29_MESSAGE
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SKYNET_PROPAGANDA_30
+    description: STR_SKYNET_PROPAGANDA_30_MESSAGE
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_RESISTANCE_ALERT00
+    description: STR_RESISTANCE_ALERT00_MESSAGE
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_RESISTANCE_ALERT01
+    description: STR_RESISTANCE_ALERT01_MESSAGE
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_RESISTANCE_ALERT02
+    description: STR_RESISTANCE_ALERT02_MESSAGE
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_RESISTANCE_ALERT03
+    description: STR_RESISTANCE_ALERT03_MESSAGE
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_RESISTANCE_ALERT04
+    description: STR_RESISTANCE_ALERT04_MESSAGE
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_RESISTANCE_ALERT05
+    description: STR_RESISTANCE_ALERT05_MESSAGE
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_RESISTANCE_ALERT06
+    description: STR_RESISTANCE_ALERT06_MESSAGE
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_RESISTANCE_ALERT07
+    description: STR_RESISTANCE_ALERT07_MESSAGE
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_RESISTANCE_ALERT08
+    description: STR_RESISTANCE_ALERT08_MESSAGE
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_RESISTANCE_ALERT09
+    description: STR_RESISTANCE_ALERT09_MESSAGE
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_RESISTANCE_ALERT10
+    description: STR_RESISTANCE_ALERT10_MESSAGE
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_RESISTANCE_ALERT11
+    description: STR_RESISTANCE_ALERT11_MESSAGE
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_RESISTANCE_ALERT12
+    description: STR_RESISTANCE_ALERT12_MESSAGE
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_RESISTANCE_ALERT13
+    description: STR_RESISTANCE_ALERT13_MESSAGE
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_RESISTANCE_ALERT14
+    description: STR_RESISTANCE_ALERT14_MESSAGE
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_RESISTANCE_ALERT15
+    description: STR_RESISTANCE_ALERT15_MESSAGE
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_RESISTANCE_ALERT16
+    description: STR_RESISTANCE_ALERT16_MESSAGE
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_RESISTANCE_ALERT17
+    description: STR_RESISTANCE_ALERT17_MESSAGE
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_RESISTANCE_ALERT18
+    description: STR_RESISTANCE_ALERT18_MESSAGE
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_RESISTANCE_ALERT19
+    description: STR_RESISTANCE_ALERT19_MESSAGE
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_RESISTANCE_ALERT20
+    description: STR_RESISTANCE_ALERT20_MESSAGE
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_RESISTANCE_ALERT21
+    description: STR_RESISTANCE_ALERT21_MESSAGE
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_RESISTANCE_ALERT22
+    description: STR_RESISTANCE_ALERT22_MESSAGE
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_RESISTANCE_ALERT23
+    description: STR_RESISTANCE_ALERT23_MESSAGE
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_RESISTANCE_ALERT24
+    description: STR_RESISTANCE_ALERT24_MESSAGE
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_RESISTANCE_ALERT25
+    description: STR_RESISTANCE_ALERT25_MESSAGE
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_RESISTANCE_ALERT26
+    description: STR_RESISTANCE_ALERT26_MESSAGE
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_RESISTANCE_ALERT27
+    description: STR_RESISTANCE_ALERT27_MESSAGE
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_RESISTANCE_ALERT28
+    description: STR_RESISTANCE_ALERT28_MESSAGE
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_RESISTANCE_ALERT29
+    description: STR_RESISTANCE_ALERT29_MESSAGE
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_RESISTANCE_ALERT30
+    description: STR_RESISTANCE_ALERT30_MESSAGE
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_00_COMM_1
+    description: STR_SECTOR_00_COMM_1_ALERT
+    background: BACK15.SCR
+    regionList: [STR_ARCTIC]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_00_COMM_2
+    description: STR_SECTOR_00_COMM_2_ALERT
+    background: BACK15.SCR
+    regionList: [SECTOR_00]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_00_COMM_3
+    description: STR_SECTOR_00_COMM_3_ALERT
+    background: BACK15.SCR
+    regionList: [SECTOR_00]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_01_COMM_1
+    description: STR_SECTOR_01_COMM_1_ALERT
+    background: BACK15.SCR
+    regionList: [SECTOR_01]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_01_COMM_2
+    description: STR_SECTOR_01_COMM_2_ALERT
+    background: BACK15.SCR
+    regionList: [SECTOR_01]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_01_COMM_3
+    description: STR_SECTOR_01_COMM_3_ALERT
+    background: BACK15.SCR
+    regionList: [SECTOR_01]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_02_COMM_1
+    description: STR_SECTOR_02_COMM_1_ALERT
+    background: BACK15.SCR
+    regionList: [SECTOR_02]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_02_COMM_2
+    description: STR_SECTOR_02_COMM_2_ALERT
+    background: BACK15.SCR
+    regionList: [SECTOR_02]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_02_COMM_3
+    description: STR_SECTOR_02_COMM_3_ALERT
+    background: BACK15.SCR
+    regionList: [SECTOR_02]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_03_COMM_1
+    description: STR_SECTOR_03_COMM_1_UFOPEDIA
+    background: BACK15.SCR
+    regionList: [SECTOR_03]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_03_COMM_2
+    description: STR_SECTOR_03_COMM_2_ALERT
+    background: BACK15.SCR
+    regionList: [SECTOR_03]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_03_COMM_3
+    description: STR_SECTOR_03_COMM_3_ALERT
+    background: BACK15.SCR
+    regionList: [SECTOR_03]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_04_COMM_1
+    description: STR_SECTOR_04_COMM_1_ALERT
+    background: BACK15.SCR
+    regionList: [SECTOR_04]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_04_COMM_2
+    description: STR_SECTOR_04_COMM_2_ALERT
+    background: BACK15.SCR
+    regionList: [SECTOR_04]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_04_COMM_3
+    description: STR_SECTOR_04_COMM_3_ALERT
+    background: BACK15.SCR
+    regionList: [SECTOR_04]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_05_COMM_1
+    description: STR_SECTOR_05_COMM_1_ALERT
+    background: BACK15.SCR
+    regionList: [SECTOR_05]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_05_COMM_2
+    description: STR_SECTOR_05_COMM_2_ALERT
+    background: BACK15.SCR
+    regionList: [SECTOR_05]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_05_COMM_3
+    description: STR_SECTOR_05_COMM_3_ALERT
+    background: BACK15.SCR
+    regionList: [SECTOR_05]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_06_COMM_1
+    description: STR_SECTOR_06_COMM_1_ALERT
+    background: BACK15.SCR
+    regionList: [SECTOR_06]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_06_COMM_2
+    description: STR_SECTOR_06_COMM_2_ALERT
+    background: BACK15.SCR
+    regionList: [SECTOR_06]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_06_COMM_3
+    description: STR_SECTOR_06_COMM_3_ALERT
+    background: BACK15.SCR
+    regionList: [SECTOR_06]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_07_COMM_1
+    description: STR_SECTOR_07_COMM_1_ALERT
+    background: BACK15.SCR
+    regionList: [SECTOR_07]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_07_COMM_2
+    description: STR_SECTOR_07_COMM_2_ALERT
+    background: BACK15.SCR
+    regionList: [SECTOR_07]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_07_COMM_3
+    description: STR_SECTOR_07_COMM_3_ALERT
+    background: BACK15.SCR
+    regionList: [SECTOR_07]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_08_COMM_1
+    description: STR_SECTOR_08_COMM_1_ALERT
+    background: BACK15.SCR
+    regionList: [SECTOR_08]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_08_COMM_2
+    description: STR_SECTOR_08_COMM_2_ALERT
+    background: BACK15.SCR
+    regionList: [SECTOR_08]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_08_COMM_3
+    description: STR_SECTOR_08_COMM_3_ALERT
+    background: BACK15.SCR
+    regionList: [SECTOR_08]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_09_COMM_1
+    description: STR_SECTOR_09_COMM_1_ALERT
+    background: BACK15.SCR
+    regionList: [SECTOR_09]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_09_COMM_2
+    description: STR_SECTOR_09_COMM_2_ALERT
+    background: BACK15.SCR
+    regionList: [SECTOR_09]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_09_COMM_3
+    description: STR_SECTOR_09_COMM_3_ALERT
+    background: BACK15.SCR
+    regionList: [SECTOR_09]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_10_COMM_1
+    description: STR_SECTOR_10_COMM_1_ALERT
+    background: BACK15.SCR
+    regionList: [SECTOR_10]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_10_COMM_2
+    description: STR_SECTOR_10_COMM_2_ALERT
+    background: BACK15.SCR
+    regionList: [SECTOR_10]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_10_COMM_3
+    description: STR_SECTOR_10_COMM_3_ALERT
+    background: BACK15.SCR
+    regionList: [SECTOR_10]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_11_COMM_1
+    description: STR_SECTOR_11_COMM_1_ALERT
+    background: BACK15.SCR
+    regionList: [SECTOR_11]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_11_COMM_2
+    description: STR_SECTOR_11_COMM_2_ALERT
+    background: BACK15.SCR
+    regionList: [SECTOR_11]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_11_COMM_3
+    description: STR_SECTOR_11_COMM_3_ALERT
+    background: BACK15.SCR
+    regionList: [SECTOR_11]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_12_COMM_1
+    description: STR_SECTOR_12_COMM_1_ALERT
+    background: BACK15.SCR
+    regionList: [SECTOR_12]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_12_COMM_2
+    description: STR_SECTOR_12_COMM_2_ALERT
+    background: BACK15.SCR
+    regionList: [SECTOR_12]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_12_COMM_3
+    description: STR_SECTOR_12_COMM_3_ALERT
+    background: BACK15.SCR
+    regionList: [SECTOR_12]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_13_COMM_1
+    description: STR_SECTOR_13_COMM_1_ALERT
+    background: BACK15.SCR
+    regionList: [SECTOR_13]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_13_COMM_2
+    description: STR_SECTOR_13_COMM_2_ALERT
+    background: BACK15.SCR
+    regionList: [SECTOR_13]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_13_COMM_3
+    description: STR_SECTOR_13_COMM_3_ALERT
+    background: BACK15.SCR
+    regionList: [SECTOR_13]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_14_COMM_1
+    description: STR_SECTOR_14_COMM_1_ALERT
+    background: BACK15.SCR
+    regionList: [SECTOR_14]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_14_COMM_2
+    description: STR_SECTOR_14_COMM_2_ALERT
+    background: BACK15.SCR
+    regionList: [SECTOR_14]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_14_COMM_3
+    description: STR_SECTOR_14_COMM_3_ALERT
+    background: BACK15.SCR
+    regionList: [SECTOR_14]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_15_COMM_1
+    description: STR_SECTOR_15_COMM_1_ALERT
+    background: BACK15.SCR
+    regionList: [SECTOR_15]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_15_COMM_2
+    description: STR_SECTOR_15_COMM_2_ALERT
+    background: BACK15.SCR
+    regionList: [SECTOR_15]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_15_COMM_3
+    description: STR_SECTOR_15_COMM_3_ALERT
+    background: BACK15.SCR
+    regionList: [SECTOR_15]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_16_COMM_1
+    description: STR_SECTOR_16_COMM_1_ALERT
+    background: BACK15.SCR
+    regionList: [SECTOR_16]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_16_COMM_2
+    description: STR_SECTOR_16_COMM_2_ALERT
+    background: BACK15.SCR
+    regionList: [SECTOR_16]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_16_COMM_3
+    description: STR_SECTOR_16_COMM_3_ALERT
+    background: BACK15.SCR
+    regionList: [SECTOR_16]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_17_COMM_1
+    description: STR_SECTOR_17_COMM_1_ALERT
+    background: BACK15.SCR
+    regionList: [SECTOR_17]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_17_COMM_2
+    description: STR_SECTOR_17_COMM_2_ALERT
+    background: BACK15.SCR
+    regionList: [SECTOR_17]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_17_COMM_3
+    description: STR_SECTOR_17_COMM_3_ALERT
+    background: BACK15.SCR
+    regionList: [SECTOR_17]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_18_COMM_1
+    description: STR_SECTOR_18_COMM_1_ALERT
+    background: BACK15.SCR
+    regionList: [SECTOR_18]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_18_COMM_2
+    description: STR_SECTOR_18_COMM_2_ALERT
+    background: BACK15.SCR
+    regionList: [SECTOR_18]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_18_COMM_3
+    description: STR_SECTOR_18_COMM_3_ALERT
+    background: BACK15.SCR
+    regionList: [SECTOR_18]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_19_COMM_1
+    description: STR_SECTOR_19_COMM_1_ALERT
+    background: BACK15.SCR
+    regionList: [SECTOR_19]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_19_COMM_2
+    description: STR_SECTOR_19_COMM_2_ALERT
+    background: BACK15.SCR
+    regionList: [SECTOR_19]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_19_COMM_3
+    description: STR_SECTOR_19_COMM_3_ALERT
+    background: BACK15.SCR
+    regionList: [SECTOR_19]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_20_COMM_1
+    description: STR_SECTOR_20_COMM_1_ALERT
+    background: BACK15.SCR
+    regionList: [SECTOR_20]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_20_COMM_2
+    description: STR_SECTOR_20_COMM_2_ALERT
+    background: BACK15.SCR
+    regionList: [SECTOR_20]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_20_COMM_3
+    description: STR_SECTOR_20_COMM_3_ALERT
+    background: BACK15.SCR
+    regionList: [SECTOR_20]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_21_COMM_1
+    description: STR_SECTOR_21_COMM_1_ALERT
+    background: BACK15.SCR
+    regionList: [SECTOR_21]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_21_COMM_2
+    description: STR_SECTOR_21_COMM_2_ALERT
+    background: BACK15.SCR
+    regionList: [SECTOR_21]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_21_COMM_3
+    description: STR_SECTOR_21_COMM_3_ALERT
+    background: BACK15.SCR
+    regionList: [SECTOR_21]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800

@@ -1184,24 +1184,30 @@ extraSprites:
     files:
       0: Resources/Units/Inventory/INV_HUMAN_CHARACTER.png
 #BACKGROUND  
+  - type: BACK00.SCR #soldier
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Geoscape/BACK00.PNG
   - type: BACK02.SCR #soldier
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Geoscape/BACK02.PNG
+      0: Resources/Geoscape/BACK185.PNG
   - type: BACK04.SCR #fire
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Geoscape/BACK04.PNG
+      0: Resources/Geoscape/BACK185.PNG
   - type: BACK05.SCR #res
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Geoscape/BACK05.PNG
+      0: Resources/Geoscape/BACK185.PNG
   - type: BACK12.SCR
     singleImage: true
     width: 320
@@ -1213,13 +1219,13 @@ extraSprites:
     width: 320
     height: 200
     files:
-      0: Resources/Geoscape/BACK13.PNG
+      0: Resources/Geoscape/BACK185.PNG
   - type: BACK14.SCR #equip craft
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Geoscape/BACK14.PNG
+      0: Resources/Geoscape/BACK185.PNG
   - type: BACK15.SCR 
     singleImage: true
     width: 320
@@ -1231,13 +1237,13 @@ extraSprites:
     width: 320
     height: 200
     files:
-      0: Resources/Geoscape/BACK16.PNG
+      0: Resources/Geoscape/BACK185.PNG
   - type: BACK17.SCR #manufacture
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Geoscape/BACK17.PNG
+      0: Resources/Geoscape/BACK185.PNG
   - type: BACK01.SCR
     singleImage: true
     width: 320
@@ -1256,12 +1262,24 @@ extraSprites:
     height: 200
     files: 
       0: Resources/Geoscape/BACK186.PNG
+  - type: BACK183.SCR
+    singleImage: true
+    width: 320
+    height: 200
+    files: 
+      0: Resources/Geoscape/BACK183.PNG
   - type: BACK185.SCR
     singleImage: true
     width: 320
     height: 200
     files: 
       0: Resources/Geoscape/BACK185.PNG
+  - type: BACK186.SCR
+    singleImage: true
+    width: 320
+    height: 200
+    files: 
+      0: Resources/Geoscape/BACK186.PNG
   - type: BACK192.SCR
     singleImage: true
     width: 320
@@ -1301,6 +1319,7 @@ extraSprites:
       63: Resources/Craft/Warthog_base.gif   
       64: Resources/Craft/Bronco_base.gif   
       65: Resources/Craft/Dragonfly_base.gif  
+      66: Resources/Craft/BLACKBIRD_BASE_VIEW.gif  
       99: Resources/Craft/Dynavert_base.gif
       100: Resources/Craft/Goshawk_base.gif
       101: Resources/Craft/Guardrail_base.gif
@@ -1339,6 +1358,7 @@ extraSprites:
       30: Resources/Craft/Warthog_minimised.gif
       31: Resources/Craft/Bronco_minimised.gif
       32: Resources/Craft/Dragonfly_minimised.gif
+      33: Resources/Craft/BLACKBIRD_GEOSCAPE1.gif      
       66: Resources/Craft/Dynavert_minimised.gif
       67: Resources/Craft/Goshawk_minimised.gif
       68: Resources/Craft/Guardrail_minimised.gif
@@ -1357,6 +1377,7 @@ extraSprites:
       41: Resources/Craft/Warthog_dogfight.gif 
       42: Resources/Craft/Bronco_dogfight.gif	 
       43: Resources/Craft/Dragonfly_dogfight.gif
+      44: Resources/Craft/BLACKBIRD_GEOSCAPE2.gif 
       77: Resources/Craft/Dynavert_dogfight.gif
       78: Resources/Craft/Goshawk_dogfight.gif
       79: Resources/Craft/Guardrail_dogfight.gif

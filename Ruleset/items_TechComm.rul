@@ -32,7 +32,6 @@
 #Pistol/Rifle Fire Sound: 4
 #Conventional Weapon Damage Type: 1
 items:
-#<delete>
   - delete: STR_PISTOL
   - delete: STR_PISTOL_CLIP
   - delete: STR_RIFLE
@@ -83,8 +82,370 @@ items:
   - delete: STR_HWP_ROCKETS
   - delete: STR_HWP_CANNON_SHELLS
   - delete: STR_HWP_FUSION_BOMB
-#<delete>
-#<Craft Weapons>
+#Sector Comms
+  - type: STR_SECTOR_00_COMM
+    costSell: 10000
+    size: 0.01
+    weight: 1
+    invWidth: 1
+    invHeight: 1
+    bigSprite: 55
+    floorSprite: 72
+  - type: STR_SECTOR_01_COMM
+    costSell: 10000
+    size: 0.01
+    weight: 1
+    invWidth: 1
+    invHeight: 1
+    bigSprite: 55
+    floorSprite: 72
+  - type: STR_SECTOR_02_COMM
+    costSell: 10000
+    size: 0.01
+    weight: 1
+    invWidth: 1
+    invHeight: 1
+    bigSprite: 55
+    floorSprite: 72
+  - type: STR_SECTOR_03_COMM
+    costSell: 10000
+    size: 0.01
+    weight: 1
+    invWidth: 1
+    invHeight: 1
+    bigSprite: 55
+    floorSprite: 72
+  - type: STR_SECTOR_04_COMM
+    costSell: 10000
+    size: 0.01
+    weight: 1
+    invWidth: 1
+    invHeight: 1
+    bigSprite: 55
+    floorSprite: 72
+  - type: STR_SECTOR_05_COMM
+    costSell: 10000
+    size: 0.01
+    weight: 1
+    invWidth: 1
+    invHeight: 1
+    bigSprite: 55
+    floorSprite: 72
+  - type: STR_SECTOR_06_COMM
+    costSell: 10000
+    size: 0.01
+    weight: 1
+    invWidth: 1
+    invHeight: 1
+    bigSprite: 55
+    floorSprite: 72
+  - type: STR_SECTOR_07_COMM
+    costSell: 10000
+    size: 0.01
+    weight: 1
+    invWidth: 1
+    invHeight: 1
+    bigSprite: 55
+    floorSprite: 72
+  - type: STR_SECTOR_08_COMM
+    costSell: 10000
+    size: 0.01
+    weight: 1
+    invWidth: 1
+    invHeight: 1
+    bigSprite: 55
+    floorSprite: 72
+  - type: STR_SECTOR_09_COMM
+    costSell: 10000
+    size: 0.01
+    weight: 1
+    invWidth: 1
+    invHeight: 1
+    bigSprite: 55
+    floorSprite: 72
+  - type: STR_SECTOR_10_COMM
+    costSell: 10000
+    size: 0.01
+    weight: 1
+    invWidth: 1
+    invHeight: 1
+    bigSprite: 55
+    floorSprite: 72
+  - type: STR_SECTOR_11_COMM
+    costSell: 10000
+    size: 0.01
+    weight: 1
+    invWidth: 1
+    invHeight: 1
+    bigSprite: 55
+    floorSprite: 72
+  - type: STR_SECTOR_12_COMM
+    costSell: 10000
+    size: 0.01
+    weight: 1
+    invWidth: 1
+    invHeight: 1
+    bigSprite: 55
+    floorSprite: 72
+  - type: STR_SECTOR_13_COMM
+    costSell: 10000
+    size: 0.01
+    weight: 1
+    invWidth: 1
+    invHeight: 1
+    bigSprite: 55
+    floorSprite: 72
+  - type: STR_SECTOR_14_COMM
+    costSell: 10000
+    size: 0.01
+    weight: 1
+    invWidth: 1
+    invHeight: 1
+    bigSprite: 55
+    floorSprite: 72
+  - type: STR_SECTOR_15_COMM
+    costSell: 10000
+    size: 0.01
+    weight: 1
+    invWidth: 1
+    invHeight: 1
+    bigSprite: 55
+    floorSprite: 72
+  - type: STR_SECTOR_16_COMM
+    costSell: 10000
+    size: 0.01
+    weight: 1
+    invWidth: 1
+    invHeight: 1
+    bigSprite: 55
+    floorSprite: 72
+  - type: STR_SECTOR_17_COMM
+    costSell: 10000
+    size: 0.01
+    weight: 1
+    invWidth: 1
+    invHeight: 1
+    bigSprite: 55
+    floorSprite: 72
+  - type: STR_SECTOR_18_COMM
+    costSell: 10000
+    size: 0.01
+    weight: 1
+    invWidth: 1
+    invHeight: 1
+    bigSprite: 55
+    floorSprite: 72
+  - type: STR_SECTOR_19_COMM
+    costSell: 10000
+    size: 0.01
+    weight: 1
+    invWidth: 1
+    invHeight: 1
+    bigSprite: 55
+    floorSprite: 72
+  - type: STR_SECTOR_20_COMM
+    costSell: 10000
+    size: 0.01
+    weight: 1
+    invWidth: 1
+    invHeight: 1
+    bigSprite: 55
+    floorSprite: 72
+  - type: STR_SECTOR_21_COMM
+    costSell: 10000
+    size: 0.01
+    weight: 1
+    invWidth: 1
+    invHeight: 1
+    bigSprite: 55
+    floorSprite: 72
+  - type: STR_SECTOR_00_COMM
+    costSell: 10000
+    size: 0.01
+    weight: 1
+    invWidth: 1
+    invHeight: 1
+    bigSprite: 55
+    floorSprite: 72
+  - type: STR_SECTOR_01_COMM
+    costSell: 10000
+    size: 0.01
+    weight: 1
+    invWidth: 1
+    invHeight: 1
+    bigSprite: 55
+    floorSprite: 72
+  - type: STR_SECTOR_02_COMM
+    costSell: 10000
+    size: 0.01
+    weight: 1
+    invWidth: 1
+    invHeight: 1
+    bigSprite: 55
+    floorSprite: 72
+  - type: STR_SECTOR_03_COMM
+    costSell: 10000
+    size: 0.01
+    weight: 1
+    invWidth: 1
+    invHeight: 1
+    bigSprite: 55
+    floorSprite: 72
+  - type: STR_SECTOR_04_COMM
+    costSell: 10000
+    size: 0.01
+    weight: 1
+    invWidth: 1
+    invHeight: 1
+    bigSprite: 55
+    floorSprite: 72
+  - type: STR_SECTOR_05_COMM
+    costSell: 10000
+    size: 0.01
+    weight: 1
+    invWidth: 1
+    invHeight: 1
+    bigSprite: 55
+    floorSprite: 72
+  - type: STR_SECTOR_06_COMM
+    costSell: 10000
+    size: 0.01
+    weight: 1
+    invWidth: 1
+    invHeight: 1
+    bigSprite: 55
+    floorSprite: 72
+  - type: STR_SECTOR_07_COMM
+    costSell: 10000
+    size: 0.01
+    weight: 1
+    invWidth: 1
+    invHeight: 1
+    bigSprite: 55
+    floorSprite: 72
+  - type: STR_SECTOR_08_COMM
+    costSell: 10000
+    size: 0.01
+    weight: 1
+    invWidth: 1
+    invHeight: 1
+    bigSprite: 55
+    floorSprite: 72
+  - type: STR_SECTOR_09_COMM
+    costSell: 10000
+    size: 0.01
+    weight: 1
+    invWidth: 1
+    invHeight: 1
+    bigSprite: 55
+    floorSprite: 72
+  - type: STR_SECTOR_10_COMM
+    costSell: 10000
+    size: 0.01
+    weight: 1
+    invWidth: 1
+    invHeight: 1
+    bigSprite: 55
+    floorSprite: 72
+  - type: STR_SECTOR_11_COMM
+    costSell: 10000
+    size: 0.01
+    weight: 1
+    invWidth: 1
+    invHeight: 1
+    bigSprite: 55
+    floorSprite: 72
+  - type: STR_SECTOR_12_COMM
+    costSell: 10000
+    size: 0.01
+    weight: 1
+    invWidth: 1
+    invHeight: 1
+    bigSprite: 55
+    floorSprite: 72
+  - type: STR_SECTOR_13_COMM
+    costSell: 10000
+    size: 0.01
+    weight: 1
+    invWidth: 1
+    invHeight: 1
+    bigSprite: 55
+    floorSprite: 72
+  - type: STR_SECTOR_14_COMM
+    costSell: 10000
+    size: 0.01
+    weight: 1
+    invWidth: 1
+    invHeight: 1
+    bigSprite: 55
+    floorSprite: 72
+  - type: STR_SECTOR_15_COMM
+    costSell: 10000
+    size: 0.01
+    weight: 1
+    invWidth: 1
+    invHeight: 1
+    bigSprite: 55
+    floorSprite: 72
+  - type: STR_SECTOR_16_COMM
+    costSell: 10000
+    size: 0.01
+    weight: 1
+    invWidth: 1
+    invHeight: 1
+    bigSprite: 55
+    floorSprite: 72
+  - type: STR_SECTOR_17_COMM
+    costSell: 10000
+    size: 0.01
+    weight: 1
+    invWidth: 1
+    invHeight: 1
+    bigSprite: 55
+    floorSprite: 72
+  - type: STR_SECTOR_18_COMM
+    costSell: 10000
+    size: 0.01
+    weight: 1
+    invWidth: 1
+    invHeight: 1
+    bigSprite: 55
+    floorSprite: 72
+  - type: STR_SECTOR_19_COMM
+    costSell: 10000
+    size: 0.01
+    weight: 1
+    invWidth: 1
+    invHeight: 1
+    bigSprite: 55
+    floorSprite: 72
+  - type: STR_SECTOR_20_COMM
+    costSell: 10000
+    size: 0.01
+    weight: 1
+    invWidth: 1
+    invHeight: 1
+    bigSprite: 55
+    floorSprite: 72
+  - type: STR_SECTOR_21_COMM
+    costSell: 10000
+    size: 0.01
+    weight: 1
+    invWidth: 1
+    invHeight: 1
+    bigSprite: 55
+    floorSprite: 72
+#Craft Weapons
+  - type: STR_COMM_PODS
+    size: 5
+    costBuy: 250000
+    costSell: 150000
+    transferTime: 48
+  - type: STR_TECH_PODS
+    size: 5
+    costBuy: 225000
+    costSell: 125000
+    transferTime: 48
   - type: STR_FUEL_PODS
     size: 5
     costBuy: 5000
@@ -159,6 +520,19 @@ items:
     costSell: 12000
     transferTime: 48
     clipSize: 1
+  - type: STR_PHOENIX_LAUNCHER
+    size: 1
+    costSell: 67000
+    transferTime: 48
+  - type: STR_PHOENIX_MISSILES
+    size: 1
+    costSell: 27000
+    transferTime: 48
+    clipSize: 1
+  - type: STR_HARM_LAUNCHER
+    size: 1
+    costSell: 35750
+    transferTime: 48
   - type: STR_AMRAAM_LAUNCHER
     size: 1
     costSell: 40500
@@ -232,8 +606,7 @@ items:
     costSell: 1812
     transferTime: 96
     clipSize: 50
-#<Craft Weapons>
-#<Conventional>
+#Conventional
   - type: STR_LIGHT_PISTOL
     size: 0.1
     costBuy: 1000
@@ -939,8 +1312,7 @@ items:
     invWidth: 1
     battleType: 2
     armor: 250
-#<Human>
-#<SKYNET>
+#SKYNET
   - type: STR_M20A
     size: 0.1
     requires:
@@ -1192,10 +1564,9 @@ items:
     invWidth: 2
     battleType: 2
     armor: 250
-#<SKYNET>
-#<Energy>
-#<Explosive>
-#<Grenades>
+#Energy
+#Explosive
+#Grenades
   - type: STR_GRENADE
     size: 0.1
     costBuy: 300
@@ -1275,7 +1646,7 @@ items:
     invWidth: 1
     battleType: 4
     armor: 250
-#<Launchers>
+#Launchers
   - type: STR_HEAVY_ROCKET_LAUNCHER
     size: 0.6
     costBuy: 4000
@@ -1428,7 +1799,7 @@ items:
     invWidth: 2
     battleType: 2
     armor: 250
-#<Armors>
+#Armors
   - type: STR_JUMPSUIT
     size: 0.8
     listOrder: 10497
@@ -1516,7 +1887,7 @@ items:
     battleType: 11
     recover: false
     listOrder: 4702
-#<Resistance>
+#Resistance
   - type: STR_HUMAN_CHARACTER_0_0
     size: 0.0
     recover: false
@@ -1980,7 +2351,7 @@ items:
     battleType: 11
     recover: false
     armor: 35
-#<Human>
+#Human
   - type: STR_HUMAN_ENGINEER
     size: 0.0
     recover: true
@@ -2296,7 +2667,7 @@ items:
     battleType: 11
     recover: false
     armor: 35
-#<Terminators>
+#Terminators
   - type: STR_HK_CERBERUS
     size: 0.0
     recover: true
@@ -2621,184 +2992,10 @@ items:
     clipSize: -1
     bulletSprite: 8
     recover: false
-#Sector Comms
-  - type: STR_SECTOR_00_COMM
-    costSell: 10000
-    size: 0.01
-    weight: 1
-    invWidth: 1
-    invHeight: 1
-    bigSprite: 55
-    floorSprite: 72
-  - type: STR_SECTOR_01_COMM
-    costSell: 10000
-    size: 0.01
-    weight: 1
-    invWidth: 1
-    invHeight: 1
-    bigSprite: 55
-    floorSprite: 72
-  - type: STR_SECTOR_02_COMM
-    costSell: 10000
-    size: 0.01
-    weight: 1
-    invWidth: 1
-    invHeight: 1
-    bigSprite: 55
-    floorSprite: 72
-  - type: STR_SECTOR_03_COMM
-    costSell: 10000
-    size: 0.01
-    weight: 1
-    invWidth: 1
-    invHeight: 1
-    bigSprite: 55
-    floorSprite: 72
-  - type: STR_SECTOR_04_COMM
-    costSell: 10000
-    size: 0.01
-    weight: 1
-    invWidth: 1
-    invHeight: 1
-    bigSprite: 55
-    floorSprite: 72
-  - type: STR_SECTOR_05_COMM
-    costSell: 10000
-    size: 0.01
-    weight: 1
-    invWidth: 1
-    invHeight: 1
-    bigSprite: 55
-    floorSprite: 72
-  - type: STR_SECTOR_06_COMM
-    costSell: 10000
-    size: 0.01
-    weight: 1
-    invWidth: 1
-    invHeight: 1
-    bigSprite: 55
-    floorSprite: 72
-  - type: STR_SECTOR_07_COMM
-    costSell: 10000
-    size: 0.01
-    weight: 1
-    invWidth: 1
-    invHeight: 1
-    bigSprite: 55
-    floorSprite: 72
-  - type: STR_SECTOR_08_COMM
-    costSell: 10000
-    size: 0.01
-    weight: 1
-    invWidth: 1
-    invHeight: 1
-    bigSprite: 55
-    floorSprite: 72
-  - type: STR_SECTOR_09_COMM
-    costSell: 10000
-    size: 0.01
-    weight: 1
-    invWidth: 1
-    invHeight: 1
-    bigSprite: 55
-    floorSprite: 72
-  - type: STR_SECTOR_10_COMM
-    costSell: 10000
-    size: 0.01
-    weight: 1
-    invWidth: 1
-    invHeight: 1
-    bigSprite: 55
-    floorSprite: 72
-  - type: STR_SECTOR_11_COMM
-    costSell: 10000
-    size: 0.01
-    weight: 1
-    invWidth: 1
-    invHeight: 1
-    bigSprite: 55
-    floorSprite: 72
-  - type: STR_SECTOR_12_COMM
-    costSell: 10000
-    size: 0.01
-    weight: 1
-    invWidth: 1
-    invHeight: 1
-    bigSprite: 55
-    floorSprite: 72
-  - type: STR_SECTOR_13_COMM
-    costSell: 10000
-    size: 0.01
-    weight: 1
-    invWidth: 1
-    invHeight: 1
-    bigSprite: 55
-    floorSprite: 72
-  - type: STR_SECTOR_14_COMM
-    costSell: 10000
-    size: 0.01
-    weight: 1
-    invWidth: 1
-    invHeight: 1
-    bigSprite: 55
-    floorSprite: 72
-  - type: STR_SECTOR_15_COMM
-    costSell: 10000
-    size: 0.01
-    weight: 1
-    invWidth: 1
-    invHeight: 1
-    bigSprite: 55
-    floorSprite: 72
-  - type: STR_SECTOR_16_COMM
-    costSell: 10000
-    size: 0.01
-    weight: 1
-    invWidth: 1
-    invHeight: 1
-    bigSprite: 55
-    floorSprite: 72
-  - type: STR_SECTOR_17_COMM
-    costSell: 10000
-    size: 0.01
-    weight: 1
-    invWidth: 1
-    invHeight: 1
-    bigSprite: 55
-    floorSprite: 72
-  - type: STR_SECTOR_18_COMM
-    costSell: 10000
-    size: 0.01
-    weight: 1
-    invWidth: 1
-    invHeight: 1
-    bigSprite: 55
-    floorSprite: 72
-  - type: STR_SECTOR_19_COMM
-    costSell: 10000
-    size: 0.01
-    weight: 1
-    invWidth: 1
-    invHeight: 1
-    bigSprite: 55
-    floorSprite: 72
-  - type: STR_SECTOR_20_COMM
-    costSell: 10000
-    size: 0.01
-    weight: 1
-    invWidth: 1
-    invHeight: 1
-    bigSprite: 55
-    floorSprite: 72
-  - type: STR_SECTOR_21_COMM
-    costSell: 10000
-    size: 0.01
-    weight: 1
-    invWidth: 1
-    invHeight: 1
-    bigSprite: 55
-    floorSprite: 72
 #OTHER
+  - type: STR_SALVAGED_CRAFT
+    costSell: 200000
+    size: 0.01
   - type: STR_PILOT_TRAINING
     costSell: 10000
     size: 0.01

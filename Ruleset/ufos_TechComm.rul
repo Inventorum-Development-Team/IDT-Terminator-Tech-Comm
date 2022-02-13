@@ -99,12 +99,12 @@ ufos:
     reload: 32
     breakOffTime: 250
     battlescapeTerrainData:
-      name: HK01
+      name: HK02
       mapDataSets:
         - BLANKS
-        - HK2
+        - HK02
       mapBlocks:
-        - name: HK01
+        - name: HK02
           width: 20
           length: 10
     hunterKillerPercentage: 50
@@ -115,7 +115,7 @@ ufos:
     sightRange: 268
     missionScore: 0
   - type: STR_HK_TRANSPORT_1
-    size: STR_SMALL
+    size: STR_MEDIUM
     modSprite: InterceptHKTransportS1
     damageMax: 250
     speedMax: 860
@@ -126,17 +126,17 @@ ufos:
     reload: 32
     breakOffTime: 500
     battlescapeTerrainData:
-      name: HK02
+      name: HK03
       mapDataSets:
         - BLANKS
         - HK02
       mapBlocks:
-        - name: HK04
+        - name: HK03
           width: 20
           length: 10
     hunterKillerPercentage: 0
     huntSpeed: 90
-    radarRange: 0
+    radarRange: 268
     radarChance: 0
     sightRange: 67
     huntMode: 0
@@ -156,14 +156,14 @@ ufos:
       name: HK04
       mapDataSets:
         - BLANKS
-        - HK2
+        - HK02
       mapBlocks:
         - name: HK04
           width: 20
           length: 10
     hunterKillerPercentage: 100
     huntSpeed: 90
-    radarRange: 400
+    radarRange: 536
     radarChance: 30
     sightRange: 67
     huntMode: 0
@@ -180,23 +180,23 @@ ufos:
     reload: 24
     breakOffTime: 500
     battlescapeTerrainData:
-      name: HK04
+      name: HK02
       mapDataSets:
         - BLANKS
-        - HK2
+        - HK02
       mapBlocks:
-        - name: HK04
+        - name: HK02
           width: 20
           length: 10
     hunterKillerPercentage: 100
     huntSpeed: 100
-    radarRange: 400
+    radarRange: 536
     radarChance: 40
-    sightRange: 268
+    sightRange: 67
     huntMode: 0
     missionScore: 0
   - type: STR_HK_BOMBER_1
-    size: STR_SMALL
+    size: STR_MEDIUM
     modSprite: InterceptHKFighterS1
     missilePower: 2   
     damageMax: 400
@@ -208,19 +208,19 @@ ufos:
     reload: 24
     breakOffTime: 500
     battlescapeTerrainData:
-      name: HK04
+      name: HK03
       mapDataSets:
         - BLANKS
-        - HK2
+        - HK02
       mapBlocks:
-        - name: HK04
+        - name: HK03
           width: 20
           length: 10
     hunterKillerPercentage: 0
     huntSpeed: 90
-    radarRange: 400
+    radarRange: 268
     radarChance: 30
-    sightRange: 0
+    sightRange: 67
     huntMode: 0
     missionScore: 0
   - type: STR_HK_SCOUT_2
@@ -243,7 +243,7 @@ ufos:
         - name: HK04
           width: 20
           length: 10
-    radarRange: 268
+    radarRange: 536
     radarChance: 30
     sightRange: 268
     hunterKillerPercentage: 50
@@ -271,9 +271,9 @@ ufos:
           width: 20
           length: 10
     hunterKillerPercentage: 0
-    radarRange: 0
-    radarChance: 0
-    sightRange: 0
+    radarRange: 268
+    radarChance: 30
+    sightRange: 67
     huntMode: 0
     huntSpeed: 90
     missionScore: 0
@@ -298,7 +298,7 @@ ufos:
           width: 20
           length: 10
     hunterKillerPercentage: 100
-    radarRange: 400
+    radarRange: 536
     radarChance: 30
     sightRange: 268
     huntMode: 0
@@ -325,12 +325,13 @@ ufos:
         - name: PLANE4
           width: 20
           length: 10  
-    missionScore: 0.1
+    missionScore: 0
     hunterKillerPercentage: 50
     huntMode: 0
     huntSpeed: 90
-    radarRange: 268
-    sightRange: 268
+    radarRange: 536
+    radarChance: 30
+    sightRange: 536
   - type: STR_HK_TRANSPORT_3
     size: STR_LARGE_UC
     modSprite: InterceptHKTransportL
@@ -351,12 +352,13 @@ ufos:
         - name: PLANE4
           width: 20
           length: 10  
-    missionScore: 0.1
+    missionScore: 0
     hunterKillerPercentage: 0
     huntMode: 0
     huntSpeed: 90
-    radarRange: 134
-    sightRange: 0
+    radarRange: 536
+    radarChance: 30
+    sightRange: 134
   - type: STR_HK_FIGHTER_3
     size: STR_LARGE_UC
     modSprite: InterceptHKFighterL
@@ -377,12 +379,13 @@ ufos:
         - name: PLANE4
           width: 20
           length: 10  
-    missionScore: 0.1
+    missionScore: 0
     hunterKillerPercentage: 50
     huntMode: 0
     huntSpeed: 90
-    radarRange: 134
-    sightRange: 0
+    radarRange: 536
+    radarChance: 30
+    sightRange: 268
 #Ground HKs
 ## TO DO - add T-300 Ground HK tracked model
   - type: STR_HK_CONVOY

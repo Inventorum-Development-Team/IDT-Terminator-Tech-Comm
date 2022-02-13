@@ -1,0 +1,34 @@
+arcScripts:
+  - type: resistanceOrder
+    sequentialArcs:
+      - STR_RESISTANCE_ORDER_1
+      - STR_RESISTANCE_ORDER_2
+      - STR_RESISTANCE_ORDER_3
+      - STR_RESISTANCE_ORDER_4
+      - STR_RESISTANCE_ORDER_5
+      - STR_RESISTANCE_ORDER_6
+    firstMonth: 1
+    maxArcs: -1
+  - type: craftBlueprint
+    randomArcs:                         # the type of research topics to be "discovered", each month 0 or 1, chosen randomly considering weights
+      STR_HAWKEYE_BLUEPRINT: 20
+      STR_TRACER_BLUEPRINT: 10
+      STR_DRAGONFLY_BLUEPRINT: 20
+      STR_TALON_BLUEPRINT: 30
+      STR_WARTHOG_BLUEPRINT: 30
+      STR_SKYHAWK_BLUEPRINT: 20
+      STR_GOSHAWK_BLUEPRINT: 30
+      STR_LION_BLUEPRINT: 20
+      STR_MOHAWK_BLUEPRINT: 20
+      STR_VIKING_BLUEPRINT: 20
+      STR_PROWLER_BLUEPRINT: 20
+      STR_OSPREY_BLUEPRINT: 30
+      STR_SHERPA_BLUEPRINT: 20
+      STR_BRONCO_BLUEPRINT: 10
+      STR_TWINOTTER_BLUEPRINT: 20
+      STR_GUARDRAIL_BLUEPRINT: 20
+    firstMonth: 0                       # months this command runs on, 0 runs on startup of a new game (default 0)
+    executionOdds: 10                   # % chances of this command executing (default 100)
+    maxArcs: -1                         # maximum number of arcs this command can generate (together during the whole game), -1 for infinite 
+    researchTriggers:                   # a list of research topics that can influence the execution of this command (default empty)
+      STR_RESISTANCE_CRAFT: true

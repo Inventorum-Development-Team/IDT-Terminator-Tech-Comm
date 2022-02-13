@@ -660,16 +660,16 @@ alienDeployments:
       STR_SKYNET_PACIFICATION_CORE: 10
       STR_SKYNET_TRANSPORT: 10
     genMissionFreq: 12
-    baseDetectionRange: 480            # base radar range, in nautical miles
+    baseDetectionRange: 1200            # base radar range, in nautical miles
     baseDetectionChance: 75            # base radar chance (once every 10 minutes), in percent
-    huntMissionMaxFrequency: 360       # generate hunt mission max every 300 minutes (= 5 hours)
+    huntMissionMaxFrequency: 300       # generate hunt mission max every 300 minutes (= 5 hours)
     huntMissionWeights:                # which hunt mission to generate, based on months passed and weights
       0:
         STR_SKYNET_INTERCEPTION_CORE: 10
     alienBase: true    # this is only to tell new battle mode what to do with this deployment
     objectiveComplete: [STR_SKYNET_BASE_CONTROL_DESTROYED, 500]
     objectivePopup: STR_CONTROL_CENTER_DESTROYED
-    points: 0
+    points: 1
 ##Tempus gives the Temporal Displacement Device, a 'craft' required for the final mission
   - type: STR_SKYNET_BASE_ASSAULT_TEMPUS
     data: *SKYNET_BASE_ASSAULT
@@ -695,7 +695,7 @@ alienDeployments:
     alienBase: true    # this is only to tell new battle mode what to do with this deployment
     objectiveComplete: [STR_SKYNET_BASE_CONTROL_DESTROYED, 500]
     objectivePopup: STR_CONTROL_CENTER_DESTROYED
-    points: 0
+    points: 1
 ##Lab gives advanced tech (psionics - nanites?) - T1000 development
   - type: STR_SKYNET_BASE_ASSAULT_LAB
     data: *SKYNET_BASE_ASSAULT
@@ -721,7 +721,7 @@ alienDeployments:
     alienBase: true    # this is only to tell new battle mode what to do with this deployment
     objectiveComplete: [STR_SKYNET_BASE_CONTROL_DESTROYED, 500]
     objectivePopup: STR_CONTROL_CENTER_DESTROYED
-    points: 0
+    points: 1
 ##Missile Base launches nuclear strikes at Tech-Comm bases
   - type: STR_SKYNET_BASE_ASSAULT_MISSILE
     data: *SKYNET_BASE_ASSAULT
@@ -739,7 +739,7 @@ alienDeployments:
       background: BACK01.SCR
       showTarget: false
     objectiveType: 3
-    markerName: STR_TACTICAL_MISSILE_BASE
+    markerName: STR_SKYNET_MISSILE_BASE
     markerIcon: 25
     genMission:
       STR_SKYNET_RETRIBUTION: 100
@@ -747,7 +747,7 @@ alienDeployments:
     alienBase: true    # this is only to tell new battle mode what to do with this deployment
     objectiveComplete: [STR_SKYNET_BASE_CONTROL_DESTROYED, 500]
     objectivePopup: STR_CONTROL_CENTER_DESTROYED
-    points: 0
+    points: 1
 #SURFACE - Area 51 (placeholder)
 ##Factories are placed one per month on a region, as long as Skynet Core has not been assaulted. They produce Outposts and Workcamps. HK Bases
   - type: STR_SKYNET_BASE_ASSAULT_FACTORY
@@ -773,7 +773,7 @@ alienDeployments:
       STR_SKYNET_BASE_WORKCAMP: 30
     genMissionFreq: 12
     genMissionLimit: 6
-    baseDetectionRange: 360          # base radar range, in nautical miles
+    baseDetectionRange: 960          # base radar range, in nautical miles
     baseDetectionChance: 75            # base radar chance (once every 10 minutes), in percent
     huntMissionMaxFrequency: 720       # generate hunt mission max every 300 minutes (= 5 hours)
     huntMissionWeights:                # which hunt mission to generate, based on months passed and weights
@@ -785,7 +785,7 @@ alienDeployments:
     alienBase: true    # this is only to tell new battle mode what to do with this deployment
     objectiveComplete: [STR_SKYNET_BASE_CONTROL_DESTROYED, 500]
     objectivePopup: STR_CONTROL_CENTER_DESTROYED
-    points: 0
+    points: 1
   - type: STR_SKYNET_BASE_ASSAULT_OUTPOST
     alienBaseUpgrades:
       0:
@@ -823,7 +823,7 @@ alienDeployments:
     alienBase: true    # this is only to tell new battle mode what to do with this deployment
     objectiveComplete: [STR_SKYNET_BASE_CONTROL_DESTROYED, 500]
     objectivePopup: STR_CONTROL_CENTER_DESTROYED
-    points: 0
+    points: 1
   - type: STR_SKYNET_BASE_ASSAULT_HKBASE
     data: *SKYNET_BASE_ASSAULT
     width: 50
@@ -848,7 +848,7 @@ alienDeployments:
       STR_SKYNET_PATROL: 15
       STR_SKYNET_ERADICATION: 15
     genMissionFreq: 12
-    baseDetectionRange: 480            # base radar range, in nautical miles
+    baseDetectionRange: 960            # base radar range, in nautical miles
     baseDetectionChance: 75            # base radar chance (once every 10 minutes), in percent
     huntMissionMaxFrequency: 720       # generate hunt mission max every 300 minutes (= 5 hours)
     huntMissionWeights:                # which hunt mission to generate, based on months passed and weights
@@ -858,7 +858,7 @@ alienDeployments:
     alienBase: true    # this is only to tell new battle mode what to do with this deployment
     objectiveComplete: [STR_SKYNET_BASE_CONTROL_DESTROYED, 500]
     objectivePopup: STR_CONTROL_CENTER_DESTROYED
-    points: 0
+    points: 1
   - type: STR_SKYNET_BASE_ASSAULT_WORKCAMP
     data: *SKYNET_BASE_ASSAULT
     width: 60
@@ -883,7 +883,7 @@ alienDeployments:
       STR_SKYNET_RECLAMATION_2: 10
       STR_SKYNET_SUPPLY: 10
     genMissionFreq: 9
-    baseDetectionRange: 360            # base radar range, in nautical miles
+    baseDetectionRange: 480            # base radar range, in nautical miles
     baseDetectionChance: 50           # base radar chance (once every 10 minutes), in percent
     huntMissionMaxFrequency: 720       # generate hunt mission max every 300 minutes (= 5 hours)
     huntMissionWeights:                # which hunt mission to generate, based on months passed and weights
@@ -894,7 +894,7 @@ alienDeployments:
     alienBase: true    # this is only to tell new battle mode what to do with this deployment
     objectiveComplete: [STR_SKYNET_BASE_CONTROL_DESTROYED, 500]
     objectivePopup: STR_CONTROL_CENTER_DESTROYED
-    points: 0
+    points: 1
 #Abandoned Resistance/Military bases - 1 spawned per region
 ##Tech-Comm/Area 51 terrains - Give resources/craft
   - type: STR_ABANDONED_BASE_ASSAULT
@@ -903,9 +903,7 @@ alienDeployments:
     length: 50
     height: 6
     terrains:
-      - AREA51_FACTORY
-      - AREA51_FACTORY_2
-      - AREA51_FACTORY_3
+      - TECHCOMMBASE
     briefing:
       desc: STR_ABANDONED_BASE_BRIEFING
       palette: 2
@@ -917,9 +915,11 @@ alienDeployments:
       STR_SKYNET_SUPPLY: 10
     genMissionFreq: 0
     alienBase: true    # this is only to tell new battle mode what to do with this deployment
-    objectiveComplete: [STR_SKYNET_BASE_CONTROL_DESTROYED, 500]
-    objectivePopup: STR_CONTROL_CENTER_DESTROYED
+    objectiveComplete: [STR_ABANDONED_BASE_RECOVERED, 500]
+    objectivePopup: STR_ABANDONED_BASE_RECOVERED
     points: 0
+    missionBountyItem: STR_SALVAGED_CRAFT
+    missionBountyItemCount: 3
 #Suppression missions (3-5 days timer)
 ##Triggered globally, up to 3 monthly sites,
 ##4 Urban terrains, each with 4 different objectives? Industrial, Railyard, Slums, Dawn City (Downtown, Native, Cold Isle)
@@ -1535,6 +1535,156 @@ alienDeployments:
     markerIcon: 29
     duration: [0, 1]
     despawnPenalty: 0
+  - type: STR_RESISTANCE_ALERT20
+    data: *SKYNET_RESISTANCE
+    width: 50
+    length: 50
+    height: 4
+    civilians: 16
+    terrains:
+      - URBAN
+    alert: STR_RESISTANCE_ALERT20_MESSAGE
+    alertBackground: BACK03.SCR
+    briefing: *TERROR_MISSION_BRIEFING
+    markerName: STR_SKYNET_ACTIVITY
+    markerIcon: 29
+    duration: [0, 1]
+    despawnPenalty: 0
+  - type: STR_RESISTANCE_ALERT21
+    data: *SKYNET_RESISTANCE
+    width: 50
+    length: 50
+    height: 4
+    civilians: 16
+    terrains:
+      - URBAN
+    alert: STR_RESISTANCE_ALERT21_MESSAGE
+    alertBackground: BACK03.SCR
+    briefing: *TERROR_MISSION_BRIEFING
+    markerName: STR_SKYNET_ACTIVITY
+    markerIcon: 29
+    duration: [0, 1]
+    despawnPenalty: 0
+  - type: STR_RESISTANCE_ALERT22
+    data: *SKYNET_RESISTANCE
+    width: 50
+    length: 50
+    height: 4
+    civilians: 16
+    terrains:
+      - URBAN
+    alert: STR_RESISTANCE_ALERT22_MESSAGE
+    alertBackground: BACK03.SCR
+    briefing: *TERROR_MISSION_BRIEFING
+    markerName: STR_SKYNET_ACTIVITY
+    markerIcon: 29
+    duration: [0, 1]
+    despawnPenalty: 0
+  - type: STR_RESISTANCE_ALERT23
+    data: *SKYNET_RESISTANCE
+    width: 50
+    length: 50
+    height: 4
+    civilians: 16
+    terrains:
+      - URBAN
+    alert: STR_RESISTANCE_ALERT23_MESSAGE
+    alertBackground: BACK03.SCR
+    briefing: *TERROR_MISSION_BRIEFING
+    markerName: STR_SKYNET_ACTIVITY
+    markerIcon: 29
+    duration: [0, 1]
+    despawnPenalty: 0
+  - type: STR_RESISTANCE_ALERT24
+    data: *SKYNET_RESISTANCE
+    width: 50
+    length: 50
+    height: 4
+    civilians: 16
+    terrains:
+      - URBAN
+    alert: STR_RESISTANCE_ALERT24_MESSAGE
+    alertBackground: BACK03.SCR
+    briefing: *TERROR_MISSION_BRIEFING
+    markerName: STR_SKYNET_ACTIVITY
+    markerIcon: 29
+    duration: [0, 1]
+    despawnPenalty: 0
+  - type: STR_RESISTANCE_ALERT25
+    data: *SKYNET_RESISTANCE
+    width: 50
+    length: 50
+    height: 4
+    civilians: 16
+    terrains:
+      - URBAN
+    alert: STR_RESISTANCE_ALERT25_MESSAGE
+    alertBackground: BACK03.SCR
+    briefing: *TERROR_MISSION_BRIEFING
+    markerName: STR_SKYNET_ACTIVITY
+    markerIcon: 29
+    duration: [0, 1]
+    despawnPenalty: 0
+  - type: STR_RESISTANCE_ALERT26
+    data: *SKYNET_RESISTANCE
+    width: 50
+    length: 50
+    height: 4
+    civilians: 16
+    terrains:
+      - URBAN
+    alert: STR_RESISTANCE_ALERT26_MESSAGE
+    alertBackground: BACK03.SCR
+    briefing: *TERROR_MISSION_BRIEFING
+    markerName: STR_SKYNET_ACTIVITY
+    markerIcon: 29
+    duration: [0, 1]
+    despawnPenalty: 0
+  - type: STR_RESISTANCE_ALERT27
+    data: *SKYNET_RESISTANCE
+    width: 50
+    length: 50
+    height: 4
+    civilians: 16
+    terrains:
+      - URBAN
+    alert: STR_RESISTANCE_ALERT27_MESSAGE
+    alertBackground: BACK03.SCR
+    briefing: *TERROR_MISSION_BRIEFING
+    markerName: STR_SKYNET_ACTIVITY
+    markerIcon: 29
+    duration: [0, 1]
+    despawnPenalty: 0
+  - type: STR_RESISTANCE_ALERT28
+    data: *SKYNET_RESISTANCE
+    width: 50
+    length: 50
+    height: 4
+    civilians: 16
+    terrains:
+      - URBAN
+    alert: STR_RESISTANCE_ALERT28_MESSAGE
+    alertBackground: BACK03.SCR
+    briefing: *TERROR_MISSION_BRIEFING
+    markerName: STR_SKYNET_ACTIVITY
+    markerIcon: 29
+    duration: [0, 1]
+    despawnPenalty: 0
+  - type: STR_RESISTANCE_ALERT29
+    data: *SKYNET_RESISTANCE
+    width: 50
+    length: 50
+    height: 4
+    civilians: 16
+    terrains:
+      - URBAN
+    alert: STR_RESISTANCE_ALERT29_MESSAGE
+    alertBackground: BACK03.SCR
+    briefing: *TERROR_MISSION_BRIEFING
+    markerName: STR_SKYNET_ACTIVITY
+    markerIcon: 29
+    duration: [0, 1]
+    despawnPenalty: 0
   - type: STR_RESISTANCE_MESSAGE
     data: *SKYNET_RESISTANCE
     width: 50
@@ -1544,13 +1694,13 @@ alienDeployments:
     terrains:
       - URBAN
     alert: STR_RESISTANCE_MESSAGE_ALERT
-    alertBackground: BACK17.SCR
+    alertBackground: BACK15.SCR
     briefing: &TERROR_MISSION_BRIEFING
       title: STR_TERROR_MISSION
       desc: STR_TERROR_MISSION_BRIEFING
       palette: 1
       music: GMENBASE    
-    markerName: STR_SKYNET_ACTIVITY
+    markerName: STR_RESISTANCE_MESSAGE
     markerIcon: 1
     duration: [0, 1]
     despawnPenalty: 0

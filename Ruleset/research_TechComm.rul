@@ -2,7 +2,6 @@ research:
 #<delete>
   - delete: STR_LASER_WEAPONS
   - delete: STR_MOTION_SCANNER
-  - delete: STR_MEDI_KIT
   - delete: STR_PSI_AMP
   - delete: STR_PLASMA_PISTOL
   - delete: STR_PLASMA_PISTOL_CLIP
@@ -14,7 +13,6 @@ research:
   - delete: STR_BLASTER_BOMB
   - delete: STR_SMALL_LAUNCHER
   - delete: STR_STUN_BOMB
-  - delete: STR_MIND_PROBE
   - delete: STR_ALIEN_GRENADE
   - delete: STR_ELERIUM_115
   - delete: STR_MIND_PROBE
@@ -151,19 +149,45 @@ research:
   - name: STR_RESISTANCE_ORDER_1
     cost: 5
     points: 10
+    dependencies:
+      - STR_AI_SPIDER_WEB
   - name: STR_RESISTANCE_ORDER_2
     cost: 5
     points: 10
     dependencies:
-      - STR_RESISTANCE_ORDER_1
+      - STR_AI_SPIDER_WEB
+  - name: STR_RESISTANCE_ORDER_3
+    cost: 5
+    points: 10
+    dependencies:
+      - STR_AI_SPIDER_WEB
+  - name: STR_RESISTANCE_ORDER_4
+    cost: 5
+    points: 10
+    dependencies:
+      - STR_RESISTANCE_ORDER_3
+  - name: STR_RESISTANCE_ORDER_5
+    cost: 5
+    points: 10
+    dependencies:
+      - STR_AI_GREAT_WALL
+  - name: STR_RESISTANCE_ORDER_6
+    cost: 5
+    points: 10
+    dependencies:
+      - STR_SKYNET_PROTOCOLS
 #TECH
 #TIER 0 - STARTING
   - name: STR_HARDENED_FACILITIES
     cost: 50
     points: 10
-  - name: STR_CRAFT_MANUFACTURE
+    dependencies:
+      - STR_SECTOR_COMMS
+  - name: STR_RESISTANCE_CRAFT
     cost: 50
     points: 10
+    dependencies:
+      - STR_SECTOR_COMMS
 ##TIER 1.A - TERMINATOR RECOVERY
   - name: STR_T600_TERMINATOR
     cost: 50
@@ -288,7 +312,8 @@ research:
   - name: STR_SYNTHETIC_FUEL
     cost: 50
     points: 10
-    needItem: true
+    dependencies:
+      - STR_SECTOR_COMMS
 ##TIER 1.C - WEAPON RECOVERY
   - name: STR_RIFLE_AR15
     cost: 50
@@ -421,26 +446,6 @@ research:
     dependencies:
       - STR_SKYNET_PROTOCOLS
 ##TIER 2.B - RECOVERY/EXTRACTION RESISTANCE MISSIONS
-  - name: STR_WARTHOG_BLUEPRINT
-    cost: 50
-    points: 10
-    needItem: true
-  - name: STR_SUPER_OSPREY_BLUEPRINT
-    cost: 50
-    points: 10
-    needItem: true
-  - name: STR_LION_BLUEPRINT
-    cost: 50
-    points: 10
-    needItem: true
-  - name: STR_PROWLER_BLUEPRINT
-    cost: 50
-    points: 10
-    needItem: true
-  - name: STR_HAWKEYE_BLUEPRINT
-    cost: 50
-    points: 10
-    needItem: true
   - name: STR_GAU_12_CANNON
     cost: 50
     points: 10
@@ -624,6 +629,22 @@ research:
     points: 10
     needItem: true
 #CRAFT - BLUEPRINTS RECOVERED FROM TECH-COMM SECTOR MISSIONS
+  - name: STR_VALKYRIE_BLUEPRINT
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_ARCHANGEL_BLUEPRINT
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_AURORA_BLUEPRINT
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_SENIOR_CITIZEN_BLUEPRINT
+    cost: 50
+    points: 10
+    needItem: true
   - name: STR_BLACKBIRD_BLUEPRINT
     cost: 50
     points: 10
@@ -633,10 +654,6 @@ research:
     points: 10
     needItem: true
   - name: STR_OSPREY_BLUEPRINT
-    cost: 50
-    points: 10
-    needItem: true
-  - name: STR_DYNAVERT_BLUEPRINT
     cost: 50
     points: 10
     needItem: true
@@ -702,467 +719,116 @@ research:
     needItem: true
 #RESISTANCE SECTOR COMMS
 ##SECTOR COMMS UNLOCKS MAP WITH SKYNET POSITIONS AND ACTIVATE TECH-COMM MISSIONS IN THE SECTOR
+  - name: STR_SECTOR_COMMS
+    cost: 50
+    points: 10
   - name: STR_SECTOR_00_COMM
     cost: 5
     points: 10
-    needItem: true
-    destroyItem: true
-    getOneFree:
-      - STR_SECTOR_00_COMM_1
-      - STR_SECTOR_00_COMM_2
-      - STR_SECTOR_00_COMM_3
-  - name: STR_SECTOR_00_COMM_1
-    cost: 50
-    points: 10
-    needItem: true
-    destroyItem: true
-  - name: STR_SECTOR_00_COMM_2
-    cost: 50
-    points: 10
-    needItem: true
-    destroyItem: true
-  - name: STR_SECTOR_00_COMM_3
-    cost: 50
-    points: 10
-    needItem: true
+    dependencies:
+      - STR_SECTOR_COMMS
   - name: STR_SECTOR_01_COMM
     cost: 5
     points: 10
-    needItem: true
-    destroyItem: true
-    getOneFree:
-      - STR_SECTOR_01_COMM_1
-      - STR_SECTOR_01_COMM_2
-      - STR_SECTOR_01_COMM_3
-  - name: STR_SECTOR_01_COMM_1
-    cost: 50
-    points: 10
-    needItem: true
-  - name: STR_SECTOR_01_COMM_2
-    cost: 50
-    points: 10
-    needItem: true
-  - name: STR_SECTOR_01_COMM_3
-    cost: 50
-    points: 10
-    needItem: true
+    dependencies:
+      - STR_SECTOR_COMMS
   - name: STR_SECTOR_02_COMM
     cost: 50
     points: 10
-    needItem: true
-    destroyItem: true
-    getOneFree:
-      - STR_SECTOR_02_COMM_1
-      - STR_SECTOR_02_COMM_2
-      - STR_SECTOR_02_COMM_3
-  - name: STR_SECTOR_02_COMM_1
-    cost: 50
-    points: 10
-    needItem: true
-  - name: STR_SECTOR_02_COMM_2
-    cost: 50
-    points: 10
-    needItem: true
-  - name: STR_SECTOR_02_COMM_3
-    cost: 50
-    points: 10
-    needItem: true
+    dependencies:
+      - STR_SECTOR_COMMS
   - name: STR_SECTOR_03_COMM
     cost: 50
     points: 10
-    needItem: true
-    destroyItem: true
-    getOneFree:
-      - STR_SECTOR_03_COMM_1
-      - STR_SECTOR_03_COMM_2
-      - STR_SECTOR_03_COMM_3
-  - name: STR_SECTOR_03_COMM_1
-    cost: 50
-    points: 10
-    needItem: true
-  - name: STR_SECTOR_03_COMM_2
-    cost: 50
-    points: 10
-    needItem: true
-  - name: STR_SECTOR_03_COMM_3
-    cost: 50
-    points: 10
-    needItem: true
+    dependencies:
+      - STR_SECTOR_COMMS
   - name: STR_SECTOR_04_COMM
     cost: 50
     points: 10
-    needItem: true
-    destroyItem: true
-    getOneFree:
-      - STR_SECTOR_04_COMM_1
-      - STR_SECTOR_04_COMM_2
-      - STR_SECTOR_04_COMM_3
-  - name: STR_SECTOR_04_COMM_1
-    cost: 50
-    points: 10
-    needItem: true
-  - name: STR_SECTOR_04_COMM_2
-    cost: 50
-    points: 10
-    needItem: true
-  - name: STR_SECTOR_04_COMM_3
-    cost: 50
-    points: 10
-    needItem: true
+    dependencies:
+      - STR_SECTOR_COMMS
   - name: STR_SECTOR_05_COMM
     cost: 50
     points: 10
-    needItem: true
-    destroyItem: true
-    getOneFree:
-      - STR_SECTOR_05_COMM_1
-      - STR_SECTOR_05_COMM_2
-      - STR_SECTOR_05_COMM_3
-  - name: STR_SECTOR_05_COMM_1
-    cost: 50
-    points: 10
-    needItem: true
-  - name: STR_SECTOR_05_COMM_2
-    cost: 50
-    points: 10
-    needItem: true
-  - name: STR_SECTOR_05_COMM_3
-    cost: 50
-    points: 10
-    needItem: true
+    dependencies:
+      - STR_SECTOR_COMMS
   - name: STR_SECTOR_06_COMM
     cost: 50
     points: 10
-    needItem: true
-    destroyItem: true
-    getOneFree:
-      - STR_SECTOR_06_COMM_1
-      - STR_SECTOR_06_COMM_2
-      - STR_SECTOR_06_COMM_3
-  - name: STR_SECTOR_06_COMM_1
-    cost: 50
-    points: 10
-    needItem: true
-  - name: STR_SECTOR_06_COMM_2
-    cost: 50
-    points: 10
-    needItem: true
-  - name: STR_SECTOR_06_COMM_3
-    cost: 50
-    points: 10
-    needItem: true
+    dependencies:
+      - STR_SECTOR_COMMS
   - name: STR_SECTOR_07_COMM
     cost: 50
     points: 10
-    needItem: true
-    destroyItem: true
-    getOneFree:
-      - STR_SECTOR_07_COMM_1
-      - STR_SECTOR_07_COMM_2
-      - STR_SECTOR_07_COMM_3
-  - name: STR_SECTOR_07_COMM_1
-    cost: 50
-    points: 10
-    needItem: true
-  - name: STR_SECTOR_07_COMM_2
-    cost: 50
-    points: 10
-    needItem: true
-  - name: STR_SECTOR_07_COMM_3
-    cost: 50
-    points: 10
-    needItem: true
+    dependencies:
+      - STR_SECTOR_COMMS
   - name: STR_SECTOR_08_COMM
     cost: 50
     points: 10
-    needItem: true
-    destroyItem: true
-    getOneFree:
-      - STR_SECTOR_08_COMM_1
-      - STR_SECTOR_08_COMM_2
-      - STR_SECTOR_08_COMM_3
-  - name: STR_SECTOR_08_COMM_1
-    cost: 50
-    points: 10
-    needItem: true
-  - name: STR_SECTOR_08_COMM_2
-    cost: 50
-    points: 10
-    needItem: true
-  - name: STR_SECTOR_08_COMM_3
-    cost: 50
-    points: 10
-    needItem: true
+    dependencies:
+      - STR_SECTOR_COMMS
   - name: STR_SECTOR_09_COMM
     cost: 50
     points: 10
-    needItem: true
-    destroyItem: true
-    getOneFree:
-      - STR_SECTOR_09_COMM_1
-      - STR_SECTOR_09_COMM_2
-      - STR_SECTOR_09_COMM_3
-  - name: STR_SECTOR_09_COMM_1
-    cost: 50
-    points: 10
-    needItem: true
-  - name: STR_SECTOR_09_COMM_2
-    cost: 50
-    points: 10
-    needItem: true
-  - name: STR_SECTOR_09_COMM_3
-    cost: 50
-    points: 10
-    needItem: true
+    dependencies:
+      - STR_SECTOR_COMMS
   - name: STR_SECTOR_10_COMM
     cost: 50
     points: 10
-    needItem: true
-    destroyItem: true
-    getOneFree:
-      - STR_SECTOR_10_COMM_1
-      - STR_SECTOR_10_COMM_2
-      - STR_SECTOR_10_COMM_3
-  - name: STR_SECTOR_10_COMM_1
-    cost: 50
-    points: 10
-    needItem: true
-  - name: STR_SECTOR_10_COMM_2
-    cost: 50
-    points: 10
-    needItem: true
-  - name: STR_SECTOR_10_COMM_3
-    cost: 50
-    points: 10
-    needItem: true
+    dependencies:
+      - STR_SECTOR_COMMS
   - name: STR_SECTOR_11_COMM
     cost: 50
     points: 10
-    needItem: true
-    destroyItem: true
-    getOneFree:
-      - STR_SECTOR_11_COMM_1
-      - STR_SECTOR_11_COMM_2
-      - STR_SECTOR_11_COMM_3
-  - name: STR_SECTOR_11_COMM_1
-    cost: 50
-    points: 10
-    needItem: true
-  - name: STR_SECTOR_11_COMM_2
-    cost: 50
-    points: 10
-    needItem: true
-  - name: STR_SECTOR_11_COMM_3
-    cost: 50
-    points: 10
-    needItem: true
+    dependencies:
+      - STR_SECTOR_COMMS
   - name: STR_SECTOR_12_COMM
     cost: 50
     points: 10
-    needItem: true
-    destroyItem: true
-    getOneFree:
-      - STR_SECTOR_12_COMM_1
-      - STR_SECTOR_12_COMM_2
-      - STR_SECTOR_12_COMM_3
-  - name: STR_SECTOR_12_COMM_1
-    cost: 50
-    points: 10
-    needItem: true
-  - name: STR_SECTOR_12_COMM_2
-    cost: 50
-    points: 10
-    needItem: true
-  - name: STR_SECTOR_12_COMM_3
-    cost: 50
-    points: 10
-    needItem: true
+    dependencies:
+      - STR_SECTOR_COMMS
   - name: STR_SECTOR_13_COMM
     cost: 50
     points: 10
-    needItem: true
-    destroyItem: true
-    getOneFree:
-      - STR_SECTOR_13_COMM_1
-      - STR_SECTOR_13_COMM_2
-      - STR_SECTOR_13_COMM_3
-  - name: STR_SECTOR_13_COMM_1
-    cost: 50
-    points: 10
-    needItem: true
-  - name: STR_SECTOR_13_COMM_2
-    cost: 50
-    points: 10
-    needItem: true
-  - name: STR_SECTOR_13_COMM_3
-    cost: 50
-    points: 10
-    needItem: true
+    dependencies:
+      - STR_SECTOR_COMMS
   - name: STR_SECTOR_14_COMM
     cost: 50
     points: 10
-    needItem: true
-    destroyItem: true
-    getOneFree:
-      - STR_SECTOR_14_COMM_1
-      - STR_SECTOR_14_COMM_2
-      - STR_SECTOR_14_COMM_3
-  - name: STR_SECTOR_14_COMM_1
-    cost: 50
-    points: 10
-    needItem: true
-  - name: STR_SECTOR_14_COMM_2
-    cost: 50
-    points: 10
-    needItem: true
-  - name: STR_SECTOR_14_COMM_3
-    cost: 50
-    points: 10
-    needItem: true
+    dependencies:
+      - STR_SECTOR_COMMS
   - name: STR_SECTOR_15_COMM
     cost: 50
     points: 10
-    needItem: true
-    destroyItem: true
-    getOneFree:
-      - STR_SECTOR_15_COMM_1
-      - STR_SECTOR_15_COMM_2
-      - STR_SECTOR_15_COMM_3
-  - name: STR_SECTOR_15_COMM_1
-    cost: 50
-    points: 10
-    needItem: true
-  - name: STR_SECTOR_15_COMM_2
-    cost: 50
-    points: 10
-    needItem: true
-  - name: STR_SECTOR_15_COMM_3
-    cost: 50
-    points: 10
-    needItem: true
+    dependencies:
+      - STR_SECTOR_COMMS
   - name: STR_SECTOR_16_COMM
     cost: 50
     points: 10
-    needItem: true
-    destroyItem: true
-    getOneFree:
-      - STR_SECTOR_16_COMM_1
-      - STR_SECTOR_16_COMM_2
-      - STR_SECTOR_16_COMM_3
-  - name: STR_SECTOR_16_COMM_1
-    cost: 50
-    points: 10
-    needItem: true
-  - name: STR_SECTOR_16_COMM_2
-    cost: 50
-    points: 10
-    needItem: true
-  - name: STR_SECTOR_16_COMM_3
-    cost: 50
-    points: 10
-    needItem: true
+    dependencies:
+      - STR_SECTOR_COMMS
   - name: STR_SECTOR_17_COMM
     cost: 50
     points: 10
-    needItem: true
-    destroyItem: true
-    getOneFree:
-      - STR_SECTOR_17_COMM_1
-      - STR_SECTOR_17_COMM_2
-      - STR_SECTOR_17_COMM_3
-  - name: STR_SECTOR_17_COMM_1
-    cost: 50
-    points: 10
-    needItem: true
-  - name: STR_SECTOR_17_COMM_2
-    cost: 50
-    points: 10
-    needItem: true
-  - name: STR_SECTOR_17_COMM_3
-    cost: 50
-    points: 10
-    needItem: true
+    dependencies:
+      - STR_SECTOR_COMMS
   - name: STR_SECTOR_18_COMM
     cost: 50
     points: 10
-    needItem: true
-    destroyItem: true
-    getOneFree:
-      - STR_SECTOR_18_COMM_1
-      - STR_SECTOR_18_COMM_2
-      - STR_SECTOR_18_COMM_3
-  - name: STR_SECTOR_18_COMM_1
-    cost: 50
-    points: 10
-    needItem: true
-  - name: STR_SECTOR_18_COMM_2
-    cost: 50
-    points: 10
-    needItem: true
-  - name: STR_SECTOR_18_COMM_3
-    cost: 50
-    points: 10
-    needItem: true
+    dependencies:
+      - STR_SECTOR_COMMS
   - name: STR_SECTOR_19_COMM
     cost: 50
     points: 10
-    needItem: true
-    destroyItem: true
-    getOneFree:
-      - STR_SECTOR_19_COMM_1
-      - STR_SECTOR_19_COMM_2
-      - STR_SECTOR_19_COMM_3
-  - name: STR_SECTOR_19_COMM_1
-    cost: 50
-    points: 10
-    needItem: true
-  - name: STR_SECTOR_19_COMM_2
-    cost: 50
-    points: 10
-    needItem: true
-  - name: STR_SECTOR_19_COMM_3
-    cost: 50
-    points: 10
-    needItem: true
+    dependencies:
+      - STR_SECTOR_COMMS
   - name: STR_SECTOR_20_COMM
     cost: 50
     points: 10
-    needItem: true
-    destroyItem: true
-    getOneFree:
-      - STR_SECTOR_20_COMM_1
-      - STR_SECTOR_20_COMM_2
-      - STR_SECTOR_20_COMM_3
-  - name: STR_SECTOR_20_COMM_1
-    cost: 50
-    points: 10
-    needItem: true
-  - name: STR_SECTOR_20_COMM_2
-    cost: 50
-    points: 10
-    needItem: true
-  - name: STR_SECTOR_20_COMM_3
-    cost: 50
-    points: 10
-    needItem: true
+    dependencies:
+      - STR_SECTOR_COMMS
   - name: STR_SECTOR_21_COMM
     cost: 50
     points: 10
-    needItem: true
-    destroyItem: true
-    getOneFree:
-      - STR_SECTOR_21_COMM_1
-      - STR_SECTOR_21_COMM_2
-      - STR_SECTOR_21_COMM_3
-  - name: STR_SECTOR_21_COMM_1
-    cost: 50
-    points: 10
-    needItem: true
-  - name: STR_SECTOR_21_COMM_2
-    cost: 50
-    points: 10
-    needItem: true
-  - name: STR_SECTOR_21_COMM_3
-    cost: 50
-    points: 10
-    needItem: true
+    dependencies:
+      - STR_SECTOR_COMMS

@@ -106,12 +106,12 @@ soldiers:
       reactions: 75
       firing: 75
     rankStrings:
-    - STR_PILOT
-    - STR_SENIOR_PILOT
-    - STR_CHIEF_PILOT
+    - STR_LIEUTENANT
     - STR_CAPTAIN
+    - STR_MAJOR
     - STR_COLONEL
     - STR_COMMANDER
+    - STR_GENERAL4
   - type: STR_OFFICER
     costSalary: 45000
     value: 40
@@ -161,12 +161,12 @@ soldiers:
     deathFemale: [44, 45, 46]
     allowPiloting: false
     rankStrings:
-    - STR_LIEUTENANT
-    - STR_CAPTAIN
-    - STR_MAJOR
-    - STR_LT_COLONEL
-    - STR_COLONEL
-    - STR_COMMANDER
+    - STR_SERGEANT
+    - STR_SERGEANT1
+    - STR_SERGEANT2
+    - STR_SERGEANT3
+    - STR_SERGEANT4
+    - STR_SERGEANT5
   - type: STR_JOHN_CONNOR
     costSalary: 45000
     value: 1000
@@ -389,8 +389,8 @@ soldiers:
     moraleLossWhenKilled: 150
     allowPiloting: false
     rankStrings:
-    - STR_CHIEF_PILOT
-    - STR_MASTER_PILOT
+    - STR_LIEUTENANT
+    - STR_CAPTAIN
     - STR_MAJOR
     - STR_COLONEL
     - STR_COMMANDER
