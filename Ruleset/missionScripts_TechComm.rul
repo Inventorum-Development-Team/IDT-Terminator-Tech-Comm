@@ -65,11 +65,10 @@ missionScripts: #DONE
         STR_T800: 100
     startDelay: 120
     useTable: false
-    firstMonth: 0
+    firstMonth: 6
     maxRuns: 1
     targetBaseOdds: 0
     varName: startdeadhand
-
   - type: gameAISpiderWebAS
     missionWeights:
       0:

@@ -599,7 +599,7 @@ globe:
           weight: 10
         - name: DESERT_POLAR
           weight: 10
-        - name: DESERT_POLAR_MOUNT
+        - name: DESERT_MOUNT_POLAR
           weight: 10
         - name: TFTD_PLANE_POLAR
           weight: 10

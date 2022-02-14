@@ -57,8 +57,6 @@ startingBase:
           ammo: 2
         - type: STR_PHOENIX
           ammo: 2
-        - type: STR_PHOENIX
-          ammo: 2
     - type: STR_BLACKBIRD
       id: 1
       fuel: 2000
@@ -126,6 +124,7 @@ startingBase:
     STR_SPARROW_MISSILES: 10
     STR_STANDARD_LAUNCHER: 1
     STR_STANDARD_MISSILES: 10
+    STR_PHOENIX_MISSILES: 6
     STR_HYDRA_LAUNCHER: 1
     STR_HYDRA_ROCKETS: 50
     STR_GAU_2_CANNON: 1

@@ -438,12 +438,10 @@ items:
 #Craft Weapons
   - type: STR_COMM_PODS
     size: 5
-    costBuy: 250000
     costSell: 150000
     transferTime: 48
   - type: STR_TECH_PODS
     size: 5
-    costBuy: 225000
     costSell: 125000
     transferTime: 48
   - type: STR_FUEL_PODS
@@ -453,7 +451,6 @@ items:
     transferTime: 48
   - type: STR_ECM_PODS
     size: 5
-    costBuy: 15000
     costSell: 12500
     transferTime: 48
   - type: STR_HYDRA_LAUNCHER

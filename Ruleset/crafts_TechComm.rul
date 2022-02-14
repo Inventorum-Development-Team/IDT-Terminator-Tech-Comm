@@ -30,17 +30,6 @@ crafts: #DONE
     transferTime: 96
     score: 500
     listOrder: 175
-    sprite: 24
-    fuelMax: 1500
-    damageMax: 150
-    speedMax: 760
-    accel: 2
-    soldiers: 12
-    vehicles: 1
-    costRent: 250000
-    refuelRate: 50
-    transferTime: 72
-    score: 500
     battlescapeTerrainData:
       name: DRAGONFLY
       mapDataSets:
@@ -94,7 +83,7 @@ crafts: #DONE
     listOrder: 175
     allowLanding: false
   - type: STR_VALKYRIE
-    sprite: 33
+    sprite: 29
     marker: 13
     fuelMax: 2000
     damageMax: 210
@@ -121,7 +110,7 @@ crafts: #DONE
     listOrder: 175
     allowLanding: false
   - type: STR_AURORA
-    sprite: 33
+    sprite: 29
     marker: 13
     fuelMax: 2500
     damageMax: 210
@@ -173,7 +162,7 @@ crafts: #DONE
       - [10, 3, 1, 4]
     allowLanding: true
   - type: STR_BLACKBIRD
-    sprite: 29
+    sprite: 33
     marker: 13
     fuelMax: 2000
     damageMax: 210
@@ -363,9 +352,9 @@ crafts: #DONE
     damageMax: 200
     speedMax: 280
     accel: 6
-    weapons: 1
+    weapons: 0
     weaponTypes:
-      - [0, 3, 6]
+      - 6
     weaponStrings:
       - STR_WEAPON_ONE
     soldiers: 20
