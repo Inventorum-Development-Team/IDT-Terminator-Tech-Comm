@@ -1232,8 +1232,28 @@ alienDeployments:
       background: BACK01.SCR
       music: GMENBASE
 #Other - Objectives/Warnings (instant - not used yet)
-  - type: STR_RESISTANCE_ALERT00
-    data: *SKYNET_RESISTANCE
+  - &STR_RESISTANCE_ALERT00
+    type: STR_RESISTANCE_ALERT00
+    isHidden: true
+    data:
+      - alienRank: 5
+        lowQty: 2
+        highQty: 4
+        dQty: 2
+        percentageOutsideUfo: 90
+        itemSets:
+          -
+            - STR_RIFLE_AR15
+            - STR_50_FMJ
+            - STR_50_FMJ
+          -
+            - STR_M134
+            - STR_762_FMJ_BELT
+            - STR_762_FMJ_BELT
+          -
+            - STR_D12
+            - STR_D12_DRUM
+            - STR_D12_DRUM
     width: 50
     length: 50
     height: 4
@@ -1250,457 +1270,136 @@ alienDeployments:
     markerName: STR_SKYNET_ACTIVITY
     markerIcon: 29
     duration: [0, 1]
-    despawnPenalty: 0
+    despawnPenalty: 1
   - type: STR_RESISTANCE_ALERT01
-    data: *SKYNET_RESISTANCE
-    width: 50
-    length: 50
-    height: 4
-    civilians: 16
-    terrains:
-      - URBAN
+    refNode: *STR_RESISTANCE_ALERT00
     alert: STR_RESISTANCE_ALERT01_MESSAGE
-    alertBackground: BACK03.SCR
-    briefing: *TERROR_MISSION_BRIEFING
-    markerName: STR_SKYNET_ACTIVITY
-    markerIcon: 29
-    duration: [0, 1]
-    despawnPenalty: 0
   - type: STR_RESISTANCE_ALERT02
-    data: *SKYNET_RESISTANCE
-    width: 50
-    length: 50
-    height: 4
-    civilians: 16
-    terrains:
-      - URBAN
+    refNode: *STR_RESISTANCE_ALERT00
     alert: STR_RESISTANCE_ALERT02_MESSAGE
-    alertBackground: BACK03.SCR
-    briefing: *TERROR_MISSION_BRIEFING
-    markerName: STR_SKYNET_ACTIVITY
-    markerIcon: 29
-    duration: [0, 1]
-    despawnPenalty: 0
   - type: STR_RESISTANCE_ALERT03
-    data: *SKYNET_RESISTANCE
-    width: 50
-    length: 50
-    height: 4
-    civilians: 16
-    terrains:
-      - URBAN
+    refNode: *STR_RESISTANCE_ALERT00
     alert: STR_RESISTANCE_ALERT03_MESSAGE
-    alertBackground: BACK03.SCR
-    briefing: *TERROR_MISSION_BRIEFING
-    markerName: STR_SKYNET_ACTIVITY
-    markerIcon: 29
-    duration: [0, 1]
-    despawnPenalty: 0
   - type: STR_RESISTANCE_ALERT04
-    data: *SKYNET_RESISTANCE
-    width: 50
-    length: 50
-    height: 4
-    civilians: 16
-    terrains:
-      - URBAN
+    refNode: *STR_RESISTANCE_ALERT00
     alert: STR_RESISTANCE_ALERT04_MESSAGE
-    briefing: *TERROR_MISSION_BRIEFING
-    markerName: STR_SKYNET_ACTIVITY
-    markerIcon: 29
-    duration: [0, 1]
-    despawnPenalty: 0
   - type: STR_RESISTANCE_ALERT05
-    data: *SKYNET_RESISTANCE
-    width: 50
-    length: 50
-    height: 4
-    civilians: 16
-    terrains:
-      - URBAN
+    refNode: *STR_RESISTANCE_ALERT00
     alert: STR_RESISTANCE_ALERT05_MESSAGE
-    alertBackground: BACK03.SCR
-    briefing: *TERROR_MISSION_BRIEFING
-    markerName: STR_SKYNET_ACTIVITY
-    markerIcon: 29
-    duration: [0, 1]
-    despawnPenalty: 0
   - type: STR_RESISTANCE_ALERT06
-    data: *SKYNET_RESISTANCE
-    width: 50
-    length: 50
-    height: 4
-    civilians: 16
-    terrains:
-      - URBAN
+    refNode: *STR_RESISTANCE_ALERT00
     alert: STR_RESISTANCE_ALERT06_MESSAGE
-    alertBackground: BACK03.SCR
-    briefing: *TERROR_MISSION_BRIEFING
-    markerName: STR_SKYNET_ACTIVITY
-    markerIcon: 29
-    duration: [0, 1]
-    despawnPenalty: 0
   - type: STR_RESISTANCE_ALERT07
-    data: *SKYNET_RESISTANCE
-    width: 50
-    length: 50
-    height: 4
-    civilians: 16
-    terrains:
-      - URBAN
+    refNode: *STR_RESISTANCE_ALERT00
     alert: STR_RESISTANCE_ALERT07_MESSAGE
-    alertBackground: BACK03.SCR
-    briefing: *TERROR_MISSION_BRIEFING
-    markerName: STR_SKYNET_ACTIVITY
-    markerIcon: 29
-    duration: [0, 1]
-    despawnPenalty: 0
   - type: STR_RESISTANCE_ALERT08
-    data: *SKYNET_RESISTANCE
-    width: 50
-    length: 50
-    height: 4
-    civilians: 16
-    terrains:
-      - URBAN
+    refNode: *STR_RESISTANCE_ALERT00
     alert: STR_RESISTANCE_ALERT08_MESSAGE
-    alertBackground: BACK03.SCR
-    briefing: *TERROR_MISSION_BRIEFING
-    markerName: STR_SKYNET_ACTIVITY
-    markerIcon: 29
-    duration: [0, 1]
-    despawnPenalty: 0
   - type: STR_RESISTANCE_ALERT09
-    data: *SKYNET_RESISTANCE
-    width: 50
-    length: 50
-    height: 4
-    civilians: 16
-    terrains:
-      - URBAN
+    refNode: *STR_RESISTANCE_ALERT00
     alert: STR_RESISTANCE_ALERT09_MESSAGE
-    alertBackground: BACK03.SCR
-    briefing: *TERROR_MISSION_BRIEFING
-    markerName: STR_SKYNET_ACTIVITY
-    markerIcon: 29
-    duration: [0, 1]
-    despawnPenalty: 0
   - type: STR_RESISTANCE_ALERT10
-    data: *SKYNET_RESISTANCE
-    width: 50
-    length: 50
-    height: 4
-    civilians: 16
-    terrains:
-      - URBAN
+    refNode: *STR_RESISTANCE_ALERT00
     alert: STR_RESISTANCE_ALERT10_MESSAGE
-    alertBackground: BACK03.SCR
-    briefing: *TERROR_MISSION_BRIEFING
-    markerName: STR_SKYNET_ACTIVITY
-    markerIcon: 29
-    duration: [0, 1]
-    despawnPenalty: 0
   - type: STR_RESISTANCE_ALERT11
-    data: *SKYNET_RESISTANCE
-    width: 50
-    length: 50
-    height: 4
-    civilians: 16
-    terrains:
-      - URBAN
+    refNode: *STR_RESISTANCE_ALERT00
     alert: STR_RESISTANCE_ALERT11_MESSAGE
-    alertBackground: BACK03.SCR
-    briefing: *TERROR_MISSION_BRIEFING
-    markerName: STR_SKYNET_ACTIVITY
-    markerIcon: 29
-    duration: [0, 1]
-    despawnPenalty: 0
   - type: STR_RESISTANCE_ALERT12
-    data: *SKYNET_RESISTANCE
-    width: 50
-    length: 50
-    height: 4
-    civilians: 16
-    terrains:
-      - URBAN
-    alert: STR_RESISTANCE_ALERT12_MESSAGE
-    alertBackground: BACK03.SCR
-    briefing: *TERROR_MISSION_BRIEFING
-    markerName: STR_SKYNET_ACTIVITY
-    markerIcon: 29
-    duration: [0, 1]
-    despawnPenalty: 0
+    refNode: *STR_RESISTANCE_ALERT00
+    alert: STR_RESISTANCE_ALERT02_MESSAGE
   - type: STR_RESISTANCE_ALERT13
-    data: *SKYNET_RESISTANCE
-    width: 50
-    length: 50
-    height: 4
-    civilians: 16
-    terrains:
-      - URBAN
+    refNode: *STR_RESISTANCE_ALERT00
     alert: STR_RESISTANCE_ALERT13_MESSAGE
-    alertBackground: BACK03.SCR
-    briefing: *TERROR_MISSION_BRIEFING
-    markerName: STR_SKYNET_ACTIVITY
-    markerIcon: 29
-    duration: [0, 1]
-    despawnPenalty: 0
   - type: STR_RESISTANCE_ALERT14
-    data: *SKYNET_RESISTANCE
-    width: 50
-    length: 50
-    height: 4
-    civilians: 16
-    terrains:
-      - URBAN
+    refNode: *STR_RESISTANCE_ALERT00
     alert: STR_RESISTANCE_ALERT14_MESSAGE
-    alertBackground: BACK03.SCR
-    briefing: *TERROR_MISSION_BRIEFING
-    markerName: STR_SKYNET_ACTIVITY
-    markerIcon: 29
-    duration: [0, 1]
-    despawnPenalty: 0
   - type: STR_RESISTANCE_ALERT15
-    data: *SKYNET_RESISTANCE
-    width: 50
-    length: 50
-    height: 4
-    civilians: 16
-    terrains:
-      - URBAN
+    refNode: *STR_RESISTANCE_ALERT00
     alert: STR_RESISTANCE_ALERT15_MESSAGE
-    alertBackground: BACK03.SCR
-    briefing: *TERROR_MISSION_BRIEFING
-    markerName: STR_SKYNET_ACTIVITY
-    markerIcon: 29
-    duration: [0, 1]
-    despawnPenalty: 0
   - type: STR_RESISTANCE_ALERT16
-    data: *SKYNET_RESISTANCE
-    width: 50
-    length: 50
-    height: 4
-    civilians: 16
-    terrains:
-      - URBAN
+    refNode: *STR_RESISTANCE_ALERT00
     alert: STR_RESISTANCE_ALERT16_MESSAGE
-    alertBackground: BACK03.SCR
-    briefing: *TERROR_MISSION_BRIEFING
-    markerName: STR_SKYNET_ACTIVITY
-    markerIcon: 29
-    duration: [0, 1]
-    despawnPenalty: 0
   - type: STR_RESISTANCE_ALERT17
-    data: *SKYNET_RESISTANCE
-    width: 50
-    length: 50
-    height: 4
-    civilians: 16
-    terrains:
-      - URBAN
+    refNode: *STR_RESISTANCE_ALERT00
     alert: STR_RESISTANCE_ALERT17_MESSAGE
-    alertBackground: BACK03.SCR
-    briefing: *TERROR_MISSION_BRIEFING
-    markerName: STR_SKYNET_ACTIVITY
-    markerIcon: 29
-    duration: [0, 1]
-    despawnPenalty: 0
   - type: STR_RESISTANCE_ALERT18
-    data: *SKYNET_RESISTANCE
-    width: 50
-    length: 50
-    height: 4
-    civilians: 16
-    terrains:
-      - URBAN
+    refNode: *STR_RESISTANCE_ALERT00
     alert: STR_RESISTANCE_ALERT18_MESSAGE
-    alertBackground: BACK03.SCR
-    briefing: *TERROR_MISSION_BRIEFING
-    markerName: STR_SKYNET_ACTIVITY
-    markerIcon: 29
-    duration: [0, 1]
-    despawnPenalty: 0
   - type: STR_RESISTANCE_ALERT19
-    data: *SKYNET_RESISTANCE
-    width: 50
-    length: 50
-    height: 4
-    civilians: 16
-    terrains:
-      - URBAN
+    refNode: *STR_RESISTANCE_ALERT00
     alert: STR_RESISTANCE_ALERT19_MESSAGE
-    alertBackground: BACK03.SCR
-    briefing: *TERROR_MISSION_BRIEFING
-    markerName: STR_SKYNET_ACTIVITY
-    markerIcon: 29
-    duration: [0, 1]
-    despawnPenalty: 0
   - type: STR_RESISTANCE_ALERT20
-    data: *SKYNET_RESISTANCE
-    width: 50
-    length: 50
-    height: 4
-    civilians: 16
-    terrains:
-      - URBAN
+    refNode: *STR_RESISTANCE_ALERT00
     alert: STR_RESISTANCE_ALERT20_MESSAGE
-    alertBackground: BACK03.SCR
-    briefing: *TERROR_MISSION_BRIEFING
-    markerName: STR_SKYNET_ACTIVITY
-    markerIcon: 29
-    duration: [0, 1]
-    despawnPenalty: 0
   - type: STR_RESISTANCE_ALERT21
-    data: *SKYNET_RESISTANCE
-    width: 50
-    length: 50
-    height: 4
-    civilians: 16
-    terrains:
-      - URBAN
+    refNode: *STR_RESISTANCE_ALERT00
     alert: STR_RESISTANCE_ALERT21_MESSAGE
-    alertBackground: BACK03.SCR
-    briefing: *TERROR_MISSION_BRIEFING
-    markerName: STR_SKYNET_ACTIVITY
-    markerIcon: 29
-    duration: [0, 1]
-    despawnPenalty: 0
   - type: STR_RESISTANCE_ALERT22
-    data: *SKYNET_RESISTANCE
-    width: 50
-    length: 50
-    height: 4
-    civilians: 16
-    terrains:
-      - URBAN
+    refNode: *STR_RESISTANCE_ALERT00
     alert: STR_RESISTANCE_ALERT22_MESSAGE
-    alertBackground: BACK03.SCR
-    briefing: *TERROR_MISSION_BRIEFING
-    markerName: STR_SKYNET_ACTIVITY
-    markerIcon: 29
-    duration: [0, 1]
-    despawnPenalty: 0
   - type: STR_RESISTANCE_ALERT23
-    data: *SKYNET_RESISTANCE
-    width: 50
-    length: 50
-    height: 4
-    civilians: 16
-    terrains:
-      - URBAN
+    refNode: *STR_RESISTANCE_ALERT00
     alert: STR_RESISTANCE_ALERT23_MESSAGE
-    alertBackground: BACK03.SCR
-    briefing: *TERROR_MISSION_BRIEFING
-    markerName: STR_SKYNET_ACTIVITY
-    markerIcon: 29
-    duration: [0, 1]
-    despawnPenalty: 0
   - type: STR_RESISTANCE_ALERT24
-    data: *SKYNET_RESISTANCE
-    width: 50
-    length: 50
-    height: 4
-    civilians: 16
-    terrains:
-      - URBAN
+    refNode: *STR_RESISTANCE_ALERT00
     alert: STR_RESISTANCE_ALERT24_MESSAGE
-    alertBackground: BACK03.SCR
-    briefing: *TERROR_MISSION_BRIEFING
-    markerName: STR_SKYNET_ACTIVITY
-    markerIcon: 29
-    duration: [0, 1]
-    despawnPenalty: 0
   - type: STR_RESISTANCE_ALERT25
-    data: *SKYNET_RESISTANCE
-    width: 50
-    length: 50
-    height: 4
-    civilians: 16
-    terrains:
-      - URBAN
+    refNode: *STR_RESISTANCE_ALERT00
     alert: STR_RESISTANCE_ALERT25_MESSAGE
-    alertBackground: BACK03.SCR
-    briefing: *TERROR_MISSION_BRIEFING
-    markerName: STR_SKYNET_ACTIVITY
-    markerIcon: 29
-    duration: [0, 1]
-    despawnPenalty: 0
   - type: STR_RESISTANCE_ALERT26
-    data: *SKYNET_RESISTANCE
-    width: 50
-    length: 50
-    height: 4
-    civilians: 16
-    terrains:
-      - URBAN
+    refNode: *STR_RESISTANCE_ALERT00
     alert: STR_RESISTANCE_ALERT26_MESSAGE
-    alertBackground: BACK03.SCR
-    briefing: *TERROR_MISSION_BRIEFING
-    markerName: STR_SKYNET_ACTIVITY
-    markerIcon: 29
-    duration: [0, 1]
-    despawnPenalty: 0
   - type: STR_RESISTANCE_ALERT27
-    data: *SKYNET_RESISTANCE
-    width: 50
-    length: 50
-    height: 4
-    civilians: 16
-    terrains:
-      - URBAN
+    refNode: *STR_RESISTANCE_ALERT00
     alert: STR_RESISTANCE_ALERT27_MESSAGE
-    alertBackground: BACK03.SCR
-    briefing: *TERROR_MISSION_BRIEFING
-    markerName: STR_SKYNET_ACTIVITY
-    markerIcon: 29
-    duration: [0, 1]
-    despawnPenalty: 0
   - type: STR_RESISTANCE_ALERT28
-    data: *SKYNET_RESISTANCE
-    width: 50
-    length: 50
-    height: 4
-    civilians: 16
-    terrains:
-      - URBAN
+    refNode: *STR_RESISTANCE_ALERT00
     alert: STR_RESISTANCE_ALERT28_MESSAGE
-    alertBackground: BACK03.SCR
-    briefing: *TERROR_MISSION_BRIEFING
-    markerName: STR_SKYNET_ACTIVITY
-    markerIcon: 29
-    duration: [0, 1]
-    despawnPenalty: 0
   - type: STR_RESISTANCE_ALERT29
-    data: *SKYNET_RESISTANCE
-    width: 50
-    length: 50
-    height: 4
-    civilians: 16
-    terrains:
-      - URBAN
+    refNode: *STR_RESISTANCE_ALERT00
     alert: STR_RESISTANCE_ALERT29_MESSAGE
-    alertBackground: BACK03.SCR
-    briefing: *TERROR_MISSION_BRIEFING
-    markerName: STR_SKYNET_ACTIVITY
-    markerIcon: 29
-    duration: [0, 1]
-    despawnPenalty: 0
-  - type: STR_RESISTANCE_MESSAGE
-    data: *SKYNET_RESISTANCE
-    width: 50
-    length: 50
-    height: 4
-    civilians: 16
-    terrains:
-      - URBAN
-    alert: STR_RESISTANCE_MESSAGE_ALERT
-    alertBackground: BACK15.SCR
-    briefing: &TERROR_MISSION_BRIEFING
-      title: STR_TERROR_MISSION
-      desc: STR_TERROR_MISSION_BRIEFING
-      palette: 1
-      music: GMENBASE    
-    markerName: STR_RESISTANCE_MESSAGE
-    markerIcon: 1
-    duration: [0, 1]
-    despawnPenalty: 0
+  - type: STR_RESISTANCE_ALERT30
+    refNode: *STR_RESISTANCE_ALERT00
+    alert: STR_RESISTANCE_ALERT30_MESSAGE
+  - type: STR_RESISTANCE_ALERT31
+    refNode: *STR_RESISTANCE_ALERT00
+    alert: STR_RESISTANCE_ALERT31_MESSAGE
+  - type: STR_RESISTANCE_ALERT32
+    refNode: *STR_RESISTANCE_ALERT00
+    alert: STR_RESISTANCE_ALERT32_MESSAGE
+  - type: STR_RESISTANCE_ALERT33
+    refNode: *STR_RESISTANCE_ALERT00
+    alert: STR_RESISTANCE_ALERT33_MESSAGE
+  - type: STR_RESISTANCE_ALERT34
+    refNode: *STR_RESISTANCE_ALERT00
+    alert: STR_RESISTANCE_ALERT34_MESSAGE
+  - type: STR_RESISTANCE_ALERT35
+    refNode: *STR_RESISTANCE_ALERT00
+    alert: STR_RESISTANCE_ALERT35_MESSAGE
+  - type: STR_RESISTANCE_ALERT36
+    refNode: *STR_RESISTANCE_ALERT00
+    alert: STR_RESISTANCE_ALERT36_MESSAGE
+  - type: STR_RESISTANCE_ALERT37
+    refNode: *STR_RESISTANCE_ALERT00
+    alert: STR_RESISTANCE_ALERT37_MESSAGE
+  - type: STR_RESISTANCE_ALERT38
+    refNode: *STR_RESISTANCE_ALERT00
+    alert: STR_RESISTANCE_ALERT38_MESSAGE
+  - type: STR_RESISTANCE_ALERT39
+    refNode: *STR_RESISTANCE_ALERT00
+    alert: STR_RESISTANCE_ALERT39_MESSAGE
+  - type: STR_RESISTANCE_ALERT40
+    refNode: *STR_RESISTANCE_ALERT00
+    alert: STR_RESISTANCE_ALERT40_MESSAGE
+  - type: STR_RESISTANCE_ALERT41
+    refNode: *STR_RESISTANCE_ALERT00
+    alert: STR_RESISTANCE_ALERT41_MESSAGE
+  - type: STR_RESISTANCE_ALERT42
+    refNode: *STR_RESISTANCE_ALERT00
+    alert: STR_RESISTANCE_ALERT42_MESSAGE
+  - type: STR_RESISTANCE_ALERT43
+    refNode: *STR_RESISTANCE_ALERT00
+    alert: STR_RESISTANCE_ALERT43_MESSAGE
+  - type: STR_RESISTANCE_ALERT44
+    refNode: *STR_RESISTANCE_ALERT00
+    alert: STR_RESISTANCE_ALERT44_MESSAGE

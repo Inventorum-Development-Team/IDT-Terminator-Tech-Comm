@@ -10741,6 +10741,7 @@ terrains:
         width: 20
         length: 20
   - name: AREA51_RESEARCH
+    refNode: *AREA51
     mapDataSets:
       - BLANKS
       - AREA51_A1
@@ -12403,6 +12404,7 @@ terrains:
         width: 60
         length: 20
   - name: AREA51_SKYRANGER_FACTORY
+    refNode: *AREA51_SKYRANGER_FACTORY
     script: AREA51SKYRANGERFACTORY1
     mapBlocks:
       - name: AREA51RAID04

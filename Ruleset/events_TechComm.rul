@@ -255,6 +255,14 @@ events: #DONE
     points: 0
     timer: 1440
     timerRandom: 28800
+  - name: STR_SKYNET_PROPAGANDA_31
+    description: STR_SKYNET_PROPAGANDA_30_MESSAGE
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
   - name: STR_RESISTANCE_ALERT00
     description: STR_RESISTANCE_ALERT00_MESSAGE
     background: BACK183.SCR

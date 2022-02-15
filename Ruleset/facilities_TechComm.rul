@@ -296,7 +296,6 @@ facilities: #DONE
       size: [2, 2, 6]
       terrain: TECHCOMMBASE_DEFENSE
       blocks: 26
-    missileAttraction: 500
     missileAttraction: 50
   - type: STR_BARRACKS_REPAIRED
     size: 2
@@ -462,6 +461,7 @@ facilities: #DONE
     spriteFacility: 384
     requires:
       - STR_CRAFT_MANUFACTURE
+      - STR_DAMAGED_FACILITIES
     size: 3
     buildCost: 320000
     buildTime: 32
@@ -472,8 +472,6 @@ facilities: #DONE
     canBeBuiltOver: true
     buildOverFacilities:
       - STR_HANGAR
-    requires:
-      - STR_DAMAGED_FACILITIES
     verticalLevels:
     - type: ground
       size: [3, 3, 6]

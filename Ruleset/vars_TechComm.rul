@@ -2,9 +2,9 @@ startingTime:
   second: 0
   minute: 0
   hour: 0
-  weekday: 6
-  day: 1
-  month: 1
+  weekday: 3
+  day: 7
+  month: 7
   year: 2027
 turnAIUseGrenade: 0
 turnAIUseBlaster: 0
