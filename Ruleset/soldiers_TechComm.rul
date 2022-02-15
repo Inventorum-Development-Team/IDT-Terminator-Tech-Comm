@@ -92,7 +92,7 @@ soldiers:
       psiStrength: 100
       psiSkill: 100
       melee: 120
-    armor:  STR_JUMPSUIT_PILOT_UC
+    armor: STR_JUMPSUIT_PILOT_UC
     standHeight: 21
     kneelHeight: 13
     femaleFrequency: 50

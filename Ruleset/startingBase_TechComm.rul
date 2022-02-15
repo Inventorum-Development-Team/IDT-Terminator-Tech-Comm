@@ -13,7 +13,7 @@ startingBase:
     - type: STR_TECHCOMM_HQ
       x: 2
       y: 2
-    - type: STR_HOUSING
+    - type: STR_HOUSING_AREA
       x: 2
       y: 4
     - type: STR_STORAGE

@@ -4,3 +4,4 @@ version: 0.4.6
 author: "Several"
 description: "Terminator Future War total conversion for OpenXcom"
 master: xcom1
+requiredExtendedVersion: "5.4"

@@ -1188,17 +1188,17 @@ ufopaedia:
   - id: STR_HOUSING
     type_id: 6
     section: STR_INTELPEDIA_7
-    text: STR_HOUSING_UFOPEDIA
+    text: STR_HOUSING
     listOrder: 1703
-  - id: STR_INFIRMARY
+  - id: STR_HOUSING_STATION
     type_id: 6
     section: STR_INTELPEDIA_7
-    text: STR_INFIRMARY_UFOPEDIA
+    text: STR_HOUSING_UFOPEDIA
     listOrder: 1704
-  - id: STR_BARRACKS
+  - id: STR_MEDICAL_STATION
     type_id: 6
     section: STR_INTELPEDIA_7
-    text: STR_BARRACKS_UFOPEDIA
+    text: STR_MEDICAL_STATION_UFOPEDIA
     listOrder: 1705
   - id: STR_HOUSING_AREA
     type_id: 6
@@ -1212,140 +1212,155 @@ ufopaedia:
     section: STR_INTELPEDIA_7
     text: STR_STORAGE_UFOPEDIA
     listOrder: 1707
+  - id: STR_STORAGE_STATION
+    type_id: 6
+    section: STR_INTELPEDIA_7
+    text: STR_STORAGE_STATION_UFOPEDIA
+    listOrder: 1708
   - id: STR_STORAGE_AREA
     type_id: 6
     section: STR_INTELPEDIA_7
     requires:
       - STR_STORAGE_AREA
     text: STR_STORAGE_AREA_UFOPEDIA
-    listOrder: 1708
+    listOrder: 1709
   - id: STR_MINE_FIELD
     type_id: 6
     section: STR_INTELPEDIA_7
     text: STR_MINE_FIELD_UFOPEDIA
-    listOrder: 1709
+    listOrder: 1710
   - id: STR_GUARD_TOWER
     type_id: 6
     section: STR_INTELPEDIA_7
     text: STR_GUARD_TOWER_UFOPEDIA
-    listOrder: 1710
+    listOrder: 1711
   - id: STR_PILLBOX
     type_id: 6
     section: STR_INTELPEDIA_7
     text: STR_PILLBOX_UFOPEDIA
-    listOrder: 1711
+    listOrder: 1712
   - id: STR_BUNKER
     type_id: 6
     section: STR_INTELPEDIA_7
     text: STR_BUNKER_UFOPEDIA
-    listOrder: 1712
+    listOrder: 1713
+  - id: STR_BARRACKS
+    type_id: 6
+    section: STR_INTELPEDIA_7
+    text: STR_BARRACKS_UFOPEDIA
+    listOrder: 1714
+  - id: STR_INFIRMARY
+    type_id: 6
+    section: STR_INTELPEDIA_7
+    text: STR_INFIRMARY_UFOPEDIA
+    listOrder: 1715
   - id: STR_COMM_TOWER
     type_id: 6
     section: STR_INTELPEDIA_7
     text: STR_COMM_TOWER_UFOPEDIA
-    listOrder: 1713
+    listOrder: 1716
   - id: STR_COMM_ARRAY
     type_id: 6
     section: STR_INTELPEDIA_7
     requires:
       - STR_COMM_ARRAY
     text: STR_COMM_ARRAY_UFOPEDIA
-    listOrder: 1714
+    listOrder: 1717
   - id: STR_COMM_CENTER
     type_id: 6
     section: STR_INTELPEDIA_7
     requires:
       - STR_COMM_CENTER
     text: STR_COMM_ARRAY_UFOPEDIA
-    listOrder: 1715
+    listOrder: 1718
   - id: STR_COMM_STATION
     type_id: 6
     section: STR_INTELPEDIA_7
     requires:
       - STR_COMM_STATION
     text: STR_COMM_STATION_UFOPEDIA
-    listOrder: 1716
+    listOrder: 1719
   - id: STR_TECH_LAB
     type_id: 6
     section: STR_INTELPEDIA_7
     text: STR_TECH_LAB_UFOPEDIA
-    listOrder: 1717
+    listOrder: 1720
   - id: STR_TECH_CENTER
     type_id: 6
     section: STR_INTELPEDIA_7
     requires:
       - STR_TECH_CENTER
     text: STR_TECH_CENTER_UFOPEDIA
-    listOrder: 1718
+    listOrder: 1721
   - id: STR_NANO_CENTER
     type_id: 6
     section: STR_INTELPEDIA_7
     text: STR_NANO_CENTER_UFOPEDIA
-    listOrder: 1719
+    listOrder: 1722
   - id: STR_TECH_STATION
     type_id: 6
     section: STR_INTELPEDIA_7
     requires:
       - STR_TECH_STATION
     text: STR_TECH_STATION_UFOPEDIA
-    listOrder: 1720
+    listOrder: 1723
   - id: STR_MISSILE_SITE
     type_id: 6
     section: STR_INTELPEDIA_7
     text: STR_MISSILE_SITE_UFOPEDIA
-    listOrder: 1721
+    listOrder: 1724
   - id: STR_MISSILE_SILO
     type_id: 6
     section: STR_INTELPEDIA_7
     requires:
       - STR_MISSILE_SILO
     text: STR_MISSILE_SILO_UFOPEDIA
-    listOrder: 1722
+    listOrder: 1725
   - id: STR_DEFENSE_CENTER
     type_id: 6
     section: STR_INTELPEDIA_7
     requires:
       - STR_DEFENSE_CENTER
     text: STR_DEFENSE_CENTER_UFOPEDIA
-    listOrder: 1723
+    listOrder: 1726
   - id: STR_DEFENSE_STATION
     type_id: 6
     section: STR_INTELPEDIA_7
     requires:
       - STR_DEFENSE_STATION
     text: STR_DEFENSE_STATION_UFOPEDIA
-    listOrder: 1724
+    listOrder: 1727
   - id: STR_CLOAKING_FIELD
     type_id: 6
     section: STR_INTELPEDIA_7
     requires:
       - STR_CLOAKING_FIELD
     text: STR_CLOAKING_FIELD_UFOPEDIA
-    listOrder: 1726
+    listOrder: 1728
   - id: STR_PEN
     type_id: 6
     section: STR_INTELPEDIA_7
     text: STR_PEN_UFOPEDIA
-    listOrder: 1727
+    listOrder: 1729
   - id: STR_SHELTER
     type_id: 6
     section: STR_INTELPEDIA_7
     text: STR_SHELTER_UFOPEDIA
-    listOrder: 1728
+    listOrder: 1730
   - id: STR_HANGAR
     type_id: 6
     section: STR_INTELPEDIA_7
     requires:
       - STR_CRAFT_MANUFACTURE
     text: STR_HANGAR_UFOPEDIA
-    listOrder: 1729
+    listOrder: 1731
   - id: STR_POWER_CENTER
     type_id: 6
     section: STR_INTELPEDIA_7
     requires:
       - STR_ADVANCED_FACILITIES
     text: STR_POWER_CENTER_UFOPEDIA
-    listOrder: 1730
+    listOrder: 1732
 #HUNTER-KILLERS
   - id: STR_HUNTER_KILLERS
     type_id: 7

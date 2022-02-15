@@ -6,6 +6,7 @@ startingTime:
   day: 7
   month: 7
   year: 2027
+initialFunding: 2000
 turnAIUseGrenade: 0
 turnAIUseBlaster: 0
 defeatScore: -900

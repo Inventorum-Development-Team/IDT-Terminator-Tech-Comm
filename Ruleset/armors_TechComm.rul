@@ -557,119 +557,6 @@ armors: #DONE
       - 1.6
       - 1.0
     loftempsSet: [ 3 ]
-  - type: TERMINATOR_CERBERUS_ARMOR
-    spriteSheet: HK_CERBERUS.PCK
-    corpseBattle:
-      - STR_TERMINATOR_CERBERUS_CORPSE
-    frontArmor: 0
-    sideArmor: 0
-    rearArmor: 0
-    underArmor: 0
-    drawingRoutine: 4
-    damageModifier:
-      - 0.0
-      - 0.0
-      - 1.0
-      - 1.0
-      - 0.0
-      - 0.0
-      - 1.0
-      - 0.0
-      - 0.0
-      - 0.0
-    loftempsSet: [ 1 ]
-  - type: TERMINATOR_CYBERMITE_ARMOR
-    spriteSheet: HK_CYBERMITE.PCK
-    corpseBattle:
-      - STR_TERMINATOR_CYBERMITE_CORPSE
-    frontArmor: 14
-    sideArmor: 14
-    rearArmor: 14
-    underArmor: 14
-    drawingRoutine: 4
-    damageModifier:
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.2
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 0.0
-    loftempsSet: [ 2 ]
-  - type: TERMINATOR_DRONE_ARMOR
-    spriteSheet: HK_DRONE.PCK
-    corpseBattle:
-      - STR_TERMINATOR_DRONE_CORPSE
-    frontArmor: 24
-    sideArmor: 20
-    rearArmor: 16
-    underArmor: 16
-    drawingRoutine: 4
-    movementType: 2
-    damageModifier:
-      - 1.0
-      - 0.8
-      - 1.0
-      - 1.0
-      - 0.8
-      - 1.0
-      - 0.0
-      - 1.4
-      - 1.0
-      - 0.0
-    loftempsSet: [ 3 ]
-    allowInv: false
-  - type: TERMINATOR_SEEKER_ARMOR
-    spriteSheet: HK_SEEKER.PCK
-    corpseBattle:
-      - STR_TERMINATOR_SEEKER_CORPSE
-    frontArmor: 0
-    sideArmor: 0
-    rearArmor: 0
-    underArmor: 0
-    drawingRoutine: 4
-    damageModifier:
-      - 1.0
-      - 0.15
-      - 1.0
-      - 0.5
-      - 0.08
-      - 0.05
-      - 1.0
-      - 0.0
-      - 1.0
-      - 0.0
-    loftempsSet: [ 1 ]
-  - type: TERMINATOR_SENTRY_ARMOR
-    spriteInv: INV_HK_SENTRY
-    spriteSheet: HK_SENTRY.PCK
-    corpseBattle:
-      - SECTOPOD_CORPSE_1
-      - SECTOPOD_CORPSE_2
-      - SECTOPOD_CORPSE_3
-      - SECTOPOD_CORPSE_4
-    corpseGeo: STR_TERMINATOR_SENTRY_CORPSE
-    frontArmor: 135
-    sideArmor: 120
-    rearArmor: 90
-    underArmor: 80
-    drawingRoutine: 5
-    size: 2
-    damageModifier:
-      - 1.0
-      - 1.0
-      - 0.5
-      - 0.8
-      - 1.0
-      - 0.8
-      - 1.0
-      - 1.0
-      - 1.0
-      - 0.0
-    loftempsSet: [ 92, 89, 90, 91 ]
   - type: HUMAN_AGENT_ARMOR1
     spriteSheet: HUMAN_AGENT_1.PCK
     spriteInv: INV_HUMAN_AGENT
@@ -1931,6 +1818,119 @@ armors: #DONE
       - 1.6
       - 1.0
     loftempsSet: [ 3 ]
+  - type: TERMINATOR_CERBERUS_ARMOR
+    spriteSheet: HK_CERBERUS.PCK
+    corpseBattle:
+      - STR_TERMINATOR_CERBERUS_CORPSE
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    drawingRoutine: 4
+    damageModifier:
+      - 0.0
+      - 0.0
+      - 1.0
+      - 1.0
+      - 0.0
+      - 0.0
+      - 1.0
+      - 0.0
+      - 0.0
+      - 0.0
+    loftempsSet: [ 1 ]
+  - type: TERMINATOR_CYBERMITE_ARMOR
+    spriteSheet: HK_CYBERMITE.PCK
+    corpseBattle:
+      - STR_TERMINATOR_CYBERMITE_CORPSE
+    frontArmor: 14
+    sideArmor: 14
+    rearArmor: 14
+    underArmor: 14
+    drawingRoutine: 4
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.0
+    loftempsSet: [ 2 ]
+  - type: TERMINATOR_DRONE_ARMOR
+    spriteSheet: HK_DRONE.PCK
+    corpseBattle:
+      - STR_TERMINATOR_DRONE_CORPSE
+    frontArmor: 24
+    sideArmor: 20
+    rearArmor: 16
+    underArmor: 16
+    drawingRoutine: 4
+    movementType: 2
+    damageModifier:
+      - 1.0
+      - 0.8
+      - 1.0
+      - 1.0
+      - 0.8
+      - 1.0
+      - 0.0
+      - 1.4
+      - 1.0
+      - 0.0
+    loftempsSet: [ 3 ]
+    allowInv: false
+  - type: TERMINATOR_SEEKER_ARMOR
+    spriteSheet: HK_SEEKER.PCK
+    corpseBattle:
+      - STR_TERMINATOR_SEEKER_CORPSE
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    drawingRoutine: 4
+    damageModifier:
+      - 1.0
+      - 0.15
+      - 1.0
+      - 0.5
+      - 0.08
+      - 0.05
+      - 1.0
+      - 0.0
+      - 1.0
+      - 0.0
+    loftempsSet: [ 1 ]
+  - type: TERMINATOR_SENTRY_ARMOR
+    spriteInv: INV_HK_SENTRY
+    spriteSheet: HK_SENTRY.PCK
+    corpseBattle:
+      - SECTOPOD_CORPSE_1
+      - SECTOPOD_CORPSE_2
+      - SECTOPOD_CORPSE_3
+      - SECTOPOD_CORPSE_4
+    corpseGeo: STR_TERMINATOR_SENTRY_CORPSE
+    frontArmor: 135
+    sideArmor: 120
+    rearArmor: 90
+    underArmor: 80
+    drawingRoutine: 5
+    size: 2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.5
+      - 0.8
+      - 1.0
+      - 0.8
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.0
+    loftempsSet: [ 92, 89, 90, 91 ]
   - type: TERMINATOR_T200_ARMOR
     spriteSheet: TERMINATOR_T200.PCK
     spriteInv: INV_TERMINATOR_T200
