@@ -353,7 +353,6 @@ research:
     points: 50
     lookup: STR_TERMINATOR_T200_AUTOPSY
     needItem: true
-
   - name: STR_TERMINATOR_T300
     cost: 192
     points: 50
@@ -437,6 +436,66 @@ research:
     cost: 180
     points: 50
     lookup: STR_TERMINATOR_T1000_AUTOPSY
+    needItem: true
+  - name: STR_TERMINATOR_CERBERUS
+    cost: 192
+    points: 50
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_AI_SCARE_CROW
+  - name: STR_TERMINATOR_CERBERUS_CORPSE
+    cost: 180
+    points: 50
+    lookup: STR_TERMINATOR_CERBERUS_AUTOPSY
+    needItem: true
+  - name: STR_TERMINATOR_CYBERMITE
+    cost: 192
+    points: 50
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_AI_SCARE_CROW
+  - name: STR_TERMINATOR_CYBERMITE_CORPSE
+    cost: 180
+    points: 50
+    lookup: STR_TERMINATOR_CYBERMITE_AUTOPSY
+    needItem: true
+  - name: STR_TERMINATOR_DRONE
+    cost: 192
+    points: 50
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_AI_SCARE_CROW
+  - name: STR_TERMINATOR_DRONE_CORPSE
+    cost: 180
+    points: 50
+    lookup: STR_TERMINATOR_DRONE_AUTOPSY
+    needItem: true
+  - name: STR_TERMINATOR_SEEKER
+    cost: 192
+    points: 50
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_AI_SCARE_CROW
+  - name: STR_TERMINATOR_SEEKER_CORPSE
+    cost: 180
+    points: 50
+    lookup: STR_TERMINATOR_SEEKER_AUTOPSY
+    needItem: true
+  - name: STR_TERMINATOR_SENTRY
+    cost: 192
+    points: 50
+    needItem: true
+    destroyItem: true
+    unlocks:
+      - STR_AI_SCARE_CROW
+  - name: STR_TERMINATOR_SENTRY_CORPSE
+    cost: 180
+    points: 50
+    lookup: STR_TERMINATOR_SENTRY_AUTOPSY
     needItem: true
 ##TIER 2.A - HK BASE/WORKCAMP/FACTORY
   - name: STR_AI_CHAIN_HOME

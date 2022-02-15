@@ -44,6 +44,25 @@ manufacture:
     space: 4
     time: 420
     cost: 28000
+  - name: STR_M20A
+    category: STR_WEAPON
+    space: 1
+    time: 420
+    cost: 88000
+    requires:
+      - STR_M20A
+      - STR_M20A_FUEL_CELL
+    requiredItems:
+      STR_HYPER_ALLOYS: 1
+  - name: STR_M20A_FUEL_CELL
+    category: STR_AMMUNITION
+    requires:
+      - STR_M20A_FUEL_CELL
+    space: 1
+    time: 80
+    cost: 3000
+    requiredItems:
+      STR_PLASMA_CELL: 1
   - name: STR_M25A1
     category: STR_WEAPON
     requires:
@@ -77,6 +96,101 @@ manufacture:
     category: STR_AMMUNITION
     requires:
       - STR_M30A1_FUEL_CELL
+    space: 1
+    time: 80
+    cost: 3000
+    requiredItems:
+      STR_PLASMA_CELL: 1
+  - name: STR_M45
+    category: STR_WEAPON
+    space: 1
+    time: 420
+    cost: 88000
+    requires:
+      - STR_M45
+      - STR_M45_FUEL_CELL
+    requiredItems:
+      STR_HYPER_ALLOYS: 1
+  - name: STR_M45_FUEL_CELL
+    category: STR_AMMUNITION
+    requires:
+      - STR_M45_FUEL_CELL
+    space: 1
+    time: 80
+    cost: 3000
+    requiredItems:
+      STR_PLASMA_CELL: 1
+  - name: STR_M95A1
+    category: STR_WEAPON
+    space: 1
+    time: 420
+    cost: 88000
+    requires:
+      - STR_M95A1
+      - STR_M95A1_FUEL_CELL
+    requiredItems:
+      STR_HYPER_ALLOYS: 1
+  - name: STR_M95A1_FUEL_CELL
+    category: STR_AMMUNITION
+    requires:
+      - STR_M95A1_FUEL_CELL
+    space: 1
+    time: 80
+    cost: 3000
+    requiredItems:
+      STR_PLASMA_CELL: 1
+  - name: STR_RSB80
+    category: STR_WEAPON
+    space: 1
+    time: 420
+    cost: 88000
+    requires:
+      - STR_RSB80
+      - STR_RSB80_FUEL_CELL
+    requiredItems:
+      STR_HYPER_ALLOYS: 1
+  - name: STR_RSB80_FUEL_CELL
+    category: STR_AMMUNITION
+    requires:
+      - STR_RSB80_FUEL_CELL
+    space: 1
+    time: 80
+    cost: 3000
+    requiredItems:
+      STR_PLASMA_CELL: 1
+  - name: STR_RSB90
+    category: STR_WEAPON
+    space: 1
+    time: 420
+    cost: 88000
+    requires:
+      - STR_RSB90
+      - STR_RSB90_FUEL_CELL
+    requiredItems:
+      STR_HYPER_ALLOYS: 1
+  - name: STR_RSB90_FUEL_CELL
+    category: STR_AMMUNITION
+    requires:
+      - STR_RSB90_FUEL_CELL
+    space: 1
+    time: 80
+    cost: 3000
+    requiredItems:
+      STR_PLASMA_CELL: 1
+  - name: STR_RBS92
+    category: STR_WEAPON
+    space: 1
+    time: 420
+    cost: 88000
+    requires:
+      - STR_RBS92
+      - STR_RBS92_FUEL_CELL
+    requiredItems:
+      STR_HYPER_ALLOYS: 1
+  - name: STR_RBS92_FUEL_CELL
+    category: STR_AMMUNITION
+    requires:
+      - STR_RBS92_FUEL_CELL
     space: 1
     time: 80
     cost: 3000
@@ -268,7 +382,7 @@ manufacture:
     cost: 182000
     listOrder: 92
   - name: STR_GAU_2_CANNON_ROUNDS_X50
-    category: STR_CRAFT_HWP_AMMUNITION
+    category: STR_CRAFT_AMMUNITION
     requires:
       - STR_SECTOR_COMMS
     space: 2 
@@ -284,7 +398,7 @@ manufacture:
     cost: 182000
     listOrder: 92
   - name: STR_GAU_4_CANNON_ROUNDS_X50
-    category: STR_CRAFT_HWP_AMMUNITION
+    category: STR_CRAFT_AMMUNITION
     requires:
       - STR_SECTOR_COMMS
     space: 2 
@@ -300,7 +414,7 @@ manufacture:
     cost: 182000
     listOrder: 92
   - name: STR_GAU_8_CANNON_ROUNDS_X50
-    category: STR_CRAFT_HWP_AMMUNITION
+    category: STR_CRAFT_AMMUNITION
     requires:
       - STR_SECTOR_COMMS
     space: 2 
@@ -316,7 +430,7 @@ manufacture:
     cost: 182000
     listOrder: 92
   - name: STR_GAU_12_CANNON_ROUNDS_X50
-    category: STR_CRAFT_HWP_AMMUNITION
+    category: STR_CRAFT_AMMUNITION
     requires:
       - STR_SECTOR_COMMS
     space: 2 
@@ -332,7 +446,7 @@ manufacture:
     cost: 182000
     listOrder: 92
   - name: STR_GAU_19_CANNON_ROUNDS_X50
-    category: STR_CRAFT_HWP_AMMUNITION
+    category: STR_CRAFT_AMMUNITION
     requires:
       - STR_SECTOR_COMMS
     space: 2 
@@ -346,139 +460,213 @@ manufacture:
     cost: 100000
     requiresBaseFunc: [pilot_training, craft_housing]
     spawnedPersonType: STR_PILOT
-  - name: STR_BLACKBIRD
+  - name: STR_SENIOR_CITIZEN
     category: STR_CRAFT
-    requires:
-      - STR_BLACKBIRD_BLUEPRINT
     space: 30
     time: 14000
     cost: 100000
+    requires:
+      - STR_SENIOR_CITIZEN_BLUEPRINT
     requiresBaseFunc: [craft_production, craft_housing]
+    requiredItems:
+      STR_SENIOR_CITIZEN_FUSELAGE: 1
+  - name: STR_ARCHANGEL
+    category: STR_CRAFT
+    space: 30
+    time: 14000
+    cost: 100000
+    requires:
+      - STR_ARCHANGEL_BLUEPRINT
+    requiresBaseFunc: [craft_production, craft_housing]
+    requiredItems:
+      STR_ARCHANGEL_FUSELAGE: 1
+  - name: STR_VALKYRIE
+    category: STR_CRAFT
+    space: 30
+    time: 14000
+    cost: 100000
+    requires:
+      - STR_VALKYRIE_BLUEPRINT
+    requiresBaseFunc: [craft_production, craft_housing]
+    requiredItems:
+      STR_VALKYRIE_FUSELAGE: 1
+  - name: STR_AURORA
+    category: STR_CRAFT
+    space: 30
+    time: 14000
+    cost: 100000
+    requires:
+      - STR_AURORA_BLUEPRINT
+    requiresBaseFunc: [craft_production, craft_housing]
+    requiredItems:
+      STR_AURORA_FUSELAGE: 1
+  - name: STR_BLACKBIRD
+    category: STR_CRAFT
+    space: 30
+    time: 14000
+    cost: 100000
+    requires:
+      - STR_BLACKBIRD_BLUEPRINT
+    requiresBaseFunc: [craft_production, craft_housing]
+    requiredItems:
+      STR_BLACKBIRD_FUSELAGE: 1
   - name: STR_OSPREY
     category: STR_CRAFT
     space: 30
     time: 14000
     cost: 100000
-    requiresBaseFunc: [craft_production, craft_housing]
     requires:
       - STR_OSPREY_BLUEPRINT
+    requiresBaseFunc: [craft_production, craft_housing]
+    requiredItems:
+      STR_OSPREY_FUSELAGE: 1
   - name: STR_SHERPA
     category: STR_CRAFT
     space: 30
     time: 14000
     cost: 100000
-    requiresBaseFunc: [craft_production, craft_housing]
     requires:
       - STR_SHERPA_BLUEPRINT
+    requiresBaseFunc: [craft_production, craft_housing]
+    requiredItems:
+      STR_SHERPA_FUSELAGE: 1
   - name: STR_TWIN_OTTER
     category: STR_CRAFT
     space: 30
     time: 14000
     cost: 100000
-    requiresBaseFunc: [craft_production, craft_housing]
     requires:
       - STR_TWIN_OTTER_BLUEPRINT
+    requiresBaseFunc: [craft_production, craft_housing]
+    requiredItems:
+      STR_TWIN_OTTER_FUSELAGE: 1
   - name: STR_BRONCO
     category: STR_CRAFT
     space: 30
     time: 14000
     cost: 100000
-    requiresBaseFunc: [craft_production, craft_housing]
     requires:
       - STR_BRONCO_BLUEPRINT
+    requiresBaseFunc: [craft_production, craft_housing]
+    requiredItems:
+      STR_BRONCO_FUSELAGE: 1
   - name: STR_LION
     category: STR_CRAFT
     space: 30
     time: 14000
     cost: 100000
-    requiresBaseFunc: [craft_production, craft_housing]
     requires:
       - STR_LION_BLUEPRINT
+    requiresBaseFunc: [craft_production, craft_housing]
+    requiredItems:
+      STR_LION_FUSELAGE: 1
   - name: STR_SKYHAWK
     category: STR_CRAFT
     space: 30
     time: 14000
     cost: 100000
-    requiresBaseFunc: [craft_production, craft_housing]
     requires:
       - STR_SKYHAWK_BLUEPRINT
+    requiresBaseFunc: [craft_production, craft_housing]
+    requiredItems:
+      STR_SKYHAWK_FUSELAGE: 1
   - name: STR_WARTHOG
     category: STR_CRAFT
     space: 30
     time: 14000
     cost: 100000
-    requiresBaseFunc: [craft_production, craft_housing]
     requires:
       - STR_WARTHOG_BLUEPRINT
+    requiresBaseFunc: [craft_production, craft_housing]
+    requiredItems:
+      STR_WARTHOG_FUSELAGE: 1
   - name: STR_TALON
     category: STR_CRAFT
     space: 30
     time: 14000
     cost: 100000
-    requiresBaseFunc: [craft_production, craft_housing]
     requires:
       - STR_TALON_BLUEPRINT
+    requiresBaseFunc: [craft_production, craft_housing]
+    requiredItems:
+      STR_TALON_FUSELAGE: 1
   - name: STR_GOSHAWK
     category: STR_CRAFT
     space: 30
     time: 14000
     cost: 100000
-    requiresBaseFunc: [craft_production, craft_housing]
     requires:
       - STR_GOSHAWK_BLUEPRINT
+    requiresBaseFunc: [craft_production, craft_housing]
+    requiredItems:
+      STR_GOSHAWK_FUSELAGE: 1
   - name: STR_DRAGONFLY
     category: STR_CRAFT
     space: 30
     time: 14000
     cost: 100000
-    requiresBaseFunc: [craft_production, craft_housing]
     requires:
       - STR_DRAGONFLY_BLUEPRINT
+    requiresBaseFunc: [craft_production, craft_housing]
+    requiredItems:
+      STR_DRAGONFLY_FUSELAGE: 1
   - name: STR_PROWLER
     category: STR_CRAFT
     space: 30
     time: 14000
     cost: 100000
-    requiresBaseFunc: [craft_production, craft_housing]
     requires:
       - STR_PROWLER_BLUEPRINT
+    requiresBaseFunc: [craft_production, craft_housing]
+    requiredItems:
+      STR_PROWLER_FUSELAGE: 1
   - name: STR_VIKING
     category: STR_CRAFT
+    space: 30
+    time: 14000
+    cost: 100000
     requires:
       - STR_VIKING_BLUEPRINT
-    space: 30
-    time: 14000
-    cost: 100000
     requiresBaseFunc: [craft_production, craft_housing]
+    requiredItems:
+      STR_VIKING_FUSELAGE: 1
   - name: STR_HAWKEYE
     category: STR_CRAFT
-    requires:
-      - STR_HAWKEYE_BLUEPRINT
     space: 30
     time: 14000
     cost: 100000
+    requires:
+      - STR_HAWKEYE_BLUEPRINT
     requiresBaseFunc: [craft_production, craft_housing]
+    requiredItems:
+      STR_HAWKEYE_FUSELAGE: 1
   - name: STR_GUARDRAIL
     category: STR_CRAFT
     space: 30
     time: 14000
     cost: 100000
-    requiresBaseFunc: [craft_production, craft_housing]
     requires:
       - STR_GUARDRAIL_BLUEPRINT
+    requiresBaseFunc: [craft_production, craft_housing]
+    requiredItems:
+      STR_GUARDRAIL_FUSELAGE: 1
   - name: STR_MOHAWK
     category: STR_CRAFT
     space: 30
     time: 14000
     cost: 100000
-    requiresBaseFunc: [craft_production, craft_housing]
     requires:
       - STR_MOHAWK_BLUEPRINT
+    requiresBaseFunc: [craft_production, craft_housing]
+    requiredItems:
+      STR_MOHAWK_FUSELAGE: 1
   - name: STR_TRACER
     category: STR_CRAFT
-    requires:
-      - STR_TRACER_BLUEPRINT
     space: 30
     time: 14000
     cost: 100000
+    requires:
+      - STR_TRACER_BLUEPRINT
     requiresBaseFunc: [craft_production, craft_housing]
+    requiredItems:
+      STR_TRACER_FUSELAGE: 1

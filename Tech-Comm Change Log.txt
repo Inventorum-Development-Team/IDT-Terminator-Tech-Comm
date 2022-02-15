@@ -1,4 +1,27 @@
 Tech-Comm Change Log
+V0.4.5
+* Added: Archangel, Aurora and Valkyrie crafts
+* Replaced: Dynavert craft with Senior Citizen (Dragonfly from War Of The Shadows mod)
+* Removed: Super Osprey craft
+* Added: Genie and Falcon craft weapons
+* Added: several missing entries to the Intelpedia
+* Added: Tech-Comm HQ, Mine Field and Craft Pen base facilities
+* Added: John Connor, Kyle Reese and other Terminator human characters
+* Added: new introduction cutscene
+* Added: new starting events
+* Added: Officer and Pilot suits
+* Added: proximity grenade and medi kit items
+* Added: event system to replace previous system based on mission alerts
+* Added: arc script system to replace previous system based on research
+* Added: several craft weapons now available for manufacture
+* Added: craft fuselage system for manufacturing and missions
+* Added: base facility repair
+* Added: damaged base facilities
+* Changed: reorganizated the entire Intelpedia
+* Changed: all base facilities larger than 10x10 now use verticalLevels to spawn
+* Changed: TechComm base defense now 80x80, runways added to surface
+* Changed: redone all the route nodes in TechComm base terrain
+
 V0.34
 * Change: new maps for Command Center and Hangar, added stairs to Housing and Stores buildings, fixed routes to prevent terminators becoming stuck on roofs, and a rework of nearly all existing maps
 * Add: Medical Station, heals 5% health of injured soldiers, can host 25 personnel

@@ -15,6 +15,7 @@ pilotsEmergencyEvacuationSurvivalChance: 75
 chanceToStopRetaliation: 50
 allowCountriesToCancelAlienPact: true
 pediaReplaceCraftFuelWithRangeType: 2
+destroyedFacility: STR_RUBBLE
 ai:
   destroyBaseFacilities: true
 fixedUserOptions:
@@ -27,45 +28,3 @@ fixedUserOptions:
   strafe: false
 escortRange: 20
 escortsJoinFightAgainstHK: true
-operationNamesFirst:
-   - Alpha
-   - Bravo
-   - Charlie
-   - Delta
-   - Echo
-   - Foxtrot
-   - Golf
-   - Hotel
-   - India
-   - Juliet
-   - Kilo
-   - Lima
-   - Mike
-   - November   
-   - Oscar
-   - Papa
-   - Quebec
-   - Romeo
-   - Sierra
-   - Tango
-   - Uniform
-   - Victor
-   - Whisky
-   - X-Ray
-   - Yankee
-   - Zulu
-operationNamesLast:
-   - Zero
-   - One
-   - Two
-   - Three
-   - Four
-   - Five
-   - Six
-   - Seven
-   - Eight
-   - Nine
-   - Ten
-   - Eleven
-   - Twelve
-   - 25   - 

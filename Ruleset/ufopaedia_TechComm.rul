@@ -1126,36 +1126,54 @@ ufopaedia:
     image_id: HARM
     text: STR_HARM_UFOPEDIA
     listOrder: 1612
+  - id: STR_PHOENIX
+    type_id: 2
+    section: STR_INTELPEDIA_6
+    image_id: HARM
+    text: STR_PHOENIX_UFOPEDIA
+    listOrder: 1613
+  - id: STR_GENIE
+    type_id: 2
+    section: STR_INTELPEDIA_6
+    image_id: HYDRA
+    text: STR_GENIE_UFOPEDIA
+    listOrder: 1614
+  - id: STR_FALCON
+    type_id: 2
+    section: STR_INTELPEDIA_6
+    image_id: SPARROW
+    text: STR_FALCON_UFOPEDIA
+    listOrder: 1615
   - id: STR_GAU_2
     type_id: 2
     section: STR_INTELPEDIA_6
     image_id: GAU2
     text: STR_GAU_2_UFOPEDIA
-    listOrder: 1613
+    listOrder: 1620
   - id: STR_GAU_4
     type_id: 2
     section: STR_INTELPEDIA_6
     image_id: GAU4
     text: STR_GAU_4_UFOPEDIA
-    listOrder: 1614
+    listOrder: 1621
   - id: STR_GAU_8
     type_id: 2
     section: STR_INTELPEDIA_6
     image_id: GAU8
     text: STR_GAU_8_UFOPEDIA
-    listOrder: 1615
+    listOrder: 1622
   - id: STR_GAU_12
     type_id: 2
     section: STR_INTELPEDIA_6
     image_id: GAU12
     text: STR_GAU_12_UFOPEDIA
-    listOrder: 1616
+    listOrder: 1623
   - id: STR_GAU_19
     type_id: 2
     section: STR_INTELPEDIA_6
     image_id: GAU19
     text: STR_GAU_19_UFOPEDIA
-    listOrder: 1617
+    listOrder: 1624
 #TECH BASES
   - id: STR_TECHCOMM_HQ
     type_id: 6
@@ -1538,6 +1556,96 @@ ufopaedia:
     text: STR_TERMINATOR_T1000_UFOPEDIA
     text_width: 158
     listOrder: 1918
+  - id: STR_TERMINATOR_DRONE
+    type_id: 7
+    section: STR_INTELPEDIA_9
+    requires:
+      - STR_TERMINATOR_DRONE
+    image_id: UFOPAEDIA_IMG_PHASER
+    text: STR_TERMINATOR_DRONE_UFOPEDIA
+    text_width: 158
+    listOrder: 1903
+  - id: STR_TERMINATOR_DRONE_AUTOPSY
+    type_id: 7
+    section: STR_INTELPEDIA_9
+    requires:
+      - STR_TERMINATOR_DRONE_CORPSE
+    image_id: UFOPAEDIA_IMG_PHASER_CORPSE
+    text: STR_TERMINATOR_DRONE_UFOPEDIA
+    text_width: 158
+    listOrder: 1904
+  - id: STR_TERMINATOR_CERBERUS
+    type_id: 7
+    section: STR_INTELPEDIA_9
+    requires:
+      - STR_TERMINATOR_CERBERUS
+    image_id: UFOPAEDIA_IMG_PHASER
+    text: STR_TERMINATOR_CERBERUS_UFOPEDIA
+    text_width: 158
+    listOrder: 1903
+  - id: STR_TERMINATOR_CERBERUS_AUTOPSY
+    type_id: 7
+    section: STR_INTELPEDIA_9
+    requires:
+      - STR_TERMINATOR_CERBERUS_CORPSE
+    image_id: UFOPAEDIA_IMG_PHASER_CORPSE
+    text: STR_TERMINATOR_CERBERUS_UFOPEDIA
+    text_width: 158
+    listOrder: 1904
+  - id: STR_TERMINATOR_SEEKER
+    type_id: 7
+    section: STR_INTELPEDIA_9
+    requires:
+      - STR_TERMINATOR_SEEKER
+    image_id: UFOPAEDIA_IMG_PHASER
+    text: STR_TERMINATOR_SEEKER_UFOPEDIA
+    text_width: 158
+    listOrder: 1903
+  - id: STR_TERMINATOR_SEEKER_AUTOPSY
+    type_id: 7
+    section: STR_INTELPEDIA_9
+    requires:
+      - STR_TERMINATOR_SEEKER_CORPSE
+    image_id: UFOPAEDIA_IMG_PHASER_CORPSE
+    text: STR_TERMINATOR_SEEKER_UFOPEDIA
+    text_width: 158
+    listOrder: 1904
+  - id: STR_TERMINATOR_CYBERMITE
+    type_id: 7
+    section: STR_INTELPEDIA_9
+    requires:
+      - STR_TERMINATOR_CYBERMITE
+    image_id: UFOPAEDIA_IMG_PHASER
+    text: STR_TERMINATOR_CYBERMITE_UFOPEDIA
+    text_width: 158
+    listOrder: 1903
+  - id: STR_TERMINATOR_CYBERMITE_AUTOPSY
+    type_id: 7
+    section: STR_INTELPEDIA_9
+    requires:
+      - STR_TERMINATOR_CYBERMITE_CORPSE
+    image_id: UFOPAEDIA_IMG_PHASER_CORPSE
+    text: STR_TERMINATOR_CYBERMITE_UFOPEDIA
+    text_width: 158
+    listOrder: 1904
+  - id: STR_TERMINATOR_SENTRY
+    type_id: 7
+    section: STR_INTELPEDIA_9
+    requires:
+      - STR_TERMINATOR_SENTRY
+    image_id: UFOPAEDIA_IMG_PHASER
+    text: STR_TERMINATOR_SENTRY_UFOPEDIA
+    text_width: 158
+    listOrder: 1903
+  - id: STR_TERMINATOR_SENTRY_AUTOPSY
+    type_id: 7
+    section: STR_INTELPEDIA_9
+    requires:
+      - STR_TERMINATOR_SENTRY_CORPSE
+    image_id: UFOPAEDIA_IMG_PHASER_CORPSE
+    text: STR_TERMINATOR_SENTRY_UFOPEDIA
+    text_width: 158
+    listOrder: 1904
 #TECH WEAPONS
   - id: STR_LIGHT_PISTOL
     type_id: 4

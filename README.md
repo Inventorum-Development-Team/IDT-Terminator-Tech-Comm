@@ -3,7 +3,7 @@ Terminator Future War total conversion for OpenXcom
 
 It is 2027, nearly thirty years after Judgment Day. 
 
-The war against the machines has entered a dangerous phase: in 2025 the resistance attacked Cheyenne Mountain in a gamble to destroy Skynet's Core and end the war. After months of preparation and gathering the necessary forces, the resistance forces were able to overcome the complex's massive defenses but the A.I. had long predicted such a move and had already relocated itself to a currently unknown location prior to the attack.
+The war against the machines has entered a dangerous phase: in 2027 the resistance attacked Cheyenne Mountain in a gamble to destroy Skynet's Core and end the war. After months of preparation and gathering the necessary forces, the resistance forces were able to overcome the complex's massive defenses but the A.I. had long predicted such a move and had already relocated itself to a currently unknown location prior to the attack.
 
 Although successful in taking the complex despite the heavy casualties, the Resistance's victory become a phyrric one after the battle: Skynet immediately launched a counter-offensive worldwide to terminate key resistance units and bases, taking advantage that many assets had been redeployed for the Cheyenne Mountain offensive. While Skynet also failed to take down the Resistance, both sides were left exhausted by the fighting.
 

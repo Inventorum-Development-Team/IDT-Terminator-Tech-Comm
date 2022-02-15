@@ -1,0 +1,164 @@
+enviroEffects:
+
+  - type: NUCLEAR_FALLOUT
+    bigSprite: 100
+    meleeHitSound: 0
+    meleeAnimation: 0
+    power: 10
+    damageType: 8
+    damageAlter:
+      RandomType: 1
+      ArmorEffectiveness: 0
+      ToWound: 0
+      ToHealth: 0
+      ToStun: 0.25
+      ToMorale: 1.25
+      ToEnergy: 0
+      RandomMorale: false
+      RandomEnergy: false
+      RandomStun: false
+      RandomHealth: false
+      RandomWound: false
+    accuracyMelee: 100
+    costMelee:
+      time: 8
+    battleType: 3
+    clipSize: -1
+    invWidth: 2
+    invHeight: 2
+    recover: false
+  - type: NEURO_TOXIN
+    bigSprite: 100
+    meleeHitSound: 0
+    meleeAnimation: 0
+    power: 10
+    damageType: 8
+    damageAlter:
+      RandomType: 1
+      ArmorEffectiveness: 0
+      ToWound: 0
+      ToHealth: 0
+      ToStun: 1.0
+      ToMorale: 1.0
+      ToEnergy: 1.0
+      RandomMorale: false
+      RandomEnergy: false
+      RandomStun: false
+      RandomHealth: false
+      RandomWound: false
+    accuracyMelee: 100
+    costMelee:
+      time: 8
+    battleType: 3
+    clipSize: -1
+    invWidth: 2
+    invHeight: 2
+    recover: false
+  - type: BIO_WEAPON
+    bigSprite: 100
+    meleeHitSound: 0
+    meleeAnimation: 0
+    power: 10
+    damageType: 8
+    damageAlter:
+      RandomType: 1
+      ArmorEffectiveness: 0
+      ToWound: 0
+      ToHealth: 0
+      ToStun: 1.0
+      ToMorale: 1.0
+      ToEnergy: 1.0
+      RandomMorale: false
+      RandomEnergy: false
+      RandomStun: false
+      RandomHealth: false
+      RandomWound: false
+    accuracyMelee: 100
+    costMelee:
+      time: 8
+    battleType: 3
+    clipSize: -1
+    invWidth: 2
+    invHeight: 2
+    recover: false
+  - type: CHEMICAL_AGENT
+    bigSprite: 100
+    meleeHitSound: 0
+    meleeAnimation: 0
+    power: 10
+    damageType: 8
+    damageAlter:
+      RandomType: 1
+      ArmorEffectiveness: 0
+      ToWound: 0
+      ToHealth: 0
+      ToStun: 1.0
+      ToMorale: 1.0
+      ToEnergy: 1.0
+      RandomMorale: false
+      RandomEnergy: false
+      RandomStun: false
+      RandomHealth: false
+      RandomWound: false
+    accuracyMelee: 100
+    costMelee:
+      time: 8
+    battleType: 3
+    clipSize: -1
+    invWidth: 2
+    invHeight: 2
+    recover: false
+  - type: PANIC_AGENT
+    bigSprite: 100
+    meleeHitSound: 0
+    meleeAnimation: 0
+    power: 10
+    damageType: 8
+    damageAlter:
+      RandomType: 1
+      ArmorEffectiveness: 0
+      ToWound: 0
+      ToHealth: 0
+      ToStun: 1.0
+      ToMorale: 1.0
+      ToEnergy: 1.0
+      RandomMorale: false
+      RandomEnergy: false
+      RandomStun: false
+      RandomHealth: false
+      RandomWound: false
+    accuracyMelee: 100
+    costMelee:
+      time: 8
+    battleType: 3
+    clipSize: -1
+    invWidth: 2
+    invHeight: 2
+    recover: false
+  - type: DISABLING_AGENT
+    bigSprite: 100
+    meleeHitSound: 0
+    meleeAnimation: 0
+    power: 10
+    damageType: 8
+    damageAlter:
+      RandomType: 1
+      ArmorEffectiveness: 0
+      ToWound: 0
+      ToHealth: 0
+      ToStun: 1.0
+      ToMorale: 1.0
+      ToEnergy: 1.0
+      RandomMorale: false
+      RandomEnergy: false
+      RandomStun: false
+      RandomHealth: false
+      RandomWound: false
+    accuracyMelee: 100
+    costMelee:
+      time: 8
+    battleType: 3
+    clipSize: -1
+    invWidth: 2
+    invHeight: 2
+    recover: false

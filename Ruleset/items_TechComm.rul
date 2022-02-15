@@ -435,6 +435,183 @@ items:
     invHeight: 1
     bigSprite: 55
     floorSprite: 72
+#Craft Fuselages
+  - type: STR_SENIOR_CITIZEN_FUSELAGE
+    costSell: 100000
+    size: 1
+    weight: 1
+    invWidth: 1
+    invHeight: 1
+    bigSprite: 55
+    floorSprite: 72
+  - type: STR_VALKYRIE_FUSELAGE
+    costSell: 100000
+    size: 1
+    weight: 1
+    invWidth: 1
+    invHeight: 1
+    bigSprite: 55
+    floorSprite: 72
+  - type: STR_ARCHANGEL_FUSELAGE
+    costSell: 100000
+    size: 1
+    weight: 1
+    invWidth: 1
+    invHeight: 1
+    bigSprite: 55
+    floorSprite: 72
+  - type: STR_AURORA_FUSELAGE
+    costSell: 100000
+    size: 1
+    weight: 1
+    invWidth: 1
+    invHeight: 1
+    bigSprite: 55
+    floorSprite: 72
+  - type: STR_BLACKBIRD_FUSELAGE
+    costSell: 100000
+    size: 1
+    weight: 1
+    invWidth: 1
+    invHeight: 1
+    bigSprite: 55
+    floorSprite: 72
+  - type: STR_HAWKEYE_FUSELAGE
+    costSell: 100000
+    size: 1
+    weight: 1
+    invWidth: 1
+    invHeight: 1
+    bigSprite: 55
+    floorSprite: 72
+  - type: STR_VIKING_FUSELAGE
+    costSell: 100000
+    size: 1
+    weight: 1
+    invWidth: 1
+    invHeight: 1
+    bigSprite: 55
+    floorSprite: 72
+  - type: STR_TWIN_OTTER_FUSELAGE
+    costSell: 100000
+    size: 1
+    weight: 1
+    invWidth: 1
+    invHeight: 1
+    bigSprite: 55
+    floorSprite: 72
+  - type: STR_GOSHAWK_FUSELAGE
+    costSell: 100000
+    size: 1
+    weight: 1
+    invWidth: 1
+    invHeight: 1
+    bigSprite: 55
+    floorSprite: 72
+  - type: STR_BRONCO_FUSELAGE
+    costSell: 100000
+    size: 1
+    weight: 1
+    invWidth: 1
+    invHeight: 1
+    bigSprite: 55
+    floorSprite: 72
+  - type: STR_TRACER_FUSELAGE
+    costSell: 100000
+    size: 1
+    weight: 1
+    invWidth: 1
+    invHeight: 1
+    bigSprite: 55
+    floorSprite: 72
+  - type: STR_OSPREY_FUSELAGE
+    costSell: 100000
+    size: 1
+    weight: 1
+    invWidth: 1
+    invHeight: 1
+    bigSprite: 55
+    floorSprite: 72
+  - type: STR_LION_FUSELAGE
+    costSell: 100000
+    size: 1
+    weight: 1
+    invWidth: 1
+    invHeight: 1
+    bigSprite: 55
+    floorSprite: 72
+  - type: STR_SKYHAWK_FUSELAGE
+    costSell: 100000
+    size: 1
+    weight: 1
+    invWidth: 1
+    invHeight: 1
+    bigSprite: 55
+    floorSprite: 72
+  - type: STR_WARTHOG_FUSELAGE
+    costSell: 100000
+    size: 1
+    weight: 1
+    invWidth: 1
+    invHeight: 1
+    bigSprite: 55
+    floorSprite: 72
+  - type: STR_PROWLER_FUSELAGE
+    costSell: 100000
+    size: 1
+    weight: 1
+    invWidth: 1
+    invHeight: 1
+    bigSprite: 55
+    floorSprite: 72
+  - type: STR_HAWKEYE_FUSELAGE
+    costSell: 100000
+    size: 1
+    weight: 1
+    invWidth: 1
+    invHeight: 1
+    bigSprite: 55
+    floorSprite: 72
+  - type: STR_SHERPA_FUSELAGE
+    costSell: 100000
+    size: 1
+    weight: 1
+    invWidth: 1
+    invHeight: 1
+    bigSprite: 55
+    floorSprite: 72
+  - type: STR_TALON_FUSELAGE
+    costSell: 100000
+    size: 1
+    weight: 1
+    invWidth: 1
+    invHeight: 1
+    bigSprite: 55
+    floorSprite: 72
+  - type: STR_DRAGONFLY_FUSELAGE
+    costSell: 100000
+    size: 1
+    weight: 1
+    invWidth: 1
+    invHeight: 1
+    bigSprite: 55
+    floorSprite: 72
+  - type: STR_MOHAWK_FUSELAGE
+    costSell: 100000
+    size: 1
+    weight: 1
+    invWidth: 1
+    invHeight: 1
+    bigSprite: 55
+    floorSprite: 72
+  - type: STR_GUARDRAIL_FUSELAGE
+    costSell: 100000
+    size: 1
+    weight: 1
+    invWidth: 1
+    invHeight: 1
+    bigSprite: 55
+    floorSprite: 72
 #Craft Weapons
   - type: STR_COMM_PODS
     size: 5
@@ -2674,37 +2851,37 @@ items:
     recover: false
     armor: 35
 #Terminators
-  - type: STR_HK_CERBERUS
+  - type: STR_TERMINATOR_CERBERUS
     size: 0.0
     recover: true
     liveAlien: true
     costSell: 40000
     listOrder: 15022
-  - type: STR_HK_CYBERMITE
+  - type: STR_TERMINATOR_CYBERMITE
     size: 0.0
     recover: true
     liveAlien: true
     costSell: 40000
     listOrder: 15017
-  - type: STR_HK_DRONE
+  - type: STR_TERMINATOR_DRONE
     size: 0.0
     recover: true
     liveAlien: true
     costSell: 40000
     listOrder: 15007
-  - type: STR_HK_SEEKER
+  - type: STR_TERMINATOR_SEEKER
     size: 0.0
     recover: true
     liveAlien: true
     costSell: 40000
     listOrder: 15022
-  - type: STR_HK_SENTRY
+  - type: STR_TERMINATOR_SENTRY
     size: 0.0
     recover: false
     liveAlien: true
     costSell: 80000
     listOrder: 14401
-  - type: STR_HK_CERBERUS_CORPSE
+  - type: STR_TERMINATOR_CERBERUS_CORPSE
     size: 0.4
     costSell: 20000
     weight: 5
@@ -2717,7 +2894,7 @@ items:
     recoveryPoints: 3
     armor: 35
     listOrder: 8504
-  - type: STR_HK_CYBERMITE_CORPSE
+  - type: STR_TERMINATOR_CYBERMITE_CORPSE
     size: 0.4
     costSell: 20000
     weight: 30
@@ -2731,7 +2908,7 @@ items:
     blastRadius: -1
     armor: 26
     listOrder: 8503
-  - type: STR_HK_DRONE_CORPSE
+  - type: STR_TERMINATOR_DRONE_CORPSE
     size: 0.4
     costSell: 20000
     weight: 25
@@ -2743,7 +2920,7 @@ items:
     battleType: 11
     armor: 36
     listOrder: 8501
-  - type: STR_HK_SEEKER_CORPSE
+  - type: STR_TERMINATOR_SEEKER_CORPSE
     size: 0.4
     costSell: 20000
     weight: 5
@@ -2756,7 +2933,7 @@ items:
     recoveryPoints: 3
     armor: 35
     listOrder: 8504
-  - type: STR_HK_SENTRY_CORPSE
+  - type: STR_TERMINATOR_SENTRY_CORPSE
     size: 1
     costSell: 20000
     battleType: 11
@@ -2904,7 +3081,7 @@ items:
     liveAlien: true
     costSell: 40000
     listOrder: 15020
-  - type: HK_CERBERUS_WEAPON
+  - type: TERMINATOR_CERBERUS_WEAPON
     weight: 3
     bigSprite: { mod: xcom1, index: 60 }
     floorSprite: 31
@@ -2924,7 +3101,7 @@ items:
     clipSize: -1
     bulletSprite: -1
     recover: false
-  - type: HK_CYBERMITE_WEAPON
+  - type: TERMINATOR_CYBERMITE_WEAPON
     weight: 3
     bigSprite: { mod: xcom1, index: 59 }
     floorSprite: 31
@@ -2940,7 +3117,7 @@ items:
     invWidth: 2
     invHeight: 3
     recover: false
-  - type: HK_DRONE_WEAPON
+  - type: TERMINATOR_DRONE_WEAPON
     weight: 3
     bigSprite: { mod: xcom1, index: 59 }
     floorSprite: 31
@@ -2960,7 +3137,7 @@ items:
     clipSize: -1
     autoShots: 3
     recover: false
-  - type: HK_SEEKER_WEAPON
+  - type: TERMINATOR_SEEKER_WEAPON
     weight: 3
     bigSprite: { mod: xcom1, index: 59 }
     meleeSound: 49
@@ -2975,7 +3152,7 @@ items:
     strengthApplied: true
     fixedWeapon: true
     recover: false
-  - type: HK_SENTRY_WEAPON
+  - type: TERMINATOR_SENTRY_WEAPON
     weight: 3
     bigSprite: { mod: xcom1, index: 60 }
     floorSprite: 31

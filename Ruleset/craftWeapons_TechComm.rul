@@ -303,3 +303,34 @@ craftWeapons: #DONE
     clip: STR_STINGER_MISSILES
     projectileType: 0
     projectileSpeed: 8
+  - type: STR_GENIE
+    weaponType: 3
+    sprite: 110
+    sound: 5
+    damage: 150
+    range: 24
+    accuracy: 50
+    reloadCautious: 48
+    reloadStandard: 32
+    reloadAggressive: 16
+    ammoMax: 2
+    launcher: STR_GENIE_LAUNCHER
+    clip: STR_GENIE_ROCKETS
+    projectileType: 0
+    projectileSpeed: 8
+  - type: STR_FALCON
+    weaponType: 4
+    sprite: 109
+    sound: 5
+    damage: 180
+    range: 50
+    accuracy: 70
+    reloadCautious: 96
+    reloadStandard: 72
+    reloadAggressive: 48
+    ammoMax: 1
+    launcher: STR_FALCON_LAUNCHER
+    clip: STR_FALCON_MISSILES
+    projectileType: 1
+    projectileSpeed: 8
+  - type: STR_HYDRA

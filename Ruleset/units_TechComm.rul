@@ -1826,7 +1826,7 @@ units:
     deathSound: 23
     intelligence: 5
     aggression: 0
-  - type: STR_HK_CERBERUS
+  - type: STR_TERMINATOR_CERBERUS
     race: STR_HK
     rank: STR_LIVE_TERRORIST
     stats:
@@ -1841,7 +1841,7 @@ units:
       psiStrength: 100
       psiSkill: 0
       melee: 76
-    armor: HK_CERBERUS_ARMOR
+    armor: TERMINATOR_CERBERUS_ARMOR
     standHeight: 12
     kneelHeight: 12
     value: 20
@@ -1849,7 +1849,7 @@ units:
     capturable: false
     liveAlien: ""
     livingWeapon: true
-  - type: STR_HK_CYBERMITE
+  - type: STR_TERMINATOR_CYBERMITE
     race: STR_HK
     rank: STR_LIVE_TERRORIST
     stats:
@@ -1864,7 +1864,7 @@ units:
       psiStrength: 100
       psiSkill: 0
       melee: 80
-    armor: HK_CYBERMITE_ARMOR
+    armor: TERMINATOR_CYBERMITE_ARMOR
     standHeight: 6
     kneelHeight: 5
     value: 25
@@ -1876,7 +1876,7 @@ units:
     capturable: false
     isLeeroyJenkins: true
     liveAlien: ""
-  - type: STR_HK_DRONE
+  - type: STR_TERMINATOR_DRONE
     race: STR_HK
     rank: STR_LIVE_TERRORIST
     stats:
@@ -1892,7 +1892,7 @@ units:
       psiSkill: 0
       melee: 70
     energyRecovery: 45
-    armor: HK_DRONE_ARMOR
+    armor: TERMINATOR_DRONE_ARMOR
     moveSound: 40
     standHeight: 11
     kneelHeight: 16
@@ -1904,7 +1904,7 @@ units:
     livingWeapon: true
     capturable: false
     liveAlien: ""
-  - type: STR_HK_SEEKER
+  - type: STR_TERMINATOR_SEEKER
     race: STR_HK
     rank: STR_LIVE_TERRORIST
     stats:
@@ -1919,7 +1919,7 @@ units:
       psiStrength: 100
       psiSkill: 0
       melee: 76
-    armor: HK_SEEKER_ARMOR
+    armor: TERMINATOR_SEEKER_ARMOR
     standHeight: 12
     kneelHeight: 12
     deathSound: 51
@@ -1932,7 +1932,7 @@ units:
     capturable: false
     isLeeroyJenkins: true
     liveAlien: ""
-  - type: STR_HK_SENTRY
+  - type: STR_TERMINATOR_SENTRY
     race: STR_HK
     rank: STR_LIVE_TERRORIST
     stats:
@@ -1947,7 +1947,7 @@ units:
       psiStrength: 150
       psiSkill: 0
       melee: 80
-    armor: HK_SENTRY_ARMOR
+    armor: TERMINATOR_SENTRY_ARMOR
     standHeight: 23
     kneelHeight: 16
     value: 30
