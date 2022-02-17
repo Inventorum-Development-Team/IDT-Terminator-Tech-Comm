@@ -90,6 +90,8 @@ eventScripts: #DONE
         STR_SKYNET_COMMS33: 100
         STR_SKYNET_COMMS34: 100
         STR_SKYNET_COMMS35: 100
+        STR_SKYNET_COMMS36: 100
+        STR_SKYNET_COMMS37: 100
     firstMonth: 0
     executionOdds: 100
   - type: STR_SECTOR_00_COMMS

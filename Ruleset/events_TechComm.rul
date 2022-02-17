@@ -17,294 +17,121 @@ events: #DONE
     timer: 1440
     timerRandom: 28800
   - name: STR_SKYNET_COMMS00
+    refNode: *STR_SKYNET_COMMS
     description: STR_SKYNET_COMMS00_MESSAGE
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SKYNET_COMMS01
+    refNode: *STR_SKYNET_COMMS
     description: STR_SKYNET_COMMS01_MESSAGE
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SKYNET_COMMS02
+    refNode: *STR_SKYNET_COMMS
     description: STR_SKYNET_COMMS02_MESSAGE
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SKYNET_COMMS03
+    refNode: *STR_SKYNET_COMMS
     description: STR_SKYNET_COMMS03_MESSAGE
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SKYNET_COMMS04
+    refNode: *STR_SKYNET_COMMS
     description: STR_SKYNET_COMMS04_MESSAGE
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SKYNET_COMMS05
+    refNode: *STR_SKYNET_COMMS
     description: STR_SKYNET_COMMS05_MESSAGE
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SKYNET_COMMS06
+    refNode: *STR_SKYNET_COMMS
     description: STR_SKYNET_COMMS06_MESSAGE
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SKYNET_COMMS07
+    refNode: *STR_SKYNET_COMMS
     description: STR_SKYNET_COMMS07_MESSAGE
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SKYNET_COMMS08
+    refNode: *STR_SKYNET_COMMS
     description: STR_SKYNET_COMMS08_MESSAGE
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SKYNET_COMMS09
+    refNode: *STR_SKYNET_COMMS
     description: STR_SKYNET_COMMS09_MESSAGE
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SKYNET_COMMS10
+    refNode: *STR_SKYNET_COMMS
     description: STR_SKYNET_COMMS10_MESSAGE
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SKYNET_COMMS11
+    refNode: *STR_SKYNET_COMMS
     description: STR_SKYNET_COMMS11_MESSAGE
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SKYNET_COMMS12
+    refNode: *STR_SKYNET_COMMS
     description: STR_SKYNET_COMMS12_MESSAGE
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SKYNET_COMMS13
+    refNode: *STR_SKYNET_COMMS
     description: STR_SKYNET_COMMS13_MESSAGE
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SKYNET_COMMS14
+    refNode: *STR_SKYNET_COMMS
     description: STR_SKYNET_COMMS14_MESSAGE
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SKYNET_COMMS15
+    refNode: *STR_SKYNET_COMMS
     description: STR_SKYNET_COMMS15_MESSAGE
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SKYNET_COMMS16
+    refNode: *STR_SKYNET_COMMS
     description: STR_SKYNET_COMMS16_MESSAGE
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SKYNET_COMMS17
+    refNode: *STR_SKYNET_COMMS
     description: STR_SKYNET_COMMS17_MESSAGE
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SKYNET_COMMS18
+    refNode: *STR_SKYNET_COMMS
     description: STR_SKYNET_COMMS18_MESSAGE
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SKYNET_COMMS19
+    refNode: *STR_SKYNET_COMMS
     description: STR_SKYNET_COMMS19_MESSAGE
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SKYNET_COMMS20
+    refNode: *STR_SKYNET_COMMS
     description: STR_SKYNET_COMMS20_MESSAGE
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SKYNET_COMMS21
+    refNode: *STR_SKYNET_COMMS
     description: STR_SKYNET_COMMS_21_MESSAGE
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SKYNET_COMMS22
+    refNode: *STR_SKYNET_COMMS
     description: STR_SKYNET_COMMS22_MESSAGE
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SKYNET_COMMS23
+    refNode: *STR_SKYNET_COMMS
     description: STR_SKYNET_COMMS23_MESSAGE
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SKYNET_COMMS24
+    refNode: *STR_SKYNET_COMMS
     description: STR_SKYNET_COMMS24_MESSAGE
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SKYNET_COMMS25
+    refNode: *STR_SKYNET_COMMS
     description: STR_SKYNET_COMMS25_MESSAGE
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SKYNET_COMMS26
+    refNode: *STR_SKYNET_COMMS
     description: STR_SKYNET_COMMS26_MESSAGE
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SKYNET_COMMS27
+    refNode: *STR_SKYNET_COMMS
     description: STR_SKYNET_COMMS27_MESSAGE
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SKYNET_COMMS28
+    refNode: *STR_SKYNET_COMMS
     description: STR_SKYNET_COMMS28_MESSAGE
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SKYNET_COMMS29
+    refNode: *STR_SKYNET_COMMS
     description: STR_SKYNET_COMMS29_MESSAGE
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SKYNET_COMMS30
+    refNode: *STR_SKYNET_COMMS
     description: STR_SKYNET_COMMS30_MESSAGE
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SKYNET_COMMS31
+    refNode: *STR_SKYNET_COMMS
     description: STR_SKYNET_COMMS31_MESSAGE
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SKYNET_COMMS32
+    refNode: *STR_SKYNET_COMMS
     description: STR_SKYNET_COMMS32_MESSAGE
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SKYNET_COMMS33
+    refNode: *STR_SKYNET_COMMS
     description: STR_SKYNET_COMMS33_MESSAGE
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SKYNET_COMMS34
+    refNode: *STR_SKYNET_COMMS
     description: STR_SKYNET_COMMS34_MESSAGE
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SKYNET_COMMS35
+    refNode: *STR_SKYNET_COMMS
     description: STR_SKYNET_COMMS35_MESSAGE
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
-  - name: STR_RESISTANCE_COMMS
+  - name: STR_SKYNET_COMMS36
+    refNode: *STR_SKYNET_COMMS
+    description: STR_SKYNET_COMMS36_MESSAGE
+  - name: STR_SKYNET_COMMS37
+    refNode: *STR_SKYNET_COMMS
+    description: STR_SKYNET_COMMS37_MESSAGE
+  - &STR_RESISTANCE_COMMS
+    name: STR_RESISTANCE_COMMS
     description: STR_RESISTANCE_COMMS_MESSAGE
     background: BACK183.SCR
     regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
@@ -313,381 +140,147 @@ events: #DONE
     timer: 1440
     timerRandom: 28800
   - name: STR_RESISTANCE_COMMS00
+    refNode: *STR_RESISTANCE_COMMS
     description: STR_RESISTANCE_COMMS00_MESSAGE
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_RESISTANCE_COMMS01
+    refNode: *STR_RESISTANCE_COMMS
     description: STR_RESISTANCE_COMMS01_MESSAGE
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_RESISTANCE_COMMS02
+    refNode: *STR_RESISTANCE_COMMS
     description: STR_RESISTANCE_COMMS02_MESSAGE
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_RESISTANCE_COMMS03
+    refNode: *STR_RESISTANCE_COMMS
     description: STR_RESISTANCE_COMMS03_MESSAGE
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
+    refNode: *STR_RESISTANCE_COMMS
   - name: STR_RESISTANCE_COMMS04
+    refNode: *STR_RESISTANCE_COMMS
     description: STR_RESISTANCE_COMMS04_MESSAGE
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_RESISTANCE_COMMS05
+    refNode: *STR_RESISTANCE_COMMS
     description: STR_RESISTANCE_COMMS05_MESSAGE
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_RESISTANCE_COMMS06
+    refNode: *STR_RESISTANCE_COMMS
     description: STR_RESISTANCE_COMMS06_MESSAGE
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_RESISTANCE_COMMS07
+    refNode: *STR_RESISTANCE_COMMS
     description: STR_RESISTANCE_COMMS07_MESSAGE
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_RESISTANCE_COMMS08
+    refNode: *STR_RESISTANCE_COMMS
     description: STR_RESISTANCE_COMMS08_MESSAGE
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_RESISTANCE_COMMS09
+    refNode: *STR_RESISTANCE_COMMS
     description: STR_RESISTANCE_COMMS09_MESSAGE
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_RESISTANCE_COMMS10
+    refNode: *STR_RESISTANCE_COMMS
     description: STR_RESISTANCE_COMMS10_MESSAGE
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_RESISTANCE_COMMS11
+    refNode: *STR_RESISTANCE_COMMS
     description: STR_RESISTANCE_COMMS11_MESSAGE
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_RESISTANCE_COMMS12
+    refNode: *STR_RESISTANCE_COMMS
     description: STR_RESISTANCE_COMMS12_MESSAGE
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_RESISTANCE_COMMS13
+    refNode: *STR_RESISTANCE_COMMS
     description: STR_RESISTANCE_COMMS13_MESSAGE
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_RESISTANCE_COMMS14
+    refNode: *STR_RESISTANCE_COMMS
     description: STR_RESISTANCE_COMMS14_MESSAGE
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_RESISTANCE_COMMS15
+    refNode: *STR_RESISTANCE_COMMS
     description: STR_RESISTANCE_COMMS15_MESSAGE
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_RESISTANCE_COMMS16
+    refNode: *STR_RESISTANCE_COMMS
     description: STR_RESISTANCE_COMMS16_MESSAGE
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_RESISTANCE_COMMS17
+    refNode: *STR_RESISTANCE_COMMS
     description: STR_RESISTANCE_COMMS17_MESSAGE
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_RESISTANCE_COMMS18
+    refNode: *STR_RESISTANCE_COMMS
     description: STR_RESISTANCE_COMMS18_MESSAGE
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_RESISTANCE_COMMS19
+    refNode: *STR_RESISTANCE_COMMS
     description: STR_RESISTANCE_COMMS19_MESSAGE
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_RESISTANCE_COMMS20
+    refNode: *STR_RESISTANCE_COMMS
     description: STR_RESISTANCE_COMMS20_MESSAGE
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_RESISTANCE_COMMS21
+    refNode: *STR_RESISTANCE_COMMS
     description: STR_RESISTANCE_COMMS21_MESSAGE
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_RESISTANCE_COMMS22
+    refNode: *STR_RESISTANCE_COMMS
     description: STR_RESISTANCE_COMMS22_MESSAGE
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_RESISTANCE_COMMS23
+    refNode: *STR_RESISTANCE_COMMS
     description: STR_RESISTANCE_COMMS23_MESSAGE
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_RESISTANCE_COMMS24
+    refNode: *STR_RESISTANCE_COMMS
     description: STR_RESISTANCE_COMMS24_MESSAGE
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_RESISTANCE_COMMS25
+    refNode: *STR_RESISTANCE_COMMS
     description: STR_RESISTANCE_COMMS25_MESSAGE
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_RESISTANCE_COMMS26
+    refNode: *STR_RESISTANCE_COMMS
     description: STR_RESISTANCE_COMMS26_MESSAGE
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_RESISTANCE_COMMS27
+    refNode: *STR_RESISTANCE_COMMS
     description: STR_RESISTANCE_COMMS27_MESSAGE
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_RESISTANCE_COMMS28
+    refNode: *STR_RESISTANCE_COMMS
     description: STR_RESISTANCE_COMMS28_MESSAGE
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_RESISTANCE_COMMS29
+    refNode: *STR_RESISTANCE_COMMS
     description: STR_RESISTANCE_COMMS29_MESSAGE
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_RESISTANCE_COMMS30
+    refNode: *STR_RESISTANCE_COMMS
     description: STR_RESISTANCE_COMMS30_MESSAGE
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_RESISTANCE_COMMS31
+    refNode: *STR_RESISTANCE_COMMS
     description: STR_RESISTANCE_COMMS31_MESSAGE
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_RESISTANCE_COMMS32
+    refNode: *STR_RESISTANCE_COMMS
     description: STR_RESISTANCE_COMMS32_MESSAGE
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_RESISTANCE_COMMS33
+    refNode: *STR_RESISTANCE_COMMS
     description: STR_RESISTANCE_COMMS33_MESSAGE
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_RESISTANCE_COMMS34
+    refNode: *STR_RESISTANCE_COMMS
     description: STR_RESISTANCE_COMMS34_MESSAGE
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_RESISTANCE_COMMS35
+    refNode: *STR_RESISTANCE_COMMS
     description: STR_RESISTANCE_COMMS35_MESSAGE
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_RESISTANCE_COMMS36
+    refNode: *STR_RESISTANCE_COMMS
     description: STR_RESISTANCE_COMMS36_MESSAGE
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_RESISTANCE_COMMS37
+    refNode: *STR_RESISTANCE_COMMS
     description: STR_RESISTANCE_COMMS37_MESSAGE
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_RESISTANCE_COMMS38
+    refNode: *STR_RESISTANCE_COMMS
     description: STR_RESISTANCE_COMMS38_MESSAGE
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_RESISTANCE_COMMS39
+    refNode: *STR_RESISTANCE_COMMS
     description: STR_RESISTANCE_COMMS39_MESSAGE
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_RESISTANCE_COMMS40
+    refNode: *STR_RESISTANCE_COMMS
     description: STR_RESISTANCE_COMMS40_MESSAGE
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_RESISTANCE_COMMS41
+    refNode: *STR_RESISTANCE_COMMS
     description: STR_RESISTANCE_COMMS41_MESSAGE
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_RESISTANCE_COMMS42
+    refNode: *STR_RESISTANCE_COMMS
     description: STR_RESISTANCE_COMMS42_MESSAGE
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_RESISTANCE_COMMS43
+    refNode: *STR_RESISTANCE_COMMS
     description: STR_RESISTANCE_COMMS43_MESSAGE
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_RESISTANCE_COMMS44
+    refNode: *STR_RESISTANCE_COMMS
     description: STR_RESISTANCE_COMMS44_MESSAGE
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_RESISTANCE_COMMS45
+    refNode: *STR_RESISTANCE_COMMS
     description: STR_RESISTANCE_COMMS45_MESSAGE
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_RESISTANCE_COMMS46
+    refNode: *STR_RESISTANCE_COMMS
     description: STR_RESISTANCE_COMMS46_MESSAGE
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SECTOR_00_COMM_1
     description: STR_SECTOR_00_COMM_1_ALERT
     background: BACK15.SCR
