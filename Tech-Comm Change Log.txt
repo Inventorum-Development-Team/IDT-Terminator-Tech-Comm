@@ -1,11 +1,11 @@
 Tech-Comm Change Log
-V0.4.5
+V0.4.6
 * Added: Archangel, Aurora and Valkyrie crafts
 * Replaced: Dynavert craft with Senior Citizen (Dragonfly from War Of The Shadows mod)
 * Removed: Super Osprey craft
 * Added: Genie and Falcon craft weapons
 * Added: several missing entries to the Intelpedia
-* Added: Tech-Comm HQ, Mine Field and Craft Pen base facilities
+* Added: Tech-Comm HQ, Storage, Infirmary, Housing, Mine Field and Craft Pen base facilities
 * Added: John Connor, Kyle Reese and other Terminator human characters
 * Added: new introduction cutscene
 * Added: new starting events

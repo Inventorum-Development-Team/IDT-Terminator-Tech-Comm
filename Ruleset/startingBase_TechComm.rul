@@ -1,5 +1,6 @@
 #TO DO: Reconsider starting craft mix and numbers
 startingBase:
+  name: Tech-Comm
   facilities:
     - type: STR_COMMAND_STATION
       x: 4
@@ -16,7 +17,7 @@ startingBase:
     - type: STR_HOUSING_AREA
       x: 2
       y: 4
-    - type: STR_STORAGE
+    - type: STR_STORAGE_AREA
       x: 0
       y: 4
     - type: STR_BUNKER
@@ -37,13 +38,55 @@ startingBase:
     - type: STR_TECH_LAB
       x: 4
       y: 3
+  soldiers:
+    - type: STR_JOHN_CONNOR
+      id: 1
+      name: John Connor
+      nationality: 0
+      initialStats:
+        tu: 70
+        stamina: 65
+        health: 45
+        bravery: 100
+        reactions: 50
+        firing: 80
+        throwing: 80
+        strength: 40
+        psiStrength: 100
+        psiSkill: 0
+        melee: 80
+        mana: 0
+      currentStats:
+        tu: 70
+        stamina: 65
+        health: 45
+        bravery: 100
+        reactions: 50
+        firing: 80
+        throwing: 80
+        strength: 40
+        psiStrength: 100
+        psiSkill: 0
+        melee: 80
+        mana: 0
+      rank: 0
+      gender: 0
+      look: 1
+      lookVariant: 55
+      missions: 0
+      kills: 0
+      stuns: 0
+      armor: STR_JUMPSUIT_GENERAL_UC
+      improvement: 0
+      psiStrImprovement: 0
+      tags: ~
   randomSoldiers:
-      STR_JOHN_CONNOR: 1
-      STR_KATE_BREWSTER: 1
-      STR_JUSTIN_PERRY: 1
-      STR_OFFICER: 6
-      STR_SOLDIER: 15
-      STR_PILOT: 2
+    STR_JUSTIN_PERRY: 1
+    STR_KATE_BREWSTER: 1
+    STR_KYLE_REESE: 1
+    STR_OFFICER: 4
+    STR_PILOT: 5
+    STR_SOLDIER: 13
   crafts:
     - type: STR_ARCHANGEL
       id: 1
@@ -162,27 +205,5 @@ startingBase:
     STR_SMALL_ROCKET:  48
     STR_SMOKE_ROCKET:  12
     STR_NAPALM_ROCKET: 24
-    STR_SECTOR_00_COMM: 1
-    STR_SECTOR_01_COMM: 1
-    STR_SECTOR_02_COMM: 1
-    STR_SECTOR_03_COMM: 1
-    STR_SECTOR_04_COMM: 1
-    STR_SECTOR_05_COMM: 1
-    STR_SECTOR_06_COMM: 1
-    STR_SECTOR_07_COMM: 1
-    STR_SECTOR_08_COMM: 1
-    STR_SECTOR_09_COMM: 1
-    STR_SECTOR_10_COMM: 1
-    STR_SECTOR_11_COMM: 1
-    STR_SECTOR_12_COMM: 1
-    STR_SECTOR_13_COMM: 1
-    STR_SECTOR_14_COMM: 1
-    STR_SECTOR_15_COMM: 1
-    STR_SECTOR_16_COMM: 1
-    STR_SECTOR_17_COMM: 1
-    STR_SECTOR_18_COMM: 1
-    STR_SECTOR_19_COMM: 1
-    STR_SECTOR_20_COMM: 1
-    STR_SECTOR_21_COMM: 1
   scientists: 5
   engineers: 5

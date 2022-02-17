@@ -399,8 +399,8 @@ alienMissions:
         huntMode: 0
         huntBehavior: 0
         escort: true  
-  - type: STR_SKYNET_ERADICATION
-    points: 0
+  - type: STR_SKYNET_ERADICATION #Generate alerts (spawnZone 7)
+    points: 1
     objective: 3
     despawnEvenIfTargeted: true
     operationType: 6
@@ -606,9 +606,9 @@ alienMissions:
         timer: 0
         escort: true
 #Workcamp Missions
-##All of these missions generate negative score if completed successfully by Skynet
+##All of these missions generate negative score if completed successfully by Skynet. Spawn Zone 2
   - type: STR_SKYNET_INFILTRATION
-    points: 0 #Pact score only awarded on month end
+    points: 1 #Pact score only awarded on month end
     objective: 1
     operationType: 6
     siteType: STR_SKYNET_BASE_ASSAULT_WORKCAMP
@@ -657,7 +657,7 @@ alienMissions:
         trajectory: T7
         timer: 10
   - type: STR_SKYNET_RECLAMATION_1
-    points: 0
+    points: 1
     operationType: 6
     raceWeights:
       0:
@@ -698,7 +698,7 @@ alienMissions:
         trajectory: T4
         timer: 10
   - type: STR_SKYNET_RECLAMATION_2
-    points: 0
+    points: 1
     operationType: 6
     raceWeights:
       0:

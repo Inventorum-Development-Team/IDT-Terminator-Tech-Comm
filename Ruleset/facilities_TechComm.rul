@@ -53,31 +53,8 @@ facilities: #DONE
     mapName: TECHBASEDEFENSE_19
     canBeBuiltOver: true
     provideBaseFunc: [hq_repair]
-    buildOverFacilities:
-      - STR_TECHCOMM_HQ_REPAIRED
     requires:
       - STR_DAMAGED_FACILITIES
-    verticalLevels:
-    - type: ground
-      size: [2, 2, 6]
-      terrain: TECHCOMMBASE_DEFENSE
-      blocks: 21
-  - type: STR_TECHCOMM_HQ_REPAIRED
-    spriteShape: 9
-    spriteFacility: 9
-    size: 2
-    radarRange: 1500
-    radarChance: 50
-    crafts: 4
-    labs: 10
-    personnel: 10
-    buildCost: 600000
-    buildTime: 12
-    monthlyCost: 4000
-    mapName: TECHBASEDEFENSE_19
-    destroyedFacility: STR_TECHCOMM_HQ_DAMAGED
-    maxAllowedPerBase: 1
-    requiresBaseFunc: [hq_repair]
     verticalLevels:
     - type: ground
       size: [2, 2, 6]
@@ -111,26 +88,9 @@ facilities: #DONE
     canBeBuiltOver: true
     provideBaseFunc: [command_station_repair]
     buildOverFacilities:
-      - STR_COMMAND_STATION_REPAIRED
+      - STR_COMMAND_STATION
     requires:
       - STR_DAMAGED_FACILITIES
-    verticalLevels:
-    - type: ground
-      size: [2, 2, 6]
-      terrain: TECHCOMMBASE_DEFENSE
-      blocks: 23
-  - type: STR_COMMAND_STATION_REPAIRED
-    spriteShape: 9
-    spriteFacility: 9
-    size: 2
-    lift: true
-    buildCost: 150000
-    buildTime: 1
-    monthlyCost: 4000
-    mapName: TECHBASEDEFENSE_19
-    destroyedFacility: STR_COMMAND_STATION_DAMAGED
-    requiresBaseFunc: [command_station_repair]
-    forbiddenBaseFunc: [command_station_repair]
     verticalLevels:
     - type: ground
       size: [2, 2, 6]
@@ -165,7 +125,7 @@ facilities: #DONE
     canBeBuiltOver: true
     provideBaseFunc: [housing_repair]
     buildOverFacilities:
-      - STR_HOUSING_STATION_REPAIRED
+      - STR_HOUSING_STATION
     requires:
       - STR_DAMAGED_FACILITIES
     verticalLevels:
@@ -174,25 +134,6 @@ facilities: #DONE
       terrain: TECHCOMMBASE_DEFENSE
       blocks: 24
     personnel: 10
-    missileAttraction: 100
-  - type: STR_HOUSING_STATION_REPAIRED
-    spriteShape: 9
-    spriteFacility: 9
-    size: 2
-    buildCost: 130000
-    buildTime: 6
-    monthlyCost: 7000
-    mapName: TECHBASEDEFENSE_19
-    destroyedFacility: STR_HOUSING_STATION_DAMAGED
-    maxAllowedPerBase: 1
-    requiresBaseFunc: [housing_repair]
-    forbiddenBaseFunc: [housing_repair]
-    verticalLevels:
-    - type: ground
-      size: [2, 2, 6]
-      terrain: TECHCOMMBASE_DEFENSE
-      blocks: 24
-    personnel: 25
     missileAttraction: 100
   - type: STR_MEDICAL_STATION
     spriteShape: 9
@@ -226,7 +167,7 @@ facilities: #DONE
     canBeBuiltOver: true
     provideBaseFunc: [infirmary_repair]
     buildOverFacilities:
-      - STR_INFIRMARY_REPAIRED
+      - STR_MEDICAL_STATION
     requires:
       - STR_DAMAGED_FACILITIES
     verticalLevels:
@@ -234,27 +175,6 @@ facilities: #DONE
       size: [2, 2, 6]
       terrain: TECHCOMMBASE_DEFENSE
       blocks: 25
-    missileAttraction: 50
-  - type: STR_MEDICAL_STATION_REPAIRED
-    spriteShape: 9
-    spriteFacility: 9
-    size: 2
-    buildCost: 105000
-    buildTime: 7
-    monthlyCost: 6000
-    personnel: 10
-    mapName: TECHBASEDEFENSE_19
-    destroyedFacility: STR_MEDICAL_STATION_DAMAGED
-    maxAllowedPerBase: 1
-    requiresBaseFunc: [infirmary_repair]
-    forbiddenBaseFunc: [infirmary_repair]
-    verticalLevels:
-    - type: ground
-      size: [2, 2, 6]
-      terrain: TECHCOMMBASE_DEFENSE
-      blocks: 25
-    sickBayAbsoluteBonus: 0.0
-    sickBayRelativeBonus: 5.0
     missileAttraction: 50
   - type: STR_BARRACKS
     size: 2
@@ -288,30 +208,9 @@ facilities: #DONE
     canBeBuiltOver: true
     provideBaseFunc: [barracks_repair]
     buildOverFacilities:
-      - STR_BARRACKS_REPAIRED
+      - STR_BARRACKS
     requires:
       - STR_DAMAGED_FACILITIES
-    verticalLevels:
-    - type: ground
-      size: [2, 2, 6]
-      terrain: TECHCOMMBASE_DEFENSE
-      blocks: 26
-    missileAttraction: 50
-  - type: STR_BARRACKS_REPAIRED
-    size: 2
-    spriteShape: 9
-    spriteFacility: 9
-    buildCost: 15000
-    buildTime: 8
-    monthlyCost: 7000
-    trainingRooms: 10
-    personnel: 10
-    provideBaseFunc: [pilot_training]
-    forbiddenBaseFunc: [barracks_repair]
-    requiresBaseFunc: [barracks_repair]
-    mapName: TECHBASEDEFENSE_19
-    destroyedFacility: STR_BARRACKS_DAMAGED
-    maxAllowedPerBase: 1
     verticalLevels:
     - type: ground
       size: [2, 2, 6]
@@ -348,28 +247,9 @@ facilities: #DONE
     mapName: TECHBASEDEFENSE_20
     canBeBuiltOver: true
     buildOverFacilities:
-      - STR_PEN_REPAIRED
+      - STR_PEN
     requires:
       - STR_DAMAGED_FACILITIES
-    verticalLevels:
-    - type: ground
-      size: [2, 2, 6]
-      terrain: TECHCOMMBASE_DEFENSE
-      blocks: 20
-    missileAttraction: 100
-  - type: STR_PEN_REPAIRED
-    spriteShape: 9
-    spriteFacility: 9
-    size: 2
-    buildCost: 50000
-    buildTime: 6
-    monthlyCost: 11000
-    crafts: 2
-    provideBaseFunc: [craft_housing]
-    forbiddenBaseFunc: [pen_repair]
-    requiresBaseFunc: [pen_repair]
-    mapName: TECHBASEDEFENSE_20
-    destroyedFacility: STR_PEN_DAMAGED
     verticalLevels:
     - type: ground
       size: [2, 2, 6]
@@ -406,28 +286,9 @@ facilities: #DONE
     provideBaseFunc: [shelter_repair, craft_housing]
     canBeBuiltOver: true
     buildOverFacilities:
-      - STR_SHELTER_REPAIRED
+      - STR_SHELTER
     requires:
       - STR_DAMAGED_FACILITIES
-    verticalLevels:
-    - type: ground
-      size: [2, 2, 6]
-      terrain: TECHCOMMBASE_DEFENSE
-      blocks: 30
-    missileAttraction: 100
-  - type: STR_SHELTER_REPAIRED
-    spriteShape: 9
-    spriteFacility: 9
-    size: 2
-    buildCost: 70000
-    buildTime: 8
-    monthlyCost: 16000
-    crafts: 3
-    provideBaseFunc: [craft_housing]
-    forbiddenBaseFunc: [shelter_repair]
-    requiresBaseFunc: [shelter_repair]
-    mapName: TECHBASEDEFENSE_19
-    destroyedFacility: STR_SHELTER_DAMAGED
     verticalLevels:
     - type: ground
       size: [2, 2, 6]
@@ -471,30 +332,7 @@ facilities: #DONE
     mapName: TECHBASEDEFENSE_19
     canBeBuiltOver: true
     buildOverFacilities:
-      - STR_HANGAR_REPAIRED
-    verticalLevels:
-    - type: ground
-      size: [3, 3, 6]
-      terrain: TECHCOMMBASE_DEFENSE
-      blocks: 22
-    missileAttraction: 100
-  - type: STR_HANGAR_REPAIRED
-    spriteShape: 384
-    spriteFacility: 384
-    requires:
-      - STR_CRAFT_MANUFACTURE
-    size: 3
-    buildCost: 160000
-    buildTime: 16
-    monthlyCost: 17000
-    crafts: 5
-    workshops: 50
-    provideBaseFunc: [craft_production, pilot_training, craft_housing]
-    forbiddenBaseFunc: [hangar_repair]
-    requiresBaseFunc: [hangar_repair]
-    mapName: TECHBASEDEFENSE_19
-    destroyedFacility: STR_HANGAR_DAMAGED
-    maxAllowedPerBase: 1
+      - STR_HANGAR
     verticalLevels:
     - type: ground
       size: [3, 3, 6]
@@ -542,7 +380,7 @@ facilities: #DONE
     canBeBuiltOver: true
     provideBaseFunc: [storage_repair]
     buildOverFacilities:
-      - STR_STORAGE_STATION_REPAIRED
+      - STR_STORAGE_STATION
     requires:
       - STR_DAMAGED_FACILITIES
     verticalLevels:
@@ -561,36 +399,6 @@ facilities: #DONE
       - [17, 8, 4]
       - [17, 5, 4]
       - [13, 4, 4]
-  - type: STR_STORAGE_STATION_REPAIRED
-    spriteShape: 9
-    spriteFacility: 9
-    size: 2
-    buildCost: 50000
-    buildTime: 4
-    monthlyCost: 3600
-    storage: 500
-    mapName: TECHBASEDEFENSE_19
-    destroyedFacility: STR_STORAGE_STATION_DAMAGED
-    maxAllowedPerBase: 1
-    requiresBaseFunc: [storage_repair]
-    forbiddenBaseFunc: [storage_repair]
-    verticalLevels:
-    - type: ground
-      size: [2, 2, 6]
-      terrain: TECHCOMMBASE_DEFENSE
-      blocks: 29
-    storageTiles:
-      - [11, 2, 4]
-      - [14, 1, 4]
-      - [16, 2, 4]
-      - [17, 4, 4]
-      - [10, 7, 4]
-      - [14, 6, 4]
-      - [15, 4, 4]
-      - [17, 8, 4]
-      - [17, 5, 4]
-      - [13, 4, 4]
-    missileAttraction: 100
   - type: STR_COMM_TOWER
     spriteShape: 2
     spriteFacility: 21
@@ -616,25 +424,9 @@ facilities: #DONE
     canBeBuiltOver: true
     provideBaseFunc: [comm_tower_repair]
     buildOverFacilities:
-      - STR_COMM_TOWER_REPAIRED
+      - STR_COMM_TOWER
     requires:
       - STR_DAMAGED_FACILITIES
-    missileAttraction: 100
-  - type: STR_COMM_TOWER_REPAIRED
-    spriteShape: 2
-    spriteFacility: 21
-    buildCost: 180000
-    buildTime: 4
-    labs: 5
-    monthlyCost: 7000
-    radarRange: 500
-    hyper: false
-    radarChance: 20
-    mapName: TECHBASEDEFENSE_00
-    destroyedFacility: STR_COMM_TOWER_DAMAGED
-    maxAllowedPerBase: 1
-    requiresBaseFunc: [comm_tower_repair]
-    forbiddenBaseFunc: [comm_tower_repair]
     missileAttraction: 100
   - type: STR_TECH_LAB
     spriteShape: 1
@@ -658,22 +450,9 @@ facilities: #DONE
     canBeBuiltOver: true
     provideBaseFunc: [tech_lab_repair]
     buildOverFacilities:
-      - STR_TECH_LAB_REPAIRED
+      - STR_TECH_LAB
     requires:
       - STR_DAMAGED_FACILITIES
-    missileAttraction: 100
-  - type: STR_TECH_LAB_REPAIRED
-    spriteShape: 1
-    spriteFacility: 20
-    buildCost: 280000
-    buildTime: 12
-    monthlyCost: 23000
-    workshops: 50
-    mapName: TECHBASEDEFENSE_07
-    destroyedFacility: STR_TECH_LAB_DAMAGED
-    maxAllowedPerBase: 1
-    requiresBaseFunc: [tech_lab_repair]
-    forbiddenBaseFunc: [tech_lab_repair]
     missileAttraction: 100
   - type: STR_MISSILE_SITE
     spriteShape: 2
@@ -699,24 +478,9 @@ facilities: #DONE
     canBeBuiltOver: true
     provideBaseFunc: [missile_site_repair]
     buildOverFacilities:
-      - STR_MISSILE_SITE_REPAIRED
+      - STR_MISSILE_SITE
     requires:
       - STR_DAMAGED_FACILITIES
-    missileAttraction: 100
-  - type: STR_MISSILE_SITE_REPAIRED
-    spriteShape: 2
-    spriteFacility: 23
-    buildCost: 80000
-    buildTime: 5
-    monthlyCost: 3600
-    defense: 250
-    hitRatio: 50
-    fireSound: 5
-    hitSound: 10
-    mapName: TECHBASEDEFENSE_02
-    destroyedFacility: STR_MISSILE_SITE_DAMAGED
-    requiresBaseFunc: [missile_site_repair]
-    forbiddenBaseFunc: [missile_site_repair]
     missileAttraction: 100
   - type: STR_HOUSING
     spriteShape: 1
@@ -818,22 +582,7 @@ facilities: #DONE
     canBeBuiltOver: true
     provideBaseFunc: [defense_center_repair]
     buildOverFacilities:
-      - STR_DEFENSE_CENTER_REPAIRED
-    missileAttraction: 100
-  - type: STR_DEFENSE_CENTER_REPAIRED
-    requires:
       - STR_DEFENSE_CENTER
-    grav: true
-    spriteShape: 2
-    spriteFacility: 29
-    buildCost: 400000
-    buildTime: 13
-    monthlyCost: 10000
-    mapName: TECHBASEDEFENSE_05
-    destroyedFacility: STR_DEFENSE_CENTER_DAMAGED
-    maxAllowedPerBase: 1
-    requiresBaseFunc: [defense_center_repair]
-    forbiddenBaseFunc: [defense_center_repair]
     missileAttraction: 100
 #REQUIRE AI CHAIN HOME
   - type: STR_COMM_ARRAY
@@ -865,24 +614,7 @@ facilities: #DONE
     canBeBuiltOver: true
     provideBaseFunc: [comm_array_repair]
     buildOverFacilities:
-      - STR_COMM_ARRAY_REPAIRED
-    missileAttraction: 100
-  - type: STR_COMM_ARRAY_REPAIRED
-    requires:
       - STR_COMM_ARRAY
-    spriteShape: 1
-    spriteFacility: 22
-    buildCost: 280000
-    buildTime: 8
-    labs: 5
-    monthlyCost: 10000
-    radarRange: 750
-    radarChance: 20
-    mapName: TECHBASEDEFENSE_01
-    destroyedFacility: STR_COMM_ARRAY_DAMAGED
-    maxAllowedPerBase: 1
-    requiresBaseFunc: [comm_array_repair]
-    forbiddenBaseFunc: [comm_array_repair]
     missileAttraction: 100
   - type: STR_COMM_CENTER
     requires:
@@ -914,25 +646,7 @@ facilities: #DONE
     canBeBuiltOver: true
     provideBaseFunc: [comm_center_repair]
     buildOverFacilities:
-      - STR_COMM_CENTER_REPAIRED
-    missileAttraction: 100
-  - type: STR_COMM_CENTER_REPAIRED
-    requires:
       - STR_COMM_CENTER
-    spriteShape: 1
-    spriteFacility: 22
-    buildCost: 370000
-    buildTime: 8
-    labs: 5
-    monthlyCost: 10000
-    radarRange: 750
-    radarChance: 30
-    hyper: true
-    mapName: TECHBASEDEFENSE_04
-    destroyedFacility: STR_COMM_CENTER_DAMAGED
-    maxAllowedPerBase: 1
-    requiresBaseFunc: [comm_center_repair]
-    forbiddenBaseFunc: [comm_center_repair]
     missileAttraction: 100
 #REQUIRE HARDENED FACILITIES
   - type: STR_HOUSING_AREA
@@ -970,28 +684,7 @@ facilities: #DONE
     canBeBuiltOver: true
     provideBaseFunc: [housing_area_repair]
     buildOverFacilities:
-      - STR_HOUSING_AREA_REPAIRED
-    verticalLevels:
-    - type: ground
-      size: [2, 2, 6]
-      terrain: TECHCOMMBASE_DEFENSE
-      blocks: 27
-    missileAttraction: 25
-  - type: STR_HOUSING_AREA_REPAIRED
-    requires:
-      - STR_HARDENED_FACILITIES
-    spriteShape: 9
-    spriteFacility: 9
-    size: 2
-    buildCost: 260000
-    buildTime: 12
-    monthlyCost: 10000
-    personnel: 50
-    mapName: TECHBASEDEFENSE_19
-    destroyedFacility: STR_HOUSING_AREA_DAMAGED
-    maxAllowedPerBase: 1
-    requiresBaseFunc: [housing_area_repair]
-    forbiddenBaseFunc: [housing_area_repair]
+      - STR_HOUSING_AREA
     verticalLevels:
     - type: ground
       size: [2, 2, 6]
@@ -1051,46 +744,7 @@ facilities: #DONE
     canBeBuiltOver: true
     provideBaseFunc: [storage_area_repair]
     buildOverFacilities:
-      - STR_STORAGE_AREA_REPAIRED
-    verticalLevels:
-    - type: ground
-      size: [2, 2, 6]
-      terrain: TECHCOMMBASE_DEFENSE
-      blocks: 33
-    storageTiles:
-      - [5, 14, 0]
-      - [5, 12, 0]
-      - [5, 10, 0]
-      - [5, 8, 0]
-      - [5, 6, 0]
-      - [6, 6, 0]
-      - [7, 14, 0]
-      - [7, 11, 0]
-      - [7, 6, 0]
-      - [8, 13, 0]
-      - [10, 8, 0]
-      - [10, 13, 0]
-      - [13, 12, 0]
-      - [13, 11, 0]
-      - [12, 8, 0]
-      - [14, 10, 0]
-      - [10, 4, 0]
-    missileAttraction: 25
-  - type: STR_STORAGE_AREA_REPAIRED
-    requires:
-      - STR_HARDENED_FACILITIES
-    spriteShape: 9
-    spriteFacility: 9
-    size: 2
-    buildCost: 105000
-    buildTime: 8
-    monthlyCost: 5000
-    storage: 250
-    mapName: TECHBASEDEFENSE_19
-    destroyedFacility: STR_STORAGE_AREA_DAMAGED
-    maxAllowedPerBase: 1
-    requiresBaseFunc: [storage_area_repair]
-    forbiddenBaseFunc: [storage_area_repair]
+      - STR_STORAGE_AREA
     verticalLevels:
     - type: ground
       size: [2, 2, 6]
@@ -1144,24 +798,8 @@ facilities: #DONE
     canBeBuiltOver: true
     provideBaseFunc: [tech_center_repair]
     buildOverFacilities:
-      - STR_TECH_CENTER_REPAIRED
-    missileAttraction: 25
-  - type: STR_TECH_CENTER_REPAIRED
-    requires:
       - STR_TECH_CENTER
-    spriteShape: 1
-    spriteFacility: 25
-    buildCost: 200000
-    buildTime: 9
-    monthlyCost: 15000
-    aliens: 5
-    workshops: 10
-    mapName: TECHBASEDEFENSE_06
-    destroyedFacility: STR_TECH_CENTER_DAMAGED
-    maxAllowedPerBase: 1
-    requiresBaseFunc: [tech_center_repair]
-    forbiddenBaseFunc: [tech_center_repair]
-    missileAttraction: 50
+    missileAttraction: 25
   - type: STR_NANO_CENTER
     requires:
       - STR_NANO_CENTER
@@ -1192,26 +830,8 @@ facilities: #DONE
     canBeBuiltOver: true
     provideBaseFunc: [nano_center_repair]
     buildOverFacilities:
-      - STR_NANO_CENTER_REPAIRED
-    missileAttraction: 0       
-  - type: STR_NANO_CENTER_REPAIRED
-    requires:
       - STR_NANO_CENTER
-    spriteShape: 1
-    spriteFacility: 25
-    buildCost: 200000
-    buildTime: 9
-    monthlyCost: 15000
-    aliens: 5
-    workshops: 10
-    mapName: TECHBASEDEFENSE_11
-    destroyedFacility: STR_NANO_CENTER_DAMAGED
-    maxAllowedPerBase: 1
-    requiresBaseFunc: [nano_center_repair]
-    forbiddenBaseFunc: [nano_center_repair]
-    missileAttraction: 25
-    sickBayAbsoluteBonus: 0.0
-    sickBayRelativeBonus: 5.0                   
+    missileAttraction: 0                 
   - type: STR_MISSILE_SILO
     requires:
       - STR_HARDENED_FACILITIES
@@ -1241,24 +861,8 @@ facilities: #DONE
     canBeBuiltOver: true
     provideBaseFunc: [missile_silo_repair]
     buildOverFacilities:
-      - STR_MISSILE_SILO_REPAIRED
-    missileAttraction: 50                   
-  - type: STR_MISSILE_SILO_REPAIRED
-    requires:
-      - STR_HARDENED_FACILITIES
-    spriteShape: 3
-    spriteFacility: 26
-    buildCost: 130000
-    buildTime: 8
-    monthlyCost: 6600
-    defense: 500
-    hitRatio: 60
-    fireSound: 5
-    hitSound: 10
-    mapName: TECHBASEDEFENSE_09
-    destroyedFacility: STR_MISSILE_SILO_DAMAGED
-    requiresBaseFunc: [missile_silo_repair]
-    forbiddenBaseFunc: [missile_silo_repair]
+      - STR_MISSILE_SILO
+    missileAttraction: 50
 #REQUIRE ADVANCED FACILITIES
   - type: STR_POWER_CENTER
     requires:
@@ -1288,22 +892,7 @@ facilities: #DONE
     canBeBuiltOver: true
     provideBaseFunc: [missile_silo_repair]
     buildOverFacilities:
-      - STR_POWER_CENTER_REPAIRED
-    missileAttraction: 25
-  - type: STR_POWER_CENTER_REPAIRED
-    requires:
-      - STR_ADVANCED_FACILITIES
-    spriteShape: 1
-    spriteFacility: 24
-    buildCost: 75000
-    buildTime: 5
-    monthlyCost: 5000
-    storage: 50
-    mapName: TECHBASEDEFENSE_11
-    destroyedFacility: STR_POWER_CENTER_DAMAGED
-    maxAllowedPerBase: 1
-    requiresBaseFunc: [power center repair]
-    forbiddenBaseFunc: [power center repair]
+      - STR_POWER_CENTER
     missileAttraction: 25
   - type: STR_COMM_STATION
     requires:
@@ -1342,31 +931,7 @@ facilities: #DONE
     canBeBuiltOver: true
     provideBaseFunc: [comm_station_repair]
     buildOverFacilities:
-      - STR_COMM_STATION_REPAIRED
-    verticalLevels:
-    - type: ground
-      size: [2, 2, 6]
-      terrain: TECHCOMMBASE_DEFENSE
-      blocks: 32
-    missileAttraction: 25
-  - type: STR_COMM_STATION_REPAIRED
-    requires:
       - STR_COMM_STATION
-    spriteShape: 9
-    spriteFacility: 9
-    size: 2
-    buildCost: 375000
-    buildTime: 13
-    monthlyCost: 30000
-    labs: 20
-    radarRange: 1000
-    radarChance: 30
-    hyper: true
-    mapName: TECHBASEDEFENSE_19
-    destroyedFacility: STR_COMM_STATION_DAMAGED
-    requiresBaseFunc: [comm_station_repair]
-    forbiddenBaseFunc: [comm_station_repair]
-    maxAllowedPerBase: 1
     verticalLevels:
     - type: ground
       size: [2, 2, 6]
@@ -1409,30 +974,7 @@ facilities: #DONE
     canBeBuiltOver: true
     provideBaseFunc: [tech_station_repair]
     buildOverFacilities:
-      - STR_TECH_STATION_REPAIRED
-    verticalLevels:
-    - type: ground
-      size: [2, 2, 6]
-      terrain: TECHCOMMBASE_DEFENSE
-      blocks: 28
-    missileAttraction: 50
-  - type: STR_TECH_STATION_REPAIRED
-    requires:
       - STR_TECH_STATION
-    spriteShape: 9
-    spriteFacility: 9
-    size: 2
-    buildCost: 375000
-    buildTime: 12
-    monthlyCost: 16000
-    workshops: 50
-    psiLabs: 5
-    provideBaseFunc: [craftproduction]
-    requiresBaseFunc:  [tech_station_repair]
-    forbiddenBaseFunc: [tech_station_repair]
-    mapName: TECHBASEDEFENSE_19
-    destroyedFacility: STR_TECH_STATION_DAMAGED
-    maxAllowedPerBase: 1
     verticalLevels:
     - type: ground
       size: [2, 2, 6]
@@ -1480,35 +1022,7 @@ facilities: #DONE
     canBeBuiltOver: true
     provideBaseFunc: [defense_station_repair]
     buildOverFacilities:
-      - STR_DEFENSE_STATION_REPAIRED
-    verticalLevels:
-    - type: ground
-      size: [2, 2, 6]
-      terrain: TECHCOMMBASE_DEFENSE
-      blocks: 31
-    missileAttraction: 50
-  - type: STR_DEFENSE_STATION_REPAIRED
-    requires:
       - STR_DEFENSE_STATION
-    spriteShape: 9
-    spriteFacility: 9
-    size: 2
-    buildCost: 300000
-    buildTime: 13
-    monthlyCost: 12000
-    defense: 750
-    hitRatio: 70
-    fireSound: 5
-    hitSound: 10
-    grav: true
-    radarRange: 100
-    hyper: false
-    radarChance: 75
-    mapName: TECHBASEDEFENSE_19
-    destroyedFacility: STR_DEFENSE_STATION_DAMAGED
-    maxAllowedPerBase: 1
-    requiresBaseFunc:  [defense_station_repair]
-    forbiddenBaseFunc: [defense_station_repair]
     verticalLevels:
     - type: ground
       size: [2, 2, 6]
@@ -1543,23 +1057,7 @@ facilities: #DONE
     canBeBuiltOver: true
     provideBaseFunc: [cloaking_field_repair]
     buildOverFacilities:
-      - STR_CLOAKING_FIELD_REPAIRED
-    missileAttraction: 25
-  - type: STR_CLOAKING_FIELD_REPAIRED
-    requires:
       - STR_CLOAKING_FIELD
-    mind: true
-    mindPower: 1
-    spriteShape: 2
-    spriteFacility: 30
-    buildCost: 650000
-    buildTime: 13
-    monthlyCost: 5000
-    mapName: TECHBASEDEFENSE_08
-    destroyedFacility: STR_CLOAKING_FIELD_DAMAGED
-    maxAllowedPerBase: 1
-    requiresBaseFunc: [cloaking_field_repair]
-    forbiddenBaseFunc: [cloaking_field_repair]
     missileAttraction: 25
 #UNDER CONSIDERATION
 #MAP REFERENCE LIST FACILITIES

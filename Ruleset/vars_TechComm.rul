@@ -2,8 +2,8 @@ startingTime:
   second: 0
   minute: 0
   hour: 0
-  weekday: 3
-  day: 7
+  weekday: 4
+  day: 1
   month: 7
   year: 2027
 initialFunding: 2000

@@ -52,6 +52,9 @@ soldiers:
     - STR_ROOKIE
     - STR_SQUADDIE
     - STR_SERGEANT
+    - STR_SERGEANT1
+    - STR_SERGEANT2
+    - STR_SERGEANT3
   - type: STR_PILOT
     costBuy: 40000
     costSalary: 35000
@@ -106,12 +109,12 @@ soldiers:
       reactions: 75
       firing: 75
     rankStrings:
-    - STR_LIEUTENANT
-    - STR_CAPTAIN
-    - STR_MAJOR
-    - STR_COLONEL
-    - STR_COMMANDER
-    - STR_GENERAL4
+    - STR_PILOT
+    - STR_SENIOR_PILOT
+    - STR_LIEUTENANT1
+    - STR_LT_COLONEL
+    - STR_LT_COMMANDER
+    - STR_GENERAL3
   - type: STR_OFFICER
     costSalary: 45000
     value: 40
@@ -161,12 +164,12 @@ soldiers:
     deathFemale: [44, 45, 46]
     allowPiloting: false
     rankStrings:
-    - STR_SERGEANT
-    - STR_SERGEANT1
-    - STR_SERGEANT2
-    - STR_SERGEANT3
-    - STR_SERGEANT4
-    - STR_SERGEANT5
+    - STR_LIEUTENANT
+    - STR_CAPTAIN
+    - STR_MAJOR
+    - STR_COLONEL
+    - STR_COMMANDER
+    - STR_GENERAL4
   - type: STR_JOHN_CONNOR
     costSalary: 45000
     value: 1000

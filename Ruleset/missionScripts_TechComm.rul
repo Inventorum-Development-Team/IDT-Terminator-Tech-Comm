@@ -43,7 +43,7 @@ missionScripts: #DONE
         STR_T800: 100
     startDelay: 120
     useTable: false
-    lastMonth: 0
+    firstMonth: 12
     targetBaseOdds: 0
     varName: startcore
   - type: gameAIDeadHand
@@ -156,7 +156,6 @@ missionScripts: #DONE
     missionWeights:
       0:
         STR_SKYNET_BASE_HKBASE: 10
-        STR_SKYNET_BASE_OUTPOST: 10
     maxRuns: 1
     regionWeights:
       0:
@@ -170,7 +169,6 @@ missionScripts: #DONE
     missionWeights:
       0:
         STR_SKYNET_BASE_HKBASE: 10
-        STR_SKYNET_BASE_OUTPOST: 10
     maxRuns: 1
     regionWeights:
       0:
@@ -210,7 +208,7 @@ missionScripts: #DONE
   - type: researchSector00
     missionWeights:
       0:
-        STR_ABANDONED_BASE: 100
+        STR_ABANDONED_BASE: 100        
     regionWeights:
       0:
         SECTOR_ARCTIC: 10
@@ -238,8 +236,6 @@ missionScripts: #DONE
     regionWeights:
       0:
         STR_NORTH_AMERICA: 100
-    researchTriggers:
-      STR_SECTOR_02_COMM: true
     maxRuns: 1
     useTable: false
     varName: sector02
