@@ -1100,7 +1100,10 @@ alienDeployments:
     height: 6
     civilians: 16
     terrains:
-      - NATIVE
+      - DAWNCITY_URBANA
+      - INDUSTRIAL
+      - RAILYARD
+      - SLUM
     alert: STR_RESISTANCE_PROTECT_ALERT
     alertBackground: BACK03.SCR
     briefing:
@@ -1120,10 +1123,7 @@ alienDeployments:
     height: 6
     civilians: 16
     terrains:
-      - DAWNCITY_URBANA
-      - INDUSTRIAL
-      - RAILYARD
-      - SLUM
+      - NATIVE
     alert: STR_RESISTANCE_RESCUE_ALERT
     alertBackground: BACK03.SCR
     briefing:
@@ -1312,7 +1312,10 @@ alienDeployments:
     height: 6
     civilians: 8
     terrains:
-      - NATIVE
+      - DAWNCITY_URBANA
+      - INDUSTRIAL
+      - RAILYARD
+      - SLUM
     alert: STR_RESISTANCE_COMMS00_MESSAGE
     alertBackground: BACK03.SCR
     briefing:
@@ -1437,12 +1440,9 @@ alienDeployments:
     width: 50
     length: 50
     height: 6
-    civilians: 8
+    civilians: 24
     terrains:
-      - DAWNCITY_URBANA
-      - INDUSTRIAL
-      - RAILYARD
-      - SLUM
+      - NATIVE
     alert: STR_RESISTANCE_COMMS00_MESSAGE
     alertBackground: BACK03.SCR
     briefing:
