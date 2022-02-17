@@ -54,7 +54,7 @@ soldiers:
     - STR_SERGEANT
     - STR_SERGEANT1
     - STR_SERGEANT2
-    - STR_SERGEANT3
+    - STR_SERGEANT4
   - type: STR_PILOT
     costBuy: 40000
     costSalary: 35000

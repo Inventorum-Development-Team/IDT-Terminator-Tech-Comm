@@ -473,3 +473,47 @@ ufos:
         - name: NKF_APC_COMPLEX
           width: 10
           length: 20
+  - type: STR_NKF_APC_COMPLEX_E
+    size: STR_SMALL
+    sprite: 1
+    damageMax: 1
+    speedMax: 2400
+    accel: 9
+    power: 20
+    range: 15
+    score: 75
+    reload: 56
+    breakOffTime: 250
+    battlescapeTerrainData:
+      name: NKF_APC_COMPLEX_E
+      mapDataSets:
+        - BLANKS
+        - NKF_APC_COMPLEX
+      mapBlocks:
+        - name: NKF_APC_COMPLEX_E
+          width: 10
+          length: 20
+          revealedFloors: [0, 1, 2]
+  - type: STR_UFO_S4
+    size: STR_SMALL
+    sprite: 1
+    damageMax: 200
+    speedMax: 2400
+    accel: 9
+    power: 20
+    range: 15
+    score: 75
+    reload: 56
+    breakOffTime: 250
+    battlescapeTerrainData:
+      name: UFO_S4
+      mapDataSets:
+        - BLANKS
+        - U_EXT02
+        - U_WALL02
+        - U_BITS
+        - UFOL83
+      mapBlocks:
+        - name: UFO_S4
+          width: 10
+          length: 10
