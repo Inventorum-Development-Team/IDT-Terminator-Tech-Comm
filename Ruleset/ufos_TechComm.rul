@@ -9,7 +9,7 @@ ufos:
   - delete: STR_SUPPLY_SHIP
 #Surface to surface missiles
   - type: STR_TACTICAL_MISSILE
-    size: STR_MEDIUM
+    size: STR_MEDIUM_UC
     missilePower: 1   
     modSprite: InterceptHKDrone
     damageMax: 300
@@ -59,7 +59,7 @@ ufos:
 #Aerial HKs
 ##T-50 HK
   - type: STR_HK_DRONE
-    size: STR_SMALL
+    size: STR_VERY_SMALL
     modSprite: InterceptHKDrone
     damageMax: 50
     speedMax: 710
@@ -113,7 +113,7 @@ ufos:
     sightRange: 268
     missionScore: 0
   - type: STR_HK_TRANSPORT_1
-    size: STR_MEDIUM
+    size: STR_MEDIUM_UC
     modSprite: InterceptHKTransportS1
     damageMax: 250
     speedMax: 860
@@ -194,7 +194,7 @@ ufos:
     huntMode: 0
     missionScore: 0
   - type: STR_HK_BOMBER_1
-    size: STR_MEDIUM
+    size: STR_MEDIUM_UC
     modSprite: InterceptHKFighterS1
     missilePower: 2   
     damageMax: 400
@@ -304,7 +304,7 @@ ufos:
     missionScore: 0
 ##T-700 HK - bigger HKs (unused)
   - type: STR_HK_SCOUT_3
-    size: STR_LARGE_UC
+    size: STR_LARGE
     modSprite: InterceptHKScoutL
     damageMax: 800
     speedMax: 2666
@@ -331,7 +331,7 @@ ufos:
     radarChance: 30
     sightRange: 536
   - type: STR_HK_TRANSPORT_3
-    size: STR_LARGE_UC
+    size: STR_LARGE
     modSprite: InterceptHKTransportL
     damageMax: 900
     speedMax: 2666
@@ -358,7 +358,7 @@ ufos:
     radarChance: 30
     sightRange: 134
   - type: STR_HK_FIGHTER_3
-    size: STR_LARGE_UC
+    size: STR_LARGE
     modSprite: InterceptHKFighterL
     damageMax: 1200
     speedMax: 2666
@@ -517,3 +517,55 @@ ufos:
         - name: UFO_S4
           width: 10
           length: 10
+#Ships
+
+  - type: STR_CARGOSHIPPORT
+    size: STR_SMALL
+    sprite: 1
+    damageMax: 1
+    speedMax: 2400
+    accel: 9
+    power: 20
+    range: 15
+    score: 75
+    reload: 56
+    breakOffTime: 250
+    battlescapeTerrainData:
+      name: CARGOSHIPPORT
+      mapDataSets:
+        - BLANKS
+        - SEAURBAN
+        - CARGOSHIP1
+        - CARGOSHIP2
+        - CARGOSHIP3
+        - CARGOSHIP4
+        - SEABITS
+      mapBlocks:
+        - name: CARGOSHIPPORT
+          width: 30
+          length: 70
+  - type: STR_LINERSHIPPORT
+    size: STR_SMALL
+    sprite: 1
+    damageMax: 1
+    speedMax: 2400
+    accel: 9
+    power: 20
+    range: 15
+    score: 75
+    reload: 56
+    breakOffTime: 250
+    battlescapeTerrainData:
+      name: LINERSHIPPORT
+      mapDataSets:
+        - BLANKS
+        - DECKSHIPC
+        - LINERSHIPA
+        - LINERSHIPB
+        - LINERSHIPC
+        - LINERSHIPD
+        - SEABITS
+      mapBlocks:
+        - name: LINERSHIPPORT
+          width: 30
+          length: 70

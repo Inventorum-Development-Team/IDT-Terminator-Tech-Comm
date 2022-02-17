@@ -1,5 +1,4 @@
 research:
-#<delete>
   - delete: STR_LASER_WEAPONS
   - delete: STR_MOTION_SCANNER
   - delete: STR_MEDI_KIT
@@ -138,7 +137,6 @@ research:
   - delete: STR_BATTLESHIP
   - delete: STR_TERROR_SHIP
   - delete: STR_SUPPLY_SHIP
-#<delete>
 #AI RESEARCH - PLOTLINE
 ##CHAIN HOME - HK BASE, GIVES RANDOM SECTOR REPORT
 ##SPIDER WEB - WORKCAMP
@@ -179,79 +177,71 @@ research:
       - STR_SKYNET_PROTOCOLS
 #TECH
 #TIER 0 - STARTING
+  - name: STR_TECH_SYSTEMS
+    cost: 50
+    points: 10
   - name: STR_HARDENED_FACILITIES
     cost: 50
     points: 10
     dependencies:
       - STR_SECTOR_COMMS
+  - name: STR_DAMAGED_FACILITIES
+    cost: 50
+    points: 10
+    dependencies:
+      - STR_AI_SKYNET
   - name: STR_RESISTANCE_CRAFT
     cost: 50
     points: 10
     dependencies:
       - STR_SECTOR_COMMS
 ##TIER 1.A - TERMINATOR RECOVERY
-  - name: STR_T600_TERMINATOR
-    cost: 50
-    points: 10
-    needItem: true
-    destroyItem: true
-    lookup: STR_T600
-  - name: STR_T600_CHASSIS
-    cost: 50
-    points: 10
-    needItem: true
-    unlocks:
-      - STR_HYPER_ALLOYS
-      - STR_EMP_FIELD
-  - name: STR_T700_TERMINATOR
-    cost: 50
-    points: 10
-    needItem: true
-    destroyItem: true
-    lookup: STR_T700
-  - name: STR_T700_CHASSIS
-    cost: 50
-    points: 10
-    needItem: true
-    unlocks:
-      - STR_HYPER_ALLOYS
-      - STR_EMP_FIELD
-  - name: STR_T800_TERMINATOR
-    cost: 190
-    points: 50
-    needItem: true
-    destroyItem: true
-    lookup: STR_T800
-  - name: STR_T800_CHASSIS
-    cost: 50
-    points: 50
-    needItem: true
-    unlocks:
-      - STR_HYPER_ALLOYS
-      - STR_EMP_FIELD
   - name: STR_HYPER_ALLOYS
     cost: 50
     points: 10
     dependencies:
-      - STR_T600_CHASSIS
-      - STR_T700_CHASSIS
-      - STR_T800_CHASSIS
+      - STR_TERMINATOR_T200_CORPSE
+      - STR_TERMINATOR_T300_CORPSE
+      - STR_TERMINATOR_T400_CORPSE
+      - STR_TERMINATOR_T500_CORPSE
+      - STR_TERMINATOR_T600_CORPSE
+      - STR_TERMINATOR_T700_CORPSE
+      - STR_TERMINATOR_T800_CORPSE
+      - STR_TERMINATOR_T1000_CORPSE
+      - STR_TERMINATOR_SENTRY_CORPSE
+      - STR_TERMINATOR_CYBERMITE_CORPSE
+      - STR_TERMINATOR_SEEKER_CORPSE
+      - STR_TERMINATOR_DRONE_CORPSE
+      - STR_TERMINATOR_CERBERUS_CORPSE
   - name: STR_PLASMA_CELL
     cost: 50
     points: 10
     needItem: true
     dependencies:
-      - STR_T600_TERMINATOR
-      - STR_T700_TERMINATOR
-      - STR_T800_TERMINATOR
+      - STR_TERMINATOR_T600_CORPSE
+      - STR_TERMINATOR_T700_CORPSE
+      - STR_TERMINATOR_T800_CORPSE
+      - STR_TERMINATOR_T1000_CORPSE
+      - STR_TERMINATOR_SENTRY_CORPSE
+      - STR_TERMINATOR_CERBERUS_CORPSE
   - name: STR_AI_TERMINATOR
     cost: 50
     points: 10
     needItem: true
     dependencies:
-      - STR_T600_TERMINATOR
-      - STR_T700_TERMINATOR
-      - STR_T800_TERMINATOR
+      - STR_TERMINATOR_T200
+      - STR_TERMINATOR_T300
+      - STR_TERMINATOR_T400
+      - STR_TERMINATOR_T500
+      - STR_TERMINATOR_T600
+      - STR_TERMINATOR_T700
+      - STR_TERMINATOR_T800
+      - STR_TERMINATOR_T1000
+      - STR_TERMINATOR_SENTRY
+      - STR_TERMINATOR_CYBERMITE
+      - STR_TERMINATOR_SEEKER
+      - STR_TERMINATOR_DRONE
+      - STR_TERMINATOR_CERBERUS
   - name: STR_BALLISTICS
     cost: 50
     points: 10
@@ -353,6 +343,11 @@ research:
     points: 50
     lookup: STR_TERMINATOR_T200_AUTOPSY
     needItem: true
+    unlocks:
+      - STR_HYPER_ALLOYS
+  - name: STR_TERMINATOR_T200_AUTOPSY
+    points: 50
+    needItem: true
   - name: STR_TERMINATOR_T300
     cost: 192
     points: 50
@@ -364,6 +359,11 @@ research:
     cost: 180
     points: 50
     lookup: STR_TERMINATOR_T300_AUTOPSY
+    needItem: true
+    unlocks:
+      - STR_HYPER_ALLOYS
+  - name: STR_TERMINATOR_T300_AUTOPSY
+    points: 50
     needItem: true
   - name: STR_TERMINATOR_T400
     cost: 192
@@ -377,6 +377,11 @@ research:
     points: 50
     lookup: STR_TERMINATOR_T400_AUTOPSY
     needItem: true
+    unlocks:
+      - STR_HYPER_ALLOYS
+  - name: STR_TERMINATOR_T400_AUTOPSY
+    points: 50
+    needItem: true
   - name: STR_TERMINATOR_T500
     cost: 192
     points: 50
@@ -388,6 +393,11 @@ research:
     cost: 180
     points: 50
     lookup: STR_TERMINATOR_T500_AUTOPSY
+    needItem: true
+    unlocks:
+      - STR_HYPER_ALLOYS
+  - name: STR_TERMINATOR_T500_AUTOPSY
+    points: 50
     needItem: true
   - name: STR_TERMINATOR_T600
     cost: 192
@@ -401,6 +411,12 @@ research:
     points: 50
     lookup: STR_TERMINATOR_T600_AUTOPSY
     needItem: true
+  - name: STR_TERMINATOR_T600_AUTOPSY
+    points: 50
+    needItem: true
+    unlocks:
+      - STR_HYPER_ALLOYS
+      - STR_EMP_FIELD
   - name: STR_TERMINATOR_T700
     cost: 192
     points: 50
@@ -412,6 +428,12 @@ research:
     cost: 180
     points: 50
     lookup: STR_TERMINATOR_T700_AUTOPSY
+    needItem: true
+    unlocks:
+      - STR_HYPER_ALLOYS
+      - STR_EMP_FIELD
+  - name: STR_TERMINATOR_T700_AUTOPSY
+    points: 50
     needItem: true
   - name: STR_TERMINATOR_T800
     cost: 192
@@ -425,6 +447,12 @@ research:
     points: 50
     lookup: STR_TERMINATOR_T800_AUTOPSY
     needItem: true
+    unlocks:
+      - STR_HYPER_ALLOYS
+      - STR_EMP_FIELD
+  - name: STR_TERMINATOR_T800_AUTOPSY
+    points: 50
+    needItem: true
   - name: STR_TERMINATOR_T1000
     cost: 192
     points: 50
@@ -436,6 +464,12 @@ research:
     cost: 180
     points: 50
     lookup: STR_TERMINATOR_T1000_AUTOPSY
+    needItem: true
+    unlocks:
+      - STR_HYPER_ALLOYS
+      - STR_EMP_FIELD
+  - name: STR_TERMINATOR_T1000_AUTOPSY
+    points: 50
     needItem: true
   - name: STR_TERMINATOR_CERBERUS
     cost: 192
@@ -449,6 +483,9 @@ research:
     points: 50
     lookup: STR_TERMINATOR_CERBERUS_AUTOPSY
     needItem: true
+  - name: STR_TERMINATOR_CERBERUS_AUTOPSY
+    points: 50
+    needItem: true
   - name: STR_TERMINATOR_CYBERMITE
     cost: 192
     points: 50
@@ -460,6 +497,9 @@ research:
     cost: 180
     points: 50
     lookup: STR_TERMINATOR_CYBERMITE_AUTOPSY
+    needItem: true
+  - name: STR_TERMINATOR_CYBERMITE_AUTOPSY
+    points: 50
     needItem: true
   - name: STR_TERMINATOR_DRONE
     cost: 192
@@ -473,6 +513,9 @@ research:
     points: 50
     lookup: STR_TERMINATOR_DRONE_AUTOPSY
     needItem: true
+  - name: STR_TERMINATOR_DRONE_AUTOPSY
+    points: 50
+    needItem: true
   - name: STR_TERMINATOR_SEEKER
     cost: 192
     points: 50
@@ -485,6 +528,9 @@ research:
     points: 50
     lookup: STR_TERMINATOR_SEEKER_AUTOPSY
     needItem: true
+  - name: STR_TERMINATOR_SEEKER_AUTOPSY
+    points: 50
+    needItem: true
   - name: STR_TERMINATOR_SENTRY
     cost: 192
     points: 50
@@ -496,6 +542,57 @@ research:
     cost: 180
     points: 50
     lookup: STR_TERMINATOR_SENTRY_AUTOPSY
+    needItem: true
+    unlocks:
+      - STR_HYPER_ALLOYS
+      - STR_EMP_FIELD
+  - name: STR_TERMINATOR_SENTRY_AUTOPSY
+    points: 50
+    needItem: true
+  - name: STR_TACTICAL_MISSILE
+    points: 50
+    needItem: true
+  - name: STR_MX_MISSILE
+    points: 50
+    needItem: true
+  - name: STR_HK_DRONE
+    points: 50
+    needItem: true
+  - name: STR_HK_SCOUT_1
+    points: 50
+    needItem: true
+  - name: STR_HK_TRANSPORT_1
+    points: 50
+    needItem: true
+  - name: STR_HK_FIGHTER_1
+    points: 50
+    needItem: true
+  - name: STR_HK_INTERCEPTOR_1
+    points: 50
+    needItem: true
+  - name: STR_HK_BOMBER_1
+    points: 50
+    needItem: true
+  - name: STR_HK_SCOUT_2
+    points: 50
+    needItem: true
+  - name: STR_HK_TRANSPORT_2
+    points: 50
+    needItem: true
+  - name: STR_HK_FIGHTER_2
+    points: 50
+    needItem: true
+  - name: STR_HK_SCOUT_3
+    points: 50
+    needItem: true
+  - name: STR_HK_TRANSPORT_3
+    points: 50
+    needItem: true
+  - name: STR_HK_FIGHTER_3
+    points: 50
+    needItem: true
+  - name: STR_HK_CONVOY
+    points: 50
     needItem: true
 ##TIER 2.A - HK BASE/WORKCAMP/FACTORY
   - name: STR_AI_CHAIN_HOME

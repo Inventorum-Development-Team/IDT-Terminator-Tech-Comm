@@ -9682,7 +9682,7 @@ terrains:
         width: 10
         length: 10
   - name: TFTD_LINER_PORT_EXTRACTION
-    script: PORTLINEREXTRACTION
+    script: PORTLINERSHIPEXTRACTION
   - name: TFTD_PORT_ESCAPE 
     refNode: *TFTD_PORT
     script: PORTTFTDESCAPE
@@ -10036,8 +10036,8 @@ terrains:
         length: 10
         groups: 1
 #AREA 51
-  - &AREA51
-    name: AREA51
+  - &AREA51_URBAN
+    name: AREA51_URBAN
     mapDataSets:
       - BLANKS
       - AREA51_A1
@@ -10741,7 +10741,7 @@ terrains:
         width: 20
         length: 20
   - name: AREA51_RESEARCH
-    refNode: *AREA51
+    refNode: *AREA51_URBAN
     mapDataSets:
       - BLANKS
       - AREA51_A1
@@ -12403,7 +12403,7 @@ terrains:
       - name: AREA51RAID05
         width: 60
         length: 20
-  - name: AREA51_SKYRANGER_FACTORY
+  - name: AREA51_SKYRANGER_FACTORY1
     refNode: *AREA51_SKYRANGER_FACTORY
     script: AREA51SKYRANGERFACTORY1
     mapBlocks:
@@ -19206,9 +19206,6 @@ terrains:
       - AREA51_B1
       - AREA51_C1
       - AREA51_D1P
-    civilianTypes:
-      - STR_HUMAN_SOLDIER_3_3
-      - STR_HUMAN_TANK_MINIGUN
     script: AREA51DESTROY2
   - name: AREA51_DESTROY_S
     refNode: *AREA51_DESTROY
@@ -20689,30 +20686,18 @@ terrains:
         width: 20
         length: 20
         revealedFloors: [0, 1, 2, 3]
-        items:
-          STR_DATA_DISK_HWPS_E:
-            - [4, 7, 1]
       - name: AREA51BASE202
         width: 20
         length: 20
         revealedFloors: [0, 1, 2, 3]
-        items:
-          STR_DATA_DISK_HWPS_E:
-            - [9, 9, 1]
       - name: AREA51BASE203
         width: 20
         length: 20
         revealedFloors: [0, 1, 2, 3]
-        items:
-          STR_DATA_DISK_HWPS_E:
-            - [3, 15, 1]
       - name: AREA51BASE204
         width: 20
         length: 20
         revealedFloors: [0, 1, 2, 3]
-        items:
-          STR_DATA_DISK_HWPS_E:
-            - [5, 3, 1]
       - name: AREA51BASE205
         width: 10
         length: 10
@@ -21544,13 +21529,6 @@ terrains:
       - AREA51_D3
     script: AREA51DEFENSE
     civilianTypes:
-      - STR_HUMAN_JUMPSUIT_0_0
-      - STR_HUMAN_JUMPSUIT_0_1
-      - STR_HUMAN_JUMPSUIT_0_2
-      - STR_HUMAN_JUMPSUIT_0_3
-      - STR_HUMAN_JUMPSUIT_0_4
-      - STR_HUMAN_JUMPSUIT_0_5
-      - STR_HUMAN_JUMPSUIT_0_6
       - STR_HUMAN_CHARACTER_0_0
       - STR_HUMAN_CHARACTER_0_1
       - STR_HUMAN_CHARACTER_0_2
@@ -22336,14 +22314,6 @@ terrains:
       - SKYNETBASE_B
       - SKYNETBASE_C
       - SKYNETBASE_D
-    civilianTypes:
-      - STR_HUMAN_SOLDIER_3_0
-      - STR_HUMAN_SOLDIER_3_4
-      - STR_HUMAN_SOLDIER_3_5
-      - STR_HUMAN_SOLDIER_4_0
-      - STR_HUMAN_SOLDIER_4_1
-      - STR_HUMAN_SOLDIER_4_2
-      - STR_HUMAN_SOLDIER_4_4
     script: SKYNETBASE
     mapBlocks:
       - name: SKYNETBASE000

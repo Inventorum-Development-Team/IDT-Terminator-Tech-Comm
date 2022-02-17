@@ -1081,6 +1081,18 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/Units/Inventory/INV_HUMAN_SCIENTIST.png
+  - type: INV_FEMALE_CIVILIAN
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Units/Inventory/INV_FEMALE_CIVILIAN.png
+  - type: INV_MALE_CIVILIAN
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Units/Inventory/INV_MALE_CIVILIAN.png
   - type: INV_TERMINATOR_T200
     width: 320
     height: 200
@@ -1357,8 +1369,7 @@ extraSprites:
       29: Resources/Craft/Viking_minimised.gif
       30: Resources/Craft/Warthog_minimised.gif
       31: Resources/Craft/Bronco_minimised.gif
-      32: Resources/Craft/Dragonfly_minimised.gif
-      33: Resources/Craft/BLACKBIRD_GEOSCAPE1.gif      
+      32: Resources/Craft/Dragonfly_minimised.gif   
       66: Resources/Craft/Dynavert_minimised.gif
       67: Resources/Craft/Goshawk_minimised.gif
       68: Resources/Craft/Guardrail_minimised.gif
@@ -1366,6 +1377,7 @@ extraSprites:
       70: Resources/Craft/Sherpa_minimised.gif
       71: Resources/Craft/TwinOtter_minimised.gif
       72: Resources/Craft/Prowler_minimised.gif
+      73: Resources/Craft/BLACKBIRD_GEOSCAPE1.gif   
       33: Resources/Craft/p_dogfight.gif
       34: Resources/Craft/v22_dogfight.gif	 
       35: Resources/Craft/Hawkeye_dogfight.gif	 
@@ -1385,6 +1397,7 @@ extraSprites:
       81: Resources/Craft/Sherpa_dogfight.gif
       82: Resources/Craft/TwinOtter_dogfight.gif
       83: Resources/Craft/Prowler_dogfight.gif
+      84: Resources/Craft/BLACKBIRD_GEOSCAPE2.gif 
       105: Resources/Icons/AMRAAM_dogfight.png
       106: Resources/Icons/ASRAAM_dogfight.png
       107: Resources/Icons/ECMPods_dogfight.png

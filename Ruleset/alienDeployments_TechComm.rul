@@ -795,10 +795,10 @@ alienDeployments:
   - type: STR_SKYNET_BASE_ASSAULT_OUTPOST
     alienBaseUpgrades:
       0:
-        STR_ALIEN_BASE_ASSAULT_OUTPOST: 100
+        STR_SKYNET_BASE_ASSAULT_OUTPOST: 100
       2:
-        STR_ALIEN_BASE_ASSAULT_HKBASE: 50
-        STR_ALIEN_BASE_ASSAULT_WORKCAMP: 50
+        STR_SKYNET_BASE_ASSAULT_HKBASE: 50
+        STR_SKYNET_BASE_ASSAULT_WORKCAMP: 50
     data: *SKYNET_BASE_ASSAULT
     width: 50
     length: 80
@@ -902,7 +902,7 @@ alienDeployments:
     objectiveComplete: [STR_SKYNET_BASE_CONTROL_DESTROYED, 500]
     objectivePopup: STR_CONTROL_CENTER_DESTROYED
     points: 1
-    unlockedResearch: STR_AI_SCARECROW
+    unlockedResearch: STR_AI_SCARE_CROW
 #Abandoned Resistance/Military bases - 1 spawned per region
 ##Tech-Comm/Area 51 terrains - Give resources/craft
   - type: STR_ABANDONED_BASE_ASSAULT #SKYNET/BANDITS
@@ -1609,7 +1609,7 @@ alienDeployments:
     height: 6
     civilians: 8
     terrains:
-      - AREA51_URBAN
+      - AREA51_RESEARCH
     alert: STR_RESISTANCE_ASSAULT_ALERT
     alertBackground: BACK185.SCR
     briefing:

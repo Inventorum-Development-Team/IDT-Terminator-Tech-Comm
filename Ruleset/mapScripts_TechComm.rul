@@ -7603,7 +7603,33 @@ mapScripts:
           - type: floor
             set: 1
             entry: 63
-
+  - type: COMRCESCAPE
+    commands:
+    - type: addBlock
+      blocks: 22
+      rects:
+        - [6, 0, 2, 4]
+    - type: addUFO
+      UFOName: STR_NKF_APC
+      rects:
+        - [0, 0, 1, 4]
+    - type: addLine
+      label: 1
+      direction: vertical
+      executionChances: 50
+    - type: addLine
+      label: 2
+      conditionals: -1
+      executionChances: 50
+      direction: horizontal
+    - type: addLine
+      conditionals: [-1, -2]
+      direction: both
+    - type: addBlock
+      size: 2
+      executions: 4
+    - type: fillArea
+      blocks: [0, 1, 2, 3, 4, 13, 14, 15, 16, 17, 18, 19, 20]
   - type: COLDISLEEXTRACTION
     commands:
     - type: addBlock
@@ -9409,7 +9435,7 @@ mapScripts:
         - [0, 4, 5, 1]
       blocks: [54, 55, 56, 57, 58]
       executions: 5
-      maxUses: [1, 1, 1, 1]
+      maxUses: [1, 1, 1, 1, 1]
     - type: addBlock # Outer Fence
       rects:
         - [0, 5, 5, 1]
@@ -9633,28 +9659,3 @@ mapScripts:
       maxUses: [1, 1]
     - type: fillArea
       blocks: [47, 48]
-  - type: URBAN 
-    commands:
-    - type: addCraft
-    - type: addLine
-      label: 1
-      direction: vertical
-      executionChances: 50
-    - type: addLine
-      label: 2
-      conditionals: -1
-      executionChances: 50
-      direction: horizontal
-    - type: addLine
-      conditionals: [-1, -2]
-      direction: both
-      rects:
-        - [1, 0, 4, 5]
-    - type: addBlock
-      size: 2
-      executions: 4
-    - type: fillArea
-      # URBAN set is lacking blocks 10-13, so the numbers don't correlate properly here,
-      # because these are references to the block numbers within the sets, not the file names.
-      blocks: [3, 4, 10, 11, 12, 13, 14]
-      freqs: [3, 3, 2, 2, 2, 2, 2]

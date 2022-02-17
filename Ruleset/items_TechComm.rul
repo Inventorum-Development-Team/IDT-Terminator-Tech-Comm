@@ -123,14 +123,6 @@ items:
     invHeight: 1
     bigSprite: 55
     floorSprite: 72
-  - type: STR_HAWKEYE_FUSELAGE
-    costSell: 100000
-    size: 1
-    weight: 1
-    invWidth: 1
-    invHeight: 1
-    bigSprite: 55
-    floorSprite: 72
   - type: STR_VIKING_FUSELAGE
     costSell: 100000
     size: 1

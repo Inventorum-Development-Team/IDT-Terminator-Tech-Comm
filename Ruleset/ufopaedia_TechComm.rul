@@ -255,7 +255,7 @@ ufopaedia:
   - id: STR_RESISTANCE_ORDER_5
     type_id: 7
     section: STR_INTELPEDIA_1
-    image_id: COMM_REPORT_5
+    image_id: COMM_REPORT_1
     text: STR_RESISTANCE_ORDER_5_UFOPEDIA
     requires:
       - STR_RESISTANCE_ORDER_5
@@ -264,7 +264,7 @@ ufopaedia:
   - id: STR_RESISTANCE_ORDER_6
     type_id: 7
     section: STR_INTELPEDIA_1
-    image_id: COMM_REPORT_6
+    image_id: COMM_REPORT_2
     text: STR_RESISTANCE_ORDER_6_UFOPEDIA
     requires:
       - STR_RESISTANCE_ORDER_6
@@ -514,22 +514,13 @@ ufopaedia:
     listOrder: 1122
     text_width: 316
 #COMM SKYNET
-  - id: STR_SKYNET
-    type_id: 7
-    text_width: 316
-    section: STR_INTELPEDIA_3
-    image_id: SKYNET_IMAGE
-    requires:
-      - STR_SKYNET
-    text: STR_SKYNET_UFOPEDIA
-    listOrder: 1300
   - id: STR_SKYNET_FACILITIES
     type_id: 7
     text_width: 316
     section: STR_INTELPEDIA_3
     image_id: SKYNET_FACILITIES_IMAGE
     requires:
-      - STR_SKYNET_FACILITIES
+      - STR_SECTOR_COMMS
     text: STR_SKYNET_FACILITIES_UFOPEDIA
     listOrder: 1301
   - id: STR_SKYNET_CORE
@@ -538,7 +529,7 @@ ufopaedia:
     section: STR_INTELPEDIA_3
     image_id: SKYNET_CORE_IMAGE
     requires:
-      - STR_SKYNET_CORE
+      - STR_AI_SKYNET
     text: STR_SKYNET_CORE_UFOPEDIA
     listOrder: 1302
   - id: STR_SKYNET_TEMPUS
@@ -547,7 +538,7 @@ ufopaedia:
     section: STR_INTELPEDIA_3
     image_id: SKYNET_TEMPUS_IMAGE
     requires:
-      - STR_SKYNET_TEMPUS
+      - STR_AI_LIGHTHOUSE
     text: STR_SKYNET_TEMPUS_UFOPEDIA
     listOrder: 1303
   - id: STR_SKYNET_LAB
@@ -556,24 +547,15 @@ ufopaedia:
     section: STR_INTELPEDIA_3
     image_id: SKYNET_LAB_IMAGE
     requires:
-      - STR_SKYNET_LAB
+      - STR_AI_LIGHTHOUSE
     listOrder: 1304
-  - id: STR_SKYNET
-    type_id: 7
-    text_width: 316
-    section: STR_INTELPEDIA_3
-    image_id: SKYNET_IMAGE
-    requires:
-      - STR_SKYNET
-    text: STR_SKYNET_UFOPEDIA
-    listOrder: 1300
   - id: STR_SKYNET_MISSILE_BASE
     type_id: 7
     text_width: 316
     section: STR_INTELPEDIA_3
     image_id: SKYNET_LAB_IMAGE
     requires:
-      - STR_SKYNET_MISSILE_BASE
+      - STR_AI_DEAD_HAND
     text: STR_SKYNET_UFOPEDIA
     listOrder: 1305
   - id: STR_SKYNET_FACTORY
@@ -582,7 +564,7 @@ ufopaedia:
     section: STR_INTELPEDIA_3
     image_id: SKYNET_FACTORY_IMAGE
     requires:
-      - STR_SKYNET_FACTORY
+      - STR_AI_GREAT_WALL
     text: STR_SKYNET_FACTORY_UFOPEDIA
     listOrder: 1306
   - id: STR_SKYNET_HKBASE
@@ -591,7 +573,7 @@ ufopaedia:
     section: STR_INTELPEDIA_3
     image_id: SKYNET_HKBASE_IMAGE
     requires:
-      - STR_SKYNET_HKBASE
+      - STR_AI_SPIDER_WEB
     text: STR_SKYNET_HKBASE_UFOPEDIA
     listOrder: 1307
   - id: STR_SKYNET_WORKCAMP
@@ -600,7 +582,7 @@ ufopaedia:
     section: STR_INTELPEDIA_3
     image_id: SKYNET_WORKCAMP_IMAGE
     requires:
-      - STR_SKYNET_WORKCAMP
+      - STR_AI_SCARE_CROW
     text: STR_SKYNET_WORKCAMP_UFOPEDIA
     listOrder: 1308
 #COMM PROTOCOLS
@@ -610,7 +592,7 @@ ufopaedia:
     section: STR_INTELPEDIA_4
     image_id: SKYNET_PROTOCOLS_IMAGE
     requires:
-      - STR_SKYNET_PROTOCOLS
+      - STR_SECTOR_COMMS
     text: STR_SKYNET_PROTOCOLS_UFOPEDIA
     listOrder: 1300
   - id: STR_SKYNET_RESEARCH
@@ -619,7 +601,7 @@ ufopaedia:
     section: STR_INTELPEDIA_4
     image_id: SKYNET_RESEARCH_IMAGE
     requires:
-      - STR_SKYNET_RESEARCH
+      - STR_SKYNET_PROTOCOLS
     text: STR_SKYNET_RESEARCH_UFOPEDIA
     listOrder: 1301
   - id: STR_SKYNET_RECLAMATION
@@ -628,7 +610,7 @@ ufopaedia:
     section: STR_INTELPEDIA_4
     image_id: SKYNET_RECLAMATION_IMAGE
     requires:
-      - STR_SKYNET_RECLAMATION
+      - STR_SKYNET_PROTOCOLS
     text: STR_SKYNET_RECLAMATION_UFOPEDIA
     listOrder: 1302
   - id: STR_SKYNET_ERADICATION
@@ -637,7 +619,7 @@ ufopaedia:
     section: STR_INTELPEDIA_4
     image_id: SKYNET_ERRADICATION_IMAGE
     requires:
-      - STR_SKYNET_ERADICATION
+      - STR_SKYNET_PROTOCOLS
     text: STR_SKYNET_ERADICATION_UFOPEDIA
     listOrder: 1303
   - id: STR_SKYNET_INFILTRATION
@@ -646,7 +628,7 @@ ufopaedia:
     section: STR_INTELPEDIA_4
     image_id: SKYNET_INFILTRATION_IMAGE
     requires:
-      - STR_SKYNET_INFILTRATION
+      - STR_SKYNET_PROTOCOLS
     text: STR_SKYNET_INFILTRATION_UFOPEDIA
     listOrder: 1304
   - id: STR_SKYNET_EXPANSION
@@ -655,7 +637,7 @@ ufopaedia:
     section: STR_INTELPEDIA_4
     image_id: SKYNET_EXPANSION_IMAGE
     requires:
-      - STR_SKYNET_EXPANSION
+      - STR_SKYNET_PROTOCOLS
     text: STR_SKYNET_EXPANSION_UFOPEDIA
     listOrder: 1305
   - id: STR_SKYNET_INTERDICTION
@@ -664,7 +646,7 @@ ufopaedia:
     section: STR_INTELPEDIA_4
     image_id: SKYNET_INTERDICTION_IMAGE
     requires:
-      - STR_SKYNET_INTERDICTION
+      - STR_SKYNET_PROTOCOLS
     text: STR_SKYNET_INTERDICTION_UFOPEDIA
     listOrder: 1306
   - id: STR_SKYNET_TERMINATION
@@ -673,7 +655,7 @@ ufopaedia:
     section: STR_INTELPEDIA_4
     image_id: SKYNET_TERMINATION_IMAGE
     requires:
-      - STR_SKYNET_TERMINATION
+      - STR_SKYNET_PROTOCOLS
     text: STR_SKYNET_TERMINATION_UFOPEDIA
     listOrder: 1307
   - id: STR_SKYNET_PACIFICATION
@@ -682,7 +664,7 @@ ufopaedia:
     section: STR_INTELPEDIA_4
     image_id: SKYNET_PACIFICATION_IMAGE
     requires:
-      - STR_SKYNET_PACIFICATION
+      - STR_SKYNET_PROTOCOLS
     text: STR_SKYNET_PACIFICATION_UFOPEDIA
     listOrder: 1308
   - id: STR_SKYNET_SUPPLY
@@ -691,7 +673,7 @@ ufopaedia:
     section: STR_INTELPEDIA_4
     image_id: SKYNET_SUPPLY_IMAGE
     requires:
-      - STR_SKYNET_SUPPLY
+      - STR_SKYNET_PROTOCOLS
     text: STR_SKYNET_SUPPLY_UFOPEDIA
     listOrder: 1309
   - id: STR_SKYNET_TRANSPORT
@@ -700,7 +682,7 @@ ufopaedia:
     section: STR_INTELPEDIA_4
     image_id: SKYNET_TRANSPORT_IMAGE
     requires:
-      - STR_SKYNET_CONVOY
+      - STR_SKYNET_PROTOCOLS
     text: STR_SKYNET_CONVOY_UFOPEDIA
     listOrder: 1310
   - id: STR_SKYNET_RETRIBUTION
@@ -709,7 +691,7 @@ ufopaedia:
     section: STR_INTELPEDIA_4
     image_id: SKYNET_TERMINATION_IMAGE
     requires:
-      - STR_SKYNET_RETRIBUTION
+      - STR_SKYNET_PROTOCOLS
     text: STR_SKYNET_RETRIBUTION_UFOPEDIA
     listOrder: 1311
 #TECH AIRCRAFT
@@ -1203,8 +1185,6 @@ ufopaedia:
   - id: STR_HOUSING_AREA
     type_id: 6
     section: STR_INTELPEDIA_7
-    requires:
-      - STR_HOUSING_AREA
     text: STR_HOUSING_AREA_UFOPEDIA
     listOrder: 1706
   - id: STR_STORAGE
@@ -1221,7 +1201,7 @@ ufopaedia:
     type_id: 6
     section: STR_INTELPEDIA_7
     requires:
-      - STR_STORAGE_AREA
+      - STR_ADVANCED_FACILITIES
     text: STR_STORAGE_AREA_UFOPEDIA
     listOrder: 1709
   - id: STR_MINE_FIELD
@@ -1262,22 +1242,20 @@ ufopaedia:
   - id: STR_COMM_ARRAY
     type_id: 6
     section: STR_INTELPEDIA_7
-    requires:
-      - STR_COMM_ARRAY
     text: STR_COMM_ARRAY_UFOPEDIA
     listOrder: 1717
   - id: STR_COMM_CENTER
     type_id: 6
     section: STR_INTELPEDIA_7
     requires:
-      - STR_COMM_CENTER
+      - STR_HARDENED_FACILITIES
     text: STR_COMM_ARRAY_UFOPEDIA
     listOrder: 1718
   - id: STR_COMM_STATION
     type_id: 6
     section: STR_INTELPEDIA_7
     requires:
-      - STR_COMM_STATION
+      - STR_ADVANCED_FACILITIES
     text: STR_COMM_STATION_UFOPEDIA
     listOrder: 1719
   - id: STR_TECH_LAB
@@ -1289,19 +1267,23 @@ ufopaedia:
     type_id: 6
     section: STR_INTELPEDIA_7
     requires:
-      - STR_TECH_CENTER
+      - STR_HARDENED_FACILITIES
     text: STR_TECH_CENTER_UFOPEDIA
     listOrder: 1721
   - id: STR_NANO_CENTER
     type_id: 6
     section: STR_INTELPEDIA_7
     text: STR_NANO_CENTER_UFOPEDIA
+    requires:
+      - STR_HARDENED_FACILITIES
+      - STR_NANO_TECHNOLOGY
     listOrder: 1722
   - id: STR_TECH_STATION
     type_id: 6
     section: STR_INTELPEDIA_7
     requires:
-      - STR_TECH_STATION
+      - STR_ADVANCED_FACILITIES
+      - STR_NANO_TECHNOLOGY
     text: STR_TECH_STATION_UFOPEDIA
     listOrder: 1723
   - id: STR_MISSILE_SITE
@@ -1313,27 +1295,28 @@ ufopaedia:
     type_id: 6
     section: STR_INTELPEDIA_7
     requires:
-      - STR_MISSILE_SILO
+      - STR_HARDENED_FACILITIES
     text: STR_MISSILE_SILO_UFOPEDIA
     listOrder: 1725
   - id: STR_DEFENSE_CENTER
     type_id: 6
     section: STR_INTELPEDIA_7
     requires:
-      - STR_DEFENSE_CENTER
+      - STR_HARDENED_FACILITIES
     text: STR_DEFENSE_CENTER_UFOPEDIA
     listOrder: 1726
   - id: STR_DEFENSE_STATION
     type_id: 6
     section: STR_INTELPEDIA_7
     requires:
-      - STR_DEFENSE_STATION
+      - STR_ADVANCED_FACILITIES
     text: STR_DEFENSE_STATION_UFOPEDIA
     listOrder: 1727
   - id: STR_CLOAKING_FIELD
     type_id: 6
     section: STR_INTELPEDIA_7
     requires:
+      - STR_ADVANCED_FACILITIES
       - STR_CLOAKING_FIELD
     text: STR_CLOAKING_FIELD_UFOPEDIA
     listOrder: 1728
@@ -1351,14 +1334,14 @@ ufopaedia:
     type_id: 6
     section: STR_INTELPEDIA_7
     requires:
-      - STR_CRAFT_MANUFACTURE
+      - STR_RESISTANCE_CRAFT
     text: STR_HANGAR_UFOPEDIA
     listOrder: 1731
   - id: STR_POWER_CENTER
     type_id: 6
     section: STR_INTELPEDIA_7
     requires:
-      - STR_ADVANCED_FACILITIES
+      - STR_HARDENED_FACILITIES
     text: STR_POWER_CENTER_UFOPEDIA
     listOrder: 1732
 #HUNTER-KILLERS
@@ -1366,8 +1349,6 @@ ufopaedia:
     type_id: 7
     section: STR_INTELPEDIA_8
     image_id: HUNTER_KILLERS_IMAGE
-    requires:
-      - STR_HUNTER_KILLERS
     text: STR_HUNTER_KILLERS_UFOPEDIA
     listOrder: 1800
   - id: STR_HK_DRONE
@@ -1849,9 +1830,6 @@ ufopaedia:
     section: STR_INTELPEDIA_10
     text: STR_D12A2_UFOPEDIA
     listOrder: 2056
-  - id: STR_D12_DRUM
-    type_id: 4
-    section: STR_NOT_AVAILABLE
   - id: STR_M20A
     type_id: 4
     section: STR_INTELPEDIA_10

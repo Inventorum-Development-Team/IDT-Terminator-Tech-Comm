@@ -211,9 +211,9 @@ missionScripts: #DONE
         STR_ABANDONED_BASE: 100        
     regionWeights:
       0:
-        SECTOR_ARCTIC: 10
+        STR_ARCTIC: 10
     researchTriggers:
-      STR_SECTOR_00_COM: true
+      STR_SECTOR_00_COMM: true
     maxRuns: 1
     useTable: false
     varName: sector00
@@ -236,6 +236,8 @@ missionScripts: #DONE
     regionWeights:
       0:
         STR_NORTH_AMERICA: 100
+    researchTriggers:
+      STR_SECTOR_02_COMM: true
     maxRuns: 1
     useTable: false
     varName: sector02

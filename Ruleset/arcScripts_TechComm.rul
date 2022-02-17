@@ -25,7 +25,7 @@ arcScripts: #DONE
       STR_OSPREY_BLUEPRINT: 30
       STR_SHERPA_BLUEPRINT: 20
       STR_BRONCO_BLUEPRINT: 10
-      STR_TWINOTTER_BLUEPRINT: 20
+      STR_TWIN_OTTER_BLUEPRINT: 20
       STR_GUARDRAIL_BLUEPRINT: 20
     firstMonth: 0                       # months this command runs on, 0 runs on startup of a new game (default 0)
     executionOdds: 100                  # % chances of this command executing (default 100)

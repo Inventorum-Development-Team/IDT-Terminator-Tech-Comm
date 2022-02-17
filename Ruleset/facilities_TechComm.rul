@@ -299,7 +299,7 @@ facilities: #DONE
     spriteShape: 384
     spriteFacility: 384
     requires:
-      - STR_CRAFT_MANUFACTURE
+      - STR_RESISTANCE_CRAFT
     size: 3
     buildCost: 320000
     buildTime: 32
@@ -321,7 +321,7 @@ facilities: #DONE
     spriteShape: 384
     spriteFacility: 384
     requires:
-      - STR_CRAFT_MANUFACTURE
+      - STR_RESISTANCE_CRAFT
       - STR_DAMAGED_FACILITIES
     size: 3
     buildCost: 320000
@@ -876,7 +876,7 @@ facilities: #DONE
     mapName: TECHBASEDEFENSE_11
     destroyedFacility: STR_POWER_CENTER_DAMAGED
     maxAllowedPerBase: 1
-    forbiddenBaseFunc: [power center repair]
+    forbiddenBaseFunc: [power_center_repair]
     missileAttraction: 25
   - type: STR_POWER_CENTER_DAMAGED
     requires:
@@ -890,7 +890,7 @@ facilities: #DONE
     storage: 25
     mapName: TECHBASEDEFENSE_11
     canBeBuiltOver: true
-    provideBaseFunc: [missile_silo_repair]
+    provideBaseFunc: [power_center_repair]
     buildOverFacilities:
       - STR_POWER_CENTER
     missileAttraction: 25

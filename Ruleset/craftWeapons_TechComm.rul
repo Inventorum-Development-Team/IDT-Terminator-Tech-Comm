@@ -333,4 +333,3 @@ craftWeapons: #DONE
     clip: STR_FALCON_MISSILES
     projectileType: 1
     projectileSpeed: 8
-  - type: STR_HYDRA

@@ -359,7 +359,7 @@ armors: #DONE
     loftempsSet: [ 3 ]
   - type: COMBAT_ARMOR_FOREST_ARMOR
     spriteInv: INV_COMBAT_ARMOR_FOREST
-    spriteSheet: COMBAT_ARMOR_FOREST_ARMOR.PCK
+    spriteSheet: COMBAT_ARMOR_FOREST.PCK
     spriteFaceGroup: 6
     spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
     spriteHairGroup: 9
@@ -384,7 +384,7 @@ armors: #DONE
     loftempsSet: [ 3 ]
   - type: COMBAT_ARMOR_SNOW_ARMOR
     spriteInv: INV_COMBAT_ARMOR_SNOW
-    spriteSheet: COMBAT_ARMOR_SNOW_ARMOR.PCK
+    spriteSheet: COMBAT_ARMOR_SNOW.PCK
     spriteFaceGroup: 6
     spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
     spriteHairGroup: 9
@@ -409,7 +409,7 @@ armors: #DONE
     loftempsSet: [ 3 ]
   - type: COMBAT_ARMOR_URBAN_ARMOR
     spriteInv: INV_COMBAT_ARMOR_URBAN
-    spriteSheet: COMBAT_ARMOR_URBAN_ARMOR.PCK
+    spriteSheet: COMBAT_ARMOR_URBAN.PCK
     spriteFaceGroup: 6
     spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
     spriteHairGroup: 9
@@ -1605,8 +1605,8 @@ armors: #DONE
       - 1.0
     loftempsSet: [ 3 ]
   - type: INFILTRATOR_T800_ARMOR
-    spriteSheet: INFILTRATOR_T800.PCK
-    spriteInv: INV_TERMINATOR_400
+    spriteSheet: TERMINATOR_T800_INFILTRATOR.PCK
+    spriteInv: INV_TERMINATOR_T400
     corpseBattle:
       - STR_TERMINATOR_T800_CORPSE
     frontArmor: 44
@@ -1975,7 +1975,7 @@ armors: #DONE
     loftempsSet: [ 1 ]
   - type: TERMINATOR_T400_ARMOR
     spriteSheet: TERMINATOR_T400.PCK
-    spriteInv: INV_TERMINATOR_400
+    spriteInv: INV_TERMINATOR_T400
     corpseBattle:
       - STR_TERMINATOR_T400_CORPSE
     frontArmor: 80
@@ -1996,7 +1996,7 @@ armors: #DONE
     loftempsSet: [ 1 ]
   - type: TERMINATOR_T500_ARMOR
     spriteSheet: TERMINATOR_T500.PCK
-    spriteInv: INV_TERMINATOR_400
+    spriteInv: INV_TERMINATOR_T400
     corpseBattle:
       - STR_TERMINATOR_T600_CORPSE
     frontArmor: 44
@@ -2017,7 +2017,7 @@ armors: #DONE
     loftempsSet: [ 1 ]
   - type: TERMINATOR_T600_ARMOR
     spriteSheet: TERMINATOR_T600.PCK
-    spriteInv: INV_TERMINATOR_400
+    spriteInv: INV_TERMINATOR_T400
     corpseBattle:
       - STR_TERMINATOR_T600_CORPSE
     frontArmor: 44
@@ -2038,7 +2038,7 @@ armors: #DONE
     loftempsSet: [ 1 ]
   - type: TERMINATOR_T700_ARMOR
     spriteSheet: TERMINATOR_T700.PCK
-    spriteInv: INV_TERMINATOR_400
+    spriteInv: INV_TERMINATOR_T400
     corpseBattle:
       - STR_TERMINATOR_T700_CORPSE
     frontArmor: 60
@@ -2059,7 +2059,7 @@ armors: #DONE
     loftempsSet: [ 1 ]
   - type: TERMINATOR_T800_ARMOR
     spriteSheet: TERMINATOR_T800.PCK
-    spriteInv: INV_TERMINATOR_400
+    spriteInv: INV_TERMINATOR_T400
     corpseBattle:
       - STR_TERMINATOR_T800_CORPSE
     frontArmor: 80
@@ -2080,7 +2080,7 @@ armors: #DONE
     loftempsSet: [ 1 ]
   - type: TERMINATOR_T1000_ARMOR
     spriteSheet: TERMINATOR_T1000.PCK
-    spriteInv: INV_TERMINATOR_400
+    spriteInv: INV_TERMINATOR_T400
     corpseBattle:
       - STR_TERMINATOR_T1000_CORPSE
     frontArmor: 60

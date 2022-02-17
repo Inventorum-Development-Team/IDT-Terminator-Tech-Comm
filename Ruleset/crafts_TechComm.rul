@@ -518,28 +518,6 @@ crafts: #DONE
     transferTime: 72
     score: 400
     listOrder: 123
-  - type: STR_HAWKEYE
-    sprite: 24
-    marker: 13
-    fuelMax: 150
-    damageMax: 130
-    speedMax: 350
-    accel: 5
-    weapons: 0
-    soldiers: 4
-    vehicles: 0
-    pilots: 4
-    allowLanding: false
-    costSell: 650000
-    refuelRate: 20
-    notifyWhenRefueled: true
-    sightRange: 0
-    radarRange: 268
-    radarChance: 20
-    autoPatrol: true
-    transferTime: 72
-    score: 400
-    listOrder: 125
 #PURCHASE
   - type: STR_SHERPA
     sprite: 70
