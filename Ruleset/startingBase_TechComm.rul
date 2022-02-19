@@ -94,8 +94,8 @@ startingBase:
       damage: 0
       status: STR_READY
       weapons:
-        - type: STR_PHOENIX
-          ammo: 2
+        - type: STR_FUEL_PODS
+        - type: STR_TECH_PODS
         - type: STR_PHOENIX
           ammo: 2
         - type: STR_PHOENIX
@@ -103,21 +103,27 @@ startingBase:
     - type: STR_BLACKBIRD
       id: 1
       fuel: 2000
-      damage: 0
-      status: STR_READY
-    - type: STR_SENIOR_CITIZEN
-      id: 1
-      fuel: 1500
+      weapons:
+        - type: STR_FUEL_PODS
+        - type: STR_COMM_PODS
       damage: 0
       status: STR_READY
     - type: STR_OSPREY
+      id: 1
+      fuel: 1500
+      weapons:
+        - type: STR_FUEL_PODS
+        - type: STR_ECM_PODS
+      damage: 0
+      status: STR_READY
+    - type: STR_SENIOR_CITIZEN
       id: 1
       fuel: 144
       damage: 0
       status: STR_READY
       weapons:
-        - type: STR_GAU_4
-          ammo: 150
+        - type: STR_FUEL_PODS
+        - type: STR_ECM_PODS
       items:
         STR_PUMP_SHOTGUN: 2
         STR_SEMI_AUTO_SHOTGUN: 2
@@ -161,6 +167,8 @@ startingBase:
   items:
     STR_FUEL_PODS: 4
     STR_ECM_PODS: 2
+    STR_COMM_PODS: 1
+    STR_TECH_PODS: 1
     STR_SIDEWINDER_LAUNCHER: 1
     STR_SIDEWINDER_MISSILES: 10
     STR_SPARROW_LAUNCHER: 1

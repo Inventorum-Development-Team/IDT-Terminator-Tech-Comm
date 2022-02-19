@@ -144,40 +144,45 @@ research:
 ##DEAD HAND - NUCLEAR MISSILE BASE
 ##ULTRA - TEMPUS, GIVES QUANTUM FIELD?
 ##TROJAN HORSE - GIVES NANOTECH
-##SKYNET - CORE
+##RESISTANCE ORDERS - GIVEN AT COUNCIL REPORT AFTER AIs RESEARCHED
   - name: STR_RESISTANCE_ORDER_1
     cost: 5
     points: 10
     dependencies:
-      - STR_AI_SPIDER_WEB
+      - STR_AI_SKYNET
   - name: STR_RESISTANCE_ORDER_2
     cost: 5
     points: 10
     dependencies:
-      - STR_AI_SPIDER_WEB
+      - STR_AI_SKYNET
   - name: STR_RESISTANCE_ORDER_3
     cost: 5
     points: 10
     dependencies:
-      - STR_AI_SPIDER_WEB
+      - STR_AI_SKYNET
   - name: STR_RESISTANCE_ORDER_4
     cost: 5
     points: 10
     dependencies:
-      - STR_RESISTANCE_ORDER_3
+      - STR_AI_SKYNET
   - name: STR_RESISTANCE_ORDER_5
     cost: 5
     points: 10
     dependencies:
-      - STR_AI_GREAT_WALL
+      - STR_AI_SKYNET
   - name: STR_RESISTANCE_ORDER_6
     cost: 5
     points: 10
     dependencies:
-      - STR_SKYNET_PROTOCOLS
+      - STR_AI_SKYNET
 #TECH
-#TIER 0 - STARTING
-  - name: STR_TECH_SYSTEMS
+#TIER 0S - STARTING
+  - name: STR_SECTOR_COMMS #UNLOCKS SECTOR COMMS
+    cost: 5
+    points: 10
+    getOneFree:
+      - STR_AI_MAGIC_CARPET
+  - name: STR_TECH_SYSTEMS #UNLOCKS CRAFT & WEAPONS
     cost: 50
     points: 10
   - name: STR_HARDENED_FACILITIES
@@ -190,41 +195,73 @@ research:
     points: 10
     dependencies:
       - STR_AI_SKYNET
-  - name: STR_RESISTANCE_CRAFT
+  - name: STR_RESISTANCE_CRAFT #UNLOCKS CRAFT MANUFACTURE
     cost: 50
     points: 10
     dependencies:
       - STR_SECTOR_COMMS
-##TIER 1.A - TERMINATOR RECOVERY
-  - name: STR_HYPER_ALLOYS
+  - name: STR_ADVANCED_FACILITIES
     cost: 50
     points: 10
     dependencies:
-      - STR_TERMINATOR_T200_CORPSE
-      - STR_TERMINATOR_T300_CORPSE
-      - STR_TERMINATOR_T400_CORPSE
-      - STR_TERMINATOR_T500_CORPSE
-      - STR_TERMINATOR_T600_CORPSE
-      - STR_TERMINATOR_T700_CORPSE
-      - STR_TERMINATOR_T800_CORPSE
-      - STR_TERMINATOR_T1000_CORPSE
-      - STR_TERMINATOR_SENTRY_CORPSE
-      - STR_TERMINATOR_CYBERMITE_CORPSE
-      - STR_TERMINATOR_SEEKER_CORPSE
-      - STR_TERMINATOR_DRONE_CORPSE
-      - STR_TERMINATOR_CERBERUS_CORPSE
-  - name: STR_PLASMA_CELL
+      - STR_AI_GREAT_WALL
+      - STR_HARDENED_FACILITIES
+  - name: STR_SKYNET_PROTOCOLS
+    cost: 50
+    points: 10
+    dependencies:
+      - STR_SECTOR_COMMS
+  - name: STR_SYNTHETIC_FUELS
+    cost: 50
+    points: 10
+    dependencies:
+      - STR_TECH_SYSTEMS
+  - name: STR_STORY_COMMS01
+    cost: 5
+    points: 10
+    dependencies:
+      - STR_AI_SKYNET
+  - name: STR_STORY_COMMS02
+    cost: 5
+    points: 10
+    dependencies:
+      - STR_AI_SKYNET
+  - name: STR_STORY_COMMS03
+    cost: 5
+    points: 10
+    dependencies:
+      - STR_AI_SKYNET
+  - name: STR_STORY_COMMS04
+    cost: 5
+    points: 10
+    dependencies:
+      - STR_AI_SKYNET
+  - name: STR_STORY_COMMS05
+    cost: 5
+    points: 10
+    dependencies:
+      - STR_AI_SKYNET
+  - name: STR_STORY_COMMS06
+    cost: 5
+    points: 10
+    dependencies:
+      - STR_AI_SKYNET
+  - name: STR_STORY_COMMS07
+    cost: 5
+    points: 10
+    dependencies:
+      - STR_AI_SKYNET
+##TIER 1Y - AI
+  - name: STR_AI_MAGIC_CARPET #SKYNET COUNTERATTACK
+    cost: 50
+    points: 10
+    dependencies:
+      - STR_AI_SKYNET
+  - name: STR_AI_HK #HK RECOVERY
     cost: 50
     points: 10
     needItem: true
-    dependencies:
-      - STR_TERMINATOR_T600_CORPSE
-      - STR_TERMINATOR_T700_CORPSE
-      - STR_TERMINATOR_T800_CORPSE
-      - STR_TERMINATOR_T1000_CORPSE
-      - STR_TERMINATOR_SENTRY_CORPSE
-      - STR_TERMINATOR_CERBERUS_CORPSE
-  - name: STR_AI_TERMINATOR
+  - name: STR_AI_TERMINATOR #TERMINATOR RECOVERY
     cost: 50
     points: 10
     needItem: true
@@ -242,53 +279,122 @@ research:
       - STR_TERMINATOR_SEEKER
       - STR_TERMINATOR_DRONE
       - STR_TERMINATOR_CERBERUS
-  - name: STR_BALLISTICS
+  - name: STR_AI_SPIDER_WEB #HK BASE ASSAULT
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_AI_GREAT_WALL #FACTORY ASSAULT
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_AI_ULTRA #REQUIRES LIGHTHOUSE
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_AI_TROJAN_HORSE
+    cost: 50
+    points: 10
+    needItem: true
+    dependencies:
+      - STR_SECTOR_COMMS
+  - name: STR_AI_SCARE_CROW #WORKING CAMP ASSAULT
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_AI_LIGHTHOUSE #LAB ASSAULT
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_AI_DEAD_HAND #MISSILE BASE ASSAULT
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_AI_SKYNET #MASTER AI
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_AI_CHAIN_HOME #HK RECOVERY
+    cost: 50
+    points: 10
+    needItem: true
+##TIER 2.B - BASE RECOVERY
+  - name: STR_COMM_ARRAY
+    cost: 50
+    points: 10
+    dependencies:
+      - STR_AI_CHAIN_HOME
+##TIER 2.T - TERMINATOR RESEARCH
+  - name: STR_HYPER_ALLOYS #TERMINATOR/HK RECOVERY
+    cost: 50
+    points: 10
+    dependencies:
+      - STR_TERMINATOR_T200_CORPSE
+      - STR_TERMINATOR_T300_CORPSE
+      - STR_TERMINATOR_T400_CORPSE
+      - STR_TERMINATOR_T500_CORPSE
+      - STR_TERMINATOR_T600_CORPSE
+      - STR_TERMINATOR_T700_CORPSE
+      - STR_TERMINATOR_T800_CORPSE
+      - STR_TERMINATOR_T1000_CORPSE
+      - STR_TERMINATOR_SENTRY_CORPSE
+      - STR_TERMINATOR_CYBERMITE_CORPSE
+      - STR_TERMINATOR_SEEKER_CORPSE
+      - STR_TERMINATOR_DRONE_CORPSE
+      - STR_TERMINATOR_CERBERUS_CORPSE
+  - name: STR_PLASMA_CELL #TERMINATOR/HK RECOVERY
+    cost: 50
+    points: 10
+    needItem: true
+    dependencies:
+      - STR_TERMINATOR_T600_CORPSE
+      - STR_TERMINATOR_T700_CORPSE
+      - STR_TERMINATOR_T800_CORPSE
+      - STR_TERMINATOR_T1000_CORPSE
+      - STR_TERMINATOR_SENTRY_CORPSE
+      - STR_TERMINATOR_CERBERUS_CORPSE
+  - name: STR_BALLISTICS #HYPER ALLOY RESEARCH
     cost: 50
     points: 10
     dependencies:
       - STR_HYPER_ALLOYS
       - STR_PLASMA_CELL
-  - name: STR_EMP_FIELD
+  - name: STR_EMP_FIELD #T-600  + RECOVERY
     cost: 50
     points: 10
     dependencies:
       - STR_HYPER_ALLOYS
-  - name: STR_EMP_ROUNDS
+  - name: STR_EMP_ROUNDS #EMP FIELD
     cost: 50
     points: 10
     needItem: true
     dependencies:
       - STR_EMP_FIELD
-  - name: STR_EMP_DISCHARGER
+  - name: STR_EMP_DISCHARGER #EMP ROUNDS
     cost: 50
     points: 10
     needItem: true
     dependencies:
       - STR_EMP_FIELD
-  - name: STR_EMP_DETECTOR
+  - name: STR_EMP_DETECTOR #EMP FIELD
     cost: 50
     points: 10
     needItem: true
     dependencies:
       - STR_EMP_FIELD
-  - name: STR_TECH_CENTER
+  - name: STR_TECH_CENTER #TERMINATOR CORPSE
     cost: 50
     points: 10
     needItem: true
     dependencies:
       - STR_EMP_FIELD
       - STR_HARDENED_FACILITIES
-##TIER 1.B - HK RECOVERY
-  - name: STR_AI_HK
-    cost: 50
-    points: 10
-    needItem: true
-  - name: STR_DEFENSE_CENTER
+##TIER 3.K - HK RECOVERY
+  - name: STR_DEFENSE_CENTER #HYPERWAVE
     cost: 50
     points: 10
     dependencies:
       - STR_AI_HK
-  - name: STR_HOVERCRAFT
+  - name: STR_HOVERCRAFT #ADVANCED VTOL CRAFT
     cost: 50
     points: 10
     dependencies:
@@ -296,16 +402,11 @@ research:
       - STR_PLASMA_CELL
       - STR_AI_HK
       - STR_HYPER_ALLOYS
-  - name: STR_FUSION_ENGINE
+  - name: STR_FUSION_ENGINE #REQUIRED FOR POWER CENTER
     cost: 50
     points: 10
     needItem: true
-  - name: STR_SYNTHETIC_FUEL
-    cost: 50
-    points: 10
-    dependencies:
-      - STR_SECTOR_COMMS
-##TIER 1.C - WEAPON RECOVERY
+##TIER 3.N - WEAPON RECOVERY/SECTOR COMMS
   - name: STR_RIFLE_AR15
     cost: 50
     points: 10
@@ -330,7 +431,7 @@ research:
     cost: 50
     points: 10
     needItem: true
-##TIER 1.D - TERMINATOR RECOVERY
+##TIER 3.T - TERMINATOR RECOVERY/SECTOR COMMS 
   - name: STR_TERMINATOR_T200
     cost: 192
     points: 50
@@ -417,6 +518,7 @@ research:
     unlocks:
       - STR_HYPER_ALLOYS
       - STR_EMP_FIELD
+##TIER 2.T - TERMINATOR RECOVERY
   - name: STR_TERMINATOR_T700
     cost: 192
     points: 50
@@ -549,6 +651,7 @@ research:
   - name: STR_TERMINATOR_SENTRY_AUTOPSY
     points: 50
     needItem: true
+##TIER 3.K - HK RECOVERY/SECTOR COMMS
   - name: STR_TACTICAL_MISSILE
     points: 50
     needItem: true
@@ -594,40 +697,7 @@ research:
   - name: STR_HK_CONVOY
     points: 50
     needItem: true
-##TIER 2.A - HK BASE/WORKCAMP/FACTORY
-  - name: STR_AI_CHAIN_HOME
-    cost: 50
-    points: 10
-    needItem: true
-  - name: STR_COMM_ARRAY
-    cost: 50
-    points: 10
-    dependencies:
-      - STR_AI_CHAIN_HOME
-  - name: STR_AI_SPIDER_WEB
-    cost: 50
-    points: 10
-    needItem: true
-  - name: STR_AI_GREAT_WALL
-    cost: 50
-    points: 10
-    needItem: true
-  - name: STR_ADVANCED_FACILITIES
-    cost: 50
-    points: 10
-    dependencies:
-      - STR_AI_GREAT_WALL
-      - STR_HARDENED_FACILITIES
-  - name: STR_SKYNET_PROTOCOLS
-    cost: 50
-    points: 10
-    needItem: true
-    dependencies:
-      - STR_AI_TERMINATOR
-      - STR_AI_HK
-      - STR_AI_CHAIN_HOME
-      - STR_AI_SPIDER_WEB
-      - STR_AI_GREAT_WALL
+##TIER 2.N - FACTORY ASSAULT/RECOVERY
   - name: STR_M20A
     cost: 1000
     points: 30
@@ -700,31 +770,13 @@ research:
     needItem: true
     dependencies:
       - STR_SKYNET_PROTOCOLS
-##TIER 2.B - RECOVERY/EXTRACTION RESISTANCE MISSIONS
-  - name: STR_GAU_12_CANNON
-    cost: 50
-    points: 10
+  - name: STR_PLSGRENADE
+    cost: 1000
+    points: 30
     needItem: true
-  - name: STR_GAU_19_CANNON
-    cost: 50
-    points: 10
-    needItem: true
-  - name: STR_STINGER_LAUNCHER
-    cost: 50
-    points: 10
-    needItem: true
-  - name: STR_ASRAAM_LAUNCHER
-    cost: 50
-    points: 10
-    needItem: true
-  - name: STR_AMRAAM_LAUNCHER
-    cost: 50
-    points: 10
-    needItem: true
-  - name: STR_HARM_LAUNCHER
-    cost: 50
-    points: 10
-    needItem: true
+    dependencies:
+      - STR_PLASMA_CELL
+##TIER 2.S - FACTORY ASSAULT/RECOVERY/EXTRACTION RESISTANCE MISSIONS
   - name: STR_M25A1
     cost: 1000
     points: 30
@@ -751,12 +803,7 @@ research:
     needItem: true
     dependencies:
       - STR_M30A1
-  - name: STR_PLSGRENADE
-    cost: 1000
-    points: 30
-    needItem: true
-    dependencies:
-      - STR_PLASMA_CELL
+##TIER 2.E  - SPECIAL FACILITIES/PROJECTS
   - name: STR_QUANTUM_FIELD
     cost: 50
     points: 10
@@ -834,21 +881,6 @@ research:
     cost: 50
     points: 10
     needItem: true
-##TIER 2.C  - SPECIAL FACILITIES/PROJECTS
-  - name: STR_AI_ULTRA
-    cost: 50
-    points: 10
-    needItem: true
-  - name: STR_AI_TROJAN_HORSE
-    cost: 50
-    points: 10
-    needItem: true
-    dependencies:
-      - STR_SECTOR_COMMS
-  - name: STR_AI_SCARE_CROW
-    cost: 50
-    points: 10
-    needItem: true
   - name: STR_T1000_INFILTRATOR
     cost: 50
     points: 10
@@ -859,11 +891,6 @@ research:
     points: 10
     dependencies:
       - STR_AI_SCARE_CROW
-  - name: STR_AI_MAGIC_CARPET
-    cost: 50
-    points: 10
-    dependencies:
-      - STR_AI_SKYNET
   - name: STR_MATTER_DISPLACEMENT
     cost: 50
     points: 10
@@ -874,19 +901,7 @@ research:
     points: 10
     dependencies:
       - STR_AI_MAGIC_CARPET
-  - name: STR_AI_LIGHTHOUSE
-    cost: 50
-    points: 10
-    needItem: true
-  - name: STR_AI_DEAD_HAND
-    cost: 50
-    points: 10
-    needItem: true
-  - name: STR_AI_SKYNET
-    cost: 50
-    points: 10
-    needItem: true
-#CRAFT - BLUEPRINTS RECOVERED FROM TECH-COMM SECTOR MISSIONS
+#TIER 0.M - BLUEPRINTS RECOVERED FROM TECH-COMM SECTOR MISSIONS
   - name: STR_VALKYRIE_BLUEPRINT
     cost: 50
     points: 10
@@ -971,13 +986,33 @@ research:
     cost: 50
     points: 10
     needItem: true
+#TIER 0.M - BLUEPRINTS RECOVERED FROM COMM SECTOR MISSIONS
+  - name: STR_GAU_12_CANNON
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_GAU_19_CANNON
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_STINGER_LAUNCHER
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_ASRAAM_LAUNCHER
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_AMRAAM_LAUNCHER
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_HARM_LAUNCHER
+    cost: 50
+    points: 10
+    needItem: true
 #RESISTANCE SECTOR COMMS
 ##SECTOR COMMS UNLOCKS MAP WITH SKYNET POSITIONS AND ACTIVATE TECH-COMM MISSIONS IN THE SECTOR
-  - name: STR_SECTOR_COMMS
-    cost: 5
-    points: 10
-    getOneFree:
-      - STR_AI_MAGIC_CARPET
   - name: STR_SECTOR_00_COMM
     cost: 5
     points: 10

@@ -2,7 +2,7 @@ startingTime:
   second: 0
   minute: 0
   hour: 0
-  weekday: 4
+  weekday: 5
   day: 1
   month: 7
   year: 2027
@@ -14,7 +14,9 @@ defeatFunds: -1000000
 crewEmergencyEvacuationSurvivalChance: 75
 pilotsEmergencyEvacuationSurvivalChance: 75
 chanceToStopRetaliation: 50
+lessAliensDuringBaseDefense: true
 allowCountriesToCancelAlienPact: true
+buildInfiltrationBaseCloseToTheCountry: true
 pediaReplaceCraftFuelWithRangeType: 2
 destroyedFacility: STR_RUBBLE
 ai:

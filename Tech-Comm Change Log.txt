@@ -1,5 +1,7 @@
 Tech-Comm Change Log
 V0.4.6
+* Added: Added Sector missions, Destroy, Recovery, Defense and Extraction
+* Added: Synthetic Fuels, unlock Fuel Pods which no give 500 units 
 * Added: Archangel, Aurora and Valkyrie crafts
 * Replaced: Dynavert craft with Senior Citizen (Dragonfly from War Of The Shadows mod)
 * Removed: Super Osprey craft

@@ -518,7 +518,6 @@ ufos:
           width: 10
           length: 10
 #Ships
-
   - type: STR_CARGOSHIPPORT
     size: STR_SMALL
     sprite: 1
@@ -544,6 +543,33 @@ ufos:
         - name: CARGOSHIPPORT
           width: 30
           length: 70
+  - type: STR_CARGOSHIPPORTEXTRACTION
+    size: STR_SMALL
+    sprite: 1
+    damageMax: 1
+    speedMax: 2400
+    accel: 9
+    power: 20
+    range: 15
+    score: 75
+    reload: 56
+    breakOffTime: 250
+    battlescapeTerrainData:
+      name: CARGOSHIPPORTEXTRACTION
+      mapDataSets:
+        - BLANKS
+        - SEAURBAN
+        - CARGOSHIP1
+        - CARGOSHIP2
+        - CARGOSHIP3
+        - CARGOSHIP4
+        - SEABITS
+        - U_PODS
+      mapBlocks:
+        - name: CARGOSHIPPORTEXTRACTION
+          width: 30
+          length: 70
+          revealedFloors: [0, 1, 2, 3]
   - type: STR_LINERSHIPPORT
     size: STR_SMALL
     sprite: 1
@@ -569,3 +595,29 @@ ufos:
         - name: LINERSHIPPORT
           width: 30
           length: 70
+  - type: STR_LINERSHIPPORTEXTRACTION
+    size: STR_SMALL
+    sprite: 1
+    damageMax: 1
+    speedMax: 2400
+    accel: 9
+    power: 20
+    range: 15
+    score: 75
+    reload: 56
+    breakOffTime: 250
+    battlescapeTerrainData:
+      name: LINERSHIPPORTEXTRACTION
+      mapDataSets:
+        - BLANKS
+        - DECKSHIPC
+        - LINERSHIPA
+        - LINERSHIPB
+        - LINERSHIPC
+        - LINERSHIPD
+        - SEABITS
+      mapBlocks:
+        - name: LINERSHIPPORTEXTRACTION
+          width: 30
+          length: 70
+          revealedFloors: [0, 1, 2, 3]

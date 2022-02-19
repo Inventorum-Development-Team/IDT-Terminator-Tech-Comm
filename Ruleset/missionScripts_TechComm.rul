@@ -12,7 +12,7 @@ missionScripts: #DONE
   - type: gameAIChainHome
     missionWeights:
       0:
-        STR_SKYNET_PATROL_START: 10
+        STR_SKYNET_PATROL_START: 100
     raceWeights:
       0:
         STR_T600: 100
@@ -29,7 +29,7 @@ missionScripts: #DONE
   - type: gameAISkynet
     missionWeights:
       0:
-        STR_SKYNET_BASE_CORE: 10
+        STR_SKYNET_BASE_CORE: 100
     regionWeights:
       0:
         STR_NORTH_AMERICA: 20
@@ -49,12 +49,12 @@ missionScripts: #DONE
   - type: gameAIDeadHand
     missionWeights:
       0:
-        STR_SKYNET_BASE_MISSILE: 10
+        STR_SKYNET_BASE_MISSILE: 100
     regionWeights:
       0:
         STR_ASIA: 16
         STR_AFRICA: 12
-        STR_EUROPE: 16 
+        STR_EUROPE: 16
         STR_NORTH_AMERICA: 14
         STR_SOUTH_AMERICA: 12
         STR_OCEANIA: 10
@@ -72,11 +72,11 @@ missionScripts: #DONE
   - type: gameAISpiderWebAS
     missionWeights:
       0:
-        STR_SKYNET_BASE_HKBASE: 10
+        STR_SKYNET_BASE_HKBASE: 100
     maxRuns: 1
     regionWeights:
       0:
-        STR_ASIA: 10
+        STR_ASIA: 100
     raceWeights:
       0:
         STR_T600: 100
@@ -85,12 +85,12 @@ missionScripts: #DONE
   - type: gameAISpiderWebAF
     missionWeights:
       0:
-        STR_SKYNET_BASE_HKBASE: 10
-        STR_SKYNET_BASE_OUTPOST: 10
+        STR_SKYNET_BASE_HKBASE: 100
+        STR_SKYNET_BASE_OUTPOST: 100
     maxRuns: 1
     regionWeights:
       0:
-        STR_AFRICA: 10
+        STR_AFRICA: 100
     raceWeights:
       0:
         STR_T600: 100
@@ -99,12 +99,12 @@ missionScripts: #DONE
   - type: gameAISpiderWebNA
     missionWeights:
       0:
-        STR_SKYNET_BASE_HKBASE: 10
-        STR_SKYNET_BASE_OUTPOST: 10
+        STR_SKYNET_BASE_HKBASE: 100
+        STR_SKYNET_BASE_OUTPOST: 100
     maxRuns: 1
     regionWeights:
       0:
-        STR_NORTH_AMERICA: 10
+        STR_NORTH_AMERICA: 100
     raceWeights:
       0:
         STR_T600: 100
@@ -113,12 +113,12 @@ missionScripts: #DONE
   - type: gameAISpiderWebSA
     missionWeights:
       0:
-        STR_SKYNET_BASE_HKBASE: 10
-        STR_SKYNET_BASE_OUTPOST: 10
+        STR_SKYNET_BASE_HKBASE: 100
+        STR_SKYNET_BASE_OUTPOST: 100
     maxRuns: 1
     regionWeights:
       0:
-        STR_SOUTH_AMERICA: 10
+        STR_SOUTH_AMERICA: 100
     raceWeights:
       0:
         STR_T600: 100
@@ -127,8 +127,8 @@ missionScripts: #DONE
   - type: gameAISpiderWebEU
     missionWeights:
       0:
-        STR_SKYNET_BASE_HKBASE: 10
-        STR_SKYNET_BASE_OUTPOST: 10
+        STR_SKYNET_BASE_HKBASE: 100
+        STR_SKYNET_BASE_OUTPOST: 100
     maxRuns: 1
     regionWeights:
       0:
@@ -141,12 +141,12 @@ missionScripts: #DONE
   - type: gameAISpiderWebOC
     missionWeights:
       0:
-        STR_SKYNET_BASE_HKBASE: 10
-        STR_SKYNET_BASE_OUTPOST: 10
+        STR_SKYNET_BASE_HKBASE: 100
+        STR_SKYNET_BASE_OUTPOST: 100
     maxRuns: 1
     regionWeights:
       0:
-        STR_OCEANIA: 10
+        STR_OCEANIA: 100
     raceWeights:
       0:
         STR_T600: 100
@@ -155,11 +155,11 @@ missionScripts: #DONE
   - type: gameAISpiderWebAR
     missionWeights:
       0:
-        STR_SKYNET_BASE_HKBASE: 10
+        STR_SKYNET_BASE_HKBASE: 100
     maxRuns: 1
     regionWeights:
       0:
-        STR_ARCTIC: 10
+        STR_ARCTIC: 100
     raceWeights:
       0:
         STR_T600: 100
@@ -168,11 +168,11 @@ missionScripts: #DONE
   - type: gameAISpiderWebAN
     missionWeights:
       0:
-        STR_SKYNET_BASE_HKBASE: 10
+        STR_SKYNET_BASE_HKBASE: 100
     maxRuns: 1
     regionWeights:
       0:
-        STR_ANTARCTIC: 10
+        STR_ANTARCTIC: 100
     raceWeights:
       0:
         STR_T600: 100
@@ -181,7 +181,7 @@ missionScripts: #DONE
   - type: gameAIGreatWall
     missionWeights:
       0:
-        STR_SKYNET_BASE_FACTORY: 10
+        STR_SKYNET_BASE_FACTORY: 100
     firstMonth: 1
     startDelay: 0
     useTable: true
@@ -189,7 +189,7 @@ missionScripts: #DONE
   - type: gameAILighthouse
     missionWeights:
       0:
-        STR_SKYNET_BASE_LAB: 10
+        STR_SKYNET_BASE_LAB: 100
     regionWeights:
       0:
         STR_NORTH_AMERICA: 20
@@ -208,10 +208,13 @@ missionScripts: #DONE
   - type: researchSector00
     missionWeights:
       0:
-        STR_ABANDONED_BASE: 100        
+        STR_COMMS_DEFENSE: 100
+        STR_COMMS_DESTROY: 100
+        STR_COMMS_EXTRACTION: 100
+        STR_COMMS_RECOVERY: 100
     regionWeights:
       0:
-        STR_ARCTIC: 10
+        STR_ARCTIC: 100
     researchTriggers:
       STR_SECTOR_00_COMM: true
     maxRuns: 1
@@ -220,10 +223,13 @@ missionScripts: #DONE
   - type: researchSector01
     missionWeights:
       0:
-        STR_ABANDONED_BASE: 100
+        STR_COMMS_DEFENSE: 100
+        STR_COMMS_DESTROY: 100
+        STR_COMMS_EXTRACTION: 100
+        STR_COMMS_RECOVERY: 100
     regionWeights:
       0:
-        STR_ARCTIC: 10
+        STR_ARCTIC: 100
     researchTriggers:
       STR_SECTOR_01_COMM: true
     maxRuns: 1
@@ -232,7 +238,10 @@ missionScripts: #DONE
   - type: researchSector02
     missionWeights:
       0:
-        STR_ABANDONED_BASE: 100
+        STR_COMMS_DEFENSE: 100
+        STR_COMMS_DESTROY: 100
+        STR_COMMS_EXTRACTION: 100
+        STR_COMMS_RECOVERY: 100
     regionWeights:
       0:
         STR_NORTH_AMERICA: 100
@@ -244,7 +253,10 @@ missionScripts: #DONE
   - type: researchSector03
     missionWeights:
       0:
-        STR_ABANDONED_BASE: 100
+        STR_COMMS_DEFENSE: 100
+        STR_COMMS_DESTROY: 100
+        STR_COMMS_EXTRACTION: 100
+        STR_COMMS_RECOVERY: 100
     regionWeights:
       0:
         STR_NORTH_AMERICA: 100
@@ -256,7 +268,10 @@ missionScripts: #DONE
   - type: researchSector04
     missionWeights:
       0:
-        STR_ABANDONED_BASE: 100
+        STR_COMMS_DEFENSE: 100
+        STR_COMMS_DESTROY: 100
+        STR_COMMS_EXTRACTION: 100
+        STR_COMMS_RECOVERY: 100
     regionWeights:
       0:
         STR_SOUTH_AMERICA: 100
@@ -268,7 +283,10 @@ missionScripts: #DONE
   - type: researchSector05
     missionWeights:
       0:
-        STR_ABANDONED_BASE: 100
+        STR_COMMS_DEFENSE: 100
+        STR_COMMS_DESTROY: 100
+        STR_COMMS_EXTRACTION: 100
+        STR_COMMS_RECOVERY: 100
     regionWeights:
       0:
         STR_SOUTH_AMERICA: 100
@@ -280,7 +298,10 @@ missionScripts: #DONE
   - type: researchSector06
     missionWeights:
       0:
-        STR_ABANDONED_BASE: 100
+        STR_COMMS_DEFENSE: 100
+        STR_COMMS_DESTROY: 100
+        STR_COMMS_EXTRACTION: 100
+        STR_COMMS_RECOVERY: 100
     regionWeights:
       0:
         STR_EUROPE: 100
@@ -292,7 +313,10 @@ missionScripts: #DONE
   - type: researchSector07
     missionWeights:
       0:
-        STR_ABANDONED_BASE: 100
+        STR_COMMS_DEFENSE: 100
+        STR_COMMS_DESTROY: 100
+        STR_COMMS_EXTRACTION: 100
+        STR_COMMS_RECOVERY: 100
     regionWeights:
       0:
         STR_EUROPE: 100
@@ -304,7 +328,10 @@ missionScripts: #DONE
   - type: researchSector08
     missionWeights:
       0:
-        STR_ABANDONED_BASE: 100
+        STR_COMMS_DEFENSE: 100
+        STR_COMMS_DESTROY: 100
+        STR_COMMS_EXTRACTION: 100
+        STR_COMMS_RECOVERY: 100
     regionWeights:
       0:
         STR_ASIA: 100
@@ -316,7 +343,10 @@ missionScripts: #DONE
   - type: researchSector09
     missionWeights:
       0:
-        STR_ABANDONED_BASE: 100
+        STR_COMMS_DEFENSE: 100
+        STR_COMMS_DESTROY: 100
+        STR_COMMS_EXTRACTION: 100
+        STR_COMMS_RECOVERY: 100
     regionWeights:
       0:
         STR_ASIA: 100
@@ -328,7 +358,10 @@ missionScripts: #DONE
   - type: researchSector10
     missionWeights:
       0:
-        STR_ABANDONED_BASE: 100
+        STR_COMMS_DEFENSE: 100
+        STR_COMMS_DESTROY: 100
+        STR_COMMS_EXTRACTION: 100
+        STR_COMMS_RECOVERY: 100
     regionWeights:
       0:
         STR_AFRICA: 100
@@ -340,7 +373,10 @@ missionScripts: #DONE
   - type: researchSector11
     missionWeights:
       0:
-        STR_ABANDONED_BASE: 100
+        STR_COMMS_DEFENSE: 100
+        STR_COMMS_DESTROY: 100
+        STR_COMMS_EXTRACTION: 100
+        STR_COMMS_RECOVERY: 100
     regionWeights:
       0:
         STR_AFRICA: 100
@@ -352,7 +388,10 @@ missionScripts: #DONE
   - type: researchSector12
     missionWeights:
       0:
-        STR_ABANDONED_BASE: 100
+        STR_COMMS_DEFENSE: 100
+        STR_COMMS_DESTROY: 100
+        STR_COMMS_EXTRACTION: 100
+        STR_COMMS_RECOVERY: 100
     regionWeights:
       0:
         STR_AFRICA: 100
@@ -364,7 +403,10 @@ missionScripts: #DONE
   - type: researchSector13
     missionWeights:
       0:
-        STR_ABANDONED_BASE: 100
+        STR_COMMS_DEFENSE: 100
+        STR_COMMS_DESTROY: 100
+        STR_COMMS_EXTRACTION: 100
+        STR_COMMS_RECOVERY: 100
     regionWeights:
       0:
         STR_ASIA: 100
@@ -376,7 +418,10 @@ missionScripts: #DONE
   - type: researchSector14
     missionWeights:
       0:
-        STR_ABANDONED_BASE: 100
+        STR_COMMS_DEFENSE: 100
+        STR_COMMS_DESTROY: 100
+        STR_COMMS_EXTRACTION: 100
+        STR_COMMS_RECOVERY: 100
     regionWeights:
       0:
         STR_ASIA: 100
@@ -388,7 +433,10 @@ missionScripts: #DONE
   - type: researchSector15
     missionWeights:
       0:
-        STR_ABANDONED_BASE: 100
+        STR_COMMS_DEFENSE: 100
+        STR_COMMS_DESTROY: 100
+        STR_COMMS_EXTRACTION: 100
+        STR_COMMS_RECOVERY: 100
     regionWeights:
       0:
         STR_ASIA: 100
@@ -400,7 +448,10 @@ missionScripts: #DONE
   - type: researchSector16
     missionWeights:
       0:
-        STR_ABANDONED_BASE: 100
+        STR_COMMS_DEFENSE: 100
+        STR_COMMS_DESTROY: 100
+        STR_COMMS_EXTRACTION: 100
+        STR_COMMS_RECOVERY: 100
     regionWeights:
       0:
         STR_ASIA: 100
@@ -412,7 +463,10 @@ missionScripts: #DONE
   - type: researchSector17
     missionWeights:
       0:
-        STR_ABANDONED_BASE: 100
+        STR_COMMS_DEFENSE: 100
+        STR_COMMS_DESTROY: 100
+        STR_COMMS_EXTRACTION: 100
+        STR_COMMS_RECOVERY: 100
     regionWeights:
       0:
         STR_ASIA: 100
@@ -424,7 +478,10 @@ missionScripts: #DONE
   - type: researchSector18
     missionWeights:
       0:
-        STR_ABANDONED_BASE: 100
+        STR_COMMS_DEFENSE: 100
+        STR_COMMS_DESTROY: 100
+        STR_COMMS_EXTRACTION: 100
+        STR_COMMS_RECOVERY: 100
     regionWeights:
       0:
         STR_OCEANIA: 100
@@ -436,7 +493,10 @@ missionScripts: #DONE
   - type: researchSector19
     missionWeights:
       0:
-        STR_ABANDONED_BASE: 100
+        STR_COMMS_DEFENSE: 100
+        STR_COMMS_DESTROY: 100
+        STR_COMMS_EXTRACTION: 100
+        STR_COMMS_RECOVERY: 100
     regionWeights:
       0:
         STR_OCEANIA: 100
@@ -448,7 +508,10 @@ missionScripts: #DONE
   - type: researchSector20
     missionWeights:
       0:
-        STR_ABANDONED_BASE: 100
+        STR_COMMS_DEFENSE: 100
+        STR_COMMS_DESTROY: 100
+        STR_COMMS_EXTRACTION: 100
+        STR_COMMS_RECOVERY: 100
     regionWeights:
       0:
         STR_OCEANIA: 100
@@ -460,10 +523,13 @@ missionScripts: #DONE
   - type: researchSector21
     missionWeights:
       0:
-        STR_ABANDONED_BASE: 100
+        STR_COMMS_DEFENSE: 100
+        STR_COMMS_DESTROY: 100
+        STR_COMMS_EXTRACTION: 100
+        STR_COMMS_RECOVERY: 100
     regionWeights:
       0:
-        STR_ANTARCTIC: 10
+        STR_ANTARCTIC: 100
     researchTriggers:
       STR_SECTOR_21_COMM: true
     maxRuns: 1
@@ -472,14 +538,14 @@ missionScripts: #DONE
   - type: gameAIPacification
     missionWeights:
       0:
-        STR_SKYNET_PACIFICATION: 10
+        STR_SKYNET_PACIFICATION: 100
     targetBaseOdds: 100
     useTable: false
     varName: missionSite1
   - type: gameAIInfiltration
     missionWeights:
       0:
-        STR_SKYNET_PACIFICATION: 10
+        STR_SKYNET_PACIFICATION: 100
     targetBaseOdds: 50
     executionOdds: 66
     useTable: false
@@ -489,10 +555,108 @@ missionScripts: #DONE
     executionOdds: 50
     missionWeights:
       0:
-        STR_SKYNET_PACIFICATION: 10
+        STR_SKYNET_PACIFICATION: 100
     firstMonth: 2
     useTable: false
     varName: missionSite3
+  - type: story01
+    missionWeights:
+      0:
+        STR_COMMS_DEFENSE: 100
+        STR_COMMS_DESTROY: 100
+        STR_COMMS_EXTRACTION: 100
+        STR_COMMS_RECOVERY: 100
+    targetBaseOdds: 100
+    researchTriggers:
+      STR_SECTOR_COMMS: true
+      STR_STORY_COMMS01: false
+    maxRuns: 1
+    useTable: false
+    varName: story01
+  - type: story02
+    missionWeights:
+      0:
+        STR_COMMS_DEFENSE: 100
+        STR_COMMS_DESTROY: 100
+        STR_COMMS_EXTRACTION: 100
+        STR_COMMS_RECOVERY: 100
+    researchTriggers:
+      STR_SECTOR_COMMS: true
+      STR_STORY_COMMS01: true
+      STR_STORY_COMMS02: false
+    maxRuns: 1
+    useTable: false
+    varName: story02
+  - type: story03
+    missionWeights:
+      0:
+        STR_COMMS_DEFENSE: 100
+        STR_COMMS_DESTROY: 100
+        STR_COMMS_EXTRACTION: 100
+        STR_COMMS_RECOVERY: 100
+    researchTriggers:
+      STR_SECTOR_COMMS: true
+      STR_STORY_COMMS02: true
+      STR_STORY_COMMS03: false
+    maxRuns: 1
+    useTable: false
+    varName: story03
+  - type: story04
+    missionWeights:
+      0:
+        STR_COMMS_DEFENSE: 100
+        STR_COMMS_DESTROY: 100
+        STR_COMMS_EXTRACTION: 100
+        STR_COMMS_RECOVERY: 100
+    researchTriggers:
+      STR_SECTOR_COMMS: true
+      STR_STORY_COMMS03: true
+      STR_STORY_COMMS04: false
+    maxRuns: 1
+    useTable: false
+    varName: story04
+  - type: story05
+    missionWeights:
+      0:
+        STR_COMMS_DEFENSE: 100
+        STR_COMMS_DESTROY: 100
+        STR_COMMS_EXTRACTION: 100
+        STR_COMMS_RECOVERY: 100
+    researchTriggers:
+      STR_SECTOR_COMMS: true
+      STR_STORY_COMMS04: true
+      STR_STORY_COMMS05: false
+    maxRuns: 1
+    useTable: false
+    varName: story05
+  - type: story06
+    missionWeights:
+      0:
+        STR_COMMS_DEFENSE: 100
+        STR_COMMS_DESTROY: 100
+        STR_COMMS_EXTRACTION: 100
+        STR_COMMS_RECOVERY: 100
+    researchTriggers:
+      STR_SECTOR_COMMS: true
+      STR_STORY_COMMS05: true
+      STR_STORY_COMMS06: false
+    maxRuns: 1
+    useTable: false
+    varName: story06
+  - type: story07
+    missionWeights:
+      0:
+        STR_COMMS_DEFENSE: 100
+        STR_COMMS_DESTROY: 100
+        STR_COMMS_EXTRACTION: 100
+        STR_COMMS_RECOVERY: 100
+    researchTriggers:
+      STR_SECTOR_COMMS: true
+      STR_STORY_COMMS06: true
+      STR_STORY_COMMS07: false
+    maxRuns: 1
+    useTable: false
+    varName: story07
 #Skynet Core can be placed anywhere except on Antarctica/Arctic, including the region containing the starting Tech-Comm base
 #All regions get 1 starting HK base
 #Starting factory placed on any region

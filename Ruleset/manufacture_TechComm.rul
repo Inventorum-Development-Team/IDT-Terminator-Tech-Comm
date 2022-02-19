@@ -1,5 +1,4 @@
 manufacture:
-#<delete>
   - delete: STR_FUSION_BALL_LAUNCHER
   - delete: STR_LASER_CANNON
   - delete: STR_PLASMA_BEAM
@@ -35,7 +34,6 @@ manufacture:
   - delete: STR_FIRESTORM
   - delete: STR_LIGHTNING
   - delete: STR_AVENGER
-#<delete>
 #WEAPONS
   - name: STR_MEDI_KIT
     category: STR_EQUIPMENT
@@ -197,6 +195,38 @@ manufacture:
     requiredItems:
       STR_PLASMA_CELL: 1
 #CRAFT WEAPONS
+  - name: STR_FUEL_PODS
+    category: STR_CRAFT_WEAPON
+    requires:
+      - STR_SYNTHETIC_FUELS
+    space: 6
+    time: 400
+    cost: 20000
+    listOrder: 88
+  - name: STR_ECM_PODS
+    category: STR_CRAFT_WEAPON
+    requires:
+      - STR_TECH_SYSTEMS
+    space: 6
+    time: 400
+    cost: 30000
+    listOrder: 89
+  - name: STR_COMM_PODS
+    category: STR_CRAFT_WEAPON
+    requires:
+      - STR_SECTOR_COMMS
+    space: 6
+    time: 400
+    cost: 30000
+    listOrder: 88
+  - name: STR_TECH_PODS
+    category: STR_CRAFT_WEAPON
+    requires:
+      - STR_TECH_SYSTEMS
+    space: 6
+    time: 400
+    cost: 30000
+    listOrder: 89
   - name: STR_HYDRA_LAUNCHER
     category: STR_CRAFT_WEAPON
     requires:

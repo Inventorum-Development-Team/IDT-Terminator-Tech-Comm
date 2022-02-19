@@ -11,21 +11,24 @@ crafts: #DONE
 #TO CONSIDER: have only 1 model of each type
 #RECOVERY (ADVANCED)
   - type: STR_SENIOR_CITIZEN
+    costSell: 1500000
     sprite: 66
     marker: 13
     fuelMax: 1500
     damageMax: 210
     speedMax: 3300
     accel: 7
-    weapons: 1
+    weapons: 2
     weaponTypes:
       - 3
+      - [6, 8]
     weaponStrings:
       - STR_WEAPON_ONE
+      - STR_WEAPON_TWO
     soldiers: 14
     vehicles: 0
     pilots: 2
-    radarRange: 672
+    radarRange: 268
     refuelRate: 50
     transferTime: 96
     score: 500
@@ -56,6 +59,7 @@ crafts: #DONE
       - [7, 17, 1, 0]
     allowLanding: true
   - type: STR_ARCHANGEL
+    costSell: 2100000
     sprite: 33
     marker: 13
     fuelMax: 1500
@@ -65,9 +69,9 @@ crafts: #DONE
     weapons: 4
     weaponTypes:
       - 6
+      - [4, 5, 7]
       - [4, 5, 6, 7]
-      - [4, 5, 6, 7]
-      - [4, 5, 6, 7]
+      - [4, 5, 6, 7, 8]
     weaponStrings:
       - STR_WEAPON_ONE
       - STR_WEAPON_TWO
@@ -76,13 +80,14 @@ crafts: #DONE
     soldiers: 1
     vehicles: 0
     pilots: 1
-    radarRange: 672
+    radarRange: 268
     refuelRate: 50
     transferTime: 96
     score: 500
     listOrder: 175
     allowLanding: false
   - type: STR_VALKYRIE
+    costSell: 2400000
     sprite: 29
     marker: 13
     fuelMax: 2000
@@ -92,9 +97,9 @@ crafts: #DONE
     weapons: 4
     weaponTypes:
       - [4, 5, 7]
-      - [4, 5, 7]
-      - [4, 5, 7]
-      - [4, 5, 7]
+      - [4, 5, 7, 8]
+      - [4, 5, 7, 8]
+      - [4, 5, 7, 8]
     weaponStrings:
       - STR_WEAPON_ONE
       - STR_WEAPON_TWO
@@ -103,13 +108,14 @@ crafts: #DONE
     soldiers: 8
     vehicles: 0
     pilots: 3
-    radarRange: 672
+    radarRange: 268
     refuelRate: 50
     transferTime: 96
     score: 500
     listOrder: 175
     allowLanding: false
   - type: STR_AURORA
+    costSell: 2800000
     sprite: 29
     marker: 13
     fuelMax: 2500
@@ -130,8 +136,8 @@ crafts: #DONE
     soldiers: 8
     vehicles: 0
     pilots: 3
-    radarRange: 672
-    sightRange: 848
+    radarRange: 268
+    sightRange: 402
     refuelRate: 50
     transferTime: 96
     score: 500
@@ -162,23 +168,31 @@ crafts: #DONE
       - [10, 3, 1, 4]
     allowLanding: true
   - type: STR_BLACKBIRD
+    costSell: 1800000
     sprite: 33
     marker: 13
     fuelMax: 2000
     damageMax: 210
     speedMax: 3300
     accel: 8
-    weapons: 0
+    weapons: 2
+    weaponTypes:
+      - [6, 8]
+      - [6, 8]
+    weaponStrings:
+      - STR_WEAPON_ONE
+      - STR_WEAPON_TWO
     soldiers: 2
     vehicles: 0
     pilots: 2
-    radarRange: 672
-    sightRange: 8480
+    radarRange: 268
+    sightRange: 402
     refuelRate: 50
     transferTime: 96
     score: 500
     listOrder: 175
     allowLanding: false
+#RECOVERY (START)
   - type: STR_HAWKEYE
     sprite: 24
     marker: 13
@@ -186,7 +200,13 @@ crafts: #DONE
     damageMax: 130
     speedMax: 350
     accel: 5
-    weapons: 0
+    weapons: 2
+    weaponTypes:
+      - [6, 8]
+      - 8
+    weaponStrings:
+      - STR_WEAPON_ONE
+      - STR_WEAPON_TWO
     soldiers: 4
     vehicles: 0
     pilots: 4
@@ -208,11 +228,14 @@ crafts: #DONE
     damageMax: 120
     speedMax: 429
     accel: 8
-    weapons: 1
+    weapons: 2
     weaponTypes:
       - [4, 5, 6]
+      - [4, 5, 6, 8]
+      - 8
     weaponStrings:
       - STR_WEAPON_ONE
+      - STR_WEAPON_TWO
     soldiers: 4
     vehicles: 0
     pilots: 4
@@ -226,7 +249,6 @@ crafts: #DONE
     transferTime: 72
     score: 400
     listOrder: 124
-#RECOVERY (START)
   - type: STR_TWIN_OTTER
     sprite: 71
     marker: 13
@@ -234,7 +256,13 @@ crafts: #DONE
     damageMax: 140
     speedMax: 270
     accel: 4
-    weapons: 0
+    weapons: 2
+    weaponTypes:
+      - [6, 8]
+      - [6, 8]
+    weaponStrings:
+      - STR_WEAPON_ONE
+      - STR_WEAPON_TWO
     soldiers: 12
     vehicles: 0
     pilots: 2
@@ -277,13 +305,15 @@ crafts: #DONE
     damageMax: 110
     speedMax: 555
     accel: 6
-    weapons: 2
+    weapons: 3
     weaponTypes:
       - [3, 4]
       - [3, 4, 6]
+      - 8
     weaponStrings:
       - STR_WEAPON_ONE
       - STR_WEAPON_TWO
+      - STR_WEAPON_THREE
     soldiers: 2
     vehicles: 0
     pilots: 2
@@ -305,11 +335,13 @@ crafts: #DONE
     damageMax: 100
     speedMax: 250
     accel: 6
-    weapons: 1
+    weapons: 2
     weaponTypes:
       - [0, 3, 6]
+      - 8
     weaponStrings:
       - STR_WEAPON_ONE
+      - STR_WEAPON_TWO
     vehicles: 0
     pilots: 1
     costSell: 10000
@@ -352,11 +384,13 @@ crafts: #DONE
     damageMax: 200
     speedMax: 280
     accel: 6
-    weapons: 0
+    weapons: 2
     weaponTypes:
-      - 6
+      - 3
+      - [6, 8]
     weaponStrings:
       - STR_WEAPON_ONE
+      - STR_WEAPON_TWO
     soldiers: 20
     vehicles: 2
     pilots: 2
@@ -408,7 +442,7 @@ crafts: #DONE
       - 1 
       - [3, 4]
       - [3, 4, 5]
-      - [3, 4, 5, 6]
+      - [3, 4, 5, 6, 8]
     weaponStrings:
       - STR_WEAPON_ONE
       - STR_WEAPON_TWO
@@ -435,15 +469,17 @@ crafts: #DONE
     damageMax: 110
     speedMax: 585
     accel: 7
-    weapons: 3
+    weapons: 4
     weaponTypes: 
       - 1 
       - [3, 4, 5]
       - [3, 4, 5, 6]
+      - 8
     weaponStrings:
       - STR_WEAPON_ONE
       - STR_WEAPON_TWO
       - STR_WEAPON_THREE
+      - STR_WEAPON_FOUR
     soldiers: 1
     vehicles: 0
     pilots: 1
@@ -470,7 +506,7 @@ crafts: #DONE
       - 2 
       - [3, 4]
       - [3, 4, 6]
-      - [3, 4, 6]
+      - [3, 4, 6, 8]
     weaponStrings:
       - STR_WEAPON_ONE
       - STR_WEAPON_TWO
@@ -497,13 +533,15 @@ crafts: #DONE
     damageMax: 120
     speedMax: 566
     accel: 8
-    weapons: 2
+    weapons: 3
     weaponTypes:
       - [4, 5, 6]
       - [4, 5, 6]
+      - 8
     weaponStrings:
       - STR_WEAPON_ONE
       - STR_WEAPON_TWO
+      - STR_WEAPON_THREE
     soldiers: 4
     vehicles: 0
     pilots: 4
@@ -526,7 +564,13 @@ crafts: #DONE
     damageMax: 150
     speedMax: 270
     accel: 5
-    weapons: 0
+    weapons: 1
+    weaponTypes:
+      - [6, 8]
+      - [6, 8]
+    weaponStrings:
+      - STR_WEAPON_ONE
+      - STR_WEAPON_TWO
     soldiers: 14
     vehicles: 0
     pilots: 2
@@ -574,15 +618,17 @@ crafts: #DONE
     damageMax: 130
     speedMax: 917
     accel: 7
-    weapons: 3
+    weapons: 4
     weaponTypes: 
       - 1 
       - [3, 4, 5]
       - [3, 4, 5, 6]
+      - 8
     weaponStrings:
       - STR_WEAPON_ONE
       - STR_WEAPON_TWO
       - STR_WEAPON_THREE
+      - STR_WEAPON_FOUR
     soldiers: 2
     vehicles: 0
     pilots: 2
@@ -604,15 +650,17 @@ crafts: #DONE
     damageMax: 180
     speedMax: 440
     accel: 5
-    weapons: 3
+    weapons: 4
     weaponTypes: 
       - 0
       - [3, 4]
       - [3, 4, 6]
+      - 8
     weaponStrings:
       - STR_WEAPON_ONE
       - STR_WEAPON_TWO
       - STR_WEAPON_THREE
+      - STR_WEAPON_FOUR
     soldiers: 2
     vehicles: 0
     pilots: 2
@@ -633,11 +681,15 @@ crafts: #DONE
     damageMax: 125
     speedMax: 265
     accel: 6
-    weapons: 1
+    weapons: 3
     weaponTypes:
       - [3, 4, 6]
+      - [6, 8]
+      - 8
     weaponStrings:
       - STR_WEAPON_ONE
+      - STR_WEAPON_TWO
+      - STR_WEAPON_THREE
     soldiers: 2
     vehicles: 0
     pilots: 2
@@ -658,7 +710,13 @@ crafts: #DONE
     damageMax: 80
     speedMax: 275
     accel: 6
-    weapons: 0
+    weapons: 2
+    weaponTypes:
+      - [6, 8]
+      - [6, 8]
+    weaponStrings:
+      - STR_WEAPON_ONE
+      - STR_WEAPON_TWO
     soldiers: 4
     vehicles: 0
     pilots: 4

@@ -262,8 +262,7 @@ items:
     transferTime: 48
   - type: STR_FUEL_PODS
     size: 5
-    costBuy: 5000
-    costSell: 4500
+    costSell: 45000
     transferTime: 48
   - type: STR_ECM_PODS
     size: 5

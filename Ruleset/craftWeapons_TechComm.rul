@@ -13,8 +13,9 @@ craftWeapons: #DONE
 # weaponType 3 = Self Defense AAM
 # weaponType 4 = Short Range & Anti-Radiation AAM
 # weaponType 5 = Medium Range AAM
-# weaponType 6 = Fuel/ECM Pods
+# weaponType 6 = Comm/Tech/ECM Pods
 # weaponType 7 = Long Range AAM
+# weaponType 8 = Fuel
   - type: STR_PHOENIX
     weaponType: 7
     sprite: 100
@@ -79,6 +80,7 @@ craftWeapons: #DONE
     projectileSpeed: 0
     stats:
       avoidBonus: 20
+      hitBonus: 20
   - type: STR_COMM_PODS_UC
     weaponType: 6
     sprite: 102
@@ -95,7 +97,7 @@ craftWeapons: #DONE
     projectileType: 0
     projectileSpeed: 0
     stats:
-      hitBonus: 20
+      powerBonus: 20
       radarRange: 672
   - type: STR_TECH_PODS_UC
     weaponType: 6
@@ -114,8 +116,9 @@ craftWeapons: #DONE
     projectileSpeed: 0
     stats:
       sightRange: 848
+      avoidBonus: 20
   - type: STR_FUEL_PODS_UC
-    weaponType: 6
+    weaponType: 8
     sprite: 103
     sound: 0
     damage: 0
@@ -130,9 +133,8 @@ craftWeapons: #DONE
     projectileType: 0
     projectileSpeed: 0
     stats:
-      fuelMax: 100
+      fuelMax: 500
       accel: -1
-      avoidBonus: -10
   - type: STR_GAU_2
     weaponType: 0
     sprite: 104

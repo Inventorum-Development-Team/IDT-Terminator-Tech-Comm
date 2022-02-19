@@ -611,6 +611,7 @@ alienMissions:
     points: 1 #Pact score only awarded on month end
     objective: 1
     operationType: 6
+    showAlienBase: true
     siteType: STR_SKYNET_BASE_ASSAULT_WORKCAMP
     spawnZone: 2 #Mission zone for alien bases
     raceWeights:
@@ -1241,6 +1242,134 @@ alienMissions:
 #RESISTANCE EVENTS
 ## Can happen anywhere on the world - unlocked through sector research
   - type: STR_ABANDONED_BASE
+    points: 0
+    objective: 2
+    siteType: STR_ABANDONED_BASE_ASSAULT
+    spawnZone: 1
+    raceWeights:
+      0:
+        STR_T200: 60
+        STR_T300: 40
+      1:
+        STR_T300: 50
+        STR_T400: 50
+      3:
+        STR_T400: 30
+        STR_T500: 30
+        STR_T600: 40
+      5:
+        STR_T600: 10
+        STR_T700: 80
+        STR_T800: 10
+      7:
+        STR_T700: 50
+        STR_T800: 50
+      9:
+        STR_T700: 20
+        STR_T800: 80
+    waves:
+      - ufo: bogus
+        count: 1
+        trajectory: T10
+        timer: 0
+        objective: true
+  - type: STR_COMMS_DEFENSE
+    points: 0
+    objective: 2
+    siteType: STR_ABANDONED_BASE_ASSAULT
+    spawnZone: 1
+    raceWeights:
+      0:
+        STR_T200: 60
+        STR_T300: 40
+      1:
+        STR_T300: 50
+        STR_T400: 50
+      3:
+        STR_T400: 30
+        STR_T500: 30
+        STR_T600: 40
+      5:
+        STR_T600: 10
+        STR_T700: 80
+        STR_T800: 10
+      7:
+        STR_T700: 50
+        STR_T800: 50
+      9:
+        STR_T700: 20
+        STR_T800: 80
+    waves:
+      - ufo: bogus
+        count: 1
+        trajectory: T10
+        timer: 0
+        objective: true
+  - type: STR_COMMS_DESTROY
+    points: 0
+    objective: 2
+    siteType: STR_ABANDONED_BASE_ASSAULT
+    spawnZone: 1
+    raceWeights:
+      0:
+        STR_T200: 60
+        STR_T300: 40
+      1:
+        STR_T300: 50
+        STR_T400: 50
+      3:
+        STR_T400: 30
+        STR_T500: 30
+        STR_T600: 40
+      5:
+        STR_T600: 10
+        STR_T700: 80
+        STR_T800: 10
+      7:
+        STR_T700: 50
+        STR_T800: 50
+      9:
+        STR_T700: 20
+        STR_T800: 80
+    waves:
+      - ufo: bogus
+        count: 1
+        trajectory: T10
+        timer: 0
+        objective: true
+  - type: STR_COMMS_EXTRACTION
+    points: 0
+    objective: 2
+    siteType: STR_ABANDONED_BASE_ASSAULT
+    spawnZone: 1
+    raceWeights:
+      0:
+        STR_T200: 60
+        STR_T300: 40
+      1:
+        STR_T300: 50
+        STR_T400: 50
+      3:
+        STR_T400: 30
+        STR_T500: 30
+        STR_T600: 40
+      5:
+        STR_T600: 10
+        STR_T700: 80
+        STR_T800: 10
+      7:
+        STR_T700: 50
+        STR_T800: 50
+      9:
+        STR_T700: 20
+        STR_T800: 80
+    waves:
+      - ufo: bogus
+        count: 1
+        trajectory: T10
+        timer: 0
+        objective: true
+  - type: STR_COMMS_RECOVERY
     points: 0
     objective: 2
     siteType: STR_ABANDONED_BASE_ASSAULT

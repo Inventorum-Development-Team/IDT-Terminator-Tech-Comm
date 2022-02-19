@@ -1,5 +1,4 @@
 enviroEffects:
-
   - type: NUCLEAR_FALLOUT
     bigSprite: 100
     meleeHitSound: 0

@@ -10,6 +10,8 @@ alienDeployments:
   - delete: STR_BASE_DEFENSE
   - delete: STR_TERROR_MISSION
   - delete: STR_ALIEN_BASE_ASSAULT
+  - delete: STR_MARS_CYDONIA_LANDING
+  - delete: STR_MARS_THE_FINAL_ASSAULT
 #HKs
   - type: STR_HK_SCOUT_1
     data:
@@ -493,7 +495,7 @@ alienDeployments:
 ##Bases eventually start spawning as upgraded versions once Skynet deploys new HK models - implement existing alienBaseUpgrades
 ##UNDERGROUND - Biolab (placeholder)
 ##Core requires advanced equipment to assault (anti turret weapon - psionics?) - unlocks final mission
-  - type: STR_SKYNET_BASE_ASSAULT_CORE
+  - type: STR_SKYNET_BASE_ASSAULT_CORE #AREA51 FORT
     data: &SKYNET_BASE_ASSAULT
       - alienRank: 7
         lowQty: 1
@@ -670,8 +672,33 @@ alienDeployments:
     objectiveComplete: [STR_SKYNET_BASE_CONTROL_DESTROYED, 500]
     objectivePopup: STR_CONTROL_CENTER_DESTROYED
     points: 1
+  - type: STR_SKYNET_BASE_ASSAULT_CORE_LANDING #COLD ISLE
+    data: *SKYNET_BASE_ASSAULT
+    finalDestination: true
+    width: 50
+    length: 70
+    height: 6
+    terrains:
+      - COLDISLE_SPECIAL
+    nextStage: STR_SKYNET_BASE_ASSAULT_CORE
+    briefing:
+      title: STR_SKYNET_BASE_ASSAULT_CORE
+      desc: STR_SKYNET_BASE_ASSAULT_CORE_BRIEFING
+      textOffset: -16
+      background: BACK01.SCR
+      showTarget: false
+    objectiveType: 3
+    markerName: STR_SKYNET_CORE
+    markerIcon: 11
+    genMission:
+      STR_ALIEN_SUPPLY_1: 0
+    genMissionFreq: 0
+    alienBase: true    # this is only to tell new battle mode what to do with this deployment
+    chronoTrigger: 1
+    points: 0
+    keepCraftAfterFailedMission: true
 ##Tempus gives the Temporal Displacement Device, a 'craft' required for the final mission
-  - type: STR_SKYNET_BASE_ASSAULT_TEMPUS
+  - type: STR_SKYNET_BASE_ASSAULT_TEMPUS #BIOLAB
     data: *SKYNET_BASE_ASSAULT
     width: 60
     length: 60
@@ -698,7 +725,7 @@ alienDeployments:
     points: 1
     unlockedResearch: STR_AI_ULTRA
 ##Lab gives advanced tech (psionics - nanites?) - T1000 development
-  - type: STR_SKYNET_BASE_ASSAULT_LAB
+  - type: STR_SKYNET_BASE_ASSAULT_LAB #SKYNET LAB/SIBERIA
     data: *SKYNET_BASE_ASSAULT
     width: 50
     length: 50
@@ -725,7 +752,7 @@ alienDeployments:
     points: 1
     unlockedResearch: STR_AI_LIGHTHOUSE
 ##Missile Base launches nuclear strikes at Tech-Comm bases
-  - type: STR_SKYNET_BASE_ASSAULT_MISSILE
+  - type: STR_SKYNET_BASE_ASSAULT_MISSILE #SKYNET WAREHOUSE/AREA51_DESTROY
     data: *SKYNET_BASE_ASSAULT
     width: 60
     length: 60
@@ -754,7 +781,7 @@ alienDeployments:
     unlockedResearch: STR_AI_DEAD_HAND
 #SURFACE - Area 51 (placeholder)
 ##Factories are placed one per month on a region, as long as Skynet Core has not been assaulted. They produce Outposts and Workcamps. HK Bases
-  - type: STR_SKYNET_BASE_ASSAULT_FACTORY
+  - type: STR_SKYNET_BASE_ASSAULT_FACTORY #SKYNET FACTORY/COMPLEX
     data: *SKYNET_BASE_ASSAULT
     width: 60
     length: 60
@@ -792,7 +819,7 @@ alienDeployments:
     objectivePopup: STR_CONTROL_CENTER_DESTROYED
     points: 1
     unlockedResearch: STR_AI_GREAT_WALL
-  - type: STR_SKYNET_BASE_ASSAULT_OUTPOST
+  - type: STR_SKYNET_BASE_ASSAULT_OUTPOST #SKYNET BON/SKYNET BASE
     alienBaseUpgrades:
       0:
         STR_SKYNET_BASE_ASSAULT_OUTPOST: 100
@@ -830,7 +857,7 @@ alienDeployments:
     objectiveComplete: [STR_SKYNET_BASE_CONTROL_DESTROYED, 500]
     objectivePopup: STR_CONTROL_CENTER_DESTROYED
     points: 1
-  - type: STR_SKYNET_BASE_ASSAULT_HKBASE
+  - type: STR_SKYNET_BASE_ASSAULT_HKBASE #SKYNET HQ/AREA51_HQ
     data: *SKYNET_BASE_ASSAULT
     width: 60
     length: 60
@@ -866,7 +893,7 @@ alienDeployments:
     objectivePopup: STR_CONTROL_CENTER_DESTROYED
     points: 1
     unlockedResearch: STR_AI_SPIDER_WEB
-  - type: STR_SKYNET_BASE_ASSAULT_WORKCAMP
+  - type: STR_SKYNET_BASE_ASSAULT_WORKCAMP #SKYNET_WORKCAMP/NATIVE
     data: *SKYNET_BASE_ASSAULT
     width: 60
     length: 60
@@ -903,9 +930,95 @@ alienDeployments:
     objectivePopup: STR_CONTROL_CENTER_DESTROYED
     points: 1
     unlockedResearch: STR_AI_SCARE_CROW
-#Abandoned Resistance/Military bases - 1 spawned per region
-##Tech-Comm/Area 51 terrains - Give resources/craft
-  - type: STR_ABANDONED_BASE_ASSAULT #SKYNET/BANDITS
+#STORY MISSIONS - BASES TRIGGERED BY SECTOR COMMS
+#Abandoned Resistance/Military bases - 1 spawned per game
+##Tech-Comm/Area 51 terrains - Give resources/craft and unlock story
+  - type: STR_COMMS_RECOVERY_FACTORY #DONE
+    data:
+      - alienRank: 5
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 4
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 6
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 7
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+    width: 50
+    length: 50
+    height: 5
+    terrains:
+      - AREA51_FACTORY_1
+      - AREA51_FACTORY_2
+      - AREA51_FACTORY_3
+    briefing:
+      title: STR_COMMS_RECOVERY_MISSION
+      desc: STR_COMMS_RECOVERY_BRIEFING
+      palette: 4
+      music: GMENBASE
+      showTarget: false
+      showCraft: false
+      textOffset: -24
+      background: BACK18.SCR 
+    alert: STR_COMMS_RECOVERY_ALERT
+    alertBackground: BACK18.SCR
+    markerName: STR_COMMS_RECOVERY_MARKER
+    duration: [4, 10]
+    despawnPenalty: 0
+    markerIcon: 9
+    keepCraftAfterFailedMission: true
+  - type: STR_ABANDONED_BASE_ASSAULT #XX #DONE
     data: *SKYNET_BASE_ASSAULT
     width: 80
     length: 80
@@ -928,7 +1041,116 @@ alienDeployments:
     points: 500
     missionBountyItem: STR_SALVAGED_CRAFT
     missionBountyItemCount: 3
-  - type: STR_RESISTANCE_DEFENSE #SKYNET/BANDITS
+  - type: STR_COMMS_EXTRACTION_PRISON #XX
+    data: *SKYNET_BASE_ASSAULT
+    width: 60
+    length: 70
+    height: 6
+    civilians: 8
+    terrains:
+      - TFTD_LINER_PORT_EXTRACTION
+    alert: STR_COMMS_EXTRACTION_ALERT
+    alertBackground: BACK185.SCR
+    briefing:
+      desc: STR_COMMS_EXTRACTION_BRIEFING
+      palette: 2
+      music: GMENBASE    
+    markerName: STR_COMMS_EXTRACTION_MARKER
+    markerIcon: 9
+    duration: [4, 10]
+    despawnPenalty: 500
+    turnLimit: 25
+    chronoTrigger: 0
+    cheatTurn: 20
+    escapeType: 3
+    keepCraftAfterFailedMission: true
+  - type: STR_COMMS_EXTRACTION_DOCKS #XX (SOUTH AMERICA)
+    data: *SKYNET_BASE_ASSAULT
+    width: 60
+    length: 70
+    height: 6
+    civilians: 8
+    terrains:
+      - TFTD_CARGOSHIP_PORT_EXTRACTION
+    alert: STR_COMMS_EXTRACTION_ALERT
+    alertBackground: BACK185.SCR
+    briefing:
+      desc: STR_COMMS_EXTRACTION_BRIEFING
+      palette: 2
+      music: GMENBASE    
+    markerName: STR_COMMS_EXTRACTION_MARKER
+    markerIcon: 9
+    duration: [4, 10]
+    despawnPenalty: 500
+    turnLimit: 25
+    chronoTrigger: 0
+    cheatTurn: 20
+    escapeType: 3
+    keepCraftAfterFailedMission: true
+  - type: STR_COMMS_RECOVERY_HWP #DONE
+    data: *SKYNET_BASE_ASSAULT
+    width: 60
+    length: 60
+    height: 6
+    civilians: 16
+    terrains:
+      - AREA51_HWP_FACTORY_RESEARCH
+    alert: STR_COMMS_RECOVERY_ALERT
+    alertBackground: BACK18.SCR
+    briefing:
+      desc: STR_COMMS_RECOVERY_BRIEFING
+      palette: 2
+      music: GMENBASE    
+    markerName: STR_COMMS_RECOVERY
+    markerIcon: 9
+    duration: [4, 10]
+    despawnPenalty: 500
+  - type: STR_COMMS_RECOVERY_SKYRANGER #(NORTH AMERICA) #DONE
+    data: *SKYNET_BASE_ASSAULT
+    width: 60
+    length: 60
+    height: 6
+    civilians: 16
+    terrains:
+      - AREA51_SKYRANGER_FACTORY_RESEARCH
+      - AREA51_SKYRANGER_FACTORY_RESEARCH_B
+    alert: STR_COMMS_RECOVERY_ALERT
+    alertBackground: BACK18.SCR
+    briefing:
+      desc: STR_COMMS_RECOVERY_BRIEFING
+      palette: 2
+      music: GMENBASE    
+    markerName: STR_COMMS_RECOVERY
+    markerIcon: 9
+    duration: [4, 10]
+    despawnPenalty: 500
+#SECTOR MISSIONS - ALERTS TRIGGERED BY SECTOR COMMS
+#Abandoned Resistance/Military bases - 1 spawned per region
+##Tech-Comm/Area 51 terrains - Give resources/craft
+#Sector Sites - Resistance (30 days timer) - triggered by sector report research
+##4 Different terrains - Area 51 Destroy, Complex, Siberia, Abandoned/HWP/Skyranger Factory, Airfield
+##Gives technology or allows to recover craft, weapons, etc. 
+  - &STR_COMMS_ASSAULT
+    type: STR_COMMS_ASSAULT
+    data: *SKYNET_BASE_ASSAULT
+    width: 50
+    length: 50
+    height: 6
+    civilians: 8
+    terrains:
+      - TECHCOMMBASE
+    alert: STR_COMMS_ASSAULT_ALERT
+    alertBackground: BACK185.SCR
+    briefing:
+      desc: STR_COMMS_ASSAULT_BRIEFING
+      palette: 2
+      music: GMENBASE    
+    markerName: STR_COMMS_ASSAULT_MARKER
+    markerIcon: 10
+    duration: [720, 720]
+    despawnPenalty: 0
+  - &STR_COMMS_DEFENSE #SKYNET/BANDITS
+    type: STR_COMMS_DEFENSE
     data: &SKYNET_RESISTANCE
       - alienRank: 5
         lowQty: 1
@@ -1044,14 +1266,19 @@ alienDeployments:
     civilians: 8
     terrains:
       - AREA51_DEFENSE
-    alert: STR_RESISTANCE_DEFENSE_ALERT
+      - AREA51_BIOLAB_DEFENSE
+      - AREA51_COMPLEX18_EXTRACTION
+      - COLDISLE_EXTRACTION
+      - AREA51_SIBERIA_DEFENSE
+      - STORMMOUNTAIN_DEFENSE
+    alert: STR_COMMS_DEFENSE_ALERT
     alertBackground: BACK03.SCR
     briefing:
-      title: STR_RESISTANCE_DEFENSE
-      desc: STR_RESISTANCE_DEFENSE_BRIEFING
+      title: STR_COMMS_DEFENSE
+      desc: STR_COMMS_DEFENSE_BRIEFING
       palette: 2
       music: GMENBASE    
-    markerName: STR_RESISTANCE_DEFENSE_MARKER
+    markerName: STR_COMMS_DEFENSE_MARKER
     markerIcon: 5
     duration: [72, 120]
     turnLimit: 25
@@ -1060,6 +1287,283 @@ alienDeployments:
     keepCraftAfterFailedMission: true
     despawnPenalty: 0
     points: 500
+  - &STR_COMMS_DESTROY
+    type: STR_COMMS_DESTROY
+    data: *SKYNET_RESISTANCE
+    width: 60
+    length: 60
+    height: 6
+    terrains:
+      - AREA51_DESTROY
+      - AREA51_BIOLAB_DESTROY
+      - AREA51_COMPLEX18_DESTROY
+      - COLDISLE_DESTROY
+      - AREA51_SIBERIA_DESTROY
+      - STORMMOUNTAIN_DESTROY
+    alert: STR_COMMS_DESTROY_ALERT
+    alertBackground: BACK03.SCR
+    briefing:
+      title: STR_COMMS_DESTROY
+      desc: STR_COMMS_DESTROY_BRIEFING
+      palette: 2
+      music: GMENBASE    
+    markerName: STR_COMMS_DESTROY_MARKER
+    markerIcon: 10
+    duration: [720, 720]
+    despawnPenalty: 0
+    objectiveType: 15
+    objectivesRequired: 16
+    objectiveComplete: [STR_MISSILE_SILO_DISABLED, 750]
+    objectiveFailed: [STR_MISSILE_SILO_OPERATIONAL, -750]
+    objectivePopup: STR_MISSILE_SILO_DESTROYED
+    turnLimit: 25
+    chronoTrigger: 0
+    cheatTurn: 20
+  - &STR_COMMS_EXTRACTION
+    type: STR_COMMS_EXTRACTION
+    data: *SKYNET_RESISTANCE
+    width: 40
+    length: 80
+    height: 6
+    terrains:
+      - AREA51_EXTRACTION
+      - AREA51_BIOLAB_EXTRACTION
+      - AREA51_COMPLEX18_EXTRACTION
+      - COLDISLE_EXTRACTION
+      - AREA51_SIBERIA_EXTRACTION
+      - STORMMOUNTAIN_EXTRACTION
+    alert: STR_COMMS_EXTRACTION_ALERT
+    alertBackground: BACK185.SCR
+    briefing:
+      desc: STR_COMMS_EXTRACTION_BRIEFING
+      palette: 2
+      music: GMENBASE    
+    markerName: STR_COMMS_EXTRACTION_MARKER
+    markerIcon: 1
+    duration: [720, 720]
+    despawnPenalty: 0
+    turnLimit: 25
+    chronoTrigger: 0
+    cheatTurn: 10
+    escapeType: 3
+    keepCraftAfterFailedMission: true
+  - &STR_COMMS_RECOVERY
+    type: STR_COMMS_RECOVERY
+    data: *SKYNET_RESISTANCE
+    width: 60
+    length: 60
+    height: 6
+    terrains:
+      - AREA51_RESEARCH
+      - AREA51_BIOLAB_RESEARCH
+      - AREA51_COMPLEX18_SPECIAL
+      - AREA51_SIBERIA_RESEARCH
+      - COLDISLE_RESEARCH
+      - STORMMOUNTAIN_RESEARCH
+    alert: STR_COMMS_RECOVERY_ALERT
+    alertBackground: BACK18.SCR
+    briefing:
+      desc: STR_COMMS_RECOVERY_BRIEFING
+      palette: 2
+      music: GMENBASE    
+    markerName: STR_COMMS_RECOVERY
+    markerIcon: 1
+    duration: [720, 720]
+    despawnPenalty: 0
+  - type: STR_COMMS_DEFENSE_AREA51 #DONE
+    refNode: *STR_COMMS_DEFENSE
+    isHidden: true
+    terrains:
+      - AREA51_DEFENSE
+  - type: STR_COMMS_DEFENSE_BIOLAB #DEFENSE 4
+    refNode: *STR_COMMS_DEFENSE
+    isHidden: true
+    terrains:
+      - AREA51_BIOLAB_DEFENSE
+  - type: STR_COMMS_DEFENSE_COLDISLE #DEFENSE 1
+    refNode: *STR_COMMS_DEFENSE
+    isHidden: true
+    terrains:
+      - COLDISLE_EXTRACTION
+  - type: STR_COMMS_DEFENSE_COMPLEX #DEFENSE 2
+    refNode: *STR_COMMS_DEFENSE
+    isHidden: true
+    terrains:
+      - AREA51_COMPLEX18_EXTRACTION
+  - type: STR_COMMS_DEFENSE_SIBERIA #DEFENSE 5
+    refNode: *STR_COMMS_DEFENSE
+    isHidden: true
+    terrains:
+      - AREA51_SIBERIA_DEFENSE
+  - type: STR_COMMS_DEFENSE_STORM #DEFENSE 3
+    refNode: *STR_COMMS_DEFENSE
+    isHidden: true
+    terrains:
+      - STORMMOUNTAIN_DEFENSE
+  - type: STR_COMMS_EXTRACTION_AREA51 #DONE
+    refNode: *STR_COMMS_EXTRACTION
+    isHidden: true
+    terrains:
+      - AREA51_EXTRACTION
+  - type: STR_COMMS_EXTRACTION_BIOLAB #EXTRACTION 3
+    refNode: *STR_COMMS_EXTRACTION
+    isHidden: true
+    terrains:
+      - AREA51_BIOLAB_EXTRACTION
+  - type: STR_COMMS_EXTRACTION_COLDISLE #EXTRACTION 4
+    refNode: *STR_COMMS_EXTRACTION
+    isHidden: true
+    terrains:
+      - COLDISLE_EXTRACTION
+  - type: STR_COMMS_EXTRACTION_COMPLEX #EXTRACTION 2
+    refNode: *STR_COMMS_EXTRACTION
+    isHidden: true
+    terrains:
+      - AREA51_COMPLEX18_EXTRACTION
+  - type: STR_COMMS_EXTRACTION_SIBERIA #EXTRACTION 5
+    refNode: *STR_COMMS_EXTRACTION
+    isHidden: true
+    terrains:
+      - AREA51_SIBERIA_EXTRACTION
+  - type: STR_COMMS_EXTRACTION_STORM #EXTRACTION 1
+    refNode: *STR_COMMS_EXTRACTION
+    isHidden: true
+    terrains:
+      - STORMMOUNTAIN_EXTRACTION
+  - type: STR_COMMS_DESTROY_AREA51 #DONE
+    refNode: *STR_COMMS_DESTROY
+    terrains:
+      - AREA51_DESTROY
+    alert: STR_COMMS_DESTROY_ALERT
+    alertBackground: BACK03.SCR
+    briefing:
+      title: STR_COMMS_DESTROY
+      desc: STR_COMMS_DESTROY_BRIEFING
+      palette: 2
+      music: GMENBASE    
+    markerName: STR_COMMS_DESTROY_MARKER
+    objectiveType: 15
+    objectivesRequired: 16
+    objectiveComplete: [STR_MISSILE_SILO_DISABLED, 500]
+    objectiveFailed: [STR_MISSILE_SILO_OPERATIONAL, -500]
+    objectivePopup: STR_MISSILE_SILO_DESTROYED
+  - type: STR_COMMS_DESTROY_BIOLAB #DESTROY 3
+    refNode: *STR_COMMS_DESTROY
+    terrains:
+      - AREA51_BIOLAB_DESTROY
+    alert: STR_COMMS_DESTROY_ALERT
+    alertBackground: BACK03.SCR
+    briefing:
+      title: STR_COMMS_DESTROY
+      desc: STR_COMMS_DESTROY_BRIEFING
+      palette: 2
+      music: GMENBASE    
+    markerName: STR_COMMS_DESTROY_MARKER
+    objectiveType: 15
+    objectivesRequired: 32
+    objectiveComplete: [STR_DATABANKS_DISABLED, 500]
+    objectiveFailed: [STR_DATABANKS_OPERATIONAL, -500]
+    objectivePopup: STR_DATABANKS_DESTROYED
+  - type: STR_COMMS_DESTROY_COLDISLE #DESTROY 4
+    refNode: *STR_COMMS_DESTROY
+    terrains:
+      - COLDISLE_DESTROY
+    alert: STR_COMMS_DESTROY_ALERT
+    alertBackground: BACK03.SCR
+    briefing:
+      title: STR_COMMS_DESTROY
+      desc: STR_COMMS_DESTROY_BRIEFING
+      palette: 2
+      music: GMENBASE    
+    markerName: STR_COMMS_DESTROY_MARKER
+    objectiveType: 15
+    objectivesRequired: 20
+    objectiveFailed: [STR_RADAR_BASE_OPERATIONAL, -500]
+    objectiveComplete: [STR_RADAR_BASE_DISABLED, 500]
+    objectivePopup: STR_RADAR_BASE_DESTROYED
+  - type: STR_COMMS_DESTROY_COMPLEX #DESTROY 1
+    refNode: *STR_COMMS_DESTROY
+    terrains:
+      - AREA51_COMPLEX18_DESTROY
+    alert: STR_COMMS_DESTROY_ALERT
+    alertBackground: BACK03.SCR
+    briefing:
+      title: STR_COMMS_DESTROY
+      desc: STR_COMMS_DESTROY_BRIEFING
+      palette: 2
+      music: GMENBASE    
+    markerName: STR_COMMS_DESTROY_MARKER
+    objectiveType: 15
+    objectivesRequired: 6
+    objectiveComplete: [STR_SCIENCE_STATION_DISABLED, 500]
+    objectiveFailed: [STR_SCIENCE_STATION_OPERATIONAL, -500]
+    objectivePopup: STR_SCIENCE_STATION_DESTROYED
+  - type: STR_COMMS_DESTROY_SIBERIA #DESTROY 5
+    refNode: *STR_COMMS_DESTROY
+    terrains:
+      - AREA51_SIBERIA_DESTROY
+    alert: STR_COMMS_DESTROY_ALERT
+    alertBackground: BACK03.SCR
+    briefing:
+      title: STR_COMMS_DESTROY
+      desc: STR_COMMS_DESTROY_BRIEFING
+      palette: 2
+      music: GMENBASE    
+    markerName: STR_COMMS_DESTROY_MARKER
+    objectiveType: 15
+    objectivesRequired: 32
+    objectiveComplete: [STR_DATABANKS_DISABLED, 500]
+    objectiveFailed: [STR_DATABANKS_OPERATIONAL, -500]
+    objectivePopup: STR_DATABANKS_DESTROYED
+  - type: STR_COMMS_DESTROY_STORM #DESTROY 2
+    refNode: *STR_COMMS_DESTROY
+    shade: 5
+    terrains:
+      - STORMMOUNTAIN_DESTROY
+    alert: STR_COMMS_DESTROY_ALERT
+    alertBackground: BACK03.SCR
+    briefing:
+      title: STR_COMMS_DESTROY
+      desc: STR_COMMS_DESTROY_BRIEFING
+      palette: 2
+      music: GMENBASE    
+    markerName: STR_COMMS_DESTROY_MARKER
+    objectiveType: 15
+    objectivesRequired: 32
+    objectiveComplete: [STR_DATABANKS_DISABLED, 500]
+    objectiveFailed: [STR_DATABANKS_OPERATIONAL, -500]
+    objectivePopup: STR_DATABANKS_DESTROYED
+  - type: STR_COMMS_RECOVERY_AREA51 #DONE
+    refNode: *STR_COMMS_RECOVERY
+    isHidden: true
+    terrains:
+      - AREA51_RESEARCH
+  - type: STR_COMMS_RECOVERY_BIOLAB ##RECOVERY 5
+    refNode: *STR_COMMS_RECOVERY
+    isHidden: true
+    terrains:
+      - AREA51_BIOLAB_RESEARCH
+  - type: STR_COMMS_RECOVERY_COLDISLE #RECOVERY 1
+    refNode: *STR_COMMS_RECOVERY
+    isHidden: true
+    terrains:
+      - COLDISLE_RESEARCH
+  - type: STR_COMMS_RECOVERY_COMPLEX #RECOVERY 4
+    refNode: *STR_COMMS_RECOVERY
+    isHidden: true
+    terrains:
+      - AREA51_COMPLEX18_SPECIAL
+  - type: STR_COMMS_RECOVERY_SIBERIA #RECOVERY 3
+    refNode: *STR_COMMS_RECOVERY
+    isHidden: true
+    terrains:
+      - AREA51_SIBERIA_RESEARCH
+  - type: STR_COMMS_RECOVERY_STORM #RECOVERY 2 
+    refNode: *STR_COMMS_RECOVERY
+    isHidden: true
+    shade: 5
+    terrains:
+      - STORMMOUNTAIN_RESEARCH
 #Suppression missions (3-5 days timer)
 ##Triggered globally, up to 3 monthly sites,
 ##4 Urban terrains, each with 4 different objectives? Industrial, Railyard, Slums, Dawn City (Downtown, Native, Cold Isle)
@@ -1076,13 +1580,13 @@ alienDeployments:
       - DAWNCITY_ESCAPE
       - INDUSTRIAL_ESCAPE
       - SLUM_ESCAPE
-    alert: STR_RESISTANCE_DEFENSE_ALERT
+    alert: STR_COMMS_DEFENSE_ALERT
     alertBackground: BACK185.SCR
     briefing:
       desc: STR_RESISTANCE_ESCAPE_BRIEFING
       palette: 2
       music: GMENBASE    
-    markerName: STR_RESISTANCE_DEFENSE_MARKER
+    markerName: STR_COMMS_DEFENSE_MARKER
     markerIcon: 5
     duration: [72, 120]
     turnLimit: 25
@@ -1154,7 +1658,7 @@ alienDeployments:
       desc: STR_RESISTANCE_ESCAPE_BRIEFING
       palette: 2
       music: GMENBASE    
-    markerName: STR_RESISTANCE_DEFENSE_MARKER
+    markerName: STR_COMMS_DEFENSE_MARKER
     markerIcon: 5
     duration: [72, 120]
     turnLimit: 25
@@ -1599,92 +2103,6 @@ alienDeployments:
   - type: STR_RESISTANCE_RESCUE46
     refNode: *STR_RESISTANCE_RESCUE00
     alert: STR_RESISTANCE_COMMS46_MESSAGE   
-#Sector Sites - Resistance (30 days timer) - triggered by sector report research
-##4 Different terrains - Area 51 Destroy, Complex, Siberia, Abandoned/HWP/Skyranger Factory, Airfield
-##Gives technology or allows to recover craft, weapons, etc. 
-  - type: STR_RESISTANCE_ASSAULT
-    data: *SKYNET_RESISTANCE
-    width: 50
-    length: 50
-    height: 6
-    civilians: 8
-    terrains:
-      - AREA51_RESEARCH
-    alert: STR_RESISTANCE_ASSAULT_ALERT
-    alertBackground: BACK185.SCR
-    briefing:
-      desc: STR_RESISTANCE_ASSAULT_BRIEFING
-      palette: 2
-      music: GMENBASE    
-    markerName: STR_RESISTANCE_ASSAULT_MARKER
-    markerIcon: 10
-    duration: [720, 720]
-    despawnPenalty: 0
-  - type: STR_RESISTANCE_DESTROY
-    data: *SKYNET_RESISTANCE
-    width: 60
-    length: 60
-    height: 6
-    terrains:
-      - AREA51_DESTROY
-    alert: STR_RESISTANCE_DESTROY_ALERT
-    alertBackground: BACK03.SCR
-    briefing:
-      title: STR_RESISTANCE_DESTROY
-      desc: STR_RESISTANCE_DESTROY_BRIEFING
-      palette: 2
-      music: GMENBASE    
-    markerName: STR_RESISTANCE_DESTROY_MARKER
-    markerIcon: 10
-    duration: [720, 720]
-    despawnPenalty: 0
-    objectiveType: 15
-    objectivesRequired: 16
-    objectiveComplete: [STR_MISSILE_SILO_DISABLED, 750]
-    objectiveFailed: [STR_MISSILE_SILO_OPERATIONAL, -750]
-    objectivePopup: STR_MISSILE_SILO_DESTROYED
-    turnLimit: 25
-    chronoTrigger: 0
-    cheatTurn: 20
-  - type: STR_RESISTANCE_EXTRACTION
-    data: *SKYNET_RESISTANCE
-    width: 40
-    length: 80
-    height: 6
-    terrains:
-      - AREA51_EXTRACTION
-    alert: STR_RESISTANCE_EXTRACTION_ALERT
-    alertBackground: BACK185.SCR
-    briefing:
-      desc: STR_RESISTANCE_EXTRACTION_BRIEFING
-      palette: 2
-      music: GMENBASE    
-    markerName: STR_RESISTANCE_EXTRACTION_MARKER
-    markerIcon: 1
-    duration: [720, 720]
-    despawnPenalty: 0
-    turnLimit: 25
-    chronoTrigger: 0
-    cheatTurn: 10
-    escapeType: 3
-    keepCraftAfterFailedMission: true
-  - type: STR_RESISTANCE_RECOVERY
-    data: *SKYNET_RESISTANCE
-    width: 60
-    length: 60
-    height: 6
-    terrains:
-      - INDUSTRIAL
-    alert: STR_RESISTANCE_RECOVERY_ALERT
-    alertBackground: BACK18.SCR
-    briefing:
-      desc: STR_RESISTANCE_RECOVERY_BRIEFING
-      palette: 2
-      music: GMENBASE    
-    markerName: STR_RESISTANCE_RECOVERY
-    markerIcon: 1
-    duration: [720, 720]
-    despawnPenalty: 0
 #Base Defense
   - type: STR_BASE_DEFENSE
     data: *SKYNET_RESISTANCE

@@ -852,9 +852,10 @@ units:
     standHeight: 22
     kneelHeight: 14
     value: 10
-    deathSound: [44, 45, 46]
+    deathSound: [41, 42, 43]
     intelligence: 4
     aggression: 0
+    vip: true
   - type: STR_HUMAN_MANAGER
     race: STR_CIVILIAN
     rank: STR_LIVE_HUMAN
@@ -863,9 +864,10 @@ units:
     standHeight: 22
     kneelHeight: 14
     value: 10
-    deathSound: [44, 45, 46]
+    deathSound: [41, 42, 43]
     intelligence: 4
     aggression: 0
+    vip: true
   - type: STR_HUMAN_SCIENTIST
     race: STR_CIVILIAN
     rank: STR_LIVE_HUMAN
@@ -877,6 +879,7 @@ units:
     deathSound: [44, 45, 46]
     intelligence: 4
     aggression: 0
+    vip: true
   - type: STR_HUMAN_TECHNICIAN
     race: STR_CIVILIAN
     rank: STR_LIVE_HUMAN
@@ -888,6 +891,7 @@ units:
     deathSound: [44, 45, 46]
     intelligence: 4
     aggression: 0
+    vip: true
   - type: STR_HUMAN_SOLDIER_0_0
     race: STR_HUMAN
     rank: STR_LIVE_SOLDIER

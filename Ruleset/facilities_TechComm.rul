@@ -24,7 +24,7 @@ facilities: #DONE
     radarRange: 1500
     radarChance: 50
     crafts: 4
-    labs: 10
+    labs: 5
     personnel: 10
     buildCost: 1200000
     buildTime: 25
@@ -34,7 +34,6 @@ facilities: #DONE
     maxAllowedPerBase: 1
     forbiddenBaseFunc: [hq_repair]
     requires:
-      - STR_ADVANCED_FACILITIES
       - STR_AI_SKYNET
     verticalLevels:
     - type: ground
@@ -700,7 +699,7 @@ facilities: #DONE
     buildCost: 210000
     buildTime: 15
     monthlyCost: 5000
-    storage: 250
+    storage: 300
     mapName: TECHBASEDEFENSE_19
     destroyedFacility: STR_STORAGE_AREA_DAMAGED
     maxAllowedPerBase: 1

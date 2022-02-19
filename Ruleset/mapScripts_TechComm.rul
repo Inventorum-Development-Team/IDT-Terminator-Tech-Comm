@@ -2091,6 +2091,8 @@ mapScripts:
       maxUses: [1, 1, 2, 2, 2, 2, 2, 2, 1, 1, 2, 2, 2, 2, 2, 2]
   - type: AREA51DEFENSE
     commands:
+    - type: resize
+      size: [8, 8, 6]
     - type: addBlock # Fence Corner NW
       rects:
         - [2, 2, 1, 1]
@@ -2190,6 +2192,8 @@ mapScripts:
       maxUses: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
   - type: AREA51EXTRACTION1
     commands:
+    - type: resize
+      size: [4, 8, 6]
     - type: addBlock # Starting Building
       rects:
         - [0, 1, 4, 2]
@@ -2544,6 +2548,8 @@ mapScripts:
       maxUses: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
   - type: AREA51DESTROY1
     commands:
+    - type: resize
+      size: [6, 6, 6]
     - type: addBlock # Fence Corner NW
       rects:
         - [0, 0, 1, 1]
@@ -2626,6 +2632,8 @@ mapScripts:
       maxUses: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
   - type: AREA51DESTROY2
     commands:
+    - type: resize
+      size: [6, 6, 6]
     - type: addBlock # Fence Corner NW
       rects:
         - [0, 0, 1, 1]
@@ -2805,6 +2813,8 @@ mapScripts:
       maxUses: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
   - type: AREA51RESEARCH
     commands:
+    - type: resize
+      size: [6, 6, 6]
     - type: addUFO
       UFOName: STR_NKF_APC_AREA51
     - type: addLine
@@ -2837,7 +2847,8 @@ mapScripts:
     - type: addBlock
       size: 5
       executions: 1
-    - type: addCraft
+    - type: addUFO
+      UFOName: STR_NKF_APC_AREA51
     - type: addLine
       direction: both
   - type: AREA51SKYRANGERFACTORY1
@@ -4541,6 +4552,8 @@ mapScripts:
       blocks: 0
   - type: BIOLABDESTROY
     commands:
+    - type: resize
+      size: [6, 6, 4]
     - type: addLine
       direction: both
       rects:
@@ -5272,6 +5285,8 @@ mapScripts:
       blocks: 0
   - type: BIOLABEXTRACTION
     commands:
+    - type: resize
+      size: [6, 6, 4]
     - type: addLine
       direction: both
       rects:
@@ -7630,8 +7645,29 @@ mapScripts:
       executions: 4
     - type: fillArea
       blocks: [0, 1, 2, 3, 4, 13, 14, 15, 16, 17, 18, 19, 20]
+  - type: COLDISLEDEFENSE
+    commands:
+    - type: resize
+      size: [8, 4, 6]
+    - type: addBlock
+      executions: 2
+      blocks: [33, 34]
+      rects:
+        - [0, 2, 8, 2]
+    - type: addBlock
+      executions: 4
+      rects:
+        - [0, 3, 8, 1]
+      blocks: [14, 15, 16]
+      maxUses: [2, 2, 2]
+    - type: addBlock
+      blocks: 35
+      rects:
+        - [6, 0, 2, 2]
   - type: COLDISLEEXTRACTION
     commands:
+    - type: resize
+      size: [8, 4, 6]
     - type: addBlock
       executions: 2
       blocks: [33, 34]
@@ -7669,6 +7705,8 @@ mapScripts:
       maxUses: [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
   - type: COLDISLEDESTROY
     commands:
+    - type: resize
+      size: [6, 6, 6]
     - type: addBlock
       blocks: [33, 34]
       rects:
@@ -7741,6 +7779,8 @@ mapScripts:
       maxUses: [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
   - type: COLDISLERESEARCH
     commands:
+    - type: resize
+      size: [6, 6, 6]
     - type: addBlock
       blocks: [33, 34]
       rects:
@@ -7807,6 +7847,8 @@ mapScripts:
       maxUses: [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
   - type: COMPLEXDESTROY
     commands:
+    - type: resize
+      size: [6, 6, 6]
     - type: addBlock
       size: 3
       blocks: 26
@@ -7826,6 +7868,8 @@ mapScripts:
       freqs: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
   - type: COMPLEXEXTRACTION
     commands:
+    - type: resize
+      size: [5, 7, 6]
     - type: addBlock
       blocks: 36
       rects:
@@ -7868,6 +7912,8 @@ mapScripts:
       freqs: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
   - type: COMPLEXRESEARCH
     commands:
+    - type: resize
+      size: [5, 7, 6]
     - type: addUFO
       UFOName: STR_NKF_APC_COMPLEX
     - type: addBlock
@@ -7882,6 +7928,8 @@ mapScripts:
       freqs: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
   - type: COMPLEXSPECIAL
     commands:
+    - type: resize
+      size: [5, 7, 6]
     - type: addBlock
       blocks: 37
       rects:
@@ -9108,6 +9156,8 @@ mapScripts:
       freqs: [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
   - type: PORTCARGOSHIPEXTRACTION
     commands:
+    - type: resize
+      size: [6, 7, 6]
     - type: addUFO
       UFOName: STR_CARGOSHIPPORTEXTRACTION
       rects:
@@ -9141,6 +9191,8 @@ mapScripts:
     - type: fillArea
   - type: PORTLINERSHIPEXTRACTION
     commands:
+    - type: resize
+      size: [6, 7, 6]
     - type: addUFO
       UFOName: STR_LINERSHIPPORTEXTRACTION
       rects:
@@ -9255,6 +9307,8 @@ mapScripts:
       maxUses: [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
   - type: SIBERIAEXTRACTION
     commands:
+    - type: resize
+      size: [6, 6, 6]
     - type: addLine
       direction: both
     - type: addBlock
@@ -9274,6 +9328,8 @@ mapScripts:
       blocks: [34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 46]
   - type: SIBERIARESEARCH
     commands:
+    - type: resize
+      size: [6, 6, 6]
     - type: addLine
       direction: both
     - type: addBlock
@@ -9481,6 +9537,8 @@ mapScripts:
       blocks: [00, 03, 04, 05]
   - type: STORMMOUNTAINEXTRACTION
     commands:
+    - type: resize
+      size: [6, 6, 6]
     - type: addBlock
       blocks: 8
       size: 2
@@ -9507,6 +9565,8 @@ mapScripts:
       blocks: [00, 04, 05, 13]
   - type: STORMMOUNTAINRESEARCH
     commands:
+    - type: resize
+      size: [6, 6, 6]
     - type: addBlock
       executions: 2
       rects:
@@ -9533,6 +9593,8 @@ mapScripts:
       blocks: [00, 03, 04, 05, 13]
   - type: TECHCOMBASE
     commands:
+    - type: resize
+      size: [8, 8, 6]
     - type: addBlock
       executions: 10
       blocks: [21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
