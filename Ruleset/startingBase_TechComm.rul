@@ -94,8 +94,8 @@ startingBase:
       damage: 0
       status: STR_READY
       weapons:
-        - type: STR_FUEL_PODS
-        - type: STR_TECH_PODS
+        - type: STR_FUEL_PODS_UC
+        - type: STR_TECH_PODS_UC
         - type: STR_PHOENIX
           ammo: 2
         - type: STR_PHOENIX
@@ -104,16 +104,16 @@ startingBase:
       id: 1
       fuel: 2000
       weapons:
-        - type: STR_FUEL_PODS
-        - type: STR_COMM_PODS
+        - type: STR_FUEL_PODS_UC
+        - type: STR_COMM_PODS_UC
       damage: 0
       status: STR_READY
     - type: STR_OSPREY
       id: 1
       fuel: 1500
       weapons:
-        - type: STR_FUEL_PODS
-        - type: STR_ECM_PODS
+        - type: STR_FUEL_PODS_UC
+        - type: STR_ECM_PODS_UC
       damage: 0
       status: STR_READY
     - type: STR_SENIOR_CITIZEN
@@ -122,8 +122,8 @@ startingBase:
       damage: 0
       status: STR_READY
       weapons:
-        - type: STR_FUEL_PODS
-        - type: STR_ECM_PODS
+        - type: STR_FUEL_PODS_UC
+        - type: STR_ECM_PODS_UC
       items:
         STR_PUMP_SHOTGUN: 2
         STR_SEMI_AUTO_SHOTGUN: 2
@@ -165,7 +165,7 @@ startingBase:
         - type: STR_STANDARD
           ammo: 2
   items:
-    STR_FUEL_PODS: 4
+    STR_FUEL_PODS: 2
     STR_ECM_PODS: 2
     STR_COMM_PODS: 1
     STR_TECH_PODS: 1

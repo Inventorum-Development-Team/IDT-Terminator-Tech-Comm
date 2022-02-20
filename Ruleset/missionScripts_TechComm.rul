@@ -23,6 +23,10 @@ missionScripts: #DONE
     missionWeights:
       0:
         STR_SKYNET_TERMINATION_1: 100
+      3:
+        STR_SKYNET_TERMINATION_2: 100
+      6:
+        STR_SKYNET_TERMINATION_3: 100
     targetBaseOdds: 100
     startDelay: 150
     useTable: false
@@ -205,13 +209,34 @@ missionScripts: #DONE
     firstMonth: 3
     useTable: true
     varName: expansionlab
+  - type: gameAIScareCrow
+    missionWeights:
+      0:
+        STR_SKYNET_PACIFICATION: 100
+    targetBaseOdds: 100
+    useTable: false
+    varName: missionSite1
+  - type: gameAITinMan
+    missionWeights:
+      0:
+        STR_SKYNET_PACIFICATION: 100
+    targetBaseOdds: 50
+    executionOdds: 66
+    useTable: false
+    firstMonth: 1
+    varName: missionSite2
+  - type: gameAIUmbra
+    executionOdds: 50
+    missionWeights:
+      0:
+        STR_SKYNET_PACIFICATION: 100
+    firstMonth: 2
+    useTable: false
+    varName: missionSite3
   - type: researchSector00
     missionWeights:
       0:
-        STR_COMMS_DEFENSE: 100
-        STR_COMMS_DESTROY: 100
-        STR_COMMS_EXTRACTION: 100
-        STR_COMMS_RECOVERY: 100
+        STR_SECTOR_00_COMM: 100
     regionWeights:
       0:
         STR_ARCTIC: 100
@@ -223,10 +248,7 @@ missionScripts: #DONE
   - type: researchSector01
     missionWeights:
       0:
-        STR_COMMS_DEFENSE: 100
-        STR_COMMS_DESTROY: 100
-        STR_COMMS_EXTRACTION: 100
-        STR_COMMS_RECOVERY: 100
+        STR_SECTOR_01_COMM: 100
     regionWeights:
       0:
         STR_ARCTIC: 100
@@ -238,10 +260,7 @@ missionScripts: #DONE
   - type: researchSector02
     missionWeights:
       0:
-        STR_COMMS_DEFENSE: 100
-        STR_COMMS_DESTROY: 100
-        STR_COMMS_EXTRACTION: 100
-        STR_COMMS_RECOVERY: 100
+        STR_SECTOR_02_COMM: 100
     regionWeights:
       0:
         STR_NORTH_AMERICA: 100
@@ -253,10 +272,7 @@ missionScripts: #DONE
   - type: researchSector03
     missionWeights:
       0:
-        STR_COMMS_DEFENSE: 100
-        STR_COMMS_DESTROY: 100
-        STR_COMMS_EXTRACTION: 100
-        STR_COMMS_RECOVERY: 100
+        STR_SECTOR_03_COMM: 100
     regionWeights:
       0:
         STR_NORTH_AMERICA: 100
@@ -268,10 +284,7 @@ missionScripts: #DONE
   - type: researchSector04
     missionWeights:
       0:
-        STR_COMMS_DEFENSE: 100
-        STR_COMMS_DESTROY: 100
-        STR_COMMS_EXTRACTION: 100
-        STR_COMMS_RECOVERY: 100
+        STR_SECTOR_04_COMM: 100
     regionWeights:
       0:
         STR_SOUTH_AMERICA: 100
@@ -283,10 +296,7 @@ missionScripts: #DONE
   - type: researchSector05
     missionWeights:
       0:
-        STR_COMMS_DEFENSE: 100
-        STR_COMMS_DESTROY: 100
-        STR_COMMS_EXTRACTION: 100
-        STR_COMMS_RECOVERY: 100
+        STR_SECTOR_05_COMM: 100
     regionWeights:
       0:
         STR_SOUTH_AMERICA: 100
@@ -298,10 +308,7 @@ missionScripts: #DONE
   - type: researchSector06
     missionWeights:
       0:
-        STR_COMMS_DEFENSE: 100
-        STR_COMMS_DESTROY: 100
-        STR_COMMS_EXTRACTION: 100
-        STR_COMMS_RECOVERY: 100
+        STR_SECTOR_06_COMM: 100
     regionWeights:
       0:
         STR_EUROPE: 100
@@ -313,10 +320,7 @@ missionScripts: #DONE
   - type: researchSector07
     missionWeights:
       0:
-        STR_COMMS_DEFENSE: 100
-        STR_COMMS_DESTROY: 100
-        STR_COMMS_EXTRACTION: 100
-        STR_COMMS_RECOVERY: 100
+        STR_SECTOR_07_COMM: 100
     regionWeights:
       0:
         STR_EUROPE: 100
@@ -328,10 +332,7 @@ missionScripts: #DONE
   - type: researchSector08
     missionWeights:
       0:
-        STR_COMMS_DEFENSE: 100
-        STR_COMMS_DESTROY: 100
-        STR_COMMS_EXTRACTION: 100
-        STR_COMMS_RECOVERY: 100
+        STR_SECTOR_08_COMM: 100
     regionWeights:
       0:
         STR_ASIA: 100
@@ -343,10 +344,7 @@ missionScripts: #DONE
   - type: researchSector09
     missionWeights:
       0:
-        STR_COMMS_DEFENSE: 100
-        STR_COMMS_DESTROY: 100
-        STR_COMMS_EXTRACTION: 100
-        STR_COMMS_RECOVERY: 100
+        STR_SECTOR_09_COMM: 100
     regionWeights:
       0:
         STR_ASIA: 100
@@ -358,10 +356,7 @@ missionScripts: #DONE
   - type: researchSector10
     missionWeights:
       0:
-        STR_COMMS_DEFENSE: 100
-        STR_COMMS_DESTROY: 100
-        STR_COMMS_EXTRACTION: 100
-        STR_COMMS_RECOVERY: 100
+        STR_SECTOR_10_COMM: 100
     regionWeights:
       0:
         STR_AFRICA: 100
@@ -373,10 +368,7 @@ missionScripts: #DONE
   - type: researchSector11
     missionWeights:
       0:
-        STR_COMMS_DEFENSE: 100
-        STR_COMMS_DESTROY: 100
-        STR_COMMS_EXTRACTION: 100
-        STR_COMMS_RECOVERY: 100
+        STR_SECTOR_11_COMM: 100
     regionWeights:
       0:
         STR_AFRICA: 100
@@ -388,10 +380,7 @@ missionScripts: #DONE
   - type: researchSector12
     missionWeights:
       0:
-        STR_COMMS_DEFENSE: 100
-        STR_COMMS_DESTROY: 100
-        STR_COMMS_EXTRACTION: 100
-        STR_COMMS_RECOVERY: 100
+        STR_SECTOR_12_COMM: 100
     regionWeights:
       0:
         STR_AFRICA: 100
@@ -403,10 +392,7 @@ missionScripts: #DONE
   - type: researchSector13
     missionWeights:
       0:
-        STR_COMMS_DEFENSE: 100
-        STR_COMMS_DESTROY: 100
-        STR_COMMS_EXTRACTION: 100
-        STR_COMMS_RECOVERY: 100
+        STR_SECTOR_13_COMM: 100
     regionWeights:
       0:
         STR_ASIA: 100
@@ -418,10 +404,7 @@ missionScripts: #DONE
   - type: researchSector14
     missionWeights:
       0:
-        STR_COMMS_DEFENSE: 100
-        STR_COMMS_DESTROY: 100
-        STR_COMMS_EXTRACTION: 100
-        STR_COMMS_RECOVERY: 100
+        STR_SECTOR_14_COMM: 100
     regionWeights:
       0:
         STR_ASIA: 100
@@ -433,10 +416,7 @@ missionScripts: #DONE
   - type: researchSector15
     missionWeights:
       0:
-        STR_COMMS_DEFENSE: 100
-        STR_COMMS_DESTROY: 100
-        STR_COMMS_EXTRACTION: 100
-        STR_COMMS_RECOVERY: 100
+        STR_SECTOR_15_COMM: 100
     regionWeights:
       0:
         STR_ASIA: 100
@@ -448,10 +428,7 @@ missionScripts: #DONE
   - type: researchSector16
     missionWeights:
       0:
-        STR_COMMS_DEFENSE: 100
-        STR_COMMS_DESTROY: 100
-        STR_COMMS_EXTRACTION: 100
-        STR_COMMS_RECOVERY: 100
+        STR_SECTOR_16_COMM: 100
     regionWeights:
       0:
         STR_ASIA: 100
@@ -463,10 +440,7 @@ missionScripts: #DONE
   - type: researchSector17
     missionWeights:
       0:
-        STR_COMMS_DEFENSE: 100
-        STR_COMMS_DESTROY: 100
-        STR_COMMS_EXTRACTION: 100
-        STR_COMMS_RECOVERY: 100
+        STR_SECTOR_17_COMM: 100
     regionWeights:
       0:
         STR_ASIA: 100
@@ -478,10 +452,7 @@ missionScripts: #DONE
   - type: researchSector18
     missionWeights:
       0:
-        STR_COMMS_DEFENSE: 100
-        STR_COMMS_DESTROY: 100
-        STR_COMMS_EXTRACTION: 100
-        STR_COMMS_RECOVERY: 100
+        STR_SECTOR_18_COMM: 100
     regionWeights:
       0:
         STR_OCEANIA: 100
@@ -493,10 +464,7 @@ missionScripts: #DONE
   - type: researchSector19
     missionWeights:
       0:
-        STR_COMMS_DEFENSE: 100
-        STR_COMMS_DESTROY: 100
-        STR_COMMS_EXTRACTION: 100
-        STR_COMMS_RECOVERY: 100
+        STR_SECTOR_19_COMM: 100
     regionWeights:
       0:
         STR_OCEANIA: 100
@@ -508,10 +476,7 @@ missionScripts: #DONE
   - type: researchSector20
     missionWeights:
       0:
-        STR_COMMS_DEFENSE: 100
-        STR_COMMS_DESTROY: 100
-        STR_COMMS_EXTRACTION: 100
-        STR_COMMS_RECOVERY: 100
+        STR_SECTOR_20_COMM: 100
     regionWeights:
       0:
         STR_OCEANIA: 100
@@ -523,10 +488,7 @@ missionScripts: #DONE
   - type: researchSector21
     missionWeights:
       0:
-        STR_COMMS_DEFENSE: 100
-        STR_COMMS_DESTROY: 100
-        STR_COMMS_EXTRACTION: 100
-        STR_COMMS_RECOVERY: 100
+        STR_SECTOR_21_COMM: 100
     regionWeights:
       0:
         STR_ANTARCTIC: 100
@@ -535,30 +497,6 @@ missionScripts: #DONE
     maxRuns: 1
     useTable: false
     varName: sector21
-  - type: gameAIPacification
-    missionWeights:
-      0:
-        STR_SKYNET_PACIFICATION: 100
-    targetBaseOdds: 100
-    useTable: false
-    varName: missionSite1
-  - type: gameAIInfiltration
-    missionWeights:
-      0:
-        STR_SKYNET_PACIFICATION: 100
-    targetBaseOdds: 50
-    executionOdds: 66
-    useTable: false
-    firstMonth: 1
-    varName: missionSite2
-  - type: gameAITermination
-    executionOdds: 50
-    missionWeights:
-      0:
-        STR_SKYNET_PACIFICATION: 100
-    firstMonth: 2
-    useTable: false
-    varName: missionSite3
   - type: story01
     missionWeights:
       0:

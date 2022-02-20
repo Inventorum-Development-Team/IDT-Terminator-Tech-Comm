@@ -286,6 +286,7 @@ events: #DONE
     regionList: [STR_ARCTIC]
     city: true
     points: 0
+    funds: 100000
     timer: 1440
     timerRandom: 28800
   - name: STR_SECTOR_00_COMM_2
@@ -301,6 +302,23 @@ events: #DONE
     background: BACK15.SCR
     regionList: [SECTOR_00]
     city: true
+    randomItemList:
+     - STR_VIKING_FUSELAGE
+     - STR_WARTHOG_FUSELAGE
+     - STR_PROWLER_FUSELAGE
+     - STR_TWIN_OTTER_FUSELAGE
+     - STR_SHERPA_FUSELAGE
+     - STR_OSPREY_FUSELAGE
+     - STR_TALON_FUSELAGE
+     - STR_LION_FUSELAGE
+     - STR_SKYHAWK_FUSELAGE
+     - STR_GOSHAWK_FUSELAGE
+     - STR_DRAGONFLY_FUSELAGE
+     - STR_BRONCO_FUSELAGE
+     - STR_TRACER_FUSELAGE
+     - STR_HAWKEYE_FUSELAGE
+     - STR_MOHAWK_FUSELAGE
+     - STR_GUARDRAIL_FUSELAGE
     points: 0
     timer: 1440
     timerRandom: 28800
@@ -310,6 +328,7 @@ events: #DONE
     regionList: [SECTOR_01]
     city: true
     points: 0
+    funds: 100000
     timer: 1440
     timerRandom: 28800
   - name: STR_SECTOR_01_COMM_2
@@ -325,6 +344,23 @@ events: #DONE
     background: BACK15.SCR
     regionList: [SECTOR_01]
     city: true
+    randomItemList:
+     - STR_VIKING_FUSELAGE
+     - STR_WARTHOG_FUSELAGE
+     - STR_PROWLER_FUSELAGE
+     - STR_TWIN_OTTER_FUSELAGE
+     - STR_SHERPA_FUSELAGE
+     - STR_OSPREY_FUSELAGE
+     - STR_TALON_FUSELAGE
+     - STR_LION_FUSELAGE
+     - STR_SKYHAWK_FUSELAGE
+     - STR_GOSHAWK_FUSELAGE
+     - STR_DRAGONFLY_FUSELAGE
+     - STR_BRONCO_FUSELAGE
+     - STR_TRACER_FUSELAGE
+     - STR_HAWKEYE_FUSELAGE
+     - STR_MOHAWK_FUSELAGE
+     - STR_GUARDRAIL_FUSELAGE
     points: 0
     timer: 1440
     timerRandom: 28800
@@ -333,6 +369,7 @@ events: #DONE
     background: BACK15.SCR
     regionList: [SECTOR_02]
     city: true
+    funds: 100000
     points: 0
     timer: 1440
     timerRandom: 28800
@@ -349,6 +386,23 @@ events: #DONE
     background: BACK15.SCR
     regionList: [SECTOR_02]
     city: true
+    randomItemList:
+     - STR_VIKING_FUSELAGE
+     - STR_WARTHOG_FUSELAGE
+     - STR_PROWLER_FUSELAGE
+     - STR_TWIN_OTTER_FUSELAGE
+     - STR_SHERPA_FUSELAGE
+     - STR_OSPREY_FUSELAGE
+     - STR_TALON_FUSELAGE
+     - STR_LION_FUSELAGE
+     - STR_SKYHAWK_FUSELAGE
+     - STR_GOSHAWK_FUSELAGE
+     - STR_DRAGONFLY_FUSELAGE
+     - STR_BRONCO_FUSELAGE
+     - STR_TRACER_FUSELAGE
+     - STR_HAWKEYE_FUSELAGE
+     - STR_MOHAWK_FUSELAGE
+     - STR_GUARDRAIL_FUSELAGE
     points: 0
     timer: 1440
     timerRandom: 28800
@@ -357,6 +411,7 @@ events: #DONE
     background: BACK15.SCR
     regionList: [SECTOR_03]
     city: true
+    funds: 100000
     points: 0
     timer: 1440
     timerRandom: 28800
@@ -373,6 +428,23 @@ events: #DONE
     background: BACK15.SCR
     regionList: [SECTOR_03]
     city: true
+    randomItemList:
+     - STR_VIKING_FUSELAGE
+     - STR_WARTHOG_FUSELAGE
+     - STR_PROWLER_FUSELAGE
+     - STR_TWIN_OTTER_FUSELAGE
+     - STR_SHERPA_FUSELAGE
+     - STR_OSPREY_FUSELAGE
+     - STR_TALON_FUSELAGE
+     - STR_LION_FUSELAGE
+     - STR_SKYHAWK_FUSELAGE
+     - STR_GOSHAWK_FUSELAGE
+     - STR_DRAGONFLY_FUSELAGE
+     - STR_BRONCO_FUSELAGE
+     - STR_TRACER_FUSELAGE
+     - STR_HAWKEYE_FUSELAGE
+     - STR_MOHAWK_FUSELAGE
+     - STR_GUARDRAIL_FUSELAGE
     points: 0
     timer: 1440
     timerRandom: 28800
@@ -381,6 +453,7 @@ events: #DONE
     background: BACK15.SCR
     regionList: [SECTOR_04]
     city: true
+    funds: 100000
     points: 0
     timer: 1440
     timerRandom: 28800
@@ -397,6 +470,23 @@ events: #DONE
     background: BACK15.SCR
     regionList: [SECTOR_04]
     city: true
+    randomItemList:
+     - STR_VIKING_FUSELAGE
+     - STR_WARTHOG_FUSELAGE
+     - STR_PROWLER_FUSELAGE
+     - STR_TWIN_OTTER_FUSELAGE
+     - STR_SHERPA_FUSELAGE
+     - STR_OSPREY_FUSELAGE
+     - STR_TALON_FUSELAGE
+     - STR_LION_FUSELAGE
+     - STR_SKYHAWK_FUSELAGE
+     - STR_GOSHAWK_FUSELAGE
+     - STR_DRAGONFLY_FUSELAGE
+     - STR_BRONCO_FUSELAGE
+     - STR_TRACER_FUSELAGE
+     - STR_HAWKEYE_FUSELAGE
+     - STR_MOHAWK_FUSELAGE
+     - STR_GUARDRAIL_FUSELAGE
     points: 0
     timer: 1440
     timerRandom: 28800
@@ -405,6 +495,7 @@ events: #DONE
     background: BACK15.SCR
     regionList: [SECTOR_05]
     city: true
+    funds: 100000
     points: 0
     timer: 1440
     timerRandom: 28800
@@ -421,6 +512,23 @@ events: #DONE
     background: BACK15.SCR
     regionList: [SECTOR_05]
     city: true
+    randomItemList:
+     - STR_VIKING_FUSELAGE
+     - STR_WARTHOG_FUSELAGE
+     - STR_PROWLER_FUSELAGE
+     - STR_TWIN_OTTER_FUSELAGE
+     - STR_SHERPA_FUSELAGE
+     - STR_OSPREY_FUSELAGE
+     - STR_TALON_FUSELAGE
+     - STR_LION_FUSELAGE
+     - STR_SKYHAWK_FUSELAGE
+     - STR_GOSHAWK_FUSELAGE
+     - STR_DRAGONFLY_FUSELAGE
+     - STR_BRONCO_FUSELAGE
+     - STR_TRACER_FUSELAGE
+     - STR_HAWKEYE_FUSELAGE
+     - STR_MOHAWK_FUSELAGE
+     - STR_GUARDRAIL_FUSELAGE
     points: 0
     timer: 1440
     timerRandom: 28800
@@ -429,6 +537,7 @@ events: #DONE
     background: BACK15.SCR
     regionList: [SECTOR_06]
     city: true
+    funds: 100000
     points: 0
     timer: 1440
     timerRandom: 28800
@@ -445,6 +554,23 @@ events: #DONE
     background: BACK15.SCR
     regionList: [SECTOR_06]
     city: true
+    randomItemList:
+     - STR_VIKING_FUSELAGE
+     - STR_WARTHOG_FUSELAGE
+     - STR_PROWLER_FUSELAGE
+     - STR_TWIN_OTTER_FUSELAGE
+     - STR_SHERPA_FUSELAGE
+     - STR_OSPREY_FUSELAGE
+     - STR_TALON_FUSELAGE
+     - STR_LION_FUSELAGE
+     - STR_SKYHAWK_FUSELAGE
+     - STR_GOSHAWK_FUSELAGE
+     - STR_DRAGONFLY_FUSELAGE
+     - STR_BRONCO_FUSELAGE
+     - STR_TRACER_FUSELAGE
+     - STR_HAWKEYE_FUSELAGE
+     - STR_MOHAWK_FUSELAGE
+     - STR_GUARDRAIL_FUSELAGE
     points: 0
     timer: 1440
     timerRandom: 28800
@@ -453,6 +579,7 @@ events: #DONE
     background: BACK15.SCR
     regionList: [SECTOR_07]
     city: true
+    funds: 100000
     points: 0
     timer: 1440
     timerRandom: 28800
@@ -469,6 +596,23 @@ events: #DONE
     background: BACK15.SCR
     regionList: [SECTOR_07]
     city: true
+    randomItemList:
+     - STR_VIKING_FUSELAGE
+     - STR_WARTHOG_FUSELAGE
+     - STR_PROWLER_FUSELAGE
+     - STR_TWIN_OTTER_FUSELAGE
+     - STR_SHERPA_FUSELAGE
+     - STR_OSPREY_FUSELAGE
+     - STR_TALON_FUSELAGE
+     - STR_LION_FUSELAGE
+     - STR_SKYHAWK_FUSELAGE
+     - STR_GOSHAWK_FUSELAGE
+     - STR_DRAGONFLY_FUSELAGE
+     - STR_BRONCO_FUSELAGE
+     - STR_TRACER_FUSELAGE
+     - STR_HAWKEYE_FUSELAGE
+     - STR_MOHAWK_FUSELAGE
+     - STR_GUARDRAIL_FUSELAGE
     points: 0
     timer: 1440
     timerRandom: 28800
@@ -478,6 +622,7 @@ events: #DONE
     regionList: [SECTOR_08]
     city: true
     points: 0
+    funds: 100000
     timer: 1440
     timerRandom: 28800
   - name: STR_SECTOR_08_COMM_2
@@ -493,6 +638,23 @@ events: #DONE
     background: BACK15.SCR
     regionList: [SECTOR_08]
     city: true
+    randomItemList:
+     - STR_VIKING_FUSELAGE
+     - STR_WARTHOG_FUSELAGE
+     - STR_PROWLER_FUSELAGE
+     - STR_TWIN_OTTER_FUSELAGE
+     - STR_SHERPA_FUSELAGE
+     - STR_OSPREY_FUSELAGE
+     - STR_TALON_FUSELAGE
+     - STR_LION_FUSELAGE
+     - STR_SKYHAWK_FUSELAGE
+     - STR_GOSHAWK_FUSELAGE
+     - STR_DRAGONFLY_FUSELAGE
+     - STR_BRONCO_FUSELAGE
+     - STR_TRACER_FUSELAGE
+     - STR_HAWKEYE_FUSELAGE
+     - STR_MOHAWK_FUSELAGE
+     - STR_GUARDRAIL_FUSELAGE
     points: 0
     timer: 1440
     timerRandom: 28800
@@ -502,6 +664,7 @@ events: #DONE
     regionList: [SECTOR_09]
     city: true
     points: 0
+    funds: 100000
     timer: 1440
     timerRandom: 28800
   - name: STR_SECTOR_09_COMM_2
@@ -517,6 +680,23 @@ events: #DONE
     background: BACK15.SCR
     regionList: [SECTOR_09]
     city: true
+    randomItemList:
+     - STR_VIKING_FUSELAGE
+     - STR_WARTHOG_FUSELAGE
+     - STR_PROWLER_FUSELAGE
+     - STR_TWIN_OTTER_FUSELAGE
+     - STR_SHERPA_FUSELAGE
+     - STR_OSPREY_FUSELAGE
+     - STR_TALON_FUSELAGE
+     - STR_LION_FUSELAGE
+     - STR_SKYHAWK_FUSELAGE
+     - STR_GOSHAWK_FUSELAGE
+     - STR_DRAGONFLY_FUSELAGE
+     - STR_BRONCO_FUSELAGE
+     - STR_TRACER_FUSELAGE
+     - STR_HAWKEYE_FUSELAGE
+     - STR_MOHAWK_FUSELAGE
+     - STR_GUARDRAIL_FUSELAGE
     points: 0
     timer: 1440
     timerRandom: 28800
@@ -526,6 +706,7 @@ events: #DONE
     regionList: [SECTOR_10]
     city: true
     points: 0
+    funds: 100000
     timer: 1440
     timerRandom: 28800
   - name: STR_SECTOR_10_COMM_2
@@ -541,6 +722,23 @@ events: #DONE
     background: BACK15.SCR
     regionList: [SECTOR_10]
     city: true
+    randomItemList:
+     - STR_VIKING_FUSELAGE
+     - STR_WARTHOG_FUSELAGE
+     - STR_PROWLER_FUSELAGE
+     - STR_TWIN_OTTER_FUSELAGE
+     - STR_SHERPA_FUSELAGE
+     - STR_OSPREY_FUSELAGE
+     - STR_TALON_FUSELAGE
+     - STR_LION_FUSELAGE
+     - STR_SKYHAWK_FUSELAGE
+     - STR_GOSHAWK_FUSELAGE
+     - STR_DRAGONFLY_FUSELAGE
+     - STR_BRONCO_FUSELAGE
+     - STR_TRACER_FUSELAGE
+     - STR_HAWKEYE_FUSELAGE
+     - STR_MOHAWK_FUSELAGE
+     - STR_GUARDRAIL_FUSELAGE
     points: 0
     timer: 1440
     timerRandom: 28800
@@ -550,6 +748,7 @@ events: #DONE
     regionList: [SECTOR_11]
     city: true
     points: 0
+    funds: 100000
     timer: 1440
     timerRandom: 28800
   - name: STR_SECTOR_11_COMM_2
@@ -565,6 +764,23 @@ events: #DONE
     background: BACK15.SCR
     regionList: [SECTOR_11]
     city: true
+    randomItemList:
+     - STR_VIKING_FUSELAGE
+     - STR_WARTHOG_FUSELAGE
+     - STR_PROWLER_FUSELAGE
+     - STR_TWIN_OTTER_FUSELAGE
+     - STR_SHERPA_FUSELAGE
+     - STR_OSPREY_FUSELAGE
+     - STR_TALON_FUSELAGE
+     - STR_LION_FUSELAGE
+     - STR_SKYHAWK_FUSELAGE
+     - STR_GOSHAWK_FUSELAGE
+     - STR_DRAGONFLY_FUSELAGE
+     - STR_BRONCO_FUSELAGE
+     - STR_TRACER_FUSELAGE
+     - STR_HAWKEYE_FUSELAGE
+     - STR_MOHAWK_FUSELAGE
+     - STR_GUARDRAIL_FUSELAGE
     points: 0
     timer: 1440
     timerRandom: 28800
@@ -573,6 +789,7 @@ events: #DONE
     background: BACK15.SCR
     regionList: [SECTOR_12]
     city: true
+    funds: 100000
     points: 0
     timer: 1440
     timerRandom: 28800
@@ -589,6 +806,23 @@ events: #DONE
     background: BACK15.SCR
     regionList: [SECTOR_12]
     city: true
+    randomItemList:
+     - STR_VIKING_FUSELAGE
+     - STR_WARTHOG_FUSELAGE
+     - STR_PROWLER_FUSELAGE
+     - STR_TWIN_OTTER_FUSELAGE
+     - STR_SHERPA_FUSELAGE
+     - STR_OSPREY_FUSELAGE
+     - STR_TALON_FUSELAGE
+     - STR_LION_FUSELAGE
+     - STR_SKYHAWK_FUSELAGE
+     - STR_GOSHAWK_FUSELAGE
+     - STR_DRAGONFLY_FUSELAGE
+     - STR_BRONCO_FUSELAGE
+     - STR_TRACER_FUSELAGE
+     - STR_HAWKEYE_FUSELAGE
+     - STR_MOHAWK_FUSELAGE
+     - STR_GUARDRAIL_FUSELAGE
     points: 0
     timer: 1440
     timerRandom: 28800
@@ -597,6 +831,7 @@ events: #DONE
     background: BACK15.SCR
     regionList: [SECTOR_13]
     city: true
+    funds: 100000
     points: 0
     timer: 1440
     timerRandom: 28800
@@ -613,6 +848,23 @@ events: #DONE
     background: BACK15.SCR
     regionList: [SECTOR_13]
     city: true
+    randomItemList:
+     - STR_VIKING_FUSELAGE
+     - STR_WARTHOG_FUSELAGE
+     - STR_PROWLER_FUSELAGE
+     - STR_TWIN_OTTER_FUSELAGE
+     - STR_SHERPA_FUSELAGE
+     - STR_OSPREY_FUSELAGE
+     - STR_TALON_FUSELAGE
+     - STR_LION_FUSELAGE
+     - STR_SKYHAWK_FUSELAGE
+     - STR_GOSHAWK_FUSELAGE
+     - STR_DRAGONFLY_FUSELAGE
+     - STR_BRONCO_FUSELAGE
+     - STR_TRACER_FUSELAGE
+     - STR_HAWKEYE_FUSELAGE
+     - STR_MOHAWK_FUSELAGE
+     - STR_GUARDRAIL_FUSELAGE
     points: 0
     timer: 1440
     timerRandom: 28800
@@ -622,6 +874,7 @@ events: #DONE
     regionList: [SECTOR_14]
     city: true
     points: 0
+    funds: 100000
     timer: 1440
     timerRandom: 28800
   - name: STR_SECTOR_14_COMM_2
@@ -637,6 +890,23 @@ events: #DONE
     background: BACK15.SCR
     regionList: [SECTOR_14]
     city: true
+    randomItemList:
+     - STR_VIKING_FUSELAGE
+     - STR_WARTHOG_FUSELAGE
+     - STR_PROWLER_FUSELAGE
+     - STR_TWIN_OTTER_FUSELAGE
+     - STR_SHERPA_FUSELAGE
+     - STR_OSPREY_FUSELAGE
+     - STR_TALON_FUSELAGE
+     - STR_LION_FUSELAGE
+     - STR_SKYHAWK_FUSELAGE
+     - STR_GOSHAWK_FUSELAGE
+     - STR_DRAGONFLY_FUSELAGE
+     - STR_BRONCO_FUSELAGE
+     - STR_TRACER_FUSELAGE
+     - STR_HAWKEYE_FUSELAGE
+     - STR_MOHAWK_FUSELAGE
+     - STR_GUARDRAIL_FUSELAGE
     points: 0
     timer: 1440
     timerRandom: 28800
@@ -646,6 +916,7 @@ events: #DONE
     regionList: [SECTOR_15]
     city: true
     points: 0
+    funds: 100000
     timer: 1440
     timerRandom: 28800
   - name: STR_SECTOR_15_COMM_2
@@ -661,6 +932,23 @@ events: #DONE
     background: BACK15.SCR
     regionList: [SECTOR_15]
     city: true
+    randomItemList:
+     - STR_VIKING_FUSELAGE
+     - STR_WARTHOG_FUSELAGE
+     - STR_PROWLER_FUSELAGE
+     - STR_TWIN_OTTER_FUSELAGE
+     - STR_SHERPA_FUSELAGE
+     - STR_OSPREY_FUSELAGE
+     - STR_TALON_FUSELAGE
+     - STR_LION_FUSELAGE
+     - STR_SKYHAWK_FUSELAGE
+     - STR_GOSHAWK_FUSELAGE
+     - STR_DRAGONFLY_FUSELAGE
+     - STR_BRONCO_FUSELAGE
+     - STR_TRACER_FUSELAGE
+     - STR_HAWKEYE_FUSELAGE
+     - STR_MOHAWK_FUSELAGE
+     - STR_GUARDRAIL_FUSELAGE
     points: 0
     timer: 1440
     timerRandom: 28800
@@ -670,6 +958,7 @@ events: #DONE
     regionList: [SECTOR_16]
     city: true
     points: 0
+    funds: 100000
     timer: 1440
     timerRandom: 28800
   - name: STR_SECTOR_16_COMM_2
@@ -685,6 +974,23 @@ events: #DONE
     background: BACK15.SCR
     regionList: [SECTOR_16]
     city: true
+    randomItemList:
+     - STR_VIKING_FUSELAGE
+     - STR_WARTHOG_FUSELAGE
+     - STR_PROWLER_FUSELAGE
+     - STR_TWIN_OTTER_FUSELAGE
+     - STR_SHERPA_FUSELAGE
+     - STR_OSPREY_FUSELAGE
+     - STR_TALON_FUSELAGE
+     - STR_LION_FUSELAGE
+     - STR_SKYHAWK_FUSELAGE
+     - STR_GOSHAWK_FUSELAGE
+     - STR_DRAGONFLY_FUSELAGE
+     - STR_BRONCO_FUSELAGE
+     - STR_TRACER_FUSELAGE
+     - STR_HAWKEYE_FUSELAGE
+     - STR_MOHAWK_FUSELAGE
+     - STR_GUARDRAIL_FUSELAGE
     points: 0
     timer: 1440
     timerRandom: 28800
@@ -694,6 +1000,7 @@ events: #DONE
     regionList: [SECTOR_17]
     city: true
     points: 0
+    funds: 100000
     timer: 1440
     timerRandom: 28800
   - name: STR_SECTOR_17_COMM_2
@@ -709,6 +1016,23 @@ events: #DONE
     background: BACK15.SCR
     regionList: [SECTOR_17]
     city: true
+    randomItemList:
+     - STR_VIKING_FUSELAGE
+     - STR_WARTHOG_FUSELAGE
+     - STR_PROWLER_FUSELAGE
+     - STR_TWIN_OTTER_FUSELAGE
+     - STR_SHERPA_FUSELAGE
+     - STR_OSPREY_FUSELAGE
+     - STR_TALON_FUSELAGE
+     - STR_LION_FUSELAGE
+     - STR_SKYHAWK_FUSELAGE
+     - STR_GOSHAWK_FUSELAGE
+     - STR_DRAGONFLY_FUSELAGE
+     - STR_BRONCO_FUSELAGE
+     - STR_TRACER_FUSELAGE
+     - STR_HAWKEYE_FUSELAGE
+     - STR_MOHAWK_FUSELAGE
+     - STR_GUARDRAIL_FUSELAGE
     points: 0
     timer: 1440
     timerRandom: 28800
@@ -718,6 +1042,7 @@ events: #DONE
     regionList: [SECTOR_18]
     city: true
     points: 0
+    funds: 100000
     timer: 1440
     timerRandom: 28800
   - name: STR_SECTOR_18_COMM_2
@@ -733,6 +1058,23 @@ events: #DONE
     background: BACK15.SCR
     regionList: [SECTOR_18]
     city: true
+    randomItemList:
+     - STR_VIKING_FUSELAGE
+     - STR_WARTHOG_FUSELAGE
+     - STR_PROWLER_FUSELAGE
+     - STR_TWIN_OTTER_FUSELAGE
+     - STR_SHERPA_FUSELAGE
+     - STR_OSPREY_FUSELAGE
+     - STR_TALON_FUSELAGE
+     - STR_LION_FUSELAGE
+     - STR_SKYHAWK_FUSELAGE
+     - STR_GOSHAWK_FUSELAGE
+     - STR_DRAGONFLY_FUSELAGE
+     - STR_BRONCO_FUSELAGE
+     - STR_TRACER_FUSELAGE
+     - STR_HAWKEYE_FUSELAGE
+     - STR_MOHAWK_FUSELAGE
+     - STR_GUARDRAIL_FUSELAGE
     points: 0
     timer: 1440
     timerRandom: 28800
@@ -742,6 +1084,7 @@ events: #DONE
     regionList: [SECTOR_19]
     city: true
     points: 0
+    funds: 100000
     timer: 1440
     timerRandom: 28800
   - name: STR_SECTOR_19_COMM_2
@@ -757,6 +1100,23 @@ events: #DONE
     background: BACK15.SCR
     regionList: [SECTOR_19]
     city: true
+    randomItemList:
+     - STR_VIKING_FUSELAGE
+     - STR_WARTHOG_FUSELAGE
+     - STR_PROWLER_FUSELAGE
+     - STR_TWIN_OTTER_FUSELAGE
+     - STR_SHERPA_FUSELAGE
+     - STR_OSPREY_FUSELAGE
+     - STR_TALON_FUSELAGE
+     - STR_LION_FUSELAGE
+     - STR_SKYHAWK_FUSELAGE
+     - STR_GOSHAWK_FUSELAGE
+     - STR_DRAGONFLY_FUSELAGE
+     - STR_BRONCO_FUSELAGE
+     - STR_TRACER_FUSELAGE
+     - STR_HAWKEYE_FUSELAGE
+     - STR_MOHAWK_FUSELAGE
+     - STR_GUARDRAIL_FUSELAGE
     points: 0
     timer: 1440
     timerRandom: 28800
@@ -766,6 +1126,7 @@ events: #DONE
     regionList: [SECTOR_20]
     city: true
     points: 0
+    funds: 100000
     timer: 1440
     timerRandom: 28800
   - name: STR_SECTOR_20_COMM_2
@@ -781,6 +1142,23 @@ events: #DONE
     background: BACK15.SCR
     regionList: [SECTOR_20]
     city: true
+    randomItemList:
+     - STR_VIKING_FUSELAGE
+     - STR_WARTHOG_FUSELAGE
+     - STR_PROWLER_FUSELAGE
+     - STR_TWIN_OTTER_FUSELAGE
+     - STR_SHERPA_FUSELAGE
+     - STR_OSPREY_FUSELAGE
+     - STR_TALON_FUSELAGE
+     - STR_LION_FUSELAGE
+     - STR_SKYHAWK_FUSELAGE
+     - STR_GOSHAWK_FUSELAGE
+     - STR_DRAGONFLY_FUSELAGE
+     - STR_BRONCO_FUSELAGE
+     - STR_TRACER_FUSELAGE
+     - STR_HAWKEYE_FUSELAGE
+     - STR_MOHAWK_FUSELAGE
+     - STR_GUARDRAIL_FUSELAGE
     points: 0
     timer: 1440
     timerRandom: 28800
@@ -790,6 +1168,7 @@ events: #DONE
     regionList: [SECTOR_21]
     city: true
     points: 0
+    funds: 100000
     timer: 1440
     timerRandom: 28800
   - name: STR_SECTOR_21_COMM_2
@@ -805,6 +1184,23 @@ events: #DONE
     background: BACK15.SCR
     regionList: [SECTOR_21]
     city: true
+    randomItemList:
+     - STR_VIKING_FUSELAGE
+     - STR_WARTHOG_FUSELAGE
+     - STR_PROWLER_FUSELAGE
+     - STR_TWIN_OTTER_FUSELAGE
+     - STR_SHERPA_FUSELAGE
+     - STR_OSPREY_FUSELAGE
+     - STR_TALON_FUSELAGE
+     - STR_LION_FUSELAGE
+     - STR_SKYHAWK_FUSELAGE
+     - STR_GOSHAWK_FUSELAGE
+     - STR_DRAGONFLY_FUSELAGE
+     - STR_BRONCO_FUSELAGE
+     - STR_TRACER_FUSELAGE
+     - STR_HAWKEYE_FUSELAGE
+     - STR_MOHAWK_FUSELAGE
+     - STR_GUARDRAIL_FUSELAGE
     points: 0
     timer: 1440
     timerRandom: 28800

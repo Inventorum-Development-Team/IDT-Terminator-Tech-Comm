@@ -1273,10 +1273,85 @@ alienMissions:
         trajectory: T10
         timer: 0
         objective: true
+  - &STR_SECTOR_COMMS
+    type: STR_SECTOR_MISSION
+    points: 0
+    objective: 2
+    spawnZone: 1
+    raceWeights:
+      0:
+        STR_T200: 60
+        STR_T300: 40
+      1:
+        STR_T300: 50
+        STR_T400: 50
+      3:
+        STR_T400: 30
+        STR_T500: 30
+        STR_T600: 40
+      5:
+        STR_T600: 10
+        STR_T700: 80
+        STR_T800: 10
+      7:
+        STR_T700: 50
+        STR_T800: 50
+      9:
+        STR_T700: 20
+        STR_T800: 80
+    waves:
+      - ufo: bogus
+        count: 1
+        trajectory: T10
+        timer: 0
+        objective: true
+  - type: STR_SECTOR_00_COMM
+    refNode: *STR_SECTOR_COMMS
+  - type: STR_SECTOR_01_COMM
+    refNode: *STR_SECTOR_COMMS
+  - type: STR_SECTOR_02_COMM
+    refNode: *STR_SECTOR_COMMS
+  - type: STR_SECTOR_03_COMM
+    refNode: *STR_SECTOR_COMMS
+  - type: STR_SECTOR_04_COMM
+    refNode: *STR_SECTOR_COMMS
+  - type: STR_SECTOR_05_COMM
+    refNode: *STR_SECTOR_COMMS
+  - type: STR_SECTOR_06_COMM
+    refNode: *STR_SECTOR_COMMS
+  - type: STR_SECTOR_07_COMM
+    refNode: *STR_SECTOR_COMMS
+  - type: STR_SECTOR_08_COMM
+    refNode: *STR_SECTOR_COMMS
+  - type: STR_SECTOR_09_COMM
+    refNode: *STR_SECTOR_COMMS
+  - type: STR_SECTOR_10_COMM
+    refNode: *STR_SECTOR_COMMS
+  - type: STR_SECTOR_11_COMM
+    refNode: *STR_SECTOR_COMMS
+  - type: STR_SECTOR_12_COMM
+    refNode: *STR_SECTOR_COMMS
+  - type: STR_SECTOR_13_COMM
+    refNode: *STR_SECTOR_COMMS
+  - type: STR_SECTOR_14_COMM
+    refNode: *STR_SECTOR_COMMS
+  - type: STR_SECTOR_15_COMM
+    refNode: *STR_SECTOR_COMMS
+  - type: STR_SECTOR_16_COMM
+    refNode: *STR_SECTOR_COMMS
+  - type: STR_SECTOR_17_COMM
+    refNode: *STR_SECTOR_COMMS
+  - type: STR_SECTOR_18_COMM
+    refNode: *STR_SECTOR_COMMS
+  - type: STR_SECTOR_19_COMM
+    refNode: *STR_SECTOR_COMMS
+  - type: STR_SECTOR_20_COMM
+    refNode: *STR_SECTOR_COMMS
+  - type: STR_SECTOR_21_COMM
+    refNode: *STR_SECTOR_COMMS
   - type: STR_COMMS_DEFENSE
     points: 0
     objective: 2
-    siteType: STR_ABANDONED_BASE_ASSAULT
     spawnZone: 1
     raceWeights:
       0:
@@ -1308,7 +1383,6 @@ alienMissions:
   - type: STR_COMMS_DESTROY
     points: 0
     objective: 2
-    siteType: STR_ABANDONED_BASE_ASSAULT
     spawnZone: 1
     raceWeights:
       0:
@@ -1340,7 +1414,6 @@ alienMissions:
   - type: STR_COMMS_EXTRACTION
     points: 0
     objective: 2
-    siteType: STR_ABANDONED_BASE_ASSAULT
     spawnZone: 1
     raceWeights:
       0:
@@ -1372,7 +1445,6 @@ alienMissions:
   - type: STR_COMMS_RECOVERY
     points: 0
     objective: 2
-    siteType: STR_ABANDONED_BASE_ASSAULT
     spawnZone: 1
     raceWeights:
       0:

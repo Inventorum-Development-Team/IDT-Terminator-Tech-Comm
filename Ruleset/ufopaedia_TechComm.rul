@@ -126,6 +126,96 @@ ufopaedia:
   - delete: STR_SECTOPOD
   - delete: STR_SECTOPOD_AUTOPSY
 #COMM ORDERS
+  - id: STR_TECHCOMM
+    type_id: 7
+    section: STR_INTELPEDIA_0
+    image_id: TECH_COMM_IMAGE
+    text: STR_TECHCOMM_UFOPEDIA
+    listOrder: 1050
+    text_width: 316
+  - id: STR_RESISTANCE_PERSONNEL
+    type_id: 7
+    section: STR_INTELPEDIA_0
+    image_id: RESISTANCE_PERSONNEL_IMAGE
+    text: STR_RESISTANCE_PERSONNEL_UFOPEDIA
+    listOrder: 1051
+    text_width: 316
+  - id: STR_GRAVEYARD_AIRFORCE
+    type_id: 7
+    section: STR_INTELPEDIA_0
+    image_id: RESISTANCE_CRAFT_IMAGE
+    text: STR_GRAVEYARD_AIRFORCE_UFOPEDIA
+    listOrder: 1052
+    text_width: 316
+  - id: STR_TECHCOMM_BASES
+    type_id: 7
+    section: STR_INTELPEDIA_0
+    image_id: TECH_COMM_BASES_IMAGE
+    text: STR_TECHCOMM_BASES_UFOPEDIA
+    listOrder: 1053
+    text_width: 316
+  - id: STR_RESISTANCE_MISSIONS
+    type_id: 7
+    section: STR_INTELPEDIA_0
+    image_id: RESISTANCE_MISSIONS_IMAGE
+    text: STR_RESISTANCE_MISSIONS_UFOPEDIA
+    listOrder: 1054
+    text_width: 316
+  - id: STR_RESISTANCE_ORDER_1
+    type_id: 7
+    section: STR_INTELPEDIA_0
+    image_id: COMM_REPORT_1
+    text: STR_RESISTANCE_ORDER_1_UFOPEDIA
+    requires:
+      - STR_RESISTANCE_ORDER_1
+    listOrder: 1000
+    text_width: 316
+  - id: STR_RESISTANCE_ORDER_2
+    type_id: 7
+    section: STR_INTELPEDIA_0
+    image_id: COMM_REPORT_2
+    text: STR_RESISTANCE_ORDER_2_UFOPEDIA
+    requires:
+      - STR_RESISTANCE_ORDER_2
+    listOrder: 1001
+    text_width: 316
+  - id: STR_RESISTANCE_ORDER_3
+    type_id: 7
+    section: STR_INTELPEDIA_0
+    image_id: COMM_REPORT_3
+    text: STR_RESISTANCE_ORDER_3_UFOPEDIA
+    requires:
+      - STR_RESISTANCE_ORDER_3
+    listOrder: 1002
+    text_width: 316
+  - id: STR_RESISTANCE_ORDER_4
+    type_id: 7
+    section: STR_INTELPEDIA_0
+    image_id: COMM_REPORT_4
+    text: STR_RESISTANCE_ORDER_4_UFOPEDIA
+    requires:
+      - STR_RESISTANCE_ORDER_4
+    listOrder: 1003
+    text_width: 316
+  - id: STR_RESISTANCE_ORDER_5
+    type_id: 7
+    section: STR_INTELPEDIA_0
+    image_id: COMM_REPORT_1
+    text: STR_RESISTANCE_ORDER_5_UFOPEDIA
+    requires:
+      - STR_RESISTANCE_ORDER_5
+    listOrder: 1004
+    text_width: 316
+  - id: STR_RESISTANCE_ORDER_6
+    type_id: 7
+    section: STR_INTELPEDIA_0
+    image_id: COMM_REPORT_2
+    text: STR_RESISTANCE_ORDER_6_UFOPEDIA
+    requires:
+      - STR_RESISTANCE_ORDER_6
+    listOrder: 1005
+    text_width: 316
+#COMM AIs
   - id: STR_AI_SKYNET
     type_id: 7
     text_width: 316
@@ -216,95 +306,6 @@ ufopaedia:
       - STR_AI_MAGIC_CARPET
     text: STR_AI_MAGIC_CARPET_UFOPEDIA
     listOrder: 909
-  - id: STR_RESISTANCE_ORDER_1
-    type_id: 7
-    section: STR_INTELPEDIA_1
-    image_id: COMM_REPORT_1
-    text: STR_RESISTANCE_ORDER_1_UFOPEDIA
-    requires:
-      - STR_RESISTANCE_ORDER_1
-    listOrder: 1000
-    text_width: 316
-  - id: STR_RESISTANCE_ORDER_2
-    type_id: 7
-    section: STR_INTELPEDIA_1
-    image_id: COMM_REPORT_2
-    text: STR_RESISTANCE_ORDER_2_UFOPEDIA
-    requires:
-      - STR_RESISTANCE_ORDER_2
-    listOrder: 1001
-    text_width: 316
-  - id: STR_RESISTANCE_ORDER_3
-    type_id: 7
-    section: STR_INTELPEDIA_1
-    image_id: COMM_REPORT_3
-    text: STR_RESISTANCE_ORDER_3_UFOPEDIA
-    requires:
-      - STR_RESISTANCE_ORDER_3
-    listOrder: 1002
-    text_width: 316
-  - id: STR_RESISTANCE_ORDER_4
-    type_id: 7
-    section: STR_INTELPEDIA_1
-    image_id: COMM_REPORT_4
-    text: STR_RESISTANCE_ORDER_4_UFOPEDIA
-    requires:
-      - STR_RESISTANCE_ORDER_4
-    listOrder: 1003
-    text_width: 316
-  - id: STR_RESISTANCE_ORDER_5
-    type_id: 7
-    section: STR_INTELPEDIA_1
-    image_id: COMM_REPORT_1
-    text: STR_RESISTANCE_ORDER_5_UFOPEDIA
-    requires:
-      - STR_RESISTANCE_ORDER_5
-    listOrder: 1004
-    text_width: 316
-  - id: STR_RESISTANCE_ORDER_6
-    type_id: 7
-    section: STR_INTELPEDIA_1
-    image_id: COMM_REPORT_2
-    text: STR_RESISTANCE_ORDER_6_UFOPEDIA
-    requires:
-      - STR_RESISTANCE_ORDER_6
-    listOrder: 1005
-    text_width: 316
-  - id: STR_TECHCOMM
-    type_id: 7
-    section: STR_INTELPEDIA_1
-    image_id: TECH_COMM_IMAGE
-    text: STR_TECHCOMM_UFOPEDIA
-    listOrder: 1050
-    text_width: 316
-  - id: STR_RESISTANCE_PERSONNEL
-    type_id: 7
-    section: STR_INTELPEDIA_1
-    image_id: RESISTANCE_PERSONNEL_IMAGE
-    text: STR_RESISTANCE_PERSONNEL_UFOPEDIA
-    listOrder: 1051
-    text_width: 316
-  - id: STR_GRAVEYARD_AIRFORCE
-    type_id: 7
-    section: STR_INTELPEDIA_1
-    image_id: RESISTANCE_CRAFT_IMAGE
-    text: STR_GRAVEYARD_AIRFORCE_UFOPEDIA
-    listOrder: 1052
-    text_width: 316
-  - id: STR_TECHCOMM_BASES
-    type_id: 7
-    section: STR_INTELPEDIA_1
-    image_id: TECH_COMM_BASES_IMAGE
-    text: STR_TECHCOMM_BASES_UFOPEDIA
-    listOrder: 1053
-    text_width: 316
-  - id: STR_RESISTANCE_MISSIONS
-    type_id: 7
-    section: STR_INTELPEDIA_1
-    image_id: RESISTANCE_MISSIONS_IMAGE
-    text: STR_RESISTANCE_MISSIONS_UFOPEDIA
-    listOrder: 1054
-    text_width: 316
 #COMM SECTORS
   - id: STR_SECTOR_COMMS
     type_id: 7

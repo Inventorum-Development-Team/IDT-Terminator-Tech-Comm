@@ -1434,14 +1434,14 @@ alienDeployments:
     refNode: *STR_COMMS_DESTROY
     terrains:
       - AREA51_DESTROY
-    alert: STR_COMMS_DESTROY_ALERT
+    alert: STR_COMMS_DESTROY_MISSILE_ALERT
     alertBackground: BACK03.SCR
     briefing:
-      title: STR_COMMS_DESTROY
-      desc: STR_COMMS_DESTROY_BRIEFING
+      title: STR_COMMS_DESTROY_MISSILE_MISSION
+      desc: STR_COMMS_DESTROY_MISSILE_BRIEFING
       palette: 2
       music: GMENBASE    
-    markerName: STR_COMMS_DESTROY_MARKER
+    markerName: STR_COMMS_DESTROY_MISSILE_MARKER
     objectiveType: 15
     objectivesRequired: 16
     objectiveComplete: [STR_MISSILE_SILO_DISABLED, 500]
@@ -1454,11 +1454,15 @@ alienDeployments:
     alert: STR_COMMS_DESTROY_ALERT
     alertBackground: BACK03.SCR
     briefing:
-      title: STR_COMMS_DESTROY
-      desc: STR_COMMS_DESTROY_BRIEFING
-      palette: 2
-      music: GMENBASE    
-    markerName: STR_COMMS_DESTROY_MARKER
+      title: STR_COMMS_DESTROY_RESEARCH_MISSION
+      desc: STR_COMMS_DESTROY_RESEARCH_BRIEFING
+      palette: 4
+      music: GMENBASE
+      showTarget: false
+      showCraft: false
+      textOffset: -24
+      background: BACK18.SCR   
+    markerName: STR_COMMS_DESTROY_RESEARCH_MARKER
     objectiveType: 15
     objectivesRequired: 32
     objectiveComplete: [STR_DATABANKS_DISABLED, 500]
@@ -1468,14 +1472,17 @@ alienDeployments:
     refNode: *STR_COMMS_DESTROY
     terrains:
       - COLDISLE_DESTROY
-    alert: STR_COMMS_DESTROY_ALERT
+    alert: STR_COMMS_DESTROY_RADAR_ALERT
     alertBackground: BACK03.SCR
     briefing:
-      title: STR_COMMS_DESTROY
-      desc: STR_COMMS_DESTROY_BRIEFING
-      palette: 2
-      music: GMENBASE    
-    markerName: STR_COMMS_DESTROY_MARKER
+      title: STR_COMMS_DESTROY_RADAR_MISSION
+      desc: STR_COMMS_DESTROY_RADAR_BRIEFING
+      palette: 4
+      showTarget: false
+      showCraft: true
+      textOffset: -16
+      background: BACK18.SCR
+    markerName: STR_COMMS_DESTROY_RADAR_MARKER
     objectiveType: 15
     objectivesRequired: 20
     objectiveFailed: [STR_RADAR_BASE_OPERATIONAL, -500]
@@ -1485,14 +1492,18 @@ alienDeployments:
     refNode: *STR_COMMS_DESTROY
     terrains:
       - AREA51_COMPLEX18_DESTROY
-    alert: STR_COMMS_DESTROY_ALERT
+    alert: STR_COMMS_DESTROY_COMPLEX_ALERT
     alertBackground: BACK03.SCR
     briefing:
-      title: STR_COMMS_DESTROY
-      desc: STR_COMMS_DESTROY_BRIEFING
-      palette: 2
-      music: GMENBASE    
-    markerName: STR_COMMS_DESTROY_MARKER
+      title: STR_COMMS_DESTROY_COMPLEX_MISSION
+      desc: STR_COMMS_DESTROY_COMPLEX_BRIEFING
+      palette: 4
+      music: GMENBASE
+      showTarget: false
+      showCraft: false
+      textOffset: -24
+      background: BACK18.SCR
+    markerName: STR_COMMS_DESTROY_COMPLEX_MARKER
     objectiveType: 15
     objectivesRequired: 6
     objectiveComplete: [STR_SCIENCE_STATION_DISABLED, 500]
@@ -1502,14 +1513,18 @@ alienDeployments:
     refNode: *STR_COMMS_DESTROY
     terrains:
       - AREA51_SIBERIA_DESTROY
-    alert: STR_COMMS_DESTROY_ALERT
+    alert: STR_COMMS_DESTROY_RESEARCH_ALERT
     alertBackground: BACK03.SCR
     briefing:
-      title: STR_COMMS_DESTROY
-      desc: STR_COMMS_DESTROY_BRIEFING
-      palette: 2
-      music: GMENBASE    
-    markerName: STR_COMMS_DESTROY_MARKER
+      title: STR_COMMS_DESTROY_RESEARCH_MISSION
+      desc: STR_COMMS_DESTROY_SIBERIA_BRIEFING
+      palette: 4
+      music: GMENBASE
+      showTarget: false
+      showCraft: false
+      textOffset: -24
+      background: BACK18.SCR 
+    markerName: STR_COMMS_DESTROY_SIBERIA_MARKER
     objectiveType: 15
     objectivesRequired: 32
     objectiveComplete: [STR_DATABANKS_DISABLED, 500]
@@ -1520,14 +1535,18 @@ alienDeployments:
     shade: 5
     terrains:
       - STORMMOUNTAIN_DESTROY
-    alert: STR_COMMS_DESTROY_ALERT
+    alert: STR_COMMS_DESTROY_RESEARCH_ALERT
     alertBackground: BACK03.SCR
     briefing:
-      title: STR_COMMS_DESTROY
-      desc: STR_COMMS_DESTROY_BRIEFING
-      palette: 2
-      music: GMENBASE    
-    markerName: STR_COMMS_DESTROY_MARKER
+      title: STR_COMMS_DESTROY_RESEARCH_MISSION
+      desc: STR_COMMS_DESTROY_STORM_BRIEFING
+      palette: 4
+      music: GMENBASE
+      showTarget: false
+      showCraft: false
+      textOffset: -24
+      background: BACK18.SCR 
+    markerName: STR_COMMS_DESTROY_RESEARCH_MARKER
     objectiveType: 15
     objectivesRequired: 32
     objectiveComplete: [STR_DATABANKS_DISABLED, 500]

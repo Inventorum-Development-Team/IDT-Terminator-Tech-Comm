@@ -185,12 +185,19 @@ research:
   - name: STR_TECH_SYSTEMS #UNLOCKS CRAFT & WEAPONS
     cost: 50
     points: 10
+    getOneFree:
+      - STR_SKYNET_FACILITIES
   - name: STR_HARDENED_FACILITIES
     cost: 50
     points: 10
     dependencies:
       - STR_SECTOR_COMMS
   - name: STR_DAMAGED_FACILITIES
+    cost: 50
+    points: 10
+    dependencies:
+      - STR_AI_SKYNET
+  - name: STR_SKYNET_FACILITIES
     cost: 50
     points: 10
     dependencies:
