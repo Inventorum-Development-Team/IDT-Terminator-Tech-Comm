@@ -1,11 +1,15 @@
 Tech-Comm Change Log
-V0.4.6
-* Added: Added Sector missions, Destroy, Recovery, Defense and Extraction
-* Added: Synthetic Fuels, unlock Fuel Pods which no give 500 units 
-* Added: Archangel, Aurora and Valkyrie crafts
+V0.4.7
+* Added: Sector Comms research, which unlock resource missions on a specific country (sector)
+* Added: Added Sector Comm resource missions: Destroy, Recovery, Defense and Extraction
+* Added: Area 51, Complex, Biolab, Siberia, Cold Isle, Storm Mountain terrains for the resource missions
+* Added: Sector events triggered by the sector research, can provide additional resources or nothing at all
+* Added: Skyranger Factory, HWP Factory, Factory and Bunker terrains for story missions
+* Added: Synthetic Fuels, unlock Fuel Pods which give 500 fuel to craft equipping them 
+* Added: Archangel, Aurora and Valkyrie crafts to be unlocked later in the campaign
 * Replaced: Dynavert craft with Senior Citizen (Dragonfly from War Of The Shadows mod)
 * Removed: Super Osprey craft
-* Added: Genie and Falcon craft weapons
+* Added: Genie and Falcon craft weapons (good old nukes)
 * Added: several missing entries to the Intelpedia
 * Added: Tech-Comm HQ, Storage, Infirmary, Housing, Mine Field and Craft Pen base facilities
 * Added: John Connor, Kyle Reese and other Terminator human characters

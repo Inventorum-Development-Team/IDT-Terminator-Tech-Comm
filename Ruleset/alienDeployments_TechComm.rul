@@ -1029,7 +1029,7 @@ alienDeployments:
       desc: STR_ABANDONED_BASE_BRIEFING
       palette: 2
       music: GMENBASE
-    objectiveType: 3  
+    objectiveType: 3
     markerName: STR_ABANDONED_BASE
     markerIcon: 16
     genMission:
@@ -1139,13 +1139,13 @@ alienDeployments:
     civilians: 8
     terrains:
       - TECHCOMMBASE
-    alert: STR_COMMS_ASSAULT_ALERT
+    alert: STR_ABANDONED_BASE
     alertBackground: BACK185.SCR
     briefing:
       desc: STR_COMMS_ASSAULT_BRIEFING
       palette: 2
       music: GMENBASE    
-    markerName: STR_COMMS_ASSAULT_MARKER
+    markerName: STR_ABANDONED_BASE_MARKER
     markerIcon: 10
     duration: [720, 720]
     despawnPenalty: 0
@@ -1271,22 +1271,27 @@ alienDeployments:
       - COLDISLE_EXTRACTION
       - AREA51_SIBERIA_DEFENSE
       - STORMMOUNTAIN_DEFENSE
-    alert: STR_COMMS_DEFENSE_ALERT
+    alert: STR_ABANDONED_BASE_ALERT
     alertBackground: BACK03.SCR
     briefing:
       title: STR_COMMS_DEFENSE
       desc: STR_COMMS_DEFENSE_BRIEFING
       palette: 2
-      music: GMENBASE    
-    markerName: STR_COMMS_DEFENSE_MARKER
-    markerIcon: 5
-    duration: [72, 120]
-    turnLimit: 25
-    chronoTrigger: 2
-    cheatTurn: 0
-    keepCraftAfterFailedMission: true
-    despawnPenalty: 0
+      music: GMENBASE
+    objectiveType: 3
+    markerName: STR_ABANDONED_BASE
+    markerIcon: 16
+    genMission:
+      STR_SKYNET_SUPPLY: 10
+    genMissionFreq: 0
+    alienBase: true    # this is only to tell new battle mode what to do with this deployment
+    objectiveComplete: [STR_ABANDONED_BASE_RECOVERED, 500]
+    objectivePopup: STR_ABANDONED_BASE_RECOVERED
     points: 500
+    successEvents:
+     STR_SECTOR_COMM_1: 100
+     STR_SECTOR_COMM_2: 100
+     STR_SECTOR_COMM_3: 100
   - &STR_COMMS_DESTROY
     type: STR_COMMS_DESTROY
     data: *SKYNET_RESISTANCE
@@ -1300,17 +1305,24 @@ alienDeployments:
       - COLDISLE_DESTROY
       - AREA51_SIBERIA_DESTROY
       - STORMMOUNTAIN_DESTROY
-    alert: STR_COMMS_DESTROY_ALERT
+    alert: STR_ABANDONED_BASE_ALERT
     alertBackground: BACK03.SCR
     briefing:
       title: STR_COMMS_DESTROY
       desc: STR_COMMS_DESTROY_BRIEFING
       palette: 2
       music: GMENBASE    
-    markerName: STR_COMMS_DESTROY_MARKER
-    markerIcon: 10
-    duration: [720, 720]
-    despawnPenalty: 0
+    markerName: STR_ABANDONED_BASE_MARKER
+    markerIcon: 16
+    genMission:
+      STR_SKYNET_SUPPLY: 10
+    genMissionFreq: 0
+    alienBase: true    # this is only to tell new battle mode what to do with this deployment
+    points: 500
+    successEvents:
+     STR_SECTOR_COMM_1: 100
+     STR_SECTOR_COMM_2: 100
+     STR_SECTOR_COMM_3: 100
     objectiveType: 15
     objectivesRequired: 16
     objectiveComplete: [STR_MISSILE_SILO_DISABLED, 750]
@@ -1332,16 +1344,25 @@ alienDeployments:
       - COLDISLE_EXTRACTION
       - AREA51_SIBERIA_EXTRACTION
       - STORMMOUNTAIN_EXTRACTION
-    alert: STR_COMMS_EXTRACTION_ALERT
+    alert: STR_ABANDONED_BASE_ALERT
     alertBackground: BACK185.SCR
     briefing:
       desc: STR_COMMS_EXTRACTION_BRIEFING
       palette: 2
       music: GMENBASE    
-    markerName: STR_COMMS_EXTRACTION_MARKER
-    markerIcon: 1
-    duration: [720, 720]
-    despawnPenalty: 0
+    markerName: STR_ABANDONED_BASE
+    markerIcon: 16
+    genMission:
+      STR_SKYNET_SUPPLY: 10
+    genMissionFreq: 0
+    alienBase: true    # this is only to tell new battle mode what to do with this deployment
+    objectiveComplete: [STR_ABANDONED_BASE_RECOVERED, 500]
+    objectivePopup: STR_ABANDONED_BASE_RECOVERED
+    points: 500
+    successEvents:
+     STR_SECTOR_COMM_1: 100
+     STR_SECTOR_COMM_2: 100
+     STR_SECTOR_COMM_3: 100
     turnLimit: 25
     chronoTrigger: 0
     cheatTurn: 10
@@ -1360,16 +1381,25 @@ alienDeployments:
       - AREA51_SIBERIA_RESEARCH
       - COLDISLE_RESEARCH
       - STORMMOUNTAIN_RESEARCH
-    alert: STR_COMMS_RECOVERY_ALERT
+    alert: STR_ABANDONED_BASE_ALERT
     alertBackground: BACK18.SCR
     briefing:
       desc: STR_COMMS_RECOVERY_BRIEFING
       palette: 2
       music: GMENBASE    
-    markerName: STR_COMMS_RECOVERY
-    markerIcon: 1
-    duration: [720, 720]
-    despawnPenalty: 0
+    markerName: STR_ABANDONED_BASE
+    markerIcon: 16
+    genMission:
+      STR_SKYNET_SUPPLY: 10
+    genMissionFreq: 0
+    alienBase: true    # this is only to tell new battle mode what to do with this deployment
+    objectiveComplete: [STR_ABANDONED_BASE_RECOVERED, 500]
+    objectivePopup: STR_ABANDONED_BASE_RECOVERED
+    points: 500
+    successEvents:
+     STR_SECTOR_COMM_1: 100
+     STR_SECTOR_COMM_2: 100
+     STR_SECTOR_COMM_3: 100
   - type: STR_COMMS_DEFENSE_AREA51 #DONE
     refNode: *STR_COMMS_DEFENSE
     isHidden: true
