@@ -902,12 +902,12 @@ research:
     cost: 50
     points: 10
     dependencies:
-      - STR_AI_MAGIC_CARPET
+      - STR_AI_SKYNET
   - name: STR_T850_INFILTRATOR
     cost: 50
     points: 10
     dependencies:
-      - STR_AI_MAGIC_CARPET
+      - STR_AI_SKYNET
 #TIER 0.M - BLUEPRINTS RECOVERED FROM TECH-COMM SECTOR MISSIONS
   - name: STR_VALKYRIE_BLUEPRINT
     cost: 50

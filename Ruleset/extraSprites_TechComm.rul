@@ -229,7 +229,7 @@ extraSprites:
   - type: MAN_2M3.SPK
     singleImage: true
     files:
-      0: Resources/Units/Inventory/INV_MAN_2M3.png
+      0: Resources/Units/Inventory/INV_MAN_2M3.gif
   - type: XCOM_2.PCK
     width: 256
     height: 1400
@@ -240,19 +240,19 @@ extraSprites:
   - type: MAN_3F0.SPK
     singleImage: true
     files:
-      0: Resources/Units/Inventory/INV_MAN_3F0.png
+      0: Resources/Units/Inventory/INV_MAN_3F0.gif
   - type: MAN_3F1.SPK
     singleImage: true
     files:
-      0: Resources/Units/Inventory/INV_MAN_3F1.png
+      0: Resources/Units/Inventory/INV_MAN_3F1.gif
   - type: MAN_3F2.SPK
     singleImage: true
     files:
-      0: Resources/Units/Inventory/INV_MAN_3F2.png
+      0: Resources/Units/Inventory/INV_MAN_3F2.gif
   - type: MAN_3F3.SPK
     singleImage: true
     files:
-      0: Resources/Units/Inventory/INV_MAN_3F3.png
+      0: Resources/Units/Inventory/INV_MAN_3F3.gif
   - type: MAN_3M0.SPK
     singleImage: true
     files:
@@ -314,7 +314,7 @@ extraSprites:
     subX: 32
     subY: 40
     files:
-      0: Resources/Units/ALLOY_VEST.png
+      0: Resources/Units/ALLOY_VEST_URBAN.png
   - type: MAN_5F0.SPK
     singleImage: true
     files:
@@ -353,7 +353,7 @@ extraSprites:
     subX: 32
     subY: 40
     files:
-      0: Resources/Units/COMBAT_ARMOR.png
+      0: Resources/Units/COMBAT_ARMOR_URBAN.png
   - type: MAN_6F0.SPK
     singleImage: true
     files:
@@ -392,7 +392,7 @@ extraSprites:
     subX: 32
     subY: 40
     files:
-      0: Resources/Units/OFFICER_SUIT.png
+      0: Resources/Units/JUMPSUIT_OFFICER.png
   - type: MAN_7F0.SPK
     singleImage: true
     files:
@@ -431,7 +431,7 @@ extraSprites:
     subX: 32
     subY: 40
     files:
-      0: Resources/Units/FLIGHT_SUIT.png
+      0: Resources/Units/JUMPSUIT_PILOT.png
   - type: ALLOY_VEST_DESERT.PCK
     width: 256
     height: 1400
@@ -1110,7 +1110,7 @@ extraSprites:
     height: 200
     singleImage: true
     files:
-      0: Resources/Units/Inventory/INV_TERMINATOR_T400.png
+      0: Resources/Units/Inventory/INV_TERMINATOR_T400.gif
   - type: INV_ALLOY_VEST_DESERT
     width: 320
     height: 200
@@ -1532,13 +1532,13 @@ extraSprites:
     width: 320
     height: 200
     files:
-      0: Resources/UFOPedia/UFOPEDIA_PHASER.GIF
+      0: Resources/UFOPedia/UFOPEDIA_PHASER.PNG
   - type: UFOPAEDIA_IMG_PHASER_CORPSE
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/UFOPedia/UFOPEDIA_PHASER_AUTOPSY.GIF
+      0: Resources/UFOPedia/UFOPEDIA_PHASER_AUTOPSY.PNG
   - type: BIGOBS.PCK
     width: 256
     height: 384

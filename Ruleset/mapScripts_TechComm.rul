@@ -2851,6 +2851,19 @@ mapScripts:
       UFOName: STR_NKF_APC_AREA51
     - type: addLine
       direction: both
+  - type: AREA51PRISON
+    commands:
+    - type: addBlock
+      size: [1, 1, 6]
+      verticalLevels:
+      - type: ground
+        size: [4, 4, 4]
+        terrain: AREA51_PRISON
+        blocks: 01
+    - type: addUFO
+      UFOName: STR_NKF_APC_AREA51
+    - type: addLine
+      direction: both
   - type: AREA51SKYRANGERFACTORY1
     commands:
     - type: addBlock     

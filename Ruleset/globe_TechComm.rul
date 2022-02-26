@@ -844,8 +844,8 @@ globe:
     - id: -3
       deployments:
         STR_COMMS_EXTRACTION: 10
-        STR_COMMS_RECOVERY: 20
-        STR_COMMS_ASSAULT: 20
+        STR_COMMS_RECOVERY: 10
+        STR_COMMS_ASSAULT: 10
         STR_COMMS_DESTROY: 10
     - id: -4
       deployments:

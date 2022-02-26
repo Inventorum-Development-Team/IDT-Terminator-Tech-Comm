@@ -8,10 +8,6 @@ alienDeployments:
   - delete: STR_BATTLESHIP
   - delete: STR_SUPPLY_SHIP
   - delete: STR_BASE_DEFENSE
-  - delete: STR_TERROR_MISSION
-  - delete: STR_ALIEN_BASE_ASSAULT
-  - delete: STR_MARS_CYDONIA_LANDING
-  - delete: STR_MARS_THE_FINAL_ASSAULT
 #HKs
   - type: STR_HK_SCOUT_1
     data:
@@ -908,7 +904,7 @@ alienDeployments:
       background: BACK01.SCR
       showTarget: false
     objectiveType: 3
-    markerName: STR_SKYNET_CAMP
+    markerName: STR_SKYNET_WORKCAMP
     markerIcon: 28
     genMission:
       STR_SKYNET_ERADICATION: 10
@@ -1044,11 +1040,11 @@ alienDeployments:
   - type: STR_COMMS_EXTRACTION_PRISON #XX
     data: *SKYNET_BASE_ASSAULT
     width: 60
-    length: 70
+    length: 60
     height: 6
     civilians: 8
     terrains:
-      - TFTD_LINER_PORT_EXTRACTION
+      - AREA51_PRISON
     alert: STR_COMMS_EXTRACTION_ALERT
     alertBackground: BACK185.SCR
     briefing:

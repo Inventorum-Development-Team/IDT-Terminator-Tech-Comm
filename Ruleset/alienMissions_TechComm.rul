@@ -1274,10 +1274,10 @@ alienMissions:
         timer: 0
         objective: true
   - &STR_SECTOR_COMMS
-    type: STR_SECTOR_MISSION
+    type: STR_SECTOR_COMMS
     points: 0
     objective: 2
-    spawnZone: 1
+    spawnZone: 2
     raceWeights:
       0:
         STR_T200: 60

@@ -131,35 +131,35 @@ ufopaedia:
     section: STR_INTELPEDIA_0
     image_id: TECH_COMM_IMAGE
     text: STR_TECHCOMM_UFOPEDIA
-    listOrder: 1050
+    listOrder: 900
     text_width: 316
   - id: STR_RESISTANCE_PERSONNEL
     type_id: 7
     section: STR_INTELPEDIA_0
     image_id: RESISTANCE_PERSONNEL_IMAGE
     text: STR_RESISTANCE_PERSONNEL_UFOPEDIA
-    listOrder: 1051
+    listOrder: 901
     text_width: 316
   - id: STR_GRAVEYARD_AIRFORCE
     type_id: 7
     section: STR_INTELPEDIA_0
     image_id: RESISTANCE_CRAFT_IMAGE
     text: STR_GRAVEYARD_AIRFORCE_UFOPEDIA
-    listOrder: 1052
+    listOrder: 902
     text_width: 316
   - id: STR_TECHCOMM_BASES
     type_id: 7
     section: STR_INTELPEDIA_0
     image_id: TECH_COMM_BASES_IMAGE
     text: STR_TECHCOMM_BASES_UFOPEDIA
-    listOrder: 1053
+    listOrder: 903
     text_width: 316
   - id: STR_RESISTANCE_MISSIONS
     type_id: 7
     section: STR_INTELPEDIA_0
     image_id: RESISTANCE_MISSIONS_IMAGE
     text: STR_RESISTANCE_MISSIONS_UFOPEDIA
-    listOrder: 1054
+    listOrder: 904
     text_width: 316
   - id: STR_RESISTANCE_ORDER_1
     type_id: 7
@@ -168,7 +168,7 @@ ufopaedia:
     text: STR_RESISTANCE_ORDER_1_UFOPEDIA
     requires:
       - STR_RESISTANCE_ORDER_1
-    listOrder: 1000
+    listOrder: 905
     text_width: 316
   - id: STR_RESISTANCE_ORDER_2
     type_id: 7
@@ -177,7 +177,7 @@ ufopaedia:
     text: STR_RESISTANCE_ORDER_2_UFOPEDIA
     requires:
       - STR_RESISTANCE_ORDER_2
-    listOrder: 1001
+    listOrder: 906
     text_width: 316
   - id: STR_RESISTANCE_ORDER_3
     type_id: 7
@@ -186,7 +186,7 @@ ufopaedia:
     text: STR_RESISTANCE_ORDER_3_UFOPEDIA
     requires:
       - STR_RESISTANCE_ORDER_3
-    listOrder: 1002
+    listOrder: 907
     text_width: 316
   - id: STR_RESISTANCE_ORDER_4
     type_id: 7
@@ -195,7 +195,7 @@ ufopaedia:
     text: STR_RESISTANCE_ORDER_4_UFOPEDIA
     requires:
       - STR_RESISTANCE_ORDER_4
-    listOrder: 1003
+    listOrder: 908
     text_width: 316
   - id: STR_RESISTANCE_ORDER_5
     type_id: 7
@@ -204,7 +204,7 @@ ufopaedia:
     text: STR_RESISTANCE_ORDER_5_UFOPEDIA
     requires:
       - STR_RESISTANCE_ORDER_5
-    listOrder: 1004
+    listOrder: 909
     text_width: 316
   - id: STR_RESISTANCE_ORDER_6
     type_id: 7
@@ -213,7 +213,7 @@ ufopaedia:
     text: STR_RESISTANCE_ORDER_6_UFOPEDIA
     requires:
       - STR_RESISTANCE_ORDER_6
-    listOrder: 1005
+    listOrder: 910
     text_width: 316
 #COMM AIs
   - id: STR_AI_SKYNET
@@ -224,7 +224,7 @@ ufopaedia:
     requires:
       - STR_AI_SKYNET
     text: STR_AI_SKYNET_UFOPEDIA
-    listOrder: 900
+    listOrder: 950
   - id: STR_AI_CHAIN_HOME
     type_id: 7
     text_width: 316
@@ -233,7 +233,7 @@ ufopaedia:
     requires:
       - STR_AI_CHAIN_HOME
     text: STR_AI_CHAIN_HOME_UFOPEDIA
-    listOrder: 901
+    listOrder: 951
   - id: STR_AI_GREAT_WALL
     type_id: 7
     text_width: 316
@@ -242,7 +242,7 @@ ufopaedia:
     requires:
       - STR_AI_GREAT_WALL
     text: STR_AI_GREAT_WALL_UFOPEDIA
-    listOrder: 902
+    listOrder: 952
   - id: STR_AI_SPIDER_WEB
     type_id: 7
     text_width: 316
@@ -251,7 +251,7 @@ ufopaedia:
     requires:
       - STR_AI_SPIDER_WEB
     text: STR_AI_SPIDER_WEB_UFOPEDIA
-    listOrder: 903
+    listOrder: 953
   - id: STR_AI_TROJAN_HORSE
     type_id: 7
     text_width: 316
@@ -260,7 +260,7 @@ ufopaedia:
     requires:
       - STR_AI_TROJAN_HORSE
     text: STR_AI_TROJAN_HORSE_UFOPEDIA
-    listOrder: 904
+    listOrder: 954
   - id: STR_AI_DEAD_HAND
     type_id: 7
     text_width: 316
@@ -269,7 +269,7 @@ ufopaedia:
     requires:
       - STR_AI_DEAD_HAND
     text: STR_AI_DEAD_HAND_UFOPEDIA
-    listOrder: 905
+    listOrder: 955
   - id: STR_AI_LIGHTHOUSE
     type_id: 7
     text_width: 316
@@ -278,7 +278,7 @@ ufopaedia:
     requires:
       - STR_AI_LIGHTHOUSE
     text: STR_AI_LIGHTHOUSE_UFOPEDIA
-    listOrder: 906
+    listOrder: 956
   - id: STR_AI_SCARE_CROW
     type_id: 7
     text_width: 316
@@ -287,7 +287,7 @@ ufopaedia:
     requires:
       - STR_AI_SCARE_CROW
     text: STR_AI_SCARE_CROW_UFOPEDIA
-    listOrder: 907
+    listOrder: 957
   - id: STR_AI_ULTRA
     type_id: 7
     text_width: 316
@@ -296,7 +296,7 @@ ufopaedia:
     requires:
       - STR_AI_ULTRA
     text: STR_AI_ULTRA_UFOPEDIA
-    listOrder: 908
+    listOrder: 958
   - id: STR_AI_MAGIC_CARPET
     type_id: 7
     text_width: 316
@@ -305,7 +305,7 @@ ufopaedia:
     requires:
       - STR_AI_MAGIC_CARPET
     text: STR_AI_MAGIC_CARPET_UFOPEDIA
-    listOrder: 909
+    listOrder: 959
 #COMM SECTORS
   - id: STR_SECTOR_COMMS
     type_id: 7
@@ -696,6 +696,15 @@ ufopaedia:
     text: STR_SKYNET_RETRIBUTION_UFOPEDIA
     listOrder: 1311
 #TECH AIRCRAFT
+  - id: STR_RESISTANCE_CRAFT
+    type_id: 7
+    section: STR_INTELPEDIA_5
+    requires:
+      - STR_TECH_SYSTEMS
+    image_id: RESISTANCE_CRAFT_IMAGE
+    text: STR_RESISTANCE_CRAFT_UFOPEDIA
+    listOrder: 1500
+    text_width: 316
   - id: STR_SENIOR_CITIZEN
     type_id: 1
     section: STR_INTELPEDIA_5
@@ -1351,6 +1360,7 @@ ufopaedia:
     section: STR_INTELPEDIA_8
     image_id: HUNTER_KILLERS_IMAGE
     text: STR_HUNTER_KILLERS_UFOPEDIA
+    text_width: 158
     listOrder: 1800
   - id: STR_HK_DRONE
     type_id: 9
@@ -1409,6 +1419,13 @@ ufopaedia:
     text: STR_HK_CONVOY_UFOPEDIA
     listOrder: 1808
 #TERMINATORS
+  - id: STR_TERMINATOR
+    type_id: 7
+    section: STR_INTELPEDIA_9
+    image_id: SKYNET_RECLAMATION_IMAGE
+    text: STR_TERMINATOR_UFOPEDIA
+    text_width: 158
+    listOrder: 1900
   - id: STR_TERMINATOR_T200
     type_id: 7
     section: STR_INTELPEDIA_9

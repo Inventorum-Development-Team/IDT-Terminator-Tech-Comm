@@ -26,7 +26,7 @@ fixedUserOptions:
   ufoLandingAlert: true
   craftLaunchAlways: true
   storageLimitsEnforced: false
-  drawEnemyRadarCircles: false
+  drawEnemyRadarCircles: 0
   removeWoundedFromTraining: true
   strafe: false
 escortRange: 20

@@ -12720,7 +12720,7 @@ terrains:
         width: 20
         length: 10
   - &AREA51_HWP_FACTORY
-    name: AREA51 HWPFACTORY
+    name: AREA51_HWPFACTORY
     mapDataSets:
       - BLANKS
       - AREA51_A2
@@ -12766,6 +12766,47 @@ terrains:
       - name: AREA51RAID00
         width: 50
         length: 50
+      - name: AREA51RAID06
+        width: 10
+        length: 10
+        groups: 2
+      - name: AREA51RAID07
+        width: 10
+        length: 10
+        groups: 3
+      - name: AREA51RAID08
+        width: 10
+        length: 10
+        groups: 4
+  - &AREA51_PRISON
+    name: AREA51_PRISON
+    mapDataSets:
+      - BLANKS
+      - AREA51_A3
+      - AREA51_B2
+      - AREA51_C1
+      - AREA51_D4
+    civilianTypes:
+      - STR_HUMAN_JUMPSUIT_0_0
+      - STR_HUMAN_JUMPSUIT_0_1
+      - STR_HUMAN_JUMPSUIT_0_2
+      - STR_HUMAN_JUMPSUIT_0_3
+      - STR_HUMAN_JUMPSUIT_0_4
+      - STR_HUMAN_JUMPSUIT_0_5
+      - STR_HUMAN_JUMPSUIT_0_6
+      - STR_HUMAN_CHARACTER_0_0
+      - STR_HUMAN_CHARACTER_0_1
+      - STR_HUMAN_CHARACTER_0_2
+      - STR_HUMAN_CHARACTER_0_3
+      - STR_HUMAN_CHARACTER_0_4
+      - STR_HUMAN_CHARACTER_0_5
+      - STR_HUMAN_CHARACTER_0_6
+      - STR_HUMAN_CHARACTER_0_7
+    script: AREA51PRISON
+    mapBlocks:
+      - name: AREA51RAID03
+        width: 40
+        length: 40
       - name: AREA51RAID06
         width: 10
         length: 10

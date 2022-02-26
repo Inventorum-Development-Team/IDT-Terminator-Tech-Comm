@@ -1,5 +1,12 @@
 Tech-Comm Change Log
-V0.4.7
+V0.4.9
+* Changed: Fuel Pods now give 500 units to craft mounting them, require Synthetic Fuels comms 
+* Changed: starting base craft downgraded (the advanced craft will be given through story missions)
+* Changed: added text to more Intelpedia articles and missing references 
+* Fixed: several missing sprites and internal references
+* Fixed: Sector Comms missions
+
+V0.4.8
 * Added: Sector Comms research, which unlock resource missions on a specific country (sector)
 * Added: Added Sector Comm resource missions: Destroy, Recovery, Defense and Extraction
 * Added: Area 51, Complex, Biolab, Siberia, Cold Isle, Storm Mountain terrains for the resource missions
