@@ -1390,34 +1390,62 @@ ufopaedia:
       - STR_HK_FIGHTER_1
     text: STR_HK_FIGHTER_1_UFOPEDIA
     listOrder: 1804
+  - id: STR_HK_INTERCEPTOR_1
+    type_id: 9
+    section: STR_INTELPEDIA_8
+    requires:
+      - STR_HK_INTERCEPTOR_1
+    text: STR_HK_INTERCEPTOR_1_UFOPEDIA
+    listOrder: 1804
+  - id: STR_HK_BOMBER_1
+    type_id: 9
+    section: STR_INTELPEDIA_8
+    requires:
+      - STR_HK_BOMBER_1
+    text: STR_HK_BOMBER_1_UFOPEDIA
+    listOrder: 1805
   - id: STR_HK_SCOUT_2
     type_id: 9
     section: STR_INTELPEDIA_8
     requires:
       - STR_HK_SCOUT_2
     text: STR_HK_SCOUT_2_UFOPEDIA
-    listOrder: 1805
+    listOrder: 1806
   - id: STR_HK_TRANSPORT_2
     type_id: 9
     section: STR_INTELPEDIA_8
     requires:
       - STR_HK_TRANSPORT_2
     text: STR_HK_TRANSPORT_2_UFOPEDIA
-    listOrder: 1806
+    listOrder: 1807
   - id: STR_HK_FIGHTER_2
     type_id: 9
     section: STR_INTELPEDIA_8
     requires:
       - STR_HK_FIGHTER_2
     text: STR_HK_FIGHTER_2_UFOPEDIA
-    listOrder: 1807
+    listOrder: 1808
   - id: STR_HK_CONVOY
     type_id: 9
     section: STR_INTELPEDIA_8
     requires:
       - STR_HK_CONVOY
     text: STR_HK_CONVOY_UFOPEDIA
-    listOrder: 1808
+    listOrder: 1809
+  - id: STR_TACTICAL_MISSILE
+    type_id: 9
+    section: STR_INTELPEDIA_8
+    requires:
+      - STR_TACTICAL_MISSILE
+    text: STR_TACTICAL_MISSILE_UFOPEDIA
+    listOrder: 1810
+  - id: STR_MX_MISSILE
+    type_id: 9
+    section: STR_INTELPEDIA_8
+    requires:
+      - STR_MX_MISSILE
+    text: STR_MX_MISSILE_UFOPEDIA
+    listOrder: 1811
 #TERMINATORS
   - id: STR_TERMINATOR
     type_id: 7

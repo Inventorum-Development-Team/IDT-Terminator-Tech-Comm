@@ -687,7 +687,7 @@ alienDeployments:
     markerName: STR_SKYNET_CORE
     markerIcon: 11
     genMission:
-      STR_ALIEN_SUPPLY_1: 0
+      STR_SKYNET_SUPPLY_1: 10
     genMissionFreq: 0
     alienBase: true    # this is only to tell new battle mode what to do with this deployment
     chronoTrigger: 1

@@ -9,8 +9,8 @@ arcScripts: #DONE
       - STR_RESISTANCE_ORDER_6
     firstMonth: 1
     maxArcs: -1
-  - type: craftBlueprint
-    randomArcs:                         # the type of research topics to be "discovered", each month 0 or 1, chosen randomly considering weights
+  - type: craftBlueprints
+    randomArcs:
       STR_HAWKEYE_BLUEPRINT: 20
       STR_TRACER_BLUEPRINT: 10
       STR_DRAGONFLY_BLUEPRINT: 20
@@ -29,6 +29,69 @@ arcScripts: #DONE
       STR_GUARDRAIL_BLUEPRINT: 20
     firstMonth: 0                       # months this command runs on, 0 runs on startup of a new game (default 0)
     executionOdds: 100                  # % chances of this command executing (default 100)
-    maxArcs: -1                         # maximum number of arcs this command can generate (together during the whole game), -1 for infinite 
+    maxArcs: 12                         # maximum number of arcs this command can generate (together during the whole game), -1 for infinite 
     researchTriggers:                   # a list of research topics that can influence the execution of this command (default empty)
       STR_RESISTANCE_CRAFT: true
+  - type: weaponsResearch
+    randomArcs:
+      STR_RIFLE_AR15: 10
+      STR_M134: 10
+      STR_D12: 10
+      STR_D12A2: 10
+      STR_15MM_AMR: 10
+      STR_20MM_AMR: 10
+    firstMonth: 0                       # months this command runs on, 0 runs on startup of a new game (default 0)
+    executionOdds: 100                  # % chances of this command executing (default 100)
+    maxArcs: 12                        # maximum number of arcs this command can generate (together during the whole game), -1 for infinite 
+    researchTriggers:                   # a list of research topics that can influence the execution of this command (default empty)
+      STR_SECTOR_COMMS: true
+  - type: terminatorResearch
+    randomArcs:                         # the type of research topics to be "discovered", each month 0 or 1, chosen randomly considering weights
+      STR_TERMINATOR_T200: 20
+      STR_TERMINATOR_T300: 30
+      STR_TERMINATOR_T400: 10
+      STR_TERMINATOR_T500: 30
+      STR_TERMINATOR_T600: 20
+      STR_TERMINATOR_CYBERMITE: 10
+      STR_TERMINATOR_DRONE: 10
+    firstMonth: 0                       # months this command runs on, 0 runs on startup of a new game (default 0)
+    executionOdds: 100                  # % chances of this command executing (default 100)
+    maxArcs: 12                        # maximum number of arcs this command can generate (together during the whole game), -1 for infinite 
+    researchTriggers:                   # a list of research topics that can influence the execution of this command (default empty)
+      STR_TECH_SYSTEMS: true
+  - type: skynetProtocols
+    randomArcs:                         # the type of research topics to be "discovered", each month 0 or 1, chosen randomly considering weights
+      STR_SKYNET_RESEARCH: 20
+      STR_SKYNET_RECLAMATION: 30
+      STR_SKYNET_ERADICATION: 10
+      STR_SKYNET_INFILTRATION: 30
+      STR_SKYNET_EXPANSION: 20
+      STR_SKYNET_INTERDICTION: 10
+      STR_SKYNET_TERMINATION: 10
+      STR_SKYNET_PACIFICATION: 10
+      STR_SKYNET_TRANSPORT: 10
+      STR_SKYNET_RETRIBUTION: 10
+      STR_SKYNET_SUPPLY: 10
+    firstMonth: 0                       # months this command runs on, 0 runs on startup of a new game (default 0)
+    executionOdds: 100                  # % chances of this command executing (default 100)
+    maxArcs: 12                        # maximum number of arcs this command can generate (together during the whole game), -1 for infinite 
+    researchTriggers:                   # a list of research topics that can influence the execution of this command (default empty)
+      STR_SKYNET_PROTOCOLS: true
+  - type: hkResearch
+    randomArcs:                         # the type of research topics to be "discovered", each month 0 or 1, chosen randomly considering weights
+      STR_HK_DRONE: 20
+      STR_HK_SCOUT_1: 30
+      STR_HK_SCOUT_2: 30
+      STR_HK_TRANSPORT_1: 10
+      STR_HK_TRANSPORT_2: 30
+      STR_HK_FIGHTER_1: 20
+      STR_HK_FIGHTER_2: 10
+      STR_HK_INTERCEPTOR_1: 10
+      STR_HK_BOMBER_1: 10
+      STR_HK_CONVOY: 10
+      STR_TACTICAL_MISSILE: 10
+    firstMonth: 0                       # months this command runs on, 0 runs on startup of a new game (default 0)
+    executionOdds: 100                  # % chances of this command executing (default 100)
+    maxArcs: 12                        # maximum number of arcs this command can generate (together during the whole game), -1 for infinite 
+    researchTriggers:                   # a list of research topics that can influence the execution of this command (default empty)
+      STR_TECH_SYSTEMS: true

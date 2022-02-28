@@ -1,7 +1,7 @@
 ﻿# Metadata file for TechComm OpenXcom mod
 name: "[I.D.T.] Terminator: Tech-Comm ALPHA"
-version: 0.4.9
+version: 0.5.0
 author: "Several"
 description: "Terminator Future War total conversion for OpenXcom"
 master: xcom1
-requiredExtendedVersion: "7.5"
+requiredExtendedVersion: "7.5.3"

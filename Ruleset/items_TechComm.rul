@@ -921,7 +921,7 @@ items:
     size: 0.3
     costBuy: 19200
     costSell: 8500
-    weight: 12
+    weight: 16
     bigSprite: 109
     floorSprite: 109
     handSprite: 204
@@ -978,7 +978,7 @@ items:
       - STR_15MM_AMR
     size: 0.5
     costSell: 22500
-    weight: 16
+    weight: 20
     bigSprite: 112
     floorSprite: 112
     handSprite: 244
@@ -1018,7 +1018,7 @@ items:
       - STR_20MM_AMR
     size: 0.5
     costSell: 38500
-    weight: 20
+    weight: 24
     bigSprite: 113
     floorSprite: 113
     handSprite: 252

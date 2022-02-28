@@ -144,7 +144,7 @@ research:
 ##DEAD HAND - NUCLEAR MISSILE BASE
 ##ULTRA - TEMPUS, GIVES QUANTUM FIELD?
 ##TROJAN HORSE - GIVES NANOTECH
-##RESISTANCE ORDERS - GIVEN AT COUNCIL REPORT AFTER AIs RESEARCHED
+##RESISTANCE ORDERS - GIVEN AFTER COUNCIL REPORT
   - name: STR_RESISTANCE_ORDER_1
     cost: 5
     points: 10
@@ -260,7 +260,7 @@ research:
       - STR_AI_SKYNET
 ##TIER 1Y - AI
   - name: STR_AI_MAGIC_CARPET #SKYNET COUNTERATTACK
-    cost: 50
+    cost: 5
     points: 10
     dependencies:
       - STR_AI_SKYNET
@@ -440,14 +440,14 @@ research:
     needItem: true
 ##TIER 3.T - TERMINATOR RECOVERY/SECTOR COMMS 
   - name: STR_TERMINATOR_T200
-    cost: 192
+    cost: 50
     points: 50
     needItem: true
     destroyItem: true
     unlocks:
       - STR_AI_SCARE_CROW
   - name: STR_TERMINATOR_T200_CORPSE
-    cost: 180
+    cost: 50
     points: 50
     lookup: STR_TERMINATOR_T200_AUTOPSY
     needItem: true
@@ -457,14 +457,14 @@ research:
     points: 50
     needItem: true
   - name: STR_TERMINATOR_T300
-    cost: 192
+    cost: 50
     points: 50
     needItem: true
     destroyItem: true
     unlocks:
       - STR_AI_SCARE_CROW
   - name: STR_TERMINATOR_T300_CORPSE
-    cost: 180
+    cost: 50
     points: 50
     lookup: STR_TERMINATOR_T300_AUTOPSY
     needItem: true
@@ -474,14 +474,14 @@ research:
     points: 50
     needItem: true
   - name: STR_TERMINATOR_T400
-    cost: 192
+    cost: 50
     points: 50
     needItem: true
     destroyItem: true
     unlocks:
       - STR_AI_SCARE_CROW
   - name: STR_TERMINATOR_T400_CORPSE
-    cost: 180
+    cost: 50
     points: 50
     lookup: STR_TERMINATOR_T400_AUTOPSY
     needItem: true
@@ -491,14 +491,14 @@ research:
     points: 50
     needItem: true
   - name: STR_TERMINATOR_T500
-    cost: 192
+    cost: 50
     points: 50
     needItem: true
     destroyItem: true
     unlocks:
       - STR_AI_SCARE_CROW
   - name: STR_TERMINATOR_T500_CORPSE
-    cost: 180
+    cost: 50
     points: 50
     lookup: STR_TERMINATOR_T500_AUTOPSY
     needItem: true
@@ -508,14 +508,14 @@ research:
     points: 50
     needItem: true
   - name: STR_TERMINATOR_T600
-    cost: 192
+    cost: 50
     points: 50
     needItem: true
     destroyItem: true
     unlocks:
       - STR_AI_SCARE_CROW
   - name: STR_TERMINATOR_T600_CORPSE
-    cost: 180
+    cost: 50
     points: 50
     lookup: STR_TERMINATOR_T600_AUTOPSY
     needItem: true
@@ -527,14 +527,14 @@ research:
       - STR_EMP_FIELD
 ##TIER 2.T - TERMINATOR RECOVERY
   - name: STR_TERMINATOR_T700
-    cost: 192
+    cost: 50
     points: 50
     needItem: true
     destroyItem: true
     unlocks:
       - STR_AI_SCARE_CROW
   - name: STR_TERMINATOR_T700_CORPSE
-    cost: 180
+    cost: 50
     points: 50
     lookup: STR_TERMINATOR_T700_AUTOPSY
     needItem: true
@@ -545,14 +545,14 @@ research:
     points: 50
     needItem: true
   - name: STR_TERMINATOR_T800
-    cost: 192
+    cost: 50
     points: 50
     needItem: true
     destroyItem: true
     unlocks:
       - STR_AI_SCARE_CROW
   - name: STR_TERMINATOR_T800_CORPSE
-    cost: 180
+    cost: 50
     points: 50
     lookup: STR_TERMINATOR_T800_AUTOPSY
     needItem: true
@@ -563,14 +563,14 @@ research:
     points: 50
     needItem: true
   - name: STR_TERMINATOR_T1000
-    cost: 192
+    cost: 50
     points: 50
     needItem: true
     destroyItem: true
     unlocks:
       - STR_AI_SCARE_CROW
   - name: STR_TERMINATOR_T1000_CORPSE
-    cost: 180
+    cost: 50
     points: 50
     lookup: STR_TERMINATOR_T1000_AUTOPSY
     needItem: true
@@ -581,14 +581,14 @@ research:
     points: 50
     needItem: true
   - name: STR_TERMINATOR_CERBERUS
-    cost: 192
+    cost: 50
     points: 50
     needItem: true
     destroyItem: true
     unlocks:
       - STR_AI_SCARE_CROW
   - name: STR_TERMINATOR_CERBERUS_CORPSE
-    cost: 180
+    cost: 50
     points: 50
     lookup: STR_TERMINATOR_CERBERUS_AUTOPSY
     needItem: true
@@ -596,14 +596,14 @@ research:
     points: 50
     needItem: true
   - name: STR_TERMINATOR_CYBERMITE
-    cost: 192
+    cost: 50
     points: 50
     needItem: true
     destroyItem: true
     unlocks:
       - STR_AI_SCARE_CROW
   - name: STR_TERMINATOR_CYBERMITE_CORPSE
-    cost: 180
+    cost: 50
     points: 50
     lookup: STR_TERMINATOR_CYBERMITE_AUTOPSY
     needItem: true
@@ -611,14 +611,14 @@ research:
     points: 50
     needItem: true
   - name: STR_TERMINATOR_DRONE
-    cost: 192
+    cost: 50
     points: 50
     needItem: true
     destroyItem: true
     unlocks:
       - STR_AI_SCARE_CROW
   - name: STR_TERMINATOR_DRONE_CORPSE
-    cost: 180
+    cost: 50
     points: 50
     lookup: STR_TERMINATOR_DRONE_AUTOPSY
     needItem: true
@@ -626,14 +626,14 @@ research:
     points: 50
     needItem: true
   - name: STR_TERMINATOR_SEEKER
-    cost: 192
+    cost: 50
     points: 50
     needItem: true
     destroyItem: true
     unlocks:
       - STR_AI_SCARE_CROW
   - name: STR_TERMINATOR_SEEKER_CORPSE
-    cost: 180
+    cost: 50
     points: 50
     lookup: STR_TERMINATOR_SEEKER_AUTOPSY
     needItem: true
@@ -641,14 +641,14 @@ research:
     points: 50
     needItem: true
   - name: STR_TERMINATOR_SENTRY
-    cost: 192
+    cost: 50
     points: 50
     needItem: true
     destroyItem: true
     unlocks:
       - STR_AI_SCARE_CROW
   - name: STR_TERMINATOR_SENTRY_CORPSE
-    cost: 180
+    cost: 50
     points: 50
     lookup: STR_TERMINATOR_SENTRY_AUTOPSY
     needItem: true
@@ -1021,12 +1021,12 @@ research:
 #RESISTANCE SECTOR COMMS
 ##SECTOR COMMS UNLOCKS MAP WITH SKYNET POSITIONS AND ACTIVATE TECH-COMM MISSIONS IN THE SECTOR
   - name: STR_SECTOR_00_COMM
-    cost: 5
+    cost: 50
     points: 10
     dependencies:
       - STR_SECTOR_COMMS
   - name: STR_SECTOR_01_COMM
-    cost: 5
+    cost: 50
     points: 10
     dependencies:
       - STR_SECTOR_COMMS
@@ -1130,3 +1130,48 @@ research:
     points: 10
     dependencies:
       - STR_SECTOR_COMMS
+##SKYNET PROTOCOLS
+  - name: STR_SKYNET_RESEARCH
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_SKYNET_RECLAMATION
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_SKYNET_ERADICATION
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_SKYNET_INFILTRATION
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_SKYNET_EXPANSION
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_SKYNET_INTERDICTION
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_SKYNET_TERMINATION
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_SKYNET_PACIFICATION
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_SKYNET_TRANSPORT
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_SKYNET_RETRIBUTION
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_SKYNET_SUPPLY
+    cost: 50
+    points: 10
+    needItem: true
