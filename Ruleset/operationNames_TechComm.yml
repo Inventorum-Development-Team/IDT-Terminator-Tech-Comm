@@ -1,4 +1,26 @@
 operationNamesFirst:
+   - White
+   - Black
+   - Blue
+   - Red
+   - Green
+   - Yellow
+   - Orange
+   - Purple
+   - Grey
+   - Rose
+   - Brown
+   - Gold
+   - Silver
+   - Dark
+   - Bright
+   - Ultramarine
+   - Blood
+   - Grass
+   - Magenta
+   - Ruby
+   - Violet
+operationNamesLast:
    - Alpha
    - Bravo
    - Charlie
@@ -25,18 +47,3 @@ operationNamesFirst:
    - X-Ray
    - Yankee
    - Zulu
-operationNamesLast:
-   - Zero
-   - One
-   - Two
-   - Three
-   - Four
-   - Five
-   - Six
-   - Seven
-   - Eight
-   - Nine
-   - Ten
-   - Eleven
-   - Twelve
-   - 25

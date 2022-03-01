@@ -18,6 +18,7 @@ missionScripts: #DONE
         STR_T600: 100
     startDelay: 120
     useTable: false
+    lastMonth: 0
     varName: startpatrol
   - type: gameAITrojanHorse
     missionWeights:
@@ -506,8 +507,7 @@ missionScripts: #DONE
         STR_COMMS_RECOVERY: 100
     targetBaseOdds: 100
     researchTriggers:
-      STR_SECTOR_COMMS: true
-      STR_STORY_COMMS01: false
+      STR_AI_SKYNET: true
     maxRuns: 1
     useTable: false
     varName: story01

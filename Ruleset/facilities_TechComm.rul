@@ -496,7 +496,7 @@ facilities: #DONE
     buildCost: 72500
     buildTime: 5
     monthlyCost: 2500
-    storage: 50
+    storage: 100
     mapName: TECHBASEDEFENSE_15
     missileAttraction: 50
   - type: STR_INFIRMARY
@@ -699,7 +699,7 @@ facilities: #DONE
     buildCost: 210000
     buildTime: 15
     monthlyCost: 5000
-    storage: 300
+    storage: 500
     mapName: TECHBASEDEFENSE_19
     destroyedFacility: STR_STORAGE_AREA_DAMAGED
     maxAllowedPerBase: 1

@@ -888,22 +888,7 @@ research:
     cost: 50
     points: 10
     needItem: true
-  - name: STR_T1000_INFILTRATOR
-    cost: 50
-    points: 10
-    dependencies:
-      - STR_AI_SCARE_CROW
-  - name: STR_TX_TERMINATOR
-    cost: 50
-    points: 10
-    dependencies:
-      - STR_AI_SCARE_CROW
   - name: STR_MATTER_DISPLACEMENT
-    cost: 50
-    points: 10
-    dependencies:
-      - STR_AI_SKYNET
-  - name: STR_T850_INFILTRATOR
     cost: 50
     points: 10
     dependencies:

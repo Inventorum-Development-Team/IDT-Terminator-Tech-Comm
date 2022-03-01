@@ -312,7 +312,7 @@ ufopaedia:
     section: STR_INTELPEDIA_2
     requires:
       - STR_SECTOR_COMMS
-    image_id: RESISTANCE_CRAFT_IMAGE
+    image_id: RESISTANCE_PERSONNEL_IMAGE
     text: STR_SECTOR_COMMS_UFOPEDIA
     listOrder: 1100
     text_width: 316
@@ -321,7 +321,7 @@ ufopaedia:
     section: STR_INTELPEDIA_2
     requires:
       - STR_SECTOR_00_COMM
-    image_id: RESISTANCE_CRAFT_IMAGE
+    image_id: RESISTANCE_PERSONNEL_IMAGE
     text: STR_SECTOR_00_COMM_UFOPEDIA
     listOrder: 1101
     text_width: 316
@@ -330,7 +330,7 @@ ufopaedia:
     section: STR_INTELPEDIA_2
     requires:
       - STR_SECTOR_01_COMM
-    image_id: RESISTANCE_CRAFT_IMAGE
+    image_id: RESISTANCE_PERSONNEL_IMAGE
     text: STR_SECTOR_01_COMM_UFOPEDIA
     listOrder: 1102
     text_width: 316
@@ -339,7 +339,7 @@ ufopaedia:
     section: STR_INTELPEDIA_2
     requires:
       - STR_SECTOR_02_COMM
-    image_id: RESISTANCE_CRAFT_IMAGE
+    image_id: RESISTANCE_PERSONNEL_IMAGE
     text: STR_SECTOR_02_COMM_UFOPEDIA
     listOrder: 1103
     text_width: 316
@@ -348,7 +348,7 @@ ufopaedia:
     section: STR_INTELPEDIA_2
     requires:
       - STR_SECTOR_03_COMM
-    image_id: RESISTANCE_CRAFT_IMAGE
+    image_id: RESISTANCE_PERSONNEL_IMAGE
     text: STR_SECTOR_03_COMM_UFOPEDIA
     listOrder: 1104
     text_width: 316
@@ -357,7 +357,7 @@ ufopaedia:
     section: STR_INTELPEDIA_2
     requires:
       - STR_SECTOR_04_COMM
-    image_id: RESISTANCE_CRAFT_IMAGE
+    image_id: RESISTANCE_PERSONNEL_IMAGE
     text: STR_SECTOR_04_COMM_UFOPEDIA
     listOrder: 1105
     text_width: 316
@@ -366,7 +366,7 @@ ufopaedia:
     section: STR_INTELPEDIA_2
     requires:
       - STR_SECTOR_05_COMM
-    image_id: RESISTANCE_CRAFT_IMAGE
+    image_id: RESISTANCE_PERSONNEL_IMAGE
     text: STR_SECTOR_05_COMM_UFOPEDIA
     listOrder: 1106
     text_width: 316
@@ -375,7 +375,7 @@ ufopaedia:
     section: STR_INTELPEDIA_2
     requires:
       - STR_SECTOR_06_COMM
-    image_id: RESISTANCE_CRAFT_IMAGE
+    image_id: RESISTANCE_PERSONNEL_IMAGE
     text: STR_SECTOR_06_COMM_UFOPEDIA
     listOrder: 1107
     text_width: 316
@@ -384,7 +384,7 @@ ufopaedia:
     section: STR_INTELPEDIA_2
     requires:
       - STR_SECTOR_07_COMM
-    image_id: RESISTANCE_CRAFT_IMAGE
+    image_id: RESISTANCE_PERSONNEL_IMAGE
     text: STR_SECTOR_07_COMM_UFOPEDIA
     listOrder: 1108
     text_width: 316
@@ -393,7 +393,7 @@ ufopaedia:
     section: STR_INTELPEDIA_2
     requires:
       - STR_SECTOR_08_COMM
-    image_id: RESISTANCE_CRAFT_IMAGE
+    image_id: RESISTANCE_PERSONNEL_IMAGE
     text: STR_SECTOR_08_COMM_UFOPEDIA
     listOrder: 1109
     text_width: 316
@@ -402,7 +402,7 @@ ufopaedia:
     section: STR_INTELPEDIA_2
     requires:
       - STR_SECTOR_09_COMM
-    image_id: RESISTANCE_CRAFT_IMAGE
+    image_id: RESISTANCE_PERSONNEL_IMAGE
     text: STR_SECTOR_09_COMM_UFOPEDIA
     listOrder: 1110
     text_width: 316
@@ -411,7 +411,7 @@ ufopaedia:
     section: STR_INTELPEDIA_2
     requires:
       - STR_SECTOR_10_COMM
-    image_id: RESISTANCE_CRAFT_IMAGE
+    image_id: RESISTANCE_PERSONNEL_IMAGE
     text: STR_SECTOR_10_COMM_UFOPEDIA
     listOrder: 1111
     text_width: 316
@@ -420,7 +420,7 @@ ufopaedia:
     section: STR_INTELPEDIA_2
     requires:
       - STR_SECTOR_11_COMM
-    image_id: RESISTANCE_CRAFT_IMAGE
+    image_id: RESISTANCE_PERSONNEL_IMAGE
     text: STR_SECTOR_11_COMM_UFOPEDIA
     listOrder: 1112
     text_width: 316
@@ -429,7 +429,7 @@ ufopaedia:
     section: STR_INTELPEDIA_2
     requires:
       - STR_SECTOR_12_COMM
-    image_id: RESISTANCE_CRAFT_IMAGE
+    image_id: RESISTANCE_PERSONNEL_IMAGE
     text: STR_SECTOR_12_COMM_UFOPEDIA
     listOrder: 1113
     text_width: 316
@@ -438,7 +438,7 @@ ufopaedia:
     section: STR_INTELPEDIA_2
     requires:
       - STR_SECTOR_13_COMM
-    image_id: RESISTANCE_CRAFT_IMAGE
+    image_id: RESISTANCE_PERSONNEL_IMAGE
     text: STR_SECTOR_13_COMM_UFOPEDIA
     listOrder: 1114
     text_width: 316
@@ -447,7 +447,7 @@ ufopaedia:
     section: STR_INTELPEDIA_2
     requires:
       - STR_SECTOR_14_COMM
-    image_id: RESISTANCE_CRAFT_IMAGE
+    image_id: RESISTANCE_PERSONNEL_IMAGE
     text: STR_SECTOR_14_COMM_UFOPEDIA
     listOrder: 1115
     text_width: 316
@@ -456,7 +456,7 @@ ufopaedia:
     section: STR_INTELPEDIA_2
     requires:
       - STR_SECTOR_15_COMM
-    image_id: RESISTANCE_CRAFT_IMAGE
+    image_id: RESISTANCE_PERSONNEL_IMAGE
     text: STR_SECTOR_15_COMM_UFOPEDIA
     listOrder: 1116
     text_width: 316
@@ -465,7 +465,7 @@ ufopaedia:
     section: STR_INTELPEDIA_2
     requires:
       - STR_SECTOR_16_COMM
-    image_id: RESISTANCE_CRAFT_IMAGE
+    image_id: RESISTANCE_PERSONNEL_IMAGE
     text: STR_SECTOR_16_COMM_UFOPEDIA
     listOrder: 1117
     text_width: 316
@@ -474,7 +474,7 @@ ufopaedia:
     section: STR_INTELPEDIA_2
     requires:
       - STR_SECTOR_17_COMM
-    image_id: RESISTANCE_CRAFT_IMAGE
+    image_id: RESISTANCE_PERSONNEL_IMAGE
     text: STR_SECTOR_17_COMM_UFOPEDIA
     listOrder: 1118
     text_width: 316
@@ -483,7 +483,7 @@ ufopaedia:
     section: STR_INTELPEDIA_2
     requires:
       - STR_SECTOR_18_COMM
-    image_id: RESISTANCE_CRAFT_IMAGE
+    image_id: RESISTANCE_PERSONNEL_IMAGE
     text: STR_SECTOR_18_COMM_UFOPEDIA
     listOrder: 1119
     text_width: 316
@@ -492,7 +492,7 @@ ufopaedia:
     section: STR_INTELPEDIA_2
     requires:
       - STR_SECTOR_19_COMM
-    image_id: RESISTANCE_CRAFT_IMAGE
+    image_id: RESISTANCE_PERSONNEL_IMAGE
     text: STR_SECTOR_19_COMM_UFOPEDIA
     listOrder: 1120
     text_width: 316
@@ -501,7 +501,7 @@ ufopaedia:
     section: STR_INTELPEDIA_2
     requires:
       - STR_SECTOR_20_COMM
-    image_id: RESISTANCE_CRAFT_IMAGE
+    image_id: RESISTANCE_PERSONNEL_IMAGE
     text: STR_SECTOR_20_COMM_UFOPEDIA
     listOrder: 1121
     text_width: 316
@@ -510,7 +510,7 @@ ufopaedia:
     section: STR_INTELPEDIA_2
     requires:
       - STR_SECTOR_21_COMM
-    image_id: RESISTANCE_CRAFT_IMAGE
+    image_id: RESISTANCE_PERSONNEL_IMAGE
     text: STR_SECTOR_21_COMM_UFOPEDIA
     listOrder: 1122
     text_width: 316
@@ -700,7 +700,7 @@ ufopaedia:
     type_id: 7
     section: STR_INTELPEDIA_5
     requires:
-      - STR_TECH_SYSTEMS
+      - STR_RESISTANCE_CRAFT
     image_id: RESISTANCE_CRAFT_IMAGE
     text: STR_RESISTANCE_CRAFT_UFOPEDIA
     listOrder: 1500

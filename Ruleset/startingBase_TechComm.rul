@@ -88,7 +88,7 @@ startingBase:
   crafts:
     - type: STR_SKYHAWK
       id: 1
-      fuel: 174
+      fuel: 674
       damage: 0
       status: STR_READY
       weapons:
@@ -114,7 +114,7 @@ startingBase:
         - type: STR_TECH_PODS_UC
     - type: STR_LION
       id: 1
-      fuel: 83
+      fuel: 583
       damage: 0
       status: STR_READY
       weapons:
@@ -136,7 +136,7 @@ startingBase:
       status: STR_READY
     - type: STR_OSPREY
       id: 1
-      fuel: 1500
+      fuel: 644
       weapons:
         - type: STR_FUEL_PODS_UC
         - type: STR_ECM_PODS_UC
@@ -144,7 +144,7 @@ startingBase:
       status: STR_READY
     - type: STR_SENIOR_CITIZEN
       id: 1
-      fuel: 144
+      fuel: 2000
       damage: 0
       status: STR_READY
       weapons:
@@ -178,7 +178,7 @@ startingBase:
           ammo: 2
     - type: STR_DRAGONFLY
       id: 1
-      fuel: 87
+      fuel: 587
       damage: 0
       status: STR_READY
       weapons:
@@ -189,6 +189,14 @@ startingBase:
         - type: STR_SIDEWINDER
           ammo: 2
         - type: STR_FUEL_PODS_UC
+    - type: STR_HAWKEYE
+      id: 1
+      fuel: 650
+      damage: 0
+      status: STR_READY
+      weapons:
+        - type: STR_FUEL_PODS_UC
+        - type: STR_COMM_PODS_UC
   items:
     STR_FUEL_PODS: 1
     STR_ECM_PODS: 1

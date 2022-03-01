@@ -1277,7 +1277,8 @@ alienMissions:
     type: STR_SECTOR_COMMS
     points: 0
     objective: 2
-    spawnZone: 2
+    spawnZone: 1
+    showAlienBase: true
     raceWeights:
       0:
         STR_T200: 60
