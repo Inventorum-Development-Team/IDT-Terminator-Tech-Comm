@@ -1312,6 +1312,7 @@ alienDeployments:
      STR_SECTOR_COMM_1: 100
      STR_SECTOR_COMM_2: 100
      STR_SECTOR_COMM_3: 100
+     STR_SECTOR_COMM_4: 100
   - &STR_COMMS_DESTROY
     type: STR_COMMS_DESTROY
     data: *SKYNET_RESISTANCE
@@ -1343,6 +1344,7 @@ alienDeployments:
      STR_SECTOR_COMM_1: 100
      STR_SECTOR_COMM_2: 100
      STR_SECTOR_COMM_3: 100
+     STR_SECTOR_COMM_4: 100
     objectiveType: 15
     objectivesRequired: 16
     objectiveComplete: [STR_MISSILE_SILO_DISABLED, 750]
@@ -1383,6 +1385,7 @@ alienDeployments:
      STR_SECTOR_COMM_1: 100
      STR_SECTOR_COMM_2: 100
      STR_SECTOR_COMM_3: 100
+     STR_SECTOR_COMM_4: 100
     turnLimit: 25
     chronoTrigger: 0
     cheatTurn: 10
@@ -1420,11 +1423,20 @@ alienDeployments:
      STR_SECTOR_COMM_1: 100
      STR_SECTOR_COMM_2: 100
      STR_SECTOR_COMM_3: 100
+     STR_SECTOR_COMM_4: 100
   - type: STR_COMMS_DEFENSE_AREA51 #DONE
     refNode: *STR_COMMS_DEFENSE
     isHidden: true
     terrains:
       - AREA51_DEFENSE
+    successEvents:
+      STR_SECTOR_COMM_3A: 10
+      STR_SECTOR_COMM_3B: 10
+      STR_SECTOR_COMM_3C: 10
+      STR_SECTOR_COMM_3D: 10
+      STR_SECTOR_COMM_3E: 10
+      STR_SECTOR_COMM_3F: 10
+      STR_SECTOR_COMM_3G: 10
   - type: STR_COMMS_DEFENSE_BIOLAB #DEFENSE 4
     refNode: *STR_COMMS_DEFENSE
     isHidden: true
@@ -1455,6 +1467,14 @@ alienDeployments:
     isHidden: true
     terrains:
       - AREA51_EXTRACTION
+    successEvents:
+      STR_SECTOR_COMM_3A: 10
+      STR_SECTOR_COMM_3B: 10
+      STR_SECTOR_COMM_3C: 10
+      STR_SECTOR_COMM_3D: 10
+      STR_SECTOR_COMM_3E: 10
+      STR_SECTOR_COMM_3F: 10
+      STR_SECTOR_COMM_3G: 10
   - type: STR_COMMS_EXTRACTION_BIOLAB #EXTRACTION 3
     refNode: *STR_COMMS_EXTRACTION
     isHidden: true
@@ -1497,6 +1517,14 @@ alienDeployments:
     objectiveComplete: [STR_MISSILE_SILO_DISABLED, 500]
     objectiveFailed: [STR_MISSILE_SILO_OPERATIONAL, -500]
     objectivePopup: STR_MISSILE_SILO_DESTROYED
+    successEvents:
+      STR_SECTOR_COMM_3A: 10
+      STR_SECTOR_COMM_3B: 10
+      STR_SECTOR_COMM_3C: 10
+      STR_SECTOR_COMM_3D: 10
+      STR_SECTOR_COMM_3E: 10
+      STR_SECTOR_COMM_3F: 10
+      STR_SECTOR_COMM_3G: 10
   - type: STR_COMMS_DESTROY_BIOLAB #DESTROY 3
     refNode: *STR_COMMS_DESTROY
     terrains:
@@ -1605,6 +1633,14 @@ alienDeployments:
     isHidden: true
     terrains:
       - AREA51_RESEARCH
+    successEvents:
+      STR_SECTOR_COMM_3A: 10
+      STR_SECTOR_COMM_3B: 10
+      STR_SECTOR_COMM_3C: 10
+      STR_SECTOR_COMM_3D: 10
+      STR_SECTOR_COMM_3E: 10
+      STR_SECTOR_COMM_3F: 10
+      STR_SECTOR_COMM_3G: 10
   - type: STR_COMMS_RECOVERY_BIOLAB ##RECOVERY 5
     refNode: *STR_COMMS_RECOVERY
     isHidden: true
@@ -1663,7 +1699,12 @@ alienDeployments:
     objectiveComplete: [STR_EXFILTRATION_SUCCESS, 250]
     keepCraftAfterFailedMission: true
     despawnPenalty: 0
-    points: 0
+    points: 0    
+    successEvents:
+      STR_SECTOR_COMM_2B: 10
+      STR_SECTOR_COMM_2C: 10
+      STR_SECTOR_COMM_2E: 10
+      STR_SECTOR_COMM_2G: 10
   - type: STR_RESISTANCE_PROTECT
     data: *SKYNET_RESISTANCE
     width: 50
@@ -1687,6 +1728,14 @@ alienDeployments:
     duration: [72, 120]
     despawnPenalty: 0
     points: 0
+    successEvents:
+      STR_SECTOR_COMM_2A: 10
+      STR_SECTOR_COMM_2B: 10
+      STR_SECTOR_COMM_2C: 10
+      STR_SECTOR_COMM_2D: 10
+      STR_SECTOR_COMM_2E: 10
+      STR_SECTOR_COMM_2F: 10
+      STR_SECTOR_COMM_2G: 10
   - type: STR_RESISTANCE_RESCUE
     data: *SKYNET_RESISTANCE
     width: 50
@@ -1707,6 +1756,11 @@ alienDeployments:
     duration: [72, 120]
     despawnPenalty: 0
     points: 0
+    successEvents:
+      STR_SECTOR_COMM_2A: 10
+      STR_SECTOR_COMM_2B: 10
+      STR_SECTOR_COMM_2D: 10
+      STR_SECTOR_COMM_2F: 10
   - &STR_RESISTANCE_ESCAPE00
     type: STR_RESISTANCE_ESCAPE00
     isHidden: true
@@ -1736,6 +1790,14 @@ alienDeployments:
     keepCraftAfterFailedMission: true
     despawnPenalty: 0
     points: 0
+    successEvents:
+      STR_SECTOR_COMM_2A: 10
+      STR_SECTOR_COMM_2B: 10
+      STR_SECTOR_COMM_2C: 10
+      STR_SECTOR_COMM_2D: 10
+      STR_SECTOR_COMM_2E: 10
+      STR_SECTOR_COMM_2F: 10
+      STR_SECTOR_COMM_2G: 10
   - type: STR_RESISTANCE_ESCAPE01
     refNode: *STR_RESISTANCE_ESCAPE00
     alert: STR_RESISTANCE_COMMS01_MESSAGE

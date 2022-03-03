@@ -1055,7 +1055,7 @@ items:
     armor: 250
   - type: STR_M25A1
     requires:
-        - STR_M25A1
+      - STR_M25A1
     size: 0.2
     costSell: 1000000
     weight: 6

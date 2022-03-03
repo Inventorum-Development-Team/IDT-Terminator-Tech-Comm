@@ -78,7 +78,7 @@ ufos:
       name: HK01
       mapDataSets:
         - BLANKS
-        - HK2
+        - HK02
       mapBlocks:
         - name: HK01
           width: 20
@@ -236,7 +236,7 @@ ufos:
       name: HK04
       mapDataSets:
         - BLANKS
-        - HK2
+        - HK02
       mapBlocks:
         - name: HK04
           width: 20
@@ -263,7 +263,7 @@ ufos:
       name: HK01
       mapDataSets:
         - BLANKS
-        - HK2
+        - HK02
       mapBlocks:
         - name: HK04
           width: 20
@@ -290,7 +290,7 @@ ufos:
       name: HK04
       mapDataSets:
         - BLANKS
-        - HK2
+        - HK02
       mapBlocks:
         - name: HK04
           width: 20
@@ -318,7 +318,7 @@ ufos:
       name: HK04
       mapDataSets:
         - BLANKS
-        - HK2
+        - HK02
       mapBlocks:
         - name: PLANE4
           width: 20
@@ -345,7 +345,7 @@ ufos:
       name: HK04
       mapDataSets:
         - BLANKS
-        - HK2
+        - HK02
       mapBlocks:
         - name: PLANE4
           width: 20
@@ -372,7 +372,7 @@ ufos:
       name: HK04
       mapDataSets:
         - BLANKS
-        - HK2
+        - HK02
       mapBlocks:
         - name: PLANE4
           width: 20

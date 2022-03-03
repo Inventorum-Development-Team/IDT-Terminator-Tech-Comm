@@ -3,8 +3,9 @@ Tech-Comm Change Log
 V0.5.1
 * Fixed: abandoned bases and destroy sites should now spawn correctly.
 * Changed: starting base craft now properly start with the extra fuel from the pods.
-* Fixed: several missing text strings.
-* Fixed: several missing text strings.
+* Changed: starting description and first Resistance order rewritten.
+* Changed: more interesting mission names.
+* Fixed: several missing text strings and text edits.
 
 V0.5.0
 * Added: completing Sector Comms, Tech Systems and Craft Manufacture now give one free tech at the beginning of each month regarding Craft Blueprints, Skynet Weapons, Skynet Protocols, Hunter-Killers and Terminators.

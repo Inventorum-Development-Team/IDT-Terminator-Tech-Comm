@@ -1,4 +1,5 @@
 events: #DONE
+#GAME START
   - name: STR_RESISTANCE_MESSAGE
     description: STR_RESISTANCE_MESSAGE_ALERT
     background: BACK183.SCR
@@ -7,6 +8,7 @@ events: #DONE
     points: 0
     timer: 0
     timerRandom: 00
+#SKYNET ACTIVITY PROPAGANDA
   - &STR_SKYNET_COMMS
     name: STR_SKYNET_COMMS
     description: STR_SKYNET_COMMS_MESSAGE
@@ -130,6 +132,7 @@ events: #DONE
   - name: STR_SKYNET_COMMS37
     refNode: *STR_SKYNET_COMMS
     description: STR_SKYNET_COMMS37_MESSAGE
+#GENERAL ACTIVITY EVENTS
   - &STR_RESISTANCE_COMMS
     name: STR_RESISTANCE_COMMS
     description: STR_RESISTANCE_COMMS_MESSAGE
@@ -280,13 +283,22 @@ events: #DONE
   - name: STR_RESISTANCE_COMMS46
     refNode: *STR_RESISTANCE_COMMS
     description: STR_RESISTANCE_COMMS46_MESSAGE
+#SECTOR COMMS REWARDS
+  - name: STR_SECTOR_COMM_0
+    description: STR_SECTOR_COMM_0_ALERT
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    points: 0
+    timer: 1440
+    timerRandom: 28800
   - name: STR_SECTOR_COMM_1
     description: STR_SECTOR_COMM_1_ALERT
     background: BACK183.SCR
     regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
     city: true
     points: 0
-    funds: 100000
+    funds: 250000
     timer: 1440
     timerRandom: 28800
   - name: STR_SECTOR_COMM_2
@@ -295,6 +307,24 @@ events: #DONE
     regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
     city: true
     points: 0
+    randomItemList:
+      - STR_HYDRA_LAUNCHER
+      - STR_STINGER_LAUNCHER
+      - STR_SIDEWINDER_LAUNCHER
+      - STR_SPARROW_LAUNCHER
+      - STR_STANDARD_LAUNCHER
+      - STR_PHOENIX_LAUNCHER
+      - STR_AMRAAM_LAUNCHER
+      - STR_HARM_LAUNCHER
+      - STR_GAU_2_CANNON
+      - STR_GAU_4_CANNON
+      - STR_GAU_8_CANNON
+      - STR_GAU_12_CANNON
+      - STR_GAU_19_CANNON
+      - STR_COMM_PODS
+      - STR_FUEL_PODS
+      - STR_TECH_PODS
+      - STR_ECM_PODS
     timer: 1440
     timerRandom: 28800
   - name: STR_SECTOR_COMM_3
@@ -319,6 +349,525 @@ events: #DONE
      - STR_HAWKEYE_FUSELAGE
      - STR_MOHAWK_FUSELAGE
      - STR_GUARDRAIL_FUSELAGE
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_COMM_4
+    description: STR_SECTOR_COMM_4_ALERT
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    spawnedPersons: 5
+    spawnedPersonType: STR_SOLDIER
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_COMM_5
+    description: STR_SECTOR_COMM_5_ALERT
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    randomItemList:
+      - STR_LIGHT_PISTOL
+      - STR_MEDIUM_PISTOL
+      - STR_HEAVY_PISTOL
+      - STR_PUMP_SHOTGUN
+      - STR_SEMI_AUTO_SHOTGUN
+      - STR_RIFLE_M4
+      - STR_RIFLE_AK47
+      - STR_M82A1
+      - STR_HEAVY_ROCKET_LAUNCHER
+      - STR_QUAD_ROCKET
+      - STR_COMBAT_SUIT
+      - STR_ALLOY_VEST
+      - STR_COMBAT_ARMOR
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_COMM_1A
+    description: STR_SECTOR_COMM_1_ALERT
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    points: 0
+    funds: 1000000
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_COMM_1B
+    description: STR_SECTOR_COMM_1_ALERT
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    points: 0
+    funds: 750000
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_COMM_1C
+    description: STR_SECTOR_COMM_1_ALERT
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    points: 0
+    funds: 500000
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_COMM_1D
+    description: STR_SECTOR_COMM_1_ALERT
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    points: 0
+    funds: 250000
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_COMM_2A
+    description: STR_SECTOR_COMM_2_ALERT
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    points: 0
+    everyMultiItemList:
+      STR_HYDRA_LAUNCHER: 1
+      STR_HYDRA_ROCKETS: 50
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_COMM_2B
+    description: STR_SECTOR_COMM_2_ALERT
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    points: 0
+    everyMultiItemList:
+      STR_SIDEWINDER_LAUNCHER: 1
+      STR_SIDEWINDER_MISSILES: 6
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_COMM_2C
+    description: STR_SECTOR_COMM_2_ALERT
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    points: 0
+    everyMultiItemList:
+      STR_SPARROW_LAUNCHER: 1
+      STR_SPARROW_MISSILES: 6
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_COMM_2D
+    description: STR_SECTOR_COMM_2_ALERT
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    points: 0
+    everyMultiItemList:
+      STR_PHOENIX_LAUNCHER: 1
+      STR_PHOENIX_MISSILES: 4
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_COMM_2E
+    description: STR_SECTOR_COMM_2_ALERT
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    points: 0
+    everyMultiItemList:
+      STR_HARM_LAUNCHER: 1
+      STR_HARM_MISSILES: 4
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_COMM_2F
+    description: STR_SECTOR_COMM_2_ALERT
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    points: 0
+    everyMultiItemList:
+      STR_STANDARD_LAUNCHER: 1
+      STR_STANDARD_MISSILES: 4
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_COMM_2G
+    description: STR_SECTOR_COMM_2_ALERT
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    points: 0
+    everyMultiItemList:
+      STR_ASRAAM_LAUNCHER: 1
+      STR_ASRAAM_MISSILES: 6
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_COMM_2H
+    description: STR_SECTOR_COMM_2_ALERT
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    points: 0
+    everyMultiItemList:
+      STR_STINGER_LAUNCHER: 1
+      STR_STINGER_MISSILES: 8
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_COMM_2I
+    description: STR_SECTOR_COMM_2_ALERT
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    points: 0
+    everyMultiItemList:
+      STR_GAU_2_CANNON: 1
+      STR_GAU_2_CANNON_ROUNDS_X50: 300
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_COMM_2J
+    description: STR_SECTOR_COMM_2_ALERT
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    points: 0
+    everyMultiItemList:
+      STR_GAU_4_CANNON: 1
+      STR_GAU_4_CANNON_ROUNDS_X50: 300
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_COMM_2K
+    description: STR_SECTOR_COMM_2_ALERT
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    points: 0
+    everyMultiItemList:
+      STR_GAU_8_CANNON: 1
+      STR_GAU_8_CANNON_ROUNDS_X50: 200
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_COMM_2L
+    description: STR_SECTOR_COMM_2_ALERT
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    points: 0
+    everyMultiItemList:
+      STR_GAU_12_CANNON: 1
+      STR_GAU_12_CANNON_ROUNDS_X50: 250
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_COMM_2M
+    description: STR_SECTOR_COMM_2_ALERT
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    points: 0
+    everyMultiItemList:
+      STR_GAU_19_CANNON: 1
+      STR_GAU_19_CANNON_ROUNDS_X50: 250
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_COMM_2N
+    description: STR_SECTOR_COMM_2_ALERT
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    points: 0
+    everyMultiItemList:
+      STR_ECM_PODS: 1
+      STR_FUEL_PODS: 1
+      STR_COMM_PODS: 1
+      STR_TECH_PODS: 1
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_COMM_3A
+    description: STR_SECTOR_COMM_3_ALERT
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    everyMultiItemList:
+     STR_TRACER_FUSELAGE: 1
+     STR_LION_FUSELAGE: 1
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_COMM_3B
+    description: STR_SECTOR_COMM_3_ALERT
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    everyMultiItemList:
+     STR_OSPREY_FUSELAGE: 1
+     STR_HAWKEYE_FUSELAGE: 1
+     STR_SKYHAWK_FUSELAGE: 1
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_COMM_3C
+    description: STR_SECTOR_COMM_3_ALERT
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    everyMultiItemList:
+     STR_SHERPA_FUSELAGE: 1
+     STR_TALON_FUSELAGE: 1
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_COMM_3D
+    description: STR_SECTOR_COMM_3_ALERT
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    everyMultiItemList:
+     STR_VIKING_FUSELAGE: 1
+     STR_TWIN_OTTER_FUSELAGE: 1
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_COMM_3E
+    description: STR_SECTOR_COMM_3_ALERT
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    everyMultiItemList:
+     STR_WARTHOG_FUSELAGE: 1
+     STR_PROWLER_FUSELAGE: 1
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_COMM_3F
+    description: STR_SECTOR_COMM_3_ALERT
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    everyMultiItemList:
+     STR_DRAGONFLY_FUSELAGE: 1
+     STR_MOHAWK_FUSELAGE: 1
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_COMM_3G
+    description: STR_SECTOR_COMM_3_ALERT
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    everyMultiItemList:
+     STR_BRONCO_FUSELAGE: 1
+     STR_GUARDRAIL_FUSELAGE: 1
+     STR_GOSHAWK_FUSELAGE: 1
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_COMM_4A
+    description: STR_SECTOR_COMM_4_ALERT
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    spawnedPersons: 6
+    spawnedPersonType: STR_SOLDIER
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_COMM_4B
+    description: STR_SECTOR_COMM_4_ALERT
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    spawnedPersons: 5
+    spawnedPersonType: STR_SOLDIER
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_COMM_4C
+    description: STR_SECTOR_COMM_4_ALERT
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    spawnedPersons: 4
+    spawnedPersonType: STR_SOLDIER
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_COMM_4D
+    description: STR_SECTOR_COMM_4_ALERT
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    spawnedPersons: 3
+    spawnedPersonType: STR_OFFICER
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_COMM_4E
+    description: STR_SECTOR_COMM_4_ALERT
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    spawnedPersons: 2
+    spawnedPersonType: STR_OFFICER
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_COMM_4F
+    description: STR_SECTOR_COMM_4_ALERT
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    spawnedPersons: 3
+    spawnedPersonType: STR_PILOT
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_COMM_4G
+    description: STR_SECTOR_COMM_4_ALERT
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    spawnedPersons: 2
+    spawnedPersonType: STR_PILOT
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_COMM_5A
+    description: STR_SECTOR_COMM_5_ALERT
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    everyMultiItemList:
+     STR_LIGHT_PISTOL: 3
+     STR_LIGHT_PISTOL_CLIP: 12
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_COMM_5B
+    description: STR_SECTOR_COMM_5_ALERT
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    everyMultiItemList:
+     STR_MEDIUM_PISTOL: 3
+     STR_MEDIUM_PISTOL_CLIP: 12
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_COMM_5C
+    description: STR_SECTOR_COMM_5_ALERT
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    everyMultiItemList:
+     STR_HEAVY_PISTOL: 3
+     STR_HEAVY_PISTOL_CLIP: 12
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_COMM_5D
+    description: STR_SECTOR_COMM_5_ALERT
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    everyMultiItemList:
+     STR_PUMP_SHOTGUN: 3
+     STR_SHOTGUN_SHELLS: 9
+     STR_SHOTGUN_SLUGS: 9
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_COMM_5E
+    description: STR_SECTOR_COMM_5_ALERT
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    everyMultiItemList:
+     STR_SEMI_AUTO_SHOTGUN: 3
+     STR_SHOTGUN_SHELLS: 9
+     STR_SHOTGUN_SLUGS: 9
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_COMM_5F
+    description: STR_SECTOR_COMM_5_ALERT
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    everyMultiItemList:
+     STR_RIFLE_M4: 3
+     STR_556_SS109: 12
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_COMM_5G
+    description: STR_SECTOR_COMM_5_ALERT
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    everyMultiItemList:
+     STR_RIFLE_AK47: 3
+     STR_762_SP: 12
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_COMM_5H
+    description: STR_SECTOR_COMM_5_ALERT
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    everyMultiItemList:
+     STR_M82A1: 2
+     STR_50_BMG: 6
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_COMM_5I
+    description: STR_SECTOR_COMM_5_ALERT
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    everyMultiItemList:
+     STR_HEAVY_ROCKET_LAUNCHER: 1
+     STR_HIVE_ROCKET: 2
+     STR_SHRAPNEL_ROCKET: 2
+     STR_HELLFIRE_ROCKET: 2
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_COMM_5J
+    description: STR_SECTOR_COMM_5_ALERT
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    everyMultiItemList:
+     STR_QUAD_ROCKET: 1
+     STR_NAPALM_ROCKET: 4
+     STR_SMALL_ROCKET: 4
+     STR_SMOKE_ROCKET: 2
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_COMM_5K
+    description: STR_SECTOR_COMM_5_ALERT
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    everyMultiItemList:
+     STR_COMBAT_SUIT: 12
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_COMM_5M
+    description: STR_SECTOR_COMM_5_ALERT
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    everyMultiItemList:
+     STR_ALLOY_VEST: 6
+    points: 0
+    timer: 1440
+    timerRandom: 28800
+  - name: STR_SECTOR_COMM_5N
+    description: STR_SECTOR_COMM_5_ALERT
+    background: BACK183.SCR
+    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
+    city: true
+    everyMultiItemList:
+     STR_COMBAT_ARMOR: 3
     points: 0
     timer: 1440
     timerRandom: 28800
