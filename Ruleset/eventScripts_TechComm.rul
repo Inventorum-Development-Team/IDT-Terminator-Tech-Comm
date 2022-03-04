@@ -50,6 +50,9 @@ eventScripts: #DONE
         STR_RESISTANCE_COMMS41: 100
         STR_RESISTANCE_COMMS42: 100
         STR_RESISTANCE_COMMS43: 100
+        STR_RESISTANCE_COMMS44: 100
+        STR_RESISTANCE_COMMS45: 100
+        STR_RESISTANCE_COMMS46: 100
     firstMonth: 0
     executionOdds: 100
   - type: STR_SKYNET_COMMS
@@ -92,13 +95,18 @@ eventScripts: #DONE
         STR_SKYNET_COMMS35: 100
         STR_SKYNET_COMMS36: 100
         STR_SKYNET_COMMS37: 100
+        STR_SKYNET_COMMS38: 100
+        STR_SKYNET_COMMS39: 100
+        STR_SKYNET_COMMS40: 100
     firstMonth: 0
     executionOdds: 100
   - type: STR_SECTOR_00_COMM
     oneTimeRandomEvents: 
+        STR_SECTOR_00_COMM_0: 100
         STR_SECTOR_00_COMM_1: 100
         STR_SECTOR_00_COMM_2: 100
         STR_SECTOR_00_COMM_3: 100
+        STR_SECTOR_00_COMM_4: 100
     firstMonth: 0
     missionVarName: researchSector00
     counterMax: 1
@@ -107,9 +115,11 @@ eventScripts: #DONE
     executionOdds: 100
   - type: STR_SECTOR_01_COMM
     oneTimeRandomEvents:
+        STR_SECTOR_01_COMM_0: 100
         STR_SECTOR_01_COMM_1: 100
         STR_SECTOR_01_COMM_2: 100
         STR_SECTOR_01_COMM_3: 100
+        STR_SECTOR_01_COMM_4: 100
     firstMonth: 0
     missionVarName: researchSector01
     counterMax: 1 
@@ -118,9 +128,11 @@ eventScripts: #DONE
     executionOdds: 100
   - type: STR_SECTOR_02_COMM
     oneTimeRandomEvents:
+        STR_SECTOR_02_COMM_0: 100
         STR_SECTOR_02_COMM_1: 100
         STR_SECTOR_02_COMM_2: 100
         STR_SECTOR_02_COMM_3: 100
+        STR_SECTOR_02_COMM_4: 100
     firstMonth: 0
     missionVarName: researchSector02
     counterMax: 1
@@ -129,9 +141,11 @@ eventScripts: #DONE
     executionOdds: 100
   - type: STR_SECTOR_03_COMM
     oneTimeRandomEvents:
+        STR_SECTOR_03_COMM_0: 100
         STR_SECTOR_03_COMM_1: 100
         STR_SECTOR_03_COMM_2: 100
         STR_SECTOR_03_COMM_3: 100
+        STR_SECTOR_03_COMM_4: 100
     firstMonth: 0
     missionVarName: researchSector03
     counterMax: 1
@@ -140,9 +154,11 @@ eventScripts: #DONE
     executionOdds: 100
   - type: STR_SECTOR_04_COMM
     oneTimeRandomEvents:
+        STR_SECTOR_04_COMM_0: 100
         STR_SECTOR_04_COMM_1: 100
         STR_SECTOR_04_COMM_2: 100
         STR_SECTOR_04_COMM_3: 100
+        STR_SECTOR_04_COMM_4: 100
     firstMonth: 0
     missionVarName: researchSector04
     counterMax: 1
@@ -151,9 +167,11 @@ eventScripts: #DONE
     executionOdds: 100
   - type: STR_SECTOR_05_COMM
     oneTimeRandomEvents:
+        STR_SECTOR_05_COMM_0: 100
         STR_SECTOR_05_COMM_1: 100
         STR_SECTOR_05_COMM_2: 100
         STR_SECTOR_05_COMM_3: 100
+        STR_SECTOR_05_COMM_4: 100
     firstMonth: 0
     missionVarName: researchSector05
     counterMax: 1
@@ -162,9 +180,11 @@ eventScripts: #DONE
     executionOdds: 100
   - type: STR_SECTOR_06_COMM
     oneTimeRandomEvents:
+        STR_SECTOR_06_COMM_0: 100
         STR_SECTOR_06_COMM_1: 100
         STR_SECTOR_06_COMM_2: 100
         STR_SECTOR_06_COMM_3: 100
+        STR_SECTOR_06_COMM_4: 100
     firstMonth: 0
     missionVarName: researchSector06
     counterMax: 1
@@ -173,9 +193,11 @@ eventScripts: #DONE
     executionOdds: 100
   - type: STR_SECTOR_07_COMM
     oneTimeRandomEvents:
+        STR_SECTOR_07_COMM_0: 100
         STR_SECTOR_07_COMM_1: 100
         STR_SECTOR_07_COMM_2: 100
         STR_SECTOR_07_COMM_3: 100
+        STR_SECTOR_07_COMM_4: 100
     firstMonth: 0
     missionVarName: researchSector07
     counterMax: 1
@@ -184,9 +206,11 @@ eventScripts: #DONE
     executionOdds: 100
   - type: STR_SECTOR_08_COMM
     oneTimeRandomEvents:
+        STR_SECTOR_08_COMM_0: 100
         STR_SECTOR_08_COMM_1: 100
         STR_SECTOR_08_COMM_2: 100
         STR_SECTOR_08_COMM_3: 100
+        STR_SECTOR_08_COMM_4: 100
     firstMonth: 0
     missionVarName: researchSector08
     counterMax: 1
@@ -195,9 +219,11 @@ eventScripts: #DONE
     executionOdds: 100
   - type: STR_SECTOR_09_COMM
     oneTimeRandomEvents:
+        STR_SECTOR_09_COMM_0: 100
         STR_SECTOR_09_COMM_1: 100
         STR_SECTOR_09_COMM_2: 100
         STR_SECTOR_09_COMM_3: 100
+        STR_SECTOR_09_COMM_4: 100
     firstMonth: 0
     missionVarName: researchSector09
     counterMax: 1
@@ -206,9 +232,11 @@ eventScripts: #DONE
     executionOdds: 100
   - type: STR_SECTOR_10_COMM
     oneTimeRandomEvents:
+        STR_SECTOR_10_COMM_0: 100
         STR_SECTOR_10_COMM_1: 100
         STR_SECTOR_10_COMM_2: 100
         STR_SECTOR_10_COMM_3: 100
+        STR_SECTOR_10_COMM_4: 100
     firstMonth: 0
     missionVarName: researchSector10
     counterMax: 1
@@ -217,9 +245,11 @@ eventScripts: #DONE
     executionOdds: 100
   - type: STR_SECTOR_11_COMM
     oneTimeRandomEvents:
+        STR_SECTOR_11_COMM_0: 100
         STR_SECTOR_11_COMM_1: 100
         STR_SECTOR_11_COMM_2: 100
         STR_SECTOR_11_COMM_3: 100
+        STR_SECTOR_11_COMM_4: 100
     firstMonth: 0
     missionVarName: researchSector11
     counterMax: 1
@@ -228,9 +258,11 @@ eventScripts: #DONE
     executionOdds: 100
   - type: STR_SECTOR_12_COMM
     oneTimeRandomEvents:
+        STR_SECTOR_12_COMM_0: 100
         STR_SECTOR_12_COMM_1: 100
         STR_SECTOR_12_COMM_2: 100
         STR_SECTOR_12_COMM_3: 100
+        STR_SECTOR_12_COMM_4: 100
     firstMonth: 0
     missionVarName: researchSector12
     counterMax: 1
@@ -239,9 +271,11 @@ eventScripts: #DONE
     executionOdds: 100
   - type: STR_SECTOR_13_COMM
     oneTimeRandomEvents:
+        STR_SECTOR_13_COMM_0: 100
         STR_SECTOR_13_COMM_1: 100
         STR_SECTOR_13_COMM_2: 100
         STR_SECTOR_13_COMM_3: 100
+        STR_SECTOR_13_COMM_4: 100
     firstMonth: 0
     missionVarName: researchSector13
     counterMax: 1
@@ -250,9 +284,11 @@ eventScripts: #DONE
     executionOdds: 100
   - type: STR_SECTOR_14_COMM
     oneTimeRandomEvents:
+        STR_SECTOR_14_COMM_0: 100
         STR_SECTOR_14_COMM_1: 100
         STR_SECTOR_14_COMM_2: 100
         STR_SECTOR_14_COMM_3: 100
+        STR_SECTOR_14_COMM_4: 100
     firstMonth: 0
     missionVarName: researchSector14
     counterMax: 1
@@ -261,9 +297,11 @@ eventScripts: #DONE
     executionOdds: 100
   - type: STR_SECTOR_15_COMM
     oneTimeRandomEvents:
+        STR_SECTOR_15_COMM_0: 100
         STR_SECTOR_15_COMM_1: 100
         STR_SECTOR_15_COMM_2: 100
         STR_SECTOR_15_COMM_3: 100
+        STR_SECTOR_15_COMM_4: 100
     firstMonth: 0
     missionVarName: researchSector15
     counterMax: 1
@@ -272,9 +310,11 @@ eventScripts: #DONE
     executionOdds: 100
   - type: STR_SECTOR_16_COMM
     oneTimeRandomEvents:
+        STR_SECTOR_16_COMM_0: 100
         STR_SECTOR_16_COMM_1: 100
         STR_SECTOR_16_COMM_2: 100
         STR_SECTOR_16_COMM_3: 100
+        STR_SECTOR_16_COMM_4: 100
     firstMonth: 0
     missionVarName: researchSector16
     counterMax: 1
@@ -283,9 +323,11 @@ eventScripts: #DONE
     executionOdds: 100
   - type: STR_SECTOR_17_COMM
     oneTimeRandomEvents:
+        STR_SECTOR_17_COMM_0: 100
         STR_SECTOR_17_COMM_1: 100
         STR_SECTOR_17_COMM_2: 100
         STR_SECTOR_17_COMM_3: 100
+        STR_SECTOR_17_COMM_4: 100
     firstMonth: 0
     missionVarName: researchSector17
     counterMax: 1
@@ -294,9 +336,11 @@ eventScripts: #DONE
     executionOdds: 100
   - type: STR_SECTOR_18_COMM
     oneTimeRandomEvents:
+        STR_SECTOR_18_COMM_0: 100
         STR_SECTOR_18_COMM_1: 100
         STR_SECTOR_18_COMM_2: 100
         STR_SECTOR_18_COMM_3: 100
+        STR_SECTOR_18_COMM_4: 100
     firstMonth: 0
     missionVarName: researchSector18
     counterMax: 1
@@ -305,9 +349,11 @@ eventScripts: #DONE
     executionOdds: 100
   - type: STR_SECTOR_19_COMM
     oneTimeRandomEvents:
+        STR_SECTOR_19_COMM_0: 100
         STR_SECTOR_19_COMM_1: 100
         STR_SECTOR_19_COMM_2: 100
         STR_SECTOR_19_COMM_3: 100
+        STR_SECTOR_19_COMM_4: 100
     firstMonth: 0
     missionVarName: researchSector19
     counterMax: 1
@@ -316,9 +362,11 @@ eventScripts: #DONE
     executionOdds: 100
   - type: STR_SECTOR_20_COMM
     oneTimeRandomEvents:
+        STR_SECTOR_20_COMM_0: 100
         STR_SECTOR_20_COMM_1: 100
         STR_SECTOR_20_COMM_2: 100
         STR_SECTOR_20_COMM_3: 100
+        STR_SECTOR_20_COMM_4: 100
     firstMonth: 0
     missionVarName: researchSector20
     counterMax: 1
@@ -327,9 +375,11 @@ eventScripts: #DONE
     executionOdds: 100
   - type: STR_SECTOR_21_COMM
     oneTimeRandomEvents:
+        STR_SECTOR_21_COMM_0: 100
         STR_SECTOR_21_COMM_1: 100
         STR_SECTOR_21_COMM_2: 100
         STR_SECTOR_21_COMM_3: 100
+        STR_SECTOR_21_COMM_4: 100
     firstMonth: 0
     missionVarName: researchSector21
     counterMax: 1

@@ -35,6 +35,126 @@ manufacture:
   - delete: STR_LIGHTNING
   - delete: STR_AVENGER
 #WEAPONS
+  - name: STR_556_AP
+    category: STR_AMMUNITION
+    requires:
+      - STR_HYPER_ALLOYS
+    space: 2
+    time: 25
+    cost: 150
+    listOrder: 810
+  - name: STR_762_FMJ
+    category: STR_AMMUNITION
+    requires:
+      - STR_HYPER_ALLOYS
+    space: 2
+    time: 25
+    cost: 150
+    listOrder: 810
+  - name: STR_50_AP
+    category: STR_AMMUNITION
+    requires:
+      - STR_HYPER_ALLOYS
+    space: 2
+    time: 25
+    cost: 200
+    listOrder: 810
+  - name: STR_M134
+    category: STR_WEAPON
+    requires:
+     - STR_M134
+    space: 4 
+    time: 1050 
+    cost: 48000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 1
+    listOrder: 860
+  - name: STR_762_FMJ_BELT
+    category: STR_AMMUNITION
+    requires:
+      - STR_HYPER_ALLOYS
+    space: 2
+    time: 30
+    cost: 300
+    listOrder: 810
+  - name: STR_762_AP_BELT
+    category: STR_AMMUNITION
+    requires:
+      - STR_HYPER_ALLOYS
+    space: 2
+    time: 30
+    cost: 300
+    listOrder: 810
+  - name: STR_D12
+    category: STR_WEAPON
+    requires:
+     - STR_D12
+    space: 4 
+    time: 1050 
+    cost: 48000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 1
+    listOrder: 860
+  - name: STR_D12A2
+    category: STR_WEAPON
+    requires:
+     - STR_D12A2
+    space: 4 
+    time: 1050 
+    cost: 48000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 1
+    listOrder: 860
+  - name: STR_D12_DRUM
+    category: STR_AMMUNITION
+    requires:
+     - STR_D12
+    space: 4 
+    time: 70 
+    cost: 5000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 1
+    listOrder: 861
+  - name: STR_15MM_AMR
+    category: STR_WEAPON
+    requires:
+     - STR_15MM_AMR
+    space: 4 
+    time: 1050 
+    cost: 48000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 1
+    listOrder: 856
+  - name: STR_15MM_AMR_CLIP
+    category: STR_AMMUNITION
+    requires:
+     - STR_15MM_AMR
+    space: 4 
+    time: 70 
+    cost: 5000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 1
+    listOrder: 857
+  - name: STR_20MM_AMR
+    category: STR_WEAPON
+    requires:
+     - STR_20MM_AMR
+    space: 4 
+    time: 1050 
+    cost: 48000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 1
+    listOrder: 856
+  - name: STR_20MM_AMR_CLIP
+    category: STR_AMMUNITION
+    requires:
+     - STR_20MM_AMR
+    space: 4 
+    time: 70 
+    cost: 5000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 1
+    listOrder: 857
   - name: STR_MEDI_KIT
     category: STR_EQUIPMENT
     requires:
@@ -49,13 +169,12 @@ manufacture:
     cost: 88000
     requires:
       - STR_M20A
-      - STR_M20A_FUEL_CELL
     requiredItems:
       STR_HYPER_ALLOYS: 1
   - name: STR_M20A_FUEL_CELL
     category: STR_AMMUNITION
     requires:
-      - STR_M20A_FUEL_CELL
+      - STR_M20A
     space: 1
     time: 80
     cost: 3000
@@ -65,7 +184,6 @@ manufacture:
     category: STR_WEAPON
     requires:
       - STR_M25A1
-      - STR_M25A1_FUEL_CELL
     space: 1
     time: 300
     cost: 56000
@@ -77,7 +195,7 @@ manufacture:
     time: 60
     cost: 2000
     requires:
-      - STR_M25A1_FUEL_CELL
+      - STR_M25A1
     requiredItems:
       STR_PLASMA_CELL: 1
   - name: STR_M30A1
@@ -87,13 +205,12 @@ manufacture:
     cost: 88000
     requires:
       - STR_M30A1
-      - STR_M30A1_FUEL_CELL
     requiredItems:
       STR_HYPER_ALLOYS: 1
   - name: STR_M30A1_FUEL_CELL
     category: STR_AMMUNITION
     requires:
-      - STR_M30A1_FUEL_CELL
+      - STR_M30A1
     space: 1
     time: 80
     cost: 3000
@@ -106,13 +223,12 @@ manufacture:
     cost: 88000
     requires:
       - STR_M45
-      - STR_M45_FUEL_CELL
     requiredItems:
       STR_HYPER_ALLOYS: 1
   - name: STR_M45_FUEL_CELL
     category: STR_AMMUNITION
     requires:
-      - STR_M45_FUEL_CELL
+      - STR_M45
     space: 1
     time: 80
     cost: 3000
@@ -125,13 +241,12 @@ manufacture:
     cost: 88000
     requires:
       - STR_M95A1
-      - STR_M95A1_FUEL_CELL
     requiredItems:
       STR_HYPER_ALLOYS: 1
   - name: STR_M95A1_FUEL_CELL
     category: STR_AMMUNITION
     requires:
-      - STR_M95A1_FUEL_CELL
+      - STR_M95A1
     space: 1
     time: 80
     cost: 3000
@@ -144,13 +259,12 @@ manufacture:
     cost: 88000
     requires:
       - STR_RSB80
-      - STR_RSB80_FUEL_CELL
     requiredItems:
       STR_HYPER_ALLOYS: 1
   - name: STR_RSB80_FUEL_CELL
     category: STR_AMMUNITION
     requires:
-      - STR_RSB80_FUEL_CELL
+      - STR_RSB80
     space: 1
     time: 80
     cost: 3000
@@ -163,13 +277,12 @@ manufacture:
     cost: 88000
     requires:
       - STR_RSB90
-      - STR_RSB90_FUEL_CELL
     requiredItems:
       STR_HYPER_ALLOYS: 1
   - name: STR_RSB90_FUEL_CELL
     category: STR_AMMUNITION
     requires:
-      - STR_RSB90_FUEL_CELL
+      - STR_RSB90
     space: 1
     time: 80
     cost: 3000
@@ -182,18 +295,52 @@ manufacture:
     cost: 88000
     requires:
       - STR_RBS92
-      - STR_RBS92_FUEL_CELL
     requiredItems:
       STR_HYPER_ALLOYS: 1
   - name: STR_RBS92_FUEL_CELL
     category: STR_AMMUNITION
     requires:
-      - STR_RBS92_FUEL_CELL
+      - STR_RBS92
     space: 1
     time: 80
     cost: 3000
     requiredItems:
       STR_PLASMA_CELL: 1
+  - name: STR_PLSGRENADE
+    category: STR_WEAPON
+    requires:
+      - STR_PLSGRENADE
+    space: 2
+    time: 200
+    cost: 5100
+    requiredItems:
+      STR_PLASMA_CELL: 1
+    listOrder: 2490
+  - name: STR_COMBAT_SUIT
+    category: STR_PERSONAL_ARMOR
+    space: 8
+    time: 400
+    cost: 9000
+    listOrder: 2601
+  - name: STR_ALLOY_VEST
+    category: STR_PERSONAL_ARMOR
+    requires:
+      - STR_HYPER_ALLOYS
+    space: 10
+    time: 600
+    cost: 12000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 1
+    listOrder: 2602
+  - name: STR_COMBAT_ARMOR
+    category: STR_PERSONAL_ARMOR
+    requires:
+      - STR_ALLOY_VEST
+    space: 12
+    time: 800
+    cost: 22000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 2
 #CRAFT WEAPONS
   - name: STR_FUEL_PODS
     category: STR_CRAFT_WEAPON
@@ -215,6 +362,7 @@ manufacture:
     category: STR_CRAFT_WEAPON
     requires:
       - STR_SECTOR_COMMS
+      - STR_TECH_SYSTEMS
     space: 6
     time: 400
     cost: 30000
@@ -222,6 +370,7 @@ manufacture:
   - name: STR_TECH_PODS
     category: STR_CRAFT_WEAPON
     requires:
+      - STR_SECTOR_COMMS
       - STR_TECH_SYSTEMS
     space: 6
     time: 400
@@ -230,7 +379,7 @@ manufacture:
   - name: STR_HYDRA_LAUNCHER
     category: STR_CRAFT_WEAPON
     requires:
-      - STR_SECTOR_COMMS
+      - STR_HYDRA_LAUNCHER
     space: 6
     time: 400
     cost: 30000
@@ -238,7 +387,7 @@ manufacture:
   - name: STR_HYDRA_ROCKETS
     category: STR_CRAFT_AMMUNITION
     requires:
-      - STR_SECTOR_COMMS
+      - STR_HYDRA_LAUNCHER
     space: 6
     time: 400
     cost: 4000
@@ -246,7 +395,7 @@ manufacture:
   - name: STR_STINGER_LAUNCHER
     category: STR_CRAFT_WEAPON
     requires:
-      - STR_SECTOR_COMMS
+      - STR_STINGER_LAUNCHER
     space: 6
     time: 400
     cost: 30000
@@ -254,7 +403,7 @@ manufacture:
   - name: STR_STINGER_MISSILES
     category: STR_CRAFT_AMMUNITION
     requires:
-      - STR_SECTOR_COMMS
+      - STR_STINGER_LAUNCHER
     space: 6
     time: 400
     cost: 16000
@@ -262,7 +411,7 @@ manufacture:
   - name: STR_SIDEWINDER_LAUNCHER
     category: STR_CRAFT_WEAPON
     requires:
-      - STR_SECTOR_COMMS
+      - STR_SIDEWINDER_LAUNCHER
     space: 6
     time: 400
     cost: 30000
@@ -270,7 +419,7 @@ manufacture:
   - name: STR_SIDEWINDER_MISSILES
     category: STR_CRAFT_AMMUNITION
     requires:
-      - STR_SECTOR_COMMS
+      - STR_SIDEWINDER_LAUNCHER
     space: 6
     time: 400
     cost: 16000
@@ -278,7 +427,7 @@ manufacture:
   - name: STR_ASRAAM_LAUNCHER
     category: STR_CRAFT_WEAPON
     requires:
-      - STR_SECTOR_COMMS
+      - STR_ASRAAM_LAUNCHER
     space: 6
     time: 400
     cost: 30000
@@ -286,7 +435,7 @@ manufacture:
   - name: STR_ASRAAM_MISSILES
     category: STR_CRAFT_AMMUNITION
     requires:
-      - STR_SECTOR_COMMS
+      - STR_ASRAAM_LAUNCHER
     space: 6
     time: 400
     cost: 16000
@@ -294,7 +443,7 @@ manufacture:
   - name: STR_SPARROW_LAUNCHER
     category: STR_CRAFT_WEAPON
     requires:
-      - STR_SECTOR_COMMS
+      - STR_SPARROW_LAUNCHER
     space: 6
     time: 400
     cost: 30000
@@ -302,7 +451,7 @@ manufacture:
   - name: STR_SPARROW_MISSILES
     category: STR_CRAFT_AMMUNITION
     requires:
-      - STR_SECTOR_COMMS
+      - STR_SPARROW_LAUNCHER
     space: 6
     time: 400
     cost: 16000
@@ -310,7 +459,7 @@ manufacture:
   - name: STR_STANDARD_LAUNCHER
     category: STR_CRAFT_WEAPON
     requires:
-      - STR_SECTOR_COMMS
+      - STR_STANDARD_LAUNCHER
     space: 6
     time: 400
     cost: 30000
@@ -318,7 +467,7 @@ manufacture:
   - name: STR_STANDARD_MISSILES
     category: STR_CRAFT_AMMUNITION
     requires:
-      - STR_SECTOR_COMMS
+      - STR_STANDARD_LAUNCHER
     space: 6
     time: 400
     cost: 16000
@@ -326,7 +475,7 @@ manufacture:
   - name: STR_PHOENIX_LAUNCHER
     category: STR_CRAFT_WEAPON
     requires:
-      - STR_SECTOR_COMMS
+      - STR_PHOENIX_LAUNCHER
     space: 6
     time: 400
     cost: 30000
@@ -334,7 +483,7 @@ manufacture:
   - name: STR_PHOENIX_MISSILES
     category: STR_CRAFT_AMMUNITION
     requires:
-      - STR_SECTOR_COMMS
+      - STR_PHOENIX_LAUNCHER
     space: 6
     time: 400
     cost: 16000
@@ -342,7 +491,7 @@ manufacture:
   - name: STR_AMRAAM_LAUNCHER
     category: STR_CRAFT_WEAPON
     requires:
-      - STR_SECTOR_COMMS
+      - STR_AMRAAM_LAUNCHER
     space: 6
     time: 400
     cost: 30000
@@ -350,7 +499,7 @@ manufacture:
   - name: STR_AMRAAM_MISSILES
     category: STR_CRAFT_AMMUNITION
     requires:
-      - STR_SECTOR_COMMS
+      - STR_AMRAAM_LAUNCHER
     space: 6
     time: 400
     cost: 16000
@@ -358,7 +507,7 @@ manufacture:
   - name: STR_HARM_LAUNCHER
     category: STR_CRAFT_WEAPON
     requires:
-      - STR_SECTOR_COMMS
+      - STR_HARM_LAUNCHER
     space: 6
     time: 400
     cost: 30000
@@ -366,7 +515,7 @@ manufacture:
   - name: STR_HARM_MISSILES
     category: STR_CRAFT_AMMUNITION
     requires:
-      - STR_SECTOR_COMMS
+      - STR_HARM_LAUNCHER
     space: 6
     time: 400
     cost: 16000
@@ -374,7 +523,7 @@ manufacture:
   - name: STR_FALCON_LAUNCHER
     category: STR_CRAFT_WEAPON
     requires:
-      - STR_SECTOR_COMMS
+      - STR_FALCON_LAUNCHER
     space: 6
     time: 400
     cost: 30000
@@ -382,7 +531,7 @@ manufacture:
   - name: STR_FALCON_MISSILES
     category: STR_CRAFT_AMMUNITION
     requires:
-      - STR_SECTOR_COMMS
+      - STR_FALCON_LAUNCHER
     space: 6
     time: 400
     cost: 16000
@@ -390,7 +539,7 @@ manufacture:
   - name: STR_GENIE_LAUNCHER
     category: STR_CRAFT_WEAPON
     requires:
-      - STR_SECTOR_COMMS
+      - STR_GENIE_LAUNCHER
     space: 6
     time: 400
     cost: 30000
@@ -398,7 +547,7 @@ manufacture:
   - name: STR_GENIE_ROCKETS
     category: STR_CRAFT_AMMUNITION
     requires:
-      - STR_SECTOR_COMMS
+      - STR_GENIE_LAUNCHER
     space: 6
     time: 400
     cost: 16000
@@ -406,7 +555,7 @@ manufacture:
   - name: STR_GAU_2_CANNON
     category: STR_CRAFT_WEAPON
     requires:
-      - STR_SECTOR_COMMS
+      - STR_GAU_2_CANNON
     space: 6
     time: 300
     cost: 182000
@@ -414,7 +563,7 @@ manufacture:
   - name: STR_GAU_2_CANNON_ROUNDS_X50
     category: STR_CRAFT_AMMUNITION
     requires:
-      - STR_SECTOR_COMMS
+      - STR_GAU_2_CANNON
     space: 2 
     time: 5 
     cost: 200 
@@ -422,7 +571,7 @@ manufacture:
   - name: STR_GAU_4_CANNON
     category: STR_CRAFT_WEAPON
     requires:
-      - STR_SECTOR_COMMS
+      - STR_GAU_4_CANNON
     space: 6
     time: 300
     cost: 182000
@@ -438,7 +587,7 @@ manufacture:
   - name: STR_GAU_8_CANNON
     category: STR_CRAFT_WEAPON
     requires:
-      - STR_SECTOR_COMMS
+      - STR_GAU_8_CANNON
     space: 6
     time: 300
     cost: 182000
@@ -446,7 +595,7 @@ manufacture:
   - name: STR_GAU_8_CANNON_ROUNDS_X50
     category: STR_CRAFT_AMMUNITION
     requires:
-      - STR_SECTOR_COMMS
+      - STR_GAU_8_CANNON
     space: 2 
     time: 5 
     cost: 200 
@@ -454,7 +603,7 @@ manufacture:
   - name: STR_GAU_12_CANNON
     category: STR_CRAFT_WEAPON
     requires:
-      - STR_SECTOR_COMMS
+      - STR_GAU_12_CANNON
     space: 6
     time: 300
     cost: 182000
@@ -462,7 +611,7 @@ manufacture:
   - name: STR_GAU_12_CANNON_ROUNDS_X50
     category: STR_CRAFT_AMMUNITION
     requires:
-      - STR_SECTOR_COMMS
+      - STR_GAU_12_CANNON
     space: 2 
     time: 5 
     cost: 200 
@@ -470,7 +619,7 @@ manufacture:
   - name: STR_GAU_19_CANNON
     category: STR_CRAFT_WEAPON
     requires:
-      - STR_SECTOR_COMMS
+      - STR_GAU_19_CANNON
     space: 6
     time: 300
     cost: 182000
@@ -478,7 +627,7 @@ manufacture:
   - name: STR_GAU_19_CANNON_ROUNDS_X50
     category: STR_CRAFT_AMMUNITION
     requires:
-      - STR_SECTOR_COMMS
+      - STR_GAU_19_CANNON
     space: 2 
     time: 5 
     cost: 200 

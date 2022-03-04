@@ -934,6 +934,9 @@ globe:
         STR_SKYNET_COMMS35: 100
         STR_SKYNET_COMMS36: 100
         STR_SKYNET_COMMS37: 100
+        STR_SKYNET_COMMS38: 100
+        STR_SKYNET_COMMS39: 100
+        STR_SKYNET_COMMS40: 100
     - id: -5
       deployments:
         STR_RESISTANCE_MESSAGE: 100

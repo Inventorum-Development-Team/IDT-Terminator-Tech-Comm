@@ -144,7 +144,7 @@ research:
 ##DEAD HAND - NUCLEAR MISSILE BASE
 ##ULTRA - TEMPUS, GIVES QUANTUM FIELD?
 ##TROJAN HORSE - GIVES NANOTECH
-##RESISTANCE ORDERS - GIVEN AFTER COUNCIL REPORT
+##RESISTANCE ORDERS & STORY COMMS - GIVEN AFTER COUNCIL REPORT
   - name: STR_RESISTANCE_ORDER_1
     cost: 5
     points: 10
@@ -175,54 +175,6 @@ research:
     points: 10
     dependencies:
       - STR_AI_SKYNET
-#TECH
-#TIER 0S - STARTING
-  - name: STR_SECTOR_COMMS #UNLOCKS SECTOR COMMS
-    cost: 5
-    points: 10
-    getOneFree:
-      - STR_AI_MAGIC_CARPET
-  - name: STR_TECH_SYSTEMS #UNLOCKS CRAFT & WEAPONS
-    cost: 50
-    points: 10
-    getOneFree:
-      - STR_SKYNET_FACILITIES
-  - name: STR_HARDENED_FACILITIES
-    cost: 50
-    points: 10
-    dependencies:
-      - STR_SECTOR_COMMS
-  - name: STR_DAMAGED_FACILITIES
-    cost: 50
-    points: 10
-    dependencies:
-      - STR_AI_SKYNET
-  - name: STR_SKYNET_FACILITIES
-    cost: 50
-    points: 10
-    dependencies:
-      - STR_AI_SKYNET
-  - name: STR_RESISTANCE_CRAFT #UNLOCKS CRAFT MANUFACTURE
-    cost: 50
-    points: 10
-    dependencies:
-      - STR_SECTOR_COMMS
-  - name: STR_ADVANCED_FACILITIES
-    cost: 50
-    points: 10
-    dependencies:
-      - STR_AI_GREAT_WALL
-      - STR_HARDENED_FACILITIES
-  - name: STR_SKYNET_PROTOCOLS
-    cost: 50
-    points: 10
-    dependencies:
-      - STR_SECTOR_COMMS
-  - name: STR_SYNTHETIC_FUELS
-    cost: 50
-    points: 10
-    dependencies:
-      - STR_TECH_SYSTEMS
   - name: STR_STORY_COMMS01
     cost: 5
     points: 10
@@ -258,6 +210,54 @@ research:
     points: 10
     dependencies:
       - STR_AI_SKYNET
+#TECH
+#TIER 0S - STARTING
+  - name: STR_SECTOR_COMMS #UNLOCKS SECTOR COMMS
+    cost: 5
+    points: 10
+    getOneFree:
+      - STR_AI_MAGIC_CARPET
+  - name: STR_TECH_SYSTEMS #UNLOCKS WEAPONS
+    cost: 50
+    points: 10
+    getOneFree:
+      - STR_SKYNET_FACILITIES
+  - name: STR_HARDENED_FACILITIES
+    cost: 50
+    points: 10
+    dependencies:
+      - STR_SECTOR_COMMS
+  - name: STR_DAMAGED_FACILITIES
+    cost: 50
+    points: 10
+    dependencies:
+      - STR_AI_SKYNET
+  - name: STR_SKYNET_FACILITIES
+    cost: 50
+    points: 10
+    dependencies:
+      - STR_AI_SKYNET
+  - name: STR_RESISTANCE_CRAFT #UNLOCKS BLUEPRINT RECOVERY AND CRAFT MANUFACTURE
+    cost: 50
+    points: 10
+    dependencies:
+      - STR_SECTOR_COMMS
+  - name: STR_ADVANCED_FACILITIES
+    cost: 50
+    points: 10
+    dependencies:
+      - STR_AI_GREAT_WALL
+      - STR_HARDENED_FACILITIES
+  - name: STR_SKYNET_PROTOCOLS #UNLOCK PROTOCOL RECOVERY
+    cost: 50
+    points: 10
+    dependencies:
+      - STR_SECTOR_COMMS
+  - name: STR_SYNTHETIC_FUELS #UNLOCK FUEL PODS MANUFACTURE
+    cost: 50
+    points: 10
+    dependencies:
+      - STR_TECH_SYSTEMS
 ##TIER 1Y - AI
   - name: STR_AI_MAGIC_CARPET #SKYNET COUNTERATTACK
     cost: 5
@@ -324,7 +324,7 @@ research:
     cost: 50
     points: 10
     needItem: true
-##TIER 2.B - BASE RECOVERY
+##TIER 2.B - BASE RECOVERY - REQUIRE CHAIN HOME
   - name: STR_COMM_ARRAY
     cost: 50
     points: 10
@@ -359,18 +359,28 @@ research:
       - STR_TERMINATOR_T1000_CORPSE
       - STR_TERMINATOR_SENTRY_CORPSE
       - STR_TERMINATOR_CERBERUS_CORPSE
-  - name: STR_BALLISTICS #HYPER ALLOY RESEARCH
+  - name: STR_BALLISTICS #HYPER ALLOY RESEARCH - UNLOCK ADVANCED AMMO
     cost: 50
     points: 10
     dependencies:
       - STR_HYPER_ALLOYS
       - STR_PLASMA_CELL
-  - name: STR_EMP_FIELD #T-600  + RECOVERY
+  - name: STR_ALLOY_VEST
     cost: 50
     points: 10
     dependencies:
       - STR_HYPER_ALLOYS
-  - name: STR_EMP_ROUNDS #EMP FIELD
+  - name: STR_COMBAT_ARMOR
+    cost: 50
+    points: 10
+    dependencies:
+      - STR_BALLISTICS
+  - name: STR_EMP_FIELD #T-600 + RECOVERY?
+    cost: 50
+    points: 10
+    dependencies:
+      - STR_HYPER_ALLOYS
+  - name: STR_EMP_ROUNDS #EMP FIELD?
     cost: 50
     points: 10
     needItem: true
@@ -395,6 +405,7 @@ research:
     dependencies:
       - STR_EMP_FIELD
       - STR_HARDENED_FACILITIES
+
 ##TIER 3.K - HK RECOVERY
   - name: STR_DEFENSE_CENTER #HYPERWAVE
     cost: 50
@@ -893,7 +904,7 @@ research:
     points: 10
     dependencies:
       - STR_AI_SKYNET
-#TIER 0.M - BLUEPRINTS RECOVERED FROM TECH-COMM SECTOR MISSIONS
+#TIER 0.M - REQUIRE RESISTANCE CRAFT - BLUEPRINTS ALSO RECOVERED FROM TECH-COMM SECTOR MISSIONS
   - name: STR_VALKYRIE_BLUEPRINT
     cost: 50
     points: 10
@@ -917,68 +928,99 @@ research:
   - name: STR_OSPREY_BLUEPRINT
     cost: 50
     points: 10
-    needItem: true
+    dependencies:
+      - STR_RESISTANCE_CRAFT
   - name: STR_DRAGONFLY_BLUEPRINT
     cost: 50
     points: 10
-    needItem: true
+    dependencies:
+      - STR_RESISTANCE_CRAFT
   - name: STR_TALON_BLUEPRINT
     cost: 50
     points: 10
-    needItem: true
+    dependencies:
+      - STR_RESISTANCE_CRAFT
   - name: STR_SKYHAWK_BLUEPRINT
     cost: 50
     points: 10
-    needItem: true
+    dependencies:
+      - STR_RESISTANCE_CRAFT
   - name: STR_GOSHAWK_BLUEPRINT
     cost: 50
     points: 10
-    needItem: true
+    dependencies:
+      - STR_RESISTANCE_CRAFT
   - name: STR_VIKING_BLUEPRINT
     cost: 50
     points: 10
-    needItem: true
+    dependencies:
+      - STR_RESISTANCE_CRAFT
   - name: STR_GUARDRAIL_BLUEPRINT
     cost: 50
     points: 10
-    needItem: true
+    dependencies:
+      - STR_RESISTANCE_CRAFT
   - name: STR_MOHAWK_BLUEPRINT
     cost: 50
     points: 10
-    needItem: true
+    dependencies:
+      - STR_RESISTANCE_CRAFT
   - name: STR_TRACER_BLUEPRINT
     cost: 50
     points: 10
-    needItem: true
+    dependencies:
+      - STR_RESISTANCE_CRAFT
   - name: STR_TWIN_OTTER_BLUEPRINT
     cost: 50
     points: 10
-    needItem: true
+    dependencies:
+      - STR_RESISTANCE_CRAFT
   - name: STR_SHERPA_BLUEPRINT
     cost: 50
     points: 10
-    needItem: true
+    dependencies:
+      - STR_RESISTANCE_CRAFT
   - name: STR_BRONCO_BLUEPRINT
     cost: 50
     points: 10
-    needItem: true
+    dependencies:
+      - STR_RESISTANCE_CRAFT
   - name: STR_LION_BLUEPRINT
     cost: 50
     points: 10
-    needItem: true
+    dependencies:
+      - STR_RESISTANCE_CRAFT
   - name: STR_WARTHOG_BLUEPRINT
     cost: 50
     points: 10
-    needItem: true
+    dependencies:
+      - STR_RESISTANCE_CRAFT
   - name: STR_PROWLER_BLUEPRINT
     cost: 50
     points: 10
-    needItem: true
+    dependencies:
+      - STR_RESISTANCE_CRAFT
   - name: STR_HAWKEYE_BLUEPRINT
     cost: 50
     points: 10
-    needItem: true
-#TIER 0.M - BLUEPRINTS RECOVERED FROM COMM SECTOR MISSIONS
+    dependencies:
+      - STR_RESISTANCE_CRAFT
+#TIER 0.M - REQUIRE TECH SYSTEMS _ BLUEPRINTS ALSO RECOVERED FROM COMM SECTOR MISSIONS
+  - name: STR_GAU_2_CANNON
+    cost: 50
+    points: 10
+    dependencies:
+      - STR_TECH_SYSTEMS
+  - name: STR_GAU_4_CANNON
+    cost: 50
+    points: 10
+    dependencies:
+      - STR_TECH_SYSTEMS
+  - name: STR_GAU_8_CANNON
+    cost: 50
+    points: 10
+    dependencies:
+      - STR_TECH_SYSTEMS
   - name: STR_GAU_12_CANNON
     cost: 50
     points: 10
@@ -987,6 +1029,31 @@ research:
     cost: 50
     points: 10
     needItem: true
+  - name: STR_HYDRA_LAUNCHER
+    cost: 50
+    points: 10
+    dependencies:
+      - STR_TECH_SYSTEMS
+  - name: STR_SIDEWINDER_LAUNCHER
+    cost: 50
+    points: 10
+    dependencies:
+      - STR_TECH_SYSTEMS
+  - name: STR_SPARROW_LAUNCHER
+    cost: 50
+    points: 10
+    dependencies:
+      - STR_TECH_SYSTEMS
+  - name: STR_STANDARD_LAUNCHER
+    cost: 50
+    points: 10
+    dependencies:
+      - STR_TECH_SYSTEMS
+  - name: STR_PHOENIX_LAUNCHER
+    cost: 50
+    points: 10
+    dependencies:
+      - STR_TECH_SYSTEMS
   - name: STR_STINGER_LAUNCHER
     cost: 50
     points: 10
@@ -1000,6 +1067,14 @@ research:
     points: 10
     needItem: true
   - name: STR_HARM_LAUNCHER
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_GENIE_LAUNCHER
+    cost: 50
+    points: 10
+    needItem: true
+  - name: STR_FALCON_LAUNCHER
     cost: 50
     points: 10
     needItem: true

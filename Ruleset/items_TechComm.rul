@@ -2814,9 +2814,6 @@ items:
     bulletSprite: 8
     recover: false
 #OTHER
-  - type: STR_SALVAGED_CRAFT
-    costSell: 200000
-    size: 0.01
   - type: STR_PILOT_TRAINING
     costSell: 10000
     size: 0.01
@@ -2825,7 +2822,20 @@ items:
     costSell: 6500
     specialType: 10
     recoveryPoints: 1
+    recoveryDividers:
+      STR_UFO: 10
+      STR_OTHER: 150
   - type: STR_PLASMA_CELL
     size: 0.1
     costSell: 25000
-    recoveryPoints: 2
+    recoveryPoints: 5
+  - type: STR_FUSION_ENGINE
+    size: 0.7
+    costSell: 250000
+    specialType: 2
+    recoveryPoints: 20
+  - type: STR_AI_HK
+    size: 0.2
+    costSell: 80000
+    specialType: 3
+    recoveryPoints: 5

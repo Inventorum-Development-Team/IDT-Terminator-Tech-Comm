@@ -132,6 +132,15 @@ events: #DONE
   - name: STR_SKYNET_COMMS37
     refNode: *STR_SKYNET_COMMS
     description: STR_SKYNET_COMMS37_MESSAGE
+  - name: STR_SKYNET_COMMS38
+    refNode: *STR_SKYNET_COMMS
+    description: STR_SKYNET_COMMS38_MESSAGE
+  - name: STR_SKYNET_COMMS39
+    refNode: *STR_SKYNET_COMMS
+    description: STR_SKYNET_COMMS39_MESSAGE
+  - name: STR_SKYNET_COMMS40
+    refNode: *STR_SKYNET_COMMS
+    description: STR_SKYNET_COMMS40MESSAGE
 #GENERAL ACTIVITY EVENTS
   - &STR_RESISTANCE_COMMS
     name: STR_RESISTANCE_COMMS
@@ -284,7 +293,8 @@ events: #DONE
     refNode: *STR_RESISTANCE_COMMS
     description: STR_RESISTANCE_COMMS46_MESSAGE
 #SECTOR COMMS REWARDS
-  - name: STR_SECTOR_COMM_0
+  - &STR_SECTOR_COMM_0
+    name: STR_SECTOR_COMM_0
     description: STR_SECTOR_COMM_0_ALERT
     background: BACK183.SCR
     regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
@@ -292,7 +302,8 @@ events: #DONE
     points: 0
     timer: 1440
     timerRandom: 28800
-  - name: STR_SECTOR_COMM_1
+  - &STR_SECTOR_COMM_1
+    name: STR_SECTOR_COMM_1
     description: STR_SECTOR_COMM_1_ALERT
     background: BACK183.SCR
     regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
@@ -301,7 +312,8 @@ events: #DONE
     funds: 250000
     timer: 1440
     timerRandom: 28800
-  - name: STR_SECTOR_COMM_2
+  - &STR_SECTOR_COMM_2
+    name: STR_SECTOR_COMM_2
     description: STR_SECTOR_COMM_2_ALERT
     background: BACK183.SCR
     regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
@@ -327,7 +339,8 @@ events: #DONE
       - STR_ECM_PODS
     timer: 1440
     timerRandom: 28800
-  - name: STR_SECTOR_COMM_3
+  - &STR_SECTOR_COMM_3
+    name: STR_SECTOR_COMM_3
     description: STR_SECTOR_COMM_3_ALERT
     background: BACK183.SCR
     regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
@@ -352,7 +365,8 @@ events: #DONE
     points: 0
     timer: 1440
     timerRandom: 28800
-  - name: STR_SECTOR_COMM_4
+  - &STR_SECTOR_COMM_4
+    name: STR_SECTOR_COMM_4
     description: STR_SECTOR_COMM_4_ALERT
     background: BACK183.SCR
     regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
@@ -362,11 +376,13 @@ events: #DONE
     points: 0
     timer: 1440
     timerRandom: 28800
-  - name: STR_SECTOR_COMM_5
+  - &STR_SECTOR_COMM_5
+    name: STR_SECTOR_COMM_5
     description: STR_SECTOR_COMM_5_ALERT
     background: BACK183.SCR
     regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
     city: true
+    points: 0
     randomItemList:
       - STR_LIGHT_PISTOL
       - STR_MEDIUM_PISTOL
@@ -381,50 +397,29 @@ events: #DONE
       - STR_COMBAT_SUIT
       - STR_ALLOY_VEST
       - STR_COMBAT_ARMOR
-    points: 0
     timer: 1440
     timerRandom: 28800
   - name: STR_SECTOR_COMM_1A
-    description: STR_SECTOR_COMM_1_ALERT
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
-    points: 0
+    refNode: *STR_SECTOR_COMM_1
+    city: false
     funds: 1000000
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SECTOR_COMM_1B
-    description: STR_SECTOR_COMM_1_ALERT
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
-    points: 0
+    refNode: *STR_SECTOR_COMM_1
+    city: false
     funds: 750000
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SECTOR_COMM_1C
-    description: STR_SECTOR_COMM_1_ALERT
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
-    points: 0
+    refNode: *STR_SECTOR_COMM_1
+    city: false
     funds: 500000
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SECTOR_COMM_1D
-    description: STR_SECTOR_COMM_1_ALERT
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
-    points: 0
+    refNode: *STR_SECTOR_COMM_1
+    city: false
     funds: 250000
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SECTOR_COMM_2A
     description: STR_SECTOR_COMM_2_ALERT
     background: BACK183.SCR
     regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
+    city: false
     points: 0
     everyMultiItemList:
       STR_HYDRA_LAUNCHER: 1
@@ -435,7 +430,7 @@ events: #DONE
     description: STR_SECTOR_COMM_2_ALERT
     background: BACK183.SCR
     regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
+    city: false
     points: 0
     everyMultiItemList:
       STR_SIDEWINDER_LAUNCHER: 1
@@ -446,7 +441,7 @@ events: #DONE
     description: STR_SECTOR_COMM_2_ALERT
     background: BACK183.SCR
     regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
+    city: false
     points: 0
     everyMultiItemList:
       STR_SPARROW_LAUNCHER: 1
@@ -457,7 +452,7 @@ events: #DONE
     description: STR_SECTOR_COMM_2_ALERT
     background: BACK183.SCR
     regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
+    city: false
     points: 0
     everyMultiItemList:
       STR_PHOENIX_LAUNCHER: 1
@@ -468,7 +463,7 @@ events: #DONE
     description: STR_SECTOR_COMM_2_ALERT
     background: BACK183.SCR
     regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
+    city: false
     points: 0
     everyMultiItemList:
       STR_HARM_LAUNCHER: 1
@@ -479,7 +474,7 @@ events: #DONE
     description: STR_SECTOR_COMM_2_ALERT
     background: BACK183.SCR
     regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
+    city: false
     points: 0
     everyMultiItemList:
       STR_STANDARD_LAUNCHER: 1
@@ -490,7 +485,7 @@ events: #DONE
     description: STR_SECTOR_COMM_2_ALERT
     background: BACK183.SCR
     regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
+    city: false
     points: 0
     everyMultiItemList:
       STR_ASRAAM_LAUNCHER: 1
@@ -501,7 +496,7 @@ events: #DONE
     description: STR_SECTOR_COMM_2_ALERT
     background: BACK183.SCR
     regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
+    city: false
     points: 0
     everyMultiItemList:
       STR_STINGER_LAUNCHER: 1
@@ -512,7 +507,7 @@ events: #DONE
     description: STR_SECTOR_COMM_2_ALERT
     background: BACK183.SCR
     regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
+    city: false
     points: 0
     everyMultiItemList:
       STR_GAU_2_CANNON: 1
@@ -523,7 +518,7 @@ events: #DONE
     description: STR_SECTOR_COMM_2_ALERT
     background: BACK183.SCR
     regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
+    city: false
     points: 0
     everyMultiItemList:
       STR_GAU_4_CANNON: 1
@@ -534,7 +529,7 @@ events: #DONE
     description: STR_SECTOR_COMM_2_ALERT
     background: BACK183.SCR
     regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
+    city: false
     points: 0
     everyMultiItemList:
       STR_GAU_8_CANNON: 1
@@ -545,7 +540,7 @@ events: #DONE
     description: STR_SECTOR_COMM_2_ALERT
     background: BACK183.SCR
     regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
+    city: false
     points: 0
     everyMultiItemList:
       STR_GAU_12_CANNON: 1
@@ -556,7 +551,7 @@ events: #DONE
     description: STR_SECTOR_COMM_2_ALERT
     background: BACK183.SCR
     regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
+    city: false
     points: 0
     everyMultiItemList:
       STR_GAU_19_CANNON: 1
@@ -567,7 +562,7 @@ events: #DONE
     description: STR_SECTOR_COMM_2_ALERT
     background: BACK183.SCR
     regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
+    city: false
     points: 0
     everyMultiItemList:
       STR_ECM_PODS: 1
@@ -580,7 +575,7 @@ events: #DONE
     description: STR_SECTOR_COMM_3_ALERT
     background: BACK183.SCR
     regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
+    city: false
     everyMultiItemList:
      STR_TRACER_FUSELAGE: 1
      STR_LION_FUSELAGE: 1
@@ -591,7 +586,7 @@ events: #DONE
     description: STR_SECTOR_COMM_3_ALERT
     background: BACK183.SCR
     regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
+    city: false
     everyMultiItemList:
      STR_OSPREY_FUSELAGE: 1
      STR_HAWKEYE_FUSELAGE: 1
@@ -603,7 +598,7 @@ events: #DONE
     description: STR_SECTOR_COMM_3_ALERT
     background: BACK183.SCR
     regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
+    city: false
     everyMultiItemList:
      STR_SHERPA_FUSELAGE: 1
      STR_TALON_FUSELAGE: 1
@@ -614,7 +609,7 @@ events: #DONE
     description: STR_SECTOR_COMM_3_ALERT
     background: BACK183.SCR
     regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
+    city: false
     everyMultiItemList:
      STR_VIKING_FUSELAGE: 1
      STR_TWIN_OTTER_FUSELAGE: 1
@@ -625,7 +620,7 @@ events: #DONE
     description: STR_SECTOR_COMM_3_ALERT
     background: BACK183.SCR
     regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
+    city: false
     everyMultiItemList:
      STR_WARTHOG_FUSELAGE: 1
      STR_PROWLER_FUSELAGE: 1
@@ -636,7 +631,7 @@ events: #DONE
     description: STR_SECTOR_COMM_3_ALERT
     background: BACK183.SCR
     regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
+    city: false
     everyMultiItemList:
      STR_DRAGONFLY_FUSELAGE: 1
      STR_MOHAWK_FUSELAGE: 1
@@ -647,7 +642,7 @@ events: #DONE
     description: STR_SECTOR_COMM_3_ALERT
     background: BACK183.SCR
     regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
+    city: false
     everyMultiItemList:
      STR_BRONCO_FUSELAGE: 1
      STR_GUARDRAIL_FUSELAGE: 1
@@ -656,80 +651,45 @@ events: #DONE
     timer: 1440
     timerRandom: 28800
   - name: STR_SECTOR_COMM_4A
-    description: STR_SECTOR_COMM_4_ALERT
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
+    refNode: *STR_SECTOR_COMM_4
+    city: false
     spawnedPersons: 6
     spawnedPersonType: STR_SOLDIER
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SECTOR_COMM_4B
-    description: STR_SECTOR_COMM_4_ALERT
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
+    refNode: *STR_SECTOR_COMM_4
+    city: false
     spawnedPersons: 5
     spawnedPersonType: STR_SOLDIER
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SECTOR_COMM_4C
-    description: STR_SECTOR_COMM_4_ALERT
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
+    refNode: *STR_SECTOR_COMM_4
+    city: false
     spawnedPersons: 4
     spawnedPersonType: STR_SOLDIER
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SECTOR_COMM_4D
-    description: STR_SECTOR_COMM_4_ALERT
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
+    refNode: *STR_SECTOR_COMM_4
+    city: false
     spawnedPersons: 3
     spawnedPersonType: STR_OFFICER
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SECTOR_COMM_4E
-    description: STR_SECTOR_COMM_4_ALERT
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
+    refNode: *STR_SECTOR_COMM_4
+    city: false
     spawnedPersons: 2
     spawnedPersonType: STR_OFFICER
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SECTOR_COMM_4F
-    description: STR_SECTOR_COMM_4_ALERT
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
+    refNode: *STR_SECTOR_COMM_4
+    city: false
     spawnedPersons: 3
     spawnedPersonType: STR_PILOT
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SECTOR_COMM_4G
-    description: STR_SECTOR_COMM_4_ALERT
-    background: BACK183.SCR
-    regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
+    refNode: *STR_SECTOR_COMM_4
+    city: false
     spawnedPersons: 2
     spawnedPersonType: STR_PILOT
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SECTOR_COMM_5A
     description: STR_SECTOR_COMM_5_ALERT
     background: BACK183.SCR
     regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
+    city: false
     everyMultiItemList:
      STR_LIGHT_PISTOL: 3
      STR_LIGHT_PISTOL_CLIP: 12
@@ -740,7 +700,7 @@ events: #DONE
     description: STR_SECTOR_COMM_5_ALERT
     background: BACK183.SCR
     regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
+    city: false
     everyMultiItemList:
      STR_MEDIUM_PISTOL: 3
      STR_MEDIUM_PISTOL_CLIP: 12
@@ -751,7 +711,7 @@ events: #DONE
     description: STR_SECTOR_COMM_5_ALERT
     background: BACK183.SCR
     regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
+    city: false
     everyMultiItemList:
      STR_HEAVY_PISTOL: 3
      STR_HEAVY_PISTOL_CLIP: 12
@@ -762,7 +722,7 @@ events: #DONE
     description: STR_SECTOR_COMM_5_ALERT
     background: BACK183.SCR
     regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
+    city: false
     everyMultiItemList:
      STR_PUMP_SHOTGUN: 3
      STR_SHOTGUN_SHELLS: 9
@@ -774,7 +734,7 @@ events: #DONE
     description: STR_SECTOR_COMM_5_ALERT
     background: BACK183.SCR
     regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
+    city: false
     everyMultiItemList:
      STR_SEMI_AUTO_SHOTGUN: 3
      STR_SHOTGUN_SHELLS: 9
@@ -786,7 +746,7 @@ events: #DONE
     description: STR_SECTOR_COMM_5_ALERT
     background: BACK183.SCR
     regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
+    city: false
     everyMultiItemList:
      STR_RIFLE_M4: 3
      STR_556_SS109: 12
@@ -797,7 +757,7 @@ events: #DONE
     description: STR_SECTOR_COMM_5_ALERT
     background: BACK183.SCR
     regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
+    city: false
     everyMultiItemList:
      STR_RIFLE_AK47: 3
      STR_762_SP: 12
@@ -808,7 +768,7 @@ events: #DONE
     description: STR_SECTOR_COMM_5_ALERT
     background: BACK183.SCR
     regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
+    city: false
     everyMultiItemList:
      STR_M82A1: 2
      STR_50_BMG: 6
@@ -819,7 +779,7 @@ events: #DONE
     description: STR_SECTOR_COMM_5_ALERT
     background: BACK183.SCR
     regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
+    city: false
     everyMultiItemList:
      STR_HEAVY_ROCKET_LAUNCHER: 1
      STR_HIVE_ROCKET: 2
@@ -832,7 +792,7 @@ events: #DONE
     description: STR_SECTOR_COMM_5_ALERT
     background: BACK183.SCR
     regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
+    city: false
     everyMultiItemList:
      STR_QUAD_ROCKET: 1
      STR_NAPALM_ROCKET: 4
@@ -845,7 +805,7 @@ events: #DONE
     description: STR_SECTOR_COMM_5_ALERT
     background: BACK183.SCR
     regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
+    city: false
     everyMultiItemList:
      STR_COMBAT_SUIT: 12
     points: 0
@@ -855,7 +815,7 @@ events: #DONE
     description: STR_SECTOR_COMM_5_ALERT
     background: BACK183.SCR
     regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
+    city: false
     everyMultiItemList:
      STR_ALLOY_VEST: 6
     points: 0
@@ -865,933 +825,339 @@ events: #DONE
     description: STR_SECTOR_COMM_5_ALERT
     background: BACK183.SCR
     regionList: [STR_NORTH_AMERICA, STR_EUROPE, STR_ASIA, STR_SOUTH_AMERICA, STR_ARCTIC, STR_ANTARCTIC, STR_OCEANIA, STR_AFRICA]
-    city: true
+    city: false
     everyMultiItemList:
      STR_COMBAT_ARMOR: 3
     points: 0
     timer: 1440
     timerRandom: 28800
+  - name: STR_SECTOR_00_COMM_0
+    refNode: *STR_SECTOR_COMM_0
+    regionList: [SECTOR_00]
   - name: STR_SECTOR_00_COMM_1
-    description: STR_SECTOR_00_COMM_1_ALERT
-    background: BACK186.SCR
-    regionList: [STR_ARCTIC]
-    city: true
-    points: 0
-    funds: 100000
-    timer: 1440
-    timerRandom: 28800
+    refNode: *STR_SECTOR_COMM_1
+    regionList: [SECTOR_00]
   - name: STR_SECTOR_00_COMM_2
-    description: STR_SECTOR_00_COMM_2_ALERT
-    background: BACK186.SCR
+    refNode: *STR_SECTOR_COMM_2
     regionList: [SECTOR_00]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SECTOR_00_COMM_3
-    description: STR_SECTOR_00_COMM_3_ALERT
-    background: BACK186.SCR
+    refNode: *STR_SECTOR_COMM_3
     regionList: [SECTOR_00]
-    city: true
-    randomItemList:
-     - STR_VIKING_FUSELAGE
-     - STR_WARTHOG_FUSELAGE
-     - STR_PROWLER_FUSELAGE
-     - STR_TWIN_OTTER_FUSELAGE
-     - STR_SHERPA_FUSELAGE
-     - STR_OSPREY_FUSELAGE
-     - STR_TALON_FUSELAGE
-     - STR_LION_FUSELAGE
-     - STR_SKYHAWK_FUSELAGE
-     - STR_GOSHAWK_FUSELAGE
-     - STR_DRAGONFLY_FUSELAGE
-     - STR_BRONCO_FUSELAGE
-     - STR_TRACER_FUSELAGE
-     - STR_HAWKEYE_FUSELAGE
-     - STR_MOHAWK_FUSELAGE
-     - STR_GUARDRAIL_FUSELAGE
-    points: 0
-    timer: 1440
-    timerRandom: 28800
+  - name: STR_SECTOR_00_COMM_4
+    refNode: *STR_SECTOR_COMM_4
+    regionList: [SECTOR_00]
+  - name: STR_SECTOR_01_COMM_0
+    refNode: *STR_SECTOR_COMM_0
+    regionList: [SECTOR_01]
   - name: STR_SECTOR_01_COMM_1
-    description: STR_SECTOR_01_COMM_1_ALERT
-    background: BACK186.SCR
+    refNode: *STR_SECTOR_COMM_1
     regionList: [SECTOR_01]
-    city: true
-    points: 0
-    funds: 100000
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SECTOR_01_COMM_2
-    description: STR_SECTOR_01_COMM_2_ALERT
-    background: BACK186.SCR
+    refNode: *STR_SECTOR_COMM_2
     regionList: [SECTOR_01]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SECTOR_01_COMM_3
-    description: STR_SECTOR_01_COMM_3_ALERT
-    background: BACK186.SCR
+    refNode: *STR_SECTOR_COMM_3
     regionList: [SECTOR_01]
-    city: true
-    randomItemList:
-     - STR_VIKING_FUSELAGE
-     - STR_WARTHOG_FUSELAGE
-     - STR_PROWLER_FUSELAGE
-     - STR_TWIN_OTTER_FUSELAGE
-     - STR_SHERPA_FUSELAGE
-     - STR_OSPREY_FUSELAGE
-     - STR_TALON_FUSELAGE
-     - STR_LION_FUSELAGE
-     - STR_SKYHAWK_FUSELAGE
-     - STR_GOSHAWK_FUSELAGE
-     - STR_DRAGONFLY_FUSELAGE
-     - STR_BRONCO_FUSELAGE
-     - STR_TRACER_FUSELAGE
-     - STR_HAWKEYE_FUSELAGE
-     - STR_MOHAWK_FUSELAGE
-     - STR_GUARDRAIL_FUSELAGE
-    points: 0
-    timer: 1440
-    timerRandom: 28800
+  - name: STR_SECTOR_01_COMM_4
+    refNode: *STR_SECTOR_COMM_4
+    regionList: [SECTOR_01]
+  - name: STR_SECTOR_02_COMM_0
+    refNode: *STR_SECTOR_COMM_0
+    regionList: [SECTOR_02]
   - name: STR_SECTOR_02_COMM_1
-    description: STR_SECTOR_02_COMM_1_ALERT
-    background: BACK186.SCR
+    refNode: *STR_SECTOR_COMM_1
     regionList: [SECTOR_02]
-    city: true
-    funds: 100000
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SECTOR_02_COMM_2
-    description: STR_SECTOR_02_COMM_2_ALERT
-    background: BACK186.SCR
+    refNode: *STR_SECTOR_COMM_2
     regionList: [SECTOR_02]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SECTOR_02_COMM_3
-    description: STR_SECTOR_02_COMM_3_ALERT
-    background: BACK186.SCR
+    refNode: *STR_SECTOR_COMM_3
     regionList: [SECTOR_02]
-    city: true
-    randomItemList:
-     - STR_VIKING_FUSELAGE
-     - STR_WARTHOG_FUSELAGE
-     - STR_PROWLER_FUSELAGE
-     - STR_TWIN_OTTER_FUSELAGE
-     - STR_SHERPA_FUSELAGE
-     - STR_OSPREY_FUSELAGE
-     - STR_TALON_FUSELAGE
-     - STR_LION_FUSELAGE
-     - STR_SKYHAWK_FUSELAGE
-     - STR_GOSHAWK_FUSELAGE
-     - STR_DRAGONFLY_FUSELAGE
-     - STR_BRONCO_FUSELAGE
-     - STR_TRACER_FUSELAGE
-     - STR_HAWKEYE_FUSELAGE
-     - STR_MOHAWK_FUSELAGE
-     - STR_GUARDRAIL_FUSELAGE
-    points: 0
-    timer: 1440
-    timerRandom: 28800
+  - name: STR_SECTOR_02_COMM_4
+    refNode: *STR_SECTOR_COMM_4
+    regionList: [SECTOR_02]
+  - name: STR_SECTOR_03_COMM_0
+    refNode: *STR_SECTOR_COMM_0
+    regionList: [SECTOR_03]
   - name: STR_SECTOR_03_COMM_1
-    description: STR_SECTOR_03_COMM_1_UFOPEDIA
-    background: BACK186.SCR
+    refNode: *STR_SECTOR_COMM_1
     regionList: [SECTOR_03]
-    city: true
-    funds: 100000
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SECTOR_03_COMM_2
-    description: STR_SECTOR_03_COMM_2_ALERT
-    background: BACK186.SCR
+    refNode: *STR_SECTOR_COMM_2
     regionList: [SECTOR_03]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SECTOR_03_COMM_3
-    description: STR_SECTOR_03_COMM_3_ALERT
-    background: BACK186.SCR
+    refNode: *STR_SECTOR_COMM_3
     regionList: [SECTOR_03]
-    city: true
-    randomItemList:
-     - STR_VIKING_FUSELAGE
-     - STR_WARTHOG_FUSELAGE
-     - STR_PROWLER_FUSELAGE
-     - STR_TWIN_OTTER_FUSELAGE
-     - STR_SHERPA_FUSELAGE
-     - STR_OSPREY_FUSELAGE
-     - STR_TALON_FUSELAGE
-     - STR_LION_FUSELAGE
-     - STR_SKYHAWK_FUSELAGE
-     - STR_GOSHAWK_FUSELAGE
-     - STR_DRAGONFLY_FUSELAGE
-     - STR_BRONCO_FUSELAGE
-     - STR_TRACER_FUSELAGE
-     - STR_HAWKEYE_FUSELAGE
-     - STR_MOHAWK_FUSELAGE
-     - STR_GUARDRAIL_FUSELAGE
-    points: 0
-    timer: 1440
-    timerRandom: 28800
+  - name: STR_SECTOR_03_COMM_4
+    refNode: *STR_SECTOR_COMM_4
+    regionList: [SECTOR_03]
+  - name: STR_SECTOR_04_COMM_0
+    refNode: *STR_SECTOR_COMM_0
+    regionList: [SECTOR_04]
   - name: STR_SECTOR_04_COMM_1
-    description: STR_SECTOR_04_COMM_1_ALERT
-    background: BACK186.SCR
+    refNode: *STR_SECTOR_COMM_1
     regionList: [SECTOR_04]
-    city: true
-    funds: 100000
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SECTOR_04_COMM_2
-    description: STR_SECTOR_04_COMM_2_ALERT
-    background: BACK186.SCR
+    refNode: *STR_SECTOR_COMM_2
     regionList: [SECTOR_04]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SECTOR_04_COMM_3
-    description: STR_SECTOR_04_COMM_3_ALERT
-    background: BACK186.SCR
+    refNode: *STR_SECTOR_COMM_3
     regionList: [SECTOR_04]
-    city: true
-    randomItemList:
-     - STR_VIKING_FUSELAGE
-     - STR_WARTHOG_FUSELAGE
-     - STR_PROWLER_FUSELAGE
-     - STR_TWIN_OTTER_FUSELAGE
-     - STR_SHERPA_FUSELAGE
-     - STR_OSPREY_FUSELAGE
-     - STR_TALON_FUSELAGE
-     - STR_LION_FUSELAGE
-     - STR_SKYHAWK_FUSELAGE
-     - STR_GOSHAWK_FUSELAGE
-     - STR_DRAGONFLY_FUSELAGE
-     - STR_BRONCO_FUSELAGE
-     - STR_TRACER_FUSELAGE
-     - STR_HAWKEYE_FUSELAGE
-     - STR_MOHAWK_FUSELAGE
-     - STR_GUARDRAIL_FUSELAGE
-    points: 0
-    timer: 1440
-    timerRandom: 28800
+  - name: STR_SECTOR_04_COMM_4
+    refNode: *STR_SECTOR_COMM_4
+    regionList: [SECTOR_04]
+  - name: STR_SECTOR_05_COMM_0
+    refNode: *STR_SECTOR_COMM_0
+    regionList: [SECTOR_05]
   - name: STR_SECTOR_05_COMM_1
-    description: STR_SECTOR_05_COMM_1_ALERT
-    background: BACK186.SCR
+    refNode: *STR_SECTOR_COMM_1
     regionList: [SECTOR_05]
-    city: true
-    funds: 100000
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SECTOR_05_COMM_2
-    description: STR_SECTOR_05_COMM_2_ALERT
-    background: BACK186.SCR
+    refNode: *STR_SECTOR_COMM_2
     regionList: [SECTOR_05]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SECTOR_05_COMM_3
-    description: STR_SECTOR_05_COMM_3_ALERT
-    background: BACK186.SCR
+    refNode: *STR_SECTOR_COMM_3
     regionList: [SECTOR_05]
-    city: true
-    randomItemList:
-     - STR_VIKING_FUSELAGE
-     - STR_WARTHOG_FUSELAGE
-     - STR_PROWLER_FUSELAGE
-     - STR_TWIN_OTTER_FUSELAGE
-     - STR_SHERPA_FUSELAGE
-     - STR_OSPREY_FUSELAGE
-     - STR_TALON_FUSELAGE
-     - STR_LION_FUSELAGE
-     - STR_SKYHAWK_FUSELAGE
-     - STR_GOSHAWK_FUSELAGE
-     - STR_DRAGONFLY_FUSELAGE
-     - STR_BRONCO_FUSELAGE
-     - STR_TRACER_FUSELAGE
-     - STR_HAWKEYE_FUSELAGE
-     - STR_MOHAWK_FUSELAGE
-     - STR_GUARDRAIL_FUSELAGE
-    points: 0
-    timer: 1440
-    timerRandom: 28800
+  - name: STR_SECTOR_05_COMM_4
+    refNode: *STR_SECTOR_COMM_4
+    regionList: [SECTOR_05]
+  - name: STR_SECTOR_06_COMM_0
+    refNode: *STR_SECTOR_COMM_0
+    regionList: [SECTOR_06]
   - name: STR_SECTOR_06_COMM_1
-    description: STR_SECTOR_06_COMM_1_ALERT
-    background: BACK186.SCR
+    refNode: *STR_SECTOR_COMM_1
     regionList: [SECTOR_06]
-    city: true
-    funds: 100000
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SECTOR_06_COMM_2
-    description: STR_SECTOR_06_COMM_2_ALERT
-    background: BACK186.SCR
+    refNode: *STR_SECTOR_COMM_2
     regionList: [SECTOR_06]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SECTOR_06_COMM_3
-    description: STR_SECTOR_06_COMM_3_ALERT
-    background: BACK186.SCR
+    refNode: *STR_SECTOR_COMM_3
     regionList: [SECTOR_06]
-    city: true
-    randomItemList:
-     - STR_VIKING_FUSELAGE
-     - STR_WARTHOG_FUSELAGE
-     - STR_PROWLER_FUSELAGE
-     - STR_TWIN_OTTER_FUSELAGE
-     - STR_SHERPA_FUSELAGE
-     - STR_OSPREY_FUSELAGE
-     - STR_TALON_FUSELAGE
-     - STR_LION_FUSELAGE
-     - STR_SKYHAWK_FUSELAGE
-     - STR_GOSHAWK_FUSELAGE
-     - STR_DRAGONFLY_FUSELAGE
-     - STR_BRONCO_FUSELAGE
-     - STR_TRACER_FUSELAGE
-     - STR_HAWKEYE_FUSELAGE
-     - STR_MOHAWK_FUSELAGE
-     - STR_GUARDRAIL_FUSELAGE
-    points: 0
-    timer: 1440
-    timerRandom: 28800
+  - name: STR_SECTOR_06_COMM_4
+    refNode: *STR_SECTOR_COMM_4
+    regionList: [SECTOR_06]
+  - name: STR_SECTOR_07_COMM_0
+    refNode: *STR_SECTOR_COMM_0
+    regionList: [SECTOR_07]
   - name: STR_SECTOR_07_COMM_1
-    description: STR_SECTOR_07_COMM_1_ALERT
-    background: BACK186.SCR
+    refNode: *STR_SECTOR_COMM_1
     regionList: [SECTOR_07]
-    city: true
-    funds: 100000
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SECTOR_07_COMM_2
-    description: STR_SECTOR_07_COMM_2_ALERT
-    background: BACK186.SCR
+    refNode: *STR_SECTOR_COMM_2
     regionList: [SECTOR_07]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SECTOR_07_COMM_3
-    description: STR_SECTOR_07_COMM_3_ALERT
-    background: BACK186.SCR
+    refNode: *STR_SECTOR_COMM_3
     regionList: [SECTOR_07]
-    city: true
-    randomItemList:
-     - STR_VIKING_FUSELAGE
-     - STR_WARTHOG_FUSELAGE
-     - STR_PROWLER_FUSELAGE
-     - STR_TWIN_OTTER_FUSELAGE
-     - STR_SHERPA_FUSELAGE
-     - STR_OSPREY_FUSELAGE
-     - STR_TALON_FUSELAGE
-     - STR_LION_FUSELAGE
-     - STR_SKYHAWK_FUSELAGE
-     - STR_GOSHAWK_FUSELAGE
-     - STR_DRAGONFLY_FUSELAGE
-     - STR_BRONCO_FUSELAGE
-     - STR_TRACER_FUSELAGE
-     - STR_HAWKEYE_FUSELAGE
-     - STR_MOHAWK_FUSELAGE
-     - STR_GUARDRAIL_FUSELAGE
-    points: 0
-    timer: 1440
-    timerRandom: 28800
+  - name: STR_SECTOR_07_COMM_4
+    refNode: *STR_SECTOR_COMM_4
+    regionList: [SECTOR_07]
+  - name: STR_SECTOR_08_COMM_0
+    refNode: *STR_SECTOR_COMM_0
+    regionList: [SECTOR_08]
   - name: STR_SECTOR_08_COMM_1
-    description: STR_SECTOR_08_COMM_1_ALERT
-    background: BACK186.SCR
+    refNode: *STR_SECTOR_COMM_1
     regionList: [SECTOR_08]
-    city: true
-    points: 0
-    funds: 100000
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SECTOR_08_COMM_2
-    description: STR_SECTOR_08_COMM_2_ALERT
-    background: BACK186.SCR
+    refNode: *STR_SECTOR_COMM_2
     regionList: [SECTOR_08]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SECTOR_08_COMM_3
-    description: STR_SECTOR_08_COMM_3_ALERT
-    background: BACK186.SCR
+    refNode: *STR_SECTOR_COMM_3
     regionList: [SECTOR_08]
-    city: true
-    randomItemList:
-     - STR_VIKING_FUSELAGE
-     - STR_WARTHOG_FUSELAGE
-     - STR_PROWLER_FUSELAGE
-     - STR_TWIN_OTTER_FUSELAGE
-     - STR_SHERPA_FUSELAGE
-     - STR_OSPREY_FUSELAGE
-     - STR_TALON_FUSELAGE
-     - STR_LION_FUSELAGE
-     - STR_SKYHAWK_FUSELAGE
-     - STR_GOSHAWK_FUSELAGE
-     - STR_DRAGONFLY_FUSELAGE
-     - STR_BRONCO_FUSELAGE
-     - STR_TRACER_FUSELAGE
-     - STR_HAWKEYE_FUSELAGE
-     - STR_MOHAWK_FUSELAGE
-     - STR_GUARDRAIL_FUSELAGE
-    points: 0
-    timer: 1440
-    timerRandom: 28800
+  - name: STR_SECTOR_08_COMM_4
+    refNode: *STR_SECTOR_COMM_4
+    regionList: [SECTOR_08]
+  - name: STR_SECTOR_09_COMM_0
+    refNode: *STR_SECTOR_COMM_0
+    regionList: [SECTOR_09]
   - name: STR_SECTOR_09_COMM_1
-    description: STR_SECTOR_09_COMM_1_ALERT
-    background: BACK186.SCR
+    refNode: *STR_SECTOR_COMM_1
     regionList: [SECTOR_09]
-    city: true
-    points: 0
-    funds: 100000
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SECTOR_09_COMM_2
-    description: STR_SECTOR_09_COMM_2_ALERT
-    background: BACK186.SCR
+    refNode: *STR_SECTOR_COMM_2
     regionList: [SECTOR_09]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SECTOR_09_COMM_3
-    description: STR_SECTOR_09_COMM_3_ALERT
-    background: BACK186.SCR
+    refNode: *STR_SECTOR_COMM_3
     regionList: [SECTOR_09]
-    city: true
-    randomItemList:
-     - STR_VIKING_FUSELAGE
-     - STR_WARTHOG_FUSELAGE
-     - STR_PROWLER_FUSELAGE
-     - STR_TWIN_OTTER_FUSELAGE
-     - STR_SHERPA_FUSELAGE
-     - STR_OSPREY_FUSELAGE
-     - STR_TALON_FUSELAGE
-     - STR_LION_FUSELAGE
-     - STR_SKYHAWK_FUSELAGE
-     - STR_GOSHAWK_FUSELAGE
-     - STR_DRAGONFLY_FUSELAGE
-     - STR_BRONCO_FUSELAGE
-     - STR_TRACER_FUSELAGE
-     - STR_HAWKEYE_FUSELAGE
-     - STR_MOHAWK_FUSELAGE
-     - STR_GUARDRAIL_FUSELAGE
-    points: 0
-    timer: 1440
-    timerRandom: 28800
+  - name: STR_SECTOR_09_COMM_4
+    refNode: *STR_SECTOR_COMM_4
+    regionList: [SECTOR_09]
+  - name: STR_SECTOR_10_COMM_0
+    refNode: *STR_SECTOR_COMM_0
+    regionList: [SECTOR_10]
   - name: STR_SECTOR_10_COMM_1
-    description: STR_SECTOR_10_COMM_1_ALERT
-    background: BACK186.SCR
+    refNode: *STR_SECTOR_COMM_1
     regionList: [SECTOR_10]
-    city: true
-    points: 0
-    funds: 100000
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SECTOR_10_COMM_2
-    description: STR_SECTOR_10_COMM_2_ALERT
-    background: BACK186.SCR
+    refNode: *STR_SECTOR_COMM_2
     regionList: [SECTOR_10]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SECTOR_10_COMM_3
-    description: STR_SECTOR_10_COMM_3_ALERT
-    background: BACK186.SCR
+    refNode: *STR_SECTOR_COMM_3
     regionList: [SECTOR_10]
-    city: true
-    randomItemList:
-     - STR_VIKING_FUSELAGE
-     - STR_WARTHOG_FUSELAGE
-     - STR_PROWLER_FUSELAGE
-     - STR_TWIN_OTTER_FUSELAGE
-     - STR_SHERPA_FUSELAGE
-     - STR_OSPREY_FUSELAGE
-     - STR_TALON_FUSELAGE
-     - STR_LION_FUSELAGE
-     - STR_SKYHAWK_FUSELAGE
-     - STR_GOSHAWK_FUSELAGE
-     - STR_DRAGONFLY_FUSELAGE
-     - STR_BRONCO_FUSELAGE
-     - STR_TRACER_FUSELAGE
-     - STR_HAWKEYE_FUSELAGE
-     - STR_MOHAWK_FUSELAGE
-     - STR_GUARDRAIL_FUSELAGE
-    points: 0
-    timer: 1440
-    timerRandom: 28800
+  - name: STR_SECTOR_10_COMM_4
+    refNode: *STR_SECTOR_COMM_4
+    regionList: [SECTOR_10]
+  - name: STR_SECTOR_11_COMM_0
+    refNode: *STR_SECTOR_COMM_0
+    regionList: [SECTOR_11]
   - name: STR_SECTOR_11_COMM_1
-    description: STR_SECTOR_11_COMM_1_ALERT
-    background: BACK186.SCR
+    refNode: *STR_SECTOR_COMM_1
     regionList: [SECTOR_11]
-    city: true
-    points: 0
-    funds: 100000
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SECTOR_11_COMM_2
-    description: STR_SECTOR_11_COMM_2_ALERT
-    background: BACK186.SCR
+    refNode: *STR_SECTOR_COMM_2
     regionList: [SECTOR_11]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SECTOR_11_COMM_3
-    description: STR_SECTOR_11_COMM_3_ALERT
-    background: BACK186.SCR
+    refNode: *STR_SECTOR_COMM_3
     regionList: [SECTOR_11]
-    city: true
-    randomItemList:
-     - STR_VIKING_FUSELAGE
-     - STR_WARTHOG_FUSELAGE
-     - STR_PROWLER_FUSELAGE
-     - STR_TWIN_OTTER_FUSELAGE
-     - STR_SHERPA_FUSELAGE
-     - STR_OSPREY_FUSELAGE
-     - STR_TALON_FUSELAGE
-     - STR_LION_FUSELAGE
-     - STR_SKYHAWK_FUSELAGE
-     - STR_GOSHAWK_FUSELAGE
-     - STR_DRAGONFLY_FUSELAGE
-     - STR_BRONCO_FUSELAGE
-     - STR_TRACER_FUSELAGE
-     - STR_HAWKEYE_FUSELAGE
-     - STR_MOHAWK_FUSELAGE
-     - STR_GUARDRAIL_FUSELAGE
-    points: 0
-    timer: 1440
-    timerRandom: 28800
+  - name: STR_SECTOR_11_COMM_4
+    refNode: *STR_SECTOR_COMM_4
+    regionList: [SECTOR_11]
+  - name: STR_SECTOR_12_COMM_0
+    refNode: *STR_SECTOR_COMM_0
+    regionList: [SECTOR_12]
   - name: STR_SECTOR_12_COMM_1
-    description: STR_SECTOR_12_COMM_1_ALERT
-    background: BACK186.SCR
+    refNode: *STR_SECTOR_COMM_1
     regionList: [SECTOR_12]
-    city: true
-    funds: 100000
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SECTOR_12_COMM_2
-    description: STR_SECTOR_12_COMM_2_ALERT
-    background: BACK186.SCR
+    refNode: *STR_SECTOR_COMM_2
     regionList: [SECTOR_12]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SECTOR_12_COMM_3
-    description: STR_SECTOR_12_COMM_3_ALERT
-    background: BACK186.SCR
+    refNode: *STR_SECTOR_COMM_3
     regionList: [SECTOR_12]
-    city: true
-    randomItemList:
-     - STR_VIKING_FUSELAGE
-     - STR_WARTHOG_FUSELAGE
-     - STR_PROWLER_FUSELAGE
-     - STR_TWIN_OTTER_FUSELAGE
-     - STR_SHERPA_FUSELAGE
-     - STR_OSPREY_FUSELAGE
-     - STR_TALON_FUSELAGE
-     - STR_LION_FUSELAGE
-     - STR_SKYHAWK_FUSELAGE
-     - STR_GOSHAWK_FUSELAGE
-     - STR_DRAGONFLY_FUSELAGE
-     - STR_BRONCO_FUSELAGE
-     - STR_TRACER_FUSELAGE
-     - STR_HAWKEYE_FUSELAGE
-     - STR_MOHAWK_FUSELAGE
-     - STR_GUARDRAIL_FUSELAGE
-    points: 0
-    timer: 1440
-    timerRandom: 28800
+  - name: STR_SECTOR_12_COMM_4
+    refNode: *STR_SECTOR_COMM_4
+    regionList: [SECTOR_12]
+  - name: STR_SECTOR_13_COMM_0
+    refNode: *STR_SECTOR_COMM_0
+    regionList: [SECTOR_13]
   - name: STR_SECTOR_13_COMM_1
-    description: STR_SECTOR_13_COMM_1_ALERT
-    background: BACK186.SCR
+    refNode: *STR_SECTOR_COMM_1
     regionList: [SECTOR_13]
-    city: true
-    funds: 100000
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SECTOR_13_COMM_2
-    description: STR_SECTOR_13_COMM_2_ALERT
-    background: BACK186.SCR
+    refNode: *STR_SECTOR_COMM_2
     regionList: [SECTOR_13]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SECTOR_13_COMM_3
-    description: STR_SECTOR_13_COMM_3_ALERT
-    background: BACK186.SCR
+    refNode: *STR_SECTOR_COMM_3
     regionList: [SECTOR_13]
-    city: true
-    randomItemList:
-     - STR_VIKING_FUSELAGE
-     - STR_WARTHOG_FUSELAGE
-     - STR_PROWLER_FUSELAGE
-     - STR_TWIN_OTTER_FUSELAGE
-     - STR_SHERPA_FUSELAGE
-     - STR_OSPREY_FUSELAGE
-     - STR_TALON_FUSELAGE
-     - STR_LION_FUSELAGE
-     - STR_SKYHAWK_FUSELAGE
-     - STR_GOSHAWK_FUSELAGE
-     - STR_DRAGONFLY_FUSELAGE
-     - STR_BRONCO_FUSELAGE
-     - STR_TRACER_FUSELAGE
-     - STR_HAWKEYE_FUSELAGE
-     - STR_MOHAWK_FUSELAGE
-     - STR_GUARDRAIL_FUSELAGE
-    points: 0
-    timer: 1440
-    timerRandom: 28800
+  - name: STR_SECTOR_13_COMM_4
+    refNode: *STR_SECTOR_COMM_4
+    regionList: [SECTOR_13]
+  - name: STR_SECTOR_14_COMM_0
+    refNode: *STR_SECTOR_COMM_0
+    regionList: [SECTOR_14]
   - name: STR_SECTOR_14_COMM_1
-    description: STR_SECTOR_14_COMM_1_ALERT
-    background: BACK186.SCR
+    refNode: *STR_SECTOR_COMM_1
     regionList: [SECTOR_14]
-    city: true
-    points: 0
-    funds: 100000
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SECTOR_14_COMM_2
-    description: STR_SECTOR_14_COMM_2_ALERT
-    background: BACK186.SCR
+    refNode: *STR_SECTOR_COMM_2
     regionList: [SECTOR_14]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SECTOR_14_COMM_3
-    description: STR_SECTOR_14_COMM_3_ALERT
-    background: BACK186.SCR
+    refNode: *STR_SECTOR_COMM_3
     regionList: [SECTOR_14]
-    city: true
-    randomItemList:
-     - STR_VIKING_FUSELAGE
-     - STR_WARTHOG_FUSELAGE
-     - STR_PROWLER_FUSELAGE
-     - STR_TWIN_OTTER_FUSELAGE
-     - STR_SHERPA_FUSELAGE
-     - STR_OSPREY_FUSELAGE
-     - STR_TALON_FUSELAGE
-     - STR_LION_FUSELAGE
-     - STR_SKYHAWK_FUSELAGE
-     - STR_GOSHAWK_FUSELAGE
-     - STR_DRAGONFLY_FUSELAGE
-     - STR_BRONCO_FUSELAGE
-     - STR_TRACER_FUSELAGE
-     - STR_HAWKEYE_FUSELAGE
-     - STR_MOHAWK_FUSELAGE
-     - STR_GUARDRAIL_FUSELAGE
-    points: 0
-    timer: 1440
-    timerRandom: 28800
+  - name: STR_SECTOR_14_COMM_4
+    refNode: *STR_SECTOR_COMM_4
+    regionList: [SECTOR_14]
+  - name: STR_SECTOR_15_COMM_0
+    refNode: *STR_SECTOR_COMM_0
+    regionList: [SECTOR_15]
   - name: STR_SECTOR_15_COMM_1
-    description: STR_SECTOR_15_COMM_1_ALERT
-    background: BACK186.SCR
+    refNode: *STR_SECTOR_COMM_1
     regionList: [SECTOR_15]
-    city: true
-    points: 0
-    funds: 100000
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SECTOR_15_COMM_2
-    description: STR_SECTOR_15_COMM_2_ALERT
-    background: BACK186.SCR
+    refNode: *STR_SECTOR_COMM_2
     regionList: [SECTOR_15]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SECTOR_15_COMM_3
-    description: STR_SECTOR_15_COMM_3_ALERT
-    background: BACK186.SCR
+    refNode: *STR_SECTOR_COMM_3
     regionList: [SECTOR_15]
-    city: true
-    randomItemList:
-     - STR_VIKING_FUSELAGE
-     - STR_WARTHOG_FUSELAGE
-     - STR_PROWLER_FUSELAGE
-     - STR_TWIN_OTTER_FUSELAGE
-     - STR_SHERPA_FUSELAGE
-     - STR_OSPREY_FUSELAGE
-     - STR_TALON_FUSELAGE
-     - STR_LION_FUSELAGE
-     - STR_SKYHAWK_FUSELAGE
-     - STR_GOSHAWK_FUSELAGE
-     - STR_DRAGONFLY_FUSELAGE
-     - STR_BRONCO_FUSELAGE
-     - STR_TRACER_FUSELAGE
-     - STR_HAWKEYE_FUSELAGE
-     - STR_MOHAWK_FUSELAGE
-     - STR_GUARDRAIL_FUSELAGE
-    points: 0
-    timer: 1440
-    timerRandom: 28800
+  - name: STR_SECTOR_15_COMM_4
+    refNode: *STR_SECTOR_COMM_4
+    regionList: [SECTOR_15]
+  - name: STR_SECTOR_16_COMM_0
+    refNode: *STR_SECTOR_COMM_0
+    regionList: [SECTOR_16]
   - name: STR_SECTOR_16_COMM_1
-    description: STR_SECTOR_16_COMM_1_ALERT
-    background: BACK186.SCR
+    refNode: *STR_SECTOR_COMM_1
     regionList: [SECTOR_16]
-    city: true
-    points: 0
-    funds: 100000
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SECTOR_16_COMM_2
-    description: STR_SECTOR_16_COMM_2_ALERT
-    background: BACK186.SCR
+    refNode: *STR_SECTOR_COMM_2
     regionList: [SECTOR_16]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SECTOR_16_COMM_3
-    description: STR_SECTOR_16_COMM_3_ALERT
-    background: BACK186.SCR
+    refNode: *STR_SECTOR_COMM_3
     regionList: [SECTOR_16]
-    city: true
-    randomItemList:
-     - STR_VIKING_FUSELAGE
-     - STR_WARTHOG_FUSELAGE
-     - STR_PROWLER_FUSELAGE
-     - STR_TWIN_OTTER_FUSELAGE
-     - STR_SHERPA_FUSELAGE
-     - STR_OSPREY_FUSELAGE
-     - STR_TALON_FUSELAGE
-     - STR_LION_FUSELAGE
-     - STR_SKYHAWK_FUSELAGE
-     - STR_GOSHAWK_FUSELAGE
-     - STR_DRAGONFLY_FUSELAGE
-     - STR_BRONCO_FUSELAGE
-     - STR_TRACER_FUSELAGE
-     - STR_HAWKEYE_FUSELAGE
-     - STR_MOHAWK_FUSELAGE
-     - STR_GUARDRAIL_FUSELAGE
-    points: 0
-    timer: 1440
-    timerRandom: 28800
+  - name: STR_SECTOR_16_COMM_4
+    refNode: *STR_SECTOR_COMM_4
+    regionList: [SECTOR_16]
+  - name: STR_SECTOR_17_COMM_0
+    refNode: *STR_SECTOR_COMM_0
+    regionList: [SECTOR_17]
   - name: STR_SECTOR_17_COMM_1
-    description: STR_SECTOR_17_COMM_1_ALERT
-    background: BACK186.SCR
+    refNode: *STR_SECTOR_COMM_1
     regionList: [SECTOR_17]
-    city: true
-    points: 0
-    funds: 100000
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SECTOR_17_COMM_2
-    description: STR_SECTOR_17_COMM_2_ALERT
-    background: BACK186.SCR
+    refNode: *STR_SECTOR_COMM_2
     regionList: [SECTOR_17]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SECTOR_17_COMM_3
-    description: STR_SECTOR_17_COMM_3_ALERT
-    background: BACK186.SCR
+    refNode: *STR_SECTOR_COMM_3
     regionList: [SECTOR_17]
-    city: true
-    randomItemList:
-     - STR_VIKING_FUSELAGE
-     - STR_WARTHOG_FUSELAGE
-     - STR_PROWLER_FUSELAGE
-     - STR_TWIN_OTTER_FUSELAGE
-     - STR_SHERPA_FUSELAGE
-     - STR_OSPREY_FUSELAGE
-     - STR_TALON_FUSELAGE
-     - STR_LION_FUSELAGE
-     - STR_SKYHAWK_FUSELAGE
-     - STR_GOSHAWK_FUSELAGE
-     - STR_DRAGONFLY_FUSELAGE
-     - STR_BRONCO_FUSELAGE
-     - STR_TRACER_FUSELAGE
-     - STR_HAWKEYE_FUSELAGE
-     - STR_MOHAWK_FUSELAGE
-     - STR_GUARDRAIL_FUSELAGE
-    points: 0
-    timer: 1440
-    timerRandom: 28800
+  - name: STR_SECTOR_17_COMM_4
+    refNode: *STR_SECTOR_COMM_4
+    regionList: [SECTOR_17]
+  - name: STR_SECTOR_18_COMM_0
+    refNode: *STR_SECTOR_COMM_0
+    regionList: [SECTOR_18]
   - name: STR_SECTOR_18_COMM_1
-    description: STR_SECTOR_18_COMM_1_ALERT
-    background: BACK186.SCR
+    refNode: *STR_SECTOR_COMM_1
     regionList: [SECTOR_18]
-    city: true
-    points: 0
-    funds: 100000
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SECTOR_18_COMM_2
-    description: STR_SECTOR_18_COMM_2_ALERT
-    background: BACK186.SCR
+    refNode: *STR_SECTOR_COMM_2
     regionList: [SECTOR_18]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SECTOR_18_COMM_3
-    description: STR_SECTOR_18_COMM_3_ALERT
-    background: BACK186.SCR
+    refNode: *STR_SECTOR_COMM_3
     regionList: [SECTOR_18]
-    city: true
-    randomItemList:
-     - STR_VIKING_FUSELAGE
-     - STR_WARTHOG_FUSELAGE
-     - STR_PROWLER_FUSELAGE
-     - STR_TWIN_OTTER_FUSELAGE
-     - STR_SHERPA_FUSELAGE
-     - STR_OSPREY_FUSELAGE
-     - STR_TALON_FUSELAGE
-     - STR_LION_FUSELAGE
-     - STR_SKYHAWK_FUSELAGE
-     - STR_GOSHAWK_FUSELAGE
-     - STR_DRAGONFLY_FUSELAGE
-     - STR_BRONCO_FUSELAGE
-     - STR_TRACER_FUSELAGE
-     - STR_HAWKEYE_FUSELAGE
-     - STR_MOHAWK_FUSELAGE
-     - STR_GUARDRAIL_FUSELAGE
-    points: 0
-    timer: 1440
-    timerRandom: 28800
+  - name: STR_SECTOR_18_COMM_4
+    refNode: *STR_SECTOR_COMM_4
+    regionList: [SECTOR_18]
+  - name: STR_SECTOR_19_COMM_0
+    refNode: *STR_SECTOR_COMM_0
+    regionList: [SECTOR_19]
   - name: STR_SECTOR_19_COMM_1
-    description: STR_SECTOR_19_COMM_1_ALERT
-    background: BACK186.SCR
+    refNode: *STR_SECTOR_COMM_1
     regionList: [SECTOR_19]
-    city: true
-    points: 0
-    funds: 100000
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SECTOR_19_COMM_2
-    description: STR_SECTOR_19_COMM_2_ALERT
-    background: BACK186.SCR
+    refNode: *STR_SECTOR_COMM_2
     regionList: [SECTOR_19]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SECTOR_19_COMM_3
-    description: STR_SECTOR_19_COMM_3_ALERT
-    background: BACK186.SCR
+    refNode: *STR_SECTOR_COMM_3
     regionList: [SECTOR_19]
-    city: true
-    randomItemList:
-     - STR_VIKING_FUSELAGE
-     - STR_WARTHOG_FUSELAGE
-     - STR_PROWLER_FUSELAGE
-     - STR_TWIN_OTTER_FUSELAGE
-     - STR_SHERPA_FUSELAGE
-     - STR_OSPREY_FUSELAGE
-     - STR_TALON_FUSELAGE
-     - STR_LION_FUSELAGE
-     - STR_SKYHAWK_FUSELAGE
-     - STR_GOSHAWK_FUSELAGE
-     - STR_DRAGONFLY_FUSELAGE
-     - STR_BRONCO_FUSELAGE
-     - STR_TRACER_FUSELAGE
-     - STR_HAWKEYE_FUSELAGE
-     - STR_MOHAWK_FUSELAGE
-     - STR_GUARDRAIL_FUSELAGE
-    points: 0
-    timer: 1440
-    timerRandom: 28800
+  - name: STR_SECTOR_19_COMM_4
+    refNode: *STR_SECTOR_COMM_4
+    regionList: [SECTOR_19]
+  - name: STR_SECTOR_20_COMM_0
+    refNode: *STR_SECTOR_COMM_0
+    regionList: [SECTOR_20]
   - name: STR_SECTOR_20_COMM_1
-    description: STR_SECTOR_20_COMM_1_ALERT
-    background: BACK186.SCR
+    refNode: *STR_SECTOR_COMM_1
     regionList: [SECTOR_20]
-    city: true
-    points: 0
-    funds: 100000
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SECTOR_20_COMM_2
-    description: STR_SECTOR_20_COMM_2_ALERT
-    background: BACK186.SCR
+    refNode: *STR_SECTOR_COMM_2
     regionList: [SECTOR_20]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SECTOR_20_COMM_3
-    description: STR_SECTOR_20_COMM_3_ALERT
-    background: BACK186.SCR
+    refNode: *STR_SECTOR_COMM_3
     regionList: [SECTOR_20]
-    city: true
-    randomItemList:
-     - STR_VIKING_FUSELAGE
-     - STR_WARTHOG_FUSELAGE
-     - STR_PROWLER_FUSELAGE
-     - STR_TWIN_OTTER_FUSELAGE
-     - STR_SHERPA_FUSELAGE
-     - STR_OSPREY_FUSELAGE
-     - STR_TALON_FUSELAGE
-     - STR_LION_FUSELAGE
-     - STR_SKYHAWK_FUSELAGE
-     - STR_GOSHAWK_FUSELAGE
-     - STR_DRAGONFLY_FUSELAGE
-     - STR_BRONCO_FUSELAGE
-     - STR_TRACER_FUSELAGE
-     - STR_HAWKEYE_FUSELAGE
-     - STR_MOHAWK_FUSELAGE
-     - STR_GUARDRAIL_FUSELAGE
-    points: 0
-    timer: 1440
-    timerRandom: 28800
+  - name: STR_SECTOR_20_COMM_4
+    refNode: *STR_SECTOR_COMM_4
+    regionList: [SECTOR_20]
+  - name: STR_SECTOR_21_COMM_0
+    refNode: *STR_SECTOR_COMM_0
+    regionList: [SECTOR_21]
   - name: STR_SECTOR_21_COMM_1
-    description: STR_SECTOR_21_COMM_1_ALERT
-    background: BACK186.SCR
+    refNode: *STR_SECTOR_COMM_1
     regionList: [SECTOR_21]
-    city: true
-    points: 0
-    funds: 100000
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SECTOR_21_COMM_2
-    description: STR_SECTOR_21_COMM_2_ALERT
-    background: BACK186.SCR
+    refNode: *STR_SECTOR_COMM_2
     regionList: [SECTOR_21]
-    city: true
-    points: 0
-    timer: 1440
-    timerRandom: 28800
   - name: STR_SECTOR_21_COMM_3
-    description: STR_SECTOR_21_COMM_3_ALERT
-    background: BACK186.SCR
+    refNode: *STR_SECTOR_COMM_3
     regionList: [SECTOR_21]
-    city: true
-    randomItemList:
-     - STR_VIKING_FUSELAGE
-     - STR_WARTHOG_FUSELAGE
-     - STR_PROWLER_FUSELAGE
-     - STR_TWIN_OTTER_FUSELAGE
-     - STR_SHERPA_FUSELAGE
-     - STR_OSPREY_FUSELAGE
-     - STR_TALON_FUSELAGE
-     - STR_LION_FUSELAGE
-     - STR_SKYHAWK_FUSELAGE
-     - STR_GOSHAWK_FUSELAGE
-     - STR_DRAGONFLY_FUSELAGE
-     - STR_BRONCO_FUSELAGE
-     - STR_TRACER_FUSELAGE
-     - STR_HAWKEYE_FUSELAGE
-     - STR_MOHAWK_FUSELAGE
-     - STR_GUARDRAIL_FUSELAGE
-    points: 0
-    timer: 1440
-    timerRandom: 28800
+  - name: STR_SECTOR_21_COMM_4
+    refNode: *STR_SECTOR_COMM_4
+    regionList: [SECTOR_21]
