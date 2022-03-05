@@ -1,5 +1,11 @@
 Tech-Comm Change Log
 
+V0.5.2
+* Added: more events
+* Added: all Resistance missions now give personnel, aircraft or weapons as additional mission rewards
+* Changed: starting base items
+* Added: missing manufacture items
+
 V0.5.1
 * Fixed: abandoned bases and destroy sites should now spawn correctly.
 * Changed: starting base craft now properly start with the extra fuel from the pods.

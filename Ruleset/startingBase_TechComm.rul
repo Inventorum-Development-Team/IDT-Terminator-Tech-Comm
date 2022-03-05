@@ -39,12 +39,12 @@ startingBase:
       y: 3
   randomSoldiers:
     STR_JOHN_CONNOR: 1
+    STR_KATE_BREWSTER: 1
     STR_JUSTIN_PERRY: 1
     STR_OFFICER: 4
-    STR_KATE_BREWSTER: 1
     STR_PILOT: 8
     STR_KYLE_REESE: 1
-    STR_SOLDIER: 13
+    STR_SOLDIER: 14
   crafts:
     - type: STR_SKYHAWK
       id: 1

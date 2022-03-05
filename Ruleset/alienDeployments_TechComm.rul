@@ -7,6 +7,8 @@ alienDeployments:
   - delete: STR_TERROR_SHIP
   - delete: STR_BATTLESHIP
   - delete: STR_SUPPLY_SHIP
+  - delete: STR_TERROR_MISSION
+  - delete: STR_ALIEN_BASE_ASSAULT
   - delete: STR_BASE_DEFENSE
 #HKs
   - type: STR_HK_SCOUT_1
@@ -926,30 +928,6 @@ alienDeployments:
     objectivePopup: STR_CONTROL_CENTER_DESTROYED
     points: 1
     unlockedResearch: STR_AI_SCARE_CROW
-
-  - type: STR_ALIEN_BASE_ASSAULT
-    data: *SKYNET_BASE_ASSAULT
-    width: 60
-    length: 60
-    height: 6
-    civilians: 16
-    terrains:
-      - NATIVE
-    shade: 15
-    briefing:
-      textOffset: -16
-      background: BACK01.SCR
-      showTarget: false
-    objectiveType: 3
-    markerName: STR_ALIEN_BASE
-    markerIcon: 16
-    genMission:
-      STR_SKYNET_SUPPLY: 100
-    genMissionFreq: 6
-    alienBase: true    # this is only to tell new battle mode what to do with this deployment
-    objectiveComplete: [STR_ALIEN_BASE_CONTROL_DESTROYED, 500]
-    objectivePopup: STR_CONTROL_CENTER_DESTROYED
-    points: 5
 #STORY MISSIONS - BASES TRIGGERED BY SECTOR COMMS
 #Abandoned Resistance/Military bases - 1 spawned per game
 ##Tech-Comm/Area 51 terrains - Give resources/craft and unlock story
