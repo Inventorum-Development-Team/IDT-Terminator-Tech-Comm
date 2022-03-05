@@ -265,7 +265,7 @@ soldiers:
       psiStrength: 100
       psiSkill: 0
       melee: 80
-    armor: STR_JUMPSUIT_GENERAL_UC
+    armor: STR_JUMPSUIT_UC
     standHeight: 21
     kneelHeight: 13
     femaleFrequency: 0
@@ -321,7 +321,7 @@ soldiers:
       psiStrength: 100
       psiSkill: 0
       melee: 80
-    armor: STR_JUMPSUIT_GENERAL_UC
+    armor: STR_JUMPSUIT_OFFICER_UC
     standHeight: 21
     kneelHeight: 13
     femaleFrequency: 0
@@ -330,7 +330,7 @@ soldiers:
     deathMale: [41, 42, 43]
     deathFemale: [44, 45, 46]
     moraleLossWhenKilled: 150
-    allowPiloting: true
+    allowPiloting: false
     dogfightExperience:
       bravery: 10
       reactions: 75
@@ -381,7 +381,7 @@ soldiers:
       psiStrength: 100
       psiSkill: 0
       melee: 80
-    armor: STR_JUMPSUIT_GENERAL_UC
+    armor: STR_JUMPSUIT_PILOT_UC
     standHeight: 21
     kneelHeight: 13
     femaleFrequency: 100
@@ -390,11 +390,11 @@ soldiers:
     deathMale: [41, 42, 43]
     deathFemale: [44, 45, 46]
     moraleLossWhenKilled: 150
-    allowPiloting: false
+    allowPiloting: true
     rankStrings:
-    - STR_LIEUTENANT
     - STR_CAPTAIN
+    - STR_LT_COLONEL
     - STR_MAJOR
-    - STR_COLONEL
+    - STR_LT_COMMANDER
     - STR_COMMANDER
     - STR_GENERAL4

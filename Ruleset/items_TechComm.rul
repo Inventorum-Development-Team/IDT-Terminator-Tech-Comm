@@ -52,6 +52,7 @@ items:
   - delete: STR_SMOKE_GRENADE
   - delete: STR_HIGH_EXPLOSIVE
   - delete: STR_STUN_ROD
+  - delete: STR_ELECTRO_FLARE
   - delete: STR_PSI_AMP
   - delete: STR_LASER_PISTOL
   - delete: STR_LASER_RIFLE
@@ -270,34 +271,28 @@ items:
     transferTime: 48
   - type: STR_HYDRA_LAUNCHER
     size: 0.8
-    costBuy: 16000
     costSell: 12000
     transferTime: 48
   - type: STR_HYDRA_ROCKETS
     size: 0.4
-    costBuy: 3000
     costSell: 2400
     transferTime: 48
     clipSize: 1
   - type: STR_STINGER_LAUNCHER
     size: 0.8
-    costBuy: 18000
     costSell: 14000
     transferTime: 48
   - type: STR_STINGER_MISSILES
     size: 0.4
-    costBuy: 5000
     costSell: 4000
     transferTime: 48
     clipSize: 1
   - type: STR_SIDEWINDER_LAUNCHER
     size: 0.8
-    costBuy: 21000
     costSell: 18000
     transferTime: 48
   - type: STR_SIDEWINDER_MISSILES
     size: 0.4
-    costBuy: 6000
     costSell: 4000
     transferTime: 48
     clipSize: 1
@@ -312,7 +307,6 @@ items:
     clipSize: 1
   - type: STR_SPARROW_LAUNCHER
     size: 1
-    costBuy: 32000
     costSell: 27000
     transferTime: 48
   - type: STR_SPARROW_MISSILES
@@ -323,12 +317,10 @@ items:
     clipSize: 1
   - type: STR_STANDARD_LAUNCHER
     size: 1
-    costBuy: 28000
     costSell: 25000
     transferTime: 48
   - type: STR_STANDARD_MISSILES
     size: 1.5
-    costBuy: 15500
     costSell: 12000
     transferTime: 48
     clipSize: 1
@@ -383,7 +375,6 @@ items:
     transferTime: 48
   - type: STR_GAU_2_CANNON_ROUNDS_X50
     size: 0.1
-    costBuy: 1240
     costSell: 1012
     transferTime: 96
     clipSize: 50
@@ -393,7 +384,6 @@ items:
     transferTime: 48
   - type: STR_GAU_4_CANNON_ROUNDS_X50
     size: 0.1
-    costBuy: 2080
     costSell: 1600
     transferTime: 96
     clipSize: 50
@@ -403,7 +393,6 @@ items:
     transferTime: 48
   - type: STR_GAU_8_CANNON_ROUNDS_X50
     size: 0.1
-    costBuy: 3240
     costSell: 2612
     transferTime: 96
     clipSize: 50
@@ -413,7 +402,6 @@ items:
     transferTime: 48
   - type: STR_GAU_12_CANNON_ROUNDS_X50
     size: 0.1
-    costBuy: 2400
     costSell: 2012
     transferTime: 96
     clipSize: 50
@@ -423,7 +411,6 @@ items:
     transferTime: 48
   - type: STR_GAU_19_CANNON_ROUNDS_X50
     size: 0.1
-    costBuy: 2240
     costSell: 1812
     transferTime: 96
     clipSize: 50

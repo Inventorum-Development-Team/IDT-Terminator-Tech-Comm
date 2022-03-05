@@ -405,14 +405,13 @@ research:
     dependencies:
       - STR_EMP_FIELD
       - STR_HARDENED_FACILITIES
-
 ##TIER 3.K - HK RECOVERY
   - name: STR_DEFENSE_CENTER #HYPERWAVE
     cost: 50
     points: 10
     dependencies:
       - STR_AI_HK
-  - name: STR_HOVERCRAFT #ADVANCED VTOL CRAFT
+  - name: STR_HOVERCRAFT #ADVANCED VTOL CRAFT?
     cost: 50
     points: 10
     dependencies:

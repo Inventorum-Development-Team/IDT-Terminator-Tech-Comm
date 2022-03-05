@@ -37,53 +37,13 @@ startingBase:
     - type: STR_TECH_LAB
       x: 4
       y: 3
-  soldiers:
-    - type: STR_JOHN_CONNOR
-      id: 1
-      name: John Connor
-      nationality: 0
-      initialStats:
-        tu: 70
-        stamina: 65
-        health: 45
-        bravery: 100
-        reactions: 50
-        firing: 80
-        throwing: 80
-        strength: 40
-        psiStrength: 100
-        psiSkill: 0
-        melee: 80
-        mana: 0
-      currentStats:
-        tu: 70
-        stamina: 65
-        health: 45
-        bravery: 100
-        reactions: 50
-        firing: 80
-        throwing: 80
-        strength: 40
-        psiStrength: 100
-        psiSkill: 0
-        melee: 80
-        mana: 0
-      rank: 0
-      gender: 0
-      look: 1
-      lookVariant: 55
-      missions: 0
-      kills: 0
-      stuns: 0
-      armor: STR_JUMPSUIT_GENERAL_UC
-      improvement: 0
-      psiStrImprovement: 0
   randomSoldiers:
+    STR_JOHN_CONNOR: 1
     STR_JUSTIN_PERRY: 1
-    STR_KATE_BREWSTER: 1
-    STR_KYLE_REESE: 1
     STR_OFFICER: 4
-    STR_PILOT: 5
+    STR_KATE_BREWSTER: 1
+    STR_PILOT: 8
+    STR_KYLE_REESE: 1
     STR_SOLDIER: 13
   crafts:
     - type: STR_SKYHAWK
@@ -208,6 +168,7 @@ startingBase:
     STR_SPARROW_MISSILES: 10
     STR_STANDARD_LAUNCHER: 1
     STR_STANDARD_MISSILES: 10
+    STR_HARM_MISSILES: 6
     STR_PHOENIX_MISSILES: 6
     STR_HYDRA_LAUNCHER: 1
     STR_HYDRA_ROCKETS: 50
@@ -238,6 +199,7 @@ startingBase:
     STR_SMGRENADE: 36 
     STR_THERM: 48
     STR_DEMO: 24 
+    STR_MEDI_KIT: 6
     STR_HEAVY_ROCKET_LAUNCHER: 4
     STR_HIVE_ROCKET: 16
     STR_SHRAPNEL_ROCKET: 16
@@ -246,5 +208,8 @@ startingBase:
     STR_SMALL_ROCKET:  48
     STR_SMOKE_ROCKET:  12
     STR_NAPALM_ROCKET: 24
+    STR_COMBAT_SUIT: 12
+    STR_ALLOY_VEST: 12
+    STR_COMBAT_ARMOR: 6
   scientists: 5
   engineers: 5
