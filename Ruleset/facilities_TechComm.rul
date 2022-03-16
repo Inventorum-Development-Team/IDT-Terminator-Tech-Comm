@@ -586,7 +586,7 @@ facilities: #DONE
 #REQUIRE AI CHAIN HOME
   - type: STR_COMM_ARRAY
     requires:
-      - STR_COMM_ARRAY
+      - STR_AI_HK
     spriteShape: 1
     spriteFacility: 22
     buildCost: 560000
@@ -603,7 +603,7 @@ facilities: #DONE
   - type: STR_COMM_ARRAY_DAMAGED
     requires:
       - STR_DAMAGED_FACILITIES
-      - STR_COMM_ARRAY
+      - STR_AI_HK
     spriteShape: 1
     spriteFacility: 22
     buildCost: 560000

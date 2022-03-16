@@ -217,57 +217,68 @@ research:
     points: 10
     getOneFree:
       - STR_AI_MAGIC_CARPET
+    listOrder: 100
   - name: STR_TECH_SYSTEMS #UNLOCKS WEAPONS
     cost: 50
     points: 10
     getOneFree:
       - STR_SKYNET_FACILITIES
+    listOrder: 101
   - name: STR_HARDENED_FACILITIES
     cost: 50
     points: 10
     dependencies:
-      - STR_SECTOR_COMMS
-  - name: STR_DAMAGED_FACILITIES
-    cost: 50
-    points: 10
-    dependencies:
-      - STR_AI_SKYNET
+      - STR_TECH_SYSTEMS
+    listOrder: 102
   - name: STR_SKYNET_FACILITIES
     cost: 50
     points: 10
     dependencies:
-      - STR_AI_SKYNET
+      - STR_SECTOR_COMMS
+    listOrder: 103
   - name: STR_RESISTANCE_CRAFT #UNLOCKS BLUEPRINT RECOVERY AND CRAFT MANUFACTURE
     cost: 50
     points: 10
     dependencies:
+      - STR_TECH_SYSTEMS
+    listOrder: 104
+  - name: STR_SKYNET_PROTOCOLS #UNLOCK PROTOCOL RECOVERY
+    cost: 50
+    points: 10
+    dependencies:
       - STR_SECTOR_COMMS
+    listOrder: 105
+  - name: STR_SYNTHETIC_FUELS #UNLOCK FUEL PODS MANUFACTURE
+    cost: 50
+    points: 10
+    dependencies:
+      - STR_TECH_SYSTEMS
+    listOrder: 106
   - name: STR_ADVANCED_FACILITIES
     cost: 50
     points: 10
     dependencies:
       - STR_AI_GREAT_WALL
       - STR_HARDENED_FACILITIES
-  - name: STR_SKYNET_PROTOCOLS #UNLOCK PROTOCOL RECOVERY
+    listOrder: 107
+  - name: STR_DAMAGED_FACILITIES
     cost: 50
     points: 10
     dependencies:
-      - STR_SECTOR_COMMS
-  - name: STR_SYNTHETIC_FUELS #UNLOCK FUEL PODS MANUFACTURE
-    cost: 50
-    points: 10
-    dependencies:
-      - STR_TECH_SYSTEMS
+      - STR_AI_SKYNET
+    listOrder: 108
 ##TIER 1Y - AI
   - name: STR_AI_MAGIC_CARPET #SKYNET COUNTERATTACK
     cost: 5
     points: 10
     dependencies:
       - STR_AI_SKYNET
+    listOrder: 200
   - name: STR_AI_HK #HK RECOVERY
     cost: 50
     points: 10
     needItem: true
+    listOrder: 201
   - name: STR_AI_TERMINATOR #TERMINATOR RECOVERY
     cost: 50
     points: 10
@@ -286,50 +297,54 @@ research:
       - STR_TERMINATOR_SEEKER
       - STR_TERMINATOR_DRONE
       - STR_TERMINATOR_CERBERUS
+    listOrder: 202
   - name: STR_AI_SPIDER_WEB #HK BASE ASSAULT
     cost: 50
     points: 10
     needItem: true
+    listOrder: 203
   - name: STR_AI_GREAT_WALL #FACTORY ASSAULT
     cost: 50
     points: 10
     needItem: true
+    listOrder: 204
   - name: STR_AI_ULTRA #REQUIRES LIGHTHOUSE
     cost: 50
     points: 10
     needItem: true
+    listOrder: 205
   - name: STR_AI_TROJAN_HORSE
     cost: 50
     points: 10
     needItem: true
     dependencies:
       - STR_SECTOR_COMMS
+    listOrder: 206
   - name: STR_AI_SCARE_CROW #WORKING CAMP ASSAULT
     cost: 50
     points: 10
     needItem: true
+    listOrder: 207
   - name: STR_AI_LIGHTHOUSE #LAB ASSAULT
     cost: 50
     points: 10
     needItem: true
+    listOrder: 208
   - name: STR_AI_DEAD_HAND #MISSILE BASE ASSAULT
     cost: 50
     points: 10
     needItem: true
+    listOrder: 209
   - name: STR_AI_SKYNET #MASTER AI
     cost: 50
     points: 10
     needItem: true
+    listOrder: 210
   - name: STR_AI_CHAIN_HOME #HK RECOVERY
     cost: 50
     points: 10
     needItem: true
-##TIER 2.B - BASE RECOVERY - REQUIRE CHAIN HOME
-  - name: STR_COMM_ARRAY
-    cost: 50
-    points: 10
-    dependencies:
-      - STR_AI_CHAIN_HOME
+    listOrder: 211
 ##TIER 2.T - TERMINATOR RESEARCH
   - name: STR_HYPER_ALLOYS #TERMINATOR/HK RECOVERY
     cost: 50
@@ -348,6 +363,7 @@ research:
       - STR_TERMINATOR_SEEKER_CORPSE
       - STR_TERMINATOR_DRONE_CORPSE
       - STR_TERMINATOR_CERBERUS_CORPSE
+    listOrder: 300
   - name: STR_PLASMA_CELL #TERMINATOR/HK RECOVERY
     cost: 50
     points: 10
@@ -359,45 +375,54 @@ research:
       - STR_TERMINATOR_T1000_CORPSE
       - STR_TERMINATOR_SENTRY_CORPSE
       - STR_TERMINATOR_CERBERUS_CORPSE
+    listOrder: 301
   - name: STR_BALLISTICS #HYPER ALLOY RESEARCH - UNLOCK ADVANCED AMMO
     cost: 50
     points: 10
     dependencies:
       - STR_HYPER_ALLOYS
       - STR_PLASMA_CELL
+    listOrder: 302
   - name: STR_ALLOY_VEST
     cost: 50
     points: 10
     dependencies:
       - STR_HYPER_ALLOYS
+    listOrder: 303
   - name: STR_COMBAT_ARMOR
     cost: 50
     points: 10
     dependencies:
       - STR_BALLISTICS
+      - STR_ALLOY_VEST
+    listOrder: 304
   - name: STR_EMP_FIELD #T-600 + RECOVERY?
     cost: 50
     points: 10
     dependencies:
       - STR_HYPER_ALLOYS
+    listOrder: 305
   - name: STR_EMP_ROUNDS #EMP FIELD?
     cost: 50
     points: 10
     needItem: true
     dependencies:
       - STR_EMP_FIELD
+    listOrder: 306
   - name: STR_EMP_DISCHARGER #EMP ROUNDS
     cost: 50
     points: 10
     needItem: true
     dependencies:
       - STR_EMP_FIELD
+    listOrder: 307
   - name: STR_EMP_DETECTOR #EMP FIELD
     cost: 50
     points: 10
     needItem: true
     dependencies:
       - STR_EMP_FIELD
+    listOrder: 308
   - name: STR_TECH_CENTER #TERMINATOR CORPSE
     cost: 50
     points: 10
@@ -405,12 +430,14 @@ research:
     dependencies:
       - STR_EMP_FIELD
       - STR_HARDENED_FACILITIES
+    listOrder: 309
 ##TIER 3.K - HK RECOVERY
   - name: STR_DEFENSE_CENTER #HYPERWAVE
     cost: 50
     points: 10
     dependencies:
       - STR_AI_HK
+    listOrder: 310
   - name: STR_HOVERCRAFT #ADVANCED VTOL CRAFT?
     cost: 50
     points: 10
@@ -419,35 +446,43 @@ research:
       - STR_PLASMA_CELL
       - STR_AI_HK
       - STR_HYPER_ALLOYS
+    listOrder: 312
   - name: STR_FUSION_ENGINE #REQUIRED FOR POWER CENTER
     cost: 50
     points: 10
     needItem: true
+    listOrder: 313
 ##TIER 3.N - WEAPON RECOVERY/SECTOR COMMS
   - name: STR_RIFLE_AR15
     cost: 50
     points: 10
     needItem: true
+    listOrder: 314
   - name: STR_M134
     cost: 50
     points: 10
     needItem: true
+    listOrder: 315
   - name: STR_D12
     cost: 50
     points: 10
     needItem: true
+    listOrder: 316
   - name: STR_D12A2
     cost: 50
     points: 10
     needItem: true
+    listOrder: 317
   - name: STR_15MM_AMR
     cost: 50
     points: 10
     needItem: true
+    listOrder: 318
   - name: STR_20MM_AMR
     cost: 50
     points: 10
     needItem: true
+    listOrder: 319
 ##TIER 3.T - TERMINATOR RECOVERY/SECTOR COMMS 
   - name: STR_TERMINATOR_T200
     cost: 50
@@ -456,6 +491,7 @@ research:
     destroyItem: true
     unlocks:
       - STR_AI_SCARE_CROW
+    listOrder: 400
   - name: STR_TERMINATOR_T200_CORPSE
     cost: 50
     points: 50
@@ -463,9 +499,11 @@ research:
     needItem: true
     unlocks:
       - STR_HYPER_ALLOYS
+    listOrder: 401
   - name: STR_TERMINATOR_T200_AUTOPSY
     points: 50
     needItem: true
+    listOrder: 402
   - name: STR_TERMINATOR_T300
     cost: 50
     points: 50
@@ -473,6 +511,7 @@ research:
     destroyItem: true
     unlocks:
       - STR_AI_SCARE_CROW
+    listOrder: 403
   - name: STR_TERMINATOR_T300_CORPSE
     cost: 50
     points: 50
@@ -480,9 +519,11 @@ research:
     needItem: true
     unlocks:
       - STR_HYPER_ALLOYS
+    listOrder: 404
   - name: STR_TERMINATOR_T300_AUTOPSY
     points: 50
     needItem: true
+    listOrder: 405
   - name: STR_TERMINATOR_T400
     cost: 50
     points: 50
@@ -490,6 +531,7 @@ research:
     destroyItem: true
     unlocks:
       - STR_AI_SCARE_CROW
+    listOrder: 406
   - name: STR_TERMINATOR_T400_CORPSE
     cost: 50
     points: 50
@@ -497,9 +539,11 @@ research:
     needItem: true
     unlocks:
       - STR_HYPER_ALLOYS
+    listOrder: 407
   - name: STR_TERMINATOR_T400_AUTOPSY
     points: 50
     needItem: true
+    listOrder: 408
   - name: STR_TERMINATOR_T500
     cost: 50
     points: 50
@@ -507,6 +551,7 @@ research:
     destroyItem: true
     unlocks:
       - STR_AI_SCARE_CROW
+    listOrder: 409
   - name: STR_TERMINATOR_T500_CORPSE
     cost: 50
     points: 50
@@ -514,9 +559,11 @@ research:
     needItem: true
     unlocks:
       - STR_HYPER_ALLOYS
+    listOrder: 410
   - name: STR_TERMINATOR_T500_AUTOPSY
     points: 50
     needItem: true
+    listOrder: 411
   - name: STR_TERMINATOR_T600
     cost: 50
     points: 50
@@ -524,17 +571,20 @@ research:
     destroyItem: true
     unlocks:
       - STR_AI_SCARE_CROW
+    listOrder: 412
   - name: STR_TERMINATOR_T600_CORPSE
     cost: 50
     points: 50
     lookup: STR_TERMINATOR_T600_AUTOPSY
     needItem: true
+    listOrder: 413
   - name: STR_TERMINATOR_T600_AUTOPSY
     points: 50
     needItem: true
     unlocks:
       - STR_HYPER_ALLOYS
       - STR_EMP_FIELD
+    listOrder: 414
 ##TIER 2.T - TERMINATOR RECOVERY
   - name: STR_TERMINATOR_T700
     cost: 50
@@ -543,6 +593,7 @@ research:
     destroyItem: true
     unlocks:
       - STR_AI_SCARE_CROW
+    listOrder: 415
   - name: STR_TERMINATOR_T700_CORPSE
     cost: 50
     points: 50
@@ -551,9 +602,11 @@ research:
     unlocks:
       - STR_HYPER_ALLOYS
       - STR_EMP_FIELD
+    listOrder: 416
   - name: STR_TERMINATOR_T700_AUTOPSY
     points: 50
     needItem: true
+    listOrder: 417
   - name: STR_TERMINATOR_T800
     cost: 50
     points: 50
@@ -561,6 +614,7 @@ research:
     destroyItem: true
     unlocks:
       - STR_AI_SCARE_CROW
+    listOrder: 418
   - name: STR_TERMINATOR_T800_CORPSE
     cost: 50
     points: 50
@@ -569,9 +623,11 @@ research:
     unlocks:
       - STR_HYPER_ALLOYS
       - STR_EMP_FIELD
+    listOrder: 419
   - name: STR_TERMINATOR_T800_AUTOPSY
     points: 50
     needItem: true
+    listOrder: 420
   - name: STR_TERMINATOR_T1000
     cost: 50
     points: 50
@@ -579,6 +635,7 @@ research:
     destroyItem: true
     unlocks:
       - STR_AI_SCARE_CROW
+    listOrder: 42
   - name: STR_TERMINATOR_T1000_CORPSE
     cost: 50
     points: 50
@@ -587,9 +644,11 @@ research:
     unlocks:
       - STR_HYPER_ALLOYS
       - STR_EMP_FIELD
+    listOrder: 422
   - name: STR_TERMINATOR_T1000_AUTOPSY
     points: 50
     needItem: true
+    listOrder: 423
   - name: STR_TERMINATOR_CERBERUS
     cost: 50
     points: 50
@@ -597,14 +656,17 @@ research:
     destroyItem: true
     unlocks:
       - STR_AI_SCARE_CROW
+    listOrder: 430
   - name: STR_TERMINATOR_CERBERUS_CORPSE
     cost: 50
     points: 50
     lookup: STR_TERMINATOR_CERBERUS_AUTOPSY
     needItem: true
+    listOrder: 431
   - name: STR_TERMINATOR_CERBERUS_AUTOPSY
     points: 50
     needItem: true
+    listOrder: 432
   - name: STR_TERMINATOR_CYBERMITE
     cost: 50
     points: 50
@@ -612,14 +674,17 @@ research:
     destroyItem: true
     unlocks:
       - STR_AI_SCARE_CROW
+    listOrder: 433
   - name: STR_TERMINATOR_CYBERMITE_CORPSE
     cost: 50
     points: 50
     lookup: STR_TERMINATOR_CYBERMITE_AUTOPSY
     needItem: true
+    listOrder: 434
   - name: STR_TERMINATOR_CYBERMITE_AUTOPSY
     points: 50
     needItem: true
+    listOrder: 435
   - name: STR_TERMINATOR_DRONE
     cost: 50
     points: 50
@@ -627,14 +692,17 @@ research:
     destroyItem: true
     unlocks:
       - STR_AI_SCARE_CROW
+    listOrder: 435
   - name: STR_TERMINATOR_DRONE_CORPSE
     cost: 50
     points: 50
     lookup: STR_TERMINATOR_DRONE_AUTOPSY
     needItem: true
+    listOrder: 436
   - name: STR_TERMINATOR_DRONE_AUTOPSY
     points: 50
     needItem: true
+    listOrder: 437
   - name: STR_TERMINATOR_SEEKER
     cost: 50
     points: 50
@@ -642,14 +710,17 @@ research:
     destroyItem: true
     unlocks:
       - STR_AI_SCARE_CROW
+    listOrder: 438
   - name: STR_TERMINATOR_SEEKER_CORPSE
     cost: 50
     points: 50
     lookup: STR_TERMINATOR_SEEKER_AUTOPSY
     needItem: true
+    listOrder: 439
   - name: STR_TERMINATOR_SEEKER_AUTOPSY
     points: 50
     needItem: true
+    listOrder: 440
   - name: STR_TERMINATOR_SENTRY
     cost: 50
     points: 50
@@ -657,6 +728,7 @@ research:
     destroyItem: true
     unlocks:
       - STR_AI_SCARE_CROW
+    listOrder: 441
   - name: STR_TERMINATOR_SENTRY_CORPSE
     cost: 50
     points: 50
@@ -665,9 +737,11 @@ research:
     unlocks:
       - STR_HYPER_ALLOYS
       - STR_EMP_FIELD
+    listOrder: 442
   - name: STR_TERMINATOR_SENTRY_AUTOPSY
     points: 50
     needItem: true
+    listOrder: 443
 ##TIER 3.K - HK RECOVERY/SECTOR COMMS
   - name: STR_TACTICAL_MISSILE
     points: 50
@@ -721,78 +795,91 @@ research:
     needItem: true
     dependencies:
       - STR_SKYNET_PROTOCOLS
+    listOrder: 501
   - name: STR_M20A_FUEL_CELL
     cost: 1000
     points: 30
     needItem: true
     dependencies:
       - STR_SKYNET_PROTOCOLS
+    listOrder: 502
   - name: STR_M45
     cost: 1000
     points: 30
     needItem: true
     dependencies:
       - STR_SKYNET_PROTOCOLS
+    listOrder: 503
   - name: STR_M45_FUEL_CELL
     cost: 1000
     points: 30
     needItem: true
     dependencies:
       - STR_SKYNET_PROTOCOLS
+    listOrder: 504
   - name: STR_M95A1
     cost: 1000
     points: 30
     needItem: true
     dependencies:
       - STR_SKYNET_PROTOCOLS
+    listOrder: 505
   - name: STR_M95A1_FUEL_CELL
     cost: 1000
     points: 30
     needItem: true
     dependencies:
       - STR_SKYNET_PROTOCOLS
+    listOrder: 506
   - name: STR_RBS92
     cost: 1000
     points: 30
     needItem: true
     dependencies:
       - STR_SKYNET_PROTOCOLS
+    listOrder: 507
   - name: STR_RBS92_FUEL_CELL
     cost: 1000
     points: 30
     needItem: true
     dependencies:
       - STR_SKYNET_PROTOCOLS
+    listOrder: 508
   - name: STR_RSB80
     cost: 1000
     points: 30
     needItem: true
     dependencies:
       - STR_SKYNET_PROTOCOLS
+    listOrder: 509
   - name: STR_RSB80_FUEL_CELL
     cost: 1000
     points: 30
     needItem: true
     dependencies:
       - STR_SKYNET_PROTOCOLS
+    listOrder: 510
   - name: STR_RSB90
     cost: 1000
     points: 30
     needItem: true
     dependencies:
       - STR_SKYNET_PROTOCOLS
+    listOrder: 511
   - name: STR_RSB90_FUEL_CELL
     cost: 1000
     points: 30
     needItem: true
     dependencies:
       - STR_SKYNET_PROTOCOLS
+    listOrder: 512
   - name: STR_PLSGRENADE
     cost: 1000
     points: 30
     needItem: true
     dependencies:
       - STR_PLASMA_CELL
+    listOrder: 513
 ##TIER 2.S - FACTORY ASSAULT/RECOVERY/EXTRACTION RESISTANCE MISSIONS
   - name: STR_M25A1
     cost: 1000
@@ -801,12 +888,14 @@ research:
     dependencies:
       - STR_SKYNET_PROTOCOLS
       - STR_PLASMA_CELL
+    listOrder: 515
   - name: STR_M25A1_FUEL_CELL
     cost: 1000
     points: 30
     needItem: true
     dependencies:
       - STR_M25A1
+    listOrder: 516
   - name: STR_M30A1
     cost: 1000
     points: 30
@@ -814,26 +903,31 @@ research:
     dependencies:
       - STR_SKYNET_PROTOCOLS
       - STR_PLASMA_CELL
+    listOrder: 517
   - name: STR_M30A1_FUEL_CELL
     cost: 1000
     points: 30
     needItem: true
     dependencies:
       - STR_M30A1
+    listOrder: 518
 ##TIER 2.E  - SPECIAL FACILITIES/PROJECTS
   - name: STR_QUANTUM_FIELD
     cost: 50
     points: 10
     needItem: true
+    listOrder: 601
   - name: STR_CLOAKING_FIELD
     cost: 50
     points: 10
     dependencies:
       - STR_QUANTUM_FIELD
+    listOrder: 602
   - name: STR_POLY_ALLOYS
     cost: 50
     points: 10
     needItem: true
+    listOrder: 603
   - name: STR_DEFENSE_STATION
     cost: 50
     points: 10
@@ -841,10 +935,12 @@ research:
     dependencies:
       - STR_DEFENSE_CENTER
       - STR_POLY_ALLOYS
+    listOrder: 604
   - name: STR_SKYNET_NETWORKS
     cost: 50
     points: 10
     needItem: true
+    listOrder: 605
   - name: STR_COMM_CENTER
     cost: 50
     points: 10
@@ -853,6 +949,7 @@ research:
       - STR_SKYNET_NETWORKS
       - STR_SKYNET_PROTOCOLS
       - STR_ADVANCED_FACILITIES
+    listOrder: 606
   - name: STR_COMM_STATION
     cost: 50
     points: 10
@@ -861,14 +958,17 @@ research:
       - STR_SKYNET_NETWORKS
       - STR_SKYNET_PROTOCOLS
       - STR_ADVANCED_FACILITIES
+    listOrder: 607
   - name: STR_NANO_TECHNOLOGY
     cost: 50
     points: 10
     needItem: true
+    listOrder: 608
   - name: STR_NANO_CENTER
     cost: 50
     points: 10
     needItem: true
+    listOrder: 609
   - name: STR_TECH_STATION
     cost: 50
     points: 10
@@ -876,6 +976,7 @@ research:
     dependencies:
       - STR_NANO_TECHNOLOGY
       - STR_ADVANCED_FACILITIES
+    listOrder: 610
   - name: STR_NANO_PROJECTOR
     cost: 50
     points: 10
@@ -884,199 +985,241 @@ research:
       - STR_NANO_TECHNOLOGY
       - STR_POLY_ALLOYS
       - STR_SKYNET_NETWORKS
+    listOrder: 611
   - name: STR_NANO_KIT
     cost: 50
     points: 10
     needItem: true
     dependencies:
       - STR_NANO_TECHNOLOGY
+    listOrder: 612
   - name: STR_AI_DRONE
     cost: 50
     points: 10
     needItem: true
+    listOrder: 613
   - name: STR_AI_SENSOR
     cost: 50
     points: 10
     needItem: true
+    listOrder: 614
   - name: STR_MATTER_DISPLACEMENT
     cost: 50
     points: 10
     dependencies:
       - STR_AI_SKYNET
+    listOrder: 615
 #TIER 0.M - REQUIRE RESISTANCE CRAFT - BLUEPRINTS ALSO RECOVERED FROM TECH-COMM SECTOR MISSIONS
   - name: STR_VALKYRIE_BLUEPRINT
     cost: 50
     points: 10
     needItem: true
+    listOrder: 701
   - name: STR_ARCHANGEL_BLUEPRINT
     cost: 50
     points: 10
     needItem: true
+    listOrder: 702
   - name: STR_AURORA_BLUEPRINT
     cost: 50
     points: 10
     needItem: true
+    listOrder: 703
   - name: STR_SENIOR_CITIZEN_BLUEPRINT
     cost: 50
     points: 10
     needItem: true
+    listOrder: 704
   - name: STR_BLACKBIRD_BLUEPRINT
     cost: 50
     points: 10
     needItem: true
+    listOrder: 705
   - name: STR_OSPREY_BLUEPRINT
     cost: 50
     points: 10
     dependencies:
       - STR_RESISTANCE_CRAFT
+    listOrder: 706
   - name: STR_DRAGONFLY_BLUEPRINT
     cost: 50
     points: 10
     dependencies:
       - STR_RESISTANCE_CRAFT
+    listOrder: 707
   - name: STR_TALON_BLUEPRINT
     cost: 50
     points: 10
     dependencies:
       - STR_RESISTANCE_CRAFT
+    listOrder: 708
   - name: STR_SKYHAWK_BLUEPRINT
     cost: 50
     points: 10
     dependencies:
       - STR_RESISTANCE_CRAFT
+    listOrder: 709
   - name: STR_GOSHAWK_BLUEPRINT
     cost: 50
     points: 10
     dependencies:
       - STR_RESISTANCE_CRAFT
+    listOrder: 710
   - name: STR_VIKING_BLUEPRINT
     cost: 50
     points: 10
     dependencies:
       - STR_RESISTANCE_CRAFT
+    listOrder: 711
   - name: STR_GUARDRAIL_BLUEPRINT
     cost: 50
     points: 10
     dependencies:
       - STR_RESISTANCE_CRAFT
+    listOrder: 712
   - name: STR_MOHAWK_BLUEPRINT
     cost: 50
     points: 10
     dependencies:
       - STR_RESISTANCE_CRAFT
+    listOrder: 713
   - name: STR_TRACER_BLUEPRINT
     cost: 50
     points: 10
     dependencies:
       - STR_RESISTANCE_CRAFT
+    listOrder: 714
   - name: STR_TWIN_OTTER_BLUEPRINT
     cost: 50
     points: 10
     dependencies:
       - STR_RESISTANCE_CRAFT
+    listOrder: 715
   - name: STR_SHERPA_BLUEPRINT
     cost: 50
     points: 10
     dependencies:
       - STR_RESISTANCE_CRAFT
+    listOrder: 716
   - name: STR_BRONCO_BLUEPRINT
     cost: 50
     points: 10
     dependencies:
       - STR_RESISTANCE_CRAFT
+    listOrder: 717
   - name: STR_LION_BLUEPRINT
     cost: 50
     points: 10
     dependencies:
       - STR_RESISTANCE_CRAFT
+    listOrder: 718
   - name: STR_WARTHOG_BLUEPRINT
     cost: 50
     points: 10
     dependencies:
       - STR_RESISTANCE_CRAFT
+    listOrder: 719
   - name: STR_PROWLER_BLUEPRINT
     cost: 50
     points: 10
     dependencies:
       - STR_RESISTANCE_CRAFT
+    listOrder: 720
   - name: STR_HAWKEYE_BLUEPRINT
     cost: 50
     points: 10
     dependencies:
       - STR_RESISTANCE_CRAFT
+    listOrder: 721
 #TIER 0.M - REQUIRE TECH SYSTEMS _ BLUEPRINTS ALSO RECOVERED FROM COMM SECTOR MISSIONS
   - name: STR_GAU_2_CANNON
     cost: 50
     points: 10
     dependencies:
       - STR_TECH_SYSTEMS
+    listOrder: 750
   - name: STR_GAU_4_CANNON
     cost: 50
     points: 10
     dependencies:
       - STR_TECH_SYSTEMS
+    listOrder: 751
   - name: STR_GAU_8_CANNON
     cost: 50
     points: 10
     dependencies:
       - STR_TECH_SYSTEMS
+    listOrder: 752
   - name: STR_GAU_12_CANNON
     cost: 50
     points: 10
     needItem: true
+    listOrder: 753
   - name: STR_GAU_19_CANNON
     cost: 50
     points: 10
     needItem: true
+    listOrder: 754
   - name: STR_HYDRA_LAUNCHER
     cost: 50
     points: 10
     dependencies:
       - STR_TECH_SYSTEMS
+    listOrder: 755
   - name: STR_SIDEWINDER_LAUNCHER
     cost: 50
     points: 10
     dependencies:
       - STR_TECH_SYSTEMS
+    listOrder: 756
   - name: STR_SPARROW_LAUNCHER
     cost: 50
     points: 10
     dependencies:
       - STR_TECH_SYSTEMS
+    listOrder: 757
   - name: STR_STANDARD_LAUNCHER
     cost: 50
     points: 10
     dependencies:
       - STR_TECH_SYSTEMS
+    listOrder: 758
   - name: STR_PHOENIX_LAUNCHER
     cost: 50
     points: 10
     dependencies:
       - STR_TECH_SYSTEMS
+    listOrder: 759
   - name: STR_STINGER_LAUNCHER
     cost: 50
     points: 10
     needItem: true
+    listOrder: 760
   - name: STR_ASRAAM_LAUNCHER
     cost: 50
     points: 10
     needItem: true
+    listOrder: 761
   - name: STR_AMRAAM_LAUNCHER
     cost: 50
     points: 10
     needItem: true
+    listOrder: 762
   - name: STR_HARM_LAUNCHER
     cost: 50
     points: 10
     needItem: true
+    listOrder: 763
   - name: STR_GENIE_LAUNCHER
     cost: 50
     points: 10
     needItem: true
+    listOrder: 764
   - name: STR_FALCON_LAUNCHER
     cost: 50
     points: 10
     needItem: true
+    listOrder: 765
 #RESISTANCE SECTOR COMMS
 ##SECTOR COMMS UNLOCKS MAP WITH SKYNET POSITIONS AND ACTIVATE TECH-COMM MISSIONS IN THE SECTOR
   - name: STR_SECTOR_00_COMM
@@ -1084,153 +1227,186 @@ research:
     points: 10
     dependencies:
       - STR_SECTOR_COMMS
+    listOrder: 800
   - name: STR_SECTOR_01_COMM
     cost: 50
     points: 10
     dependencies:
       - STR_SECTOR_COMMS
+    listOrder: 801
   - name: STR_SECTOR_02_COMM
     cost: 50
     points: 10
     dependencies:
       - STR_SECTOR_COMMS
+    listOrder: 802
   - name: STR_SECTOR_03_COMM
     cost: 50
     points: 10
     dependencies:
       - STR_SECTOR_COMMS
+    listOrder: 803
   - name: STR_SECTOR_04_COMM
     cost: 50
     points: 10
     dependencies:
       - STR_SECTOR_COMMS
+    listOrder: 804
   - name: STR_SECTOR_05_COMM
     cost: 50
     points: 10
     dependencies:
       - STR_SECTOR_COMMS
+    listOrder: 805
   - name: STR_SECTOR_06_COMM
     cost: 50
     points: 10
     dependencies:
       - STR_SECTOR_COMMS
+    listOrder: 806
   - name: STR_SECTOR_07_COMM
     cost: 50
     points: 10
     dependencies:
       - STR_SECTOR_COMMS
+    listOrder: 807
   - name: STR_SECTOR_08_COMM
     cost: 50
     points: 10
     dependencies:
       - STR_SECTOR_COMMS
+    listOrder: 808
   - name: STR_SECTOR_09_COMM
     cost: 50
     points: 10
     dependencies:
       - STR_SECTOR_COMMS
+    listOrder: 809
   - name: STR_SECTOR_10_COMM
     cost: 50
     points: 10
     dependencies:
       - STR_SECTOR_COMMS
+    listOrder: 810
   - name: STR_SECTOR_11_COMM
     cost: 50
     points: 10
     dependencies:
       - STR_SECTOR_COMMS
+    listOrder: 811
   - name: STR_SECTOR_12_COMM
     cost: 50
     points: 10
     dependencies:
       - STR_SECTOR_COMMS
+    listOrder: 812
   - name: STR_SECTOR_13_COMM
     cost: 50
     points: 10
     dependencies:
       - STR_SECTOR_COMMS
+    listOrder: 813
   - name: STR_SECTOR_14_COMM
     cost: 50
     points: 10
     dependencies:
       - STR_SECTOR_COMMS
+    listOrder: 814
   - name: STR_SECTOR_15_COMM
     cost: 50
     points: 10
     dependencies:
       - STR_SECTOR_COMMS
+    listOrder: 815
   - name: STR_SECTOR_16_COMM
     cost: 50
     points: 10
     dependencies:
       - STR_SECTOR_COMMS
+    listOrder: 816
   - name: STR_SECTOR_17_COMM
     cost: 50
     points: 10
     dependencies:
       - STR_SECTOR_COMMS
+    listOrder: 817
   - name: STR_SECTOR_18_COMM
     cost: 50
     points: 10
     dependencies:
       - STR_SECTOR_COMMS
+    listOrder: 818
   - name: STR_SECTOR_19_COMM
     cost: 50
     points: 10
     dependencies:
       - STR_SECTOR_COMMS
+    listOrder: 819
   - name: STR_SECTOR_20_COMM
     cost: 50
     points: 10
     dependencies:
       - STR_SECTOR_COMMS
+    listOrder: 820
   - name: STR_SECTOR_21_COMM
     cost: 50
     points: 10
     dependencies:
       - STR_SECTOR_COMMS
+    listOrder: 821
 ##SKYNET PROTOCOLS
   - name: STR_SKYNET_RESEARCH
     cost: 50
     points: 10
     needItem: true
+    listOrder: 901
   - name: STR_SKYNET_RECLAMATION
     cost: 50
     points: 10
     needItem: true
+    listOrder: 902
   - name: STR_SKYNET_ERADICATION
     cost: 50
     points: 10
     needItem: true
+    listOrder: 903
   - name: STR_SKYNET_INFILTRATION
     cost: 50
     points: 10
     needItem: true
+    listOrder: 904
   - name: STR_SKYNET_EXPANSION
     cost: 50
     points: 10
     needItem: true
+    listOrder: 905
   - name: STR_SKYNET_INTERDICTION
     cost: 50
     points: 10
     needItem: true
+    listOrder: 906
   - name: STR_SKYNET_TERMINATION
     cost: 50
     points: 10
     needItem: true
+    listOrder: 907
   - name: STR_SKYNET_PACIFICATION
     cost: 50
     points: 10
     needItem: true
+    listOrder: 908
   - name: STR_SKYNET_TRANSPORT
     cost: 50
     points: 10
     needItem: true
+    listOrder: 909
   - name: STR_SKYNET_RETRIBUTION
     cost: 50
     points: 10
     needItem: true
+    listOrder: 910
   - name: STR_SKYNET_SUPPLY
     cost: 50
     points: 10
     needItem: true
+    listOrder: 911

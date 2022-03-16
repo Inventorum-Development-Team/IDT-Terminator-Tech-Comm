@@ -579,7 +579,7 @@ manufacture:
   - name: STR_GAU_4_CANNON_ROUNDS_X50
     category: STR_CRAFT_AMMUNITION
     requires:
-      - STR_SECTOR_COMMS
+      - STR_GAU_4_CANNON
     space: 2 
     time: 5 
     cost: 200 

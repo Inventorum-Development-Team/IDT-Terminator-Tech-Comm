@@ -92,6 +92,7 @@ items:
     invHeight: 1
     bigSprite: 55
     floorSprite: 72
+    listOrder: 100
   - type: STR_VALKYRIE_FUSELAGE
     costSell: 100000
     size: 1
@@ -100,6 +101,7 @@ items:
     invHeight: 1
     bigSprite: 55
     floorSprite: 72
+    listOrder: 101
   - type: STR_ARCHANGEL_FUSELAGE
     costSell: 100000
     size: 1
@@ -108,6 +110,7 @@ items:
     invHeight: 1
     bigSprite: 55
     floorSprite: 72
+    listOrder: 102
   - type: STR_AURORA_FUSELAGE
     costSell: 100000
     size: 1
@@ -116,6 +119,7 @@ items:
     invHeight: 1
     bigSprite: 55
     floorSprite: 72
+    listOrder: 103
   - type: STR_BLACKBIRD_FUSELAGE
     costSell: 100000
     size: 1
@@ -124,6 +128,7 @@ items:
     invHeight: 1
     bigSprite: 55
     floorSprite: 72
+    listOrder: 104
   - type: STR_VIKING_FUSELAGE
     costSell: 100000
     size: 1
@@ -132,6 +137,7 @@ items:
     invHeight: 1
     bigSprite: 55
     floorSprite: 72
+    listOrder: 105
   - type: STR_TWIN_OTTER_FUSELAGE
     costSell: 100000
     size: 1
@@ -140,6 +146,7 @@ items:
     invHeight: 1
     bigSprite: 55
     floorSprite: 72
+    listOrder: 106
   - type: STR_GOSHAWK_FUSELAGE
     costSell: 100000
     size: 1
@@ -148,6 +155,7 @@ items:
     invHeight: 1
     bigSprite: 55
     floorSprite: 72
+    listOrder: 107
   - type: STR_BRONCO_FUSELAGE
     costSell: 100000
     size: 1
@@ -156,6 +164,7 @@ items:
     invHeight: 1
     bigSprite: 55
     floorSprite: 72
+    listOrder: 108
   - type: STR_TRACER_FUSELAGE
     costSell: 100000
     size: 1
@@ -164,6 +173,7 @@ items:
     invHeight: 1
     bigSprite: 55
     floorSprite: 72
+    listOrder: 109
   - type: STR_OSPREY_FUSELAGE
     costSell: 100000
     size: 1
@@ -172,6 +182,7 @@ items:
     invHeight: 1
     bigSprite: 55
     floorSprite: 72
+    listOrder: 110
   - type: STR_LION_FUSELAGE
     costSell: 100000
     size: 1
@@ -180,6 +191,7 @@ items:
     invHeight: 1
     bigSprite: 55
     floorSprite: 72
+    listOrder: 112
   - type: STR_SKYHAWK_FUSELAGE
     costSell: 100000
     size: 1
@@ -188,6 +200,7 @@ items:
     invHeight: 1
     bigSprite: 55
     floorSprite: 72
+    listOrder: 113
   - type: STR_WARTHOG_FUSELAGE
     costSell: 100000
     size: 1
@@ -196,6 +209,7 @@ items:
     invHeight: 1
     bigSprite: 55
     floorSprite: 72
+    listOrder: 114
   - type: STR_PROWLER_FUSELAGE
     costSell: 100000
     size: 1
@@ -204,6 +218,7 @@ items:
     invHeight: 1
     bigSprite: 55
     floorSprite: 72
+    listOrder: 115
   - type: STR_HAWKEYE_FUSELAGE
     costSell: 100000
     size: 1
@@ -212,6 +227,7 @@ items:
     invHeight: 1
     bigSprite: 55
     floorSprite: 72
+    listOrder: 116
   - type: STR_SHERPA_FUSELAGE
     costSell: 100000
     size: 1
@@ -220,6 +236,7 @@ items:
     invHeight: 1
     bigSprite: 55
     floorSprite: 72
+    listOrder: 117
   - type: STR_TALON_FUSELAGE
     costSell: 100000
     size: 1
@@ -228,6 +245,7 @@ items:
     invHeight: 1
     bigSprite: 55
     floorSprite: 72
+    listOrder: 118
   - type: STR_DRAGONFLY_FUSELAGE
     costSell: 100000
     size: 1
@@ -236,6 +254,7 @@ items:
     invHeight: 1
     bigSprite: 55
     floorSprite: 72
+    listOrder: 119
   - type: STR_MOHAWK_FUSELAGE
     costSell: 100000
     size: 1
@@ -244,6 +263,7 @@ items:
     invHeight: 1
     bigSprite: 55
     floorSprite: 72
+    listOrder: 120
   - type: STR_GUARDRAIL_FUSELAGE
     costSell: 100000
     size: 1
@@ -252,168 +272,204 @@ items:
     invHeight: 1
     bigSprite: 55
     floorSprite: 72
+    listOrder: 121
 #Craft Weapons
   - type: STR_COMM_PODS
     size: 5
     costSell: 150000
     transferTime: 48
+    listOrder: 150
   - type: STR_TECH_PODS
     size: 5
     costSell: 125000
     transferTime: 48
+    listOrder: 151
   - type: STR_FUEL_PODS
     size: 5
     costSell: 45000
     transferTime: 48
+    listOrder: 152
   - type: STR_ECM_PODS
     size: 5
     costSell: 12500
     transferTime: 48
+    listOrder: 153
   - type: STR_HYDRA_LAUNCHER
     size: 0.8
     costSell: 12000
     transferTime: 48
+    listOrder: 154
   - type: STR_HYDRA_ROCKETS
     size: 0.4
     costSell: 2400
     transferTime: 48
     clipSize: 1
+    listOrder: 155
   - type: STR_STINGER_LAUNCHER
     size: 0.8
     costSell: 14000
     transferTime: 48
+    listOrder: 156
   - type: STR_STINGER_MISSILES
     size: 0.4
     costSell: 4000
     transferTime: 48
     clipSize: 1
+    listOrder: 157
   - type: STR_SIDEWINDER_LAUNCHER
     size: 0.8
     costSell: 18000
     transferTime: 48
+    listOrder: 158
   - type: STR_SIDEWINDER_MISSILES
     size: 0.4
     costSell: 4000
     transferTime: 48
     clipSize: 1
+    listOrder: 159
   - type: STR_ASRAAM_LAUNCHER
     size: 0.8
     costSell: 22000
     transferTime: 48
+    listOrder: 160
   - type: STR_ASRAAM_MISSILES
     size: 0.4
     costSell: 6000
     transferTime: 48
     clipSize: 1
+    listOrder: 161
   - type: STR_SPARROW_LAUNCHER
     size: 1
     costSell: 27000
     transferTime: 48
+    listOrder: 162
   - type: STR_SPARROW_MISSILES
     size: 1.5
-    costBuy: 17500
     costSell: 15000
     transferTime: 48
     clipSize: 1
+    listOrder: 163
   - type: STR_STANDARD_LAUNCHER
     size: 1
     costSell: 25000
     transferTime: 48
+    listOrder: 164
   - type: STR_STANDARD_MISSILES
     size: 1.5
     costSell: 12000
     transferTime: 48
     clipSize: 1
+    listOrder: 165
   - type: STR_PHOENIX_LAUNCHER
     size: 1
     costSell: 67000
     transferTime: 48
+    listOrder: 166
   - type: STR_PHOENIX_MISSILES
     size: 1
     costSell: 27000
     transferTime: 48
     clipSize: 1
+    listOrder: 167
   - type: STR_AMRAAM_LAUNCHER
     size: 1
     costSell: 40500
     transferTime: 48
+    listOrder: 168
   - type: STR_AMRAAM_MISSILES
     size: 1.5
     costSell: 19000
     transferTime: 48
     clipSize: 1
+    listOrder: 169
   - type: STR_HARM_LAUNCHER
     size: 1
     costSell: 35750
     transferTime: 48
+    listOrder: 170
   - type: STR_HARM_MISSILES
     size: 1.5
     costSell: 18500
     transferTime: 48
     clipSize: 1
+    listOrder: 171
   - type: STR_GENIE_LAUNCHER
     size: 0.8
     costSell: 120000
     transferTime: 48
+    listOrder: 172
   - type: STR_GENIE_ROCKETS
     size: 0.4
     costSell: 240000
     transferTime: 48
     clipSize: 1
+    listOrder: 173
   - type: STR_FALCON_LAUNCHER
     size: 0.8
     costSell: 140000
     transferTime: 48
+    listOrder: 174
   - type: STR_FALCON_MISSILES
     size: 0.4
     costSell: 400000
     transferTime: 48
     clipSize: 1
+    listOrder: 175
   - type: STR_GAU_2_CANNON
     size: 1.5
     costSell: 22500
     transferTime: 48
+    listOrder: 176
   - type: STR_GAU_2_CANNON_ROUNDS_X50
     size: 0.1
     costSell: 1012
     transferTime: 96
     clipSize: 50
+    listOrder: 177
   - type: STR_GAU_4_CANNON
     size: 1.5
     costSell: 37500
     transferTime: 48
+    listOrder: 178
   - type: STR_GAU_4_CANNON_ROUNDS_X50
     size: 0.1
     costSell: 1600
     transferTime: 96
     clipSize: 50
+    listOrder: 179
   - type: STR_GAU_8_CANNON
     size: 1.5
     costSell: 52500
     transferTime: 48
+    listOrder: 180
   - type: STR_GAU_8_CANNON_ROUNDS_X50
     size: 0.1
     costSell: 2612
     transferTime: 96
     clipSize: 50
+    listOrder: 181
   - type: STR_GAU_12_CANNON
     size: 1.5
     costSell: 32500
     transferTime: 48
+    listOrder: 182
   - type: STR_GAU_12_CANNON_ROUNDS_X50
     size: 0.1
     costSell: 2012
     transferTime: 96
     clipSize: 50
+    listOrder: 183
   - type: STR_GAU_19_CANNON
     size: 1.5
     costSell: 37500
     transferTime: 48
+    listOrder: 184
   - type: STR_GAU_19_CANNON_ROUNDS_X50
     size: 0.1
     costSell: 1812
     transferTime: 96
     clipSize: 50
+    listOrder: 185
 #Conventional
   - type: STR_LIGHT_PISTOL
     size: 0.1
@@ -435,6 +491,7 @@ items:
     invWidth: 1
     battleType: 1
     armor: 250
+    listOrder: 200
   - type: STR_LIGHT_PISTOL_CLIP
     size: 0.1
     costBuy: 300
@@ -452,6 +509,7 @@ items:
     invWidth: 1
     battleType: 2
     armor: 250
+    listOrder: 201
   - type: STR_MEDIUM_PISTOL
     size: 0.1
     costBuy: 2500
@@ -472,6 +530,7 @@ items:
     invWidth: 1
     battleType: 1
     armor: 250
+    listOrder: 202
   - type: STR_MEDIUM_PISTOL_CLIP
     size: 0.1
     costBuy: 500
@@ -489,6 +548,7 @@ items:
     invWidth: 1
     battleType: 2
     armor: 250
+    listOrder: 203
   - type: STR_HEAVY_PISTOL
     size: 0.1
     costBuy: 4500
@@ -509,6 +569,7 @@ items:
     invWidth: 1
     battleType: 1
     armor: 250
+    listOrder: 204
   - type: STR_HEAVY_PISTOL_CLIP
     size: 0.1
     costBuy: 2500
@@ -526,6 +587,7 @@ items:
     invWidth: 1
     battleType: 2
     armor: 250
+    listOrder: 205
   - type: STR_PUMP_SHOTGUN
     size: 0.3
     costBuy: 1600
@@ -548,6 +610,7 @@ items:
     battleType: 1
     twoHanded: true
     armor: 250
+    listOrder: 206
   - type: STR_SEMI_AUTO_SHOTGUN
     size: 0.3
     costBuy: 2500
@@ -572,6 +635,7 @@ items:
     battleType: 1
     twoHanded: true
     armor: 250
+    listOrder: 207
   - type: STR_SHOTGUN_SHELLS
     size: 0.1
     costBuy: 600
@@ -590,6 +654,7 @@ items:
     shotgunPellets: 9
     battleType: 2
     armor: 250
+    listOrder: 208
   - type: STR_SHOTGUN_SLUGS
     size: 0.1
     costBuy: 900
@@ -607,6 +672,7 @@ items:
     invWidth: 1
     battleType: 2
     armor: 250
+    listOrder: 209
   - type: STR_RIFLE_M4
     size: 0.3
     costBuy: 9600
@@ -631,6 +697,7 @@ items:
     battleType: 1
     twoHanded: true
     armor: 250
+    listOrder: 210
   - type: STR_556_SS109
     size: 0.1
     costBuy: 5400
@@ -648,6 +715,7 @@ items:
     invWidth: 1
     battleType: 2
     armor: 250
+    listOrder: 211
   - type: STR_556_AP
     size: 0.1
     costSell: 3200
@@ -664,6 +732,7 @@ items:
     invWidth: 1
     battleType: 2
     armor: 250
+    listOrder: 212
   - type: STR_RIFLE_AK47
     size: 0.3
     costBuy: 7200
@@ -688,6 +757,7 @@ items:
     battleType: 1
     twoHanded: true
     armor: 250
+    listOrder: 213
   - type: STR_762_SP
     size: 0.1
     costBuy: 3500
@@ -705,6 +775,7 @@ items:
     invWidth: 1
     battleType: 2
     armor: 250
+    listOrder: 214
   - type: STR_762_FMJ
     size: 0.1
     costSell: 1050
@@ -721,6 +792,7 @@ items:
     invWidth: 1
     battleType: 2
     armor: 250
+    listOrder: 215
   - type: STR_RIFLE_AR15
     requires:
       - STR_RIFLE_AR15
@@ -746,6 +818,7 @@ items:
     battleType: 1
     twoHanded: true
     armor: 250
+    listOrder: 216
   - type: STR_50_FMJ
     requires:
       - STR_RIFLE_AR15
@@ -764,6 +837,7 @@ items:
     invWidth: 1
     battleType: 2
     armor: 250
+    listOrder: 217
   - type: STR_50_AP
     requires:
       - STR_RIFLE_AR15
@@ -782,6 +856,7 @@ items:
     invWidth: 1
     battleType: 2
     armor: 250
+    listOrder: 218
   - type: STR_M134
     requires:
       - STR_M134
@@ -805,6 +880,7 @@ items:
     battleType: 1
     twoHanded: true
     armor: 250
+    listOrder: 219
   - type: STR_762_FMJ_BELT
     requires:
       - STR_M134
@@ -824,6 +900,7 @@ items:
     invWidth: 2
     battleType: 2
     armor: 250
+    listOrder: 220
   - type: STR_762_AP_BELT
     requires:
       - STR_M134
@@ -842,6 +919,7 @@ items:
     invWidth: 2
     battleType: 2
     armor: 250
+    listOrder: 221
   - type: STR_D12
     requires:
       - STR_D12
@@ -864,6 +942,7 @@ items:
     bulletSpeed: 100
     twoHanded: true
     armor: 250
+    listOrder: 222
   - type: STR_D12A2
     requires:
       - STR_D12A2
@@ -886,6 +965,7 @@ items:
     bulletSpeed: 100
     twoHanded: true
     armor: 250
+    listOrder: 223
   - type: STR_D12_DRUM
     requires:
       - STR_D12
@@ -904,6 +984,7 @@ items:
     invHeight: 2
     invWidth: 2
     armor: 250
+    listOrder: 224
   - type: STR_M82A1
     size: 0.3
     costBuy: 19200
@@ -926,6 +1007,7 @@ items:
     battleType: 1
     twoHanded: true
     armor: 250
+    listOrder: 225
   - type: STR_50_BMG
     size: 0.1
     costBuy: 9550
@@ -943,6 +1025,7 @@ items:
     invWidth: 1
     battleType: 2
     armor: 250
+    listOrder: 226
   - type: STR_50_HEAT
     size: 0.1
     costBuy: 10500
@@ -960,6 +1043,7 @@ items:
     invWidth: 1
     battleType: 2
     armor: 250
+    listOrder: 227
   - type: STR_15MM_AMR
     requires:
       - STR_15MM_AMR
@@ -982,6 +1066,7 @@ items:
     battleType: 1
     twoHanded: true
     armor: 250
+    listOrder: 228
   - type: STR_15MM_AMR_CLIP
     requires:
       - STR_15MM_AMR
@@ -1000,6 +1085,7 @@ items:
     invWidth: 2
     battleType: 2
     armor: 250
+    listOrder: 229
   - type: STR_20MM_AMR
     requires:
       - STR_20MM_AMR
@@ -1022,6 +1108,7 @@ items:
     battleType: 1
     twoHanded: true
     armor: 250
+    listOrder: 230
   - type: STR_20MM_AMR_CLIP
     requires:
       - STR_20MM_AMR
@@ -1040,6 +1127,7 @@ items:
     invWidth: 2
     battleType: 2
     armor: 250
+    listOrder: 231
   - type: STR_M25A1
     requires:
       - STR_M25A1
@@ -1062,6 +1150,7 @@ items:
     battleType: 1
     twoHanded: true
     armor: 250
+    listOrder: 232
   - type: STR_M25A1_FUEL_CELL
     size: 0.1
     requires:
@@ -1080,6 +1169,7 @@ items:
     invWidth: 1
     battleType: 2
     armor: 250
+    listOrder: 233
   - type: STR_M30A1
     size: 0.3
     requires:
@@ -1102,6 +1192,7 @@ items:
     battleType: 1
     twoHanded: true
     armor: 250
+    listOrder: 234
   - type: STR_M30A1_FUEL_CELL
     size: 0.1
     requires:
@@ -1120,6 +1211,7 @@ items:
     invWidth: 1
     battleType: 2
     armor: 250
+    listOrder: 235
 #SKYNET
   - type: STR_M20A
     size: 0.1
@@ -1144,6 +1236,7 @@ items:
     invWidth: 1
     battleType: 1
     armor: 250
+    listOrder: 236
   - type: STR_M20A_FUEL_CELL
     size: 0.1
     requires:
@@ -1162,6 +1255,7 @@ items:
     invWidth: 1
     battleType: 2
     armor: 250
+    listOrder: 237
   - type: STR_M45
     size: 0.3
     requires:
@@ -1186,6 +1280,7 @@ items:
     battleType: 1
     twoHanded: true
     armor: 250
+    listOrder: 238
   - type: STR_M45_FUEL_CELL
     size: 0.1
     requires:
@@ -1204,6 +1299,7 @@ items:
     invWidth: 1
     battleType: 2
     armor: 250
+    listOrder: 239
   - type: STR_M95A1
     size: 0.3
     requires:
@@ -1228,6 +1324,7 @@ items:
     battleType: 1
     twoHanded: true
     armor: 250
+    listOrder: 240
   - type: STR_M95A1_FUEL_CELL
     size: 0.1
     requires:
@@ -1246,6 +1343,7 @@ items:
     invWidth: 1
     battleType: 2
     armor: 250
+    listOrder: 241
   - type: STR_RBS92
     size: 0.6
     requires:
@@ -1268,6 +1366,7 @@ items:
     battleType: 1
     twoHanded: true
     armor: 250
+    listOrder: 242
   - type: STR_RBS92_FUEL_CELL
     size: 0.3
     requires:
@@ -1286,6 +1385,7 @@ items:
     invWidth: 1
     battleType: 2
     armor: 250
+    listOrder: 243
   - type: STR_RSB80
     size: 0.6
     requires:
@@ -1311,6 +1411,7 @@ items:
     autoShots: 5
     twoHanded: true
     armor: 250
+    listOrder: 244
   - type: STR_RSB80_FUEL_CELL
     size: 0.2
     requires:
@@ -1329,6 +1430,7 @@ items:
     invWidth: 1
     battleType: 2
     armor: 250
+    listOrder: 245
   - type: STR_RSB90
     size: 0.6
     requires:
@@ -1354,6 +1456,7 @@ items:
     autoShots: 5
     twoHanded: true
     armor: 250
+    listOrder: 246
   - type: STR_RSB90_FUEL_CELL
     size: 0.3
     requires:
@@ -1372,6 +1475,7 @@ items:
     invWidth: 2
     battleType: 2
     armor: 250
+    listOrder: 247
 #Energy
 #Explosive
 #Grenades
@@ -1391,6 +1495,7 @@ items:
     invWidth: 1
     battleType: 4
     armor: 250
+    listOrder: 248
   - type: STR_SMGRENADE
     size: 0.1
     costBuy: 150
@@ -1407,6 +1512,7 @@ items:
     invWidth: 1
     battleType: 4
     armor: 250
+    listOrder: 249
   - type: STR_PLSGRENADE
     size: 0.1
     costSell: 1000000
@@ -1422,6 +1528,7 @@ items:
     invWidth: 1
     battleType: 4
     armor: 250
+    listOrder: 250
   - type: STR_DEMO
     size: 0.2
     costBuy: 1500
@@ -1438,6 +1545,7 @@ items:
     invWidth: 1
     battleType: 4
     armor: 250
+    listOrder: 251
   - type: STR_THERM
     size: 0.1
     costBuy: 250
@@ -1454,6 +1562,19 @@ items:
     invWidth: 1
     battleType: 4
     armor: 250
+    listOrder: 252
+  - type: STR_PROXIMITY_GRENADE
+    size: 0.1
+    costBuy: 500
+    costSell: 400
+    weight: 3
+    bigSprite: 21
+    floorSprite: 21
+    power: 70
+    damageType: 3
+    battleType: 5
+    blastRadius: 5
+    listOrder: 253
 #Launchers
   - type: STR_HEAVY_ROCKET_LAUNCHER
     size: 0.6
@@ -1478,6 +1599,7 @@ items:
     battleType: 1
     twoHanded: true
     armor: 250
+    listOrder: 254
   - type: STR_HIVE_ROCKET
     size: 0.3
     costBuy: 900
@@ -1496,6 +1618,7 @@ items:
     invWidth: 1
     battleType: 2
     armor: 250
+    listOrder: 255
   - type: STR_SHRAPNEL_ROCKET
     size: 0.3
     costBuy: 900
@@ -1513,6 +1636,7 @@ items:
     invWidth: 1
     battleType: 2
     armor: 250
+    listOrder: 256
   - type: STR_HELLFIRE_ROCKET
     size: 0.3
     costBuy: 900
@@ -1530,6 +1654,7 @@ items:
     invWidth: 1
     battleType: 2
     armor: 250
+    listOrder: 257
   - type: STR_QUAD_ROCKET
     size: 0.6
     costBuy: 4000
@@ -1556,6 +1681,7 @@ items:
     battleType: 1
     twoHanded: true
     armor: 250
+    listOrder: 258
   - type: STR_SMALL_ROCKET
     size: 0.1
     costBuy: 600
@@ -1573,6 +1699,7 @@ items:
     invWidth: 2
     battleType: 2
     armor: 250
+    listOrder: 259
   - type: STR_SMOKE_ROCKET
     size: 0.1
     costBuy: 600
@@ -1590,6 +1717,7 @@ items:
     invWidth: 2
     battleType: 2
     armor: 250
+    listOrder: 260
   - type: STR_NAPALM_ROCKET
     size: 0.1
     costBuy: 600
@@ -1607,6 +1735,7 @@ items:
     invWidth: 2
     battleType: 2
     armor: 250
+    listOrder: 261
 #Armors
   - type: STR_JUMPSUIT
     size: 0.8
@@ -1695,6 +1824,332 @@ items:
     battleType: 11
     recover: false
     listOrder: 4702
+
+#Terminators
+  - type: STR_TERMINATOR_CERBERUS
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 40000
+    listOrder: 15022
+  - type: STR_TERMINATOR_CYBERMITE
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 40000
+    listOrder: 15017
+  - type: STR_TERMINATOR_DRONE
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 40000
+    listOrder: 15007
+  - type: STR_TERMINATOR_SEEKER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 40000
+    listOrder: 15022
+  - type: STR_TERMINATOR_SENTRY
+    size: 0.0
+    recover: false
+    liveAlien: true
+    costSell: 80000
+    listOrder: 14401
+  - type: STR_TERMINATOR_CERBERUS_CORPSE
+    size: 0.4
+    costSell: 20000
+    weight: 5
+    bigSprite: 850
+    floorSprite: 850
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    recover: true
+    recoveryPoints: 3
+    armor: 35
+    listOrder: 8504
+  - type: STR_TERMINATOR_CYBERMITE_CORPSE
+    size: 0.4
+    costSell: 20000
+    weight: 30
+    bigSprite: 851
+    floorSprite: 851
+    invWidth: 2
+    invHeight: 2
+    recoveryPoints: 5
+    battleType: 11
+    power: 30
+    blastRadius: -1
+    armor: 26
+    listOrder: 8503
+  - type: STR_TERMINATOR_DRONE_CORPSE
+    size: 0.4
+    costSell: 20000
+    weight: 25
+    bigSprite: 852
+    floorSprite: 852
+    invWidth: 2
+    invHeight: 2
+    recoveryPoints: 5
+    battleType: 11
+    armor: 36
+    listOrder: 8501
+  - type: STR_TERMINATOR_SEEKER_CORPSE
+    size: 0.4
+    costSell: 20000
+    weight: 5
+    bigSprite: 853
+    floorSprite: 853
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    recover: true
+    recoveryPoints: 3
+    armor: 35
+    listOrder: 8504
+  - type: STR_TERMINATOR_SENTRY_CORPSE
+    size: 1
+    costSell: 20000
+    battleType: 11
+    listOrder: 7901
+  - type: STR_TERMINATOR_T200_CORPSE
+    name: STR_CORPSE
+    size: 0.4
+    costSell: 20000
+    weight: 5
+    bigSprite: 802
+    floorSprite: 802
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    recoveryPoints: 5
+    armor: 35
+  - type: STR_TERMINATOR_T300_CORPSE
+    name: STR_CORPSE
+    size: 0.4
+    costSell: 20000
+    weight: 5
+    bigSprite: 803
+    floorSprite: 803
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    recoveryPoints: 5
+    armor: 35
+  - type: STR_TERMINATOR_T400_CORPSE
+    name: STR_CORPSE
+    size: 0.4
+    costSell: 20000
+    weight: 5
+    bigSprite: 804
+    floorSprite: 804
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    recoveryPoints: 5
+    armor: 35
+  - type: STR_TERMINATOR_T500_CORPSE
+    name: STR_CORPSE
+    size: 0.4
+    costSell: 20000
+    weight: 5
+    bigSprite: 805
+    floorSprite: 805
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    recoveryPoints: 5
+    armor: 35
+  - type: STR_TERMINATOR_T600_CORPSE
+    name: STR_CORPSE
+    size: 0.4
+    costSell: 20000
+    weight: 5
+    bigSprite: 806
+    floorSprite: 806
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    recoveryPoints: 5
+    armor: 35
+  - type: STR_TERMINATOR_T700_CORPSE
+    name: STR_CORPSE
+    size: 0.4
+    costSell: 20000
+    weight: 5
+    bigSprite: 807
+    floorSprite: 807
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    recoveryPoints: 5
+    armor: 35
+  - type: STR_TERMINATOR_T800_CORPSE
+    name: STR_CORPSE
+    size: 0.4
+    costSell: 20000
+    weight: 5
+    bigSprite: 808
+    floorSprite: 808
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    recoveryPoints: 5
+    armor: 35
+  - type: STR_TERMINATOR_T1000_CORPSE
+    size: 0.4
+    costSell: 20000
+    weight: 5
+    bigSprite: 810
+    floorSprite: 810
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    recoveryPoints: 5
+    armor: 35
+    listOrder: 6752
+  - type: STR_TERMINATOR_T200
+    size: 0.1
+    recover: true
+    liveAlien: true
+    costSell: 40000
+  - type: STR_TERMINATOR_T300
+    size: 0.1
+    recover: true
+    liveAlien: true
+    costSell: 40000
+  - type: STR_TERMINATOR_T400
+    size: 0.1
+    recover: true
+    liveAlien: true
+    costSell: 40000
+  - type: STR_TERMINATOR_T500
+    size: 0.1
+    recover: true
+    liveAlien: true
+    costSell: 40000
+  - type: STR_TERMINATOR_T600
+    size: 0.1
+    recover: true
+    liveAlien: true
+    costSell: 40000
+  - type: STR_TERMINATOR_T700
+    size: 0.1
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_TERMINATOR_T800
+    size: 0.1
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_INFILTRATOR_T800
+    size: 0.0
+    recover: false
+    liveAlien: true
+    costSell: 40000
+    listOrder: 15020
+  - type: STR_TERMINATOR_T1000
+    size: 0.0
+    recover: false
+    liveAlien: true
+    costSell: 40000
+    listOrder: 15020
+  - type: TERMINATOR_CERBERUS_WEAPON
+    weight: 3
+    bigSprite: { mod: xcom1, index: 60 }
+    floorSprite: 31
+    handSprite: 104
+    fireSound: 36
+    hitSound: 37
+    hitAnimation: 56
+    blastRadius: 0
+    power: 75
+    damageType: 7
+    accuracySnap: 75
+    tuSnap: 45
+    battleType: 1
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    clipSize: -1
+    bulletSprite: -1
+    recover: false
+  - type: TERMINATOR_CYBERMITE_WEAPON
+    weight: 3
+    bigSprite: { mod: xcom1, index: 59 }
+    floorSprite: 31
+    handSprite: 104
+    hitSound: 54
+    clipSize: -1
+    power: 100
+    damageType: 7
+    accuracyMelee: 80
+    tuMelee: 15
+    battleType: 3
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    recover: false
+  - type: TERMINATOR_DRONE_WEAPON
+    weight: 3
+    bigSprite: { mod: xcom1, index: 59 }
+    floorSprite: 31
+    handSprite: 104
+    bulletSprite: 2
+    fireSound: 36
+    hitSound: 37
+    hitAnimation: 26
+    power: 75
+    damageType: 1
+    accuracyMelee: 80
+    tuMelee: 15
+    battleType: 3
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    clipSize: -1
+    autoShots: 3
+    recover: false
+  - type: TERMINATOR_SEEKER_WEAPON
+    weight: 3
+    bigSprite: { mod: xcom1, index: 59 }
+    meleeSound: 49
+    clipSize: -1
+    damageType: 7
+    accuracyMelee: 78
+    tuMelee: 15
+    battleType: 3
+    invWidth: 2
+    invHeight: 3
+    skillApplied: true
+    strengthApplied: true
+    fixedWeapon: true
+    recover: false
+  - type: TERMINATOR_SENTRY_WEAPON
+    weight: 3
+    bigSprite: { mod: xcom1, index: 60 }
+    floorSprite: 31
+    handSprite: 104
+    fireSound: 18
+    hitSound: 19
+    hitAnimation: 46
+    power: 150
+    damageType: 4
+    accuracyAuto: 50
+    accuracySnap: 75
+    accuracyAimed: 110
+    tuAuto: 35
+    tuSnap: 30
+    tuAimed: 60
+    battleType: 1
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    clipSize: -1
+    bulletSprite: 8
+    recover: false
 #Resistance
   - type: STR_HUMAN_CHARACTER_0_0
     size: 0.0
@@ -2475,331 +2930,6 @@ items:
     battleType: 11
     recover: false
     armor: 35
-#Terminators
-  - type: STR_TERMINATOR_CERBERUS
-    size: 0.0
-    recover: true
-    liveAlien: true
-    costSell: 40000
-    listOrder: 15022
-  - type: STR_TERMINATOR_CYBERMITE
-    size: 0.0
-    recover: true
-    liveAlien: true
-    costSell: 40000
-    listOrder: 15017
-  - type: STR_TERMINATOR_DRONE
-    size: 0.0
-    recover: true
-    liveAlien: true
-    costSell: 40000
-    listOrder: 15007
-  - type: STR_TERMINATOR_SEEKER
-    size: 0.0
-    recover: true
-    liveAlien: true
-    costSell: 40000
-    listOrder: 15022
-  - type: STR_TERMINATOR_SENTRY
-    size: 0.0
-    recover: false
-    liveAlien: true
-    costSell: 80000
-    listOrder: 14401
-  - type: STR_TERMINATOR_CERBERUS_CORPSE
-    size: 0.4
-    costSell: 20000
-    weight: 5
-    bigSprite: 850
-    floorSprite: 850
-    invWidth: 2
-    invHeight: 3
-    battleType: 11
-    recover: true
-    recoveryPoints: 3
-    armor: 35
-    listOrder: 8504
-  - type: STR_TERMINATOR_CYBERMITE_CORPSE
-    size: 0.4
-    costSell: 20000
-    weight: 30
-    bigSprite: 851
-    floorSprite: 851
-    invWidth: 2
-    invHeight: 2
-    recoveryPoints: 5
-    battleType: 11
-    power: 30
-    blastRadius: -1
-    armor: 26
-    listOrder: 8503
-  - type: STR_TERMINATOR_DRONE_CORPSE
-    size: 0.4
-    costSell: 20000
-    weight: 25
-    bigSprite: 852
-    floorSprite: 852
-    invWidth: 2
-    invHeight: 2
-    recoveryPoints: 5
-    battleType: 11
-    armor: 36
-    listOrder: 8501
-  - type: STR_TERMINATOR_SEEKER_CORPSE
-    size: 0.4
-    costSell: 20000
-    weight: 5
-    bigSprite: 853
-    floorSprite: 853
-    invWidth: 2
-    invHeight: 3
-    battleType: 11
-    recover: true
-    recoveryPoints: 3
-    armor: 35
-    listOrder: 8504
-  - type: STR_TERMINATOR_SENTRY_CORPSE
-    size: 1
-    costSell: 20000
-    battleType: 11
-    listOrder: 7901
-  - type: STR_TERMINATOR_T200_CORPSE
-    name: STR_CORPSE
-    size: 0.4
-    costSell: 20000
-    weight: 5
-    bigSprite: 802
-    floorSprite: 802
-    invWidth: 2
-    invHeight: 3
-    battleType: 11
-    recoveryPoints: 5
-    armor: 35
-  - type: STR_TERMINATOR_T300_CORPSE
-    name: STR_CORPSE
-    size: 0.4
-    costSell: 20000
-    weight: 5
-    bigSprite: 803
-    floorSprite: 803
-    invWidth: 2
-    invHeight: 3
-    battleType: 11
-    recoveryPoints: 5
-    armor: 35
-  - type: STR_TERMINATOR_T400_CORPSE
-    name: STR_CORPSE
-    size: 0.4
-    costSell: 20000
-    weight: 5
-    bigSprite: 804
-    floorSprite: 804
-    invWidth: 2
-    invHeight: 3
-    battleType: 11
-    recoveryPoints: 5
-    armor: 35
-  - type: STR_TERMINATOR_T500_CORPSE
-    name: STR_CORPSE
-    size: 0.4
-    costSell: 20000
-    weight: 5
-    bigSprite: 805
-    floorSprite: 805
-    invWidth: 2
-    invHeight: 3
-    battleType: 11
-    recoveryPoints: 5
-    armor: 35
-  - type: STR_TERMINATOR_T600_CORPSE
-    name: STR_CORPSE
-    size: 0.4
-    costSell: 20000
-    weight: 5
-    bigSprite: 806
-    floorSprite: 806
-    invWidth: 2
-    invHeight: 3
-    battleType: 11
-    recoveryPoints: 5
-    armor: 35
-  - type: STR_TERMINATOR_T700_CORPSE
-    name: STR_CORPSE
-    size: 0.4
-    costSell: 20000
-    weight: 5
-    bigSprite: 807
-    floorSprite: 807
-    invWidth: 2
-    invHeight: 3
-    battleType: 11
-    recoveryPoints: 5
-    armor: 35
-  - type: STR_TERMINATOR_T800_CORPSE
-    name: STR_CORPSE
-    size: 0.4
-    costSell: 20000
-    weight: 5
-    bigSprite: 808
-    floorSprite: 808
-    invWidth: 2
-    invHeight: 3
-    battleType: 11
-    recoveryPoints: 5
-    armor: 35
-  - type: STR_TERMINATOR_T1000_CORPSE
-    size: 0.4
-    costSell: 20000
-    weight: 5
-    bigSprite: 810
-    floorSprite: 810
-    invWidth: 2
-    invHeight: 3
-    battleType: 11
-    recoveryPoints: 5
-    armor: 35
-    listOrder: 6752
-  - type: STR_TERMINATOR_T200
-    size: 0.1
-    recover: true
-    liveAlien: true
-    costSell: 40000
-  - type: STR_TERMINATOR_T300
-    size: 0.1
-    recover: true
-    liveAlien: true
-    costSell: 40000
-  - type: STR_TERMINATOR_T400
-    size: 0.1
-    recover: true
-    liveAlien: true
-    costSell: 40000
-  - type: STR_TERMINATOR_T500
-    size: 0.1
-    recover: true
-    liveAlien: true
-    costSell: 40000
-  - type: STR_TERMINATOR_T600
-    size: 0.1
-    recover: true
-    liveAlien: true
-    costSell: 40000
-  - type: STR_TERMINATOR_T700
-    size: 0.1
-    recover: true
-    liveAlien: true
-    costSell: 60000
-  - type: STR_TERMINATOR_T800
-    size: 0.1
-    recover: true
-    liveAlien: true
-    costSell: 60000
-  - type: STR_INFILTRATOR_T800
-    size: 0.0
-    recover: false
-    liveAlien: true
-    costSell: 40000
-    listOrder: 15020
-  - type: STR_TERMINATOR_T1000
-    size: 0.0
-    recover: false
-    liveAlien: true
-    costSell: 40000
-    listOrder: 15020
-  - type: TERMINATOR_CERBERUS_WEAPON
-    weight: 3
-    bigSprite: { mod: xcom1, index: 60 }
-    floorSprite: 31
-    handSprite: 104
-    fireSound: 36
-    hitSound: 37
-    hitAnimation: 56
-    blastRadius: 0
-    power: 75
-    damageType: 7
-    accuracySnap: 75
-    tuSnap: 45
-    battleType: 1
-    fixedWeapon: true
-    invWidth: 2
-    invHeight: 3
-    clipSize: -1
-    bulletSprite: -1
-    recover: false
-  - type: TERMINATOR_CYBERMITE_WEAPON
-    weight: 3
-    bigSprite: { mod: xcom1, index: 59 }
-    floorSprite: 31
-    handSprite: 104
-    hitSound: 54
-    clipSize: -1
-    power: 100
-    damageType: 7
-    accuracyMelee: 80
-    tuMelee: 15
-    battleType: 3
-    fixedWeapon: true
-    invWidth: 2
-    invHeight: 3
-    recover: false
-  - type: TERMINATOR_DRONE_WEAPON
-    weight: 3
-    bigSprite: { mod: xcom1, index: 59 }
-    floorSprite: 31
-    handSprite: 104
-    bulletSprite: 2
-    fireSound: 36
-    hitSound: 37
-    hitAnimation: 26
-    power: 75
-    damageType: 1
-    accuracyMelee: 80
-    tuMelee: 15
-    battleType: 3
-    fixedWeapon: true
-    invWidth: 2
-    invHeight: 3
-    clipSize: -1
-    autoShots: 3
-    recover: false
-  - type: TERMINATOR_SEEKER_WEAPON
-    weight: 3
-    bigSprite: { mod: xcom1, index: 59 }
-    meleeSound: 49
-    clipSize: -1
-    damageType: 7
-    accuracyMelee: 78
-    tuMelee: 15
-    battleType: 3
-    invWidth: 2
-    invHeight: 3
-    skillApplied: true
-    strengthApplied: true
-    fixedWeapon: true
-    recover: false
-  - type: TERMINATOR_SENTRY_WEAPON
-    weight: 3
-    bigSprite: { mod: xcom1, index: 60 }
-    floorSprite: 31
-    handSprite: 104
-    fireSound: 18
-    hitSound: 19
-    hitAnimation: 46
-    power: 150
-    damageType: 4
-    accuracyAuto: 50
-    accuracySnap: 75
-    accuracyAimed: 110
-    tuAuto: 35
-    tuSnap: 30
-    tuAimed: 60
-    battleType: 1
-    fixedWeapon: true
-    invWidth: 2
-    invHeight: 3
-    clipSize: -1
-    bulletSprite: 8
-    recover: false
 #OTHER
   - type: STR_PILOT_TRAINING
     costSell: 10000

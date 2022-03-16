@@ -1,5 +1,10 @@
 Tech-Comm Change Log
 
+V0.5.3
+* Added: items and research list orders 
+* Fixed: operation names now in all caps
+* Fixed: several minor manufacturing/research bugs and overall typos
+
 V0.5.2
 * Added: more events
 * Added: all Resistance missions now give personnel, aircraft or weapons as additional mission rewards

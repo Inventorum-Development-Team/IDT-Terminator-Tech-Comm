@@ -550,7 +550,7 @@ crafts: #DONE
     refuelRate: 20
     notifyWhenRefueled: true
     autoPatrol: true
-    sightRange: 8402
+    sightRange: 402
     radarRange: 134
     radarChance: 10
     transferTime: 72

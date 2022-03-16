@@ -161,6 +161,22 @@ ufopaedia:
     text: STR_RESISTANCE_MISSIONS_UFOPEDIA
     listOrder: 904
     text_width: 316
+  - id: STR_SECTOR_COMMS
+    type_id: 7
+    section: STR_INTELPEDIA_0
+    requires:
+      - STR_SECTOR_COMMS
+    image_id: RESISTANCE_PERSONNEL_IMAGE
+    text: STR_SECTOR_COMMS_UFOPEDIA
+    listOrder: 1100
+    text_width: 316
+  - id: STR_TECH_SYSTEMS
+    type_id: 7
+    section: STR_INTELPEDIA_0
+    image_id: TECH_COMM_BASES_IMAGE
+    text: STR_TECH_SYSTEMS_UFOPEDIA
+    listOrder: 905
+    text_width: 316
   - id: STR_RESISTANCE_ORDER_1
     type_id: 7
     section: STR_INTELPEDIA_0
@@ -168,7 +184,7 @@ ufopaedia:
     text: STR_RESISTANCE_ORDER_1_UFOPEDIA
     requires:
       - STR_RESISTANCE_ORDER_1
-    listOrder: 905
+    listOrder: 915
     text_width: 316
   - id: STR_RESISTANCE_ORDER_2
     type_id: 7
@@ -177,7 +193,7 @@ ufopaedia:
     text: STR_RESISTANCE_ORDER_2_UFOPEDIA
     requires:
       - STR_RESISTANCE_ORDER_2
-    listOrder: 906
+    listOrder: 916
     text_width: 316
   - id: STR_RESISTANCE_ORDER_3
     type_id: 7
@@ -186,7 +202,7 @@ ufopaedia:
     text: STR_RESISTANCE_ORDER_3_UFOPEDIA
     requires:
       - STR_RESISTANCE_ORDER_3
-    listOrder: 907
+    listOrder: 917
     text_width: 316
   - id: STR_RESISTANCE_ORDER_4
     type_id: 7
@@ -195,7 +211,7 @@ ufopaedia:
     text: STR_RESISTANCE_ORDER_4_UFOPEDIA
     requires:
       - STR_RESISTANCE_ORDER_4
-    listOrder: 908
+    listOrder: 918
     text_width: 316
   - id: STR_RESISTANCE_ORDER_5
     type_id: 7
@@ -204,7 +220,7 @@ ufopaedia:
     text: STR_RESISTANCE_ORDER_5_UFOPEDIA
     requires:
       - STR_RESISTANCE_ORDER_5
-    listOrder: 909
+    listOrder: 919
     text_width: 316
   - id: STR_RESISTANCE_ORDER_6
     type_id: 7
@@ -213,7 +229,7 @@ ufopaedia:
     text: STR_RESISTANCE_ORDER_6_UFOPEDIA
     requires:
       - STR_RESISTANCE_ORDER_6
-    listOrder: 910
+    listOrder: 920
     text_width: 316
 #COMM AIs
   - id: STR_AI_SKYNET
@@ -307,15 +323,6 @@ ufopaedia:
     text: STR_AI_MAGIC_CARPET_UFOPEDIA
     listOrder: 959
 #COMM SECTORS
-  - id: STR_SECTOR_COMMS
-    type_id: 7
-    section: STR_INTELPEDIA_2
-    requires:
-      - STR_SECTOR_COMMS
-    image_id: RESISTANCE_PERSONNEL_IMAGE
-    text: STR_SECTOR_COMMS_UFOPEDIA
-    listOrder: 1100
-    text_width: 316
   - id: STR_SECTOR_00_COMM
     type_id: 7
     section: STR_INTELPEDIA_2

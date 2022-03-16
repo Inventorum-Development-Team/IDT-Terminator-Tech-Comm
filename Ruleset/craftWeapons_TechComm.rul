@@ -21,7 +21,7 @@ craftWeapons: #DONE
     sprite: 100
     sound: 5
     damage: 140
-    range: 150
+    range: 100
     accuracy: 85
     reloadCautious: 96
     reloadStandard: 72
