@@ -542,13 +542,13 @@ alienDeployments:
             - STR_50_FMJ
             - STR_50_FMJ
           -
-            - STR_RIFLE_AR15
-            - STR_50_FMJ
-            - STR_50_FMJ
+            - STR_M20A
+            - STR_M20A_FUEL_CELL
+            - STR_M20A_FUEL_CELL
           -
-            - STR_RIFLE_AR15
-            - STR_50_FMJ
-            - STR_50_FMJ
+            - STR_M45
+            - STR_M45_FUEL_CELL
+            - STR_M45_FUEL_CELL
       - alienRank: 4
         lowQty: 1
         highQty: 2
@@ -558,15 +558,17 @@ alienDeployments:
           -
             - STR_M134
             - STR_762_FMJ_BELT
-            - STR_762_AP_BELT
-          -
-            - STR_M134
             - STR_762_FMJ_BELT
-            - STR_762_AP_BELT
           -
-            - STR_M134
-            - STR_762_FMJ_BELT
-            - STR_762_AP_BELT
+            - STR_D12
+            - STR_D12_DRUM
+            - STR_D12_DRUM
+            - STR_PLSGRENADE
+          -
+            - STR_D12A2
+            - STR_D12_DRUM
+            - STR_D12_DRUM
+            - STR_PLSGRENADE
       - alienRank: 3
         lowQty: 1
         highQty: 2
@@ -574,17 +576,17 @@ alienDeployments:
         percentageOutsideUfo: 0
         itemSets:
           -
-            - STR_M134
-            - STR_762_FMJ_BELT
-            - STR_762_AP_BELT
+            - STR_15MM_AMR
+            - STR_15MM_AMR_CLIP
+            - STR_15MM_AMR_CLIP
           -
-            - STR_M134
-            - STR_762_FMJ_BELT
-            - STR_762_AP_BELT
+            - STR_20MM_AMR
+            - STR_20MM_AMR_CLIP
+            - STR_20MM_AMR_CLIP
           -
-            - STR_M134
-            - STR_762_FMJ_BELT
-            - STR_762_AP_BELT
+            - STR_RBS92
+            - STR_RBS92_FUEL_CELL
+            - STR_RBS92_FUEL_CELL
       - alienRank: 2
         lowQty: 1
         highQty: 2
@@ -592,17 +594,19 @@ alienDeployments:
         percentageOutsideUfo: 0
         itemSets:
           -
-            - STR_D12
-            - STR_D12_DRUM
-            - STR_D12_DRUM
+            - STR_M134
+            - STR_762_FMJ_BELT
+            - STR_762_FMJ_BELT
           -
-            - STR_D12
-            - STR_D12_DRUM
-            - STR_D12_DRUM
+            - STR_M45
+            - STR_M45_FUEL_CELL
+            - STR_M45_FUEL_CELL
+            - STR_PLSGRENADE
           -
-            - STR_D12
+            - STR_D12A2
             - STR_D12_DRUM
             - STR_D12_DRUM
+            - STR_PLSGRENADE
       - alienRank: 1
         lowQty: 1
         highQty: 2
@@ -610,17 +614,20 @@ alienDeployments:
         percentageOutsideUfo: 0
         itemSets:
           -
-            - STR_15MM_AMR
-            - STR_15MM_AMR_CLIP
-            - STR_15MM_AMR_CLIP
+            - STR_M20A
+            - STR_M20A_FUEL_CELL
+            - STR_M20A_FUEL_CELL
+            - STR_PLSGRENADE
           -
-            - STR_15MM_AMR
-            - STR_15MM_AMR_CLIP
-            - STR_15MM_AMR_CLIP
+            - STR_M45
+            - STR_M45_FUEL_CELL
+            - STR_M45_FUEL_CELL
+            - STR_PLSGRENADE
           -
-            - STR_15MM_AMR
-            - STR_15MM_AMR_CLIP
-            - STR_15MM_AMR_CLIP
+            - STR_RSB90
+            - STR_RSB90_FUEL_CELL
+            - STR_RSB90_FUEL_CELL
+            - STR_PLSGRENADE
       - alienRank: 0
         lowQty: 1
         highQty: 2
@@ -628,17 +635,20 @@ alienDeployments:
         percentageOutsideUfo: 0
         itemSets:
           -
-            - STR_20MM_AMR
-            - STR_20MM_AMR_CLIP
-            - STR_20MM_AMR_CLIP
+            - STR_M45
+            - STR_M45_FUEL_CELL
+            - STR_M45_FUEL_CELL
+            - STR_PLSGRENADE
           -
-            - STR_20MM_AMR
-            - STR_20MM_AMR_CLIP
-            - STR_20MM_AMR_CLIP
+            - STR_RSB80
+            - STR_RSB80_FUEL_CELL
+            - STR_RSB80_FUEL_CELL
+            - STR_PLSGRENADE
           -
-            - STR_20MM_AMR
-            - STR_20MM_AMR_CLIP
-            - STR_20MM_AMR_CLIP
+            - STR_RSB90
+            - STR_RSB90_FUEL_CELL
+            - STR_RSB90_FUEL_CELL
+            - STR_PLSGRENADE
     width: 80
     length: 80
     height: 6
