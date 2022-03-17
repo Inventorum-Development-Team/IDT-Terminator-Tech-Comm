@@ -553,7 +553,7 @@ facilities: #DONE
     monthlyCost: 0
     mapName: TECHBASEDEFENSE_18
     missileAttraction: 25
-#REQUIRE AI HK
+#REQUIRE SKYNET PROTOCOLS
   - type: STR_DEFENSE_CENTER
     requires:
       - STR_DEFENSE_CENTER
@@ -583,7 +583,7 @@ facilities: #DONE
     buildOverFacilities:
       - STR_DEFENSE_CENTER
     missileAttraction: 100
-#REQUIRE AI CHAIN HOME
+#REQUIRE STR_AI_HK
   - type: STR_COMM_ARRAY
     requires:
       - STR_AI_HK
@@ -866,6 +866,7 @@ facilities: #DONE
   - type: STR_POWER_CENTER
     requires:
       - STR_ADVANCED_FACILITIES
+      - STR_FUSION_ENGINE
     spriteShape: 1
     spriteFacility: 24
     buildCost: 150000

@@ -126,7 +126,7 @@ en-US:
   STR_TOTAL_TERROR_SITES: "Machine attacks"
   STR_TOTAL_ENGINEERS: "Technicians hired"
 #xcom1
-  STR_VICTORY_1: "As you enter the chamber you see the alien brain - the object of your quest. Before you can fire it communicates to you via a screen at its base. It implores you to listen to its arguments for survival before you make the decision to pull the trigger..."
+  STR_VICTORY_1: "As the Tempus device powers itself down, a screen becomes active on the chamber although the rest of the room remains inactive."
   STR_VICTORY_2: "The brain speaks: 'Many millions of years ago the planet you call Mars was alive. This life was brought to a barren planet by our civilization as it was to yours. For millions of years we have visited your planet and genetically developed your species. You cannot kill us, you are part of us..."
   STR_VICTORY_3: "Here is the center of Martian civilization - the pyramids built millions of years before yours - by a species which is your ancestor. No planet is beyond our reach. This power could be yours before long. All we ask is your co-operation..."
   STR_GAME_OVER_1: "The destruction of Tech-Comm is a major morale loss for the resistance forces fighting the machines worldwide.  And, as predicted by the models, the Resistance sectors start to be overwhelmed by the growing machine forces and Skynet is able to use its position to terminate any significant human opposition in several regions.  With its victory over mankind now assured, Skynet is free to implement its plans for the entire planet and the few remaining humans still alive."
@@ -1212,6 +1212,7 @@ en-US:
   STR_AMRAAM: "AMRAAM"
   STR_HARM: "HARM"
   STR_PHOENIX: "PHOENIX"
+  STR_PHOENIX_UFOPEDIA: "LONG RANGE AIR TO AIR MISSILE, WITH SUPERIOR RADAR TARGETING."
   STR_GENIE: "GENIE"
   STR_GENIE_UFOPEDIA: "UNGUIDED AIR TO AIR ROCKETS EQUIPPED WITH A NUCLEAR WARHEAD."
   STR_FALCON: "FALCON"
@@ -1939,9 +1940,6 @@ en-US:
   STR_ABANDONED_BASE_ASSAULT: "ABANDONED BASE ASSAULT"
   STR_ABANDONED_BASE_RECOVERED: "ABANDONED BASE RECOVERED"
 #Resistance 
-  STR_STR_NKF_APC: "APC"
-  STR_STR_NKF_APC_AREA51: "APC AREA 51"
-  STR_STR_NKF_APC_COMPLEX: "APC COMPLEX"
 ## REGIONS/COUNTRIES/CITIES
   STR_ASIA: "Asia"
   STR_AFRICA: "Africa"
@@ -2449,6 +2447,9 @@ en-US:
   MAP_TFTD_PORT_ESCAPE: "TFTD Port Escape"  
   MAP_TFTD_PORT_ESCORT: "TFTD Port Escort"
   MAP_TFTD_PORT_INDUSTRIAL_PROTECT: "Port + Industrial Protect"
+  STR_NKF_APC: "APC"
+  STR_NKF_APC_AREA51: "APC AREA 51"
+  STR_NKF_APC_COMPLEX: "APC COMPLEX"
   ##TECH-COMM TERRAINS
   MAP_AREA51_RESEARCH: "Area 51 Research"
   MAP_AREA51_HQ: "Area 51 HQ"

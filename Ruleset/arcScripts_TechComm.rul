@@ -39,7 +39,7 @@ arcScripts: #DONE
     executionOdds: 100                  # % chances of this command executing (default 100)
     maxArcs: 12                        # maximum number of arcs this command can generate (together during the whole game), -1 for infinite 
     researchTriggers:                   # a list of research topics that can influence the execution of this command (default empty)
-      STR_SECTOR_COMMS: true
+      STR_TECH_SYSTEMS: true
   - type: terminatorResearch
     randomArcs:                         # the type of research topics to be "discovered", each month 0 or 1, chosen randomly considering weights
       STR_TERMINATOR_T200: 20
@@ -53,7 +53,7 @@ arcScripts: #DONE
     executionOdds: 100                  # % chances of this command executing (default 100)
     maxArcs: 12                        # maximum number of arcs this command can generate (together during the whole game), -1 for infinite 
     researchTriggers:                   # a list of research topics that can influence the execution of this command (default empty)
-      STR_TECH_SYSTEMS: true
+      STR_SECTOR_COMMS: true
   - type: skynetProtocols
     randomArcs:                         # the type of research topics to be "discovered", each month 0 or 1, chosen randomly considering weights
       STR_SKYNET_RESEARCH: 20
@@ -71,7 +71,7 @@ arcScripts: #DONE
     executionOdds: 100                  # % chances of this command executing (default 100)
     maxArcs: 12                        # maximum number of arcs this command can generate (together during the whole game), -1 for infinite 
     researchTriggers:                   # a list of research topics that can influence the execution of this command (default empty)
-      STR_SKYNET_PROTOCOLS: true
+      STR_SECTOR_COMMS: true
   - type: hkResearch
     randomArcs:                         # the type of research topics to be "discovered", each month 0 or 1, chosen randomly considering weights
       STR_HK_DRONE: 20

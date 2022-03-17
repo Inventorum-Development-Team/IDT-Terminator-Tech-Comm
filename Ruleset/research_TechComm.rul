@@ -211,7 +211,7 @@ research:
     dependencies:
       - STR_AI_SKYNET
 #TECH
-#TIER 0S - STARTING
+#TIER 0S - TECHCOMM
   - name: STR_SECTOR_COMMS #UNLOCKS SECTOR COMMS
     cost: 5
     points: 10
@@ -224,12 +224,6 @@ research:
     getOneFree:
       - STR_SKYNET_FACILITIES
     listOrder: 101
-  - name: STR_HARDENED_FACILITIES
-    cost: 50
-    points: 10
-    dependencies:
-      - STR_TECH_SYSTEMS
-    listOrder: 102
   - name: STR_SKYNET_FACILITIES
     cost: 50
     points: 10
@@ -254,19 +248,90 @@ research:
     dependencies:
       - STR_TECH_SYSTEMS
     listOrder: 106
+#
+  - name: STR_HARDENED_FACILITIES
+    cost: 50
+    points: 10
+    dependencies:
+      - STR_TECH_SYSTEMS
+    listOrder: 150
   - name: STR_ADVANCED_FACILITIES
     cost: 50
     points: 10
     dependencies:
       - STR_AI_GREAT_WALL
       - STR_HARDENED_FACILITIES
-    listOrder: 107
+    listOrder: 15
+  - name: STR_COMM_CENTER
+    cost: 50
+    points: 10
+    needItem: true
+    dependencies:
+      - STR_SKYNET_NETWORKS
+      - STR_SKYNET_PROTOCOLS
+      - STR_ADVANCED_FACILITIES
+    listOrder: 152
+  - name: STR_COMM_STATION
+    cost: 50
+    points: 10
+    needItem: true
+    dependencies:
+      - STR_SKYNET_NETWORKS
+      - STR_SKYNET_PROTOCOLS
+      - STR_ADVANCED_FACILITIES
+    listOrder: 153
+  - name: STR_TECH_CENTER #HYPER ALLOYS
+    cost: 50
+    points: 10
+    needItem: true
+    dependencies:
+      - STR_HYPER_ALLOYS
+      - STR_HARDENED_FACILITIES
+    listOrder: 155
+  - name: STR_TECH_STATION
+    cost: 50
+    points: 10
+    needItem: true
+    dependencies:
+      - STR_NANO_TECHNOLOGY
+      - STR_ADVANCED_FACILITIES
+    listOrder: 156
+  - name: STR_NANO_CENTER
+    cost: 50
+    points: 10
+    needItem: true
+    listOrder: 157
+  - name: STR_DEFENSE_CENTER #HYPERWAVE
+    cost: 50
+    points: 10
+    dependencies:
+      - STR_AI_HK
+    listOrder: 158
+  - name: STR_DEFENSE_STATION
+    cost: 50
+    points: 10
+    needItem: true
+    dependencies:
+      - STR_DEFENSE_CENTER
+      - STR_POLY_ALLOYS
+    listOrder: 159
+  - name: STR_QUANTUM_FIELD
+    cost: 50
+    points: 10
+    needItem: true
+    listOrder: 160
+  - name: STR_CLOAKING_FIELD
+    cost: 50
+    points: 10
+    dependencies:
+      - STR_QUANTUM_FIELD
+    listOrder: 161
   - name: STR_DAMAGED_FACILITIES
     cost: 50
     points: 10
     dependencies:
       - STR_AI_SKYNET
-    listOrder: 108
+    listOrder: 162
 ##TIER 1Y - AI
   - name: STR_AI_MAGIC_CARPET #SKYNET COUNTERATTACK
     cost: 5
@@ -345,6 +410,54 @@ research:
     points: 10
     needItem: true
     listOrder: 211
+#TIER 2.Z - SPECIAL PROJECTS
+  - name: STR_SKYNET_NETWORKS
+    cost: 50
+    points: 10
+    needItem: true
+    listOrder: 250
+  - name: STR_POLY_ALLOYS
+    cost: 50
+    points: 10
+    needItem: true
+    listOrder: 25
+  - name: STR_NANO_TECHNOLOGY
+    cost: 50
+    points: 10
+    needItem: true
+    listOrder: 252
+  - name: STR_NANO_PROJECTOR
+    cost: 50
+    points: 10
+    needItem: true
+    dependencies:
+      - STR_NANO_TECHNOLOGY
+      - STR_POLY_ALLOYS
+      - STR_SKYNET_NETWORKS
+    listOrder: 253
+  - name: STR_NANO_KIT
+    cost: 50
+    points: 10
+    needItem: true
+    dependencies:
+      - STR_NANO_TECHNOLOGY
+    listOrder: 254
+  - name: STR_AI_DRONE
+    cost: 50
+    points: 10
+    needItem: true
+    listOrder: 255
+  - name: STR_AI_SENSOR
+    cost: 50
+    points: 10
+    needItem: true
+    listOrder: 256
+  - name: STR_MATTER_DISPLACEMENT
+    cost: 50
+    points: 10
+    dependencies:
+      - STR_AI_SKYNET
+    listOrder: 257
 ##TIER 2.T - TERMINATOR RESEARCH
   - name: STR_HYPER_ALLOYS #TERMINATOR/HK RECOVERY
     cost: 50
@@ -369,11 +482,18 @@ research:
     points: 10
     needItem: true
     dependencies:
+      - STR_TERMINATOR_T200_CORPSE
+      - STR_TERMINATOR_T300_CORPSE
+      - STR_TERMINATOR_T400_CORPSE
+      - STR_TERMINATOR_T500_CORPSE
       - STR_TERMINATOR_T600_CORPSE
       - STR_TERMINATOR_T700_CORPSE
       - STR_TERMINATOR_T800_CORPSE
       - STR_TERMINATOR_T1000_CORPSE
       - STR_TERMINATOR_SENTRY_CORPSE
+      - STR_TERMINATOR_CYBERMITE_CORPSE
+      - STR_TERMINATOR_SEEKER_CORPSE
+      - STR_TERMINATOR_DRONE_CORPSE
       - STR_TERMINATOR_CERBERUS_CORPSE
     listOrder: 301
   - name: STR_BALLISTICS #HYPER ALLOY RESEARCH - UNLOCK ADVANCED AMMO
@@ -381,7 +501,6 @@ research:
     points: 10
     dependencies:
       - STR_HYPER_ALLOYS
-      - STR_PLASMA_CELL
     listOrder: 302
   - name: STR_ALLOY_VEST
     cost: 50
@@ -400,7 +519,7 @@ research:
     cost: 50
     points: 10
     dependencies:
-      - STR_HYPER_ALLOYS
+      - STR_PLASMA_CELL
     listOrder: 305
   - name: STR_EMP_ROUNDS #EMP FIELD?
     cost: 50
@@ -422,22 +541,9 @@ research:
     needItem: true
     dependencies:
       - STR_EMP_FIELD
+      - STR_AI_SENSOR
     listOrder: 308
-  - name: STR_TECH_CENTER #TERMINATOR CORPSE
-    cost: 50
-    points: 10
-    needItem: true
-    dependencies:
-      - STR_EMP_FIELD
-      - STR_HARDENED_FACILITIES
-    listOrder: 309
 ##TIER 3.K - HK RECOVERY
-  - name: STR_DEFENSE_CENTER #HYPERWAVE
-    cost: 50
-    points: 10
-    dependencies:
-      - STR_AI_HK
-    listOrder: 310
   - name: STR_HOVERCRAFT #ADVANCED VTOL CRAFT?
     cost: 50
     points: 10
@@ -886,7 +992,7 @@ research:
     points: 30
     needItem: true
     dependencies:
-      - STR_SKYNET_PROTOCOLS
+      - STR_HYPER_ALLOYS
       - STR_PLASMA_CELL
     listOrder: 515
   - name: STR_M25A1_FUEL_CELL
@@ -901,7 +1007,7 @@ research:
     points: 30
     needItem: true
     dependencies:
-      - STR_SKYNET_PROTOCOLS
+      - STR_HYPER_ALLOYS
       - STR_PLASMA_CELL
     listOrder: 517
   - name: STR_M30A1_FUEL_CELL
@@ -912,103 +1018,6 @@ research:
       - STR_M30A1
     listOrder: 518
 ##TIER 2.E  - SPECIAL FACILITIES/PROJECTS
-  - name: STR_QUANTUM_FIELD
-    cost: 50
-    points: 10
-    needItem: true
-    listOrder: 601
-  - name: STR_CLOAKING_FIELD
-    cost: 50
-    points: 10
-    dependencies:
-      - STR_QUANTUM_FIELD
-    listOrder: 602
-  - name: STR_POLY_ALLOYS
-    cost: 50
-    points: 10
-    needItem: true
-    listOrder: 603
-  - name: STR_DEFENSE_STATION
-    cost: 50
-    points: 10
-    needItem: true
-    dependencies:
-      - STR_DEFENSE_CENTER
-      - STR_POLY_ALLOYS
-    listOrder: 604
-  - name: STR_SKYNET_NETWORKS
-    cost: 50
-    points: 10
-    needItem: true
-    listOrder: 605
-  - name: STR_COMM_CENTER
-    cost: 50
-    points: 10
-    needItem: true
-    dependencies:
-      - STR_SKYNET_NETWORKS
-      - STR_SKYNET_PROTOCOLS
-      - STR_ADVANCED_FACILITIES
-    listOrder: 606
-  - name: STR_COMM_STATION
-    cost: 50
-    points: 10
-    needItem: true
-    dependencies:
-      - STR_SKYNET_NETWORKS
-      - STR_SKYNET_PROTOCOLS
-      - STR_ADVANCED_FACILITIES
-    listOrder: 607
-  - name: STR_NANO_TECHNOLOGY
-    cost: 50
-    points: 10
-    needItem: true
-    listOrder: 608
-  - name: STR_NANO_CENTER
-    cost: 50
-    points: 10
-    needItem: true
-    listOrder: 609
-  - name: STR_TECH_STATION
-    cost: 50
-    points: 10
-    needItem: true
-    dependencies:
-      - STR_NANO_TECHNOLOGY
-      - STR_ADVANCED_FACILITIES
-    listOrder: 610
-  - name: STR_NANO_PROJECTOR
-    cost: 50
-    points: 10
-    needItem: true
-    dependencies:
-      - STR_NANO_TECHNOLOGY
-      - STR_POLY_ALLOYS
-      - STR_SKYNET_NETWORKS
-    listOrder: 611
-  - name: STR_NANO_KIT
-    cost: 50
-    points: 10
-    needItem: true
-    dependencies:
-      - STR_NANO_TECHNOLOGY
-    listOrder: 612
-  - name: STR_AI_DRONE
-    cost: 50
-    points: 10
-    needItem: true
-    listOrder: 613
-  - name: STR_AI_SENSOR
-    cost: 50
-    points: 10
-    needItem: true
-    listOrder: 614
-  - name: STR_MATTER_DISPLACEMENT
-    cost: 50
-    points: 10
-    dependencies:
-      - STR_AI_SKYNET
-    listOrder: 615
 #TIER 0.M - REQUIRE RESISTANCE CRAFT - BLUEPRINTS ALSO RECOVERED FROM TECH-COMM SECTOR MISSIONS
   - name: STR_VALKYRIE_BLUEPRINT
     cost: 50
