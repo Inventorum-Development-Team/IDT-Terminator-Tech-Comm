@@ -34,6 +34,8 @@ alienDeployments:
     width: 40
     length: 40
     height: 4
+    successEvents:
+      STR_SMALL_HK_RECOVERY: 10
   - type: STR_HK_FIGHTER_1
     data:
       - alienRank: 5
@@ -57,6 +59,8 @@ alienDeployments:
     width: 40
     length: 40
     height: 4
+    successEvents:
+      STR_SMALL_HK_RECOVERY: 10
   - type: STR_HK_TRANSPORT_1
     data:
       - alienRank: 5
@@ -134,6 +138,8 @@ alienDeployments:
     width: 40
     length: 40
     height: 4
+    successEvents:
+      STR_MEDIUM_HK_RECOVERY: 10
   - type: STR_HK_INTERCEPTOR_1
     data:
       - alienRank: 5
@@ -157,6 +163,8 @@ alienDeployments:
     width: 40
     length: 40
     height: 4
+    successEvents:
+      STR_SMALL_HK_RECOVERY: 10
   - type: STR_HK_BOMBER_1
     data:
       - alienRank: 5
@@ -180,6 +188,8 @@ alienDeployments:
     width: 40
     length: 40
     height: 4
+    successEvents:
+      STR_MEDIUM_HK_RECOVERY: 10
   - type: STR_HK_SCOUT_2
     data:
       - alienRank: 5
@@ -257,6 +267,8 @@ alienDeployments:
     width: 40
     length: 40
     height: 4
+    successEvents:
+      STR_MEDIUM_HK_RECOVERY: 10
   - type: STR_HK_FIGHTER_2
     data:
       - alienRank: 5
@@ -334,6 +346,8 @@ alienDeployments:
     width: 40
     length: 40
     height: 4
+    successEvents:
+      STR_MEDIUM_HK_RECOVERY: 10
   - type: STR_HK_TRANSPORT_2
     data:
       - alienRank: 5
@@ -411,6 +425,8 @@ alienDeployments:
     width: 40
     length: 40
     height: 4
+    successEvents:
+      STR_MEDIUM_HK_RECOVERY: 10
   - type: STR_HK_CONVOY
     data:
       - alienRank: 5
@@ -488,6 +504,8 @@ alienDeployments:
     width: 50
     length: 50
     height: 4
+    successEvents:
+      STR_LARGE_HK_RECOVERY: 10
 #Skynet Bases
 #AREA51, BIOLAB, COMPLEX, SIBERIA, FACTORY, HQ, FORT, HWP FACTORY, SKYRANGER FACTORY, BUNKER, DESTROY, DEFENSE, EXTRACTION
 ##Bases eventually start spawning as upgraded versions once Skynet deploys new HK models - implement existing alienBaseUpgrades
@@ -759,6 +777,8 @@ alienDeployments:
     objectivePopup: STR_CONTROL_CENTER_DESTROYED
     points: 1
     unlockedResearch: STR_AI_LIGHTHOUSE
+    successEvents:
+      STR_FACTORY_RECOVERY: 10
 ##Missile Base launches nuclear strikes at Tech-Comm bases
   - type: STR_SKYNET_BASE_ASSAULT_MISSILE #SKYNET WAREHOUSE/AREA51_DESTROY
     data: *SKYNET_BASE_ASSAULT
@@ -787,6 +807,8 @@ alienDeployments:
     objectivePopup: STR_MISSILE_SILO_DESTROYED
     points: 1
     unlockedResearch: STR_AI_DEAD_HAND
+    successEvents:
+      STR_FACTORY_RECOVERY: 10
 #SURFACE - Area 51 (placeholder)
 ##Factories are placed one per month on a region, as long as Skynet Core has not been assaulted. They produce Outposts and Workcamps. HK Bases
   - type: STR_SKYNET_BASE_ASSAULT_FACTORY #SKYNET FACTORY/COMPLEX
@@ -827,6 +849,8 @@ alienDeployments:
     objectivePopup: STR_CONTROL_CENTER_DESTROYED
     points: 1
     unlockedResearch: STR_AI_GREAT_WALL
+    successEvents:
+      STR_FACTORY_RECOVERY: 10
   - type: STR_SKYNET_BASE_ASSAULT_OUTPOST #SKYNET BON/SKYNET BASE
     alienBaseUpgrades:
       0:
@@ -865,6 +889,8 @@ alienDeployments:
     objectiveComplete: [STR_SKYNET_BASE_CONTROL_DESTROYED, 500]
     objectivePopup: STR_CONTROL_CENTER_DESTROYED
     points: 1
+    successEvents:
+      STR_WORKCAMP_RECOVERY: 10
   - type: STR_SKYNET_BASE_ASSAULT_HKBASE #SKYNET HQ/AREA51_HQ
     data: *SKYNET_BASE_ASSAULT
     width: 60
@@ -901,6 +927,8 @@ alienDeployments:
     objectivePopup: STR_CONTROL_CENTER_DESTROYED
     points: 1
     unlockedResearch: STR_AI_SPIDER_WEB
+    successEvents:
+      STR_HKBASE_RECOVERY: 10
   - type: STR_SKYNET_BASE_ASSAULT_WORKCAMP #SKYNET_WORKCAMP/NATIVE
     data: *SKYNET_BASE_ASSAULT
     width: 60
@@ -938,6 +966,8 @@ alienDeployments:
     objectivePopup: STR_CONTROL_CENTER_DESTROYED
     points: 1
     unlockedResearch: STR_AI_SCARE_CROW
+    successEvents:
+      STR_WORKCAMP_RECOVERY: 10
 #STORY MISSIONS - BASES TRIGGERED BY SECTOR COMMS
 #Abandoned Resistance/Military bases - 1 spawned per game
 ##Tech-Comm/Area 51 terrains - Give resources/craft and unlock story

@@ -268,7 +268,6 @@ research:
     needItem: true
     dependencies:
       - STR_SKYNET_NETWORKS
-      - STR_SKYNET_PROTOCOLS
       - STR_ADVANCED_FACILITIES
     listOrder: 152
   - name: STR_COMM_STATION
@@ -277,7 +276,6 @@ research:
     needItem: true
     dependencies:
       - STR_SKYNET_NETWORKS
-      - STR_SKYNET_PROTOCOLS
       - STR_ADVANCED_FACILITIES
     listOrder: 153
   - name: STR_TECH_CENTER #HYPER ALLOYS
@@ -414,7 +412,25 @@ research:
   - name: STR_SKYNET_NETWORKS
     cost: 50
     points: 10
-    needItem: true
+    dependencies:
+      -  STR_SKYNET_RESEARCH
+      -  STR_SKYNET_RECLAMATION
+      -  STR_SKYNET_ERADICATION
+      -  STR_SKYNET_INFILTRATION
+      -  STR_SKYNET_EXPANSION
+      -  STR_SKYNET_INTERDICTION
+      -  STR_SKYNET_TERMINATION
+      -  STR_SKYNET_PACIFICATION
+      -  STR_SKYNET_TRANSPORT
+      -  STR_SKYNET_RETRIBUTION
+      -  STR_SKYNET_SUPPLY
+      -  STR_AI_HK
+      -  STR_AI_TERMINATOR
+      -  STR_AI_SPIDER_WEB
+      -  STR_AI_GREAT_WALL
+      -  STR_AI_SCARE_CROW
+      -  STR_AI_LIGHTHOUSE
+      -  STR_AI_DEAD_HAND
     listOrder: 250
   - name: STR_POLY_ALLOYS
     cost: 50
@@ -900,49 +916,49 @@ research:
     points: 30
     needItem: true
     dependencies:
-      - STR_SKYNET_PROTOCOLS
+      - STR_SKYNET_NETWORKS
     listOrder: 501
   - name: STR_M20A_FUEL_CELL
     cost: 1000
     points: 30
     needItem: true
     dependencies:
-      - STR_SKYNET_PROTOCOLS
+      - STR_SKYNET_NETWORKS
     listOrder: 502
   - name: STR_M45
     cost: 1000
     points: 30
     needItem: true
     dependencies:
-      - STR_SKYNET_PROTOCOLS
+      - STR_SKYNET_NETWORKS
     listOrder: 503
   - name: STR_M45_FUEL_CELL
     cost: 1000
     points: 30
     needItem: true
     dependencies:
-      - STR_SKYNET_PROTOCOLS
+      - STR_SKYNET_NETWORKS
     listOrder: 504
   - name: STR_M95A1
     cost: 1000
     points: 30
     needItem: true
     dependencies:
-      - STR_SKYNET_PROTOCOLS
+      - STR_SKYNET_NETWORKS
     listOrder: 505
   - name: STR_M95A1_FUEL_CELL
     cost: 1000
     points: 30
     needItem: true
     dependencies:
-      - STR_SKYNET_PROTOCOLS
+      - STR_SKYNET_NETWORKS
     listOrder: 506
   - name: STR_RBS92
     cost: 1000
     points: 30
     needItem: true
     dependencies:
-      - STR_SKYNET_PROTOCOLS
+      - STR_SKYNET_NETWORKS
     listOrder: 507
   - name: STR_RBS92_FUEL_CELL
     cost: 1000
@@ -956,28 +972,28 @@ research:
     points: 30
     needItem: true
     dependencies:
-      - STR_SKYNET_PROTOCOLS
+      - STR_SKYNET_NETWORKS
     listOrder: 509
   - name: STR_RSB80_FUEL_CELL
     cost: 1000
     points: 30
     needItem: true
     dependencies:
-      - STR_SKYNET_PROTOCOLS
+      - STR_SKYNET_NETWORKS
     listOrder: 510
   - name: STR_RSB90
     cost: 1000
     points: 30
     needItem: true
     dependencies:
-      - STR_SKYNET_PROTOCOLS
+      - STR_SKYNET_NETWORKS
     listOrder: 511
   - name: STR_RSB90_FUEL_CELL
     cost: 1000
     points: 30
     needItem: true
     dependencies:
-      - STR_SKYNET_PROTOCOLS
+      - STR_SKYNET_NETWORKS
     listOrder: 512
   - name: STR_PLSGRENADE
     cost: 1000

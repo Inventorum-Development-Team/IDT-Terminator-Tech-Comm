@@ -8,6 +8,60 @@ events: #DONE
     points: 0
     timer: 0
     timerRandom: 00
+#HK SALVAGE
+  - name: STR_SMALL_HK_RECOVERY
+    description: STR_HK_RECOVERY_MESSAGE
+    background: RESISTANCE_MISSIONS_IMAGE
+    points: 0
+    timer: 60
+    timerRandom: 0    
+    everyMultiItemList:
+      STR_HYPER_ALLOYS: 5
+      STR_AI_HK: 1
+  - name: STR_MEDIUM_HK_RECOVERY
+    description: STR_HK_RECOVERY_MESSAGE
+    background: RESISTANCE_MISSIONS_IMAGE
+    points: 0
+    timer: 60
+    timerRandom: 0    
+    everyMultiItemList:
+      STR_HYPER_ALLOYS: 10
+      STR_AI_HK: 1
+  - name: STR_LARGE_HK_RECOVERY
+    description: STR_HK_RECOVERY_MESSAGE
+    background: RESISTANCE_MISSIONS_IMAGE
+    points: 0
+    timer: 60
+    timerRandom: 0    
+    everyMultiItemList:
+      STR_HYPER_ALLOYS: 20
+      STR_AI_HK: 1
+  - name: STR_WORKCAMP_RECOVERY
+    description: STR_BASE_RECOVERY_MESSAGE
+    background: RESISTANCE_MISSIONS_IMAGE
+    points: 0
+    timer: 60
+    timerRandom: 0    
+    everyMultiItemList:
+      STR_HYPER_ALLOYS: 10
+  - name: STR_HKBASE_RECOVERY
+    description: STR_BASE_RECOVERY_MESSAGE
+    background: RESISTANCE_MISSIONS_IMAGE
+    points: 0
+    timer: 60
+    timerRandom: 0    
+    everyMultiItemList:
+      STR_HYPER_ALLOYS: 20
+      STR_FUSION_ENGINE: 1
+  - name: STR_FACTORY_RECOVERY
+    description: STR_BASE_RECOVERY_MESSAGE
+    background: RESISTANCE_MISSIONS_IMAGE
+    points: 0
+    timer: 60
+    timerRandom: 0    
+    everyMultiItemList:
+      STR_HYPER_ALLOYS: 50
+      STR_FUSION_ENGINE: 2
 #SKYNET ACTIVITY PROPAGANDA
   - &STR_SKYNET_COMMS
     name: STR_SKYNET_COMMS
