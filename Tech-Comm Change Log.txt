@@ -1,7 +1,9 @@
 Tech-Comm Change Log
 
 V0.5.4
-* Added: Terminator units will now upgrade their weaponry to plasma based types as time progresses.
+* Added: more research unlocked
+* Added: salvage events for HK and Skynet base recovery
+* Added: Terminator units will now upgrade their weaponry to plasma based types as time progresses
 
 V0.5.3
 * Added: items and research list orders 
