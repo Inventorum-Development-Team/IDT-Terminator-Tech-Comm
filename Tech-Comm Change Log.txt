@@ -1,5 +1,8 @@
 Tech-Comm Change Log
 
+V0.5.5
+* Added: ruleset order lists for manufacture screen
+
 V0.5.4
 * Added: more research unlocked
 * Added: salvage events for HK and Skynet base recovery

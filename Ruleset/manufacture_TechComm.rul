@@ -34,604 +34,6 @@ manufacture:
   - delete: STR_FIRESTORM
   - delete: STR_LIGHTNING
   - delete: STR_AVENGER
-#WEAPONS
-  - name: STR_556_AP
-    category: STR_AMMUNITION
-    requires:
-      - STR_HYPER_ALLOYS
-    space: 2
-    time: 25
-    cost: 150
-    listOrder: 810
-  - name: STR_762_FMJ
-    category: STR_AMMUNITION
-    requires:
-      - STR_HYPER_ALLOYS
-    space: 2
-    time: 25
-    cost: 150
-    listOrder: 810
-  - name: STR_50_AP
-    category: STR_AMMUNITION
-    requires:
-      - STR_HYPER_ALLOYS
-    space: 2
-    time: 25
-    cost: 200
-    listOrder: 810
-  - name: STR_M134
-    category: STR_WEAPON
-    requires:
-     - STR_M134
-    space: 4 
-    time: 1050 
-    cost: 48000
-    requiredItems:
-      STR_ALIEN_ALLOYS: 1
-    listOrder: 860
-  - name: STR_762_FMJ_BELT
-    category: STR_AMMUNITION
-    requires:
-      - STR_HYPER_ALLOYS
-    space: 2
-    time: 30
-    cost: 300
-    listOrder: 810
-  - name: STR_762_AP_BELT
-    category: STR_AMMUNITION
-    requires:
-      - STR_HYPER_ALLOYS
-    space: 2
-    time: 30
-    cost: 300
-    listOrder: 810
-  - name: STR_D12
-    category: STR_WEAPON
-    requires:
-     - STR_D12
-    space: 4 
-    time: 1050 
-    cost: 48000
-    requiredItems:
-      STR_ALIEN_ALLOYS: 1
-    listOrder: 860
-  - name: STR_D12A2
-    category: STR_WEAPON
-    requires:
-     - STR_D12A2
-    space: 4 
-    time: 1050 
-    cost: 48000
-    requiredItems:
-      STR_ALIEN_ALLOYS: 1
-    listOrder: 860
-  - name: STR_D12_DRUM
-    category: STR_AMMUNITION
-    requires:
-     - STR_D12
-    space: 4 
-    time: 70 
-    cost: 5000
-    requiredItems:
-      STR_ALIEN_ALLOYS: 1
-    listOrder: 861
-  - name: STR_15MM_AMR
-    category: STR_WEAPON
-    requires:
-     - STR_15MM_AMR
-    space: 4 
-    time: 1050 
-    cost: 48000
-    requiredItems:
-      STR_ALIEN_ALLOYS: 1
-    listOrder: 856
-  - name: STR_15MM_AMR_CLIP
-    category: STR_AMMUNITION
-    requires:
-     - STR_15MM_AMR
-    space: 4 
-    time: 70 
-    cost: 5000
-    requiredItems:
-      STR_ALIEN_ALLOYS: 1
-    listOrder: 857
-  - name: STR_20MM_AMR
-    category: STR_WEAPON
-    requires:
-     - STR_20MM_AMR
-    space: 4 
-    time: 1050 
-    cost: 48000
-    requiredItems:
-      STR_ALIEN_ALLOYS: 1
-    listOrder: 856
-  - name: STR_20MM_AMR_CLIP
-    category: STR_AMMUNITION
-    requires:
-     - STR_20MM_AMR
-    space: 4 
-    time: 70 
-    cost: 5000
-    requiredItems:
-      STR_ALIEN_ALLOYS: 1
-    listOrder: 857
-  - name: STR_MEDI_KIT
-    category: STR_EQUIPMENT
-    requires:
-      - STR_SECTOR_COMMS
-    space: 4
-    time: 420
-    cost: 28000
-  - name: STR_M20A
-    category: STR_WEAPON
-    space: 1
-    time: 420
-    cost: 88000
-    requires:
-      - STR_M20A
-    requiredItems:
-      STR_HYPER_ALLOYS: 1
-  - name: STR_M20A_FUEL_CELL
-    category: STR_AMMUNITION
-    requires:
-      - STR_M20A
-    space: 1
-    time: 80
-    cost: 3000
-    requiredItems:
-      STR_PLASMA_CELL: 1
-  - name: STR_M25A1
-    category: STR_WEAPON
-    requires:
-      - STR_M25A1
-    space: 1
-    time: 300
-    cost: 56000
-    requiredItems:
-      STR_HYPER_ALLOYS: 1
-  - name: STR_M25A1_FUEL_CELL
-    category: STR_AMMUNITION
-    space: 1
-    time: 60
-    cost: 2000
-    requires:
-      - STR_M25A1
-    requiredItems:
-      STR_PLASMA_CELL: 1
-  - name: STR_M30A1
-    category: STR_WEAPON
-    space: 1
-    time: 420
-    cost: 88000
-    requires:
-      - STR_M30A1
-    requiredItems:
-      STR_HYPER_ALLOYS: 1
-  - name: STR_M30A1_FUEL_CELL
-    category: STR_AMMUNITION
-    requires:
-      - STR_M30A1
-    space: 1
-    time: 80
-    cost: 3000
-    requiredItems:
-      STR_PLASMA_CELL: 1
-  - name: STR_M45
-    category: STR_WEAPON
-    space: 1
-    time: 420
-    cost: 88000
-    requires:
-      - STR_M45
-    requiredItems:
-      STR_HYPER_ALLOYS: 1
-  - name: STR_M45_FUEL_CELL
-    category: STR_AMMUNITION
-    requires:
-      - STR_M45
-    space: 1
-    time: 80
-    cost: 3000
-    requiredItems:
-      STR_PLASMA_CELL: 1
-  - name: STR_M95A1
-    category: STR_WEAPON
-    space: 1
-    time: 420
-    cost: 88000
-    requires:
-      - STR_M95A1
-    requiredItems:
-      STR_HYPER_ALLOYS: 1
-  - name: STR_M95A1_FUEL_CELL
-    category: STR_AMMUNITION
-    requires:
-      - STR_M95A1
-    space: 1
-    time: 80
-    cost: 3000
-    requiredItems:
-      STR_PLASMA_CELL: 1
-  - name: STR_RSB80
-    category: STR_WEAPON
-    space: 1
-    time: 420
-    cost: 88000
-    requires:
-      - STR_RSB80
-    requiredItems:
-      STR_HYPER_ALLOYS: 1
-  - name: STR_RSB80_FUEL_CELL
-    category: STR_AMMUNITION
-    requires:
-      - STR_RSB80
-    space: 1
-    time: 80
-    cost: 3000
-    requiredItems:
-      STR_PLASMA_CELL: 1
-  - name: STR_RSB90
-    category: STR_WEAPON
-    space: 1
-    time: 420
-    cost: 88000
-    requires:
-      - STR_RSB90
-    requiredItems:
-      STR_HYPER_ALLOYS: 1
-  - name: STR_RSB90_FUEL_CELL
-    category: STR_AMMUNITION
-    requires:
-      - STR_RSB90
-    space: 1
-    time: 80
-    cost: 3000
-    requiredItems:
-      STR_PLASMA_CELL: 1
-  - name: STR_RBS92
-    category: STR_WEAPON
-    space: 1
-    time: 420
-    cost: 88000
-    requires:
-      - STR_RBS92
-    requiredItems:
-      STR_HYPER_ALLOYS: 1
-  - name: STR_RBS92_FUEL_CELL
-    category: STR_AMMUNITION
-    requires:
-      - STR_RBS92
-    space: 1
-    time: 80
-    cost: 3000
-    requiredItems:
-      STR_PLASMA_CELL: 1
-  - name: STR_PLSGRENADE
-    category: STR_WEAPON
-    requires:
-      - STR_PLSGRENADE
-    space: 2
-    time: 200
-    cost: 5100
-    requiredItems:
-      STR_PLASMA_CELL: 1
-    listOrder: 2490
-  - name: STR_COMBAT_SUIT
-    category: STR_PERSONAL_ARMOR
-    space: 8
-    time: 400
-    cost: 9000
-    listOrder: 2601
-  - name: STR_ALLOY_VEST
-    category: STR_PERSONAL_ARMOR
-    requires:
-      - STR_HYPER_ALLOYS
-    space: 10
-    time: 600
-    cost: 12000
-    requiredItems:
-      STR_ALIEN_ALLOYS: 1
-    listOrder: 2602
-  - name: STR_COMBAT_ARMOR
-    category: STR_PERSONAL_ARMOR
-    requires:
-      - STR_ALLOY_VEST
-    space: 12
-    time: 800
-    cost: 22000
-    requiredItems:
-      STR_ALIEN_ALLOYS: 2
-#CRAFT WEAPONS
-  - name: STR_FUEL_PODS
-    category: STR_CRAFT_WEAPON
-    requires:
-      - STR_SYNTHETIC_FUELS
-    space: 6
-    time: 400
-    cost: 20000
-    listOrder: 88
-  - name: STR_ECM_PODS
-    category: STR_CRAFT_WEAPON
-    requires:
-      - STR_TECH_SYSTEMS
-    space: 6
-    time: 400
-    cost: 30000
-    listOrder: 89
-  - name: STR_COMM_PODS
-    category: STR_CRAFT_WEAPON
-    requires:
-      - STR_SECTOR_COMMS
-      - STR_TECH_SYSTEMS
-    space: 6
-    time: 400
-    cost: 30000
-    listOrder: 88
-  - name: STR_TECH_PODS
-    category: STR_CRAFT_WEAPON
-    requires:
-      - STR_SECTOR_COMMS
-      - STR_TECH_SYSTEMS
-    space: 6
-    time: 400
-    cost: 30000
-    listOrder: 89
-  - name: STR_HYDRA_LAUNCHER
-    category: STR_CRAFT_WEAPON
-    requires:
-      - STR_HYDRA_LAUNCHER
-    space: 6
-    time: 400
-    cost: 30000
-    listOrder: 90
-  - name: STR_HYDRA_ROCKETS
-    category: STR_CRAFT_AMMUNITION
-    requires:
-      - STR_HYDRA_LAUNCHER
-    space: 6
-    time: 400
-    cost: 4000
-    listOrder: 91
-  - name: STR_STINGER_LAUNCHER
-    category: STR_CRAFT_WEAPON
-    requires:
-      - STR_STINGER_LAUNCHER
-    space: 6
-    time: 400
-    cost: 30000
-    listOrder: 92
-  - name: STR_STINGER_MISSILES
-    category: STR_CRAFT_AMMUNITION
-    requires:
-      - STR_STINGER_LAUNCHER
-    space: 6
-    time: 400
-    cost: 16000
-    listOrder: 93
-  - name: STR_SIDEWINDER_LAUNCHER
-    category: STR_CRAFT_WEAPON
-    requires:
-      - STR_SIDEWINDER_LAUNCHER
-    space: 6
-    time: 400
-    cost: 30000
-    listOrder: 92
-  - name: STR_SIDEWINDER_MISSILES
-    category: STR_CRAFT_AMMUNITION
-    requires:
-      - STR_SIDEWINDER_LAUNCHER
-    space: 6
-    time: 400
-    cost: 16000
-    listOrder: 93
-  - name: STR_ASRAAM_LAUNCHER
-    category: STR_CRAFT_WEAPON
-    requires:
-      - STR_ASRAAM_LAUNCHER
-    space: 6
-    time: 400
-    cost: 30000
-    listOrder: 92
-  - name: STR_ASRAAM_MISSILES
-    category: STR_CRAFT_AMMUNITION
-    requires:
-      - STR_ASRAAM_LAUNCHER
-    space: 6
-    time: 400
-    cost: 16000
-    listOrder: 93
-  - name: STR_SPARROW_LAUNCHER
-    category: STR_CRAFT_WEAPON
-    requires:
-      - STR_SPARROW_LAUNCHER
-    space: 6
-    time: 400
-    cost: 30000
-    listOrder: 92
-  - name: STR_SPARROW_MISSILES
-    category: STR_CRAFT_AMMUNITION
-    requires:
-      - STR_SPARROW_LAUNCHER
-    space: 6
-    time: 400
-    cost: 16000
-    listOrder: 93
-  - name: STR_STANDARD_LAUNCHER
-    category: STR_CRAFT_WEAPON
-    requires:
-      - STR_STANDARD_LAUNCHER
-    space: 6
-    time: 400
-    cost: 30000
-    listOrder: 92
-  - name: STR_STANDARD_MISSILES
-    category: STR_CRAFT_AMMUNITION
-    requires:
-      - STR_STANDARD_LAUNCHER
-    space: 6
-    time: 400
-    cost: 16000
-    listOrder: 93
-  - name: STR_PHOENIX_LAUNCHER
-    category: STR_CRAFT_WEAPON
-    requires:
-      - STR_PHOENIX_LAUNCHER
-    space: 6
-    time: 400
-    cost: 30000
-    listOrder: 92
-  - name: STR_PHOENIX_MISSILES
-    category: STR_CRAFT_AMMUNITION
-    requires:
-      - STR_PHOENIX_LAUNCHER
-    space: 6
-    time: 400
-    cost: 16000
-    listOrder: 93
-  - name: STR_AMRAAM_LAUNCHER
-    category: STR_CRAFT_WEAPON
-    requires:
-      - STR_AMRAAM_LAUNCHER
-    space: 6
-    time: 400
-    cost: 30000
-    listOrder: 92
-  - name: STR_AMRAAM_MISSILES
-    category: STR_CRAFT_AMMUNITION
-    requires:
-      - STR_AMRAAM_LAUNCHER
-    space: 6
-    time: 400
-    cost: 16000
-    listOrder: 93
-  - name: STR_HARM_LAUNCHER
-    category: STR_CRAFT_WEAPON
-    requires:
-      - STR_HARM_LAUNCHER
-    space: 6
-    time: 400
-    cost: 30000
-    listOrder: 92
-  - name: STR_HARM_MISSILES
-    category: STR_CRAFT_AMMUNITION
-    requires:
-      - STR_HARM_LAUNCHER
-    space: 6
-    time: 400
-    cost: 16000
-    listOrder: 93
-  - name: STR_FALCON_LAUNCHER
-    category: STR_CRAFT_WEAPON
-    requires:
-      - STR_FALCON_LAUNCHER
-    space: 6
-    time: 400
-    cost: 30000
-    listOrder: 92
-  - name: STR_FALCON_MISSILES
-    category: STR_CRAFT_AMMUNITION
-    requires:
-      - STR_FALCON_LAUNCHER
-    space: 6
-    time: 400
-    cost: 16000
-    listOrder: 93
-  - name: STR_GENIE_LAUNCHER
-    category: STR_CRAFT_WEAPON
-    requires:
-      - STR_GENIE_LAUNCHER
-    space: 6
-    time: 400
-    cost: 30000
-    listOrder: 92
-  - name: STR_GENIE_ROCKETS
-    category: STR_CRAFT_AMMUNITION
-    requires:
-      - STR_GENIE_LAUNCHER
-    space: 6
-    time: 400
-    cost: 16000
-    listOrder: 93
-  - name: STR_GAU_2_CANNON
-    category: STR_CRAFT_WEAPON
-    requires:
-      - STR_GAU_2_CANNON
-    space: 6
-    time: 300
-    cost: 182000
-    listOrder: 92
-  - name: STR_GAU_2_CANNON_ROUNDS_X50
-    category: STR_CRAFT_AMMUNITION
-    requires:
-      - STR_GAU_2_CANNON
-    space: 2 
-    time: 5 
-    cost: 200 
-    listOrder: 93
-  - name: STR_GAU_4_CANNON
-    category: STR_CRAFT_WEAPON
-    requires:
-      - STR_GAU_4_CANNON
-    space: 6
-    time: 300
-    cost: 182000
-    listOrder: 92
-  - name: STR_GAU_4_CANNON_ROUNDS_X50
-    category: STR_CRAFT_AMMUNITION
-    requires:
-      - STR_GAU_4_CANNON
-    space: 2 
-    time: 5 
-    cost: 200 
-    listOrder: 93
-  - name: STR_GAU_8_CANNON
-    category: STR_CRAFT_WEAPON
-    requires:
-      - STR_GAU_8_CANNON
-    space: 6
-    time: 300
-    cost: 182000
-    listOrder: 92
-  - name: STR_GAU_8_CANNON_ROUNDS_X50
-    category: STR_CRAFT_AMMUNITION
-    requires:
-      - STR_GAU_8_CANNON
-    space: 2 
-    time: 5 
-    cost: 200 
-    listOrder: 93
-  - name: STR_GAU_12_CANNON
-    category: STR_CRAFT_WEAPON
-    requires:
-      - STR_GAU_12_CANNON
-    space: 6
-    time: 300
-    cost: 182000
-    listOrder: 92
-  - name: STR_GAU_12_CANNON_ROUNDS_X50
-    category: STR_CRAFT_AMMUNITION
-    requires:
-      - STR_GAU_12_CANNON
-    space: 2 
-    time: 5 
-    cost: 200 
-    listOrder: 93
-  - name: STR_GAU_19_CANNON
-    category: STR_CRAFT_WEAPON
-    requires:
-      - STR_GAU_19_CANNON
-    space: 6
-    time: 300
-    cost: 182000
-    listOrder: 92
-  - name: STR_GAU_19_CANNON_ROUNDS_X50
-    category: STR_CRAFT_AMMUNITION
-    requires:
-      - STR_GAU_19_CANNON
-    space: 2 
-    time: 5 
-    cost: 200 
-    listOrder: 93
 #CRAFT
   - name: STR_PILOT_TRAINING
     space: 1
@@ -639,6 +41,7 @@ manufacture:
     cost: 100000
     requiresBaseFunc: [pilot_training, craft_housing]
     spawnedPersonType: STR_PILOT
+    listOrder: 100
   - name: STR_SENIOR_CITIZEN
     category: STR_CRAFT
     space: 30
@@ -649,6 +52,7 @@ manufacture:
     requiresBaseFunc: [craft_production, craft_housing]
     requiredItems:
       STR_SENIOR_CITIZEN_FUSELAGE: 1
+    listOrder: 101
   - name: STR_ARCHANGEL
     category: STR_CRAFT
     space: 30
@@ -659,6 +63,7 @@ manufacture:
     requiresBaseFunc: [craft_production, craft_housing]
     requiredItems:
       STR_ARCHANGEL_FUSELAGE: 1
+    listOrder: 102
   - name: STR_VALKYRIE
     category: STR_CRAFT
     space: 30
@@ -669,6 +74,7 @@ manufacture:
     requiresBaseFunc: [craft_production, craft_housing]
     requiredItems:
       STR_VALKYRIE_FUSELAGE: 1
+    listOrder: 103
   - name: STR_AURORA
     category: STR_CRAFT
     space: 30
@@ -679,6 +85,7 @@ manufacture:
     requiresBaseFunc: [craft_production, craft_housing]
     requiredItems:
       STR_AURORA_FUSELAGE: 1
+    listOrder: 104
   - name: STR_BLACKBIRD
     category: STR_CRAFT
     space: 30
@@ -689,6 +96,7 @@ manufacture:
     requiresBaseFunc: [craft_production, craft_housing]
     requiredItems:
       STR_BLACKBIRD_FUSELAGE: 1
+    listOrder: 105
   - name: STR_OSPREY
     category: STR_CRAFT
     space: 30
@@ -699,6 +107,7 @@ manufacture:
     requiresBaseFunc: [craft_production, craft_housing]
     requiredItems:
       STR_OSPREY_FUSELAGE: 1
+    listOrder: 106
   - name: STR_SHERPA
     category: STR_CRAFT
     space: 30
@@ -709,6 +118,7 @@ manufacture:
     requiresBaseFunc: [craft_production, craft_housing]
     requiredItems:
       STR_SHERPA_FUSELAGE: 1
+    listOrder: 107
   - name: STR_TWIN_OTTER
     category: STR_CRAFT
     space: 30
@@ -719,6 +129,7 @@ manufacture:
     requiresBaseFunc: [craft_production, craft_housing]
     requiredItems:
       STR_TWIN_OTTER_FUSELAGE: 1
+    listOrder: 108
   - name: STR_BRONCO
     category: STR_CRAFT
     space: 30
@@ -729,6 +140,7 @@ manufacture:
     requiresBaseFunc: [craft_production, craft_housing]
     requiredItems:
       STR_BRONCO_FUSELAGE: 1
+    listOrder: 109
   - name: STR_LION
     category: STR_CRAFT
     space: 30
@@ -739,6 +151,7 @@ manufacture:
     requiresBaseFunc: [craft_production, craft_housing]
     requiredItems:
       STR_LION_FUSELAGE: 1
+    listOrder: 110
   - name: STR_SKYHAWK
     category: STR_CRAFT
     space: 30
@@ -749,6 +162,7 @@ manufacture:
     requiresBaseFunc: [craft_production, craft_housing]
     requiredItems:
       STR_SKYHAWK_FUSELAGE: 1
+    listOrder: 111
   - name: STR_WARTHOG
     category: STR_CRAFT
     space: 30
@@ -759,6 +173,7 @@ manufacture:
     requiresBaseFunc: [craft_production, craft_housing]
     requiredItems:
       STR_WARTHOG_FUSELAGE: 1
+    listOrder: 112
   - name: STR_TALON
     category: STR_CRAFT
     space: 30
@@ -769,6 +184,7 @@ manufacture:
     requiresBaseFunc: [craft_production, craft_housing]
     requiredItems:
       STR_TALON_FUSELAGE: 1
+    listOrder: 113
   - name: STR_GOSHAWK
     category: STR_CRAFT
     space: 30
@@ -779,6 +195,7 @@ manufacture:
     requiresBaseFunc: [craft_production, craft_housing]
     requiredItems:
       STR_GOSHAWK_FUSELAGE: 1
+    listOrder: 114
   - name: STR_DRAGONFLY
     category: STR_CRAFT
     space: 30
@@ -789,6 +206,7 @@ manufacture:
     requiresBaseFunc: [craft_production, craft_housing]
     requiredItems:
       STR_DRAGONFLY_FUSELAGE: 1
+    listOrder: 115
   - name: STR_PROWLER
     category: STR_CRAFT
     space: 30
@@ -799,6 +217,7 @@ manufacture:
     requiresBaseFunc: [craft_production, craft_housing]
     requiredItems:
       STR_PROWLER_FUSELAGE: 1
+    listOrder: 116
   - name: STR_VIKING
     category: STR_CRAFT
     space: 30
@@ -809,6 +228,7 @@ manufacture:
     requiresBaseFunc: [craft_production, craft_housing]
     requiredItems:
       STR_VIKING_FUSELAGE: 1
+    listOrder: 117
   - name: STR_HAWKEYE
     category: STR_CRAFT
     space: 30
@@ -819,6 +239,7 @@ manufacture:
     requiresBaseFunc: [craft_production, craft_housing]
     requiredItems:
       STR_HAWKEYE_FUSELAGE: 1
+    listOrder: 118
   - name: STR_GUARDRAIL
     category: STR_CRAFT
     space: 30
@@ -829,6 +250,7 @@ manufacture:
     requiresBaseFunc: [craft_production, craft_housing]
     requiredItems:
       STR_GUARDRAIL_FUSELAGE: 1
+    listOrder: 119
   - name: STR_MOHAWK
     category: STR_CRAFT
     space: 30
@@ -839,6 +261,7 @@ manufacture:
     requiresBaseFunc: [craft_production, craft_housing]
     requiredItems:
       STR_MOHAWK_FUSELAGE: 1
+    listOrder: 120
   - name: STR_TRACER
     category: STR_CRAFT
     space: 30
@@ -849,3 +272,620 @@ manufacture:
     requiresBaseFunc: [craft_production, craft_housing]
     requiredItems:
       STR_TRACER_FUSELAGE: 1
+    listOrder: 121
+#CRAFT WEAPONS
+  - name: STR_FUEL_PODS
+    category: STR_CRAFT_WEAPON
+    requires:
+      - STR_SYNTHETIC_FUELS
+    space: 6
+    time: 400
+    cost: 20000
+    listOrder: 150
+  - name: STR_ECM_PODS
+    category: STR_CRAFT_WEAPON
+    requires:
+      - STR_TECH_SYSTEMS
+    space: 6
+    time: 400
+    cost: 30000
+    listOrder: 151
+  - name: STR_COMM_PODS
+    category: STR_CRAFT_WEAPON
+    requires:
+      - STR_SECTOR_COMMS
+      - STR_TECH_SYSTEMS
+    space: 6
+    time: 400
+    cost: 30000
+    listOrder: 152
+  - name: STR_TECH_PODS
+    category: STR_CRAFT_WEAPON
+    requires:
+      - STR_SECTOR_COMMS
+      - STR_TECH_SYSTEMS
+    space: 6
+    time: 400
+    cost: 30000
+    listOrder: 153
+  - name: STR_HYDRA_LAUNCHER
+    category: STR_CRAFT_WEAPON
+    requires:
+      - STR_HYDRA_LAUNCHER
+    space: 6
+    time: 400
+    cost: 30000
+    listOrder: 154
+  - name: STR_HYDRA_ROCKETS
+    category: STR_CRAFT_AMMUNITION
+    requires:
+      - STR_HYDRA_LAUNCHER
+    space: 6
+    time: 400
+    cost: 4000
+    listOrder: 155
+  - name: STR_STINGER_LAUNCHER
+    category: STR_CRAFT_WEAPON
+    requires:
+      - STR_STINGER_LAUNCHER
+    space: 6
+    time: 400
+    cost: 30000
+    listOrder: 156
+  - name: STR_STINGER_MISSILES
+    category: STR_CRAFT_AMMUNITION
+    requires:
+      - STR_STINGER_LAUNCHER
+    space: 6
+    time: 400
+    cost: 16000
+    listOrder: 157
+  - name: STR_SIDEWINDER_LAUNCHER
+    category: STR_CRAFT_WEAPON
+    requires:
+      - STR_SIDEWINDER_LAUNCHER
+    space: 6
+    time: 400
+    cost: 30000
+    listOrder: 158
+  - name: STR_SIDEWINDER_MISSILES
+    category: STR_CRAFT_AMMUNITION
+    requires:
+      - STR_SIDEWINDER_LAUNCHER
+    space: 6
+    time: 400
+    cost: 16000
+    listOrder: 159
+  - name: STR_ASRAAM_LAUNCHER
+    category: STR_CRAFT_WEAPON
+    requires:
+      - STR_ASRAAM_LAUNCHER
+    space: 6
+    time: 400
+    cost: 30000
+    listOrder: 160
+  - name: STR_ASRAAM_MISSILES
+    category: STR_CRAFT_AMMUNITION
+    requires:
+      - STR_ASRAAM_LAUNCHER
+    space: 6
+    time: 400
+    cost: 16000
+    listOrder: 161
+  - name: STR_SPARROW_LAUNCHER
+    category: STR_CRAFT_WEAPON
+    requires:
+      - STR_SPARROW_LAUNCHER
+    space: 6
+    time: 400
+    cost: 30000
+    listOrder: 162
+  - name: STR_SPARROW_MISSILES
+    category: STR_CRAFT_AMMUNITION
+    requires:
+      - STR_SPARROW_LAUNCHER
+    space: 6
+    time: 400
+    cost: 16000
+    listOrder: 163
+  - name: STR_STANDARD_LAUNCHER
+    category: STR_CRAFT_WEAPON
+    requires:
+      - STR_STANDARD_LAUNCHER
+    space: 6
+    time: 400
+    cost: 30000
+    listOrder: 164
+  - name: STR_STANDARD_MISSILES
+    category: STR_CRAFT_AMMUNITION
+    requires:
+      - STR_STANDARD_LAUNCHER
+    space: 6
+    time: 400
+    cost: 16000
+    listOrder: 165
+  - name: STR_PHOENIX_LAUNCHER
+    category: STR_CRAFT_WEAPON
+    requires:
+      - STR_PHOENIX_LAUNCHER
+    space: 6
+    time: 400
+    cost: 30000
+    listOrder: 166
+  - name: STR_PHOENIX_MISSILES
+    category: STR_CRAFT_AMMUNITION
+    requires:
+      - STR_PHOENIX_LAUNCHER
+    space: 6
+    time: 400
+    cost: 16000
+    listOrder: 167
+  - name: STR_AMRAAM_LAUNCHER
+    category: STR_CRAFT_WEAPON
+    requires:
+      - STR_AMRAAM_LAUNCHER
+    space: 6
+    time: 400
+    cost: 30000
+    listOrder: 168
+  - name: STR_AMRAAM_MISSILES
+    category: STR_CRAFT_AMMUNITION
+    requires:
+      - STR_AMRAAM_LAUNCHER
+    space: 6
+    time: 400
+    cost: 16000
+    listOrder: 169
+  - name: STR_HARM_LAUNCHER
+    category: STR_CRAFT_WEAPON
+    requires:
+      - STR_HARM_LAUNCHER
+    space: 6
+    time: 400
+    cost: 30000
+    listOrder: 170
+  - name: STR_HARM_MISSILES
+    category: STR_CRAFT_AMMUNITION
+    requires:
+      - STR_HARM_LAUNCHER
+    space: 6
+    time: 400
+    cost: 16000
+    listOrder: 171
+  - name: STR_FALCON_LAUNCHER
+    category: STR_CRAFT_WEAPON
+    requires:
+      - STR_FALCON_LAUNCHER
+    space: 6
+    time: 400
+    cost: 30000
+    listOrder: 172
+  - name: STR_FALCON_MISSILES
+    category: STR_CRAFT_AMMUNITION
+    requires:
+      - STR_FALCON_LAUNCHER
+    space: 6
+    time: 400
+    cost: 16000
+    listOrder: 173
+  - name: STR_GENIE_LAUNCHER
+    category: STR_CRAFT_WEAPON
+    requires:
+      - STR_GENIE_LAUNCHER
+    space: 6
+    time: 400
+    cost: 30000
+    listOrder: 174
+  - name: STR_GENIE_ROCKETS
+    category: STR_CRAFT_AMMUNITION
+    requires:
+      - STR_GENIE_LAUNCHER
+    space: 6
+    time: 400
+    cost: 16000
+    listOrder: 175
+  - name: STR_GAU_2_CANNON
+    category: STR_CRAFT_WEAPON
+    requires:
+      - STR_GAU_2_CANNON
+    space: 6
+    time: 300
+    cost: 182000
+    listOrder: 176
+  - name: STR_GAU_2_CANNON_ROUNDS_X50
+    category: STR_CRAFT_AMMUNITION
+    requires:
+      - STR_GAU_2_CANNON
+    space: 2 
+    time: 5 
+    cost: 200 
+    listOrder: 177
+  - name: STR_GAU_4_CANNON
+    category: STR_CRAFT_WEAPON
+    requires:
+      - STR_GAU_4_CANNON
+    space: 6
+    time: 300
+    cost: 182000
+    listOrder: 178
+  - name: STR_GAU_4_CANNON_ROUNDS_X50
+    category: STR_CRAFT_AMMUNITION
+    requires:
+      - STR_GAU_4_CANNON
+    space: 2 
+    time: 5 
+    cost: 200 
+    listOrder: 179
+  - name: STR_GAU_8_CANNON
+    category: STR_CRAFT_WEAPON
+    requires:
+      - STR_GAU_8_CANNON
+    space: 6
+    time: 300
+    cost: 182000
+    listOrder: 180
+  - name: STR_GAU_8_CANNON_ROUNDS_X50
+    category: STR_CRAFT_AMMUNITION
+    requires:
+      - STR_GAU_8_CANNON
+    space: 2 
+    time: 5 
+    cost: 200 
+    listOrder: 181
+  - name: STR_GAU_12_CANNON
+    category: STR_CRAFT_WEAPON
+    requires:
+      - STR_GAU_12_CANNON
+    space: 6
+    time: 300
+    cost: 182000
+    listOrder: 182
+  - name: STR_GAU_12_CANNON_ROUNDS_X50
+    category: STR_CRAFT_AMMUNITION
+    requires:
+      - STR_GAU_12_CANNON
+    space: 2 
+    time: 5 
+    cost: 200 
+    listOrder: 183
+  - name: STR_GAU_19_CANNON
+    category: STR_CRAFT_WEAPON
+    requires:
+      - STR_GAU_19_CANNON
+    space: 6
+    time: 300
+    cost: 182000
+    listOrder: 184
+  - name: STR_GAU_19_CANNON_ROUNDS_X50
+    category: STR_CRAFT_AMMUNITION
+    requires:
+      - STR_GAU_19_CANNON
+    space: 2 
+    time: 5 
+    cost: 200 
+    listOrder: 185
+#FIGHTER EQUIPMENT
+  - name: STR_COMBAT_SUIT
+    category: STR_PERSONAL_ARMOR
+    space: 8
+    time: 400
+    cost: 9000
+    listOrder: 250
+  - name: STR_ALLOY_VEST
+    category: STR_PERSONAL_ARMOR
+    requires:
+      - STR_HYPER_ALLOYS
+    space: 10
+    time: 600
+    cost: 12000
+    requiredItems:
+      STR_HYPER_ALLOYS: 1
+    listOrder: 251
+  - name: STR_COMBAT_ARMOR
+    category: STR_PERSONAL_ARMOR
+    requires:
+      - STR_ALLOY_VEST
+    space: 12
+    time: 800
+    cost: 22000
+    requiredItems:
+      STR_HYPER_ALLOYS: 2
+    listOrder: 252
+  - name: STR_MEDI_KIT
+    category: STR_EQUIPMENT
+    requires:
+      - STR_SECTOR_COMMS
+    space: 4
+    time: 420
+    cost: 28000
+    listOrder: 254
+  - name: STR_556_AP
+    category: STR_AMMUNITION
+    requires:
+      - STR_HYPER_ALLOYS
+    space: 2
+    time: 25
+    cost: 150
+    listOrder: 301
+  - name: STR_762_FMJ
+    category: STR_AMMUNITION
+    requires:
+      - STR_HYPER_ALLOYS
+    space: 2
+    time: 25
+    cost: 150
+    listOrder: 302
+  - name: STR_50_AP
+    category: STR_AMMUNITION
+    requires:
+      - STR_HYPER_ALLOYS
+    space: 2
+    time: 25
+    cost: 200
+    listOrder: 303
+  - name: STR_M134
+    category: STR_WEAPON
+    requires:
+     - STR_M134
+    space: 4 
+    time: 1050 
+    cost: 48000
+    requiredItems:
+      STR_HYPER_ALLOYS: 1
+    listOrder: 304
+  - name: STR_762_FMJ_BELT
+    category: STR_AMMUNITION
+    requires:
+      - STR_HYPER_ALLOYS
+    space: 2
+    time: 30
+    cost: 300
+    listOrder: 305
+  - name: STR_762_AP_BELT
+    category: STR_AMMUNITION
+    requires:
+      - STR_HYPER_ALLOYS
+    space: 2
+    time: 30
+    cost: 300
+    listOrder: 306
+  - name: STR_D12
+    category: STR_WEAPON
+    requires:
+     - STR_D12
+    space: 4 
+    time: 1050 
+    cost: 48000
+    requiredItems:
+      STR_HYPER_ALLOYS: 1
+    listOrder: 307
+  - name: STR_D12A2
+    category: STR_WEAPON
+    requires:
+     - STR_D12A2
+    space: 4 
+    time: 1050 
+    cost: 48000
+    requiredItems:
+      STR_HYPER_ALLOYS: 1
+    listOrder: 308
+  - name: STR_D12_DRUM
+    category: STR_AMMUNITION
+    requires:
+     - STR_D12
+    space: 4 
+    time: 70 
+    cost: 5000
+    requiredItems:
+      STR_HYPER_ALLOYS: 1
+    listOrder: 309
+  - name: STR_15MM_AMR
+    category: STR_WEAPON
+    requires:
+     - STR_15MM_AMR
+    space: 4 
+    time: 1050 
+    cost: 48000
+    requiredItems:
+      STR_HYPER_ALLOYS: 1
+    listOrder: 310
+  - name: STR_15MM_AMR_CLIP
+    category: STR_AMMUNITION
+    requires:
+     - STR_15MM_AMR
+    space: 4 
+    time: 70 
+    cost: 5000
+    requiredItems:
+      STR_HYPER_ALLOYS: 1
+    listOrder: 311
+  - name: STR_20MM_AMR
+    category: STR_WEAPON
+    requires:
+     - STR_20MM_AMR
+    space: 4 
+    time: 1050 
+    cost: 48000
+    requiredItems:
+      STR_HYPER_ALLOYS: 1
+    listOrder: 312
+  - name: STR_20MM_AMR_CLIP
+    category: STR_AMMUNITION
+    requires:
+     - STR_20MM_AMR
+    space: 4 
+    time: 70 
+    cost: 5000
+    requiredItems:
+      STR_HYPER_ALLOYS: 1
+    listOrder: 313
+  - name: STR_M20A
+    category: STR_WEAPON
+    space: 1
+    time: 420
+    cost: 88000
+    requires:
+      - STR_M20A
+    requiredItems:
+      STR_HYPER_ALLOYS: 1
+    listOrder: 314
+  - name: STR_M20A_FUEL_CELL
+    category: STR_AMMUNITION
+    requires:
+      - STR_M20A
+    space: 1
+    time: 80
+    cost: 3000
+    requiredItems:
+      STR_PLASMA_CELL: 1
+    listOrder: 315
+  - name: STR_M25A1
+    category: STR_WEAPON
+    requires:
+      - STR_M25A1
+    space: 1
+    time: 300
+    cost: 56000
+    requiredItems:
+      STR_HYPER_ALLOYS: 1
+    listOrder: 316
+  - name: STR_M25A1_FUEL_CELL
+    category: STR_AMMUNITION
+    space: 1
+    time: 60
+    cost: 2000
+    requires:
+      - STR_M25A1
+    requiredItems:
+      STR_PLASMA_CELL: 1
+    listOrder: 317
+  - name: STR_M30A1
+    category: STR_WEAPON
+    space: 1
+    time: 420
+    cost: 88000
+    requires:
+      - STR_M30A1
+    requiredItems:
+      STR_HYPER_ALLOYS: 1
+    listOrder: 318
+  - name: STR_M30A1_FUEL_CELL
+    category: STR_AMMUNITION
+    requires:
+      - STR_M30A1
+    space: 1
+    time: 80
+    cost: 3000
+    requiredItems:
+      STR_PLASMA_CELL: 1
+    listOrder: 319
+  - name: STR_M45
+    category: STR_WEAPON
+    space: 1
+    time: 420
+    cost: 88000
+    requires:
+      - STR_M45
+    requiredItems:
+      STR_HYPER_ALLOYS: 1
+    listOrder: 320
+  - name: STR_M45_FUEL_CELL
+    category: STR_AMMUNITION
+    requires:
+      - STR_M45
+    space: 1
+    time: 80
+    cost: 3000
+    requiredItems:
+      STR_PLASMA_CELL: 1
+    listOrder: 321
+  - name: STR_M95A1
+    category: STR_WEAPON
+    space: 1
+    time: 420
+    cost: 88000
+    requires:
+      - STR_M95A1
+    requiredItems:
+      STR_HYPER_ALLOYS: 1
+    listOrder: 322
+  - name: STR_M95A1_FUEL_CELL
+    category: STR_AMMUNITION
+    requires:
+      - STR_M95A1
+    space: 1
+    time: 80
+    cost: 3000
+    requiredItems:
+      STR_PLASMA_CELL: 1
+    listOrder: 323
+  - name: STR_RSB80
+    category: STR_WEAPON
+    space: 1
+    time: 420
+    cost: 88000
+    requires:
+      - STR_RSB80
+    requiredItems:
+      STR_HYPER_ALLOYS: 1
+    listOrder: 324
+  - name: STR_RSB80_FUEL_CELL
+    category: STR_AMMUNITION
+    requires:
+      - STR_RSB80
+    space: 1
+    time: 80
+    cost: 3000
+    requiredItems:
+      STR_PLASMA_CELL: 1
+    listOrder: 325
+  - name: STR_RSB90
+    category: STR_WEAPON
+    space: 1
+    time: 420
+    cost: 88000
+    requires:
+      - STR_RSB90
+    requiredItems:
+      STR_HYPER_ALLOYS: 1
+    listOrder: 326
+  - name: STR_RSB90_FUEL_CELL
+    category: STR_AMMUNITION
+    requires:
+      - STR_RSB90
+    space: 1
+    time: 80
+    cost: 3000
+    requiredItems:
+      STR_PLASMA_CELL: 1
+    listOrder: 327
+  - name: STR_RBS92
+    category: STR_WEAPON
+    space: 1
+    time: 420
+    cost: 88000
+    requires:
+      - STR_RBS92
+    requiredItems:
+      STR_HYPER_ALLOYS: 1
+    listOrder: 328
+  - name: STR_RBS92_FUEL_CELL
+    category: STR_AMMUNITION
+    requires:
+      - STR_RBS92
+    space: 1
+    time: 80
+    cost: 3000
+    requiredItems:
+      STR_PLASMA_CELL: 1
+    listOrder: 329
+  - name: STR_PLSGRENADE
+    category: STR_WEAPON
+    requires:
+      - STR_PLSGRENADE
+    space: 2
+    time: 200
+    cost: 5100
+    requiredItems:
+      STR_PLASMA_CELL: 1
+    listOrder: 330

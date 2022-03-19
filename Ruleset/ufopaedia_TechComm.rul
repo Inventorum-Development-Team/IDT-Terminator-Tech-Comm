@@ -96,7 +96,6 @@ ufopaedia:
   - delete: STR_UFO_POWER_SOURCE
   - delete: STR_UFO_NAVIGATION
   - delete: STR_UFO_CONSTRUCTION
-  - delete: STR_ELERIUM_115
   - delete: STR_ALIEN_ENTERTAINMENT
   - delete: STR_EXAMINATION_ROOM
   - delete: STR_ALIEN_FOOD
