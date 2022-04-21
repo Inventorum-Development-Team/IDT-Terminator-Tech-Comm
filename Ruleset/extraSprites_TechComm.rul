@@ -462,28 +462,28 @@ extraSprites:
       0: Resources/Units/ALLOY_VEST_URBAN.png
   - type: COMBAT_ARMOR_DESERT.PCK
     width: 256
-    height: 1400
+    height: 1440
     subX: 32
     subY: 40
     files:
       0: Resources/Units/COMBAT_ARMOR_DESERT.png
   - type: COMBAT_ARMOR_FOREST.PCK
     width: 256
-    height: 1400
+    height: 1440
     subX: 32
     subY: 40
     files:
       0: Resources/Units/COMBAT_ARMOR_FOREST.png
   - type: COMBAT_ARMOR_RED.PCK
     width: 256
-    height: 1400
+    height: 1440
     subX: 32
     subY: 40
     files:
       0: Resources/Units/COMBAT_SUIT_RED.png
   - type: COMBAT_ARMOR_SNOW.PCK
     width: 256
-    height: 1400
+    height: 1440
     subX: 32
     subY: 40
     files:

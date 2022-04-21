@@ -120,6 +120,7 @@ armors: #DONE
     sideArmor: 15
     rearArmor: 10
     underArmor: 10
+    forcedTorso: 1
     damageModifier:
       - 1.0
       - 1.0
@@ -172,6 +173,7 @@ armors: #DONE
     sideArmor: 30
     rearArmor: 25
     underArmor: 20
+    forcedTorso: 1
     damageModifier:
       - 1.0
       - 1.0
@@ -345,6 +347,7 @@ armors: #DONE
     sideArmor: 30
     rearArmor: 25
     underArmor: 20
+    forcedTorso: 1
     damageModifier:
       - 1.0
       - 1.0
@@ -370,6 +373,7 @@ armors: #DONE
     sideArmor: 30
     rearArmor: 25
     underArmor: 20
+    forcedTorso: 1
     damageModifier:
       - 1.0
       - 1.0
@@ -395,6 +399,7 @@ armors: #DONE
     sideArmor: 30
     rearArmor: 25
     underArmor: 20
+    forcedTorso: 1
     damageModifier:
       - 1.0
       - 1.0
@@ -420,6 +425,7 @@ armors: #DONE
     sideArmor: 30
     rearArmor: 25
     underArmor: 20
+    forcedTorso: 1
     damageModifier:
       - 1.0
       - 1.0
@@ -445,6 +451,7 @@ armors: #DONE
     sideArmor: 8
     rearArmor: 5
     underArmor: 2
+    forcedTorso: 1
     damageModifier:
       - 1.0
       - 1.0
@@ -470,6 +477,7 @@ armors: #DONE
     sideArmor: 8
     rearArmor: 5
     underArmor: 2
+    forcedTorso: 1
     damageModifier:
       - 1.0
       - 1.0
@@ -495,6 +503,7 @@ armors: #DONE
     sideArmor: 8
     rearArmor: 5
     underArmor: 2
+    forcedTorso: 1
     damageModifier:
       - 1.0
       - 1.0
@@ -520,6 +529,7 @@ armors: #DONE
     sideArmor: 8
     rearArmor: 5
     underArmor: 2
+    forcedTorso: 1
     damageModifier:
       - 1.0
       - 1.0
@@ -545,6 +555,7 @@ armors: #DONE
     sideArmor: 8
     rearArmor: 5
     underArmor: 2
+    forcedTorso: 1
     damageModifier:
       - 1.0
       - 1.0
