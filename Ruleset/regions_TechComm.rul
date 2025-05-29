@@ -29,7 +29,7 @@ regions:
 ##MissionZone  - Resistance Support/Interdiction locations (within missionZone 4 areas) (red)
 ##MissionZone  - Skynet Eradication locations?
 ##MissionZone  - Refugee Camp locations?
-#TO DO - Finish missionZones 
+#TO DO - Finish missionZones
 #TO DO - Cost, regionWeight and missionWeights
   - type: STR_ASIA
     cost: 700000
@@ -465,7 +465,7 @@ regions:
         - [36, 42, -10, -7]
         - [37, 39, 3, 6]
       -
-        - [350, 357, 0, 7] 
+        - [350, 357, 0, 7]
       -
         - [6, 6, -6, -6, -5]
       -
@@ -1142,7 +1142,7 @@ regions:
         - [178.5, 178.5, 18.13, 18.13, -1, STR_FIJI]
       -
         - [117, 122, 21, 24]
-        - [120, 125, 28, 31] 
+        - [120, 125, 28, 31]
         - [127, 132, 16, 19]
         - [134, 137, 28, 32]
         - [140, 145, 18, 22]
@@ -1428,7 +1428,7 @@ regions:
         - [310.8, 310.8, -62.27, -62.27, -2, STR_CITY_RUINS]
         - [17.17, 17.17, -62.69, -62.69, -2, STR_CITY_RUINS]
         - [125.5, 125.5, -9.41, -9.41, -2, STR_CITY_RUINS]
-        - [350.43, 350.43, -52.42, -52.42, -2, STR_CITY_RUINS]      
+        - [350.43, 350.43, -52.42, -52.42, -2, STR_CITY_RUINS]
   - type: CHEYENNE_MOUNTAIN
     missionZones:
       -

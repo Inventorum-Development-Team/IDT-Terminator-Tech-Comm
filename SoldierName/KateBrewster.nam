@@ -3,6 +3,10 @@ lookWeights:
   - 100
   - 0
   - 0
+maleFirst:
+  - Kate
+maleLast:
+  - Brewster
 femaleFirst:
   - Kate
 femaleLast:
